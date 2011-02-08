@@ -1,0 +1,8 @@
+Graph [id=g1, strict=False, type=graph]
+`-- stmts
+    |-- Node [id=n1]
+    |   `-- attrs
+    |-- Node [id=n2]
+    |   `-- attrs
+    `-- Node [id=n3]
+        `-- attrs
