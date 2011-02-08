@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: funcparserlib
+Version: 0.3.4
+Summary: Recursive descent parser library based on functional combinators
+Home-page: http://code.google.com/p/funcparserlib/
+Author: Andrey Vlasovskikh
+Author-email: andrey.vlasovskikh@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
