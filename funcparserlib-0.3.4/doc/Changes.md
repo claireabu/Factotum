@@ -1,0 +1,81 @@
+The Changelog
+=============
+
+This is a changelog of [funcparserlib][1].
+
+0.3.4, 2009-10-06
+-----------------
+
+A maintenance release.
+
+* Switched from `setuptools` to `distutils`
+* Fixed importing all symbols from `funcparserlib.lexer`
+* Improved `run-tests` utility
+
+
+0.3.3, 2009-08-03
+-----------------
+
+A bugfix release, added more docs.
+
+* Fixed bug in results of skip + skip parsers
+* Added FAQ question about infinite loops in parsers
+* Debug rule tracing can be enabled again
+
+
+0.3.2, 2009-07-26
+-----------------
+
+A bugfix release, added more docs.
+
+* Fixed some string and number encoding issuses in examples
+* Added the Parsing Stages Illustrated page
+
+
+0.3.1, 2009-07-26
+-----------------
+
+Major optimizations (10x faster than the version 0.3), added `forward_decl`,
+`pretty_tree`, more docs.
+
+* Added the Nested Brackets Mini-HOWTO
+* Added the `pretty_tree` function for creating pseudographic trees
+* Added the `forward_decl` function, that performs better than
+  `with_forward_decls`
+* Wrapped parser is called directly without `__call__`, using `run`
+* A single immutable input sequence is used in parsers
+* The slow `logging` is enabled only when the `debug` flag is set
+* Added the project Makefile and this file
+
+
+0.3, 2009-07-23
+---------------
+
+Translated docs into English, added more docs and examples, internal
+improvements.
+
+* Added The `funcparserlib` Tutorial
+* Translated docs from Russian into English
+* Added `pure` and `bind` functions on `Parser`s making them monads
+* Added a JSON parser as an example
+
+
+0.2, 2009-07-07
+---------------
+
+Added `with_forward_decls`, internal improvements.
+
+* Added the `with_forward_decls` combinator for dealing with forward
+  declarations
+* Switched to iterative implementation of `many`
+* Uncurried parser function type in order to simplify things
+* Improvements of the DOT parser
+
+
+0.1, 2009-06-26
+---------------
+
+Initial release.
+
+  [1]: http://code.google.com/p/funcparserlib/
+
