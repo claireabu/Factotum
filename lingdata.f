@@ -957,52 +957,6 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " IPA vowels:  a i u aː iː uː .
 " IPA consonants: m n t tˤ k q ʔ b d dˤ ʒ~ʤ~ɡ f θ s sˤ ʃ x~χ ħ h ð ðˤ~zˤ ɣ~ʁ ʕ l r j w .
 " IPA diphthongs:  /aj/ /aw/ .
-   
 
-
-:Serbian -> Srpski. 
-:" -> српски. 
-:" <Indo-European>. 
-:" <Balto-Slavic>. 
-" is written using the Latin alphabet -ser. 
-" is written using the Cyrillic alphabet.
-" <SVO> word order.   
-
-
-:Latin-> latīna. 
-:" <Indo-European>. 
-:" <Italic>. 
-" no strict word order
-- sentence structure highly flexible
-:English-> English. 
-:" <Indo-European>.
-:" <Germanic>.
-" is written using the Latin alphabet.  
-" <SVO> word order. 
-
-
-
-
-
-:Mandarin-> Mandarin Chinese. 
-:" ->  官話.
-:" <Sino-Tibetan>.
-:" <Sinitic>. 
-" <SVO> word order
-- but word order flexible.  
-
-
-:Cantonese-> Cantonese Chinese. 
-:" -> Yue. 
-:" <Sino-Tibetan>. 
-:" <Sinitic>. 
-
-
-:Taa -> ǃXóõ.
-:" -> !Xoon
-:" <Tuu>.
-:" <Taa-Lower Nossop>.  
-" <SVO> word order. 
-" is famous for its abundance of click sounds and clusters. 
 
 
