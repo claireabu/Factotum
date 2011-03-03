@@ -280,19 +280,20 @@ def check_rule(rule, success, problems):
 #############################################################
 
 
-def parse_vocab():
+def parse_vocab(vfile):
     
     '''#take in vocab file
        #read line by line (one rule per line)
        
     '''
-    if len(sys.argv) < 2:
+ '''   if len(sys.argv) < 2:
         sys.stderr.write("must include vocabulary (.v) file")
         raise SystemExit(1)
 
     
     vocabfile = open(sys.argv[1], 'r')
-
+'''
+    vocabfile = vfile
     facts = []
     line = ''
     line = vocabfile.readline()
@@ -329,10 +330,10 @@ def parse_vocab():
 
     #return correct rules and problematic rules
 
-    print ("Correct Rules")
-    print (correct_rules)
-    print ("Problematic Rules")
-    print (problmatic_rules)
+  #  print ("Correct Rules")
+   # print (correct_rules)
+   # print ("Problematic Rules")
+   # print (problmatic_rules)
 
     return {'Correct': correct_rules,
             'Problematic': problematic_rules
