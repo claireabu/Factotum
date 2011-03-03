@@ -33,13 +33,11 @@ python tool, "checking facts for vocabulary consistency"
 '''
 import factotum_entities
 import factotum_lex
+import vocab_predicate_string_parser 
 import sys 
 from string import *
 
 full_ent = factotum_entities.EntityClass()
-
-# take in vocab file
-# take in fact file
 
 
     
@@ -85,98 +83,88 @@ full_ent = factotum_entities.EntityClass()
     def prelim_check_vocab(vocab_file):
         ''' run parser over vocab file.
             make sure vocab rules all follow factotum format,
-                 if fine: put into rule data struct, organized by subjecs
+                 if fine: put into rule data struct, [organized by subjects/?? is that
+                 even possible??] 
                  else if problem: don't include rule, warning message and put in sep list
         '''
+        rules = {} 
+        rules = parse_vocab(vocab_file)
 
-        
-        pass
+        print ("Problematic Rules") 
+        print (rules['Problematic']) #make prettier 
 
-####################################################
-
-
-    def tokenize_predicate (entity_pred):
-        
-        ''' go through predicate.
-            sort out token by token --> put in list?.
-        '''
-        
-        pass
+        print ("Correct Rules")
+        print (rules ['Correct']) #make prettier 
+                        
+        return rules['Correct']
+    
 
 ####################################################
 
+    def get_entity_vocab_rules(ent, rules):
 
-    def get_entity_vocab_rules (ent, rules):
-        ''' go through vocab rules, and get rules
-            that pertain only to requested entity
-        '''
+        ent_rules = []
+        
+        for n in range(len(rules)):
+            if rules[n][0] == '*':                  #if subject is unique name or matches
+                ent_rules.append(rules[n][1])          #entity, then use rule
+            elif rules[n][0] == ent:
+                ent_rules.append(rules[n][1])
+            #else, continue
 
-        pass  
+        return ent_rules
+            
+
 
 ####################################################
 
     
-    def check_imply_rule (rule_pred):
-        '''take in rule prediate for the entity in question,
-           check if contains ~> 
+
+    def tokenize (desired_string ):
+        
+        ''' go through predicate.
+            sort out token by token --> put in list?.
         '''
-        for x in range(len(rule_pred)):
-            if rule_pred[x] == '~':
-                if rule_pred[x+1] == '>':
-                    return True
-        return False
+        return desired_string.split()
+        
+        
+
 
 ####################################################
 
-    def deal_imply_rule (imply_rule, fact, fact_db):
+    def deal_imply_rule (imply_rule, fact):
+
+        #add to internal structure somehow
         
         pass
 
-####################################################
-
-    def check_generate_rule (rule_pred):
-        '''take in rule predicate for the entity in question,
-           check if it begins with =>>
-        '''
-        for x in range(len(rule_pred)):
-            if rule_pred[x] == '=':
-                if rule_pred[x+1] == '>' and rule_pred[x+2] == '>':
-                    return True
-
-        return False
-                    
             
     
 ####################################################
 
     def deal_gen_rule (gen_rule, fact):
+
+        # add new rule to internal strucutre
         pass
 
-####################################################
-
-    def check_rule_restr (rule_pred):
-        ''' take in rule predicate for entity in question,
-            check if it begins with ?<
-        '''
-        for x in range(len(rule_pred)):
-            if rule_pred[x] == '?':
-                if rule_pred[x+1] == '<':
-                    return True
-        return False    
 
 
 ####################################################
 
     def deal_rule_restr (rule):
+        #deal with conditionals and expressions
         pass
 
 ####################################################
 
 
-    def token_is_type (rule_token):
-        '''check if rule token is <type> or if just normal
+    def token_is_objtype (rule_token):
+        '''check if rule token is <type>/object or if just normal
         '''
-        pass
+        if rule_token.find('<') and rule_token.find('>'):
+            return True
+        else:
+            return False
 
 ####################################################
 
@@ -192,45 +180,66 @@ full_ent = factotum_entities.EntityClass()
     
     def check_entity (ent, ent_preds, ent_rules):
 
-        
-        ''' go through facts in entity (loop)
-                (break fact pred into tokens--> tokenize_predicate) 
+        problematic_facts=[]
+        fine_facts = []
+        current_fact = []
+        current_rule = []
 
-                go through vocab rules (loop)       
-                    
-                    match rule
+        # go through facts in entity (loop)
+        for n in range(len(ent_preds)):    
+
+            # (break fact pred into tokens--> tokenize_predicate)
+            current_fact = tokenize(ent_preds[n]) 
             
-                        if check_imply_rule: deal_imply_rule
-                
-                        elif check_gen_rule: deal_generate_rule
-                
-                        elif check_rule_restr: deal_rule_restr
-                
-                        else: loop through tokens of rule (rules starting with nothing, :=, -=):
+               # go through vocab rules (loop)
+               for k in range(len(ent_rules))
+               
+                   #break up rule into tokens
+                   current_rule = tokenize(ent_rules[k])
+                   
+                   for j in range(len(current_fact)): 
 
-                                -->#make sure num of tokens in rule & fact match, and if
-                                don't then problem
+                       for i in range(len(current_rule)):
 
-                                
-                                loop through tokens of fact: 
-                                                                
-                                if rule token_is_type: assignObjType, goto next token (both)
-                                
-                                elif rule_token matches fact_token: good!, add to internal struct
+                           if current_rule[i] == '~>':
+                               deal_imply_rule(current_rule, current_fact)
+                            elif current_rule[i] == '=>>':
+                                deal_gen_rule(current_rule, current_fact)
+                            elif current_rule[i] == '?<':
+                                deal_rule_restr(current_rule, current_fact)
+                            else: #   else: go through tokens of rule (rules starting with nothing,
 
-                                else: goto next rule 
+                                if current_rule[i] == ':=' or '-=':
+                                    current_rule[i+1]
+                                    i =  i+1
 
-                                #if run out of rules before fact is added to internals struct,
-                                # (e.g. no match), then put fact in "bad facts" category 
-                                 
+                                if token_is_objtype(current_rule[i]):
+                                    assign_Objtype(current_rule[i], current_fact[j])
 
+                                #tokens all match, and at end of fact and rule
+                                elif current_fact[j] == current_rule[i] and
+                                        j + 1 == len(current_fact) and
+                                        i + 1 == len(current_rule):
+                                            fine_facts.append(current_Fact)
+                                            k  = len(ent_rules) + 2     # get out of k for loop,
+                                                                        # can move onto next fact
+                                                 
+                                                 
+                                elif len(current_fact) != len(current_rule): #don't match on length
+                                    i = len(current_rule) + 2 # get out of i for loop
+                                                                #so can move onto next rule
 
-        '''
+                                elif current_fact[j] == current_rule[i]:
+                                    #good
+                                    continue #???
 
+                                elif k+1 == len(ent_rules): # dont have match yet & at end of rules
+                                        print("error with fact:" + current fact)
+                                        problematic_facts.append(current_fact)
 
-       
-        
-        pass
+                                                                        
+                                        
+    return (fine_facts, problematic_facts) 
 
 ####################################################
 
@@ -245,7 +254,7 @@ loop though enities
     
     
 '''
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 3:
         sys.stderr.write("Both Fact file (.f) and Vocabulary file (.v) must be entered")
         raise SystemExit(1)
     
