@@ -326,7 +326,18 @@ def parse_vocab():
     for n in range(len(facts)):
         check_rule(facts[n], correct_rules, problematic_rules)
 
-        
+
+    #return correct rules and problematic rules
+
+    print ("Correct Rules")
+    print (correct_rules)
+    print ("Problematic Rules")
+    print (problmatic_rules)
+
+    return {'Correct': correct_rules,
+            'Problematic': problematic_rules
+            }
+
 
      
 
