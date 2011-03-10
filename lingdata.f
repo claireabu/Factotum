@@ -1,4 +1,4 @@
-:French-> Français.
+:French -> Français.
 :" <Indo-European>.
 :" <Italic>. 
 " is written using the Latin alphabet -f. #-f: 4 diacritics, a cedilla, and two ligatures
@@ -77,7 +77,7 @@
 " IPA vowels:  i y e ø ə u o ɔ ɛ̃ (œ̃) ɔ̃ ɑ̃ a (ɑ)
 
      
-:Italian-> Italiano.
+:Italian -> Italiano.
 :" <Indo-European>.
 :" <Italic>.
 " is an official language of Italy. 
@@ -118,7 +118,7 @@
 " IPA vowels: i u e o ɛ ɔ a. 
 " IPA consonants: m n ɲ p b t d k ɡ ʦ ʣ ʧ ʤ f v s z ʃ r l ʎ j w. 
 
-:German-> Deutsch. 
+:German -> Deutsch. 
 :" <Indo-European>.
 :" <Germanic>.
 " is an official language of Austria. 
@@ -164,7 +164,7 @@
 " IPA consonants: p b t d k ɡ ʔ  p͡f  ʦ ʧ ʤ f v s z ʃ ʒ ç x ʁ h m n ŋ l j r ʀ. 
 " <SVO> word order -g. 
 
-:Spanish-> Español.
+:Spanish -> Español.
 :" -> Castellano. 
 :" <Indo-European>.
 :" <Italic>.
@@ -227,7 +227,7 @@
 " IPA consonants: m n ɲ p b t (θ) d s ʧ ʝ k x ɡ r ɾ l (ʎ) .
 " IPA diphthongs: /ei/ /ai/ /oi/ /eu/ /au/ /ou/ /je/ /ja/ /jo/ /ju/  /wi/ /we/ /wa/ /wo/ . 
 
-:Farsi-> Persian. 
+:Farsi -> Persian. 
 :" < Indo-European>. 
 :" <Indo-Iranian>.
 " is written using Perso-Arabic script. 
@@ -273,7 +273,7 @@
 " IPA consonants: m n ŋ p b t d k ɡ ɢ ʧ ʤ  f v s z ʃ ʒ x ɣ h ɾ r l j . 
 
 
-:Greek-> ελληνικά.i #note, we are interested here in Modern Greek.
+:Greek -> ελληνικά.i #note, we are interested here in Modern Greek.
 :" <Indo-European>.
 :" <Hellenic>. 
 # note: independent branch of Indo-European
@@ -334,7 +334,7 @@
 " IPA vowels:  i a  e o u . 
 
 
-:Finnish-> Suomi. 
+:Finnish -> Suomi. 
 :" -> Suomen kieli. 
 :" <Uralic>.
 :" <Finno-Ugric>. 
@@ -407,7 +407,7 @@
 " IPA diphthongs: /ɑi̯/  /ɑu̯/  /æi̯/  /æy̯/  /oi̯/  /ou̯/  /ei̯/  /øi̯/  /ui̯/  /yi̯/  /eu̯/  /iu̯/  /ey̯/  /øy̯/  /iy̯/  /uo̯/ /ie̯/ /yø̯/.
 
 
-:Hindi-> Hindi-Urdu. #note, highly politicized language. #linguistically similar enough in grammar to be under one heading.    
+:Hindi -> Hindi-Urdu. #note, highly politicized language. #linguistically similar enough in grammar to be under one heading.    
 :" -> Urdu.
 :" -> Hindustani. # term used for Hindi dialects outside the subcontinent
 :" -> Hindavi. 
@@ -493,7 +493,7 @@
 Urdu is written using Perso-Arabic script, Nasta'liq being preferred. 
       
 
-:Russian->  русский язык.
+:Russian ->  русский язык.
 :" -> Russkiy yazyk. 
 :" <Indo-European>. 
 :" <Balto-Slavic>. 
@@ -566,7 +566,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " IPA consonants: m mʲ n nʲ p b pʲ bʲ t d tʲ dʲ k ɡ kʲ ɡʲ  ʦ ʨ f v fʲ vʲ s z sʲ zʲ ʂ ʑʑ ɕɕ x xʲ r rʲ l lʲ j .
 
 
-:Swedish-> Svenska. 
+:Swedish -> Svenska. 
 :" <Indo-European>.
 :" <Germanic>.
 " is written using the Latin alphabet -sw 28 letters. #Latin alphabet, minus w, plus 3 diacritics: å, ä, ö.  
@@ -632,7 +632,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " tonal: double tone. 
 
 
-:Japanese-> Nihongo. 
+:Japanese -> Nihongo. 
 :" -> 日本語.
 :" <Japonic>. 
 " is writen in a combination of 3 scripts: kanji, hiragana, katagana. 
@@ -752,7 +752,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " IPA consonants:  m n ɴ p b t d k ɡ s z h ɽ j  w͍ . 
 " IPA vowels: a i ɯ e̞ o̞ .
 
-:Pashto-> Pakhto. 
+:Pashto -> Pakhto. 
 :" -> Pushto. 
 :" -> Pukhto.
 :" -> Pashtu.
@@ -818,7 +818,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " IPA consonants: m n ɳ p b t̪ d̪ ʈ ɖ k ɡ q ʔ ʦ ʣ ʧ ʤ f s z (ʂ ʐ) ʃ ʒ (ç ʝ) x ɣ h l r ɾ j w. 
 
 
-:Arabic-> al-ʿarabiyyah.
+:Arabic -> al-ʿarabiyyah.
 :" -> العربية.
 :" <Afro-Asiatic>.
 :" <Semitic>. 
