@@ -103,7 +103,7 @@ class LexFacts:
         if s != '':
             g.current_subject = s
         else:
-       s     s = g.current_subject = g.unique_name()
+            s = g.current_subject = g.unique_name()
 
         # print 'subject is', s
         # print 'predicate is', lex.unlex(px)
