@@ -31,56 +31,47 @@ regex_wrds = re.compile('(([:-_\'\";,a-zA-Z]+\s)+[:-_\'\";,a-zA-Z]+.$)')
                          #(phrase-name),
                          #(label, '=', phrase-name)],
 
-
-###spacing between
-regex_obj = re.compile('( \"\s?<\s?>.?|\"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?>.?|\"\s?<\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?>.?|\"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?>|\"\s?<\s?[-a-zA-Z0-9_]+\s?=\s?[-a-zA-Z0-9_]+\s?>)')
-
+regex_obj = re.compile()
 
 #msg
-regex_msg = re.compile('(([:-_\'\";,a-zA-Z0-9]+\s)+[:-_\'\";,a-zA-Z]+[.?]$)' )
+regex_msg = re.compile('(([:-_\';,a-zA-Z0-9]+\s)+[:-_\'\";,a-zA-Z]+[.?]$)' )
 
 #N
-regex_n = re.compile('[0-9]+')
+regex_n = re.compile('^[0-9]+$')
 
 #exp
-regex_exp = re.compile('[a-zA-Z0-9]+')
+regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
 
 #entity restriction
-regex_ent = re.compile('(\\[$]\s?[-_a-zA-Z0-9]+ | \\&\s?[-_a-zA-Z0-9]+ | \\@\s?[-_a-zA-Z0-9]+ | \\*s?[-_a-zA-Z0-9]+ | \\s?[-_a-zA-Z0-9]+)')  
-
-
-                               # ('\\$', ),
-                               #('\\&', ),
-                               #('\\@', ),
-                               #('\*', 'Tag'),
-                               #('\$', 'Tag', ':', 'Label'), ###
-                               #('\', 'Tag'), 
-                               #('\*', '<>', 'Tag', ':' 'Label'), ###
-                               #('\\', '<>', 'Tag', ':', 'Label') ####
                                
 
 
     
 vocab_grammar = { #'Start': ['Pred'],
                   
-                  'Pred': [(':=',  'Phrase' ),
-                           ('-=',  'Phrase' ),
-                           ('~>', 'Phrase' ),
-                           ('=>>', 'Phrase' ),
-                           ('?<', '(', 'Exp', ')', 'Then'), #force whitespace between expression and ()
-                           ('Phrase')],
+                  'Pred': [(':=', '\"', 'Phrase', '\"', '.' ),
+                           ('-=', '\"', 'Phrase', '\"', '.' ),
+                           ('~>', '\"', 'Phrase', '\"', '.'),
+                           ('=>>', '\"', 'Phrase', '\"', '.' ),
+                           ('?<', '(', 'Exp', ')', 'Then'), 
+                           ('\"', 'Phrase', '\"', '.')],
                     
-                  'Phrase': [('Obj','Words'),
-                             ('Obj'),
-                             ('Obj', 'Phrase'),
-                             ('\"', 'Obj','Words'),         #incase there is whitespace between obj and starting quote
-                             ('\"','Obj'),
-                             ('\"','Obj', 'Phrase')],
+                  'Phrase': [('Obj','Words', '.'),
+                             ('Obj', '.')
+                             ('Obj', 'Words', 'Phrase'),
+                             ],
 
-                  'Obj':[regex_obj],
+                  'Obj':[('<' , '>'),
+                         ('<' , label, ':',  '>'),
+                         ('<' , ':', tokentypespec, '>'),
+                         ('<' , label, ':', tokentypespec, '>'),
+                         ('<' , type-name, '>'),
+                         ('<' , label, '=', typename, '>'),
+                         ('<' , phrase-name, '>'),
+                         ('<' , label, '=', phrase-name, '>')],
                    
                 
-                  'Words': [regex_wrds],
+                  'Words': [regex_wrds],    #should have option to be empty 
                   
                   'Then': [':', 'Command', 'Opt'],
                   
@@ -92,25 +83,14 @@ vocab_grammar = { #'Start': ['Pred'],
                   
                   'Elif': ['?:', '(', 'Exp', ')', 'Then'], #force whitespace between expression and ()
                   
-                  'Command': [('satisfied'),
-                              ('comment', 'Msg'),
-                              ('warn', 'Msg'),
-                              ('error', 'Msg'),
-                              ('abort', 'Msg'),
-                              ('skip', 'N')],
-
-                  'Msg': [regex_msg],
-
-                  'N': [regex_n],
-
-                
-##FIX EXP                 
-                 
+                  
                   'Exp':[( regex_exp, 'Op', regex_exp ),
 
                          ('Ent_rstr', 'Op', regex_exp ),
 
                          (regex_exp, 'Op', 'Ent_rstr'),
+                         
+                         ('Ent_rstr', 'Op', 'Ent_rstr'),
                          
                          (regex_exp, 'BinOp'), #binary op
 
@@ -120,8 +100,8 @@ vocab_grammar = { #'Start': ['Pred'],
                          #note: not allowing more than one operation per condition 
 
                          ],
-
-                  'BinOp': [('=[', 'N', ']'),       #minamx (binary op)
+                
+                 'BinOp': [('=[', 'N', ']'),       #minamx (binary op)
                             ('[', 'N', ':', 'N', ']')],   #substring (binary op)
                   
                   'Op':[('+'),
@@ -143,8 +123,23 @@ vocab_grammar = { #'Start': ['Pred'],
                         # <label>
                         #{label} 
                         ],
-                 
-                  'Ent_rstr': [regex_ent]
+                         
+                  'Command': [('satisfied'),
+                              ('comment', '\"', 'Msg','\"'),
+                              ('warn', '\"', 'Msg', '\"'),
+                              ('error','\"', 'Msg', '\"'),
+                              ('abort', '\"', 'Msg', '\"'),
+                              ('skip', 'N')],
+
+                  'Msg': [regex_msg],   #words, optional punctuation at the end 
+
+                  'N': [regex_n],
+
+                  'Ent_rstr': [('\\', ),
+                               ('\\$', ),
+                               ('\\@', ), 
+                               ('\\*', ),
+                               ('\\&', )]
                   }          
             
                         
@@ -404,7 +399,6 @@ def parse_vocab():
 
 
 if __name__ == "__main__":
-    #parse_vocab()
-    tokenize_pred_string('?< ( \\no-of-edge < 0 ): warn \"Number of edges cannot be negative\"?: ( \\no-of-edge > 10 ): warn \"More than 10 edges are not considered\"?: ( \\no-of-edge = 1 ): warn \"Circle or straight line ?\";: satisfied >?.')
+    parse_vocab()
     
                       
