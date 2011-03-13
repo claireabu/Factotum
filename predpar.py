@@ -31,7 +31,9 @@ regex_wrds = re.compile('(([:-_\'\";,a-zA-Z]+\s)+[:-_\'\";,a-zA-Z]+.$)')
                          #(phrase-name),
                          #(label, '=', phrase-name)],
 
-regex_obj = re.compile('( \"\s?<\s?>.? | \"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?>.? | \"\s?<\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?>.? | \"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?> | \"\s?<\s?[-a-zA-Z0-9_]+\s?=\s?[-a-zA-Z0-9_]+\s?>)')
+
+###spacing between
+regex_obj = re.compile('( \"\s?<\s?>.?|\"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?>.?|\"\s?<\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?>.?|\"\s?<\s?[-a-zA-Z0-9_]+\s?:\s?[-a-zA-Z0-9_\.?,;\'\"]\s?>|\"\s?<\s?[-a-zA-Z0-9_]+\s?=\s?[-a-zA-Z0-9_]+\s?>)')
 
 
 #msg
@@ -154,7 +156,53 @@ def match_regex (regex, i):
         return True
     else:
         return False
-                                                      
+                                          
+##########################################
+def tokenize_pred_string(pstring):
+    
+    testStr = ''
+    longestStr = ''
+    tokenList = []
+    count = 0
+    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z]+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*][\\\\])$')
+    
+    for n in pstring:
+        count += 1
+        if n == " ":                        #throwout whitespace -- but probs mean new token 
+            tokenList.append(longestStr)
+            longestStr = ''                 #clear longest string
+            testStr = ''                    #clear test string 
+        else: 
+            testStr += n
+        
+            if re.match(tokens, testStr):           #if match regex
+                longestStr = testStr                #try to get longest match,
+            else:                                   #if no match with addt'l char
+                if longestStr != '':                #means have gone too far 
+                    tokenList.append(longestStr)
+                    if re.match(tokens, n):
+                        longestStr = n                    #reset longest 
+                    else: 
+                        longestStr = ''
+                        
+                    testStr = n                         #rest test to curr val
+                    
+                    if count == len(pstring):  #have reached last element in string
+                        if re.match(tokens, testStr):
+                            tokenList.append(testStr)
+                        else:                           #couldn't tokenize 
+                            print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                            return []
+                            
+                            
+                        
+                else:                               #couldn't tokenize 
+                    print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                    return []
+    
+    #print tokenList
+    return tokenList
+                                                    
 ##########################################
 '''return (parse tree so far, count update)
 '''
@@ -277,8 +325,7 @@ def parse_grammar (rule, start_sym, cnt):
                           
                           return parse_vocab(rule, sym_rules[start_sym], count)
         else:                               #fail means that regex failed -- failed tuple!
-            tree.remove(tree[-1])
-             
+            tree.remove(tree[-1])  
                                                   
     except KeyError:                                #start sym is not in dict for some reason
 
@@ -303,14 +350,14 @@ def parse_vocab():
        #read line by line (one rule per line)
     '''
 
-  #  if len(sys.argv) < 2: 
-  #      sys.stderr.write("must include vocabulary (.v) file \n")
- #       raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
- #   vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('test.v', 'r')
+    #vocabfile = open('test.v', 'r')
     facts = []
     line = ''
     line = vocabfile.readline()
@@ -334,19 +381,30 @@ def parse_vocab():
         
         p = p.strip() # get rid of whitespace
         facts.append([s,p])
-
-    for n in range(len(facts)):
-        facts[n][1] = facts[n][1].rstrip('.')
-        facts[n][1] = facts[n][1].strip('\"')           #get rid of endquote and period afterwards
-        parse_grammar(facts[n], 'Pred', 0)
-
-    print (facts) 
-    return facts
+    
+    rule_pred = ''
+    parseTrees = []
+    failed_rules = []
+    
+    for rule in facts:
+        rule_pred = tokenize_pred_string(rule[1])
+        rule_parse =  parse_grammar(rule_pred, 'Pred', 0)
+        if rule_parse != []:                        #if parse didn't fail, add to list of accepted parse trees
+            parseTrees.append(rule, rule_parse)
+        else: 
+            failed_rules.append(rule)
+            
+        
+    
+    print parseTrees 
+    print failed_rules
+    return parseTrees 
 
 #########################################################
 
 
 if __name__ == "__main__":
-    parse_vocab()
+    #parse_vocab()
+    tokenize_pred_string('?< ( \\no-of-edge < 0 ): warn \"Number of edges cannot be negative\"?: ( \\no-of-edge > 10 ): warn \"More than 10 edges are not considered\"?: ( \\no-of-edge = 1 ): warn \"Circle or straight line ?\";: satisfied >?.')
     
                       
