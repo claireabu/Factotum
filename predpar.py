@@ -1,6 +1,8 @@
 ''' Pred Parser
 
-note left out tag, only allowing one operation per rule restriction condition (if block) 
+note:
+-left out items that use tag, 
+-only allowing one operation per rule restriction condition (if block) 
 
 '''
 
@@ -18,23 +20,10 @@ global_item = ''
 
 
 
-#word
-regex_wrds = re.compile('(([:-_\'\";,a-zA-Z]+\s)+[:-_\'\";,a-zA-Z]+.$)')
 
-
-#obj
-                        #[(label, ':'),
-                         #(':', token_type_specification),
-                         #(label, ':', token_type_specification),
-                         #(typ_name),
-                         #(label, '=', typ_name),
-                         #(phrase-name),
-                         #(label, '=', phrase-name)],
-
-regex_obj = re.compile()
 
 #msg
-regex_msg = re.compile('(([:-_\';,a-zA-Z0-9]+\s)+[:-_\'\";,a-zA-Z]+[.?]$)' )
+regex_msg = re.compile('([:-_\';,.\?a-zA-Z0-9]+)' )
 
 #N
 regex_n = re.compile('^[0-9]+$')
@@ -42,19 +31,51 @@ regex_n = re.compile('^[0-9]+$')
 #exp
 regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
 
+#word
+regex_wrds = re.compile('^[:.-_\';,0-9a-zA-Z]+$')
+
+#objs
+regex_label = re.compile('^[-_0-9a-zA-Z\']+$')
+regex_ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infinity 
+regex_typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
+regex_phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label 
+
 #entity restriction
                                
+Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
+            ('-=', '\"', 'Phrase', '\"', '.' ),
+            ('~>', '\"', 'Phrase', '\"', '.'),
+            ('=>>', '\"', 'Phrase', '\"', '.' )#,
+ #           ('?<', '(', 'Exp', ')', 'Then', '.'), 
+ #           ('Phrase',  '.')
+        ]
 
-
+  
+Phrase = [  ( 'Obj', 'Words'),
+            ( 'Obj', 'Words', 'Phrase' )           
+        ]
     
+Obj =  [('<' , '>'),
+        ('<' , 'label', ':',  '>'),
+        ('<' , ':', 'tokentypespec', '>'),
+        ('<' , 'label', ':', 'tokentypespec', '>'),
+        ('<' , 'type-name', '>'),
+        ('<' , 'label', '=', 'typename', '>'),
+        ('<' , 'phrase-name', '>'),
+        ('<' , 'label', '=', 'phrase-name', '>')
+        ]
+
+
+
+'''
 vocab_grammar = { #'Start': ['Pred'],
                   
-                  'Pred': [(':=', '\"', 'Phrase', '\"', '.' ),
-                           ('-=', '\"', 'Phrase', '\"', '.' ),
-                           ('~>', '\"', 'Phrase', '\"', '.'),
-                           ('=>>', '\"', 'Phrase', '\"', '.' ),
+                  'Pred': [(':=',  'Phrase',  '.' ),
+                           ('-=', 'Phrase',  '.' ),
+                           ('~>',  'Phrase',  '.'),
+                           ('=>>',  'Phrase',  '.' ),
                            ('?<', '(', 'Exp', ')', 'Then'), 
-                           ('\"', 'Phrase', '\"', '.')],
+                           ( 'Phrase', '.')],
                     
                   'Phrase': [('Obj','Words', '.'),
                              ('Obj', '.')
@@ -71,7 +92,8 @@ vocab_grammar = { #'Start': ['Pred'],
                          ('<' , label, '=', phrase-name, '>')],
                    
                 
-                  'Words': [regex_wrds],    #should have option to be empty 
+                  'Words': [(regex_wrd),
+                            (regex_wrd, 'Words')],    #should have option to be empty 
                   
                   'Then': [':', 'Command', 'Opt'],
                   
@@ -131,7 +153,8 @@ vocab_grammar = { #'Start': ['Pred'],
                               ('abort', '\"', 'Msg', '\"'),
                               ('skip', 'N')],
 
-                  'Msg': [regex_msg],   #words, optional punctuation at the end 
+                  'Msg': [(regex_msg),
+                          (regex_msg, 'Msg')],   #words, optional punctuation at the end 
 
                   'N': [regex_n],
 
@@ -141,7 +164,7 @@ vocab_grammar = { #'Start': ['Pred'],
                                ('\\*', ),
                                ('\\&', )]
                   }          
-            
+ '''           
                         
 #############################################
                  
@@ -159,7 +182,7 @@ def tokenize_pred_string(pstring):
     longestStr = ''
     tokenList = []
     count = 0
-    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z]+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*][\\\\])$')
+    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*][\\\\])$')
     
     for n in pstring:
         count += 1
@@ -199,8 +222,288 @@ def tokenize_pred_string(pstring):
     return tokenList
                                                     
 ##########################################
-'''return (parse tree so far, count update)
-'''
+###########################################
+
+
+
+def parse_pred(vrule):  
+    
+    l_rule = [] 
+    tree = []
+    
+    for tuple in Pred:
+        tree = []
+        tree.append(['Pred', tuple])
+        l_rule = vrule 
+                
+        for token in tuple:
+            
+            if token == 'Phrase':
+                res_phrase = parse_phrase(l_rule)
+                if res_phrase: 
+                    tree.extend(res_phrase[0])
+                    l_rule = res_phrase[1]
+                    
+                else:
+                    break 
+         
+            elif token == '.' : #must be at end of tuple as well as rule
+                if l_rule[0] == token and len(l_rule) == 1: #means only 1 item remains in lrule and it's the period! 
+                    #success 
+                                           #treeupdate? 
+                    return(vrule, tree)
+                else:
+                    break 
+            else: 
+                if token == l_rule[0]: 
+                    
+                    l_rule = l_rule[1:]
+                    
+                       #treeupdate? 
+                    continue 
+                else:
+                    break 
+                
+    return False 
+            
+            
+               
+               
+'''               
+            elif token == 'Exp':
+                 exp(vrule)
+                 
+                 #if exp parsed successfully: 
+                    #continue
+                 #else: break --> bad tuple/if block didnt parse correctly 
+                 
+            elif token == 'Then':
+                 then(vrule)
+                 
+                  #if then parsed successfully: 
+                    #continue
+                 #else: break --> bad tuple/if block didnt parse correctly 
+ '''       
+ 
+ 
+ 
+  #quote??        
+'''               
+            elif token == '\"':  # quote
+                
+                if l_rule[n] == token:
+                    
+                    if quote_encountered: #final quote in tuple (have already encountered first quote)
+                        l_rule = l_rule[1:] #update parse tree???#update rule
+                        return (tree, l_rule)
+                    else:
+                        quote_encountered = True
+                        n += 1
+                        continue
+                else:
+                    break
+ '''  
+
+ 
+#############################
+
+
+def parse_phrase(vrule):
+    
+    l_rule = vrule
+    res_obj = []
+    res_word = []
+    res_phrase = []
+    tree = []
+        
+    for phrase_tuple in Phrase:         #go through possible phrase grammar
+        
+        tree = [] #automatically resets tree --- means previous tuple failed and so we need to start over 
+        tree.append(['Phrase', phrase_tuple])
+        l_rule = vrule                 #have to rest to beginning of rule 
+        
+        for token in phrase_tuple:      #go through tokens in the grammar rule
+        
+            if token == 'Obj':
+                res_obj = parse_obj(l_rule)
+                if res_obj:                 #means that obj parsed fine
+                    tree.extend(res_obj[0])
+                    l_rule = res_obj[1]
+                else:
+                    break
+                
+            elif token == 'Words':                  #regex match words?
+                res_word = parse_words(l_rule)          #check: either return true: continue & update lrule 
+                if res_word:
+                    tree.extend(res_word[0])
+                    l_rule = res_word[1]
+                    if l_rule[0] == '<':
+                        continue 
+                    else: 
+                        return (tree, l_rule)
+                else:
+                    break
+            
+            elif token == 'Phrase':
+                res_phrase = parse_phrase(l_rule)
+                if res_phrase:
+                    tree.extend(res_phrase[0])
+                    l_rule = res_phrase[1]
+                    return (tree, l_rule)
+                    
+                else:
+                    break
+            
+    return False  
+    
+###############################
+
+def parse_obj(vrule):
+    '''
+    go through options for Obj (global) -- 
+    use regex to match label, ttypespec, phrase name and type name, 
+    otherwise make sure symbols (< , >, : , =) match up
+    
+    if successful: returns a mini tree and where everything should be in the rule
+    if no tuple returns a successful parse: return False 
+    '''
+    l_rule = vrule 
+    n = 0
+    tree = []
+    
+    for tuple in Obj:                       #iterate through possible tuples 
+        
+        #automatically resets tree --- means previous tuple failed and so we need to start over
+        tree = []
+        tree.append(['Obj', tuple]) 
+        n = 0           #reset for every new tuple encountered 
+        
+        for token in tuple:                 #go through tokens in each tuple 
+            
+                if token == 'label':                    #match regex label
+                    if match_regex (regex_label, l_rule[n]):
+                        tree.append([token, l_rule[n]])
+                        n += 1                              #good
+                        continue                            #carry on
+                    else:
+                        break 
+                    
+                elif token == 'tokentypespec':                          #match regex tokentypespc 
+                    if match_regex (regex_ttypespec, l_rule[n]):
+                        tree.append([token, l_rule[n]])
+                        n += 1                              #good
+                        continue                            #carry on
+                    else:
+                        break
+                    
+                elif token == 'type-name':                #match regex typename
+                    if match_regex (regex_typename, l_rule[n]):
+                        tree.append([token, l_rule[n]])
+                        n += 1                              #good
+                        continue                            #carry on
+                    else:
+                        break
+                    
+                elif token == 'phrase-name':        #match regex phrase name
+                    if match_regex (regex_phrasename, l_rule[n]):
+                        tree.append([token, l_rule[n]])
+                        n += 1                              #good
+                        continue                            #carry on
+                    else:
+                        break
+                    
+                elif token == '>' and l_rule[n] == token: #have reached the end of the obj! 
+                    return ([tree, l_rule[n+1:]])
+                
+                elif token == l_rule[n]:        #token matches l_rule 
+                    #tree.append(token,n)??
+                    n += 1
+                    continue 
+                else: 
+                    break 
+                    
+    
+    print >> sys.stderr, 'Failed to parse object'            
+    return False            #means, have gone through all tuples and not once returned successfully
+
+
+
+
+
+    ###########################################
+
+def parse_words(vrule):
+    #go through tokens checking if word until hit period, quote, or < 
+    l_rule = vrule 
+    tree =[]
+    min_one = False 
+      
+    for n in l_rule:
+        
+        if n == '<' or n == '\"':   
+            if min_one: 
+                l_rule = l_rule[l_rule.index(n):]
+                return (tree, l_rule)
+            else: 
+                #means already obj without even one word 
+                print >> sys.stderr, 'Failed to have relational tokens between objects '
+                return False 
+        
+        elif n == '.':
+            if l_rule[l_rule.index(n)+1] != '\"':
+                print >> sys.stderr, 'Misplaced punctuation, (.) only allowed at the end of phrase, followed by \"'
+                return False
+            else: 
+                tree.append(['Words', n])
+                l_rule = l_rule[l_rule.index(n)+1:]
+                return (tree, l_rule)
+            
+        elif match_regex(regex_wrds, n):
+            tree.append(['Words', n])
+            min_one = True 
+             
+        else: 
+            print >> sys.stderr, '%s is not an allowed relation token' % (n, )
+            return False 
+   
+###############################
+
+
+def parse_exp():
+    pass
+###############################
+def parse_then():
+    pass
+###############################
+def parse_opt():
+    pass
+###############################
+def parse_else_st():
+    pass
+###############################
+def parse_elif_st():
+    pass
+###############################
+
+def op():
+    pass
+###############################
+def binop():
+    pass
+###############################
+def command():
+    pass
+###############################
+def msg():
+    pass
+###############################
+
+def N():
+    pass 
+###############################
+def ent_rstr():
+    pass
+##################
 
 def parse_grammar (rule, start_sym, cnt):
 
@@ -399,6 +702,16 @@ def parse_vocab():
 
 
 if __name__ == "__main__":
-    parse_vocab()
+    #parse_vocab()
+    rule_pred = tokenize_pred_string(':= "<problem> belons to <set:w>.".')
+    res = parse_pred(rule_pred)
+    if not res:
+        
+        print ('False')
+    else:
+        for n in res[1]:
+            print n 
+            print ('\n')
+     
     
                       
