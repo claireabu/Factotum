@@ -16,7 +16,7 @@ lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
 #msg
-regex_msg = re.compile('^([:-_\';,.\?a-zA-Z0-9]+)$' )
+regex_msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
 
 #N
 regex_n = re.compile('^[0-9]+$')
@@ -29,7 +29,7 @@ regex_tag = re.compile('^[-_0-9a-zA-Z]+$')
 
                         
 #word
-regex_wrds = re.compile('^[:.-_\';,0-9a-zA-Z]+$')
+regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z]+$')
 
 #objs
 regex_label = re.compile('^[-_0-9a-zA-Z\']+$')
@@ -42,8 +42,7 @@ Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
             ('-=', '\"', 'Phrase', '\"', '.' ),
             ('~>', '\"', 'Phrase', '\"', '.'),
             ('=>>', '\"', 'Phrase', '\"', '.' ),
-            #('?<', '(', 'Exp', ')', 'Then', '.'), 
-            ('?<', '(', 'Cond', ')', '.'),
+            ('?<', '(', 'Cond', ')', 'Then', '.'), 
             ('\"', 'Phrase', '\"', '.')
         ]
 
@@ -88,9 +87,9 @@ Ent_rstr = [    ('\\', 'Tag'),
                 ('\\', '<', '>', 'Tag', ':', 'label')
             ]
 
-Then = [(':', 'Command', 'Opt')],
+Then = [':', 'Command', 'Opt'],
 
-Command = [ ('satisfied'),
+Command = [ ['satisfied'],
             ('comment', '\"', 'Msg','\"'),
             ('warn', '\"', 'Msg', '\"'),
             ('error','\"', 'Msg', '\"'),
@@ -103,9 +102,9 @@ Opt = [  ('>?'),
          ('Else')
       ]
                   
-Else =  [':', 'Command', '>?'],
+Else =  [':', 'Command', '>?']
                   
-Elif =  ['?:', '(', 'Cond', ')', 'Then'], #force whitespace between expression and ()
+Elif =  ['?:', '(', 'Cond', ')', 'Then'] #force whitespace between expression and ()
                   
                         
 #############################################
@@ -125,16 +124,25 @@ def tokenize_pred_string(pstring):
     tokenList = []
     count = 0
     tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
+    skip = False
     
     for n in pstring:
         count += 1
-        if n == " ":                        #throwout whitespace -- but probs mean new token 
-            tokenList.append(longestStr)
-            longestStr = ''                 #clear longest string
-            testStr = ''                    #clear test string 
+        if re.match('\s', n):                        #throwout whitespace -- but probs mean new token 
+            if longestStr != '':
+                tokenList.append(longestStr)
+                longestStr = ''                 #clear longest string
+                testStr = ''                    #clear test string 
+            
         else: 
             testStr += n
-        
+            
+            if testStr == '=>':
+                if pstring[count] == '>' : #next item in pstring
+                    continue #dont go into block 
+                                    
+                
+            
             if re.match(tokens, testStr):           #if match regex
                 longestStr = testStr                #try to get longest match,
             else:                                   #if no match with addt'l char
@@ -212,8 +220,7 @@ def parse_pred(vrule):
             elif token == '.' : #must be at end of tuple as well as rule
                 if l_rule[0] == token and len(l_rule) == 1: #means only 1 item remains in lrule and it's the period! 
                     #success 
-                                           #treeupdate? 
-                    return(vrule, tree)
+                    return(tree)
                 else:
                     break 
                 
@@ -584,7 +591,7 @@ def parse_then(vrule):
         for token in tuple:
             
             if token == 'Command':
-                res_c = parse_commad(l_rule[n:])
+                res_c = parse_command(l_rule[n:])
                 if res_c:
                     tree.extend(res_c[0])
                     l_rule = res_c[1]
@@ -613,7 +620,7 @@ def parse_then(vrule):
 ###############################
 
 
-def command(vrule):
+def parse_command(vrule):
     '''
     Command': [                ('satisfied'),
                               ('comment', '\"', 'Msg','\"'),
@@ -631,7 +638,7 @@ def command(vrule):
     for tuple in Command:
         tree = []
         tree.append(['Command', tuple])
-        l_rule = v_rule 
+        l_rule = vrule 
         n = 0 
         
         for token in tuple: 
@@ -660,23 +667,23 @@ def command(vrule):
                 
                 if token == '"':
                     if quote_encountered:
-                        return (tree, l_rule[n+1:])
+                        return (tree, l_rule[n:])               #already advanced n
                     else:
                         quote_encountered = True
                         
                 elif token == 'satisfied':
-                    return (tree, l_rule[n+1:])
+                    return (tree, l_rule[n:])               #already advanced n         
                 
                 else: 
                     continue 
                 
             else:
-                print >> sys.stderr, 'Failed to match Command: %s' %(l_rule[n], )
+                
                 break
                 
                 
              
-    
+    print >> sys.stderr, 'Failed to match Command: %s' %(l_rule[n], )
     return False 
     
 ###############################
@@ -722,34 +729,33 @@ def parse_opt(vrule ):
     l_rule = vrule
     tree = []
     
-    for tuple in Opt:
+    for token in Opt:
         tree = []
-        tree.append(['Opt', tuple])
+        tree.append(['Opt', token])
         l_rule = vrule
         
-        for token in tuple:
+        if token == 'Elif':
+            res_elif = parse_elif_st(l_rule)
+            if res_elif:
+                tree.extend(res_elif[0])
+                l_rule = res_elif[1]
+                return (tree, l_rule)
             
-            if token == 'Elif':
-                res_elif = parse_elif_st(l_rule)
-                if res_elif:
-                    tree.extend(res_elif[0])
-                    l_rule = res_elif[1]
-                    return (tree, l_rule)
-                else:
-                    break
+            else:
+                continue 
             
-            elif token == 'Else':
-                res_else = parse_else_st(l_rule)
-                if res_else:
-                    tree.extend(res_else[0])
-                    l_rule = res_else[1]
-                    return (tree, l_rule)
+        elif token == 'Else':
+            res_else = parse_else_st(l_rule)
+            if res_else:
+                tree.extend(res_else[0])
+                l_rule = res_else[1]
+                return (tree, l_rule)
             
-            elif l_rule[0] == token: #>?'
-                    return (tree, l_rule[1:])
+        elif l_rule[0] == token: #>?'
             
-            else: 
-                break
+            return (tree, l_rule[1:])
+            
+        
             
     return False 
 
@@ -795,21 +801,21 @@ def parse_elif_st(vrule):
 
 
 ###############################
-def parse_else_st():
+def parse_else_st(vrule):
     '''
     Else =  [':', 'Command', '>?'],
     '''
     l_rule = vrule
     tree = []
-    tree.append(['Else', tuple(Else)])
+    tree.append(['Else', Else])
     
     for token in Else: 
         
         if token == 'Command':
-            res_cmd = command(l_rule)
+            res_cmd = parse_command(l_rule)
             if res_cmd: 
-                tree.extend(res_cond[0])
-                l_rule = res_cond[1]
+                tree.extend(res_cmd[0])
+                l_rule = res_cmd[1]
                 continue 
             else:
                 break 
@@ -830,140 +836,16 @@ def parse_else_st():
 
 ###############################
 
-def parse_grammar (rule, start_sym, cnt):
-
-    try:                                        
-        sym_rules = []
-        sym_rules = vocab_grammar[start_sym]            #start with sym: look up in grammar dict
-
-        tree = []
-
-                                 
-        vrule = rule[1].split()                            #split rule into tokens along whitespace
-        if not cnt == 0:
-            vrule = vrule[cnt:]                           #update where are in rule
-        
-        #pass_count = 0
-        count = 0
-        
-        max_count = len(vrule)
-        
-        for sym_tuple in sym_rules:                      #loop through tuples:get tuple in list of rules
-                                        
-            tree.append((start_sym, sym_tuple))
-            
-            if isinstance(sym_tuple[0], str) :
-                
-                for item in sym_tuple:                       #loop thru items in tuple: get item in tuple
-                    try:
-                        if vocab_grammar[item]:             # if item is an entry in dict: #eg Nonterminal
+def parse_grammar (rulePred):
     
-                            res = parse_grammar(rule, item, count)       #if returns true:
-                                                                          #goto next item in tuple, else goto next tuple
-                            #make sure res good
-                            if res[1] == -1:                #means tuple failed
-                                tree.remove(tree[-1])       #remove latest keyword/tuple pair --> this tuple failed
-                                break                       #break out of items loop, tuple loop continues 
-                                            
-                            elif res[1] > count:          #if count returned by parse grammar greater than actual count
-                                count = res[1] - 1           #means that func call got further in vrule than current count,
-                                vrule = vrule[count:]        #should update rule and count
-                                tree.extend(res[0])          #update tree
-                                            
-                            
-                    except KeyError:                                #if not entry, Must be Terminal (since exception raised)
+    local_copy = rulePred
     
-                        if not isinstance(item, str):               #means that have come across regex!
-                            
-                            if match_regex(item, vrule[count]): #matched regex 
-                                
-                                tree.append((start_sym, sym_tuple))
-                                count = count + 1
+    pred_tree = parse_pred(local_copy)
     
-                                if sym_tuple.index(item) == len(sym_tuple) - 1: #at end of tuple, done, can return 
-                                    return (tree, count)
-                                else:                   #still more items in tuple to go! 
-                                    continue 
-                            else:                               #fail means that regex failed -- failed tuple!
-                                tree.remove(tree[-1])
-                                break
-                                
-                                                                           #check if item(token) in tuple matches with
-                        elif count < max_count and vrule[count] == item :     #token in vrule : yes:
-    
-                            tree.append((start_sym, sym_tuple))             #add to parse tree
-                            
-                            count = count + 1
-    
-                            if sym_tuple.index(item) == len(sym_tuple) - 1:         #if end of tuple (pred): DONE
-                                                                                     #return parse tree text + count
-                                return (tree, count) 
-    
-                            else:                                               #else: GOOD so far,  #still more items to go:
-                                continue                                           #goto next item in tuple:
-    
-                        elif not count <  max_count:                        #have reached end of vrule before proper end:
-                                                                        #problems
-                            print >> sys.stderr, "Error -- reached end of vrule" 
-                            
-                            return([], -1)
-                             
-    
-                        else:                                   #if no match and no more tuples:
-                            break                                   #break out of items loop, sym_rules will exit on own
-                                                                #else no match, but more tuples left to explore:
-                                                                   #break out of items loop -- sym_rules will continue
-                                                                #note: count is valid-- havent reached end of vrule yet
-    
-            else:  #means have encountered regex 
-                
-                if match_regex(item, vrule[count]): #matched regex 
-                    tree.append((start_sym, sym_tuple))
-                    count = count + 1
-                    
-                    if sym_tuple.index(item) == len(sym_tuple) - 1: #at end of tuple, done, can return 
-                         return (tree, count)
-                    else:                   #still more items in tuple to go!
-                          continue
-                else:                               #fail means that regex failed -- failed tuple!
-                    tree.remove(tree[-1])
-                    continue 
-                
-                
-            print >> sys.stderr,"Stopped parsing after encountering %s" % (start_sym,)
-    
-            return (tree,-1)       #means failed  
-
-    except TypeError: 
-        
-        if match_regex(sym_tuple[0], vrule[count]): #matched regex 
-                    tree.append((start_sym, sym_tuple))
-                    count = count + 1
-                    
-                    if sym_tuple.index(item) == len(sym_tuple) - 1: #at end of tuple, done, can return 
-                         return (tree, count)
-                    else:                   #still more items in tuple to go!
-                        
-                          sym_rules = sym_rules[:-1]
-                          
-                          return parse_vocab(rule, sym_rules[start_sym], count)
-        else:                               #fail means that regex failed -- failed tuple!
-            tree.remove(tree[-1])  
-                                                  
-    except KeyError:                                #start sym is not in dict for some reason
-
-        print >> sys.stderr,"%s not present in grammar" % (start_sym,)
-        
-        return ([], -1)     #means failed 
-    
-        
-                        
-    # except TypeError: 
-                            
-     
-
-                  
-                    
+    if pred_tree:
+        return pred_tree    #if parses successfully, return the tree
+    else:
+        return False   #if parses unsuccessfully, return original rule 
 #############################################################
 
 
@@ -973,14 +855,14 @@ def parse_vocab():
        #read line by line (one rule per line)
     '''
 
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+   # if len(sys.argv) < 2: 
+   #     sys.stderr.write("must include vocabulary (.v) file \n")
+   #     raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('test.v', 'r')
+    vocabfile = open('test.v', 'r')
     facts = []
     line = ''
     line = vocabfile.readline()
@@ -1006,37 +888,31 @@ def parse_vocab():
         facts.append([s,p])
     
     rule_pred = ''
-    parseTrees = []
+    parsed_rules = []
     failed_rules = []
     
     for rule in facts:
         rule_pred = tokenize_pred_string(rule[1])
-        rule_parse =  parse_grammar(rule_pred, 'Pred', 0)
-        if rule_parse != []:                        #if parse didn't fail, add to list of accepted parse trees
-            parseTrees.append(rule, rule_parse)
-        else: 
+        
+        if rule_pred == []:
+            failed_rules.append(rule)
+            continue 
+        
+        rule_parse =  parse_grammar(rule_pred)
+        
+        if rule_parse:                   #if true, means parsed successfully 
+            parsed_rules.append([rule, rule_parse])
+            print rule 
+        else:
             failed_rules.append(rule)
             
         
-    
-    print parseTrees 
-    print failed_rules
-    return parseTrees 
+    return(parsed_rules, failed_rules)
 
 #########################################################
 
 
 if __name__ == "__main__":
-    #parse_vocab()
-    rule_pred = tokenize_pred_string('?< ( !\NP-Complete ).')
-    res = parse_pred(rule_pred)
-    if not res:
-        
-        print ('False')
-    else:
-        for n in res[1]:
-            print n 
-            print ('\n')
-     
+    parse_vocab()
     
                       
