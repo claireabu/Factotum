@@ -15,22 +15,19 @@ import factotum_globals
 lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
-
-global_item = ''
-
-
-
-
-
 #msg
-regex_msg = re.compile('([:-_\';,.\?a-zA-Z0-9]+)' )
+regex_msg = re.compile('^([:-_\';,.\?a-zA-Z0-9]+)$' )
 
 #N
 regex_n = re.compile('^[0-9]+$')
 
 #exp
 regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
+regex_op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
+regex_ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
+regex_tag = re.compile('^[-_0-9a-zA-Z]+$') 
 
+                        
 #word
 regex_wrds = re.compile('^[:.-_\';,0-9a-zA-Z]+$')
 
@@ -40,14 +37,14 @@ regex_ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infi
 regex_typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
 regex_phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label 
 
-#entity restriction
                                
 Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
             ('-=', '\"', 'Phrase', '\"', '.' ),
             ('~>', '\"', 'Phrase', '\"', '.'),
-            ('=>>', '\"', 'Phrase', '\"', '.' )#,
- #           ('?<', '(', 'Exp', ')', 'Then', '.'), 
- #           ('Phrase',  '.')
+            ('=>>', '\"', 'Phrase', '\"', '.' ),
+            #('?<', '(', 'Exp', ')', 'Then', '.'), 
+            ('?<', '(', 'Cond', ')', '.'),
+            ('\"', 'Phrase', '\"', '.')
         ]
 
   
@@ -65,106 +62,51 @@ Obj =  [('<' , '>'),
         ('<' , 'label', '=', 'phrase-name', '>')
         ]
 
+ #note: not allowing more than one operation per condition 
+Cond = [    ( 'Exp', 'Op', 'Exp' ),
+            ('Ent_rstr', 'Op', 'Exp' ),
+            ('Exp', 'Op', 'Ent_rstr'),
+            ('Ent_rstr', 'Op', 'Ent_rstr'),
+            ('Exp', 'BinOp'),           #binary op
+            ('Ent_rstr', 'BinOp'),         #binary op
+            ('!', 'Exp'),
+            ('!', 'Ent_rstr')
+        ]
 
 
-'''
-vocab_grammar = { #'Start': ['Pred'],
+BinOp = [   ('=[', 'N', ']'),       #minamx (binary op)
+            ('[', 'N', ':', 'N', ']')   #substring (binary op)
+        ]
+
+Ent_rstr = [    ('\\', 'Tag'),
+                ('\\', '$','Ent'),
+                ('\\', '@','Ent'), 
+                ('\\', '*','Tag' ),
+                ('\\', '&','Ent' ),
+                ('\\', '$', 'Tag', ':', 'label'),
+                ('\\', '*', '<', '>', 'Tag', ':', 'label'),
+                ('\\', '<', '>', 'Tag', ':', 'label')
+            ]
+
+Then = [(':', 'Command', 'Opt')],
+
+Command = [ ('satisfied'),
+            ('comment', '\"', 'Msg','\"'),
+            ('warn', '\"', 'Msg', '\"'),
+            ('error','\"', 'Msg', '\"'),
+            ('abort', '\"', 'Msg', '\"'),
+            ('skip', 'N')
+            ]
+                 
+Opt = [  ('>?'),
+         ('Elif'),
+         ('Else')
+      ]
                   
-                  'Pred': [(':=',  'Phrase',  '.' ),
-                           ('-=', 'Phrase',  '.' ),
-                           ('~>',  'Phrase',  '.'),
-                           ('=>>',  'Phrase',  '.' ),
-                           ('?<', '(', 'Exp', ')', 'Then'), 
-                           ( 'Phrase', '.')],
-                    
-                  'Phrase': [('Obj','Words', '.'),
-                             ('Obj', '.')
-                             ('Obj', 'Words', 'Phrase'),
-                             ],
-
-                  'Obj':[('<' , '>'),
-                         ('<' , label, ':',  '>'),
-                         ('<' , ':', tokentypespec, '>'),
-                         ('<' , label, ':', tokentypespec, '>'),
-                         ('<' , type-name, '>'),
-                         ('<' , label, '=', typename, '>'),
-                         ('<' , phrase-name, '>'),
-                         ('<' , label, '=', phrase-name, '>')],
-                   
-                
-                  'Words': [(regex_wrd),
-                            (regex_wrd, 'Words')],    #should have option to be empty 
+Else =  [':', 'Command', '>?'],
                   
-                  'Then': [':', 'Command', 'Opt'],
+Elif =  ['?:', '(', 'Cond', ')', 'Then'], #force whitespace between expression and ()
                   
-                  'Opt':  [('>?'),
-                           ('Elif'),
-                           ('Else')],
-                  
-                  'Else': [':', 'Command', '>?'],
-                  
-                  'Elif': ['?:', '(', 'Exp', ')', 'Then'], #force whitespace between expression and ()
-                  
-                  
-                  'Exp':[( regex_exp, 'Op', regex_exp ),
-
-                         ('Ent_rstr', 'Op', regex_exp ),
-
-                         (regex_exp, 'Op', 'Ent_rstr'),
-                         
-                         ('Ent_rstr', 'Op', 'Ent_rstr'),
-                         
-                         (regex_exp, 'BinOp'), #binary op
-
-                         ('Ent_rstr', 'BinOp') #binary op
-
-                         
-                         #note: not allowing more than one operation per condition 
-
-                         ],
-                
-                 'BinOp': [('=[', 'N', ']'),       #minamx (binary op)
-                            ('[', 'N', ':', 'N', ']')],   #substring (binary op)
-                  
-                  'Op':[('+'),
-                        ('-'),
-                        ('*'),
-                        ('/'),
-                        ('%'),
-                        ('='),
-                        ('!='),
-                        ('<'),
-                        ('<='),
-                        ('>'),
-                        ('>='),
-                        ('!'),
-                        ('&'),
-                        ('|'),
-                        ('&&'),
-                        ('||')
-                        # <label>
-                        #{label} 
-                        ],
-                         
-                  'Command': [('satisfied'),
-                              ('comment', '\"', 'Msg','\"'),
-                              ('warn', '\"', 'Msg', '\"'),
-                              ('error','\"', 'Msg', '\"'),
-                              ('abort', '\"', 'Msg', '\"'),
-                              ('skip', 'N')],
-
-                  'Msg': [(regex_msg),
-                          (regex_msg, 'Msg')],   #words, optional punctuation at the end 
-
-                  'N': [regex_n],
-
-                  'Ent_rstr': [('\\', ),
-                               ('\\$', ),
-                               ('\\@', ), 
-                               ('\\*', ),
-                               ('\\&', )]
-                  }          
- '''           
                         
 #############################################
                  
@@ -182,7 +124,7 @@ def tokenize_pred_string(pstring):
     longestStr = ''
     tokenList = []
     count = 0
-    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*][\\\\])$')
+    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
     
     for n in pstring:
         count += 1
@@ -210,7 +152,7 @@ def tokenize_pred_string(pstring):
                             tokenList.append(testStr)
                         else:                           #couldn't tokenize 
                             print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
-                            return []
+                            exit(1)
                             
                             
                         
@@ -245,8 +187,28 @@ def parse_pred(vrule):
                     l_rule = res_phrase[1]
                     
                 else:
-                    break 
-         
+                    print >> sys.stderr, 'Failed to parse Phrase'
+                    return False 
+            
+            elif token == 'Cond':
+                 res_cond = parse_cond(l_rule)
+                 if res_cond:
+                     tree.extend(res_cond[0])
+                     l_rule = res_cond[1]
+                     
+                 else: 
+                     print >> sys.stderr, 'Failed to parse Cond'
+                     return False
+                        
+            elif token == 'Then':
+                res_then = parse_then(l_rule)
+                if res_then:
+                    tree.extend(res_then[0])
+                    l_rule = res_then[1]
+                else:
+                    print >> sys.stderr, 'Failed to parse Then phrase'
+                    return False 
+    
             elif token == '.' : #must be at end of tuple as well as rule
                 if l_rule[0] == token and len(l_rule) == 1: #means only 1 item remains in lrule and it's the period! 
                     #success 
@@ -254,6 +216,7 @@ def parse_pred(vrule):
                     return(vrule, tree)
                 else:
                     break 
+                
             else: 
                 if token == l_rule[0]: 
                     
@@ -264,46 +227,9 @@ def parse_pred(vrule):
                 else:
                     break 
                 
+               
     return False 
-            
-            
-               
-               
-'''               
-            elif token == 'Exp':
-                 exp(vrule)
-                 
-                 #if exp parsed successfully: 
-                    #continue
-                 #else: break --> bad tuple/if block didnt parse correctly 
-                 
-            elif token == 'Then':
-                 then(vrule)
-                 
-                  #if then parsed successfully: 
-                    #continue
-                 #else: break --> bad tuple/if block didnt parse correctly 
- '''       
  
- 
- 
-  #quote??        
-'''               
-            elif token == '\"':  # quote
-                
-                if l_rule[n] == token:
-                    
-                    if quote_encountered: #final quote in tuple (have already encountered first quote)
-                        l_rule = l_rule[1:] #update parse tree???#update rule
-                        return (tree, l_rule)
-                    else:
-                        quote_encountered = True
-                        n += 1
-                        continue
-                else:
-                    break
- '''  
-
  
 #############################
 
@@ -423,7 +349,7 @@ def parse_obj(vrule):
                     break 
                     
     
-    print >> sys.stderr, 'Failed to parse object'            
+    print >> sys.stderr, 'Failed to parse Object'            
     return False            #means, have gone through all tuples and not once returned successfully
 
 
@@ -469,41 +395,440 @@ def parse_words(vrule):
 ###############################
 
 
-def parse_exp():
-    pass
+def parse_cond(vrule):
+    
+    l_rule = vrule 
+    tree = []
+    n = 0
+    cond_count = 0
+    
+    for tuple in Cond:
+        tree = []
+        tree.append(['Cond', tuple])
+        l_rule = vrule
+        n = 0 
+        cond_count = 0
+        
+        for token in tuple:
+            
+            if token == 'Exp':
+                if match_regex(regex_exp, l_rule[n]):
+                    tree.append([token, l_rule[n]])
+                    n += 1
+                    cond_count += 1
+                    
+                    if cond_count == 3 and l_rule[n] == ')': #should be at end of expression 
+                        return (tree, l_rule[n:])
+                    else: 
+                        break #fail
+                     
+                else:           #Expression failed to match 
+                    break
+                
+            elif token == 'Ent_rstr':
+                res_ent = parse_ent_rstr(l_rule[n:])
+                if res_ent: 
+                    tree.extend(res_ent[0])
+                    l_rule = res_ent[1]
+                    n = 0 
+                    cond_count += 1
+                else: 
+                    break
+                
+                if cond_count == 3 and l_rule[n] == ')': #should be at end of expression 
+                        return (tree, l_rule[n:])
+                elif cond_count < 3:
+                    continue 
+                else:
+                    break #fail
+                  
+                             
+            elif token == 'Op':
+                if match_regex(regex_op, l_rule[n]):
+                    tree.append([token, l_rule[n]])
+                    n += 1
+                    cond_count += 1
+                else:
+                    break 
+                
+            elif token == 'BinOp':
+                res_binop = parse_binop(l_rule[n:])
+                
+                if res_binop: 
+                    tree.extend(res_binop[0])
+                    l_rule = res_binop[1]
+                    n = 0 
+                    
+                    if l_rule[n] == ')':        #next item should be ), indicating end of expr 
+                        return(tree, l_rule[n:])
+                    else:
+                        break  
+                else: 
+                    break 
+            elif token == l_rule[n]:
+                n += 1
+                cond_count += 2     #can have only 1 element after it 
+                continue 
+            else:
+                break 
+    return False 
+    
+
+            
+############################
+
+def parse_binop(vrule):
+    l_rule = vrule 
+    tree = []
+    i = 0
+    
+    for tuple in BinOp:
+        tree = []
+        tree.append(['Binop', tuple])
+        l_rule = vrule 
+        i = 0
+        
+        for token in tuple: 
+            
+            if token == 'N':
+                if match_regex(regex_n, l_rule[i] ):
+                    tree.append([token, l_rule[i]])
+                    i += 1
+                    continue
+                else: 
+                    break 
+                
+            elif token == ']' and token == l_rule[i]: #have reached end of binop! 
+                return(tree, l_rule[i+1:])
+            
+            elif token == l_rule[i]:
+                i+=1
+                continue 
+            else:
+                break 
+        
+
+    return False   
+        
+    
+
 ###############################
-def parse_then():
-    pass
+
+
+def parse_ent_rstr(vrule):
+    l_rule = vrule
+    tree = []
+    n = 0
+    count = 0
+    
+    for tuple in Ent_rstr:
+        tree = []
+        tree.append(['Ent_rstr', tuple])
+        l_rule = vrule
+        n = 0
+        count = 0
+        
+        for token in tuple:
+            
+            count += 1
+            
+            if token == 'Tag':
+                if match_regex(regex_tag, l_rule[n]):
+                    tree.append([token, l_rule[n]])
+                    n+=1  
+                else:
+                    break 
+                
+            elif token == 'Ent':
+                if match_regex(regex_ent, l_rule[n]):
+                    tree.append([token, l_rule[n]])
+                    n+=1
+                else:
+                    break 
+                
+            elif token == 'label':
+                if match_regex(regex_label, l_rule[n]):
+                    tree.append([token, l_rule[n]])
+                    n += 1
+                else:
+                    break 
+                
+            else:
+                if token == l_rule[n]:
+                    n+=1
+                else:
+                    break 
+                
+            if count == len(tuple):
+                
+                return (tree, l_rule[n:])
+            
+            
+                
+    return False
+
+###########################
+
+
+def parse_then(vrule):
+    '''
+    Then = [(':', 'Command', 'Opt')],
+    '''
+    l_rule = vrule
+    tree = []
+    n = 0
+    
+    for tuple in Then:
+        tree.append(['Then', tuple ] ) 
+        
+        for token in tuple:
+            
+            if token == 'Command':
+                res_c = parse_commad(l_rule[n:])
+                if res_c:
+                    tree.extend(res_c[0])
+                    l_rule = res_c[1]
+                    n = 0 
+                else:
+                    break
+            
+            elif token == 'Opt': 
+                 res_opt = parse_opt(l_rule[n:])
+                 if res_opt:
+                     tree.extend(res_opt[0])
+                     l_rule = res_opt[1]
+                     n = 0
+                     return (tree, l_rule)
+                 else: 
+                     break 
+                 
+            elif token == l_rule[n]: 
+                n += 1
+                continue 
+            
+            else:
+                break 
+    
+    return False
 ###############################
-def parse_opt():
-    pass
+
+
+def command(vrule):
+    '''
+    Command': [                ('satisfied'),
+                              ('comment', '\"', 'Msg','\"'),
+                              ('warn', '\"', 'Msg', '\"'),
+                              ('error','\"', 'Msg', '\"'),
+                              ('abort', '\"', 'Msg', '\"'),
+                              ('skip', 'N')],
+    '''
+    
+    l_rule = vrule
+    tree = []
+    n = 0
+    quote_encountered = False
+    
+    for tuple in Command:
+        tree = []
+        tree.append(['Command', tuple])
+        l_rule = v_rule 
+        n = 0 
+        
+        for token in tuple: 
+            
+            if token == 'Msg':
+                res_msg = parse_msg(l_rule[n:])
+                if res_msg: 
+                    tree.extend(res_msg[0])
+                    l_rule = res_msg[1]
+                    n = 0
+                else:
+                    break 
+                   
+            elif token == 'N':
+                
+                if match_regex(regex_n, l_rule[n]):
+                    tree.append(['N', l_rule[n]])
+                    return(tree, l_rule)
+                else:
+                    break 
+                
+            
+            elif l_rule[n] == token: 
+                
+                n += 1
+                
+                if token == '"':
+                    if quote_encountered:
+                        return (tree, l_rule[n+1:])
+                    else:
+                        quote_encountered = True
+                        
+                elif token == 'satisfied':
+                    return (tree, l_rule[n+1:])
+                
+                else: 
+                    continue 
+                
+            else:
+                print >> sys.stderr, 'Failed to match Command: %s' %(l_rule[n], )
+                break
+                
+                
+             
+    
+    return False 
+    
+###############################
+
+
+def parse_msg(vrule):
+    
+    l_rule = vrule 
+    tree =[]
+    min_one = False
+    
+    for n in l_rule:
+        
+        if n == '\"':
+            if min_one:
+                l_rule = l_rule[l_rule.index(n):]
+                return (tree, l_rule)
+            else:
+                print >> sys.stderr, "Please include a message with command \n"
+                break 
+        
+        elif match_regex(regex_msg, n):
+            tree.append(['Msg', n])
+            min_one = True 
+            continue 
+        
+        else:
+            print >> sys.stderr, "Message failed to follow standard format \n"
+            break 
+            
+    
+    
+    return False 
+###############################
+
+def parse_opt(vrule ):
+    '''
+    Opt = [  ('>?'),
+         ('Elif'),
+         ('Else')]
+
+    '''
+    l_rule = vrule
+    tree = []
+    
+    for tuple in Opt:
+        tree = []
+        tree.append(['Opt', tuple])
+        l_rule = vrule
+        
+        for token in tuple:
+            
+            if token == 'Elif':
+                res_elif = parse_elif_st(l_rule)
+                if res_elif:
+                    tree.extend(res_elif[0])
+                    l_rule = res_elif[1]
+                    return (tree, l_rule)
+                else:
+                    break
+            
+            elif token == 'Else':
+                res_else = parse_else_st(l_rule)
+                if res_else:
+                    tree.extend(res_else[0])
+                    l_rule = res_else[1]
+                    return (tree, l_rule)
+            
+            elif l_rule[0] == token: #>?'
+                    return (tree, l_rule[1:])
+            
+            else: 
+                break
+            
+    return False 
+
+###############################
+
+def parse_elif_st(vrule):
+    '''
+    Elif =  ['?:', '(', 'Cond', ')', 'Then']
+    '''
+    l_rule = vrule
+    tree = []
+    tree.append(['Elif', tuple(Elif)])
+    
+    for token in Elif: 
+        
+        if token == 'Cond':
+            res_cond = parse_cond(l_rule)
+            if res_cond: 
+                tree.extend(res_cond[0])
+                l_rule = res_cond[1]
+                continue 
+            else:
+                break 
+                
+        elif token == 'Then':
+            res_then = parse_then(l_rule)
+            if res_then:
+                tree.extend(res_then[0])
+                l_rule = res_then[1]
+                return (tree, l_rule  )
+            else: 
+                
+                break 
+            
+        elif l_rule[0] == token:
+            l_rule = l_rule[1:]
+            continue 
+        
+        else: 
+            break 
+
+    return False 
+
+
 ###############################
 def parse_else_st():
-    pass
-###############################
-def parse_elif_st():
-    pass
-###############################
+    '''
+    Else =  [':', 'Command', '>?'],
+    '''
+    l_rule = vrule
+    tree = []
+    tree.append(['Else', tuple(Else)])
+    
+    for token in Else: 
+        
+        if token == 'Command':
+            res_cmd = command(l_rule)
+            if res_cmd: 
+                tree.extend(res_cond[0])
+                l_rule = res_cond[1]
+                continue 
+            else:
+                break 
+            
+        elif l_rule[0] == token:
+            l_rule = l_rule[1:]
+            
+            if token == '>?':
+                return (tree, l_rule)
+            
+            continue 
+        
+        else: 
+            break 
 
-def op():
-    pass
-###############################
-def binop():
-    pass
-###############################
-def command():
-    pass
-###############################
-def msg():
-    pass
-###############################
+    return False 
 
-def N():
-    pass 
+
 ###############################
-def ent_rstr():
-    pass
-##################
 
 def parse_grammar (rule, start_sym, cnt):
 
@@ -703,7 +1028,7 @@ def parse_vocab():
 
 if __name__ == "__main__":
     #parse_vocab()
-    rule_pred = tokenize_pred_string(':= "<problem> belons to <set:w>.".')
+    rule_pred = tokenize_pred_string('?< ( !\NP-Complete ).')
     res = parse_pred(rule_pred)
     if not res:
         
