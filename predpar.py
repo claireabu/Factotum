@@ -855,14 +855,15 @@ def parse_vocab():
        #read line by line (one rule per line)
     '''
 
-   # if len(sys.argv) < 2: 
-   #     sys.stderr.write("must include vocabulary (.v) file \n")
-   #     raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
-    #vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('test.v', 'r')
+    #vocabfile = open('test.v', 'r')
+    
     facts = []
     line = ''
     line = vocabfile.readline()
