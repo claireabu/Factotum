@@ -29,7 +29,7 @@ regex_tag = re.compile('^[-_0-9a-zA-Z]+$')
 
                         
 #word
-regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z]+$')
+regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z\(\)/]+$')
 
 #objs
 regex_label = re.compile('^[-_0-9a-zA-Z\']+$')
@@ -42,8 +42,13 @@ Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
             ('-=', '\"', 'Phrase', '\"', '.' ),
             ('~>', '\"', 'Phrase', '\"', '.'),
             ('=>>', '\"', 'Phrase', '\"', '.' ),
+            (':=', 'Phrase', '.' ),
+            ('-=', 'Phrase', '.' ),
+            ('~>', 'Phrase', '.'),
+            ('=>>', 'Phrase', '.' ),
             ('?<', '(', 'Cond', ')', 'Then', '.'), 
-            ('\"', 'Phrase', '\"', '.')
+            ('\"', 'Phrase', '\"', '.'),
+            ( 'Phrase', '.')
         ]
 
   
@@ -124,7 +129,7 @@ def tokenize_pred_string(pstring):
     tokenList = []
     count = 0
     tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
-    skip = False
+   
     
     for n in pstring:
         count += 1
@@ -145,6 +150,14 @@ def tokenize_pred_string(pstring):
             
             if re.match(tokens, testStr):           #if match regex
                 longestStr = testStr                #try to get longest match,
+                
+                if count == len(pstring):  #have reached last element in string
+                    if re.match(tokens, testStr):
+                        tokenList.append(testStr)
+                    else:                           #couldn't tokenize 
+                        print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                        exit(1)
+                
             else:                                   #if no match with addt'l char
                 if longestStr != '':                #means have gone too far 
                     tokenList.append(longestStr)
@@ -346,9 +359,19 @@ def parse_obj(vrule):
                         break
                     
                 elif token == '>' and l_rule[n] == token: #have reached the end of the obj! 
-                    return ([tree, l_rule[n+1:]])
+                    
+                    if tuple == ('<' , '>') and n != len(l_rule)-1: #have option of a following object
+                        res = parse_obj(l_rule[n+1:])
+                        if res:
+                            tree.extend(res[0])
+                            l_rule = res[1]
+                            return (tree, l_rule)
+                        else:
+                            return (tree, l_rule[n+1:])
+                    else:
+                        return (tree, l_rule[n+1:])
                 
-                elif token == l_rule[n]:        #token matches l_rule 
+                elif token == l_rule[n]:        #token matches l_rule  '<'
                     #tree.append(token,n)??
                     n += 1
                     continue 
@@ -356,7 +379,7 @@ def parse_obj(vrule):
                     break 
                     
     
-    print >> sys.stderr, 'Failed to parse Object'            
+    #print >> sys.stderr, 'Failed to parse Object'            
     return False            #means, have gone through all tuples and not once returned successfully
 
 
@@ -383,12 +406,12 @@ def parse_words(vrule):
                 return False 
         
         elif n == '.':
-            if l_rule[l_rule.index(n)+1] != '\"':
-                print >> sys.stderr, 'Misplaced punctuation, (.) only allowed at the end of phrase, followed by \"'
-                return False
-            else: 
-                tree.append(['Words', n])
-                l_rule = l_rule[l_rule.index(n)+1:]
+             if l_rule.index(n) != len(l_rule)-1 and l_rule[l_rule.index(n)+1]== '\"':
+                 tree.append(['Words', n])
+                 l_rule = l_rule[l_rule.index(n)+1:]
+                 return (tree, l_rule)
+             else:
+                l_rule = l_rule[l_rule.index(n):]
                 return (tree, l_rule)
             
         elif match_regex(regex_wrds, n):
@@ -855,14 +878,14 @@ def parse_vocab():
        #read line by line (one rule per line)
     '''
 
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+    #if len(sys.argv) < 2: 
+    #    sys.stderr.write("must include vocabulary (.v) file \n")
+    #    raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('test.v', 'r')
+    vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -893,6 +916,7 @@ def parse_vocab():
     failed_rules = []
     
     for rule in facts:
+        
         rule_pred = tokenize_pred_string(rule[1])
         
         if rule_pred == []:
