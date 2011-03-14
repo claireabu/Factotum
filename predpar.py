@@ -12,9 +12,6 @@ lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
 
-
-
-
 #word
 regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z\(\)/]+$')
 
@@ -964,11 +961,13 @@ def parse_vocab():
         rule_parse =  parse_grammar(rule_pred)
         
         if rule_parse:                   #if true, means parsed successfully 
-            parsed_rules.append([rule, rule_parse])
-            print rule 
+            parsed_rules.append([rule[0], rule[1], rule_parse])
         else:
             failed_rules.append(rule)
-            
+        
+        for n in parsed_rules:
+            print n
+            print '\n'
         
     return(parsed_rules, failed_rules)
 

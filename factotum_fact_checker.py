@@ -43,7 +43,7 @@ full_ent = factotum_entities.EntityClass()
     
 ####################################################
 
-    def prelim_check_facts(fact_file):
+def prelim_check_facts(fact_file):
         
         ''' run buildentities over fact file
             organize by subject, have predicates for each subject 
@@ -75,43 +75,44 @@ full_ent = factotum_entities.EntityClass()
 
         return ent 
                 
-        #PROBLEM: need to remove comments?
+        
 
 ####################################################
 
             
-    def prelim_check_vocab(vocab_file):
+def prelim_check_vocab(vocab_file):
         ''' run parser over vocab file.
             make sure vocab rules all follow factotum format,
                  if fine: put into rule data struct, [organized by subjects/?? is that
                  even possible??] 
                  else if problem: don't include rule, warning message and put in sep list
         '''
-        rules = {} 
-        rules = parse_vocab(vocab_file)
+        succ_rules = []
+        fail_rules = [] 
+        [succ_rules, fail_rules]  = parse_vocab(vocab_file)
 
-        print ("Problematic Rules") 
-        print (rules['Problematic']) #make prettier 
+       # print ("Problematic Rules") 
+       # print (rules['Problematic']) #make prettier 
 
-        print ("Correct Rules")
-        print (rules ['Correct']) #make prettier 
+       # print ("Correct Rules")
+       # print (rules ['Correct']) #make prettier 
                         
-        return rules['Correct']
-    
+        return succ_rules
 
 ####################################################
 
-    def get_entity_vocab_rules(ent, rules):
+def get_entity_vocab_rules(ent, rules):
 
         ent_rules = []
         
-        for n in range(len(rules)):
-            if rules[n][0] == '*':                  #if subject is unique name or matches
-                ent_rules.append(rules[n][1])          #entity, then use rule
-            elif rules[n][0] == ent:
-                ent_rules.append(rules[n][1])
-            #else, continue
-
+        for n in rules:
+            if n[0] == '*':                  #if subject is unique name or matches
+                ent_rules.append(n[1:])          #entity, then use rule
+            elif n[0] == ent:
+                ent_rules.append(n[1:])
+            else:
+                continue
+            
         return ent_rules
             
 
@@ -119,8 +120,7 @@ full_ent = factotum_entities.EntityClass()
 ####################################################
 
     
-
-    def tokenize (desired_string ):
+def tokenize (desired_string ):
         
         ''' go through predicate.
             sort out token by token --> put in list?.
@@ -132,7 +132,7 @@ full_ent = factotum_entities.EntityClass()
 
 ####################################################
 
-    def deal_imply_rule (imply_rule, fact):
+def deal_imply_rule (imply_rule, fact):
 
         #add to internal structure somehow
         
@@ -142,7 +142,7 @@ full_ent = factotum_entities.EntityClass()
     
 ####################################################
 
-    def deal_gen_rule (gen_rule, fact):
+def deal_gen_rule (gen_rule, fact):
 
         # add new rule to internal strucutre
         pass
@@ -151,14 +151,14 @@ full_ent = factotum_entities.EntityClass()
 
 ####################################################
 
-    def deal_rule_restr (rule):
+def deal_rule_restr (rule):
         #deal with conditionals and expressions
         pass
 
 ####################################################
 
 
-    def token_is_objtype (rule_token):
+def token_is_objtype (rule_token):
         '''check if rule token is <type>/object or if just normal
         '''
         if rule_token.find('<') and rule_token.find('>'):
@@ -169,7 +169,7 @@ full_ent = factotum_entities.EntityClass()
 ####################################################
 
 
-    def assign_objType (rule_token, fact_token):
+def assign_objType (rule_token, fact_token):
         ''' if rule token is <type>, mark in internal struct
             that the fact_token is object of this type
         '''
@@ -178,7 +178,7 @@ full_ent = factotum_entities.EntityClass()
 ####################################################
 
     
-    def check_entity (ent, ent_preds, ent_rules):
+def check_entity (ent, ent_preds, ent_rules):
 
         problematic_facts=[]
         fine_facts = []
@@ -192,7 +192,7 @@ full_ent = factotum_entities.EntityClass()
             current_fact = tokenize(ent_preds[n]) 
             
                # go through vocab rules (loop)
-               for k in range(len(ent_rules))
+               for k in range(len(ent_rules)):
                
                    #break up rule into tokens
                    current_rule = tokenize(ent_rules[k])
@@ -269,10 +269,10 @@ loop though enities
 
     ent_list = list(entities)
     
-    for n in range(len(entity_list)):
-        entity_rules = get_entity_vocab_rules(ent_list[n], rules)
-        entity_preds = entities[ent_list[n]]
-        check_entity(entity_list[n], entity_preds, entity_rules)
+    for n in ent_list:
+        entity_rules = get_entity_vocab_rules(ent_list, rules)
+        entity_preds = entities[ent_list]
+        check_entity(ent_list, entity_preds, entity_rules)
         
      #for now checking, internal structure tbd    
 
