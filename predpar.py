@@ -1,9 +1,5 @@
 ''' Pred Parser
 
-note:
--left out items that use tag, 
--only allowing one operation per rule restriction condition (if block) 
-
 '''
 
 from string import *
@@ -15,19 +11,10 @@ import factotum_globals
 lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
-#msg
-regex_msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
 
-#N
-regex_n = re.compile('^[0-9]+$')
 
-#exp
-regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
-regex_op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
-regex_ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
-regex_tag = re.compile('^[-_0-9a-zA-Z]+$') 
 
-                        
+
 #word
 regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z\(\)/]+$')
 
@@ -35,9 +22,20 @@ regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z\(\)/]+$')
 regex_label = re.compile('^[-_0-9a-zA-Z\']+$')
 regex_ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infinity 
 regex_typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
-regex_phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label 
+regex_phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label
 
-                               
+#exp
+regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
+regex_op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
+regex_ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
+regex_tag = re.compile('^[-_0-9a-zA-Z]+$') 
+
+#msg
+regex_msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
+
+#N
+regex_n = re.compile('^[0-9]+$')
+              
 Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
             ('-=', '\"', 'Phrase', '\"', '.' ),
             ('~>', '\"', 'Phrase', '\"', '.'),
@@ -115,81 +113,31 @@ Elif =  ['?:', '(', 'Cond', ')', 'Then'] #force whitespace between expression an
 #############################################
                  
 def match_regex (regex, i):
+    '''
+        A helper function with essentially the same functionality 
+        as re.match -- just provides a more concise form
+    '''
 
     if re.match(regex, i):
         return True
     else:
         return False
                                           
-##########################################
-def tokenize_pred_string(pstring):
-    
-    testStr = ''
-    longestStr = ''
-    tokenList = []
-    count = 0
-    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
-   
-    
-    for n in pstring:
-        count += 1
-        if re.match('\s', n):                        #throwout whitespace -- but probs mean new token 
-            if longestStr != '':
-                tokenList.append(longestStr)
-                longestStr = ''                 #clear longest string
-                testStr = ''                    #clear test string 
-            
-        else: 
-            testStr += n
-            
-            if testStr == '=>':
-                if pstring[count] == '>' : #next item in pstring
-                    continue #dont go into block 
-                                    
-                
-            
-            if re.match(tokens, testStr):           #if match regex
-                longestStr = testStr                #try to get longest match,
-                
-                if count == len(pstring):  #have reached last element in string
-                    if re.match(tokens, testStr):
-                        tokenList.append(testStr)
-                    else:                           #couldn't tokenize 
-                        print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
-                        exit(1)
-                
-            else:                                   #if no match with addt'l char
-                if longestStr != '':                #means have gone too far 
-                    tokenList.append(longestStr)
-                    if re.match(tokens, n):
-                        longestStr = n                    #reset longest 
-                    else: 
-                        longestStr = ''
-                        
-                    testStr = n                         #rest test to curr val
-                    
-                    if count == len(pstring):  #have reached last element in string
-                        if re.match(tokens, testStr):
-                            tokenList.append(testStr)
-                        else:                           #couldn't tokenize 
-                            print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
-                            exit(1)
-                            
-                            
-                        
-                else:                               #couldn't tokenize 
-                    print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
-                    return []
-    
-    #print tokenList
-    return tokenList
-                                                    
-##########################################
-###########################################
 
-
-
+#######################################
 def parse_pred(vrule):  
+    '''
+    Uses the grammar listed above.
+    Iterates through items (tuples) in Pred, representing all possible grammar rules.
+    Different actions are taken given different items: 
+        essentially -- if item is nonterminal, there is a separate function we call, 
+                        usually of the format PARSE_ITEM.
+                       if the item is a terminal symbol, we compare tokens to make sure it 
+                       follows and then continue onward. 
+    
+    At the end, either return a completed tree, or return False upon failure at some point 
+    
+    '''
     
     l_rule = [] 
     tree = []
@@ -386,7 +334,7 @@ def parse_obj(vrule):
 
 
 
-    ###########################################
+###########################################
 
 def parse_words(vrule):
     #go through tokens checking if word until hit period, quote, or < 
@@ -640,17 +588,12 @@ def parse_then(vrule):
                 break 
     
     return False
+
 ###############################
 
 
 def parse_command(vrule):
     '''
-    Command': [                ('satisfied'),
-                              ('comment', '\"', 'Msg','\"'),
-                              ('warn', '\"', 'Msg', '\"'),
-                              ('error','\"', 'Msg', '\"'),
-                              ('abort', '\"', 'Msg', '\"'),
-                              ('skip', 'N')],
     '''
     
     l_rule = vrule
@@ -744,9 +687,6 @@ def parse_msg(vrule):
 
 def parse_opt(vrule ):
     '''
-    Opt = [  ('>?'),
-         ('Elif'),
-         ('Else')]
 
     '''
     l_rule = vrule
@@ -856,10 +796,16 @@ def parse_else_st(vrule):
 
     return False 
 
+############################################
 
-###############################
 
 def parse_grammar (rulePred):
+    ''' The basic parsing shell function, 
+        makes a copy of the token list in rulePred, 
+        and then feeds it to PARSE_PRED -- if PARSE_PRED returns 
+        successfully, then the tree produced is returned back to PARSE_VOCAB,
+        otherwise, we return False, to indicate that a parse tree failed to be found. 
+    '''
     
     local_copy = rulePred
     
@@ -869,23 +815,112 @@ def parse_grammar (rulePred):
         return pred_tree    #if parses successfully, return the tree
     else:
         return False   #if parses unsuccessfully, return original rule 
-#############################################################
 
+#############################################
+
+
+def tokenize_pred_string(pstring):
+    '''
+    Takes in the predicate string you wish to parse through, 
+    and tokenizes it using the regular expression "Tokens."
+    This is to separate symbols and operators from words and names. 
+    Note that the longest match is desired here and is given preference when 
+    going through the string. 
+    
+    Any whitespace encountered in the string is thrown out, 
+    and if the string is successfully transformed, the list of 
+    tokens is returned; otherwise, an empty list is returned or
+    the program exits. 
+    '''
+    testStr = ''
+    longestStr = ''
+    tokenList = []
+    count = 0
+    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
+   
+    
+    for n in pstring:
+        count += 1
+        if re.match('\s', n):                        #throwout whitespace -- but probs mean new token 
+            if longestStr != '':
+                tokenList.append(longestStr)
+                longestStr = ''                 #clear longest string
+                testStr = ''                    #clear test string 
+            
+        else: 
+            testStr += n
+            
+            if testStr == '=>':
+                if pstring[count] == '>' : #next item in pstring
+                    continue #dont go into block 
+                                    
+                
+            
+            if re.match(tokens, testStr):           #if match regex
+                longestStr = testStr                #try to get longest match,
+                
+                if count == len(pstring):  #have reached last element in string
+                    if re.match(tokens, testStr):
+                        tokenList.append(testStr)
+                    else:                           #couldn't tokenize 
+                        print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                        exit(1)
+                
+            else:                                   #if no match with addt'l char
+                if longestStr != '':                #means have gone too far 
+                    tokenList.append(longestStr)
+                    if re.match(tokens, n):
+                        longestStr = n                    #reset longest 
+                    else: 
+                        longestStr = ''
+                        
+                    testStr = n                         #rest test to curr val
+                    
+                    if count == len(pstring):  #have reached last element in string
+                        if re.match(tokens, testStr):
+                            tokenList.append(testStr)
+                        else:                           #couldn't tokenize 
+                            print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                            exit(1)
+                            
+                            
+                        
+                else:                               #couldn't tokenize 
+                    print >> sys.stderr, 'Failed to tokenize rule with predicate: %s' %(pstring,)
+                    return []
+    
+    #print tokenList
+    return tokenList
+
+
+########################################################
 
 def parse_vocab():
     
-    '''#take in vocab file
-       #read line by line (one rule per line)
+    '''
+    This is the acting main function of the parser, it reads in a given 
+    vocabulary file (exits if not included), then extracts rules/facts from 
+    the file using the method which I found in factotum_entities.py. Next, 
+    using factotum_lex, I pull out the subject and predicate from each line, 
+    and store them in a list of facts -- of the form (subj, pred).  
+    
+    After all this pre-processing, I have a for loop which  iterates through all 
+    these pairs, tokenizes the predicate using  TOKENIZE_PRED_STRING, (note: 
+    if it fails to do so properly, the rule is added to a list of failed facts), 
+    and then feed the resulting list of tokens to PARSE_GRAMMAR.  If PARSE GRAMMAR 
+    succeeds, I put the original rule, followed by it's parse tree into a list of 
+    successfully parsed rules, otherwise, the rule gets aded to the list of failed facts. 
+    
     '''
 
-    #if len(sys.argv) < 2: 
-    #    sys.stderr.write("must include vocabulary (.v) file \n")
-    #    raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
-    #vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('res_lingdata.v', 'r')
+    #vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -894,7 +929,8 @@ def parse_vocab():
     px = []
     
     #sampled from factotum_entities 
-
+    #READ IN LINES 
+    
     while(len(line) > 0):
         my_fact = line[:-1]
         line = ''
@@ -914,6 +950,8 @@ def parse_vocab():
     rule_pred = ''
     parsed_rules = []
     failed_rules = []
+    
+    #GO THROUGH RULES AND PARSE THEM 
     
     for rule in facts:
         
