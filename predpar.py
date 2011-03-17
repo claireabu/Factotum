@@ -50,11 +50,11 @@ vocab_grammar = { 'Start' : ['Pred'],
                                     
                                 ],
                     
-                    'Phrase' : [    
+                    'Phrase' : [    ( 'Obj', Words, 'Phrase' ),
+                                    ( '\"', 'Obj', Words, 'Phrase', '\"', '.' ),
                                     ( 'Obj', Words),
-                                    ('\"', 'Obj', Words, '\"', '.'),
-                                    ( 'Obj', Words, 'Phrase' ),
-                                    ( '\"', 'Obj', Words, 'Phrase', '\"', '.' )
+                                    ('\"', 'Obj', Words, '\"', '.')
+                                    
                                               
                                 ],
                     
@@ -232,84 +232,7 @@ def parseGrammar (rulePred, start_sym):
     
     
 #############################################
-                            
-                                            
-
-#######################################
-def parse_pred(vrule):  
-    '''
-    Uses the grammar listed above.
-    Iterates through items (tuples) in Pred, representing all possible grammar rules.
-    Different actions are taken given different items: 
-        essentially -- if item is nonterminal, there is a separate function we call, 
-                        usually of the format PARSE_ITEM.
-                       if the item is a terminal symbol, we compare tokens to make sure it 
-                       follows and then continue onward. 
-    
-    At the end, either return a completed tree, or return False upon failure at some point 
-    
-    '''
-    
-    l_rule = [] 
-    tree = []
-    
-    for tuple in Pred:
-        tree = []
-        tree.append(['Pred', tuple])
-        l_rule = vrule 
-                
-        for token in tuple:
-            
-            if token == 'Phrase':
-                res_phrase = parse_phrase(l_rule)
-                if res_phrase: 
-                    tree.extend(res_phrase[0])
-                    l_rule = res_phrase[1]
-                    
-                else:
-                    print >> sys.stderr, 'Failed to parse Phrase'
-                    return False 
-            
-            elif token == 'Cond':
-                 res_cond = parse_cond(l_rule)
-                 if res_cond:
-                     tree.extend(res_cond[0])
-                     l_rule = res_cond[1]
-                     
-                 else: 
-                     print >> sys.stderr, 'Failed to parse Cond'
-                     return False
-                        
-            elif token == 'Then':
-                res_then = parse_then(l_rule)
-                if res_then:
-                    tree.extend(res_then[0])
-                    l_rule = res_then[1]
-                else:
-                    print >> sys.stderr, 'Failed to parse Then phrase'
-                    return False 
-    
-            elif token == '.' : #must be at end of tuple as well as rule
-                if l_rule[0] == token and len(l_rule) == 1: #means only 1 item remains in lrule and it's the period! 
-                    #success 
-                    return(tree)
-                else:
-                    break 
-                
-            else: 
-                if token == l_rule[0]: 
-                    
-                    l_rule = l_rule[1:]
-                    
-                       #treeupdate? 
-                    continue 
-                else:
-                    break 
-                
                
-    return False 
- 
- 
 
 
 ###########################################################################
@@ -331,7 +254,7 @@ def tokenize_pred_string(pstring):
     longestStr = ''
     tokenList = []
     count = 0
-    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\])$')
+    tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
    
     
     for n in pstring:
@@ -341,6 +264,13 @@ def tokenize_pred_string(pstring):
                 tokenList.append(longestStr)
                 longestStr = ''                 #clear longest string
                 testStr = ''                    #clear test string 
+            
+        elif re.match('#', n) or re.match('[[]', n): 
+            #if come across comment or citation, ignore it, at the end of fact and it's allowed to be there 
+            if longestStr != '': 
+                tokenList.append(longestStr)
+                return( tokenList, pstring[count:] )
+                
             
         else: 
             testStr += n
@@ -385,7 +315,7 @@ def tokenize_pred_string(pstring):
                     return []
     
     #print tokenList
-    return tokenList
+    return (tokenList, [])
 
 
 ########################################################
@@ -408,14 +338,14 @@ def parse_vocab():
     
     '''
 
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+   # if len(sys.argv) < 2: 
+    #    sys.stderr.write("must include vocabulary (.v) file \n")
+     #   raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-   # vocabfile = open('res_lingdata.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -450,7 +380,10 @@ def parse_vocab():
     
     for rule in facts:
         
-        rule_pred = tokenize_pred_string(rule[1])
+        if rule[1] == '':           #skip any blank lines in vocab file 
+            continue
+        
+        (rule_pred, c) = tokenize_pred_string(rule[1])
         
         if rule_pred == []:
             failed_rules.append(rule)
