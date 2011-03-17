@@ -60,7 +60,8 @@ vocab_grammar = { 'Start' : ['Pred'],
                     
                     
     
-                    'Obj' :     [   ('<' , '>'),
+                    'Obj' :     [   ('<' , '>', 'Obj'),
+                                    ('<', '>'),
                                     ('<' , Label, ':',  '>'),
                                     ('<' , ':', Ttypespec, '>'),
                                     ('<' , Label, ':', Ttypespec, '>'),
@@ -133,12 +134,12 @@ def match_regex (regex, i):
 ######################################################
 
 def parseGrammar (rulePred, start_sym):
-    ''' The basic parsing shell function, 
-        makes a copy of the token list in rulePred, 
-        and then feeds it to PARSE_PRED -- if PARSE_PRED returns 
-        successfully, then the tree produced is returned back to PARSE_VOCAB,
-        otherwise, we return False, to indicate that a parse tree failed to be found. 
+    ''' The main parsing function and is recursive, 
+        makes a copy of the token list in rulePred (stored to local), 
+        and then goes through the global vocab_grammar. 
     '''
+    
+    #if rulePred == []: return False 
     
     local = rulePred
     tree = [] 
@@ -182,25 +183,34 @@ def parseGrammar (rulePred, start_sym):
                                 
                         except KeyError:        #encountered regex/terminal
                             
-                            if  match_regex(token, local[n]):
-                                #add to tree?
-                                    n += 1
-                                    
-                                    for item in Repeat: 
-                                        if token == item: 
-                                            while(match_regex(token, local[n]) and n < len(local)):
-                                                n += 1
-                                            break
+                            if n < len(local):
+                                if  match_regex(token, local[n]):
+                                    #add to tree?
+                                        n += 1
                                         
-                                    if count == len(rtuple) :
-                                        return(tree, local[n:])
-                                     
-                                      
-                                    else: 
-                                        continue 
-                                
-                            else:                       #no tokens don't match in tuple
-                                break                   #break out of token loop, continue to next tuple
+                                        for item in Repeat: 
+                                            if token == item: 
+                                                if n < len(local)-1:
+                                                    while (match_regex(token, local[n])):
+                                                        if n < len(local)-1:
+                                                            n += 1
+                                                        else: 
+                                                            break
+                                                    break
+                                                else:
+                                                    return(tree, local[n:])
+                                            
+                                        if count == len(rtuple) :
+                                            return(tree, local[n:])
+                                         
+                                          
+                                        else: 
+                                            continue 
+                                    
+                                else:                       #no tokens don't match in tuple
+                                    break                   #break out of token loop, continue to next tuple
+                            else:
+                                break
                         
                             
                             
@@ -217,17 +227,31 @@ def parseGrammar (rulePred, start_sym):
                         
                     except KeyError:
                         
-                        if  match_regex(rtuple, local[n]):       
-                             #add to tree?
-                             n += 1
-                             return(tree, local[n:]) 
-                        else:                       #only item in tuple doesn't match 
-                            continue                    #break out of tuple loop
+                        if n < len(local):
+                            if  match_regex(rtuple, local[n]):       
+                                #add to tree?
+                                n += 1
+                                
+                                for item in Repeat:
+                                    if rtuple == item:
+                                        if n < len(local)-1:
+                                            while (match_regex(rtuple, local[n])):
+                                                if n < len(local)-1:
+                                                    n += 1
+                                                else:
+                                                    break
+                                            break
+                                        
+                                        
+                                return(tree, local[n:]) 
+                            
+                            else:                       #only item in tuple doesn't match 
+                                continue                    #break out of tuple loop
                         
             
         
     except KeyError:
-        
+        #regex most likely could not be matched 
         return False 
     
     
@@ -338,14 +362,14 @@ def parse_vocab():
     
     '''
 
-   # if len(sys.argv) < 2: 
-    #    sys.stderr.write("must include vocabulary (.v) file \n")
-     #   raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
-    #vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('test.v', 'r')
+    #vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -396,16 +420,16 @@ def parse_vocab():
         else:
             failed_rules.append(rule)
         
-        for n in parsed_rules:
-            for i in range(len(n)):
-                if i == 2:
-                    for z in n[i]:
-                        print z
-                else:
-                    print n[i]
-            print '\n'
-                    
-        print failed_rules
+    for n in parsed_rules:
+        for i in range(len(n)):
+            if i == 2:
+                for z in n[i]:
+                    print z
+            else:
+                print n[i]
+        print '\n'
+        
+    print failed_rules
         
     return(parsed_rules, failed_rules)
 
