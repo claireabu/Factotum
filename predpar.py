@@ -12,102 +12,112 @@ lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
 
+
 #word
-regex_wrds = re.compile('^[,:.\-_\';0-9a-zA-Z\(\)/]+$')
+Words = re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$')
+EndPhrase = re.compile('[."]')
 
 #objs
-regex_label = re.compile('^[-_0-9a-zA-Z\']+$')
-regex_ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infinity 
-regex_typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
-regex_phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label
+Label = re.compile('^[-_0-9a-zA-Z\']+$')
+Ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infinity 
+Typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
+Phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label
 
 #exp
-regex_exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
-regex_op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
-regex_ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
-regex_tag = re.compile('^[-_0-9a-zA-Z]+$') 
+Exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
+Op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
+Ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
+Tag = re.compile('^[-_0-9a-zA-Z]+$') 
 
 #msg
-regex_msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
+Msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
 
 #N
-regex_n = re.compile('^[0-9]+$')
+N = re.compile('^[0-9]+$')
+
+Repeat = [Words, Msg]
+
               
-Pred =  [   (':=', '\"', 'Phrase', '\"', '.' ),
-            ('-=', '\"', 'Phrase', '\"', '.' ),
-            ('~>', '\"', 'Phrase', '\"', '.'),
-            ('=>>', '\"', 'Phrase', '\"', '.' ),
-            (':=', 'Phrase', '.' ),
-            ('-=', 'Phrase', '.' ),
-            ('~>', 'Phrase', '.'),
-            ('=>>', 'Phrase', '.' ),
-            ('?<', '(', 'Cond', ')', 'Then', '.'), 
-            ('\"', 'Phrase', '\"', '.'),
-            ( 'Phrase', '.')
-        ]
-
-  
-Phrase = [  ( 'Obj', 'Words'),
-            ( 'Obj', 'Words', 'Phrase' )           
-        ]
-    
-Obj =  [('<' , '>'),
-        ('<' , 'label', ':',  '>'),
-        ('<' , ':', 'tokentypespec', '>'),
-        ('<' , 'label', ':', 'tokentypespec', '>'),
-        ('<' , 'type-name', '>'),
-        ('<' , 'label', '=', 'typename', '>'),
-        ('<' , 'phrase-name', '>'),
-        ('<' , 'label', '=', 'phrase-name', '>')
-        ]
-
- #note: not allowing more than one operation per condition 
-Cond = [    ( 'Exp', 'Op', 'Exp' ),
-            ('Ent_rstr', 'Op', 'Exp' ),
-            ('Exp', 'Op', 'Ent_rstr'),
-            ('Ent_rstr', 'Op', 'Ent_rstr'),
-            ('Exp', 'BinOp'),           #binary op
-            ('Ent_rstr', 'BinOp'),         #binary op
-            ('!', 'Exp'),
-            ('!', 'Ent_rstr')
-        ]
-
-
-BinOp = [   ('=[', 'N', ']'),       #minamx (binary op)
-            ('[', 'N', ':', 'N', ']')   #substring (binary op)
-        ]
-
-Ent_rstr = [    ('\\', 'Tag'),
-                ('\\', '$','Ent'),
-                ('\\', '@','Ent'), 
-                ('\\', '*','Tag' ),
-                ('\\', '&','Ent' ),
-                ('\\', '$', 'Tag', ':', 'label'),
-                ('\\', '*', '<', '>', 'Tag', ':', 'label'),
-                ('\\', '<', '>', 'Tag', ':', 'label')
-            ]
-
-Then = [':', 'Command', 'Opt'],
-
-Command = [ ['satisfied'],
-            ('comment', '\"', 'Msg','\"'),
-            ('warn', '\"', 'Msg', '\"'),
-            ('error','\"', 'Msg', '\"'),
-            ('abort', '\"', 'Msg', '\"'),
-            ('skip', 'N')
-            ]
+vocab_grammar = { 'Start' : ['Pred'],
                  
-Opt = [  ('>?'),
-         ('Elif'),
-         ('Else')
-      ]
-                  
-Else =  [':', 'Command', '>?']
-                  
-Elif =  ['?:', '(', 'Cond', ')', 'Then'] #force whitespace between expression and ()
-                  
-                        
-#############################################
+                 'Pred' :  [       
+                                    (':=', 'Phrase' ),
+                                    ('-=', 'Phrase' ),
+                                    ('~>', 'Phrase' ),
+                                    ('=>>', 'Phrase' ),
+                                    ('\?<', '\(', 'Cond', '\)', 'Then', ), 
+                                    ( 'Phrase')
+                                    
+                                ],
+                    
+                    'Phrase' : [    
+                                    ( 'Obj', Words),
+                                    ('\"', 'Obj', Words, '\"', '.'),
+                                    ( 'Obj', Words, 'Phrase' ),
+                                    ( '\"', 'Obj', Words, 'Phrase', '\"', '.' )
+                                              
+                                ],
+                    
+                    
+    
+                    'Obj' :     [   ('<' , '>'),
+                                    ('<' , Label, ':',  '>'),
+                                    ('<' , ':', Ttypespec, '>'),
+                                    ('<' , Label, ':', Ttypespec, '>'),
+                                    ('<' , Typename, '>'),
+                                    ('<' , Label, '=', Typename, '>'),
+                                    ('<' , Phrasename, '>'),
+                                    ('<' , Label, '=', Phrasename, '>')
+                                ], 
+
+                                #note: not allowing more than one operation per condition 
+                    'Cond' :    [   (Exp, Op, Exp ),
+                                    ('Ent_rstr', Op, Exp ),
+                                    (Exp, Op, 'Ent_rstr'),
+                                    ('Ent_rstr', Op, 'Ent_rstr'),
+                                    (Exp, 'BinOp'),           #binary op
+                                    ('Ent_rstr', 'BinOp'),         #binary op
+                                    ('!', Exp),
+                                    ('!', 'Ent_rstr')
+                                ], 
+
+
+                    'BinOp' : [     ('=\[', N, '\]'),       #minamx (binary op)
+                                    ('\[', N, ':', N, '\]')   #substring (binary op)
+                                ],
+
+                    'Ent_rstr' : [  ('\\\\', Tag),
+                                    ('\\\\', '\$', Ent),
+                                    ('\\\\', '@', Ent), 
+                                    ('\\\\', '\*', Tag ),
+                                    ('\\\\', '&', Ent ),
+                                    ('\\\\', '\$', Tag, ':', Label),
+                                    ('\\\\', '\*', '<', '>', Tag, ':', Label),
+                                    ('\\\\', '<', '>', Tag, ':', Label)
+                                ],
+
+                    'Then' :    [(':', 'Command', 'Opt')],
+                    
+                    'Command' : [   ('satisfied'),
+                                    ('comment', '\"', Msg,'\"'),
+                                    ('warn', '\"', Msg, '\"'),
+                                    ('error','\"', Msg, '\"'),
+                                    ('abort', '\"', Msg, '\"'),
+                                    ('skip', N)
+                                ],
+                                     
+                    'Opt' :     [   ('>?'),
+                                    ('Elif'),
+                                    ('Else')
+                                ],
+                                      
+                    'Else' :  [':', 'Command', '>?'],
+                                      
+                    'Elif' :  ['?:', '\(', 'Cond', '\)', 'Then'] #force whitespace between expression and ()
+                    
+                }
+
+############################################
                  
 def match_regex (regex, i):
     '''
@@ -120,6 +130,110 @@ def match_regex (regex, i):
     else:
         return False
                                           
+######################################################
+
+def parseGrammar (rulePred, start_sym):
+    ''' The basic parsing shell function, 
+        makes a copy of the token list in rulePred, 
+        and then feeds it to PARSE_PRED -- if PARSE_PRED returns 
+        successfully, then the tree produced is returned back to PARSE_VOCAB,
+        otherwise, we return False, to indicate that a parse tree failed to be found. 
+    '''
+    
+    local = rulePred
+    tree = [] 
+    key = start_sym
+    rules = []
+    n = 0
+    count = 0
+    
+    try:
+        
+        if vocab_grammar[key]:
+            rules = vocab_grammar[key]
+            
+            for rtuple in rules:
+                
+                tree = []
+                tree.append([key, rtuple])
+                local = rulePred
+                n = 0 
+                count = 0 
+                
+                if  len(rtuple) > 1 and rtuple.__class__ == tuple:   #multiple options in grammar rule 
+                    
+                    for token in rtuple:
+                        count += 1
+                        
+                        try: 
+                            if vocab_grammar[token]: 
+                                res = parseGrammar (local[n:], token)
+                                if res: 
+                                    tree.extend(res[0])
+                                    local = res[1]
+                                                                 
+                                    if count == len(rtuple):
+                                        return (tree, local)
+                                    else: 
+                                        n = 0
+                                    
+                                else: 
+                                    break
+                                
+                        except KeyError:        #encountered regex/terminal
+                            
+                            if  match_regex(token, local[n]):
+                                #add to tree?
+                                    n += 1
+                                    
+                                    for item in Repeat: 
+                                        if token == item: 
+                                            while(match_regex(token, local[n]) and n < len(local)):
+                                                n += 1
+                                            break
+                                        
+                                    if count == len(rtuple) :
+                                        return(tree, local[n:])
+                                     
+                                      
+                                    else: 
+                                        continue 
+                                
+                            else:                       #no tokens don't match in tuple
+                                break                   #break out of token loop, continue to next tuple
+                        
+                            
+                            
+                else: ####Only one item-- don't want to iterate thru the string 
+                    try:
+                        if vocab_grammar[rtuple]:
+                            res = parseGrammar(local[n:], rtuple)
+                            if res:
+                                tree.extend(res[0])
+                                local = res[1]
+                                return(tree, local)
+                        else:
+                            return False
+                        
+                    except KeyError:
+                        
+                        if  match_regex(rtuple, local[n]):       
+                             #add to tree?
+                             n += 1
+                             return(tree, local[n:]) 
+                        else:                       #only item in tuple doesn't match 
+                            continue                    #break out of tuple loop
+                        
+            
+        
+    except KeyError:
+        
+        return False 
+    
+    
+#############################################
+                            
+                                            
 
 #######################################
 def parse_pred(vrule):  
@@ -196,625 +310,9 @@ def parse_pred(vrule):
     return False 
  
  
-#############################
 
 
-def parse_phrase(vrule):
-    
-    l_rule = vrule
-    res_obj = []
-    res_word = []
-    res_phrase = []
-    tree = []
-        
-    for phrase_tuple in Phrase:         #go through possible phrase grammar
-        
-        tree = [] #automatically resets tree --- means previous tuple failed and so we need to start over 
-        tree.append(['Phrase', phrase_tuple])
-        l_rule = vrule                 #have to rest to beginning of rule 
-        
-        for token in phrase_tuple:      #go through tokens in the grammar rule
-        
-            if token == 'Obj':
-                res_obj = parse_obj(l_rule)
-                if res_obj:                 #means that obj parsed fine
-                    tree.extend(res_obj[0])
-                    l_rule = res_obj[1]
-                else:
-                    break
-                
-            elif token == 'Words':                  #regex match words?
-                res_word = parse_words(l_rule)          #check: either return true: continue & update lrule 
-                if res_word:
-                    tree.extend(res_word[0])
-                    l_rule = res_word[1]
-                    if l_rule[0] == '<':
-                        continue 
-                    else: 
-                        return (tree, l_rule)
-                else:
-                    break
-            
-            elif token == 'Phrase':
-                res_phrase = parse_phrase(l_rule)
-                if res_phrase:
-                    tree.extend(res_phrase[0])
-                    l_rule = res_phrase[1]
-                    return (tree, l_rule)
-                    
-                else:
-                    break
-            
-    return False  
-    
-###############################
-
-def parse_obj(vrule):
-    '''
-    go through options for Obj (global) -- 
-    use regex to match label, ttypespec, phrase name and type name, 
-    otherwise make sure symbols (< , >, : , =) match up
-    
-    if successful: returns a mini tree and where everything should be in the rule
-    if no tuple returns a successful parse: return False 
-    '''
-    l_rule = vrule 
-    n = 0
-    tree = []
-    
-    for tuple in Obj:                       #iterate through possible tuples 
-        
-        #automatically resets tree --- means previous tuple failed and so we need to start over
-        tree = []
-        tree.append(['Obj', tuple]) 
-        n = 0           #reset for every new tuple encountered 
-        
-        for token in tuple:                 #go through tokens in each tuple 
-            
-                if token == 'label':                    #match regex label
-                    if match_regex (regex_label, l_rule[n]):
-                        tree.append([token, l_rule[n]])
-                        n += 1                              #good
-                        continue                            #carry on
-                    else:
-                        break 
-                    
-                elif token == 'tokentypespec':                          #match regex tokentypespc 
-                    if match_regex (regex_ttypespec, l_rule[n]):
-                        tree.append([token, l_rule[n]])
-                        n += 1                              #good
-                        continue                            #carry on
-                    else:
-                        break
-                    
-                elif token == 'type-name':                #match regex typename
-                    if match_regex (regex_typename, l_rule[n]):
-                        tree.append([token, l_rule[n]])
-                        n += 1                              #good
-                        continue                            #carry on
-                    else:
-                        break
-                    
-                elif token == 'phrase-name':        #match regex phrase name
-                    if match_regex (regex_phrasename, l_rule[n]):
-                        tree.append([token, l_rule[n]])
-                        n += 1                              #good
-                        continue                            #carry on
-                    else:
-                        break
-                    
-                elif token == '>' and l_rule[n] == token: #have reached the end of the obj! 
-                    
-                    if tuple == ('<' , '>') and n != len(l_rule)-1: #have option of a following object
-                        res = parse_obj(l_rule[n+1:])
-                        if res:
-                            tree.extend(res[0])
-                            l_rule = res[1]
-                            return (tree, l_rule)
-                        else:
-                            return (tree, l_rule[n+1:])
-                    else:
-                        return (tree, l_rule[n+1:])
-                
-                elif token == l_rule[n]:        #token matches l_rule  '<'
-                    #tree.append(token,n)??
-                    n += 1
-                    continue 
-                else: 
-                    break 
-                    
-    
-    #print >> sys.stderr, 'Failed to parse Object'            
-    return False            #means, have gone through all tuples and not once returned successfully
-
-
-
-
-
-###########################################
-
-def parse_words(vrule):
-    #go through tokens checking if word until hit period, quote, or < 
-    l_rule = vrule 
-    tree =[]
-    min_one = False 
-      
-    for n in l_rule:
-        
-        if n == '<' or n == '\"':   
-            if min_one: 
-                l_rule = l_rule[l_rule.index(n):]
-                return (tree, l_rule)
-            else: 
-                #means already obj without even one word 
-                print >> sys.stderr, 'Failed to have relational tokens between objects '
-                return False 
-        
-        elif n == '.':
-             if l_rule.index(n) != len(l_rule)-1 and l_rule[l_rule.index(n)+1]== '\"':
-                 tree.append(['Words', n])
-                 l_rule = l_rule[l_rule.index(n)+1:]
-                 return (tree, l_rule)
-             else:
-                l_rule = l_rule[l_rule.index(n):]
-                return (tree, l_rule)
-            
-        elif match_regex(regex_wrds, n):
-            tree.append(['Words', n])
-            min_one = True 
-             
-        else: 
-            print >> sys.stderr, '%s is not an allowed relation token' % (n, )
-            return False 
-   
-###############################
-
-
-def parse_cond(vrule):
-    
-    l_rule = vrule 
-    tree = []
-    n = 0
-    cond_count = 0
-    
-    for tuple in Cond:
-        tree = []
-        tree.append(['Cond', tuple])
-        l_rule = vrule
-        n = 0 
-        cond_count = 0
-        
-        for token in tuple:
-            
-            if token == 'Exp':
-                if match_regex(regex_exp, l_rule[n]):
-                    tree.append([token, l_rule[n]])
-                    n += 1
-                    cond_count += 1
-                    
-                    if cond_count == 3 and l_rule[n] == ')': #should be at end of expression 
-                        return (tree, l_rule[n:])
-                    else: 
-                        break #fail
-                     
-                else:           #Expression failed to match 
-                    break
-                
-            elif token == 'Ent_rstr':
-                res_ent = parse_ent_rstr(l_rule[n:])
-                if res_ent: 
-                    tree.extend(res_ent[0])
-                    l_rule = res_ent[1]
-                    n = 0 
-                    cond_count += 1
-                else: 
-                    break
-                
-                if cond_count == 3 and l_rule[n] == ')': #should be at end of expression 
-                        return (tree, l_rule[n:])
-                elif cond_count < 3:
-                    continue 
-                else:
-                    break #fail
-                  
-                             
-            elif token == 'Op':
-                if match_regex(regex_op, l_rule[n]):
-                    tree.append([token, l_rule[n]])
-                    n += 1
-                    cond_count += 1
-                else:
-                    break 
-                
-            elif token == 'BinOp':
-                res_binop = parse_binop(l_rule[n:])
-                
-                if res_binop: 
-                    tree.extend(res_binop[0])
-                    l_rule = res_binop[1]
-                    n = 0 
-                    
-                    if l_rule[n] == ')':        #next item should be ), indicating end of expr 
-                        return(tree, l_rule[n:])
-                    else:
-                        break  
-                else: 
-                    break 
-            elif token == l_rule[n]:
-                n += 1
-                cond_count += 2     #can have only 1 element after it 
-                continue 
-            else:
-                break 
-    return False 
-    
-
-            
-############################
-
-def parse_binop(vrule):
-    l_rule = vrule 
-    tree = []
-    i = 0
-    
-    for tuple in BinOp:
-        tree = []
-        tree.append(['Binop', tuple])
-        l_rule = vrule 
-        i = 0
-        
-        for token in tuple: 
-            
-            if token == 'N':
-                if match_regex(regex_n, l_rule[i] ):
-                    tree.append([token, l_rule[i]])
-                    i += 1
-                    continue
-                else: 
-                    break 
-                
-            elif token == ']' and token == l_rule[i]: #have reached end of binop! 
-                return(tree, l_rule[i+1:])
-            
-            elif token == l_rule[i]:
-                i+=1
-                continue 
-            else:
-                break 
-        
-
-    return False   
-        
-    
-
-###############################
-
-
-def parse_ent_rstr(vrule):
-    l_rule = vrule
-    tree = []
-    n = 0
-    count = 0
-    
-    for tuple in Ent_rstr:
-        tree = []
-        tree.append(['Ent_rstr', tuple])
-        l_rule = vrule
-        n = 0
-        count = 0
-        
-        for token in tuple:
-            
-            count += 1
-            
-            if token == 'Tag':
-                if match_regex(regex_tag, l_rule[n]):
-                    tree.append([token, l_rule[n]])
-                    n+=1  
-                else:
-                    break 
-                
-            elif token == 'Ent':
-                if match_regex(regex_ent, l_rule[n]):
-                    tree.append([token, l_rule[n]])
-                    n+=1
-                else:
-                    break 
-                
-            elif token == 'label':
-                if match_regex(regex_label, l_rule[n]):
-                    tree.append([token, l_rule[n]])
-                    n += 1
-                else:
-                    break 
-                
-            else:
-                if token == l_rule[n]:
-                    n+=1
-                else:
-                    break 
-                
-            if count == len(tuple):
-                
-                return (tree, l_rule[n:])
-            
-            
-                
-    return False
-
-###########################
-
-
-def parse_then(vrule):
-    '''
-    Then = [(':', 'Command', 'Opt')],
-    '''
-    l_rule = vrule
-    tree = []
-    n = 0
-    
-    for tuple in Then:
-        tree.append(['Then', tuple ] ) 
-        
-        for token in tuple:
-            
-            if token == 'Command':
-                res_c = parse_command(l_rule[n:])
-                if res_c:
-                    tree.extend(res_c[0])
-                    l_rule = res_c[1]
-                    n = 0 
-                else:
-                    break
-            
-            elif token == 'Opt': 
-                 res_opt = parse_opt(l_rule[n:])
-                 if res_opt:
-                     tree.extend(res_opt[0])
-                     l_rule = res_opt[1]
-                     n = 0
-                     return (tree, l_rule)
-                 else: 
-                     break 
-                 
-            elif token == l_rule[n]: 
-                n += 1
-                continue 
-            
-            else:
-                break 
-    
-    return False
-
-###############################
-
-
-def parse_command(vrule):
-    '''
-    '''
-    
-    l_rule = vrule
-    tree = []
-    n = 0
-    quote_encountered = False
-    
-    for tuple in Command:
-        tree = []
-        tree.append(['Command', tuple])
-        l_rule = vrule 
-        n = 0 
-        
-        for token in tuple: 
-            
-            if token == 'Msg':
-                res_msg = parse_msg(l_rule[n:])
-                if res_msg: 
-                    tree.extend(res_msg[0])
-                    l_rule = res_msg[1]
-                    n = 0
-                else:
-                    break 
-                   
-            elif token == 'N':
-                
-                if match_regex(regex_n, l_rule[n]):
-                    tree.append(['N', l_rule[n]])
-                    return(tree, l_rule)
-                else:
-                    break 
-                
-            
-            elif l_rule[n] == token: 
-                
-                n += 1
-                
-                if token == '"':
-                    if quote_encountered:
-                        return (tree, l_rule[n:])               #already advanced n
-                    else:
-                        quote_encountered = True
-                        
-                elif token == 'satisfied':
-                    return (tree, l_rule[n:])               #already advanced n         
-                
-                else: 
-                    continue 
-                
-            else:
-                
-                break
-                
-                
-             
-    print >> sys.stderr, 'Failed to match Command: %s' %(l_rule[n], )
-    return False 
-    
-###############################
-
-
-def parse_msg(vrule):
-    
-    l_rule = vrule 
-    tree =[]
-    min_one = False
-    
-    for n in l_rule:
-        
-        if n == '\"':
-            if min_one:
-                l_rule = l_rule[l_rule.index(n):]
-                return (tree, l_rule)
-            else:
-                print >> sys.stderr, "Please include a message with command \n"
-                break 
-        
-        elif match_regex(regex_msg, n):
-            tree.append(['Msg', n])
-            min_one = True 
-            continue 
-        
-        else:
-            print >> sys.stderr, "Message failed to follow standard format \n"
-            break 
-            
-    
-    
-    return False 
-###############################
-
-def parse_opt(vrule ):
-    '''
-
-    '''
-    l_rule = vrule
-    tree = []
-    
-    for token in Opt:
-        tree = []
-        tree.append(['Opt', token])
-        l_rule = vrule
-        
-        if token == 'Elif':
-            res_elif = parse_elif_st(l_rule)
-            if res_elif:
-                tree.extend(res_elif[0])
-                l_rule = res_elif[1]
-                return (tree, l_rule)
-            
-            else:
-                continue 
-            
-        elif token == 'Else':
-            res_else = parse_else_st(l_rule)
-            if res_else:
-                tree.extend(res_else[0])
-                l_rule = res_else[1]
-                return (tree, l_rule)
-            
-        elif l_rule[0] == token: #>?'
-            
-            return (tree, l_rule[1:])
-            
-        
-            
-    return False 
-
-###############################
-
-def parse_elif_st(vrule):
-    '''
-    Elif =  ['?:', '(', 'Cond', ')', 'Then']
-    '''
-    l_rule = vrule
-    tree = []
-    tree.append(['Elif', tuple(Elif)])
-    
-    for token in Elif: 
-        
-        if token == 'Cond':
-            res_cond = parse_cond(l_rule)
-            if res_cond: 
-                tree.extend(res_cond[0])
-                l_rule = res_cond[1]
-                continue 
-            else:
-                break 
-                
-        elif token == 'Then':
-            res_then = parse_then(l_rule)
-            if res_then:
-                tree.extend(res_then[0])
-                l_rule = res_then[1]
-                return (tree, l_rule  )
-            else: 
-                
-                break 
-            
-        elif l_rule[0] == token:
-            l_rule = l_rule[1:]
-            continue 
-        
-        else: 
-            break 
-
-    return False 
-
-
-###############################
-def parse_else_st(vrule):
-    '''
-    Else =  [':', 'Command', '>?'],
-    '''
-    l_rule = vrule
-    tree = []
-    tree.append(['Else', Else])
-    
-    for token in Else: 
-        
-        if token == 'Command':
-            res_cmd = parse_command(l_rule)
-            if res_cmd: 
-                tree.extend(res_cmd[0])
-                l_rule = res_cmd[1]
-                continue 
-            else:
-                break 
-            
-        elif l_rule[0] == token:
-            l_rule = l_rule[1:]
-            
-            if token == '>?':
-                return (tree, l_rule)
-            
-            continue 
-        
-        else: 
-            break 
-
-    return False 
-
-############################################
-
-
-def parse_grammar (rulePred):
-    ''' The basic parsing shell function, 
-        makes a copy of the token list in rulePred, 
-        and then feeds it to PARSE_PRED -- if PARSE_PRED returns 
-        successfully, then the tree produced is returned back to PARSE_VOCAB,
-        otherwise, we return False, to indicate that a parse tree failed to be found. 
-    '''
-    
-    local_copy = rulePred
-    
-    pred_tree = parse_pred(local_copy)
-    
-    if pred_tree:
-        return pred_tree    #if parses successfully, return the tree
-    else:
-        return False   #if parses unsuccessfully, return original rule 
-
-#############################################
-
+###########################################################################
 
 def tokenize_pred_string(pstring):
     '''
@@ -917,7 +415,7 @@ def parse_vocab():
     
     vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('res_lingdata.v', 'r')
+   # vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -958,16 +456,23 @@ def parse_vocab():
             failed_rules.append(rule)
             continue 
         
-        rule_parse =  parse_grammar(rule_pred)
+        rule_parse =  parseGrammar(rule_pred, 'Start')
         
         if rule_parse:                   #if true, means parsed successfully 
-            parsed_rules.append([rule[0], rule[1], rule_parse])
+            parsed_rules.append([rule[0], rule[1], rule_parse[0]])
         else:
             failed_rules.append(rule)
         
         for n in parsed_rules:
-            print n
+            for i in range(len(n)):
+                if i == 2:
+                    for z in n[i]:
+                        print z
+                else:
+                    print n[i]
             print '\n'
+                    
+        print failed_rules
         
     return(parsed_rules, failed_rules)
 
