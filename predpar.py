@@ -42,8 +42,15 @@ vocab_grammar = { 'Start' : ['Pred'],
                     
                     'Phrase' : [    ( 'Obj', 'Words', 'Phrase' ),
                                     ( '\"', 'Obj', 'Words', 'Phrase', '\"', '.' ),
+                                    ( '\"', 'Obj', 'Words', 'Phrase', '\"'),
                                     ( 'Obj', 'Words'),
-                                    ('\"', 'Obj', 'Words', '\"', '.')         
+                                    ('\"', 'Obj', 'Words', '\"', '.'),
+                                    ('\"', 'Obj', 'Words', '\"'),
+                                    ('\"', 'Words', 'Phrase', '\"', '.'),
+                                    ('\"', 'Words', 'Phrase', '\"'),
+                                    ('\"', 'Words', '\"', '.'),
+                                    ('\"', 'Words', '\"'),
+                                    ('Words'), 
                                 ],
                     
                     'Obj' :     [   ('<' , '>', 'Obj'),
@@ -103,6 +110,8 @@ vocab_grammar = { 'Start' : ['Pred'],
                     'Elif' :  ['?:', '\(', 'Cond', '\)', 'Then'] #force whitespace between expression and ()
                     
                 }
+
+Pass_thru = 0 
 
 ############################################
                  
@@ -262,10 +271,12 @@ def parseGrammar (rulePred, start_sym):
                                         
                                         if count == len(rtuple) :
                                             return(tree, local[n:])
-                                        else: 
-                                            continue 
-                                    else: 
-                                        break
+                                        else:
+                                            continue
+                                    
+                                    else:
+                                        break 
+                                       
                                     
                             else:                       #no tokens don't match in tuple
                                  break                   #break out of token loop, continue to next tuple
@@ -288,25 +299,47 @@ def parseGrammar (rulePred, start_sym):
                     except KeyError:
                         
                         if n < len(local):
-                            if  match_regex(rtuple, local[n]):       
-                                #add to tree?
-                                n += 1
+                            
+                            if check_regex(rtuple):
+                                pattern = regex_dict[rtuple]
                                 
-                                for item in Repeat:
-                                    if rtuple == item:
+                                if match_regex(pattern, local[n]):
+                                    if check_repeat(rtuple):
+                                        re = []
+                                        
                                         if n < len(local)-1:
-                                            while (match_regex(rtuple, local[n])):
+                                            while (match_regex(pattern, local[n])):
+                                                re.append(local[n])
                                                 if n < len(local)-1:
                                                     n += 1
                                                 else:
                                                     break
-                                            break
+                                            
+                                            tree.append([rtuple, re])
+                                            return(tree, local[n:])
                                         
+                                        #else:
+                                       #     tree.append([rtuple, local[n]])
+                                        #    n += 1
+                                         #   return(tree, local[n:])
+                                            
                                         
-                                return(tree, local[n:]) 
+                                    else: #not in repeat
+                                        tree.append([rtuple, local[n]])
+                                        n += 1
+                                        return(tree, local[n:])
+                                    
+                                        
+                                    
+                            else:   #not in the regex list, just a symbol match
+                                
+                                if match_regex(rtuple, local[n]):
+                                    n+=1
+                                    return(tree, local[n:])
+                                
                             
-                            else:                       #only item in tuple doesn't match 
-                                continue                    #break out of tuple loop
+                        else:                       #only item in tuple doesn't match 
+                            break                    #break out of tuple loop
                         
             
         
