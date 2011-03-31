@@ -12,36 +12,26 @@ lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
 
+regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'), 
+                'Label':    re.compile('^[-_0-9a-zA-Z\']+$'),
+                'Ttypespec': re.compile('^[-_0-9a-zA-Z\'\?.,;]+$'),
+                'Typename':  re.compile('^[-_0-9a-zA-Z\']+$'), 
+                'Phrasename': re.compile('^[-_0-9a-zA-Z\']+$'),
+                'Exp':  re.compile('^[a-zA-Z]+$|^[0-9]+$'),      #numbers or strings 
+                'Op':   re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$'), #left out # <label>, {label} 
+                'Ent':  re.compile('^([-_0-9a-zA-Z]+| \D+)$'),
+                'Tag':  re.compile('^[-_0-9a-zA-Z]+$'),
+                'Msg':  re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' ),
+                'N':    re.compile('^[0-9]+$')
+              }
 
-#word
-Words = re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$')
-EndPhrase = re.compile('[."]')
 
-#objs
-Label = re.compile('^[-_0-9a-zA-Z\']+$')
-Ttypespec = re.compile('^[-_0-9a-zA-Z\'\?.,;]+$')     #note: left out infinity 
-Typename = re.compile('^[-_0-9a-zA-Z\']+$')           #couldn't find def: used same as label 
-Phrasename = re.compile('^[-_0-9a-zA-Z\']+$')         #couldn't find def: used same as label
-
-#exp
-Exp = re.compile('^[a-zA-Z]+$|^[0-9]+$')      #numbers or strings 
-Op = re.compile('^([+]|-|[*]|/|%|=|!=|<=|>=|<|>|&|[|]|[||]|&&)$') #left out # <label>, {label} 
-Ent = re.compile('^([-_0-9a-zA-Z]+| \D+)$')          
-Tag = re.compile('^[-_0-9a-zA-Z]+$') 
-
-#msg
-Msg = re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' )
-
-#N
-N = re.compile('^[0-9]+$')
-
-Repeat = [Words, Msg]
+Repeat = ['Words', 'Msg']
 
               
 vocab_grammar = { 'Start' : ['Pred'],
                  
-                 'Pred' :  [       
-                                    (':=', 'Phrase' ),
+                 'Pred' :  [        (':=', 'Phrase' ),
                                     ('-=', 'Phrase' ),
                                     ('~>', 'Phrase' ),
                                     ('=>>', 'Phrase' ),
@@ -50,61 +40,57 @@ vocab_grammar = { 'Start' : ['Pred'],
                                     
                                 ],
                     
-                    'Phrase' : [    ( 'Obj', Words, 'Phrase' ),
-                                    ( '\"', 'Obj', Words, 'Phrase', '\"', '.' ),
-                                    ( 'Obj', Words),
-                                    ('\"', 'Obj', Words, '\"', '.')
-                                    
-                                              
+                    'Phrase' : [    ( 'Obj', 'Words', 'Phrase' ),
+                                    ( '\"', 'Obj', 'Words', 'Phrase', '\"', '.' ),
+                                    ( 'Obj', 'Words'),
+                                    ('\"', 'Obj', 'Words', '\"', '.')         
                                 ],
                     
-                    
-    
                     'Obj' :     [   ('<' , '>', 'Obj'),
                                     ('<', '>'),
-                                    ('<' , Label, ':',  '>'),
-                                    ('<' , ':', Ttypespec, '>'),
-                                    ('<' , Label, ':', Ttypespec, '>'),
-                                    ('<' , Typename, '>'),
-                                    ('<' , Label, '=', Typename, '>'),
-                                    ('<' , Phrasename, '>'),
-                                    ('<' , Label, '=', Phrasename, '>')
+                                    ('<' , 'Label', ':',  '>'),
+                                    ('<' , ':', 'Ttypespec', '>'),
+                                    ('<' , 'Label', ':', 'Ttypespec', '>'),
+                                    ('<' , 'Typename', '>'),
+                                    ('<' , 'Label', '=', 'Typename', '>'),
+                                    ('<' , 'Phrasename', '>'),
+                                    ('<' , 'Label', '=', 'Phrasename', '>')
                                 ], 
 
                                 #note: not allowing more than one operation per condition 
-                    'Cond' :    [   (Exp, Op, Exp ),
-                                    ('Ent_rstr', Op, Exp ),
-                                    (Exp, Op, 'Ent_rstr'),
-                                    ('Ent_rstr', Op, 'Ent_rstr'),
-                                    (Exp, 'BinOp'),           #binary op
+                    'Cond' :    [   ('Exp', 'Op', 'Exp' ),
+                                    ('Ent_rstr', 'Op', 'Exp' ),
+                                    ('Exp', 'Op', 'Ent_rstr'),
+                                    ('Ent_rstr', 'Op', 'Ent_rstr'),
+                                    ('Exp', 'BinOp'),           #binary op
                                     ('Ent_rstr', 'BinOp'),         #binary op
-                                    ('!', Exp),
+                                    ('!', 'Exp'),
                                     ('!', 'Ent_rstr')
                                 ], 
 
 
-                    'BinOp' : [     ('=\[', N, '\]'),       #minamx (binary op)
-                                    ('\[', N, ':', N, '\]')   #substring (binary op)
+                    'BinOp' : [     ('=\[', 'N', '\]'),       #minamx (binary op)
+                                    ('\[', 'N', ':', 'N', '\]')   #substring (binary op)
                                 ],
 
-                    'Ent_rstr' : [  ('\\\\', Tag),
-                                    ('\\\\', '\$', Ent),
-                                    ('\\\\', '@', Ent), 
-                                    ('\\\\', '\*', Tag ),
-                                    ('\\\\', '&', Ent ),
-                                    ('\\\\', '\$', Tag, ':', Label),
-                                    ('\\\\', '\*', '<', '>', Tag, ':', Label),
-                                    ('\\\\', '<', '>', Tag, ':', Label)
+                    'Ent_rstr' : [  ('\\\\', 'Tag'),
+                                    ('\\\\', '\$', 'Ent'),
+                                    ('\\\\', '@', 'Ent'), 
+                                    ('\\\\', '\*', 'Tag' ),
+                                    ('\\\\', '&', 'Ent' ),
+                                    ('\\\\', '\$', 'Tag', ':', 'Label'),
+                                    ('\\\\', '\*', '<', '>', 'Tag', ':', 'Label'),
+                                    ('\\\\', '<', '>', 'Tag', ':', 'Label')
                                 ],
 
                     'Then' :    [(':', 'Command', 'Opt')],
                     
                     'Command' : [   ('satisfied'),
-                                    ('comment', '\"', Msg,'\"'),
-                                    ('warn', '\"', Msg, '\"'),
-                                    ('error','\"', Msg, '\"'),
-                                    ('abort', '\"', Msg, '\"'),
-                                    ('skip', N)
+                                    ('comment', '\"', 'Msg','\"'),
+                                    ('warn', '\"', 'Msg', '\"'),
+                                    ('error','\"', 'Msg', '\"'),
+                                    ('abort', '\"', 'Msg', '\"'),
+                                    ('skip', 'N')
                                 ],
                                      
                     'Opt' :     [   ('>?'),
@@ -133,6 +119,49 @@ def match_regex (regex, i):
                                           
 ######################################################
 
+def check_regex(item):
+    '''
+    Helper function, checks if it is a specified pattern as defined in the 
+    regex dictionary(True), or just a simple symbol match(False) 
+    '''
+    try:
+        if regex_dict[item]:
+            return True
+    except KeyError: 
+        return False
+
+
+#########################################################
+
+def check_repeat(item):
+    '''
+    Helper function, checks if a given regex is in the repeat area
+    '''
+    
+    for x in Repeat:
+        if item == x: 
+            return True
+    
+    return False 
+
+##################################################################
+
+def compile_repeat(n, local, token, tree):
+    
+    #while still items in vocab rule we're checking
+        #check if item matches regex description 
+            #yes: add to list, advance one 
+        
+        
+    
+    pass
+
+
+
+
+
+##############################################################
+    
 def parseGrammar (rulePred, start_sym):
     ''' The main parsing function and is recursive, 
         makes a copy of the token list in rulePred (stored to local), 
@@ -184,33 +213,64 @@ def parseGrammar (rulePred, start_sym):
                         except KeyError:        #encountered regex/terminal
                             
                             if n < len(local):
-                                if  match_regex(token, local[n]):
-                                    #add to tree?
-                                        n += 1
+                                
+                                if check_regex(token):
+                                    
+                                    pattern = regex_dict[token]
+                                    
+                                    if match_regex(pattern, local[n]):
                                         
-                                        for item in Repeat: 
-                                            if token == item: 
-                                                if n < len(local)-1:
-                                                    while (match_regex(token, local[n])):
-                                                        if n < len(local)-1:
-                                                            n += 1
-                                                        else: 
-                                                            break
-                                                    break
-                                                else:
-                                                    return(tree, local[n:])
+                                        
+                                        if check_repeat(token):
                                             
+                                            re = []
+                                            
+                                            if n < len(local)-1:
+                                                
+                                                while (match_regex(pattern, local[n])):
+                                                    re.append(local[n])
+                                                    if n < len(local)-1:
+                                                        n += 1
+                                                    else: 
+                                                        break
+                                                    
+                                                tree.append([token, re])
+                                                
+                                                if count == len(rtuple) :
+                                                    return(tree, local[n:])
+                                                else: 
+                                                    continue
+                                                
+                                            
+                                        else: #not in repeat
+                                            
+                                            tree.append([token, local[n]])
+                                            n += 1
+                                            
+                                            if count == len(rtuple) :
+                                                return(tree, local[n:])
+                                            else: 
+                                                continue
+                                    
+                                    else:
+                                        break    
+
+                                else:   #not in the regex list, just a symbol match 
+                                    
+                                    if match_regex(token, local[n]): 
+                                        n+=1
+                                        
                                         if count == len(rtuple) :
                                             return(tree, local[n:])
-                                         
-                                          
                                         else: 
                                             continue 
+                                    else: 
+                                        break
                                     
-                                else:                       #no tokens don't match in tuple
-                                    break                   #break out of token loop, continue to next tuple
-                            else:
-                                break
+                            else:                       #no tokens don't match in tuple
+                                 break                   #break out of token loop, continue to next tuple
+                            
+                            
                         
                             
                             
@@ -362,14 +422,14 @@ def parse_vocab():
     
     '''
 
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+    #if len(sys.argv) < 2: 
+     #   sys.stderr.write("must include vocabulary (.v) file \n")
+      #  raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('res_lingdata.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
