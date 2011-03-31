@@ -11,6 +11,8 @@ import factotum_globals
 lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
+PassedThru = 0
+
 
 regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'), 
                 'Label':    re.compile('^[-_0-9a-zA-Z\']+$'),
@@ -111,7 +113,7 @@ vocab_grammar = { 'Start' : ['Pred'],
                     
                 }
 
-Pass_thru = 0 
+
 
 ############################################
                  
@@ -155,21 +157,19 @@ def check_repeat(item):
 
 ##################################################################
 
-def compile_repeat(n, local, token, tree):
+def check_end(n, local):
     
-    #while still items in vocab rule we're checking
-        #check if item matches regex description 
-            #yes: add to list, advance one 
-        
-        
-    
-    pass
-
-
-
-
+    if n == len(local) - 1:
+        return True
+    else:
+        return False 
 
 ##############################################################
+
+#def second_pass_parsing():
+ #     pass
+
+######################################################
     
 def parseGrammar (rulePred, start_sym):
     ''' The main parsing function and is recursive, 
@@ -186,6 +186,9 @@ def parseGrammar (rulePred, start_sym):
     n = 0
     count = 0
     
+   # if PassedThru == 1: 
+    #    second_pass_parsing()
+        
     try:
         
         if vocab_grammar[key]:
@@ -212,6 +215,11 @@ def parseGrammar (rulePred, start_sym):
                                     local = res[1]
                                                                  
                                     if count == len(rtuple):
+                                        
+                                        if check_end(n, local) and  PassedThru == 0: 
+                                                global PassedThru 
+                                                PassedThru = 1 
+        
                                         return (tree, local)
                                     else: 
                                         n = 0
@@ -269,7 +277,7 @@ def parseGrammar (rulePred, start_sym):
                                     if match_regex(token, local[n]): 
                                         n+=1
                                         
-                                        if count == len(rtuple) :
+                                        if count == len(rtuple):
                                             return(tree, local[n:])
                                         else:
                                             continue
@@ -350,6 +358,33 @@ def parseGrammar (rulePred, start_sym):
     
 #############################################
                
+def create_new_dict(allrules):
+    
+    new_dict = {}
+    count = 0 
+    
+    for item in allrules: 
+        key = item[0]
+        try:
+            if new_dict[key]:
+                
+                for entry in new_dict[key]:
+                    count += 1
+                    if entry == item[1:]:
+                        break #don't add repeat defintions
+                    elif count < len(new_dict[key]):
+                        new_dict[key].append(item[1:])
+                
+        except KeyError:
+            
+            new_dict[key] = [item[1:]]
+    
+    
+    return new_dict 
+                        
+        
+    
+    
 
 
 ###########################################################################
@@ -386,8 +421,8 @@ def tokenize_pred_string(pstring):
             #if come across comment or citation, ignore it, at the end of fact and it's allowed to be there 
             if longestStr != '': 
                 tokenList.append(longestStr)
-                return( tokenList, pstring[count:] )
-                
+                return ( tokenList, pstring[count:] )
+                            
             
         else: 
             testStr += n
@@ -455,14 +490,14 @@ def parse_vocab():
     
     '''
 
-    #if len(sys.argv) < 2: 
-     #   sys.stderr.write("must include vocabulary (.v) file \n")
-      #  raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
-    #vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('test.v', 'r')
+    #vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -492,6 +527,7 @@ def parse_vocab():
     rule_pred = ''
     parsed_rules = []
     failed_rules = []
+    entries = []
     
     #GO THROUGH RULES AND PARSE THEM 
     
@@ -506,25 +542,35 @@ def parse_vocab():
             failed_rules.append(rule)
             continue 
         
+        global PassedThru 
+        PassedThru = 0
         rule_parse =  parseGrammar(rule_pred, 'Start')
         
         if rule_parse:                   #if true, means parsed successfully 
             parsed_rules.append([rule[0], rule[1], rule_parse[0]])
+            entries.extend(rule_parse[0])
         else:
             failed_rules.append(rule)
-        
+    
+    
+    new_dict = create_new_dict(entries)
+       
     for n in parsed_rules:
         for i in range(len(n)):
             if i == 2:
                 for z in n[i]:
-                    print z
+                   print z
             else:
                 print n[i]
         print '\n'
         
     print failed_rules
+  
+    #for x in new_dict: 
+    #        print (x, y)
+    #
         
-    return(parsed_rules, failed_rules)
+    return(parsed_rules, failed_rules, new_dict)
 
 #########################################################
 
