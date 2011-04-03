@@ -31,85 +31,85 @@ regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'),
 Repeat = ['Words', 'Msg']
 
               
-vocab_grammar = { 'Start' : ['Pred'],
+vocab_grammar = { 'Start' : [['Pred']],
                  
-                 'Pred' :  [        (':=', 'Phrase' ),
-                                    ('-=', 'Phrase' ),
-                                    ('~>', 'Phrase' ),
-                                    ('=>>', 'Phrase' ),
-                                    ('\?<', '\(', 'Cond', '\)', 'Then', ), 
-                                    ( 'Phrase')
+                 'Pred' :  [        [':=', 'Phrase' ],
+                                    ['-=', 'Phrase' ],
+                                    ['~>', 'Phrase' ],
+                                    ['=>>', 'Phrase' ],
+                                    ['\?<', '\(', 'Cond', '\)', 'Then', ], 
+                                    ['Phrase']
                                     
                                 ],
                     
-                    'Phrase' : [    ( 'Obj', 'Words', 'Phrase' ),
-                                    ( '\"', 'Obj', 'Words', 'Phrase', '\"', '.' ),
-                                    ( '\"', 'Obj', 'Words', 'Phrase', '\"'),
-                                    ( 'Obj', 'Words'),
-                                    ('\"', 'Obj', 'Words', '\"', '.'),
-                                    ('\"', 'Obj', 'Words', '\"'),
-                                    ('\"', 'Words', 'Phrase', '\"', '.'),
-                                    ('\"', 'Words', 'Phrase', '\"'),
-                                    ('\"', 'Words', '\"', '.'),
-                                    ('\"', 'Words', '\"'),
-                                    ('Words'), 
+                    'Phrase' : [    ['Obj', 'Words', 'Phrase' ],
+                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"', '.' ],
+                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"'],
+                                    [ 'Obj', 'Words'],
+                                    ['\"', 'Obj', 'Words', '\"', '.'],
+                                    ['\"', 'Obj', 'Words', '\"'],
+                                    ['\"', 'Words', 'Phrase', '\"', '.'],
+                                    ['\"', 'Words', 'Phrase', '\"'],
+                                    ['\"', 'Words', '\"', '.'],
+                                    ['\"', 'Words', '\"'],
+                                    ['Words'] 
                                 ],
                     
-                    'Obj' :     [   ('<' , '>', 'Obj'),
-                                    ('<', '>'),
-                                    ('<' , 'Label', ':',  '>'),
-                                    ('<' , ':', 'Ttypespec', '>'),
-                                    ('<' , 'Label', ':', 'Ttypespec', '>'),
-                                    ('<' , 'Typename', '>'),
-                                    ('<' , 'Label', '=', 'Typename', '>'),
-                                    ('<' , 'Phrasename', '>'),
-                                    ('<' , 'Label', '=', 'Phrasename', '>')
+                    'Obj' :     [   ['<' , '>', 'Obj'],
+                                    ['<', '>'],
+                                    ['<' , 'Label', ':',  '>'],
+                                    ['<' , ':', 'Ttypespec', '>'],
+                                    ['<' , 'Label', ':', 'Ttypespec', '>'],
+                                    ['<' , 'Typename', '>'],
+                                    ['<' , 'Label', '=', 'Typename', '>'],
+                                    ['<' , 'Phrasename', '>'],
+                                    ['<' , 'Label', '=', 'Phrasename', '>']
                                 ], 
 
                                 #note: not allowing more than one operation per condition 
-                    'Cond' :    [   ('Exp', 'Op', 'Exp' ),
-                                    ('Ent_rstr', 'Op', 'Exp' ),
-                                    ('Exp', 'Op', 'Ent_rstr'),
-                                    ('Ent_rstr', 'Op', 'Ent_rstr'),
-                                    ('Exp', 'BinOp'),           #binary op
-                                    ('Ent_rstr', 'BinOp'),         #binary op
-                                    ('!', 'Exp'),
-                                    ('!', 'Ent_rstr')
+                    'Cond' :    [   ['Exp', 'Op', 'Exp' ],
+                                    ['Ent_rstr', 'Op', 'Exp' ],
+                                    ['Exp', 'Op', 'Ent_rstr'],
+                                    ['Ent_rstr', 'Op', 'Ent_rstr'],
+                                    ['Exp', 'BinOp'],           #binary op
+                                    ['Ent_rstr', 'BinOp'],         #binary op
+                                    ['!', 'Exp'],
+                                    ['!', 'Ent_rstr']
                                 ], 
 
 
-                    'BinOp' : [     ('=\[', 'N', '\]'),       #minamx (binary op)
-                                    ('\[', 'N', ':', 'N', '\]')   #substring (binary op)
+                    'BinOp' : [     ['=\[', 'N', '\]'],       #minamx [binary op)
+                                    ['\[', 'N', ':', 'N', '\]']   #substring (binary op)
                                 ],
 
-                    'Ent_rstr' : [  ('\\\\', 'Tag'),
-                                    ('\\\\', '\$', 'Ent'),
-                                    ('\\\\', '@', 'Ent'), 
-                                    ('\\\\', '\*', 'Tag' ),
-                                    ('\\\\', '&', 'Ent' ),
-                                    ('\\\\', '\$', 'Tag', ':', 'Label'),
-                                    ('\\\\', '\*', '<', '>', 'Tag', ':', 'Label'),
-                                    ('\\\\', '<', '>', 'Tag', ':', 'Label')
+                    'Ent_rstr' : [  ['\\\\', 'Tag'],
+                                    ['\\\\', '\$', 'Ent'],
+                                    ['\\\\', '@', 'Ent'], 
+                                    ['\\\\', '\*', 'Tag' ],
+                                    ['\\\\', '&', 'Ent' ],
+                                    ['\\\\', '\$', 'Tag', ':', 'Label'],
+                                    ['\\\\', '\*', '<', '>', 'Tag', ':', 'Label'],
+                                    ['\\\\', '<', '>', 'Tag', ':', 'Label']
                                 ],
 
-                    'Then' :    [(':', 'Command', 'Opt')],
+                    'Then' :    [[':', 'Command', 'Opt']],
                     
-                    'Command' : [   ('satisfied'),
-                                    ('comment', '\"', 'Msg','\"'),
-                                    ('warn', '\"', 'Msg', '\"'),
-                                    ('error','\"', 'Msg', '\"'),
-                                    ('abort', '\"', 'Msg', '\"'),
-                                    ('skip', 'N')
+                    'Command' : [   ['satisfied'],
+                                    ['comment', '\"', 'Msg','\"'],
+                                    ['warn', '\"', 'Msg', '\"'],
+                                    ['error','\"', 'Msg', '\"'],
+                                    ['abort', '\"', 'Msg', '\"'],
+                                    ['skip', 'N']
                                 ],
                                      
-                    'Opt' :     [   ('>?'),
-                                    ('Elif'),
-                                    ('Else')
+                    'Opt' :     [   ['>?'],
+                                    ['Elif'],
+                                    ['Else']
                                 ],
                                       
-                    'Else' :  [':', 'Command', '>?'],
+                    'Else' :  [[':', 'Command', '>?']],
                                       
-                    'Elif' :  ['?:', '\(', 'Cond', '\)', 'Then'] #force whitespace between expression and ()
+                    'Elif' :  [['?:', '\(', 'Cond', '\)', 'Then']] #force whitespace between expression and ()
                     
                 }
 
@@ -202,7 +202,7 @@ def parseGrammar (rulePred, start_sym):
                 n = 0 
                 count = 0 
                 
-                if  len(rtuple) > 1 and rtuple.__class__ == tuple:   #multiple options in grammar rule 
+                if  len(rtuple) > 1 and rtuple.__class__ == list:   #multiple options in grammar rule 
                     
                     for token in rtuple:
                         count += 1
@@ -214,15 +214,15 @@ def parseGrammar (rulePred, start_sym):
                                     tree.extend(res[0])
                                     local = res[1]
                                                                  
-                                    if count == len(rtuple):
+        #                            if count == len(rtuple):
                                         
-                                        if check_end(n, local) and  PassedThru == 0: 
-                                                global PassedThru 
-                                                PassedThru = 1 
+                                        #if check_end(n, local) and  PassedThru == 0: 
+                                         #       global PassedThru 
+                                          #      PassedThru = 1 
         
-                                        return (tree, local)
-                                    else: 
-                                        n = 0
+                                    return (tree, local)
+                                    #else: 
+                                     #   n = 0
                                     
                                 else: 
                                     break
@@ -295,8 +295,8 @@ def parseGrammar (rulePred, start_sym):
                             
                 else: ####Only one item-- don't want to iterate thru the string 
                     try:
-                        if vocab_grammar[rtuple]:
-                            res = parseGrammar(local[n:], rtuple)
+                        if vocab_grammar[rtuple[0]] :
+                            res = parseGrammar(local[n:], rtuple[0])
                             if res:
                                 tree.extend(res[0])
                                 local = res[1]
@@ -358,34 +358,40 @@ def parseGrammar (rulePred, start_sym):
     
 #############################################
                
-def create_new_dict(allrules):
+def add_new_dict(subj, parsetree, dict):
     
-    new_dict = {}
-    count = 0 
+   # subj_entry = {}
     
-    for item in allrules: 
-        key = item[0]
-        try:
-            if new_dict[key]:
-                
-                for entry in new_dict[key]:
-                    count += 1
-                    if entry == item[1:]:
-                        break #don't add repeat defintions
-                    elif count < len(new_dict[key]):
-                        new_dict[key].append(item[1:])
-                
-        except KeyError:
+    try:
+        if dict[subj]:
+            subj_entry = dict[subj]
+            for x in parsetree:
+                try: 
+                    if subj_entry[x[0]]:
+                        for w in subj_entry[x[0]]:
+                            if w != x[1]:
+                                subj_entry[x[0]].append(x[1])
+                            else: 
+                                continue 
+                except KeyError: 
+                    subj_entry[x[0]] = [x[1]]
+         
+    except KeyError: 
+        subj_entry = {}
+        for item in parsetree:
+            subj_entry[item[0]] = [item[1]]
             
-            new_dict[key] = [item[1:]]
-    
-    
-    return new_dict 
-                        
+        
         
     
+    return subj_entry       
     
 
+    
+    
+     
+        
+    
 
 ###########################################################################
 
@@ -490,14 +496,14 @@ def parse_vocab():
     
     '''
 
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+    #if len(sys.argv) < 2: 
+     #   sys.stderr.write("must include vocabulary (.v) file \n")
+      #  raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('res_lingdata.v', 'r')
+    vocabfile = open('res_lingdata.v', 'r')
     
     facts = []
     line = ''
@@ -528,7 +534,7 @@ def parse_vocab():
     parsed_rules = []
     failed_rules = []
     entries = []
-    
+    new_dict = {}
     #GO THROUGH RULES AND PARSE THEM 
     
     for rule in facts:
@@ -549,11 +555,14 @@ def parse_vocab():
         if rule_parse:                   #if true, means parsed successfully 
             parsed_rules.append([rule[0], rule[1], rule_parse[0]])
             entries.extend(rule_parse[0])
+            new_entry = add_new_dict(rule[0], rule_parse[0], new_dict)
+            new_dict[rule[0]] = new_entry
         else:
             failed_rules.append(rule)
     
-    
-    new_dict = create_new_dict(entries)
+        
+        #print new_entry.__class__
+        #print new_dict[rule[0]].__class__
        
     for n in parsed_rules:
         for i in range(len(n)):
@@ -566,9 +575,18 @@ def parse_vocab():
         
     print failed_rules
   
-    #for x in new_dict: 
-    #        print (x, y)
-    #
+    #for x in new_dict:
+     #   print x + ":"
+      #  print x.__class__
+       # for y in new_dict[x]:
+        #    print "\t" + y + ":"
+            
+            #print y.__class__
+             
+    for x in new_dict: 
+        print x + ":"
+        print new_dict[x]
+            
         
     return(parsed_rules, failed_rules, new_dict)
 
