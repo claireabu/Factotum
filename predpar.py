@@ -11,7 +11,7 @@ import factotum_globals
 lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
-PassedThru = 0
+
 
 
 regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'), 
@@ -30,7 +30,7 @@ regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'),
 
 
 Repeat = ['Words', 'Msg']
-Second_check = ['Typename', 'Phrasename', 'TypeDefName']
+Second_check = ['Typename', 'Phrasename']
 
 
               
@@ -44,7 +44,7 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                     
                     
                     
-                    'Pred' :  [        [':=', 'Phrase' ],
+                    'Pred' :  [     [':=', 'Phrase' ],
                                     ['-=', 'Phrase' ],
                                     ['~>', 'Phrase' ],
                                     ['=>>', 'Phrase' ],
@@ -71,10 +71,11 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                     ['<' , 'Label', ':',  '>'],
                                     ['<' , ':', 'Ttypespec', '>'],
                                     ['<' , 'Label', ':', 'Ttypespec', '>'],
-                                    ['<' , 'Phrasename', '>'],
-                                    ['<' , 'Label', '=', 'Phrasename', '>'],
                                     ['<' , 'Typename', '>'],
-                                    ['<' , 'Label', '=', 'Typename', '>']
+                                    ['<' , 'Label', '=', 'Typename', '>'],
+                                    ['<' , 'Phrasename', '>'],
+                                    ['<' , 'Label', '=', 'Phrasename', '>']
+                                    
                                     
                                 ], 
 
@@ -140,6 +141,8 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                 }
 
 TypeTree = {}
+TypeList = []
+PhraseList = []
 
 
 ############################################
@@ -194,13 +197,25 @@ def check_end(n, local):
 ##############################################################
 
 def update_TypeTree(token, ruleList, tree):
-    
+    '''
+    creates/updates the global "typetree" to create a hierarhcy of types
+    '''
     localTree = tree 
-    
-    
-    
+
     if token == 'TypeDef':
-        new_type = ruleList[0] 
+        new_type = ruleList[0]
+         
+        #update typelist 
+        c = 0
+        if TypeList == []:
+            TypeList.append(new_type)
+        else:     
+            for t in TypeList:
+                c += 1 
+                if t == new_type:
+                    break
+                elif c == len(TypeList):
+                    TypeList.append(new_type)
         
         
         if len(ruleList) == 3:  #means blank, head of tree
@@ -229,14 +244,11 @@ def update_TypeTree(token, ruleList, tree):
     return 
                         
                     
-                    
-                             
-                        
-                    
-                
-  
-        
-    
+###################################################################                    
+
+
+##############################################
+
 
 def needs_sec_check(item):
     for x in Second_check: 
@@ -248,8 +260,26 @@ def needs_sec_check(item):
 #############################################################   
 
 
+
 def check_second_check(item, instance):
-    pass
+    
+    if item == 'Typename':
+        for x in TypeList: 
+            if x == instance:
+                return True 
+            else: 
+                continue 
+        
+        return False   
+    
+    elif item == 'Phrasename':
+        for p in PhraseList: 
+            if p == instance: 
+                return True 
+    
+    print "%s is not a defined Phrase name or Type" % (instance,)
+    return False 
+            
 
 
 ######################################################
@@ -314,17 +344,15 @@ def parseGrammar (rulePred, start_sym):
                                 if check_regex(token):
                                     pattern = regex_dict[token]
                                     
-                                   # if PassedThru > 0 and needs_sec_check(token):
-                                    #    if check_second_check(token, local[n]):
-                                     #       continue 
-                                      #  else: 
-                                       #     print "%s is an undefined %s" (local[n], token)
-                                        #    return False
-                                            
-                                            
                                     if match_regex(pattern, local[n]):
                                         
-                                    
+                                        if PassedThru > 0:
+                                            if needs_sec_check(token):
+                                                if check_second_check(token, local[n]):
+                                                    continue 
+                                                else:
+                                                    return False 
+                                            
                                         if check_repeat(token):
                                             re = []
                                             
@@ -393,6 +421,12 @@ def parseGrammar (rulePred, start_sym):
                                 pattern = regex_dict[rtuple[0]]
                                 
                                 if match_regex(pattern, local[n]):
+                                    
+                                    if PassedThru == 1 and needs_sec_check(token):
+                                            z = check_second_check(token, local[n])
+                                            if not z: 
+                                                return False #failed to be a phrasename or type name 
+                                            
                                     if check_repeat(rtuple[0]):
                                         re = []
                                         
@@ -616,13 +650,14 @@ def parse_vocab():
     new_dict = {}
     #GO THROUGH RULES AND PARSE THEM 
     
+    global PassedThru 
+    PassedThru = 0 
+    
     for rule in facts:
         
         if rule[1] == '':           #skip any blank lines in vocab file 
             continue
-        
-        
-        
+
         (rule_pred, c) = tokenize_pred_string(rule[1])
         
         
@@ -637,22 +672,36 @@ def parse_vocab():
             rule_parse = parseGrammar(rule_pred, 'Start')
         
         if rule_parse:                   #if true, means parsed successfully 
-            parsed_rules.append([rule[0], rule[1], rule_parse[0]])
-            entries.extend(rule_parse[0])
-            new_entry = add_new_dict(rule[0], rule_parse[0], new_dict)
-            new_dict[rule[0]] = new_entry
+            parsed_rules.append([rule[0], rule[1], rule_pred])
+            #updating phrase list 
+            if rule_pred[0] == '-=':
+                PhraseList.append(rule[0])
+        
         else:
             failed_rules.append(rule)
     
+    #SECOND PASS
+    second_parsed_rules = []
     
     for r in parsed_rules: 
         
+        
+        
+        global PassedThru
         PassedThru = 1 
-        second_pass = parseGrammar(r[1], 'Start')
+        second_pass = parseGrammar(r[2], 'Start') #r2 s rulepred 
+        
+        if second_pass: 
+            second_parsed_rules.append([r[0], r[1], second_pass[0]])
+            entries.extend(second_pass[0])
+            new_entry = add_new_dict(r[0], second_pass[0], new_dict)
+            new_dict[r[0]] = new_entry
+        else: 
+            failed_rules.append([r[0],r[1]])
         
         
        
-    for n in parsed_rules:
+    for n in second_parsed_rules:
         for i in range(len(n)):
             if i == 2:
                 for z in n[i]:
@@ -671,9 +720,9 @@ def parse_vocab():
             
             #print y.__class__
              
-    for x in new_dict: 
+    for x in TypeTree: 
         print x + ":"
-        print new_dict[x]
+        print TypeTree[x]
             
         
     return(parsed_rules, failed_rules, new_dict)
