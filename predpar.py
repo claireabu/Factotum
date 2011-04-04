@@ -24,17 +24,27 @@ regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'),
                 'Ent':  re.compile('^([-_0-9a-zA-Z]+| \D+)$'),
                 'Tag':  re.compile('^[-_0-9a-zA-Z]+$'),
                 'Msg':  re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' ),
-                'N':    re.compile('^[0-9]+$')
+                'N':    re.compile('^[0-9]+$'),
+                'TypeDefName': re.compile('^[-_0-9a-zA-Z\']+$')
               }
 
 
 Repeat = ['Words', 'Msg']
-Second_check = ['Typename', 'Phrasename']
+Second_check = ['Typename', 'Phrasename', 'TypeDefName']
+
 
               
-vocab_grammar = { 'Start' : [['Pred']],
-                 
-                 'Pred' :  [        [':=', 'Phrase' ],
+vocab_grammar = {   'Start' : [   ['TypeDef'],
+                                ['Pred']
+                             ],
+                    
+                    'TypeDef': [    ['TypeDefName', '\[', '\]'],
+                                    ['TypeDefName', '\[', 'TypeDefName', '\]']
+                                ],
+                    
+                    
+                    
+                    'Pred' :  [        [':=', 'Phrase' ],
                                     ['-=', 'Phrase' ],
                                     ['~>', 'Phrase' ],
                                     ['=>>', 'Phrase' ],
@@ -61,10 +71,11 @@ vocab_grammar = { 'Start' : [['Pred']],
                                     ['<' , 'Label', ':',  '>'],
                                     ['<' , ':', 'Ttypespec', '>'],
                                     ['<' , 'Label', ':', 'Ttypespec', '>'],
-                                    ['<' , 'Typename', '>'],
-                                    ['<' , 'Label', '=', 'Typename', '>'],
                                     ['<' , 'Phrasename', '>'],
-                                    ['<' , 'Label', '=', 'Phrasename', '>']
+                                    ['<' , 'Label', '=', 'Phrasename', '>'],
+                                    ['<' , 'Typename', '>'],
+                                    ['<' , 'Label', '=', 'Typename', '>']
+                                    
                                 ], 
 
                                 #note: not allowing more than one operation per condition 
@@ -128,7 +139,7 @@ vocab_grammar = { 'Start' : [['Pred']],
                     
                 }
 
-Types = []
+TypeTree = {}
 
 
 ############################################
@@ -182,20 +193,63 @@ def check_end(n, local):
 
 ##############################################################
 
-#def check_second_check(item, instance):
- #   
-  #  for x in Second_check: 
-  #      if item == x:
-   #         if PassedThru > 0: 
-    #            if item == 'Typename':
-     #               for i in Types: 
-      #                  if i == instance: 
-       #                     return True
-        #        elif item == 'Phrasename':
-         #           
-                
+def update_TypeTree(token, ruleList, tree):
     
-   # return False 
+    localTree = tree 
+    
+    
+    
+    if token == 'TypeDef':
+        new_type = ruleList[0] 
+        
+        
+        if len(ruleList) == 3:  #means blank, head of tree
+            
+            global TypeTree
+            TypeTree[new_type] = {}
+            return True 
+            
+        else: 
+            higher_type = ruleList[-2]  #subtype within []
+            
+            for head in localTree: 
+                if head == higher_type: 
+                    localTree[head][new_type] = {}
+                    return localTree
+                else: 
+                    b =  update_TypeTree(token, ruleList, localTree[head])
+                    
+                    if b: 
+                        localTree[head] = b
+                        return True 
+                    else: 
+                        return False  
+                        
+        
+    return 
+                        
+                    
+                    
+                             
+                        
+                    
+                
+  
+        
+    
+
+def needs_sec_check(item):
+    for x in Second_check: 
+        if item == x: 
+            return True 
+    
+    return False 
+
+#############################################################   
+
+
+def check_second_check(item, instance):
+    pass
 
 
 ######################################################
@@ -215,8 +269,7 @@ def parseGrammar (rulePred, start_sym):
     n = 0
     count = 0
     
-   # if PassedThru == 1: 
-    #    second_pass_parsing()
+
         
     try:
         
@@ -240,6 +293,10 @@ def parseGrammar (rulePred, start_sym):
                             if vocab_grammar[token]: 
                                 res = parseGrammar (local[n:], token)
                                 if res: 
+                                    
+                                    if PassedThru == 0: 
+                                        x = update_TypeTree(token, local, TypeTree)
+                                    
                                     tree.extend(res[0])
                                     local = res[1]
                                                             
@@ -257,22 +314,17 @@ def parseGrammar (rulePred, start_sym):
                                 if check_regex(token):
                                     pattern = regex_dict[token]
                                     
-                                    
+                                   # if PassedThru > 0 and needs_sec_check(token):
+                                    #    if check_second_check(token, local[n]):
+                                     #       continue 
+                                      #  else: 
+                                       #     print "%s is an undefined %s" (local[n], token)
+                                        #    return False
+                                            
+                                            
                                     if match_regex(pattern, local[n]):
                                         
-                                      #  if PassedThru > 0 and check_second_check(token):
-                                       #     if     
-                                        #    
-                                         #   else: 
-                                          #      print "%s is an undefined %s" (local[n], token)
-                                           #     return False
-                                        
-                                        #elif Passed Thru == 0: 
-                                         #   check_second_check(token, local[n])
-                                                
-                                                
-                                        
-                                        
+                                    
                                         if check_repeat(token):
                                             re = []
                                             
@@ -323,6 +375,10 @@ def parseGrammar (rulePred, start_sym):
                         if vocab_grammar[rtuple[0]] :
                             res = parseGrammar(local[n:], rtuple[0])
                             if res:
+                                
+                                if PassedThru == 0: 
+                                    x = update_TypeTree(rtuple[0], local, TypeTree)
+                                                        
                                 tree.extend(res[0])
                                 local = res[1]
                                 return(tree, local)
@@ -445,8 +501,8 @@ def tokenize_pred_string(pstring):
                 longestStr = ''                 #clear longest string
                 testStr = ''                    #clear test string 
             
-        elif re.match('#', n) or re.match('[[]', n): 
-            #if come across comment or citation, ignore it, at the end of fact and it's allowed to be there 
+        elif re.match('#', n): #or re.match('[[]', n): 
+            #if come across comment , ignore it, at the end of fact and it's allowed to be there 
             if longestStr != '': 
                 tokenList.append(longestStr)
                 return ( tokenList, pstring[count:] )
@@ -565,13 +621,20 @@ def parse_vocab():
         if rule[1] == '':           #skip any blank lines in vocab file 
             continue
         
+        
+        
         (rule_pred, c) = tokenize_pred_string(rule[1])
+        
         
         if rule_pred == []:
             failed_rules.append(rule)
             continue 
         
-        rule_parse =  parseGrammar(rule_pred, 'Start')
+        if rule_pred[0] != '[': #type defs
+            rule_parse =  parseGrammar(rule_pred, 'Start')
+        else: 
+            rule_pred.insert(0, rule[0])
+            rule_parse = parseGrammar(rule_pred, 'Start')
         
         if rule_parse:                   #if true, means parsed successfully 
             parsed_rules.append([rule[0], rule[1], rule_parse[0]])
