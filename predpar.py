@@ -29,6 +29,7 @@ regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'),
 
 
 Repeat = ['Words', 'Msg']
+Second_check = ['Typename', 'Phrasename']
 
               
 vocab_grammar = { 'Start' : [['Pred']],
@@ -67,15 +68,29 @@ vocab_grammar = { 'Start' : [['Pred']],
                                 ], 
 
                                 #note: not allowing more than one operation per condition 
-                    'Cond' :    [   ['Exp', 'Op', 'Exp' ],
-                                    ['Ent_rstr', 'Op', 'Exp' ],
+                    'Cond' :    [   ['Exp', 'Op', 'Exp', 'MultOp' ],
+                                    ['Ent_rstr', 'Op', 'Exp', 'MultOp' ],
+                                    ['Exp', 'Op', 'Ent_rstr', 'MultOp'],
+                                    ['Ent_rstr', 'Op', 'Ent_rstr', 'MultOp'],
+                                    ['Exp', 'Op', 'Exp'],
+                                    ['Ent_rstr', 'Op', 'Exp'],
                                     ['Exp', 'Op', 'Ent_rstr'],
                                     ['Ent_rstr', 'Op', 'Ent_rstr'],
+                                    ['Exp', 'BinOp', 'MultOp'],
+                                    ['Ent_rstr', 'BinOp', 'MultOp'],
                                     ['Exp', 'BinOp'],           #binary op
                                     ['Ent_rstr', 'BinOp'],         #binary op
+                                    ['!', 'Exp', 'MultOp'],
+                                    ['!', 'Ent_rstr', 'MultOp'],
                                     ['!', 'Exp'],
                                     ['!', 'Ent_rstr']
                                 ], 
+                    
+                    'MultOp' : [    ['Op', 'Exp', 'MultOp'],
+                                    ['Op', 'Ent_rstr', 'MultOp'],
+                                    ['Op', 'Exp'],
+                                    ['Op', 'Ent_rstr']
+                                ],
 
 
                     'BinOp' : [     ['=\[', 'N', '\]'],       #minamx [binary op)
@@ -113,6 +128,7 @@ vocab_grammar = { 'Start' : [['Pred']],
                     
                 }
 
+Types = []
 
 
 ############################################
@@ -166,8 +182,21 @@ def check_end(n, local):
 
 ##############################################################
 
-#def second_pass_parsing():
- #     pass
+#def check_second_check(item, instance):
+ #   
+  #  for x in Second_check: 
+  #      if item == x:
+   #         if PassedThru > 0: 
+    #            if item == 'Typename':
+     #               for i in Types: 
+      #                  if i == instance: 
+       #                     return True
+        #        elif item == 'Phrasename':
+         #           
+                
+    
+   # return False 
+
 
 ######################################################
     
@@ -213,17 +242,11 @@ def parseGrammar (rulePred, start_sym):
                                 if res: 
                                     tree.extend(res[0])
                                     local = res[1]
-                                                                 
-        #                            if count == len(rtuple):
-                                        
-                                        #if check_end(n, local) and  PassedThru == 0: 
-                                         #       global PassedThru 
-                                          #      PassedThru = 1 
-        
-                                    return (tree, local)
-                                    #else: 
-                                     #   n = 0
-                                    
+                                                            
+                                    if count == len(rtuple):
+                                        return (tree, local)
+                                    else: 
+                                        n = 0
                                 else: 
                                     break
                                 
@@ -232,14 +255,25 @@ def parseGrammar (rulePred, start_sym):
                             if n < len(local):
                                 
                                 if check_regex(token):
-                                    
                                     pattern = regex_dict[token]
+                                    
                                     
                                     if match_regex(pattern, local[n]):
                                         
+                                      #  if PassedThru > 0 and check_second_check(token):
+                                       #     if     
+                                        #    
+                                         #   else: 
+                                          #      print "%s is an undefined %s" (local[n], token)
+                                           #     return False
+                                        
+                                        #elif Passed Thru == 0: 
+                                         #   check_second_check(token, local[n])
+                                                
+                                                
+                                        
                                         
                                         if check_repeat(token):
-                                            
                                             re = []
                                             
                                             if n < len(local)-1:
@@ -257,8 +291,6 @@ def parseGrammar (rulePred, start_sym):
                                                     return(tree, local[n:])
                                                 else: 
                                                     continue
-                                                
-                                            
                                         else: #not in repeat
                                             
                                             tree.append([token, local[n]])
@@ -268,7 +300,6 @@ def parseGrammar (rulePred, start_sym):
                                                 return(tree, local[n:])
                                             else: 
                                                 continue
-                                    
                                     else:
                                         break    
 
@@ -283,16 +314,10 @@ def parseGrammar (rulePred, start_sym):
                                             continue
                                     
                                     else:
-                                        break 
-                                       
-                                    
+                                        break          
                             else:                       #no tokens don't match in tuple
                                  break                   #break out of token loop, continue to next tuple
-                            
-                            
-                        
-                            
-                            
+          
                 else: ####Only one item-- don't want to iterate thru the string 
                     try:
                         if vocab_grammar[rtuple[0]] :
@@ -308,11 +333,11 @@ def parseGrammar (rulePred, start_sym):
                         
                         if n < len(local):
                             
-                            if check_regex(rtuple):
-                                pattern = regex_dict[rtuple]
+                            if check_regex(rtuple[0]):
+                                pattern = regex_dict[rtuple[0]]
                                 
                                 if match_regex(pattern, local[n]):
-                                    if check_repeat(rtuple):
+                                    if check_repeat(rtuple[0]):
                                         re = []
                                         
                                         if n < len(local)-1:
@@ -323,17 +348,11 @@ def parseGrammar (rulePred, start_sym):
                                                 else:
                                                     break
                                             
-                                            tree.append([rtuple, re])
+                                            tree.append([rtuple[0], re])
                                             return(tree, local[n:])
-                                        
-                                        #else:
-                                       #     tree.append([rtuple, local[n]])
-                                        #    n += 1
-                                         #   return(tree, local[n:])
-                                            
-                                        
+                                       
                                     else: #not in repeat
-                                        tree.append([rtuple, local[n]])
+                                        tree.append([rtuple[0], local[n]])
                                         n += 1
                                         return(tree, local[n:])
                                     
@@ -341,7 +360,7 @@ def parseGrammar (rulePred, start_sym):
                                     
                             else:   #not in the regex list, just a symbol match
                                 
-                                if match_regex(rtuple, local[n]):
+                                if match_regex(rtuple[0], local[n]):
                                     n+=1
                                     return(tree, local[n:])
                                 
@@ -360,22 +379,25 @@ def parseGrammar (rulePred, start_sym):
                
 def add_new_dict(subj, parsetree, dict):
     
-   # subj_entry = {}
+    count = 0
     
     try:
         if dict[subj]:
             subj_entry = dict[subj]
             for x in parsetree:
-                try: 
+                try:
                     if subj_entry[x[0]]:
+                        count = 0
                         for w in subj_entry[x[0]]:
-                            if w != x[1]:
+                            count += 1
+                            if w != x[1] and count == len(subj_entry[x[0]]):
                                 subj_entry[x[0]].append(x[1])
                             else: 
                                 continue 
+                            
                 except KeyError: 
                     subj_entry[x[0]] = [x[1]]
-         
+    
     except KeyError: 
         subj_entry = {}
         for item in parsetree:
@@ -503,7 +525,7 @@ def parse_vocab():
     
     #vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('res_lingdata.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -524,11 +546,12 @@ def parse_vocab():
             line = ''
             line = vocabfile.readline()
             continue
-
-        (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
         
-        p = p.strip() # get rid of whitespace
-        facts.append([s,p])
+        if my_fact != '':
+            (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
+        
+            p = p.strip() # get rid of whitespace
+            facts.append([s,p])
     
     rule_pred = ''
     parsed_rules = []
@@ -548,8 +571,6 @@ def parse_vocab():
             failed_rules.append(rule)
             continue 
         
-        global PassedThru 
-        PassedThru = 0
         rule_parse =  parseGrammar(rule_pred, 'Start')
         
         if rule_parse:                   #if true, means parsed successfully 
@@ -560,9 +581,13 @@ def parse_vocab():
         else:
             failed_rules.append(rule)
     
+    
+    for r in parsed_rules: 
         
-        #print new_entry.__class__
-        #print new_dict[rule[0]].__class__
+        PassedThru = 1 
+        second_pass = parseGrammar(r[1], 'Start')
+        
+        
        
     for n in parsed_rules:
         for i in range(len(n)):
