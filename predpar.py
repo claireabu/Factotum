@@ -142,7 +142,10 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
 
 TypeTree = {}
 TypeList = []
+UnclassifiedTree= {}
+UnclassifiedList = []
 PhraseList = []
+ulen = 0 
 
 
 ############################################
@@ -150,7 +153,9 @@ PhraseList = []
 def match_regex (regex, i):
     '''
         A helper function with essentially the same functionality 
-        as re.match -- just provides a more concise form
+        as re.match -- just provides a more concise form of 
+        confirming whether expression i matches the regular expression 
+        regex
     '''
 
     if re.match(regex, i):
@@ -162,9 +167,12 @@ def match_regex (regex, i):
 
 def check_regex(item):
     '''
-    Helper function, checks if it is a specified pattern as defined in the 
-    regex dictionary(True), or just a simple symbol match(False) 
+    This helper function checks if item is defined in the 
+    regex dictionary (True), and if it isn't, we return 
+    False and the parser with just do a simple symbol match 
+    with item.    
     '''
+    
     try:
         if regex_dict[item]:
             return True
@@ -176,7 +184,10 @@ def check_regex(item):
 
 def check_repeat(item):
     '''
-    Helper function, checks if a given regex is in the repeat area
+    This helper function checks if item is in the global 
+    list Repeat (which demarcates which regex terms 
+    allow multiple tokens to fulfill it). Returns True if 
+    item is in list and False if it is not.  
     '''
     
     for x in Repeat:
@@ -184,44 +195,92 @@ def check_repeat(item):
             return True
     
     return False 
-
-##################################################################
-
-def check_end(n, local):
+##########################################
+def update_mini_tree(ruleList, minitree):
     
-    if n == len(local) - 1:
-        return True
-    else:
-        return False 
+    local_mini = minitree
+    head = ruleList[2]
+    subtype = ruleList [0]
+    
+    try: 
+        if local_mini[head] == {} or local_mini[head]:
+            
+            local_mini[head][subtype] = {}
+            UnclassifiedList.append(subtype)
+            return local_mini 
+    
+    except KeyError: 
+        
+        if local_mini != {}: 
+            count   = 0
+            for x in local_mini: 
+                count += 1
+                if x == head: 
+                    local_mini[head][subtype] = {}
+                    UnclassifiedList.append(ruleList)
+                    return local_mini
+                    
+                elif x == subtype: 
+                    local_mini[head] = {}
+                    local_mini[head][subtype] = local_mini[x]
+                    del local_mini[x]
+                    return True 
+                
+                elif local_mini[x] != {}: 
+                    z =  update_mini_tree(ruleList, local_mini[x])
+                    if z:
+                        return True
+                    else: 
+                        break
+                      
+                elif count == len(local_mini):
+                    return 
+                else: 
+                    continue  
+        #else:
+        if local_mini == {}: 
+            global ulen
+            ulen += 1
+            UnclassifiedTree[head] = {}
+            UnclassifiedTree[head][subtype] = {}
+        
+        elif ulen == len(UnclassifiedTree):
+            global ulen
+            ulen += 1
+            UnclassifiedTree[head] = {}
+            UnclassifiedTree[head][subtype] = {}
+            
+    
+    return 
 
 ##############################################################
 
 def update_TypeTree(token, ruleList, tree):
     '''
-    creates/updates the global "typetree" to create a hierarhcy of types
+    creates/updates the global "typetree" to create a hierarchy of types
     '''
     localTree = tree 
 
     if token == 'TypeDef':
         new_type = ruleList[0]
-         
-        #update typelist 
-        c = 0
-        if TypeList == []:
-            TypeList.append(new_type)
-        else:     
-            for t in TypeList:
-                c += 1 
-                if t == new_type:
-                    break
-                elif c == len(TypeList):
-                    TypeList.append(new_type)
-        
         
         if len(ruleList) == 3:  #means blank, head of tree
             
             global TypeTree
             TypeTree[new_type] = {}
+            
+            w = False
+            for mini_h in UnclassifiedTree: 
+                if mini_h == new_type: 
+                    TypeTree[new_type] = UnclassifiedTree[mini_h]
+                    w = True
+                    break
+                
+            if w: del UnclassifiedTree[mini_h]
+            
+            
+            #update typelist 
+            TypeList.append(new_type)
             return True 
             
         else: 
@@ -230,24 +289,44 @@ def update_TypeTree(token, ruleList, tree):
             for head in localTree: 
                 if head == higher_type: 
                     localTree[head][new_type] = {}
+                    TypeList.append(new_type)
+                    
+                    
+                    if len(UnclassifiedTree) > 1:
+                        z = False    
+                        for mini_h in UnclassifiedTree: 
+                            if mini_h == new_type: 
+                                TypeTree[new_type] = UnclassifiedTree[mini_h]
+                                z = True 
+                                break
+                    
+                        if z: del UnclassifiedTree[w]
+                    else: 
+                        k = UnclassifiedTree.keys()
+                        if k and k[0] == new_type:
+                            TypeTree[new_type] = UnclassifiedTree[new_type]
+                            del UnclassifiedTree[new_type]
+                            
                     return localTree
-                else: 
-                    b =  update_TypeTree(token, ruleList, localTree[head])
+                
+                else:
+                    
+                    b = update_TypeTree(token, ruleList, localTree[head])
                     
                     if b: 
                         localTree[head] = b
-                        return True 
-                    else: 
-                        return False  
                         
+                        return True 
+                    
+                    else: 
+                        return False 
+                     
+        update_mini_tree(ruleList, UnclassifiedTree)
         
     return 
                         
                     
 ###################################################################                    
-
-
-##############################################
 
 
 def needs_sec_check(item):
@@ -277,7 +356,7 @@ def check_second_check(item, instance):
             if p == instance: 
                 return True 
     
-    print "%s is not a defined Phrase name or Type" % (instance,)
+    print >>sys.stderr, "%s is not a defined Phrase name or Type" % (instance,)
     return False 
             
 
@@ -348,10 +427,8 @@ def parseGrammar (rulePred, start_sym):
                                         
                                         if PassedThru > 0:
                                             if needs_sec_check(token):
-                                                if check_second_check(token, local[n]):
-                                                    continue 
-                                                else:
-                                                    return False 
+                                                if not check_second_check(token, local[n]):
+                                                    break
                                             
                                         if check_repeat(token):
                                             re = []
@@ -422,10 +499,10 @@ def parseGrammar (rulePred, start_sym):
                                 
                                 if match_regex(pattern, local[n]):
                                     
-                                    if PassedThru == 1 and needs_sec_check(token):
-                                            z = check_second_check(token, local[n])
-                                            if not z: 
-                                                return False #failed to be a phrasename or type name 
+                                    if PassedThru > 0: 
+                                        if needs_sec_check(rtuple[0]):
+                                            if not check_second_check(rtuple[0], local[n]):
+                                                break #failed to be a phrasename or type name 
                                             
                                     if check_repeat(rtuple[0]):
                                         re = []
