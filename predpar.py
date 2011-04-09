@@ -195,133 +195,40 @@ def check_repeat(item):
             return True
     
     return False 
-##########################################
-def update_mini_tree(ruleList, minitree):
-    
-    local_mini = minitree
-    head = ruleList[2]
-    subtype = ruleList [0]
-    
-    try: 
-        if local_mini[head] == {} or local_mini[head]:
-            
-            local_mini[head][subtype] = {}
-            UnclassifiedList.append(subtype)
-            return local_mini 
-    
-    except KeyError: 
-        
-        if local_mini != {}: 
-            count   = 0
-            for x in local_mini: 
-                count += 1
-                if x == head: 
-                    local_mini[head][subtype] = {}
-                    UnclassifiedList.append(ruleList)
-                    return local_mini
-                    
-                elif x == subtype: 
-                    local_mini[head] = {}
-                    local_mini[head][subtype] = local_mini[x]
-                    del local_mini[x]
-                    return True 
-                
-                elif local_mini[x] != {}: 
-                    z =  update_mini_tree(ruleList, local_mini[x])
-                    if z:
-                        return True
-                    else: 
-                        break
-                      
-                elif count == len(local_mini):
-                    return 
-                else: 
-                    continue  
-        #else:
-        if local_mini == {}: 
-            global ulen
-            ulen += 1
-            UnclassifiedTree[head] = {}
-            UnclassifiedTree[head][subtype] = {}
-        
-        elif ulen == len(UnclassifiedTree):
-            global ulen
-            ulen += 1
-            UnclassifiedTree[head] = {}
-            UnclassifiedTree[head][subtype] = {}
-            
-    
-    return 
+
+##################################################
+
 
 ##############################################################
 
 def update_TypeTree(token, ruleList, tree):
     '''
-    creates/updates the global "typetree" to create a hierarchy of types
+    updates the global "typetree", listing each entry as 
+    subtype: [T/F, head]. All items are initially are set to 
+    false except ROOTs, and then will be checked later with 
+    tracePath, confirming that the subtype hierarchy does indeed work
+    
     '''
-    localTree = tree 
 
     if token == 'TypeDef':
         new_type = ruleList[0]
         
         if len(ruleList) == 3:  #means blank, head of tree
             
-            global TypeTree
-            TypeTree[new_type] = {}
-            
-            w = False
-            for mini_h in UnclassifiedTree: 
-                if mini_h == new_type: 
-                    TypeTree[new_type] = UnclassifiedTree[mini_h]
-                    w = True
-                    break
-                
-            if w: del UnclassifiedTree[mini_h]
-            
-            
+            #global TypeTree
+            TypeTree[new_type] = [True, 'ROOT']
             #update typelist 
             TypeList.append(new_type)
-            return True 
             
-        else: 
-            higher_type = ruleList[-2]  #subtype within []
+        else:
             
-            for head in localTree: 
-                if head == higher_type: 
-                    localTree[head][new_type] = {}
-                    TypeList.append(new_type)
-                    
-                    
-                    if len(UnclassifiedTree) > 1:
-                        z = False    
-                        for mini_h in UnclassifiedTree: 
-                            if mini_h == new_type: 
-                                TypeTree[new_type] = UnclassifiedTree[mini_h]
-                                z = True 
-                                break
-                    
-                        if z: del UnclassifiedTree[w]
-                    else: 
-                        k = UnclassifiedTree.keys()
-                        if k and k[0] == new_type:
-                            TypeTree[new_type] = UnclassifiedTree[new_type]
-                            del UnclassifiedTree[new_type]
-                            
-                    return localTree
-                
-                else:
-                    
-                    b = update_TypeTree(token, ruleList, localTree[head])
-                    
-                    if b: 
-                        localTree[head] = b
-                        
-                        return True 
-                    
-                    else: 
-                        return False 
-                     
-        update_mini_tree(ruleList, UnclassifiedTree)
+            head = ruleList[2]
+            subtype = ruleList[0]
+            
+            if subtype in TypeTree.keys():
+                print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subtype, )
+            else: 
+                TypeTree[subtype] = [False, head]
         
     return 
                         
@@ -356,7 +263,7 @@ def check_second_check(item, instance):
             if p == instance: 
                 return True 
     
-    print >>sys.stderr, "%s is not a defined Phrase name or Type" % (instance,)
+    #print >>sys.stderr, "%s is not a defined Phrase name or Type" % (instance,)
     return False 
             
 
@@ -543,6 +450,77 @@ def parseGrammar (rulePred, start_sym):
     
     
 #############################################
+def tracePath(subtype):
+    '''
+    Traces the path of a given subtype to a root, 
+    thus confirming if it is indeed linked to a properly defined root 
+    '''
+    path = []
+    sub = subtype
+    head = TypeTree[sub][1]
+    
+    if head == 'ROOT':
+        path = [sub]
+        return path 
+    
+    elif head in TypeTree.keys():
+        
+        path = tracePath(head)
+        
+        if path != []:
+            path.append(sub)
+            return path
+    else: 
+        return []
+    
+###################################################
+
+def loopCheck():
+    pass
+
+def check_multiInher():
+    pass
+
+def reachability_types():
+    pass 
+
+
+def check_types():
+    
+    
+    
+    types = TypeTree.keys()
+    
+    for t1 in types:
+        if not TypeTree[t1][0]:
+            
+            path = tracePath(t1)
+            if path != []:
+                for link in path: 
+                    if TypeTree[link][0]:
+                        continue 
+                    else:
+                        TypeTree[link][0] = True 
+                        TypeList.append(link)
+            else: 
+                continue 
+        else:
+            continue 
+        
+    
+    #if any type still has "False" entry, it means no proper
+    # path was discovered to the root, thus meaning the type
+    # was in some way improperly defined, and so we remove it 
+    # from the tree
+    for t2 in types: 
+        if not TypeTree[t2][0]:
+            del TypeTree[t2]
+        else:
+            continue 
+        
+    return 
+        
+###########################################
                
 def add_new_dict(subj, parsetree, dict):
     
@@ -574,13 +552,6 @@ def add_new_dict(subj, parsetree, dict):
         
     
     return subj_entry       
-    
-
-    
-    
-     
-        
-    
 
 ###########################################################################
 
@@ -667,24 +638,13 @@ def tokenize_pred_string(pstring):
 
 ########################################################
 
-def parse_vocab():
-    
-    '''
-    This is the acting main function of the parser, it reads in a given 
-    vocabulary file (exits if not included), then extracts rules/facts from 
-    the file using the method which I found in factotum_entities.py. Next, 
-    using factotum_lex, I pull out the subject and predicate from each line, 
-    and store them in a list of facts -- of the form (subj, pred).  
-    
-    After all this pre-processing, I have a for loop which  iterates through all 
-    these pairs, tokenizes the predicate using  TOKENIZE_PRED_STRING, (note: 
-    if it fails to do so properly, the rule is added to a list of failed facts), 
-    and then feed the resulting list of tokens to PARSE_GRAMMAR.  If PARSE GRAMMAR 
-    succeeds, I put the original rule, followed by it's parse tree into a list of 
-    successfully parsed rules, otherwise, the rule gets aded to the list of failed facts. 
-    
-    '''
 
+
+def go_thru_file():
+    '''
+    Opens up the given file,  reads in line by line, and
+    uses factotum lexer to go thru and find the subject and predicates
+    '''
     #if len(sys.argv) < 2: 
      #   sys.stderr.write("must include vocabulary (.v) file \n")
       #  raise SystemExit(1)
@@ -720,12 +680,15 @@ def parse_vocab():
             p = p.strip() # get rid of whitespace
             facts.append([s,p])
     
-    rule_pred = ''
-    parsed_rules = []
-    failed_rules = []
-    entries = []
-    new_dict = {}
+    return facts
+
+###############################################################
+
+def firstPass(facts):
+    
     #GO THROUGH RULES AND PARSE THEM 
+    parsed = []
+    failed = []
     
     global PassedThru 
     PassedThru = 0 
@@ -735,35 +698,77 @@ def parse_vocab():
         if rule[1] == '':           #skip any blank lines in vocab file 
             continue
 
+        #TOKENIZE THE RULE
         (rule_pred, c) = tokenize_pred_string(rule[1])
         
-        
-        if rule_pred == []:
-            failed_rules.append(rule)
+        if rule_pred == []:         #if fails to tokenize, put in failed rules
+            failed.append(rule)
             continue 
         
-        if rule_pred[0] != '[': #type defs
+        #PARSE RULE
+        if rule_pred[0] != '[': #all rules except type defs
             rule_parse =  parseGrammar(rule_pred, 'Start')
-        else: 
+        else:                   #TypeDefs don't have subject in front, so diff handle
             rule_pred.insert(0, rule[0])
             rule_parse = parseGrammar(rule_pred, 'Start')
-        
+            
+      
+        #RESULT OF PARSE
         if rule_parse:                   #if true, means parsed successfully 
-            parsed_rules.append([rule[0], rule[1], rule_pred])
-            #updating phrase list 
-            if rule_pred[0] == '-=':
+            parsed.append([rule[0], rule[1], rule_pred])
+            if rule_pred[0] == '-=':                        #updating phrase list 
                 PhraseList.append(rule[0])
-        
         else:
-            failed_rules.append(rule)
+            failed.append(rule)
     
-    #SECOND PASS
+    
+    return [parsed, failed]
+   
+#########################################################
+
+def second_pass():
+    
+    
+    pass 
+
+
+#############################################################
+
+def parse_vocab():
+    
+    '''
+    This is the acting main function of the parser, it reads in a given 
+    vocabulary file (exits if not included), then extracts rules/facts from 
+    the file using the method which I found in factotum_entities.py. Next, 
+    using factotum_lex, I pull out the subject and predicate from each line, 
+    and store them in a list of facts -- of the form (subj, pred).  
+    
+    After all this pre-processing, I have a for loop which  iterates through all 
+    these pairs, tokenizes the predicate using  TOKENIZE_PRED_STRING, (note: 
+    if it fails to do so properly, the rule is added to a list of failed facts), 
+    and then feed the resulting list of tokens to PARSE_GRAMMAR.  If PARSE GRAMMAR 
+    succeeds, I put the original rule, followed by it's parse tree into a list of 
+    successfully parsed rules, otherwise, the rule gets aded to the list of failed facts. 
+    
+    '''
+    facts = go_thru_file()
+    
+    rule_pred = ''
+    parsed_rules = []
+    failed_rules = []
+    entries = []
+    new_dict = {}
     second_parsed_rules = []
     
+    #GO THROUGH RULES AND PARSE THEM 
+    (parsed_rules, failed_rules) = firstPass(facts)
+    
+    #checktype tree
+    check_types()
+    
+    
     for r in parsed_rules: 
-        
-        
-        
+    
         global PassedThru
         PassedThru = 1 
         second_pass = parseGrammar(r[2], 'Start') #r2 s rulepred 
@@ -802,7 +807,7 @@ def parse_vocab():
         print TypeTree[x]
             
         
-    return(parsed_rules, failed_rules, new_dict)
+    return(parsed_rules, failed_rules, new_dict, TypeTree)
 
 #########################################################
 
