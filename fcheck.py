@@ -27,7 +27,7 @@
      defined comments, errors, and warnings are generated.
      
 7.   The internal structure is written out to a file which will be used by
-     other tools. 
+     other tools. [??]
 
 '''
 
@@ -43,15 +43,23 @@ g = factotum_globals.GlobalClass()
 
 grammar_dict = {}
 
+########################################################
+
 def check_vocab():
+    ''' Parses vocab using predpar over the .v passed into fcheck 
+        so that we may use the output dictionary grammar to parse our facts 
+    '''
     res_parseV = []
     res_parseV = predpar.parse_vocab()
     return res_parseV  
+
+#############################################################
 
 def go_thru_factFile():
     '''
     Opens up the given file,  reads in line by line, and
     uses factotum lexer to go thru and find the subject and predicates
+    (nearly identical to go_thru_file used in predpar.py) 
     '''
     #if len(sys.argv) < 3: 
      #   sys.stderr.write("must include fact (.f) file \n")
@@ -92,8 +100,10 @@ def go_thru_factFile():
 
 def parse_Facts(fact, start_sym, dI):
     ''' The main parsing function and is recursive, 
-        makes a copy of the token list in rulePred (stored to local), 
-        and then goes through the global vocab_grammar. 
+        nearly identical to parseGrammar in predpar, 
+        except that at top level when we first encounter the subject, 
+        we must dive into that dictionary immediately and call the parse_Facts
+        function on that dictionary. 
     '''
     
     #if rulePred == []: return False 
@@ -109,12 +119,16 @@ def parse_Facts(fact, start_sym, dI):
     if key in dI.keys(): 
         rules = dI[key] 
         
-        if rules.__class__ == dict:  #means at very top level, and have subject 
-            parse_Facts(fact, 'Start', dI[key])
+        if rules.__class__ == dict:  #means at very top level, and have subject--> need to call subject dictionary 
+            res = parse_Facts(fact, 'Start', dI[key])
+            if res:
+                return res 
+            else: 
+                return False 
             
         else: 
-            for rtuple in rules:
             
+            for rtuple in rules:
                 tree = []
                 tree.append([key, rtuple])
                 local = fact
@@ -126,188 +140,126 @@ def parse_Facts(fact, start_sym, dI):
                     for token in rtuple:
                         count += 1
                         
-                        try: 
-                            if vocab_grammar[token]: 
-                                res = parseGrammar (local[n:], token)
-                                if res: 
-                                    
-                                    if PassedThru == 0: 
-                                        x = update_TypeTree(token, local, TypeTree)
-                                    
-                                    tree.extend(res[0])
-                                    local = res[1]
-                                                            
-                                    if count == len(rtuple):
-                                        return (tree, local)
-                                    else: 
-                                        n = 0
-                                else: 
-                                    break
-                                
-                        except KeyError:        #encountered regex/terminal
-                            
-                            if n < len(local):
-                                
-                                if check_regex(token):
-                                    pattern = regex_dict[token]
-                                    
-                                    if match_regex(pattern, local[n]):
-                                        
-                                        if PassedThru > 0:
-                                            if needs_sec_check(token):
-                                                if not check_second_check(token, local[n]):
-                                                    break
-                                            
-                                        if check_repeat(token):
-                                            re = []
-                                            
-                                            if n < len(local)-1:
-                                                
-                                                while (match_regex(pattern, local[n])):
-                                                    re.append(local[n])
-                                                    if n < len(local)-1:
-                                                        n += 1
-                                                    else: 
-                                                        break
-                                                    
-                                                tree.append([token, re])
-                                                
-                                                if count == len(rtuple) :
-                                                    return(tree, local[n:])
-                                                else: 
-                                                    continue
-                                        else: #not in repeat
-                                            
-                                            tree.append([token, local[n]])
-                                            n += 1
-                                            
-                                            if count == len(rtuple) :
-                                                return(tree, local[n:])
-                                            else: 
-                                                continue
-                                    else:
-                                        break    
-
-                                else:   #not in the regex list, just a symbol match 
-                                    
-                                    if match_regex(token, local[n]): 
-                                        n+=1
-                                        
-                                        if count == len(rtuple):
-                                            return(tree, local[n:])
-                                        else:
-                                            continue
-                                    
-                                    else:
-                                        break          
-                            else:                       #no tokens don't match in tuple
-                                 break                   #break out of token loop, continue to next tuple
-          
-                else: ####Only one item-- don't want to iterate thru the string 
-                    try:
-                        if vocab_grammar[rtuple[0]] :
-                            res = parseGrammar(local[n:], rtuple[0])
+                        if token in dI.keys():
+                            #need to check if token is Typename or phrase name --> special comparison  
+                            res = parse_Facts (local[n:], token)
                             if res:
-                                
-                                if PassedThru == 0: 
-                                    x = update_TypeTree(rtuple[0], local, TypeTree)
-                                                        
                                 tree.extend(res[0])
                                 local = res[1]
-                                return(tree, local)
+                                
+                                if count == len(rtuple):
+                                    return (tree, local)
+                                else: 
+                                    n = 0
+                            else: 
+                                break
+                                
+                        else:        #encountered regex/terminal
+                            
+                            if n < len(local):
+                                if match_regex(token, local[n]): 
+                                    n+=1
+                                        
+                                    if count == len(rtuple):
+                                        return(tree, local[n:])
+                                    else:
+                                        continue
+                                    
+                                else:
+                                    break          
+                           
+                else: ####Only one item-- don't want to iterate thru the string 
+                    
+                    if rtuple[0] in dI.keys():
+                        #need to check also if type of phrasename
+                        
+                        res = parse_Facts(local[n:], rtuple[0])
+                        
+                        if res:
+                            tree.extend(res[0])
+                            local = res[1]
+                            return(tree, local)
                         else:
                             return False
                         
-                    except KeyError:
+                    else: #not entry in dict 
                         
                         if n < len(local):
-                            
-                            if check_regex(rtuple[0]):
-                                pattern = regex_dict[rtuple[0]]
-                                
-                                if match_regex(pattern, local[n]):
-                                    
-                                    if PassedThru > 0: 
-                                        if needs_sec_check(rtuple[0]):
-                                            if not check_second_check(rtuple[0], local[n]):
-                                                break #failed to be a phrasename or type name 
-                                            
-                                    if check_repeat(rtuple[0]):
-                                        re = []
-                                        
-                                        if n < len(local)-1:
-                                            while (match_regex(pattern, local[n])):
-                                                re.append(local[n])
-                                                if n < len(local)-1:
-                                                    n += 1
-                                                else:
-                                                    break
-                                            
-                                            tree.append([rtuple[0], re])
-                                            return(tree, local[n:])
-                                       
-                                    else: #not in repeat
-                                        tree.append([rtuple[0], local[n]])
-                                        n += 1
-                                        return(tree, local[n:])
-                                    
-                                        
-                                    
-                            else:   #not in the regex list, just a symbol match
-                                
-                                if match_regex(rtuple[0], local[n]):
-                                    n+=1
-                                    return(tree, local[n:])
+                            if match_regex(rtuple[0], local[n]):
+                                n+=1
+                                return(tree, local[n:])
                                 
                             
-                        else:                       #only item in tuple doesn't match 
-                            break                    #break out of tuple loop
-                        
-            
-        
+                            else:                       #only item in tuple doesn't match 
+                                break                    #break out of tuple loop
+
     else:         
         return False    
 
+##########################################################
+
 def fact_checker():
     
-    #get .v file  --> vocab 
-    #run predpar over .v file, 
-        #get dictionary 
-        #use that as grammar
+    
     vrules = []
     vfail = []
     global grammar_dict 
     grammar_dict = {}
     global TypeHier
     TypeHier = {}
+    
+    
     vrules, vfail, grammar_dict, TypeHier  = check_vocab()
-        
-    #get .f file  --> facts
-        #line by line get facts like in predpar 
-        #compare against grammar like in predpar 
+     ##########PRINTING VOCAB DICTIONARY PRODUCED 
+    #for x in grammar_dict:
+     #   print x + ":"
+      #  print x.__class__
+       # for y in grammar_dict[x]:
+        #    print  y + ":"
+         #   for z in grammar_dict[x][y]:
+          #      print  z 
+        #print '\n' 
         
     facts = go_thru_factFile()
     
     parsed_facts = []
     failed_facts = []
-    
-    
-    
-     
-        
+
     #go thru facts 
     #parse each one according to grammar generated by vocabulary 
     for f in facts: 
         
         subject = f[0]
         pred, cit =  predpar.tokenize_pred_string(f[1])
-        #print [f[0]] + pred
-        parse_facts(pred, subject, grammar_dict)
         
+        if pred == []:                              #failed to tokenize 
+            failed_facts.append(f)
+            
+        #print [f[0]] + pred
+            
+        factParse = parse_Facts(pred, subject, grammar_dict)
+        
+        if factParse: 
+            parsed_facts.append(f[0], pred, factParse[0])
+        else: 
+            failed_facts.append(f)
     
     
     
-    return 
+    
+    ##########PRINT STATMENTS 
+    #for n in parsed_facts:
+     #   for i in range(len(n)):
+      #      if i == 2:
+       #         for z in n[i]:
+        #            print z
+         #   else:
+          #      print n[i]
+        #print '\n'
+        
+    #print failed_facts
+    
+    return [parsed_facts, failed_facts] 
 
 
 
