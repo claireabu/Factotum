@@ -206,7 +206,9 @@ def update_TypeTree(token, ruleList, tree):
     updates the global "typetree", listing each entry as 
     subtype: [T/F, head]. All items are initially are set to 
     false except ROOTs, and then will be checked later with 
-    tracePath, confirming that the subtype hierarchy does indeed work
+    tracePath, confirming that the subtype hierarchy does indeed work.
+    
+    Also, checks for Multiple Inheritance, which we are not allowing 
     
     '''
 
@@ -475,14 +477,10 @@ def tracePath(subtype):
     
 ###################################################
 
-def loopCheck():
-    pass
+def hasLoop(startType):
+    
+   pass 
 
-def check_multiInher():
-    pass
-
-def reachability_types():
-    pass 
 
 
 def check_types():
@@ -521,6 +519,59 @@ def check_types():
     return 
         
 ###########################################
+
+def reachability_dict(des, key, dict):
+    
+    numPass = 1 
+    
+    while numPass < 3: 
+        
+        for entry in dict[key]:
+            
+            if entry.__class__ == list: 
+                
+                for item in entry:
+                    if item == des: 
+                        return True
+                    elif item in dict.keys() and numPass == 2:
+                        if reachability_dict(des, item, dict):
+                            return True
+                    elif numPass == 1: 
+                        continue 
+                    
+            elif entry == des: 
+                return True 
+            elif entry in dict.keys() and numPass == 2: 
+                if reachability_dict(des, entry, dict):
+                    return True
+            elif numPass == 1: 
+                continue 
+            
+                        
+        numPass += 1
+                
+
+    return False 
+
+#####################################
+
+def check_dict(dI):
+    
+    subjects = dI.keys()
+    
+    for subj in subjects:
+        LHS = dI[subj].keys()
+        for nonterm in LHS: 
+            if nonterm == 'Start':
+                continue 
+            elif reachability_dict(nonterm, 'Start', dI[subj] ): 
+                continue 
+            else: 
+                print >> sys.stderr, "%s is unreachable from Start in the new grammar dictionary entry %s and was removed" % (nonterm, subj)            
+                del dI[subj][nonterm]
+    return 
+
+#####################################
                
 def add_new_dict(subj, parsetree, dict):
     
@@ -530,23 +581,37 @@ def add_new_dict(subj, parsetree, dict):
         if dict[subj]:
             subj_entry = dict[subj]
             for x in parsetree:
-                try:
-                    if subj_entry[x[0]]:
+                if x[0] in subj_entry.keys():
                         count = 0
                         for w in subj_entry[x[0]]:
                             count += 1
-                            if w != x[1] and count == len(subj_entry[x[0]]):
+                            if w == x[1]: 
+                                break
+                            elif count == len(subj_entry[x[0]]):
                                 subj_entry[x[0]].append(x[1])
+                                break 
                             else: 
                                 continue 
                             
-                except KeyError: 
+                else: 
                     subj_entry[x[0]] = [x[1]]
     
     except KeyError: 
         subj_entry = {}
         for item in parsetree:
-            subj_entry[item[0]] = [item[1]]
+            if item[0] in subj_entry.keys():
+                c = 0 
+                for i in subj_entry[item[0]]:
+                    c += 1
+                    if i == item[1]:
+                        break
+                    elif c == len(subj_entry[item[0]]):
+                        subj_entry[item[0]].append(item[1])
+                        break
+                    else: 
+                        continue 
+            else:
+                subj_entry[item[0]] = [item[1]]
             
         
         
@@ -781,7 +846,7 @@ def parse_vocab():
         else: 
             failed_rules.append([r[0],r[1]])
         
-        
+    check_dict(new_dict)  
        
     for n in second_parsed_rules:
         for i in range(len(n)):
@@ -792,19 +857,22 @@ def parse_vocab():
                 print n[i]
         print '\n'
         
-    print failed_rules
+    #print failed_rules
   
-    #for x in new_dict:
-     #   print x + ":"
-      #  print x.__class__
-       # for y in new_dict[x]:
-        #    print "\t" + y + ":"
+    for x in new_dict:
+        print x + ":"
+        print x.__class__
+        for y in new_dict[x]:
+            print  y + ":"
+            for z in new_dict[x][y]:
+                print  z 
+        print '\n'
             
             #print y.__class__
              
-    for x in TypeTree: 
-        print x + ":"
-        print TypeTree[x]
+    #for x in TypeTree: 
+     #   print x + ":"
+     #   print TypeTree[x]
             
         
     return(parsed_rules, failed_rules, new_dict, TypeTree)
