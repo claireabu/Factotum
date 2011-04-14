@@ -42,6 +42,8 @@ lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
 
 grammar_dict = {}
+TypeHier = {}
+PhraseList  = []
 
 ########################################################
 
@@ -97,6 +99,28 @@ def go_thru_factFile():
             facts.append([s,p])
     
     return facts 
+###################################################
+
+
+
+def isDescendent(item):
+    pass
+
+def checkTP(instance, token):
+    
+    if token == 'Typename': 
+        typeMatch = getType()
+        if isDescendent(instance, typeMatch): 
+            return True 
+        else: 
+            return False 
+        
+    elif token == 'Phrasename':
+        
+        
+        
+    
+    
 
 def parse_Facts(fact, start_sym, dI):
     ''' The main parsing function and is recursive, 
@@ -142,7 +166,10 @@ def parse_Facts(fact, start_sym, dI):
                         
                         if token in dI.keys():
                             #need to check if token is Typename or phrase name --> special comparison  
-                            res = parse_Facts (local[n:], token)
+                            if token == 'Typename' or token == 'Phrasename':
+                                checkTP(local[n:], token)
+                            else: 
+                                res = parse_Facts (local[n:], token)
                             if res:
                                 tree.extend(res[0])
                                 local = res[1]
@@ -205,6 +232,7 @@ def fact_checker():
     vfail = []
     global grammar_dict 
     grammar_dict = {}
+    
     global TypeHier
     TypeHier = {}
     
@@ -219,6 +247,8 @@ def fact_checker():
          #   for z in grammar_dict[x][y]:
           #      print  z 
         #print '\n' 
+    
+    #check left recursion 
         
     facts = go_thru_factFile()
     
