@@ -891,7 +891,7 @@ def parse_vocab():
       
       
     #####PRINT STATEMENTS 
-     
+    
     for n in second_parsed_rules:
         for i in range(len(n)):
             if i == 2:
