@@ -452,47 +452,51 @@ def parseGrammar (rulePred, start_sym):
     
     
 #############################################
-def tracePath(subtype):
+def tracePath(subtype, mini):
     '''
     Traces the path of a given subtype to a root, 
-    thus confirming if it is indeed linked to a properly defined root 
+    thus confirming if it is indeed linked to a properly defined root, 
+    also has an internal check for LOOPS, using the mini dictionary d, to keep 
+    track of items already detected in the path and returns false (blank path []) indicating so 
     '''
     path = []
     sub = subtype
     head = TypeTree[sub][1]
+    d = mini
     
-    if head == 'ROOT':
+    if sub in d.keys():
+        print >> sys.stderr, "Loop detected"
+        return [] #loop 
+    
+    elif head == 'ROOT':
         path = [sub]
         return path 
     
     elif head in TypeTree.keys():
+        d[sub] = ''
+        path = tracePath(head, d)
         
-        path = tracePath(head)
-        
-        if path != []:
+        if path == []:
+            return []
+        else: 
             path.append(sub)
             return path
+            
     else: 
         return []
     
-###################################################
 
-def hasLoop(startType):
-    
-   pass 
-
-
+#################################################
 
 def check_types():
-    
-    
-    
+   
+    delList = []
     types = TypeTree.keys()
     
     for t1 in types:
+        looptest = {}
         if not TypeTree[t1][0]:
-            
-            path = tracePath(t1)
+            path = tracePath(t1, looptest)
             if path != []:
                 for link in path: 
                     if TypeTree[link][0]:
@@ -513,16 +517,21 @@ def check_types():
     for t2 in types: 
         if not TypeTree[t2][0]:
             del TypeTree[t2]
+            delList.append(t2)
         else:
             continue 
         
-    return 
+    
+        
+        
+    return delList
         
 ###########################################
 
-def reachability_dict(des, key, dict):
+def reachability_dict(des, key, dict, mini):
     
     numPass = 1 
+    minid = mini
     
     while numPass < 3: 
         
@@ -531,14 +540,31 @@ def reachability_dict(des, key, dict):
             if entry.__class__ == list: 
                 
                 for item in entry:
-                    if item == des: 
-                        return True
-                    elif item in dict.keys() and numPass == 2:
-                        if reachability_dict(des, item, dict):
-                            return True
-                    elif numPass == 1: 
-                        continue 
                     
+                    if item in minid.keys(): 
+                        continue 
+                    elif item == des: 
+                        return True
+                    elif item in dict.keys():
+                        if numPass == 2:
+                            minid[item] = ''
+                            if reachability_dict(des, item, dict, minid):
+                                
+                                return True
+                            else:
+                                #numPass = 1
+                                minid[item] = ''
+                                continue
+                             
+                        elif numPass == 1: 
+                            continue
+                    else: 
+                        continue 
+                     
+                #return False 
+            
+            elif entry in minid.keys(): 
+                continue 
             elif entry == des: 
                 return True 
             elif entry in dict.keys() and numPass == 2: 
@@ -562,9 +588,10 @@ def check_dict(dI):
     for subj in subjects:
         LHS = dI[subj].keys()
         for nonterm in LHS: 
+            m = {}
             if nonterm == 'Start':
                 continue 
-            elif reachability_dict(nonterm, 'Start', dI[subj] ): 
+            elif reachability_dict(nonterm, 'Start', dI[subj], m): 
                 continue 
             else: 
                 print >> sys.stderr, "%s is unreachable from Start in the new grammar dictionary entry %s and was removed" % (nonterm, subj)            
@@ -710,14 +737,14 @@ def go_thru_file():
     Opens up the given file,  reads in line by line, and
     uses factotum lexer to go thru and find the subject and predicates
     '''
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
+    #if len(sys.argv) < 2: 
+     #   sys.stderr.write("must include vocabulary (.v) file \n")
+      #  raise SystemExit(1)
 
     
-    vocabfile = open(sys.argv[1], 'r')
+    #vocabfile = open(sys.argv[1], 'r')
     
-    #vocabfile = open('test.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -824,7 +851,17 @@ def parse_vocab():
     (parsed_rules, failed_rules) = firstPass(facts)
     
     #checktype tree
-    check_types()
+    removeT = check_types()
+    
+    if removeT != []:
+        
+        edit = parsed_rules 
+        for item in removeT: 
+            for i in parsed_rules: 
+                if i[0] == item: 
+                    edit.remove(i)
+                else: 
+                    continue
     
     
     for r in parsed_rules: 
@@ -842,21 +879,29 @@ def parse_vocab():
             failed_rules.append([r[0],r[1]])
         
     check_dict(new_dict)  
+   
+    #for succ in second_parsed_rules: 
+     #   if succ[0] in new_dict: 
+            
+      #  else: 
+            
+        
+        
       
       
       
     #####PRINT STATEMENTS 
      
-    #for n in second_parsed_rules:
-     #   for i in range(len(n)):
-      #      if i == 2:
-       #         for z in n[i]:
-        #           print z
-         #   else:
-          #      print n[i]
-      #  print '\n'
+    for n in second_parsed_rules:
+        for i in range(len(n)):
+            if i == 2:
+                for z in n[i]:
+                   print z
+            else:
+                print n[i]
+        print '\n'
         
-   # print failed_rules
+    print failed_rules
   
     #for x in new_dict:
       #  print x + ":"

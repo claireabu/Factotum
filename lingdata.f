@@ -1,8 +1,8 @@
 :French -> Français.
-:" <Indo-European>.
-:" <Italic>. 
+:" [Indo-European].
+:" [Italic]. 
 " is written using the Latin alphabet -f. #-f: 4 diacritics, a cedilla, and two ligatures
-" <SVO> word order. 
+" [SVO] word order. 
 " is an official language of Belgium. 
 " is an official language of Benin.
 " is an official language of Burkina Faso.
@@ -78,8 +78,8 @@
 
      
 :Italian -> Italiano.
-:" <Indo-European>.
-:" <Italic>.
+:" [Indo-European].
+:" [Italic].
 " is an official language of Italy. 
 " is an official language of Switzerland. 
 " is an official language of San Marino. 
@@ -92,7 +92,7 @@
 " dialect: Corsican. 
 # note that there is a distinct difference between Italian dialects and languages of Italy. These three listed dialects are those closest to Italian structure. 
 " is written using the Latin alphabet -i. #-i, Italian uses the Latin alphabet but only has 21 letters: it excludes j, k, w, x, y.  Also, it has 3 diacritics, the accute accent, grave accent, and the circumflex. 
-" <SVO> word order. 
+" [SVO] word order. 
 " grammatical gender: two (masculin, feminine). 
 #note: some words may change gender depending on number. 
 " nouns inflect by gender. 
@@ -119,8 +119,8 @@
 " IPA consonants: m n ɲ p b t d k ɡ ʦ ʣ ʧ ʤ f v s z ʃ r l ʎ j w. 
 
 :German -> Deutsch. 
-:" <Indo-European>.
-:" <Germanic>.
+:" [Indo-European].
+:" [Germanic].
 " is an official language of Austria. 
 " is an official language of Belgium. 
 " is an official language of Italy- province of Bolzano-Bozen.
@@ -162,14 +162,14 @@
 " IPA vowels: i iː y yː u uː ɪ ʏ ʊ e eː ø øː o oː ə ɛ ɛː œ  ɔ ɐ a aː . 
 " IPA diphthongs:  a͡ɪ a͡ʊ ɔ͡ʏ .
 " IPA consonants: p b t d k ɡ ʔ  p͡f  ʦ ʧ ʤ f v s z ʃ ʒ ç x ʁ h m n ŋ l j r ʀ. 
-" <SVO> word order -g. 
+" [SVO] word order -g. 
 
 :Spanish -> Español.
 :" -> Castellano. 
-:" <Indo-European>.
-:" <Italic>.
+:" [Indo-European].
+:" [Italic].
 " is written using the Latin alphabet -s. #-s Latin alphabet with the addition of ñ and the diagraphs ch and ll. 
-" <SVO> word order. 
+" [SVO] word order. 
 " is an official language of the United Nations. 
 " is an official language of Colombia. #by law
 " is an official language of Spain. #by law
@@ -228,10 +228,10 @@
 " IPA diphthongs: /ei/ /ai/ /oi/ /eu/ /au/ /ou/ /je/ /ja/ /jo/ /ju/  /wi/ /we/ /wa/ /wo/ . 
 
 :Farsi -> Persian. 
-:" < Indo-European>. 
-:" <Indo-Iranian>.
+:" [ Indo-European]. 
+:" [Indo-Iranian].
 " is written using Perso-Arabic script. 
-" <SOV> word order. 
+" [SOV] word order. 
 # continuation of Middle Persian. 
 " pluricentric language. 
 " spoken in: Iran. 
@@ -274,10 +274,10 @@
 
 
 :Greek -> ελληνικά.i #note, we are interested here in Modern Greek.
-:" <Indo-European>.
-:" <Hellenic>. 
+:" [Indo-European].
+:" [Hellenic]. 
 # note: independent branch of Indo-European
-" <SVO> word order. #but word order is freely variable, VSO and others are frequent alternatives. 
+" [SVO] word order. #but word order is freely variable, VSO and others are frequent alternatives. 
 " is written using the Greek alphabet. 
 " is an official language of Greece. 
 " is an official language of Cyprus. 
@@ -336,12 +336,12 @@
 
 :Finnish -> Suomi. 
 :" -> Suomen kieli. 
-:" <Uralic>.
-:" <Finno-Ugric>. 
+:" [Uralic].
+:" [Finno-Ugric]. 
 " is written using the Latin alphabeti -fi. #based on Latin alphabet, especially the swedish extension. Comprises of 28 letters: absence of w and addition of Å̊ Ä Ö. 
 " no strict word order
 - sentence structure flexible
-- <SVO> most frequent word order. 
+- [SVO] most frequent word order. 
 #note: this flexibility is due to Finnish being an inflected language. 
 " is an official language of Finland. 
 # is an official minority language in Sweden. 
@@ -412,9 +412,9 @@
 :" -> Hindustani. # term used for Hindi dialects outside the subcontinent
 :" -> Hindavi. 
 :" -> Rekhta. 
-:" <Indo-European>.
-:" <Indo-Iranian>.
-" <SOV> word order.
+:" [Indo-European].
+:" [Indo-Iranian].
+" [SOV] word order.
 " pluricentric. 
 " standard forms: Standard Hindi. 
 " standard forms: Standard Urdu. 
@@ -495,10 +495,10 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 
 :Russian ->  русский язык.
 :" -> Russkiy yazyk. 
-:" <Indo-European>. 
-:" <Balto-Slavic>. 
+:" [Indo-European]. 
+:" [Balto-Slavic]. 
 " is written using the Cyrillic alphabet. #33 letters  
-" <SVO> word order -x. #since Russian is such an inflected language, word order is flexible  
+" [SVO] word order -x. #since Russian is such an inflected language, word order is flexible  
 " is an official language of Russia. 
 " is an official language of Belarus. 
 " is an official language of Kazakhstan. 
@@ -567,11 +567,11 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 
 
 :Swedish -> Svenska. 
-:" <Indo-European>.
-:" <Germanic>.
+:" [Indo-European].
+:" [Germanic].
 " is written using the Latin alphabet -sw 28 letters. #Latin alphabet, minus w, plus 3 diacritics: å, ä, ö.  
-" <SVO> word order.  
-" <V2> word order. 
+" [SVO] word order.  
+" [V2] word order. 
 " is an official language of Sweden. #de facto, no official law
 " is an official language of Finland.
 " is an official language of Åland. #autonomous province under soverignty of Finland. 
@@ -634,7 +634,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 
 :Japanese -> Nihongo. 
 :" -> 日本語.
-:" <Japonic>. 
+:" [Japonic]. 
 " is writen in a combination of 3 scripts: kanji, hiragana, katagana. 
 " is an official language of Japan. #de facto.
 # hyōjungo is "standard Japanese," kyōtsūgo "common language" 
@@ -653,7 +653,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " dialect: Hachijō. 
 " dialect: Ryūkyū. 
 # note: dialects from peripheral regions may be unintelligible to speakers of other dialects. 
-" <SOV> word order -j. # word order is flexible and the only strict rule is that the verb is last. 
+" [SOV] word order -j. # word order is flexible and the only strict rule is that the verb is last. 
 # subject or object of sentence need not be stated if obvious from context. 
 # tendency towards brevity. 
 " head final.
@@ -758,8 +758,8 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 :" -> Pashtu.
 :" -> Pushtu. 
 :" -> Afghani. 
-:" <Indo-European>. 
-:" <Indo-Iranian>.
+:" [Indo-European]. 
+:" [Indo-Iranian].
 " is an official language of Afghanistan. 
 # two main dialects: soft/southern, and hard/northern. 
 " dialect: Southern Abdali. 
@@ -812,7 +812,7 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 " interrogative pronouns: direct. 
 " interrogative pronouns: indirect. 
 " definiteness: none. #but when necessary may use demonstratives and cardinal numbers to indicate.          
-" <SOV> word order -with split ergativity. 
+" [SOV] word order -with split ergativity. 
 " IPA vowels: i e ə o u a ɑ.
 " IPA diphthongs: /ai/ /əi/ /ɑw/ /aw/ .
 " IPA consonants: m n ɳ p b t̪ d̪ ʈ ɖ k ɡ q ʔ ʦ ʣ ʧ ʤ f s z (ʂ ʐ) ʃ ʒ (ç ʝ) x ɣ h l r ɾ j w. 
@@ -820,11 +820,11 @@ Urdu is written using Perso-Arabic script, Nasta'liq being preferred.
 
 :Arabic -> al-ʿarabiyyah.
 :" -> العربية.
-:" <Afro-Asiatic>.
-:" <Semitic>. 
+:" [Afro-Asiatic].
+:" [Semitic]. 
 " is written using the Arabic alphabet. 
 " is written using the Syriac alphabet.
-" <VSO> word order.  #flexible since words have case endings. 
+" [VSO] word order.  #flexible since words have case endings. 
 " has only three vowels and two dipthongs. 
 " variant: Classical Arabic. 
 " Classical Arabic: language of Qur'an.
