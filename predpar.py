@@ -599,7 +599,32 @@ def check_dict(dI):
     return 
 
 #####################################
-               
+
+def checkBrackets(entry, s, dict):
+    
+    if entry[0] != 'Obj':
+        return (entry, dict)
+    elif entry[0] == 'Obj':
+        tokens = entry[1]
+        
+        for t in tokens:
+            if t == '<': 
+                entry[1].remove('<')
+                entry[1].remove('>')
+                
+        if entry[1] == []:
+            entry[1] = ['Typename']
+            if 'Typename' in dict.keys():
+                dict['Typename'].append('ANY')
+            else:
+                dict['Typename'] = ['ANY']
+        
+        return (entry, dict)
+    else: 
+        return  
+
+
+          
 def add_new_dict(subj, parsetree, dict):
     
     count = 0
@@ -610,35 +635,42 @@ def add_new_dict(subj, parsetree, dict):
             for x in parsetree:
                 if x[0] in subj_entry.keys():
                         count = 0
+                        item_cp, dict = checkBrackets(x, subj, dict)
                         for w in subj_entry[x[0]]:
                             count += 1
-                            if w == x[1]: 
+                            if w == item_cp[1]: 
                                 break
                             elif count == len(subj_entry[x[0]]):
-                                subj_entry[x[0]].append(x[1])
+                                subj_entry[x[0]].append(item_cp[1])
                                 break 
                             else: 
                                 continue 
                             
                 else: 
-                    subj_entry[x[0]] = [x[1]]
+                    item_cp, dict = checkBrackets(x, subj, dict)
+                    subj_entry[x[0]] = [item_cp[1]]
     
     except KeyError: 
+        
         subj_entry = {}
+        
         for item in parsetree:
             if item[0] in subj_entry.keys():
                 c = 0 
+                item_cp = checkBrackets(item, subj, dict)
                 for i in subj_entry[item[0]]:
                     c += 1
-                    if i == item[1]:
+                    if i == item_cp[1]:
                         break
                     elif c == len(subj_entry[item[0]]):
-                        subj_entry[item[0]].append(item[1])
+                        subj_entry[item[0]].append(item_cp[1])
                         break
                     else: 
                         continue 
             else:
-                subj_entry[item[0]] = [item[1]]
+                item_cp = item 
+                item_cp, dict = checkBrackets(item_cp, subj, dict)
+                subj_entry[item_cp[0]] = [item_cp[1]]
             
         
         
@@ -840,6 +872,9 @@ def parse_vocab():
     '''
     facts = go_thru_file()
     
+   # for x in facts: 
+    #    print x
+    
     rule_pred = ''
     parsed_rules = []
     failed_rules = []
@@ -878,7 +913,7 @@ def parse_vocab():
         else: 
             failed_rules.append([r[0],r[1]])
         
-    check_dict(new_dict)  
+    #check_dict(new_dict)  
    
     #for succ in second_parsed_rules: 
      #   if succ[0] in new_dict: 
@@ -903,14 +938,14 @@ def parse_vocab():
         
     print failed_rules
   
-    #for x in new_dict:
-      #  print x + ":"
-     #   print x.__class__
-       # for y in new_dict[x]:
-        #    print  y + ":"
-         #   for z in new_dict[x][y]:
-          #      print  z 
-        #print '\n'
+    for x in new_dict:
+        print x + ":"
+        print x.__class__
+        for y in new_dict[x]:
+            print  y + ":"
+            for z in new_dict[x][y]:
+                print  z 
+        print '\n'
             
             #print y.__class__
              

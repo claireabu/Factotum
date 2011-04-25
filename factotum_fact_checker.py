@@ -33,7 +33,7 @@ python tool, "checking facts for vocabulary consistency"
 '''
 import factotum_entities
 import factotum_lex
-import vocab_predicate_string_parser 
+import predpar
 import sys 
 from string import *
 
