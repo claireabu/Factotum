@@ -600,26 +600,26 @@ def check_dict(dI):
 
 #####################################
 
-def checkBrackets(entry, s, dict):
+def checkBrackets(entry, d):
     
     if entry[0] != 'Obj':
-        return (entry, dict)
+        return False
+    
     elif entry[0] == 'Obj':
         tokens = entry[1]
-        
         for t in tokens:
             if t == '<': 
-                entry[1].remove('<')
-                entry[1].remove('>')
-                
-        if entry[1] == []:
-            entry[1] = ['Typename']
-            if 'Typename' in dict.keys():
-                dict['Typename'].append('ANY')
-            else:
-                dict['Typename'] = ['ANY']
-        
-        return (entry, dict)
+                if 'Typename' in d.keys():
+                    
+                    for e in d['Typename']:
+                        if e == 'ANY':
+                            return True
+                        
+                    d['Typename'].append('ANY')
+                    
+                else:
+                    d['Typename'] = ['ANY']
+                return True   
     else: 
         return  
 
@@ -628,49 +628,70 @@ def checkBrackets(entry, s, dict):
 def add_new_dict(subj, parsetree, dict):
     
     count = 0
+    local = parsetree
     
-    try:
-        if dict[subj]:
-            subj_entry = dict[subj]
-            for x in parsetree:
-                if x[0] in subj_entry.keys():
-                        count = 0
-                        item_cp, dict = checkBrackets(x, subj, dict)
-                        for w in subj_entry[x[0]]:
-                            count += 1
-                            if w == item_cp[1]: 
-                                break
-                            elif count == len(subj_entry[x[0]]):
-                                subj_entry[x[0]].append(item_cp[1])
-                                break 
-                            else: 
-                                continue 
-                            
+    if subj in dict.keys():
+        subj_entry = dict[subj]
+        for x in parsetree:
+            if x[0] in subj_entry.keys():
+                count = 0
+                
+                if checkBrackets(x, subj_entry):
+                    s = x[1:-1]
+                    if s == []:
+                        s = ['Typename']
                 else: 
-                    item_cp, dict = checkBrackets(x, subj, dict)
-                    subj_entry[x[0]] = [item_cp[1]]
+                    s = x[1] 
+                    
+                for w in subj_entry[x[0]]:
+                    count += 1
+                    if w == s: 
+                            break
+                    elif count == len(subj_entry[x[0]]):
+                            subj_entry[x[0]].append(s)
+                            break
+                    else:
+                        continue
+            else:
+                if checkBrackets(x, subj_entry):
+                    s = x[1:-1]
+                    if s == []:
+                        s = ['Typename']
+                    subj_entry[x[0]] = [s]
+                else:
+                    subj_entry[x[0]] = [x[1]]
     
-    except KeyError: 
+    else:
         
         subj_entry = {}
         
-        for item in parsetree:
+        for item in local:
             if item[0] in subj_entry.keys():
                 c = 0 
-                item_cp = checkBrackets(item, subj, dict)
+                if checkBrackets(item, subj_entry):
+                    s = item[1:-1]
+                    if s == []:
+                        s = ['Typename']
+                else: 
+                    s = item[1]
+                    
                 for i in subj_entry[item[0]]:
                     c += 1
-                    if i == item_cp[1]:
+                    if i == s:
                         break
                     elif c == len(subj_entry[item[0]]):
-                        subj_entry[item[0]].append(item_cp[1])
+                        subj_entry[item[0]].append(s)
                         break
                     else: 
                         continue 
             else:
-                item_cp = item 
-                item_cp, dict = checkBrackets(item_cp, subj, dict)
-                subj_entry[item_cp[0]] = [item_cp[1]]
+                if checkBrackets(item, subj_entry):
+                    s = item[1:-1]
+                    if s == []:
+                        s = ['Typename']
+                    subj_entry[item[0]] = [s]
+                else:
+                    subj_entry[item[0]] = [item[1]]
             
         
         
