@@ -1,8 +1,27 @@
+x [y]
+y [z]
+z [w]
+w [x]
+god [immortal]
+goddess [immortal]
+immortal [beings]
+titan [immortal] 
+monster [mortal] 
+centaurs [mortal] 
+giants [mortal]
+beings []
+problem [] 
+geometric-figure [] 
+mortal [beings]
+giants [human]
+human [mortal]
+
+
 Transform-to  := "<> transformed to <> polynomially.".
 NP-Complete   := "<> is an NP-complete problem.".
 *   := "<problem> transformed to <problem> 
 -   polynomially.".
-Polygon	:= "<geo-figure> has <no-of-edge:n> edges.".
+Polygon	:= "<geometric-figure> has <no-of-edge:n> edges.".
 "   ?< ( \no-of-edge < 0 )
 -   : warn "Number of edges cannot be negative"
 -   ?: ( \no-of-edge > 10 ) 
@@ -29,7 +48,7 @@ problem   ?< ( \*Instance < 1 )
 -   : warn "Problem belongs to which category?" >?.
 
 "   ?< ( !\NP-Complete )
--   : warn "Problem NP-Complete?" >?.
+-   : warn "Problem NP-Complete?" >?.   [citation]
 
 mother	:= "<s:w> is the other of <o:w>.".
 "   ~> "<o> mother is <s>.".
@@ -37,5 +56,6 @@ mother	:= "<s:w> is the other of <o:w>.".
 Donation := "<donor:w> gives <money:n> dollars to <receiver:w>.".
 "   =>> "<receiver> receives <money> dollars from <donor>.".
 "   =>> "<receiver> gains <money> dollars.".
-"   =>> "<donor> is a donor.".
-#"   =>> "Donation <donor>, <receiver>.".
+"   =>> "<donor> is a donor.". #hello
+"   =>> "Donation <donor>, <receiver>.".
+

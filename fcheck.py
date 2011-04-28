@@ -138,7 +138,8 @@ def parse_Facts(fact, start_sym, dI):
     global depth
 
     if depth == depthLim:
-        return False 
+        print >> sys.stderr, 'Warning: Have exceeded depth limit, grammar is most likely Left Recursive\n Program now exiting'
+        exit(1) 
     else: 
         global depth
         depth += 1

@@ -1,7 +1,8 @@
-Partiion is an NP-complete problem
+Partition is an NP-complete problem
 Partition transformed to Knapsack polynomially
 :Satisfiability -> SAT
 " [problem].
+:3-Satisfiability [problem] 
 :Satisfiability transofrmed to 3-Satisfiability 
 - polynomially . 
 

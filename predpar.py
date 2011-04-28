@@ -971,14 +971,14 @@ def parse_vocab():
         
     #print failed_rules
   
-    #for x in new_dict:
-     #   print x + ":"
-      #  print x.__class__
-       # for y in new_dict[x]:
-        #    print  y + ":"
-         #   for z in new_dict[x][y]:
-          #      print  z 
-       # print '\n'
+    for x in new_dict:
+        print x + ":"
+        print x.__class__
+        for y in new_dict[x]:
+            print  y + ":"
+            for z in new_dict[x][y]:
+                print  z 
+        print '\n'
             
             #print y.__class__
              
