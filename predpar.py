@@ -602,6 +602,7 @@ def check_dict(dI):
 
 def checkBrackets(entry, d):
     
+    
     if entry[0] != 'Obj':
         return False
     
@@ -622,8 +623,14 @@ def checkBrackets(entry, d):
                 return True   
     else: 
         return  
+#####################################################
 
-
+def foo_ruleis(entry):
+    if entry[1][0] == ':=':
+        entry[1].remove(':=')
+        return  
+    else: 
+        return  
           
 def add_new_dict(subj, parsetree, dict):
     
@@ -641,6 +648,7 @@ def add_new_dict(subj, parsetree, dict):
                     if s == []:
                         s = ['Typename']
                 else: 
+                    foo_ruleis(x)
                     s = x[1] 
                     
                 for w in subj_entry[x[0]]:
@@ -659,6 +667,7 @@ def add_new_dict(subj, parsetree, dict):
                         s = ['Typename']
                     subj_entry[x[0]] = [s]
                 else:
+                    foo_ruleis(x)
                     subj_entry[x[0]] = [x[1]]
     
     else:
@@ -668,11 +677,13 @@ def add_new_dict(subj, parsetree, dict):
         for item in local:
             if item[0] in subj_entry.keys():
                 c = 0 
+                
                 if checkBrackets(item, subj_entry):
                     s = item[1:-1]
                     if s == []:
                         s = ['Typename']
                 else: 
+                    foo_ruleis(item)
                     s = item[1]
                     
                 for i in subj_entry[item[0]]:
@@ -691,6 +702,7 @@ def add_new_dict(subj, parsetree, dict):
                         s = ['Typename']
                     subj_entry[item[0]] = [s]
                 else:
+                    foo_ruleis(item)
                     subj_entry[item[0]] = [item[1]]
             
         
