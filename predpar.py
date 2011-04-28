@@ -948,25 +948,25 @@ def parse_vocab():
       
     #####PRINT STATEMENTS 
     
-    for n in second_parsed_rules:
-        for i in range(len(n)):
-            if i == 2:
-                for z in n[i]:
-                   print z
-            else:
-                print n[i]
-        print '\n'
+    #for n in second_parsed_rules:
+     #   for i in range(len(n)):
+      #      if i == 2:
+       #         for z in n[i]:
+        #           print z
+         #   else:
+          #      print n[i]
+       # print '\n'
         
-    print failed_rules
+    #print failed_rules
   
-    for x in new_dict:
-        print x + ":"
-        print x.__class__
-        for y in new_dict[x]:
-            print  y + ":"
-            for z in new_dict[x][y]:
-                print  z 
-        print '\n'
+    #for x in new_dict:
+     #   print x + ":"
+      #  print x.__class__
+       # for y in new_dict[x]:
+        #    print  y + ":"
+         #   for z in new_dict[x][y]:
+          #      print  z 
+       # print '\n'
             
             #print y.__class__
              

@@ -72,7 +72,7 @@ def go_thru_factFile():
     
     #factfile = open(sys.argv[2], 'r')
     
-    factfile = open('lingdata.f', 'r')
+    factfile = open('test.f', 'r')
     
     facts = []
     line = ''
@@ -110,7 +110,10 @@ def isDescendant(item, tmatch):
     want to check if item is a descendant of tmatch 
     '''
     
-    if not item in TypeHier.keys(): #means you've parsed thru and made it to the root without finding a match 
+    if tmatch == 'ANY': 
+        return True 
+    
+    elif not item in TypeHier.keys(): #means you've parsed thru and made it to the root without finding a match 
         return False 
     
     elif tmatch == item : 
@@ -119,14 +122,9 @@ def isDescendant(item, tmatch):
     else: 
         parent = TypeHier[item][1]
         return isDescendant(parent, tmatch)
-    
 
+#####################################################
 
-        
-        
-        
-    
-    
 
 def parse_Facts(fact, start_sym, dI):
     ''' The main parsing function and is recursive, 
@@ -137,10 +135,12 @@ def parse_Facts(fact, start_sym, dI):
     '''
     
     #if rulePred == []: return False 
-    
+    global depth
+
     if depth == depthLim:
         return False 
     else: 
+        global depth
         depth += 1
         
         
@@ -196,7 +196,12 @@ def parse_Facts(fact, start_sym, dI):
                         else:        #encountered regex/terminal
                             
                             if n < len(local):
-                                if match_regex(token, local[n]): 
+                                if key == 'Typename':
+                                    if isDescendant(local[n], token):
+                                        n+= 1
+                                        return(tree, local[n:])
+                                    
+                                elif match_regex(token, local[n]): 
                                     n+=1
                                         
                                     if count == len(rtuple):
@@ -244,6 +249,129 @@ def parse_Facts(fact, start_sym, dI):
 
 ##########################################################
 
+
+def pull_typedefs(subj, pred):
+    
+    if pred[0] == '[':
+        
+        if subj in TypeHier.keys():
+            print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
+        
+        else: 
+            head = pred[1]
+            TypeHier[subj] = [False, head]
+            return  True
+        
+    else: 
+        return False
+    
+################################################################
+
+#############################################
+def f_tracePath(subtype, mini):
+    '''
+    Traces the path of a given subtype to a root, 
+    thus confirming if it is indeed linked to a properly defined root, 
+    also has an internal check for LOOPS, using the mini dictionary d, to keep 
+    track of items already detected in the path and returns false (blank path []) indicating so 
+    '''
+    path = []
+    sub = subtype
+    head = TypeHier[sub][1]
+    d = mini
+    
+    if sub in d.keys():
+        print >> sys.stderr, "Loop detected"
+        return [] #loop 
+    
+    elif head == 'ROOT':
+        path = [sub]
+        return path 
+    
+    elif head in TypeHier.keys():
+        d[sub] = ''
+        path = f_tracePath(head, d)
+        
+        if path == []:
+            return []
+        else: 
+            path.append(sub)
+            return path
+            
+    else: 
+        return []
+    
+
+#################################################
+
+def fcheck_types():
+   
+    delList = []
+    types = TypeHier.keys()
+    
+    for t1 in types:
+        looptest = {}
+        if not TypeHier[t1][0]:
+            path = f_tracePath(t1, looptest)
+            if path != []:
+                for link in path: 
+                    if TypeHier[link][0]:
+                        continue 
+                    else:
+                        TypeHier[link][0] = True 
+            else: 
+                continue 
+        else:
+            continue 
+        
+    
+    #if any type still has "False" entry, it means no proper
+    # path was discovered to the root, thus meaning the type
+    # was in some way improperly defined, and so we remove it 
+    # from the tree
+    for t2 in types: 
+        if not TypeHier[t2][0]:
+            del TypeHier[t2]
+            delList.append(t2)
+        else:
+            continue 
+        
+    
+        
+        
+    return delList
+
+#####################################################
+
+   
+def first_pass(facts):
+    
+    nonTDefs = []
+    failed = []
+    
+    for f in facts: 
+        subject = f[0]
+        pred, cit =  predpar.tokenize_pred_string(f[1])
+        
+        if pred == []:                              #failed to tokenize 
+            failed.append(f)
+            
+        elif not pull_typedefs(subject, pred):
+            nonTDefs.append(f) #new list of facts, already added types to type tree, but take out of fact list
+        else: 
+            continue 
+    
+    
+    
+    no_path = fcheck_types()
+    
+    return  nonTDefs, failed #so when parsing thru rules, don't go thru the type definition again 
+     
+        
+
+########################################################################
+    
+    
 def fact_checker():
     
     
@@ -273,43 +401,39 @@ def fact_checker():
     
     parsed_facts = []
     failed_facts = []
+    facts2 = []
     
-    global depth
 
     #go thru facts 
     #parse each one according to grammar generated by vocabulary 
-    for f in facts:
-        subject = f[0]
-        pred, cit =  predpar.tokenize_pred_string(f[1])
+    facts2, failed_facts = first_pass(facts)
+    
+    for f2 in facts2:
         
-        if pred == []:                              #failed to tokenize 
-            failed_facts.append(f)
-            
-        #print [f[0]] + pred
+        subject = f2[0]
+        pred = f2[1]
         
-      
-           
         factParse = parse_Facts(pred, subject, grammar_dict)
         
         if factParse: 
-            parsed_facts.append(f[0], pred, factParse[0])
+            parsed_facts.append(f2[0], pred, factParse[0])
         else: 
-            failed_facts.append(f)
+            failed_facts.append(f2)
      
     
     
     
     ##########PRINT STATMENTS 
-    #for n in parsed_facts:
-     #   for i in range(len(n)):
-      #      if i == 2:
-       #         for z in n[i]:
-        #            print z
-         #   else:
-          #      print n[i]
-        #print '\n'
+    for n in parsed_facts:
+        for i in range(len(n)):
+            if i == 2:
+                for z in n[i]:
+                    print z
+            else:
+                print n[i]
+            print '\n'
         
-    #print failed_facts
+    print failed_facts
     
     return [parsed_facts, failed_facts] 
 
