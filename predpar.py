@@ -631,7 +631,8 @@ def foo_ruleis(entry):
         return  
     else: 
         return  
-          
+
+#######################################################        
 def add_new_dict(subj, parsetree, dict):
     
     count = 0
@@ -648,7 +649,7 @@ def add_new_dict(subj, parsetree, dict):
                     if s == []:
                         s = ['Typename']
                 else: 
-                    foo_ruleis(x)
+                    #foo_ruleis(x)
                     s = x[1] 
                     
                 for w in subj_entry[x[0]]:
@@ -667,7 +668,7 @@ def add_new_dict(subj, parsetree, dict):
                         s = ['Typename']
                     subj_entry[x[0]] = [s]
                 else:
-                    foo_ruleis(x)
+                    #foo_ruleis(x)
                     subj_entry[x[0]] = [x[1]]
     
     else:
@@ -683,7 +684,7 @@ def add_new_dict(subj, parsetree, dict):
                     if s == []:
                         s = ['Typename']
                 else: 
-                    foo_ruleis(item)
+                    #foo_ruleis(item)
                     s = item[1]
                     
                 for i in subj_entry[item[0]]:
@@ -702,13 +703,69 @@ def add_new_dict(subj, parsetree, dict):
                         s = ['Typename']
                     subj_entry[item[0]] = [s]
                 else:
-                    foo_ruleis(item)
+                    #foo_ruleis(item)
                     subj_entry[item[0]] = [item[1]]
             
         
         
     
     return subj_entry       
+
+###################################################################
+
+def add_fcheckDict(ruletree, fcheckD):
+    #if ruletree[1] == ['Pred', ':=']:
+    #start adding rules with pred 
+        #(note, do not add the subject of the rule)
+        #(do not add Pred, := to the tree either, since ':=' will not be present the in fact
+        #(remember to remove <> from objs) 
+        #add dict, but without a subj? //modify add dict or create own parsing func?
+    
+    if ['Pred', [':=', 'Phrase']] in ruletree: #rules get added in order?
+        
+        remTree = ruletree[2:]
+        
+        for branch in remTree:
+            
+            LHS = branch[0]
+            count = 0 
+            
+            if checkBrackets(branch, fcheckD):    
+                RHS = branch[1][1:-1]
+                if RHS == []:
+                    RHS = ['Typename']
+            else: 
+                RHS = branch[1]
+                
+            if LHS in fcheckD.keys():
+                entry = fcheckD[LHS]
+                for item in entry:
+                    count += 1
+                    if item == RHS: 
+                        break
+                    elif count == len(entry):
+                        fcheckD[LHS].append(RHS)
+                        break
+                    else: 
+                        continue 
+                    
+            else: 
+                fcheckD[LHS] = [RHS]        
+        
+        return 
+                
+                
+    else: 
+        return  
+    
+
+
+
+
+
+
+
+
 
 ###########################################################################
 
@@ -913,6 +970,7 @@ def parse_vocab():
     failed_rules = []
     entries = []
     new_dict = {}
+    fcheck_dict = {}
     second_parsed_rules = []
     
     #GO THROUGH RULES AND PARSE THEM 
@@ -943,6 +1001,8 @@ def parse_vocab():
             entries.extend(second_pass[0])
             new_entry = add_new_dict(r[0], second_pass[0], new_dict)
             new_dict[r[0]] = new_entry
+            add_fcheckDict(second_pass[0], fcheck_dict)
+            
         else: 
             failed_rules.append([r[0],r[1]])
         
@@ -971,23 +1031,27 @@ def parse_vocab():
         
     #print failed_rules
   
-    for x in new_dict:
-        print x + ":"
-        print x.__class__
-        for y in new_dict[x]:
-            print  y + ":"
-            for z in new_dict[x][y]:
-                print  z 
-        print '\n'
+    #for x in new_dict:
+     #   print x + ":"
+      #  print x.__class__
+       # for y in new_dict[x]:
+        #    print  y + ":"
+         #   for z in new_dict[x][y]:
+          #      print  z 
+        #print '\n'
             
             #print y.__class__
-             
+    
+    for z in fcheck_dict: 
+        print z + ":"
+        for k in fcheck_dict[z]:
+            print k
     #for x in TypeTree: 
      #   print x + ":"
      #   print TypeTree[x]
             
         
-    return(parsed_rules, failed_rules, new_dict, TypeTree)
+    return(parsed_rules, failed_rules, new_dict, TypeTree, fcheck_dict)
 
 #########################################################
 
