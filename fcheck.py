@@ -380,12 +380,12 @@ def fact_checker():
     vfail = []
     global grammar_dict 
     grammar_dict = {}
-    
+    vdict = {}
     global TypeHier
     TypeHier = {}
     
     
-    vrules, vfail, grammar_dict, TypeHier  = check_vocab()
+    vrules, vfail, vdict, TypeHier, grammar_dict  = check_vocab()
      ##########PRINTING VOCAB DICTIONARY PRODUCED 
     #for x in grammar_dict:
      #   print x + ":"
