@@ -156,94 +156,103 @@ def parse_Facts(fact, start_sym, dI):
     if key in dI.keys(): 
         rules = dI[key] 
         
-        if rules.__class__ == dict:  #means at very top level, and have subject--> need to call subject dictionary 
-            res = parse_Facts(fact, 'Start', dI[key])
-            if res:
-                return res 
-            else: 
-                return False 
+        #if rules.__class__ == dict:  #means at very top level, and have subject--> need to call subject dictionary 
+         #   res = parse_Facts(fact, 'Start', dI[key])
+          #  if res:
+           #     return res 
+            #else: 
+             #   return False 
             
-        else: 
+        #else:
+        
+        for rtuple in rules:
+            tree = []
+            tree.append([key, rtuple])
+            local = fact
+            n = 0
+            count = 0
             
-                         
-            
-            for rtuple in rules:
-                tree = []
-                tree.append([key, rtuple])
-                local = fact
-                n = 0
-                count = 0
-            
-                if  len(rtuple) > 1 and rtuple.__class__ == list:   #multiple options in grammar rule 
-                    
-                    for token in rtuple:
-                        count += 1
+            if  len(rtuple) > 1 and rtuple.__class__ == list:   #multiple options in grammar rule 
+                for token in rtuple:
+                    count += 1
                         
-                        if token in dI.keys():
+                    if token in dI.keys():
                             
-                            res = parse_Facts (local[n:], token)
+                        res = parse_Facts (local[n:], token, dI)
                             
-                            if res:
-                                tree.extend(res[0])
-                                local = res[1]
-                                
-                                if count == len(rtuple):
-                                    return (tree, local)
-                                else: 
-                                    n = 0
-                            else: 
-                                break
-                                
-                        else:        #encountered regex/terminal
-                            
-                            if n < len(local):
-                                if key == 'Typename':
-                                    if isDescendant(local[n], token):
-                                        n+= 1
-                                        return(tree, local[n:])
-                                    
-                                elif match_regex(token, local[n]): 
-                                    n+=1
-                                        
-                                    if count == len(rtuple):
-                                        return(tree, local[n:])
-                                    else:
-                                        continue
-                                    
-                                else:
-                                    break          
-                           
-                else: ####Only one item-- don't want to iterate thru the string 
-                    
-                    if rtuple[0] in dI.keys():
-                        #need to check also if type of phrasename
-                        
-                        res = parse_Facts(local[n:], rtuple[0])
-                        
                         if res:
                             tree.extend(res[0])
                             local = res[1]
-                            return(tree, local)
-                        else:
-                            return False
+                                
+                            if count == len(rtuple):
+                                 return (tree, local)
+                            else: 
+                                 n = 0
+                        else: 
+                            break
+                                
+                    else:        #encountered regex/terminal
+                        if n < len(local):
+                            if key == 'Typename':
+                                if isDescendant(local[n], token):
+                                    n+= 1
+                                    return(tree, local[n:])
+                                    
+                            elif re.match(token, local[n]): 
+                                n+=1
+                                        
+                                if count == len(rtuple):
+                                    return(tree, local[n:])
+                                else:
+                                    continue
+                                
+                            elif token.__class__ == list:
+                                
+                                for t in token:
+                                    if local[n] == t:
+                                        n+= 1
+                                        if count == len(rtuple):
+                                            return(tree, local[n:])
+                                        
+                                    else: 
+                                        break 
+                                
+                                        
+                                    
+                            else:
+                                break          
+                           
+            else: ####Only one item-- don't want to iterate thru the string 
+                    
+                if rtuple[0] in dI.keys():
+                    #need to check also if type of phrasename
                         
-                    else: #not entry in dict
+                    res = parse_Facts(local[n:], rtuple[0], dI) 
+                        
+                    if res:
+                        tree.extend(res[0])
+                        local = res[1]
+                        return(tree, local)
+                    else:
+                        return False
+                        
+                else: #not entry in dict
                         
                          
                         
-                        if n < len(local):
-                            if key == 'Typename':
-                                if isDescendant(local[n], rtuple[0]):
-                                    n+= 1
-                                    return(tree, local[n:])
-                            
-                            elif match_regex(rtuple[0], local[n]):
-                                n+=1
+                    if n < len(local):
+                        if key == 'Typename':
+                            if isDescendant(local[n], rtuple):
+                                n+= 1
                                 return(tree, local[n:])
+                            
+                        elif re.match(rtuple[0], local[n]):
+                            n+=1
+                            return(tree, local[n:])
                                 
                             
-                            else:                       #only item in tuple doesn't match 
-                                break                    #break out of tuple loop
+                        else:                       #only item in tuple doesn't match 
+                            break                    #break out of tuple loop
 
     else:         
         return False    
@@ -358,7 +367,8 @@ def first_pass(facts):
             failed.append(f)
             
         elif not pull_typedefs(subject, pred):
-            nonTDefs.append(f) #new list of facts, already added types to type tree, but take out of fact list
+            pred.insert(0, subject)
+            nonTDefs.append(pred) #new list of facts, already added types to type tree, but take out of fact list
         else: 
             continue 
     
@@ -411,13 +421,11 @@ def fact_checker():
     
     for f2 in facts2:
         
-        subject = f2[0]
-        pred = f2[1]
         
-        factParse = parse_Facts(pred, subject, grammar_dict)
+        factParse = parse_Facts(f2, 'Phrase', grammar_dict)
         
         if factParse: 
-            parsed_facts.append(f2[0], pred, factParse[0])
+            parsed_facts.append([f2[0], 'Phrase', factParse[0]])
         else: 
             failed_facts.append(f2)
      
