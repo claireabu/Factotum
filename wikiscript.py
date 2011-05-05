@@ -4,8 +4,8 @@ from string import *
 
 
 Subject = ""
-maxlenHeading = 8 
-#rank? #extinction?
+started = False
+linkList = []
 headings_main = ['Pronunciation', 
                  'Created by', 
                  'Spoken in' , 
@@ -37,17 +37,59 @@ headings_off = [
                 'Regulated by'
                 ]
 
-headings_codes = ['Language codes',
-                  'ISO 639-1',
+headings_codes = ['ISO 639-1',
                   'ISO 639-2',
                   'ISO 639-3',
                   'Linguasphere Observatory',
                   'Linguasphere'
                  ]
 
-def writeFacts(facts):
-    #file = sys.argv[2]
-    pass
+def writeFacts(facts, subject):
+    if len(sys.argv)  == 3: 
+        filename = sys.argv[2]
+    else: 
+        filename = 'wikidata.f'
+    #filename = 'wikidata.f'
+    file = open(filename, 'a') 
+    
+    writestring = ''
+    
+    for k in facts.keys():
+        if facts[k].__class__  == list: 
+            for entry in facts[k]: 
+                
+                if not started:
+                    global started
+                    started = True
+                    writestring = subject + ' ' + k + ' ' + entry #+ '\n'
+                else: 
+                    writestring = '\"' + ' ' + k + ' ' + entry #+ '\n'
+                    
+                file.write(writestring)
+                file.write('\n')
+            
+            continue 
+                
+        elif not started:
+            global started
+            started = True 
+            writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
+            
+        else: 
+            writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
+        
+        file.write(writestring)
+        file.write('\n')
+        
+        
+    
+    file.close()
+            
+        
+        
+    
+    
+    return 
 
 ##############################
 def cleanUpFact(x):
@@ -57,6 +99,18 @@ def cleanUpFact(x):
     if z.find('::') != -1:
         z = z.replace('::::', '::')
         z = z.split('::')
+        
+        removeli = []
+        for zi in z: 
+            i = zi.find('IGNORE') 
+            if i >= 0: 
+                removeli.append(zi)
+            
+        if removeli != []:
+            for ri in removeli: 
+                z.remove(ri)
+                
+            
         
     return z
 
@@ -100,8 +154,10 @@ def parse_mainSection(lang_str):
         if facts[spec] == 'see below':
             del facts[spec]
         i += 1
-        
-    writeFacts(facts)
+    
+
+    
+    writeFacts(facts, Subject)
     
     return 
 
@@ -139,14 +195,55 @@ def parse_OfficialStatusSection(off_str):
             
         
         
-    writeFacts(facts)
+    writeFacts(facts, Subject)
     return
 
 ####################################################################
 
-def parse_LanguageCodeSection(off_str):
-    #writeFacts(facts)
-    pass
+def parse_LanguageCodeSection(codz_str):
+    
+    codz_str = codz_str.replace('Language codes', '')
+    try: 
+        endnote_i = codz_str.index('Note')
+    except: 
+        endnote_i = '' 
+    
+    if endnote_i !=  '':
+        codz_str = codz_str[:endnote_i-1]
+    pts = []
+    headings = []
+    
+    for c in headings_codes:
+        try: 
+            idx = codz_str.index(c)
+            headings.append(c)
+            pts.append(idx)
+        except:
+            continue 
+    
+    i = 0 
+    facts = {}
+    
+    for spec in headings: 
+        
+        start = pts[i]
+        spec1 = 'Language codes ' + spec
+        if i == len(headings) - 1:
+            facts[spec1] = codz_str[start:]
+        else: 
+            end = pts[i+1]
+            
+            facts[spec1] = codz_str[start:end]
+            
+        facts[spec1] = facts[spec1].replace(spec, '')
+        facts[spec1] = cleanUpFact(facts[spec1])
+        i += 1
+            
+              
+    
+    
+    writeFacts(facts, Subject)
+    return 
 
 
 ####################################################################
@@ -165,7 +262,7 @@ def removeTags (htmlText):
 ####################################################################
 
 def cleanUp(htmlTxt):
-    #htmlTxt = htmlTxt.replace('&#160;&#160;', 'IGNORE') #refers to a map we don't have access to
+    htmlTxt = htmlTxt.replace('&#160;&#160;', 'IGNORE') #refers to a map we don't have access to
     htmlTxt = htmlTxt.replace('&#160;', ' ')
     htmlTxt = htmlTxt.replace('\n\n\n', ' ') #get rid of excess newlines
     htmlTxt = htmlTxt.replace('\n', '::') ##issues where names get confused, white space was fine when they were on separate lines but that is no longer the case
@@ -209,13 +306,12 @@ def splitSections(htmlT):
 
 
 def parse_wiki():
-   #if len(sys.argv) < 2: 
-    #    sys.stderr.write("no URL was provided ")
-     #   raise SystemExit(1)
+    if len(sys.argv) < 2 : 
+        sys.stderr.write("please include URL")
+        raise SystemExit(1)
 
-    #url = sys.argv[1]
-    #file 
-    url = "http://www.en.wikipedia.org/wiki/French_language"
+    url = sys.argv[1]
+    #url = "http://www.en.wikipedia.org/wiki/Swahili_language"
     req = urllib2.Request(url, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     htmlSource = conn.read()
@@ -239,12 +335,185 @@ def parse_wiki():
     if codes != "":
         parse_LanguageCodeSection(codes) 
         
-       
+#########################################################
+
+def linksToPage(sourceURL):
+    
+    req = urllib2.Request(sourceURL, headers={'User-Agent' : "Google Chrome"})
+    conn = urllib2.urlopen(req)
+    srce = conn.read()
+    conn.close()
+    
+    i = srce.find('whatlinkshere')
+    srce = srce[i:]
+    
+    j = srce.find('<a href=\"')
+    srce = srce[j:]
+    
+    k = srce.find('>')
+    srce = srce[:k]
+    
+    j = len('<a href=\"')
+    srce = srce[j:]
+    
+    q = srce.find('"')
+    srce = srce[:q]
+    
+    linktolinks = 'http://www.en.wikipedia.org' + srce
+    return linktolinks
+
+#############################################################
+
+def getNextPage(html):
+    
+
+    edgeIndic = 'View ('
+    listbeg = html.find(edgeIndic)
+    
+    newlink = html[listbeg:]
+    marker = newlink.find('|')
+    newlink = newlink[marker+1:]
+    
+    newlink = newlink.strip()
+    if newlink.find('next') == 0:   #no more pages
+        return ''
+
+    s = newlink.find('\"')
+    nextl = newlink[s+1:]
+    e = nextl.find('\"')
+    nextl = nextl[:e]
+    nextl = nextl.replace('amp;', '')
+    nextl = 'http://www.en.wikipedia.org' + nextl
+    
+    return nextl 
+
+##################################
+
+def grabLinks(block):
+    
+    lbeg = -1
+    lend = -1 
+    link = ''
+    llist = []
+    lbeg = block.find('/wiki/')
+    
+    if lbeg == -1:
+        return  llist
+    else: 
+        
+        block = block[lbeg:]
+        lend = block.find('\"')
+        
+        if lend == -1:
+            return []
+        
+        link = block[:lend]
+        link = 'http://www.en.wikipedia.org' + link 
+        
+        print link
+        
+        #if link == 'http://www.en.wikipedia.org/wiki/Chilean_Spanish':
+        #    print 'hello'
+        #block = block[lend+1:]
+        #langbeg = block.find('\"')
+        #lang = block[langbeg + 1:]
+        #langend = lang.find('\"')
+        #lang = lang[:langend]
+        
+    block = block[lend:]
+    res = grabLinks(block)
+    if res != []:
+        llist.append(link)
+        llist.extend(res)
+    else:
+        llist.append(link)
+        
+    return llist
+#######################################
+
+def getLinks(linksURL):
+    
+    req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
+    conn = urllib2.urlopen(req)
+    listHTML = conn.read()
+    conn.close()
+    
+    nextURL = getNextPage(listHTML)
+    
+    start = listHTML.find('mw-whatlinkshere-list')
+    listHTML = listHTML[start:]
+    end = listHTML.find('View (')
+    listHTML = listHTML[:end]
+    
+    linklist = []
+    linklist = grabLinks(listHTML)
+
+   # if nextURL == '':
+    #    return linklist
+    #else: 
+        #a = getLinks(nextURL)
+        #linklist = linklist.append(a)
+    return (linklist, nextURL)
+    
+    
+    
+
+
+#########################################################################
+
+def collectData():
+    
+    sourceURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
+    linksURL = linksToPage(sourceURL)
+    
+    #read page full of links 
+    req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
+    conn = urllib2.urlopen(req)
+    srce = conn.read()
+    conn.close()
+
+    #get in right area, from the beginning of the list
+    edgeIndic = 'View ('
+    listbeg = srce.find(edgeIndic)
+    listend = srce.rfind(edgeIndic)
+    
+    listHTML = srce[listbeg:listend]
+    
+    #make it 500 per page -- less pages to sift thru
+    mark500end = listHTML.find('500')
+    newlink = listHTML[:mark500end+3]
+    mark500beg = newlink.rfind('\"')
+    newlink = newlink[mark500beg+1:]
+    newlink = newlink.replace('amp;', '')
+    newlink = 'http://www.en.wikipedia.org' + newlink
+    
+    morelinks = []
+    li_links = []
+    nextLink = ''
+    li_links, nextLink = getLinks(newlink)
+    
+    
+    while nextLink != '':
+        for l in li_links: 
+            parse_wiki(l)
+        morelinks, nextLink = getLinks(nextLink )
+            
+    
+    
+    
+    
+    return
+    
+    
+    
+    
+    
+    
+   
     
     
 
 
 if __name__ == "__main__":
     parse_wiki()
-
                     
