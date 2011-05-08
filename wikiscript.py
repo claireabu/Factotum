@@ -3,8 +3,11 @@ import sys
 from string import *
 
 
-Subject = ""
-started = False
+
+started = False 
+Name = '' 
+Native = '' 
+
 linkList = []
 headings_main = ['Pronunciation', 
                  'Created by', 
@@ -26,8 +29,7 @@ headings_main = ['Pronunciation',
                  'Writing system',
                  'Category (sources)',
                  'List of language regulators',
-                 'Regulated by', 
-                 'Native-name'
+                 'Regulated by'
                  ]
 
 headings_off = [
@@ -44,15 +46,17 @@ headings_codes = ['ISO 639-1',
                   'Linguasphere'
                  ]
 
-def writeFacts(facts, subject):
-    if len(sys.argv)  == 3: 
-        filename = sys.argv[2]
-    else: 
-        filename = 'wikidata.f'
-    #filename = 'wikidata.f'
+def writeFacts(facts):
+    #if len(sys.argv)  == 3: 
+     #   filename = sys.argv[2]
+    #else: 
+     #   filename = 'wikidata.f'
+    filename = 'wikidata.f'
     file = open(filename, 'a') 
     
     writestring = ''
+    subject = Name 
+        
     
     for k in facts.keys():
         if facts[k].__class__  == list: 
@@ -73,10 +77,16 @@ def writeFacts(facts, subject):
         elif not started:
             global started
             started = True 
-            writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
+            if k == '->':
+                 writestring =  ':' + subject + ' ' + '->' + ' ' + Native #+ '\n'
+            else: 
+                writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
             
         else: 
-            writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
+            if k == '->':
+                 writestring =  ':' + '\"' + ' ' + '->' + ' ' + Native #+ '\n'
+            else:   
+                writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
         
         file.write(writestring)
         file.write('\n')
@@ -92,10 +102,29 @@ def writeFacts(facts, subject):
     return 
 
 ##############################
-def cleanUpFact(x):
+def cleanUpFact(x, key):
     z = x.strip(':')
     z = z.strip()
     
+    #### GET RID OF CITATIONS 
+    
+    l = z.find('[') 
+    while l != -1: 
+        r = z.find(']')
+        if r != -1:
+            if key != 'Pronunciation':
+                sub = z[l:r+1]
+                z = z.replace(sub, '')
+                l = z.find('[')
+            else: 
+                z = z.replace('[', '')
+                z = z.replace(']', '')
+                z.strip()
+                break
+        else: 
+            break 
+    
+    ###GET RID OF COLONS --> PUT IN TO SEP
     if z.find('::') != -1:
         z = z.replace('::::', '::')
         z = z.split('::')
@@ -109,57 +138,81 @@ def cleanUpFact(x):
         if removeli != []:
             for ri in removeli: 
                 z.remove(ri)
-                
-            
+    
+    
         
+    ##### GET RID OF COMMAS 
+    addon = []
+    if z.__class__ == str: 
+        if z.find(',') != -1:
+            z = z.split(',')
+    elif z.__class__ == list: 
+        for zj in z: 
+            j = zj.find(',')
+            while j >= 0: 
+                zj = zj.replace(',', '')
+                move = zj[j:]
+                addon.append(move)
+                zj = zj[:j]
+                j = zj.find(',')
+    
+    if addon != []:
+        for a in addon: 
+            z.append(a)
+        #cleanUpFact(z, key)
+                
     return z
 
-####################################################################
+#####################################################
+
+
 def parse_mainSection(lang_str):
-    
-    pull_part = lang_str.split(' ',1)
-    lang_name = pull_part[0]
-    rem = pull_part[1]
-    
-    Subject = lang_name 
+   
     headings = []
     pts = []
     
     for h in headings_main:
         try: 
-            indx = rem.index(h)
+            indx = lang_str.index(h)
             headings.append(h)
             pts.append(indx)
             
         except: 
-            if h == 'Native-name':
-                headings.insert(0,h)
-                pts.insert(0,0)
-            else: 
-                continue
+            continue
+        
     i = 0 
     facts = {}
-     
+    
     for spec in headings:  
         start = pts[i]
         if i == len(headings)-1:
-            facts[spec] = rem[start:]
+            facts[spec] = lang_str[start:]
         else:
             end = pts[i+1]
-            facts[spec] = rem[start:end]
+            facts[spec] = lang_str[start:end]
         #some clean up 
         facts[spec] = facts[spec].replace(spec, '')
-        facts[spec] = cleanUpFact(facts[spec])
+        facts[spec] = cleanUpFact(facts[spec], spec)
     
         if facts[spec] == 'see below':
             del facts[spec]
         i += 1
     
-
+    if Native != '':
+       facts['->'] = Native 
+       facts['->'] = cleanUpFact(facts['->'], '->')
     
-    writeFacts(facts, Subject)
+    #just grab immediate parent
+    if 'Language family' in facts.keys(): 
+        fams = facts['Language family']
+        if fams == [] or fams == '':
+            del facts['Language family']
+        else: 
+            facts['Language family'] = fams[-2]
     
-    return 
+    writeFacts(facts)
+    
+    return  
 
 ####################################################################
 
@@ -190,12 +243,12 @@ def parse_OfficialStatusSection(off_str):
             facts[title] = off_str[start:end]
         
         facts[title] = facts[title].replace(title, '')
-        facts[title] = cleanUpFact(facts[title])
+        facts[title] = cleanUpFact(facts[title], title)
         i += 1
             
         
         
-    writeFacts(facts, Subject)
+    writeFacts(facts)
     return
 
 ####################################################################
@@ -230,34 +283,60 @@ def parse_LanguageCodeSection(codz_str):
         spec1 = 'Language codes ' + spec
         if i == len(headings) - 1:
             facts[spec1] = codz_str[start:]
+            if facts[spec1] == '-':
+                del facts[spec1]
         else: 
             end = pts[i+1]
-            
             facts[spec1] = codz_str[start:end]
             
         facts[spec1] = facts[spec1].replace(spec, '')
-        facts[spec1] = cleanUpFact(facts[spec1])
+        facts[spec1] = cleanUpFact(facts[spec1], spec1)
         i += 1
             
               
     
-    
-    writeFacts(facts, Subject)
+    if facts != {}:
+        writeFacts(facts)
     return 
 
 
 ####################################################################
 
-def removeTags (htmlText):
+def removeTags (htmlText, count):
+    
+    
     start = htmlText.find('<')
+    
     if start == -1:
         return htmlText
-    
+    elif start != 0: 
+        #pulling out name or native name 
+        if count == 0: 
+            global Name 
+            Name = htmlText[:start]
+            Name = Name.strip() 
+            count += 1
+            htmlText = htmlText[start:]
+            start = 0 
+            
+        elif count == 1: 
+            test = htmlText[:start]
+            test = test.strip()
+            if not test in headings_main: 
+                global Native
+                Native = test 
+                count += 1
+                htmlText = htmlText[start:]
+                start = 0 
+            else:
+                count += 1
+            
     end = htmlText.find('>')
     sub = htmlText[start:end+1]
     htmlText = htmlText.replace(sub, '')
+    htmlText = htmlText.lstrip()
     
-    return removeTags(htmlText)
+    return removeTags(htmlText, count)
 
 ####################################################################
 
@@ -303,27 +382,40 @@ def splitSections(htmlT):
     
     return (langHead, officialStatus, langCodes)
     
+###################################################
+def getID(srce):
+    
+    idx = srce.find('oldid')
+    id = srce[idx:]
+    idx = id.find('\"')
+    id = id[:idx]
+    
+    id = id.replace('oldid=', '')
+    id.strip()
+    return id
 
+###################################################
 
-def parse_wiki():
-    if len(sys.argv) < 2 : 
-        sys.stderr.write("please include URL")
-        raise SystemExit(1)
+def parse_wiki(url):
+    #if len(sys.argv) < 2 : 
+     #   sys.stderr.write("please include URL")
+      #  raise SystemExit(1)
 
-    url = sys.argv[1]
-    #url = "http://www.en.wikipedia.org/wiki/Swahili_language"
+    #url = sys.argv[1]
+    #url = "http://en.wikipedia.org/wiki/Igbo_language"
     req = urllib2.Request(url, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     htmlSource = conn.read()
     conn.close()
     
+    versID = getID(htmlSource)
+    
     start = htmlSource.find('<table class=\"infobox\" style=\"width: 22em; text-align: left; font-size: 88%; line-height: 1.5em\">' ) 
     infobox = htmlSource[start:]
     end = infobox.find('</table>')
     infobox = infobox[:end]
-    infobox = removeTags(infobox)
+    infobox = removeTags(infobox, 0)
     infobox = cleanUp(infobox)
-    
     
     head, official, codes = splitSections(infobox)
     
@@ -333,7 +425,17 @@ def parse_wiki():
          parse_OfficialStatusSection(official)
         
     if codes != "":
-        parse_LanguageCodeSection(codes) 
+        parse_LanguageCodeSection(codes)
+        
+    global started 
+    started = False  
+    
+    global Name 
+    Name = ''
+    global Native
+    Native = ''
+    
+    return versID
         
 #########################################################
 
@@ -408,30 +510,28 @@ def grabLinks(block):
             return []
         
         link = block[:lend]
-        link = 'http://www.en.wikipedia.org' + link 
-        
-        print link
-        
-        #if link == 'http://www.en.wikipedia.org/wiki/Chilean_Spanish':
-        #    print 'hello'
-        #block = block[lend+1:]
-        #langbeg = block.find('\"')
-        #lang = block[langbeg + 1:]
-        #langend = lang.find('\"')
-        #lang = lang[:langend]
-        
+        if link.find(':') != -1: 
+            link = ''
+        else: 
+            link = 'http://www.en.wikipedia.org' + link 
+           
     block = block[lend:]
     res = grabLinks(block)
-    if res != []:
-        llist.append(link)
-        llist.extend(res)
-    else:
-        llist.append(link)
-        
+    
+    if link != '':
+        if res != []:
+            llist.append(link)
+            llist.extend(res)
+        else:
+            llist.append(link)
+    else: 
+        if res != []: 
+            llist.extend(res)
+    
     return llist
 #######################################
 
-def getLinks(linksURL):
+def go_thru_page(linksURL):
     
     req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
@@ -448,11 +548,6 @@ def getLinks(linksURL):
     linklist = []
     linklist = grabLinks(listHTML)
 
-   # if nextURL == '':
-    #    return linklist
-    #else: 
-        #a = getLinks(nextURL)
-        #linklist = linklist.append(a)
     return (linklist, nextURL)
     
     
@@ -479,41 +574,39 @@ def collectData():
     
     listHTML = srce[listbeg:listend]
     
-    #make it 500 per page -- less pages to sift thru
-    mark500end = listHTML.find('500')
-    newlink = listHTML[:mark500end+3]
-    mark500beg = newlink.rfind('\"')
-    newlink = newlink[mark500beg+1:]
-    newlink = newlink.replace('amp;', '')
-    newlink = 'http://www.en.wikipedia.org' + newlink
-    
     morelinks = []
     li_links = []
-    nextLink = ''
-    li_links, nextLink = getLinks(newlink)
+    nextLink = linksURL
+    
+    #get the links for the first page
+    li_links, nextLink = go_thru_page(nextLink)
+    recordoflinks = []
     
     
+    #parse lang pages linked from page, then get next page of links 
     while nextLink != '':
         for l in li_links: 
-            parse_wiki(l)
-        morelinks, nextLink = getLinks(nextLink )
+            id = parse_wiki(l) 
+            archive = l.replace('wiki/', 'w/index.php?title=' )
+            archive += '&oldid=' + id
+            recordoflinks.append(archive)
+            print archive 
             
+        li_links, nextLink = go_thru_page(nextLink)
+        #li_links.extend(morelinks)
     
+    #langtotal = len(li_links)
+    #print langtotal 
     
-    
-    
-    return
-    
-    
-    
-    
-    
-    
-   
+      
+              
+    return recordoflinks 
     
     
 
 
 if __name__ == "__main__":
-    parse_wiki()
+    collectData()
+    #parse_wiki()
+   
                     
