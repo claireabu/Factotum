@@ -47,11 +47,21 @@ headings_codes = ['ISO 639-1',
                  ]
 
 def writeFacts(facts):
-    #if len(sys.argv)  == 3: 
-     #   filename = sys.argv[2]
-    #else: 
-     #   filename = 'wikidata.f'
-    filename = 'wikidata.f'
+    ''' Writes facts to a file either specified by 
+    the user in input, or automatically created and called
+    _wikidata.f. 
+    
+    It goes thru the dictionary Facts and writes each one 
+    into the file. If it is the first item (@started) to be 
+    written for this given subject, then the subject is 
+    included followed by the fact. If it is not the first item
+    then a quotation mark is inserted before the rest of the 
+    entry. 
+    '''
+    if len(sys.argv)  == 2: 
+        filename = sys.argv[1]
+    else: 
+        filename = '_wikidata.f'
     file = open(filename, 'a') 
     
     writestring = ''
@@ -103,6 +113,13 @@ def writeFacts(facts):
 
 ##############################
 def cleanUpFact(x, key):
+    ''' Cleans up each fact, removing excess colons (:) 
+    and whitespace, then getting rid of embedded citations or 
+    brackets, split up string on double colons or commas
+    into list. 
+    
+    '''
+    
     z = x.strip(':')
     z = z.strip()
     
@@ -167,6 +184,8 @@ def cleanUpFact(x, key):
 
 
 def parse_mainSection(lang_str):
+    '''
+    '''
    
     headings = []
     pts = []
@@ -384,7 +403,8 @@ def splitSections(htmlT):
     
 ###################################################
 def getID(srce):
-    
+    ''' Gets the version number of the page accessed
+    '''
     idx = srce.find('oldid')
     id = srce[idx:]
     idx = id.find('\"')
@@ -397,12 +417,20 @@ def getID(srce):
 ###################################################
 
 def parse_wiki(url):
+    ''' goes through a given url, grabs the html source, 
+    isolates the section that contains the Infobox information, 
+    pulls that apart into the designated 2 or 3 sections and 
+    transforms into facts that may be written to the file. 
+    Returns the version number of the page accessed. 
+    
+    Note: if using this function without collect data, you may 
+    input a url using the first commented part below. 
+    '''
     #if len(sys.argv) < 2 : 
      #   sys.stderr.write("please include URL")
       #  raise SystemExit(1)
 
     #url = sys.argv[1]
-    #url = "http://en.wikipedia.org/wiki/Igbo_language"
     req = urllib2.Request(url, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     htmlSource = conn.read()
@@ -440,7 +468,11 @@ def parse_wiki(url):
 #########################################################
 
 def linksToPage(sourceURL):
-    
+    '''
+    Input is the URL for the Template:Infobox, and pulls the link 
+    that will take us to the list of all pages that link(use) this 
+    given Infobox 
+    '''
     req = urllib2.Request(sourceURL, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     srce = conn.read()
@@ -467,8 +499,8 @@ def linksToPage(sourceURL):
 #############################################################
 
 def getNextPage(html):
-    
-
+    ''' Gets link for the next page listing links of languages
+    '''
     edgeIndic = 'View ('
     listbeg = html.find(edgeIndic)
     
@@ -492,7 +524,9 @@ def getNextPage(html):
 ##################################
 
 def grabLinks(block):
-    
+    ''' goes through page of links and grabs one by one, 
+    ignoring cases where a colon is present.  
+    '''
     lbeg = -1
     lend = -1 
     link = ''
@@ -532,7 +566,12 @@ def grabLinks(block):
 #######################################
 
 def go_thru_page(linksURL):
-    
+    '''
+    Go thru one of the pages with the list of links, 
+    pull all the links from the given page using grabLinks func,
+    and grab the link for the next page and return a list of the 
+    links and the next url. 
+    '''
     req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     listHTML = conn.read()
@@ -557,7 +596,9 @@ def go_thru_page(linksURL):
 #########################################################################
 
 def collectData():
-    
+    '''
+    Main func
+    '''
     sourceURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
     linksURL = linksToPage(sourceURL)
     
@@ -581,7 +622,7 @@ def collectData():
     #get the links for the first page
     li_links, nextLink = go_thru_page(nextLink)
     recordoflinks = []
-    
+    num1 = len(li_links)
     
     #parse lang pages linked from page, then get next page of links 
     while nextLink != '':
@@ -593,12 +634,24 @@ def collectData():
             print archive 
             
         li_links, nextLink = go_thru_page(nextLink)
+        #num1 += len(li_links)
         #li_links.extend(morelinks)
     
-    #langtotal = len(li_links)
-    #print langtotal 
+    for l in li_links: 
+            id = parse_wiki(l) 
+            archive = l.replace('wiki/', 'w/index.php?title=' )
+            archive += '&oldid=' + id
+            recordoflinks.append(archive)
+            #print archive 
+        
     
-      
+    #langtotal = len(li_links)
+    #print langtotal
+
+    #num = len(recordoflinks)
+    #print num
+    #print num1
+    
               
     return recordoflinks 
     
@@ -607,6 +660,5 @@ def collectData():
 
 if __name__ == "__main__":
     collectData()
-    #parse_wiki()
-   
+  
                     
