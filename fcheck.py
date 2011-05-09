@@ -46,6 +46,21 @@ TypeHier = {}
 PhraseList  = []
 depth = 0
 depthLim = 100 
+Aliases = {}
+
+################################################
+
+def add_predef_rules():
+    
+    grammar_dict['Start'] = [['Subject','Phrase'], [':','Predefined']]
+
+    grammar_dict['Predefined'] = [['Primary Term', '<-', 'Single Alias'],
+                              ['Primary Term', '<-', 'Multi Alias '], 
+                              ['Single Alias', '->', 'Primary Term'],
+                              ['Primary Term', '[', 'Type', ']']
+                            ]
+    return 
+
 
 ########################################################
 
@@ -98,7 +113,12 @@ def go_thru_factFile():
             (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
         
             p = p.strip() # get rid of whitespace
-            facts.append([s,p])
+            marker = my_fact[0]
+            if marker == ':':
+                facts.append([marker,s,p])
+            else: 
+                facts.append([s,p])
+            
     
     return facts 
 ###################################################
@@ -197,7 +217,9 @@ def parse_Facts(fact, start_sym, dI):
                                 if isDescendant(local[n], token):
                                     n+= 1
                                     return(tree, local[n:])
-                                    
+                            #elif key == 'Primary Term':
+                             #    matchAlias(local[]) 
+                                
                             elif re.match(token, local[n]): 
                                 n+=1
                                         
@@ -407,7 +429,7 @@ def fact_checker():
         #print '\n' 
     
     #check left recursion 
-        
+    add_predef_rules()
     facts = go_thru_factFile()
     
     parsed_facts = []
@@ -422,10 +444,10 @@ def fact_checker():
     for f2 in facts2:
         
         
-        factParse = parse_Facts(f2, 'Phrase', grammar_dict)
+        factParse = parse_Facts(f2, 'Start', grammar_dict)
         
         if factParse: 
-            parsed_facts.append([f2[0], 'Phrase', factParse[0]])
+            parsed_facts.append([f2[0], 'Start', factParse[0]])
         else: 
             failed_facts.append(f2)
      
