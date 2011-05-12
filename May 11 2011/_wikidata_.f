@@ -2878,7 +2878,6 @@ Kazakh Total speakers 8-8.3 million
 " Language codes Linguasphere 52-ABB-cc
 Serbian Pronunciation sr̩̂pskiː
 :" <- српски
-" Spoken in See below under "
 " Official language in Serbia
 " Official language in  Bosnia and Herzegovina
 " Official language in  Kosovo
@@ -18874,8 +18873,7 @@ Kazakh Total speakers 8-8.3 million
 " Language codes ISO 639-3 tpi
 " Language codes Linguasphere 52-ABB-cc
 Serbian Pronunciation sr̩̂pskiː
-:" <- српски
-" Spoken in See below under "
+:" <- српск�
 " Official language in Serbia
 " Official language in  Bosnia and Herzegovina
 " Official language in  Kosovo
