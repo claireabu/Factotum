@@ -54,16 +54,17 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                 ],
                     
                     'Phrase' : [    ['Obj', 'Words', 'Phrase' ],
-                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"', '.' ],
+                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"'],
                                     [ '\"', 'Obj', 'Words', 'Phrase', '\"'],
                                     [ 'Obj', 'Words'],
-                                    ['\"', 'Obj', 'Words', '\"', '.'],
                                     ['\"', 'Obj', 'Words', '\"'],
-                                    ['\"', 'Words', 'Phrase', '\"', '.'],
+                                    ['\"', 'Obj', 'Words', '\"'],
                                     ['\"', 'Words', 'Phrase', '\"'],
-                                    ['\"', 'Words', '\"', '.'],
+                                    ['\"', 'Words', 'Phrase', '\"'],
                                     ['\"', 'Words', '\"'],
-                                    ['Words'] 
+                                    ['\"', 'Words', '\"'],
+                                    ['Words'], 
+                                    ['Obj']
                                 ],
                     
                     'Obj' :     [   ['<' , '>', 'Obj'],
@@ -129,14 +130,16 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                     ['skip', 'N']
                                 ],
                                      
-                    'Opt' :     [   ['>?'],
+                    'Opt' :     [   ['>\?'],
                                     ['Elif'],
                                     ['Else']
                                 ],
                                       
-                    'Else' :  [[':', 'Command', '>?']],
+                    'Else' :  [
+                                [':', 'Command', '>\?']                                
+                               ],
                                       
-                    'Elif' :  [['?:', '\(', 'Cond', '\)', 'Then']] #force whitespace between expression and ()
+                    'Elif' :  [['\?:', '\(', 'Cond', '\)', 'Then']] #force whitespace between expression and ()
                     
                 }
 
@@ -307,26 +310,24 @@ def parseGrammar (rulePred, start_sym):
                     for token in rtuple:
                         count += 1
                         
-                        try: 
-                            if vocab_grammar[token]: 
-                                res = parseGrammar (local[n:], token)
-                                if res: 
-                                    
-                                    if PassedThru == 0: 
-                                        x = update_TypeTree(token, local, TypeTree)
-                                    
-                                    tree.extend(res[0])
-                                    local = res[1]
-                                                            
-                                    if count == len(rtuple):
-                                        return (tree, local)
-                                    else: 
-                                        n = 0
-                                else: 
-                                    break
+                        if token in vocab_grammar.keys(): 
+                            res = parseGrammar (local[n:], token)
                                 
-                        except KeyError:        #encountered regex/terminal
-                            
+                            if res: 
+                                if PassedThru == 0: 
+                                    x = update_TypeTree(token, local, TypeTree)
+                                tree.extend(res[0])
+                                local = res[1]
+                                                            
+                                if count == len(rtuple): #and local == []:
+                                    return (tree, local)
+                                else: 
+                                    n = 0
+                            else: 
+                                break
+                                
+                        else:         #encountered regex/terminal
+                        
                             if n < len(local):
                                 
                                 if check_regex(token):
@@ -341,21 +342,21 @@ def parseGrammar (rulePred, start_sym):
                                             
                                         if check_repeat(token):
                                             re = []
-                                            
-                                            if n < len(local)-1:
+                                            if n < len(local):
                                                 
                                                 while (match_regex(pattern, local[n])):
                                                     re.append(local[n])
                                                     if n < len(local)-1:
                                                         n += 1
                                                     else: 
+                                                        n += 1
                                                         break
                                                     
                                                 tree.append([token, re])
                                                 
-                                                if count == len(rtuple) :
+                                                if count == len(rtuple):
                                                     return(tree, local[n:])
-                                                else: 
+                                                else:
                                                     continue
                                         else: #not in repeat
                                             
@@ -376,6 +377,7 @@ def parseGrammar (rulePred, start_sym):
                                         
                                         if count == len(rtuple):
                                             return(tree, local[n:])
+                                            
                                         else:
                                             continue
                                     
@@ -385,24 +387,19 @@ def parseGrammar (rulePred, start_sym):
                                  break                   #break out of token loop, continue to next tuple
           
                 else: ####Only one item-- don't want to iterate thru the string 
-                    try:
-                        if vocab_grammar[rtuple[0]] :
-                            res = parseGrammar(local[n:], rtuple[0])
-                            if res:
-                                
-                                if PassedThru == 0: 
-                                    x = update_TypeTree(rtuple[0], local, TypeTree)
-                                                        
-                                tree.extend(res[0])
-                                local = res[1]
-                                return(tree, local)
+                    if rtuple[0] in vocab_grammar.keys():
+                        res = parseGrammar(local[n:], rtuple[0])
+                        if res:
+                            if PassedThru == 0: 
+                                x = update_TypeTree(rtuple[0], local, TypeTree)
+                            tree.extend(res[0])
+                            local = res[1]
+                            return(tree, local)
                         else:
-                            return False
+                            continue
                         
-                    except KeyError:
-                        
+                    else:
                         if n < len(local):
-                            
                             if check_regex(rtuple[0]):
                                 pattern = regex_dict[rtuple[0]]
                                 
@@ -416,12 +413,13 @@ def parseGrammar (rulePred, start_sym):
                                     if check_repeat(rtuple[0]):
                                         re = []
                                         
-                                        if n < len(local)-1:
+                                        if n < len(local):
                                             while (match_regex(pattern, local[n])):
                                                 re.append(local[n])
                                                 if n < len(local)-1:
                                                     n += 1
                                                 else:
+                                                    n += 1
                                                     break
                                             
                                             tree.append([rtuple[0], re])
@@ -430,8 +428,7 @@ def parseGrammar (rulePred, start_sym):
                                     else: #not in repeat
                                         tree.append([rtuple[0], local[n]])
                                         n += 1
-                                        return(tree, local[n:])
-                                    
+                                        return(tree, local[n:])                                    
                                         
                                     
                             else:   #not in the regex list, just a symbol match
@@ -953,7 +950,7 @@ def go_thru_file():
     
     #vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('res_lingdata.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -1000,6 +997,9 @@ def firstPass(facts):
             continue
 
         #TOKENIZE THE RULE
+        rule[1] = rule[1].strip()
+        rule[1] = rule[1].strip('.')
+        
         (rule_pred, c) = tokenize_pred_string(rule[1], '')
         
         if rule_pred == []:         #if fails to tokenize, put in failed rules
@@ -1008,6 +1008,12 @@ def firstPass(facts):
         
         #PARSE RULE
         if rule_pred[0] != '[': #all rules except type defs
+            if '['  in rule_pred: 
+                i = rule_pred.index('[')
+                rule_pred = rule_pred[:i]
+                if rule_pred[-1] == '.':
+                    throwaway = rule_pred.pop()
+               
             rule_parse =  parseGrammar(rule_pred, 'Start')
         else:                   #TypeDefs don't have subject in front, so diff handle
             rule_pred.insert(0, rule[0])
@@ -1108,16 +1114,16 @@ def parse_vocab():
       
     #####PRINT STATEMENTS 
     
-    #for n in second_parsed_rules:
-     #   for i in range(len(n)):
-      #      if i == 2:
-       #         for z in n[i]:
-        #           print z
-         #   else:
-          #      print n[i]
-       # print '\n'
+    for n in second_parsed_rules:
+        for i in range(len(n)):
+            if i == 2:
+                for z in n[i]:
+                   print z
+            else:
+                print n[i]
+        print '\n'
         
-    #print failed_rules
+    print failed_rules
   
     #for x in new_dict:
      #   print x + ":"
