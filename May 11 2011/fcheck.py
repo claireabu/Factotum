@@ -34,6 +34,7 @@
 import predpar
 import sys 
 from string import *
+import string 
 import re
 import factotum_lex
 import factotum_globals
@@ -49,6 +50,7 @@ depthLim = 100
 AliasestoSubj = {}
 #SubjtoAliases = {}
 MultiAl = []
+Labels = {}
 
 ########################################################
 
@@ -135,6 +137,7 @@ def isDescendant(item, tmatch):
     ''' note: remember that the TypeHier maps subtype to the parent, 
     want to check if item is a descendant of tmatch 
     '''
+    tmatch.strip()
     if tmatch == 'ANY': 
         return True 
     
@@ -154,6 +157,109 @@ def isDescendant(item, tmatch):
 
 #####################################################
 
+def checkLabel(rule, fact, n):
+     
+    if rule.__class__ == list: 
+        label = rule[0]
+        ttype = rule[1]
+        
+        x = checkTtype(ttype, fact, n)
+        
+        if x.__class__ == string: 
+            if not label in Labels: 
+                i = x[1]
+                x = x[0]
+                #Labels[x] = label
+                fact = fact[i+1:]
+                return (fact, i)
+        elif x: 
+            #label = label[len('Label:'):]
+            #label.strip()
+            if not fact[n] in Labels:
+                #Labels[fact[n]] = labelr
+                return True 
+                
+        else: return False 
+            
+        
+    else: 
+        #label = rule[len('Label:')+1:]
+        #label.strip()
+        if not fact in Labels: 
+            #Labels[fact] = label 
+            return True 
+            
+        
+    return True 
+
+##############################################
+
+def checkTtype(rule, fact, n):
+    
+    z = len('Ttype:')
+    ttype = rule[z:]
+    ttype.strip()
+    
+    if ttype == 'n': #number 
+        period = False 
+        if fact[n][0] == '-':
+            #negative number 
+            test = fact[n][1:]
+        else: 
+            test = fact 
+        
+        for e in test: 
+            if e == '.' and not period: 
+                period = True 
+            elif not e in string.digits: 
+                return False 
+            else: 
+                continue 
+        
+        return True  
+  
+    elif ttype == 's':  #string
+        
+        if fact[n] == '\"': 
+            str = '\"'
+            n += 1
+            while fact[n] != '\"':
+                str += fact[n]
+                str += ' '
+                if n == len(fact): 
+                    return False 
+                else: 
+                    n += 1
+            str += '\"'
+            
+            return (str, n)
+            
+        else: 
+            return False #not a string 
+        
+        
+    elif ttype == 'w':  #word
+        
+        for e in fact[n]:
+            if e in string.letters: 
+                continue 
+            elif e == '\'': 
+                continue 
+            else: 
+                return False 
+        return True 
+        
+    elif ttype == 'o':  #object
+        
+        if fact[n] in TypeHier.keys():
+            return True 
+        else: 
+            return False 
+            
+    else: 
+        return False
+    
+######################################################
 
 def parse_Facts(fact, start_sym, dI):
     ''' The main parsing function and is recursive, 
@@ -211,13 +317,65 @@ def parse_Facts(fact, start_sym, dI):
                                 
                     else:        #encountered regex/terminal
                         if n < len(local):
-                            if key == 'Typename':
-                                if isDescendant(local[n], token):
+                            if 'Type:' in token:
+                                typename = token.replace('Type: ', '')
+                                if isDescendant(local[n], typename):
                                     n+= 1
-                                    return(tree, local[n:])
-                            #elif key == 'Primary Term':
-                             #    matchAlias(local[]) 
+                                    if count == len(rtuple):
+                                        return(tree, local[n:])
+                                    else:
+                                        continue
+                                else: 
+                                    break 
+                                    
+                            elif token.__class__ == list:
+                                x = checkLabel(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1] + 1
+                                    local = local[n:]
+                                    tree.append([token, x[0]])
+                                elif x == True:
+                                    tree.append([token, local[n]])
+                                    n+= 1
+                                else: 
+                                    break 
                                 
+                                if count == len(rtuple):
+                                    return(tree, local[n:])
+                                else:
+                                    continue
+                                    
+                                  
+                            elif 'Label:' in token: 
+                                if checkLabel(token, local, n):
+                                    tree.append([token, [local[n]]])
+                                    n += 1
+                                    if count == len(rtuple):
+                                        return(tree, local[n:])
+                                    else:
+                                        continue
+                                else: 
+                                    break 
+                                    
+                                
+                           
+                            elif 'Ttype:' in token: 
+                                x = checkTtype(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1] + 1
+                                    local = local[n:]
+                                    tree.append([token, x[0]])
+                                elif x == True:
+                                    n+= 1
+                                else: 
+                                    break 
+                                
+                                if count == len(rtuple):
+                                    return(tree, local[n:])
+                                else:
+                                    continue
+                               
+                                 
                             elif re.match(token, local[n]): 
                                 n+=1
                                         
@@ -226,16 +384,7 @@ def parse_Facts(fact, start_sym, dI):
                                 else:
                                     continue
                                 
-                            elif token.__class__ == list:
-                                
-                                for t in token:
-                                    if local[n] == t:
-                                        n+= 1
-                                        if count == len(rtuple):
-                                            return(tree, local[n:])
-                                        
-                                    else: 
-                                        break     
+                            
                             else:
                                 break          
                            
@@ -256,11 +405,49 @@ def parse_Facts(fact, start_sym, dI):
                 else: #not entry in dict
                         
                     if n < len(local):
-                        if key == 'Typename':
-                            if isDescendant(local[n], rtuple):
+                        if 'Type:' in rtuple:
+                            typename = rtuple.replace('Type: ', '')
+                            if isDescendant(local[n], typename):
                                 n+= 1
                                 return(tree, local[n:])
-                            
+                        
+                        elif rtuple.__class__ == list:
+                                x = checkLabel(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1]
+                                    local = local[n:]
+                                    tree.append([rtuple, x[0]])
+                                elif x == True:
+                                    n+= 1
+                                else: 
+                                    break 
+                                
+                                
+                                return(tree, local[n:])
+                                
+                                  
+                        elif 'Label:' in rtuple: 
+                            if checkLabel(rtuple, local, n):
+                                tree.append([rtuple, [local[n]]])
+                                n += 1
+                                return(tree, local[n:])
+                                
+                            else: 
+                                break 
+                        
+                        elif 'Ttype:' in rtuple: 
+                            x = checkTtype(rtuple, local, n)
+                            if x.__class__ == tuple: 
+                                n = x[1]
+                                local = local[n:]
+                                tree.append([rtuple, x[0]])
+                            elif x == True:
+                                n+= 1
+                            else:
+                                 break
+                            return(tree, local[n:])
+
+                        
                         elif re.match(rtuple[0], local[n]):
                             n+=1
                             return(tree, local[n:])
@@ -457,6 +644,10 @@ def first_pass(facts):
     
     for f in facts: 
         
+        f[1] = f[1].strip()
+        f[1] = f[1].strip('.')
+        f[1] = f[1].strip()
+        
         subject = f[0]
         f, cit =  predpar.tokenize_pred_string(f[1], tokens)
         f.insert(0, subject)   
@@ -468,7 +659,7 @@ def first_pass(facts):
         if isPredef(f):
             if ':' in f: 
                 f.remove(':')
-                check_predef(f)    
+            check_predef(f)    
         else: 
             remFacts.append(f)
             continue 
@@ -522,9 +713,14 @@ def print_grammardict():
 def print_endFacts(parsed, failed):
     ##########PRINT STATMENTS 
     for n in parsed:
+        print '\n'
         for i in n:
            print i
-           print '\n'
+          
+        
+        
+           
+           
         
     print failed
     pass
