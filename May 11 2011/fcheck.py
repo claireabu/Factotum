@@ -85,14 +85,14 @@ def go_thru_factFile():
     uses factotum lexer to go thru and find the subject and predicates
     (nearly identical to go_thru_file used in predpar.py) 
     '''
-    #if len(sys.argv) < 3: 
-     #   sys.stderr.write("must include fact (.f) file \n")
-      #  raise SystemExit(1)
+    if len(sys.argv) < 3: 
+        sys.stderr.write("must include fact (.f) file \n")
+        raise SystemExit(1)
 
     
-    #factfile = open(sys.argv[2], 'r')
+    factfile = open(sys.argv[2], 'r')
     
-    factfile = open('test.f', 'r')
+    #factfile = open('test.f', 'r')
     
     facts = []
     line = ''
@@ -717,11 +717,6 @@ def print_endFacts(parsed, failed):
         for i in n:
            print i
           
-        
-        
-           
-           
-        
     print failed
     pass
 
@@ -761,7 +756,7 @@ def fact_checker():
         else: 
             failed_facts.append(f2)
      
-    print_endFacts(parsed_facts, failed_facts)
+    #print_endFacts(parsed_facts, failed_facts)
     
     return [parsed_facts, failed_facts] 
 

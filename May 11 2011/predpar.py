@@ -943,14 +943,14 @@ def go_thru_file():
     Opens up the given file,  reads in line by line, and
     uses factotum lexer to go thru and find the subject and predicates
     '''
-    #if len(sys.argv) < 2: 
-     #   sys.stderr.write("must include vocabulary (.v) file \n")
-      #  raise SystemExit(1)
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
 
     
-    #vocabfile = open(sys.argv[1], 'r')
+    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open('test.v', 'r')
+    #vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -1114,16 +1114,16 @@ def parse_vocab():
       
     #####PRINT STATEMENTS 
     
-    for n in second_parsed_rules:
-        for i in range(len(n)):
-            if i == 2:
-                for z in n[i]:
-                   print z
-            else:
-                print n[i]
-        print '\n'
+   # for n in second_parsed_rules:
+    #    for i in range(len(n)):
+     #       if i == 2:
+      #          for z in n[i]:
+       #            print z
+        #    else:
+         #       print n[i]
+       # print '\n'
         
-    print failed_rules
+    #print failed_rules
   
     #for x in new_dict:
      #   print x + ":"
@@ -1136,10 +1136,10 @@ def parse_vocab():
             
             #print y.__class__
     
-    for z in fcheck_dict: 
-        print z + ":"
-        for k in fcheck_dict[z]:
-            print k
+    #for z in fcheck_dict: 
+    #    print z + ":"
+       # for k in fcheck_dict[z]:
+        #    print k
     #for x in TypeTree: 
      #   print x + ":"
      #   print TypeTree[x]

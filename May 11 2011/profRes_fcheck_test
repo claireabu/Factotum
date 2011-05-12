@@ -1,0 +1,124 @@
+         80700 function calls (79705 primitive calls) in 0.100 CPU seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.100    0.100 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 factotum_globals.py:10(GlobalClass)
+        3    0.000    0.000    0.000    0.000 factotum_globals.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 factotum_globals.py:23(unique_name)
+        1    0.000    0.000    0.000    0.000 factotum_globals.py:4(<module>)
+        1    0.000    0.000    0.000    0.000 factotum_lex.py:10(LexException)
+       58    0.003    0.000    0.003    0.000 factotum_lex.py:114(str)
+        1    0.000    0.000    0.000    0.000 factotum_lex.py:12(LexFacts)
+        2    0.000    0.000    0.000    0.000 factotum_lex.py:18(__init__)
+       58    0.001    0.000    0.004    0.000 factotum_lex.py:24(breakup_fact)
+        1    0.000    0.000    0.000    0.000 factotum_lex.py:4(<module>)
+    83/42    0.000    0.000    0.000    0.000 fcheck.py:136(isDescendant)
+        5    0.000    0.000    0.000    0.000 fcheck.py:160(checkLabel)
+        7    0.000    0.000    0.000    0.000 fcheck.py:197(checkTtype)
+    20/10    0.000    0.000    0.003    0.000 fcheck.py:264(parse_Facts)
+        1    0.001    0.001    0.093    0.093 fcheck.py:32(<module>)
+        7    0.000    0.000    0.000    0.000 fcheck.py:465(input_typedef)
+     14/7    0.000    0.000    0.000    0.000 fcheck.py:477(f_tracePath)
+        1    0.000    0.000    0.000    0.000 fcheck.py:513(fcheck_types)
+       20    0.000    0.000    0.000    0.000 fcheck.py:550(isPredef)
+        1    0.000    0.000    0.075    0.075 fcheck.py:57(check_vocab)
+       10    0.000    0.000    0.000    0.000 fcheck.py:578(check_predef)
+        1    0.000    0.000    0.009    0.009 fcheck.py:634(first_pass)
+        1    0.000    0.000    0.000    0.000 fcheck.py:67(add_predef_rules)
+        1    0.000    0.000    0.089    0.089 fcheck.py:725(fact_checker)
+        1    0.000    0.000    0.002    0.002 fcheck.py:82(go_thru_factFile)
+        1    0.000    0.000    0.000    0.000 linecache.py:13(getline)
+        1    0.000    0.000    0.000    0.000 linecache.py:33(getlines)
+        1    0.000    0.000    0.000    0.000 linecache.py:68(updatecache)
+        1    0.000    0.000    0.075    0.075 predpar.py:1039(parse_vocab)
+     3532    0.003    0.000    0.019    0.000 predpar.py:156(match_regex)
+     3284    0.006    0.000    0.006    0.000 predpar.py:171(check_regex)
+      559    0.000    0.000    0.000    0.000 predpar.py:188(check_repeat)
+      188    0.000    0.000    0.000    0.000 predpar.py:207(update_TypeTree)
+      302    0.000    0.000    0.000    0.000 predpar.py:244(needs_sec_check)
+       42    0.000    0.000    0.000    0.000 predpar.py:255(check_second_check)
+   590/72    0.019    0.000    0.050    0.001 predpar.py:278(parseGrammar)
+        1    0.000    0.000    0.004    0.004 predpar.py:3(<module>)
+    41/11    0.000    0.000    0.000    0.000 predpar.py:452(tracePath)
+        1    0.000    0.000    0.000    0.000 predpar.py:488(check_types)
+      245    0.000    0.000    0.000    0.000 predpar.py:600(checkBrackets)
+       29    0.001    0.000    0.001    0.000 predpar.py:633(add_new_dict)
+       72    0.000    0.000    0.000    0.000 predpar.py:759(findInTree)
+    45/28    0.000    0.000    0.000    0.000 predpar.py:769(getTermSymbs)
+       29    0.000    0.000    0.001    0.000 predpar.py:816(add_fcheckDictEDIT)
+       58    0.005    0.000    0.026    0.000 predpar.py:855(tokenize_pred_string)
+        1    0.000    0.000    0.004    0.004 predpar.py:941(go_thru_file)
+        1    0.000    0.000    0.044    0.044 predpar.py:985(firstPass)
+     8844    0.008    0.000    0.036    0.000 re.py:134(match)
+       51    0.000    0.000    0.009    0.000 re.py:188(compile)
+     8895    0.012    0.000    0.028    0.000 re.py:229(_compile)
+       21    0.000    0.000    0.002    0.000 sre_compile.py:178(_compile_charset)
+       21    0.001    0.000    0.001    0.000 sre_compile.py:207(_optimize_charset)
+      135    0.000    0.000    0.000    0.000 sre_compile.py:24(_identityfunction)
+       10    0.000    0.000    0.000    0.000 sre_compile.py:258(_mk_bitmap)
+   169/49    0.001    0.000    0.003    0.000 sre_compile.py:32(_compile)
+       12    0.000    0.000    0.000    0.000 sre_compile.py:354(_simple)
+       49    0.001    0.000    0.002    0.000 sre_compile.py:361(_compile_info)
+       98    0.000    0.000    0.000    0.000 sre_compile.py:474(isstring)
+       49    0.000    0.000    0.006    0.000 sre_compile.py:480(_code)
+       49    0.000    0.000    0.012    0.000 sre_compile.py:495(compile)
+       93    0.000    0.000    0.000    0.000 sre_parse.py:126(__len__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:128(__delitem__)
+      368    0.000    0.000    0.000    0.000 sre_parse.py:130(__getitem__)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:134(__setitem__)
+      308    0.000    0.000    0.000    0.000 sre_parse.py:138(append)
+   181/61    0.001    0.000    0.001    0.000 sre_parse.py:140(getwidth)
+       49    0.000    0.000    0.000    0.000 sre_parse.py:178(__init__)
+      785    0.001    0.000    0.001    0.000 sre_parse.py:182(__next)
+      342    0.000    0.000    0.000    0.000 sre_parse.py:195(match)
+      604    0.000    0.000    0.001    0.000 sre_parse.py:201(get)
+       20    0.000    0.000    0.000    0.000 sre_parse.py:225(_class_escape)
+       20    0.000    0.000    0.000    0.000 sre_parse.py:257(_escape)
+    54/49    0.000    0.000    0.005    0.000 sre_parse.py:301(_parse_sub)
+   152/50    0.002    0.000    0.005    0.000 sre_parse.py:379(_parse)
+       49    0.000    0.000    0.006    0.000 sre_parse.py:663(parse)
+       49    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        5    0.000    0.000    0.000    0.000 sre_parse.py:72(opengroup)
+        5    0.000    0.000    0.000    0.000 sre_parse.py:83(closegroup)
+      169    0.001    0.000    0.001    0.000 sre_parse.py:90(__init__)
+       38    0.000    0.000    0.000    0.000 string.py:281(split)
+      116    0.000    0.000    0.000    0.000 string.py:364(rfind)
+       58    0.000    0.000    0.000    0.000 string.py:471(expandtabs)
+        1    0.000    0.000    0.000    0.000 warnings.py:24(_show_warning)
+        1    0.000    0.000    0.000    0.000 warnings.py:36(formatwarning)
+       49    0.000    0.000    0.000    0.000 {_sre.compile}
+     8844    0.009    0.000    0.009    0.000 {built-in method match}
+        1    0.006    0.006    0.100    0.100 {execfile}
+     3426    0.001    0.000    0.001    0.000 {isinstance}
+13822/13797    0.002    0.000    0.002    0.000 {len}
+      103    0.000    0.000    0.000    0.000 {max}
+     7142    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       58    0.000    0.000    0.000    0.000 {method 'expandtabs' of 'str' objects}
+      550    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+     8961    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+       15    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+       37    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+       49    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+     4923    0.002    0.000    0.002    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       85    0.000    0.000    0.000    0.000 {method 'readline' of 'file' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of 'file' objects}
+       19    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       44    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      116    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       58    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+      345    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+      441    0.000    0.000    0.000    0.000 {min}
+        3    0.000    0.000    0.000    0.000 {open}
+      360    0.000    0.000    0.000    0.000 {ord}
+        1    0.000    0.000    0.000    0.000 {posix.stat}
+       31    0.000    0.000    0.000    0.000 {range}
+
+
