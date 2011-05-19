@@ -7749,7 +7749,7 @@ Gongduk    []
 *   <> Region Alaska ( lower Yukon River
 *   <> Region Alaska ( middle Tanana River )
 *   <> Region Alaska ( middle Yukon River
-*   <> Region Alaska ( <> region
+*   <> Region Alaska ( <> region 
 *   <> Region Alaska ; formerly <> Island
 *   <> Region Alberta
 *   <> Region Alborz highlands
