@@ -34,6 +34,7 @@
 import predpar
 import sys 
 from string import *
+import string 
 import re
 import factotum_lex
 import factotum_globals
@@ -46,21 +47,10 @@ TypeHier = {}
 PhraseList  = []
 depth = 0
 depthLim = 100 
-Aliases = {}
-
-################################################
-
-def add_predef_rules():
-    
-    grammar_dict['Start'] = [['Subject','Phrase'], [':','Predefined']]
-
-    grammar_dict['Predefined'] = [['Primary Term', '<-', 'Single Alias'],
-                              ['Primary Term', '<-', 'Multi Alias '], 
-                              ['Single Alias', '->', 'Primary Term'],
-                              ['Primary Term', '[', 'Type', ']']
-                            ]
-    return 
-
+AliasestoSubj = {}
+#SubjtoAliases = {}
+MultiAl = []
+Labels = {}
 
 ########################################################
 
@@ -72,6 +62,21 @@ def check_vocab():
     res_parseV = predpar.parse_vocab()
     return res_parseV  
 
+################################################
+
+def add_predef_rules():
+    
+    grammar_dict['Start'] = [[':','Predefined'],
+                             ['Phrase']
+                             ]
+
+    grammar_dict['Predefined'] = [['Primary Term', '<-', 'Single Alias'],
+                                  ['Primary Term', '<-', 'Multi Alias '], 
+                                  ['Single Alias', '->', 'Primary Term'],
+                                  ['Primary Term', '[', 'Type', ']']
+                                  ]
+    return 
+
 #############################################################
 
 def go_thru_factFile():
@@ -80,14 +85,14 @@ def go_thru_factFile():
     uses factotum lexer to go thru and find the subject and predicates
     (nearly identical to go_thru_file used in predpar.py) 
     '''
-    #if len(sys.argv) < 3: 
-     #   sys.stderr.write("must include fact (.f) file \n")
-      #  raise SystemExit(1)
+    if len(sys.argv) < 3: 
+        sys.stderr.write("must include fact (.f) file \n")
+        raise SystemExit(1)
 
     
-    #factfile = open(sys.argv[2], 'r')
+    factfile = open(sys.argv[2], 'r')
     
-    factfile = open('test.f', 'r')
+#    factfile = open('_wikidata_.f', 'r')
     
     facts = []
     line = ''
@@ -113,9 +118,14 @@ def go_thru_factFile():
             (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
         
             p = p.strip() # get rid of whitespace
+            if '<-' in my_fact and not '<-' in p:
+                p = '<' + p
+                
             marker = my_fact[0]
             if marker == ':':
-                facts.append([marker,s,p])
+                fstr = s + ' ' + p 
+                facts.append([marker, fstr])
+            
             else: 
                 facts.append([s,p])
             
@@ -123,18 +133,20 @@ def go_thru_factFile():
     return facts 
 ###################################################
 
-
-
 def isDescendant(item, tmatch):
     ''' note: remember that the TypeHier maps subtype to the parent, 
     want to check if item is a descendant of tmatch 
     '''
-    
+    tmatch.strip()
     if tmatch == 'ANY': 
         return True 
     
     elif not item in TypeHier.keys(): #means you've parsed thru and made it to the root without finding a match 
-        return False 
+        if item in AliasestoSubj.keys(): #means is an Alias
+            ent = AliasestoSubj[item]
+            return isDescendant(ent, tmatch)
+        else: 
+            return False 
     
     elif tmatch == item : 
         return True 
@@ -145,6 +157,109 @@ def isDescendant(item, tmatch):
 
 #####################################################
 
+def checkLabel(rule, fact, n):
+     
+    if rule.__class__ == list: 
+        label = rule[0]
+        ttype = rule[1]
+        
+        x = checkTtype(ttype, fact, n)
+        
+        if x.__class__ == string: 
+            if not label in Labels: 
+                i = x[1]
+                x = x[0]
+                #Labels[x] = label
+                fact = fact[i+1:]
+                return (fact, i)
+        elif x: 
+            #label = label[len('Label:'):]
+            #label.strip()
+            if not fact[n] in Labels:
+                #Labels[fact[n]] = labelr
+                return True 
+                
+        else: return False 
+            
+        
+    else: 
+        #label = rule[len('Label:')+1:]
+        #label.strip()
+        if not fact[n] in Labels: 
+            #Labels[fact] = label 
+            return True 
+            
+        
+    return True 
+
+##############################################
+
+def checkTtype(rule, fact, n):
+    
+    z = len('Ttype:')
+    ttype = rule[z:]
+    ttype.strip()
+    
+    if ttype == 'n': #number 
+        period = False 
+        if fact[n][0] == '-':
+            #negative number 
+            test = fact[n][1:]
+        else: 
+            test = fact 
+        
+        for e in test: 
+            if e == '.' and not period: 
+                period = True 
+            elif not e in string.digits: 
+                return False 
+            else: 
+                continue 
+        
+        return True  
+  
+    elif ttype == 's':  #string
+        
+        if fact[n] == '\"': 
+            str = '\"'
+            n += 1
+            while fact[n] != '\"':
+                str += fact[n]
+                str += ' '
+                if n == len(fact): 
+                    return False 
+                else: 
+                    n += 1
+            str += '\"'
+            
+            return (str, n)
+            
+        else: 
+            return False #not a string 
+        
+        
+    elif ttype == 'w':  #word
+        
+        for e in fact[n]:
+            if e in string.letters: 
+                continue 
+            elif e == '\'': 
+                continue 
+            else: 
+                return False 
+        return True 
+        
+    elif ttype == 'o':  #object
+        
+        if fact[n] in TypeHier.keys():
+            return True 
+        else: 
+            return False 
+            
+    else: 
+        return False
+    
+######################################################
 
 def parse_Facts(fact, start_sym, dI):
     ''' The main parsing function and is recursive, 
@@ -171,19 +286,8 @@ def parse_Facts(fact, start_sym, dI):
     n = 0
     count = 0
     
-
-        
     if key in dI.keys(): 
         rules = dI[key] 
-        
-        #if rules.__class__ == dict:  #means at very top level, and have subject--> need to call subject dictionary 
-         #   res = parse_Facts(fact, 'Start', dI[key])
-          #  if res:
-           #     return res 
-            #else: 
-             #   return False 
-            
-        #else:
         
         for rtuple in rules:
             tree = []
@@ -204,7 +308,7 @@ def parse_Facts(fact, start_sym, dI):
                             tree.extend(res[0])
                             local = res[1]
                                 
-                            if count == len(rtuple):
+                            if count == len(rtuple) and local == []:
                                  return (tree, local)
                             else: 
                                  n = 0
@@ -213,13 +317,79 @@ def parse_Facts(fact, start_sym, dI):
                                 
                     else:        #encountered regex/terminal
                         if n < len(local):
-                            if key == 'Typename':
-                                if isDescendant(local[n], token):
+                            if 'Type:' in token:
+                                typename = token.replace('Type: ', '')
+                                if isDescendant(local[n], typename):
                                     n+= 1
-                                    return(tree, local[n:])
-                            #elif key == 'Primary Term':
-                             #    matchAlias(local[]) 
+                                    if count == len(rtuple):
+                                        return(tree, local[n:])
+                                    else:
+                                        continue
+                                else: 
+                                    break 
+                                    
+                            elif token.__class__ == list:
+                                x = checkLabel(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1] + 1
+                                    local = local[n:]
+                                    tree.append([token, x[0]])
+                                elif x == True:
+                                    tree.append([token, local[n]])
+                                    n+= 1
+                                else: 
+                                    break 
                                 
+                                if count == len(rtuple):
+                                    return(tree, local[n:])
+                                else:
+                                    continue
+                                    
+                                  
+                            elif 'Label:' in token: 
+                                if checkLabel(token, local, n):
+                                    tree.append([token, [local[n]]])
+                                    n += 1
+                                    if count == len(rtuple):
+                                        return(tree, local[n:])
+                                    else:
+                                        continue
+                                else: 
+                                    break 
+                                    
+                                
+                           
+                            elif 'Ttype:' in token: 
+                                x = checkTtype(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1] + 1
+                                    local = local[n:]
+                                    tree.append([token, x[0]])
+                                elif x == True:
+                                    n+= 1
+                                else: 
+                                    break 
+                                
+                                if count == len(rtuple):
+                                    return(tree, local[n:])
+                                else:
+                                    continue
+                            
+#                            elif token == '()':
+#                                for i in local[n]:
+#                                    if not i in string.digits:
+#                                        break 
+#                                    elif i in string.digits:
+#                                        if i == local[n][-1]: 
+#                                            n+= 1
+#                                
+#                                            if count == len(rtuple):
+#                                                return(tree, local[n:])
+#                                            else:
+#                                                continue
+#                                        else: 
+#                                            continue 
+                                        
                             elif re.match(token, local[n]): 
                                 n+=1
                                         
@@ -228,19 +398,7 @@ def parse_Facts(fact, start_sym, dI):
                                 else:
                                     continue
                                 
-                            elif token.__class__ == list:
-                                
-                                for t in token:
-                                    if local[n] == t:
-                                        n+= 1
-                                        if count == len(rtuple):
-                                            return(tree, local[n:])
-                                        
-                                    else: 
-                                        break 
-                                
-                                        
-                                    
+                            
                             else:
                                 break          
                            
@@ -260,14 +418,50 @@ def parse_Facts(fact, start_sym, dI):
                         
                 else: #not entry in dict
                         
-                         
-                        
                     if n < len(local):
-                        if key == 'Typename':
-                            if isDescendant(local[n], rtuple):
+                        if 'Type:' in rtuple:
+                            typename = rtuple.replace('Type: ', '')
+                            if isDescendant(local[n], typename):
                                 n+= 1
                                 return(tree, local[n:])
-                            
+                        
+                        elif rtuple.__class__ == list:
+                                x = checkLabel(token, local, n)
+                                if x.__class__ == tuple: 
+                                    n = x[1]
+                                    local = local[n:]
+                                    tree.append([rtuple, x[0]])
+                                elif x == True:
+                                    n+= 1
+                                else: 
+                                    break 
+                                
+                                
+                                return(tree, local[n:])
+                                
+                                  
+                        elif 'Label:' in rtuple: 
+                            if checkLabel(rtuple, local, n):
+                                tree.append([rtuple, [local[n]]])
+                                n += 1
+                                return(tree, local[n:])
+                                
+                            else: 
+                                break 
+                        
+                        elif 'Ttype:' in rtuple: 
+                            x = checkTtype(rtuple, local, n)
+                            if x.__class__ == tuple: 
+                                n = x[1]
+                                local = local[n:]
+                                tree.append([rtuple, x[0]])
+                            elif x == True:
+                                n+= 1
+                            else:
+                                 break
+                            return(tree, local[n:])
+
+                        
                         elif re.match(rtuple[0], local[n]):
                             n+=1
                             return(tree, local[n:])
@@ -282,23 +476,17 @@ def parse_Facts(fact, start_sym, dI):
 ##########################################################
 
 
-def pull_typedefs(subj, pred):
+def input_typedef(fact):
     
-    if pred[0] == '[':
-        
-        if subj in TypeHier.keys():
-            print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
-        
-        else: 
-            head = pred[1]
-            TypeHier[subj] = [False, head]
-            return  True
-        
+    subj = fact[0]
+    if subj in TypeHier.keys():
+        print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
+        return
     else: 
-        return False
-    
-################################################################
-
+        head = fact[2]
+        TypeHier[subj] = [False, head]
+        return  
+        
 #############################################
 def f_tracePath(subtype, mini):
     '''
@@ -367,47 +555,194 @@ def fcheck_types():
             delList.append(t2)
         else:
             continue 
-        
-    
-        
+
         
     return delList
 
 #####################################################
 
-   
-def first_pass(facts):
+def isPredef(fact):
     
-    nonTDefs = []
-    failed = []
-    
-    for f in facts: 
-        subject = f[0]
-        pred, cit =  predpar.tokenize_pred_string(f[1])
-        
-        if pred == []:                              #failed to tokenize 
-            failed.append(f)
+    if fact[0] == ':':
+        if '->' in fact:
+             return True 
+        elif '<-' in fact:
+             return True 
+        elif ('[' in fact) and (']' in fact):
+             return True 
+        else: 
+            fact.remove(':')
+            return False 
             
-        elif not pull_typedefs(subject, pred):
-            pred.insert(0, subject)
-            nonTDefs.append(pred) #new list of facts, already added types to type tree, but take out of fact list
+       
+    elif '->' in fact:
+         print >> sys.stderr, '\'->\' present in fact but no predefined marker \':\',\n user is advised to add it' 
+         return True 
+    elif '<-' in fact: 
+        print >> sys.stderr, '\'<-\' present in fact but no predefined marker \':\', user is advised to add it' 
+        return True 
+    elif ('[' in fact) and (']' in fact): 
+        print >> sys.stderr, '\'[]\' present in fact but no predefined marker \':\', user is advised to add it' 
+        return True     
+    else: 
+        return False 
+
+###################################################
+
+def check_predef(f):
+    '''
+    grammar_dict['Predefined'] = [['Primary Term', '<-', 'Single Alias'],
+                                  ['Primary Term', '<-', 'Multi Alias '], 
+                                  ['Single Alias', '->', 'Primary Term'],
+                                  ['Primary Term', '[', 'Type', ']']
+                                  ]
+    Type definitions are added to the type hierarchy and then checked for completeness.  
+    Aliases are added to the two dictionaries, Aliases to Subj (mapping the alias to it's primary term) 
+    and Subj to Aliases where the Subject/Primary term is mapped to all it's aliases.  It is important to note
+    that while one entitiy (primaryterm) may have multiple aliases, a single alias may refer to only one entity. 
+    '''
+    
+    predefs = grammar_dict['Predefined']
+    
+    for rule in predefs: 
+        symb = rule[1]
+        
+        if symb in f: 
+            i = f.index(symb)
+            
+            if symb == '[':
+                input_typedef(f)
+                break 
+            
+            elif 'Alias' in rule[0]:
+                l  = f[:i][0]
+                r = f[i+1:][0]
+                AliasestoSubj[l] = r
+                break
+             
+            elif 'Alias' in rule[2]:
+                
+                l  = f[:i][0]
+                r = f[i+1:]
+                if len(r) > 1 and  not 'Multi' in rule[2]:
+                    continue
+                elif len(r) > 1: 
+                    r = ' '.join(r)
+                    r = r.replace('.', '')
+                    r = r.strip()
+                    MultiAl.append(r)
+                else: 
+                    if r == []: break
+                    r = r[0]
+                    r = r.replace('.', '')
+                    r = r.strip()
+                    
+                AliasestoSubj[r] = l     
+               
+                break
         else: 
             continue 
     
-    
-    
-    no_path = fcheck_types()
-    
-    return  nonTDefs, failed #so when parsing thru rules, don't go thru the type definition again 
-     
-        
+    return
 
-########################################################################
+###################################################### 
+def first_pass(facts):
+    '''
+    The first pass pulls out predefined rules which contain information that will
+    be needed before compleely going thru all facts.  Predefined rules include type definitions,
+    as well as aliases, and so if a rule is of the predefined form, isPredef(fact) will return true, 
+    and then the fact is  analyzed using the function CHECK_PREDEF(fact)    
+    '''
+    remFacts = []
+    failed = []
+    tokens = re.compile('(<-|->|:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|[()]!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
     
+    for f in facts: 
+        
+        f[1] = f[1].strip()
+        f[1] = f[1].strip('.')
+        f[1] = f[1].strip()
+        
+        subject = f[0]
+        f, cit =  predpar.tokenize_pred_string(f[1], tokens)
+        f.insert(0, subject)   
+            
+        if f == []:                              #failed to tokenize 
+            failed.append(f)
+                            
+        #check if type def, check if predef --> only deal with those in first pass
+        if isPredef(f):
+            if ':' in f: 
+                f.remove(':')
+            check_predef(f)    
+        else: 
+            remFacts.append(f)
+            continue 
+    
+    no_path = fcheck_types() 
+    for n in no_path: 
+        if n in TypeHier:
+            del TypeHier[n]
+    
+    remFacts1 = []
+    
+    for r in remFacts: 
+        
+        for a in MultiAl:
+            a2 = a.split()
+            if a2[0] in r: 
+                i = r.index(a2[0])
+                
+                for il in range(len(a2)): 
+                    if i+il == len(r):
+                        break
+                    elif r[i+il] == a2[il]:
+                        if il + 1 == len(a2):
+                            r[i] = a
+                            beg = r[:i+1]
+                            after = r[i+il+1:]
+                            r = beg + after  
+                    else: 
+                        break
+                    
+                
+            else: 
+                continue 
+        remFacts1.append(r)
+    
+        
+    return  remFacts1, failed #so when parsing thru rules, don't go thru the type definition again 
+ 
+     
+################################################
+def print_grammardict():
+      ##########PRINTING VOCAB DICTIONARY PRODUCED 
+    for x in grammar_dict:
+        print x + ":"
+        print x.__class__
+        for y in grammar_dict[x]:
+            print  y + ":"
+            for z in grammar_dict[x][y]:
+                print  z 
+        print '\n' 
+    
+########################################################################
+
+def print_endFacts(parsed, failed):
+    ##########PRINT STATMENTS 
+    for n in parsed:
+        print '\n'
+        for i in n:
+           print i
+          
+    print failed
+    pass
+
+####################################
     
 def fact_checker():
-    
-    
+    ''' 'main' function of this module. 
+    '''
     vrules = []
     vfail = []
     global grammar_dict 
@@ -416,55 +751,30 @@ def fact_checker():
     global TypeHier
     TypeHier = {}
     
-    
-    vrules, vfail, vdict, TypeHier, grammar_dict  = check_vocab()
-     ##########PRINTING VOCAB DICTIONARY PRODUCED 
-    #for x in grammar_dict:
-     #   print x + ":"
-      #  print x.__class__
-       # for y in grammar_dict[x]:
-        #    print  y + ":"
-         #   for z in grammar_dict[x][y]:
-          #      print  z 
-        #print '\n' 
-    
-    #check left recursion 
-    add_predef_rules()
-    facts = go_thru_factFile()
-    
     parsed_facts = []
     failed_facts = []
     facts2 = []
     
-
-    #go thru facts 
-    #parse each one according to grammar generated by vocabulary 
-    facts2, failed_facts = first_pass(facts)
+    
+    vrules, vfail, vdict, TypeHier, grammar_dict  = check_vocab()
+    
+    #print_grammardict()
+    
+    add_predef_rules()
+    facts = go_thru_factFile()
+    
+    facts2, failed_facts = first_pass(facts) #goes thru and analyzes predefined rules 
     
     for f2 in facts2:
-        
-        
+        global depth
+        depth = 0 
         factParse = parse_Facts(f2, 'Start', grammar_dict)
-        
         if factParse: 
-            parsed_facts.append([f2[0], 'Start', factParse[0]])
+            parsed_facts.append([f2, factParse])
         else: 
             failed_facts.append(f2)
      
-    
-    
-    
-    ##########PRINT STATMENTS 
-    for n in parsed_facts:
-        for i in range(len(n)):
-            if i == 2:
-                for z in n[i]:
-                    print z
-            else:
-                print n[i]
-            print '\n'
-        
-    print failed_facts
+    #print_endFacts(parsed_facts, failed_facts)
     
     return [parsed_facts, failed_facts] 
 

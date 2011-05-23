@@ -1,6 +1,7 @@
 import urllib2
 import sys
 from string import *
+import string
 
 
 
@@ -58,10 +59,10 @@ def writeFacts(facts):
     then a quotation mark is inserted before the rest of the 
     entry. 
     '''
-    if len(sys.argv)  == 2: 
+    if len(sys.argv)  >=  2: 
         filename = sys.argv[1]
     else: 
-        filename = '_wikidata.f'
+        filename = 'wikidta.f'
     file = open(filename, 'a') 
     
     writestring = ''
@@ -89,12 +90,18 @@ def writeFacts(facts):
             started = True 
             if k == '->':
                  writestring =  ':' + subject + ' ' + '->' + ' ' + Native #+ '\n'
+            elif k == 'Language family': 
+                writestring =  ':' + subject + ' ' + '[' +  facts[k] + '] ' #+ '\n'
             else: 
                 writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
             
         else: 
-            if k == '->':
-                 writestring =  ':' + '\"' + ' ' + '->' + ' ' + Native #+ '\n'
+            if k == '<-':
+                 writestring =  ':' + '\"' + ' ' + '<-' + ' ' + Native #+ '\n'
+            
+            elif k == 'Language family': 
+                writestring =  ':' + '\" ' + '[' +  facts[k] + '] ' #+ '\n'
+                
             else:   
                 writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
         
@@ -160,23 +167,34 @@ def cleanUpFact(x, key):
         
     ##### GET RID OF COMMAS 
     addon = []
-    if z.__class__ == str: 
-        if z.find(',') != -1:
-            z = z.split(',')
-    elif z.__class__ == list: 
-        for zj in z: 
-            j = zj.find(',')
-            while j >= 0: 
-                zj = zj.replace(',', '')
-                move = zj[j:]
-                addon.append(move)
-                zj = zj[:j]
-                j = zj.find(',')
-    
+    if key == 'Total speakers' or key == 'Total Signers':
+#        if z.__class__ == list: 
+#            
+#        else: 
+        res = z.find(',')
+        while res != -1:
+            if z[res-1] in string.digits or z[res+1] in string.digits: 
+                z = z.replace(',', '')
+                res = z.find(',')
+            else: 
+                z = z.split(',')
+                for zj in z: 
+                    res = zj.find(',')
+                    while res != -1:
+                        if zj[res-1] in string.digits or zj[res+1] in string.digits: 
+                            zj = zj.replace(',', '')
+                            res = zj.find(',')
+                        else: 
+                            zj = zj.replace(',', '')
+                            move = zj[res:]
+                            addon.append(move)
+                            zj = zj[:res]
+                            res = zj.find(',')
+                
     if addon != []:
         for a in addon: 
             z.append(a)
-        #cleanUpFact(z, key)
+        cleanUpFact(z, key)
                 
     return z
 
@@ -218,8 +236,8 @@ def parse_mainSection(lang_str):
         i += 1
     
     if Native != '':
-       facts['->'] = Native 
-       facts['->'] = cleanUpFact(facts['->'], '->')
+       facts['<-'] = Native 
+       facts['<-'] = cleanUpFact(facts['<-'], '<-')
     
     #just grab immediate parent
     if 'Language family' in facts.keys(): 
@@ -413,10 +431,20 @@ def getID(srce):
     id = id.replace('oldid=', '')
     id.strip()
     return id
+#################################
+def pull_content(url):
+    
+    req = urllib2.Request(url, headers={'User-Agent' : "Google Chrome"})
+    conn = urllib2.urlopen(req)
+    htmlSource = conn.read()
+    conn.close()
+
+    return htmlSource 
+
 
 ###################################################
 
-def parse_wiki(url):
+def parse_wiki(url, htmlSource):
     ''' goes through a given url, grabs the html source, 
     isolates the section that contains the Infobox information, 
     pulls that apart into the designated 2 or 3 sections and 
@@ -426,20 +454,21 @@ def parse_wiki(url):
     Note: if using this function without collect data, you may 
     input a url using the first commented part below. 
     '''
-    #if len(sys.argv) < 2 : 
-     #   sys.stderr.write("please include URL")
-      #  raise SystemExit(1)
+    if url == '':
+        if len(sys.argv) < 4: 
+            sys.stderr.write("please include URL")
+            raise SystemExit(1)
+        else: 
+            url = sys.argv[3]
+            htmlSource = pull_content(url)
+    elif htmlSource == '':
+        htmlSource = pull_content(url)
 
-    #url = sys.argv[1]
-    req = urllib2.Request(url, headers={'User-Agent' : "Google Chrome"})
-    conn = urllib2.urlopen(req)
-    htmlSource = conn.read()
-    conn.close()
     
     versID = getID(htmlSource)
     
     start = htmlSource.find('<table class=\"infobox\" style=\"width: 22em; text-align: left; font-size: 88%; line-height: 1.5em\">' ) 
-    infobox = htmlSource[start:]
+    infobox = htmlSource[start:]        
     end = infobox.find('</table>')
     infobox = infobox[:end]
     infobox = removeTags(infobox, 0)
@@ -450,7 +479,7 @@ def parse_wiki(url):
     parse_mainSection(head)
     
     if official != "":
-         parse_OfficialStatusSection(official)
+        parse_OfficialStatusSection(official)
         
     if codes != "":
         parse_LanguageCodeSection(codes)
@@ -462,9 +491,112 @@ def parse_wiki(url):
     Name = ''
     global Native
     Native = ''
-    
-    return versID
         
+    perma = url.replace('wiki/', 'w/index.php?title=' )
+    perma += '&oldid=' + versID
+    
+    return perma   
+
+
+
+##################################
+
+def grabLinks(block):
+    ''' goes through page of links and grabs one by one, 
+    ignoring cases where a colon is present.  
+    '''
+    lbeg = -1
+    lend = -1 
+    link = ''
+    llist = []
+    lbeg = block.find('/wiki/')
+    
+    if lbeg == -1:
+        return  llist
+    else: 
+        
+        block = block[lbeg:]
+        lend = block.find('\"')
+        
+        if lend == -1:
+            return []
+        
+        link = block[:lend]
+        if link.find(':') != -1: 
+            link = ''
+        else: 
+            link = 'http://www.en.wikipedia.org' + link 
+            
+            
+    block = block[lend:]
+    res = grabLinks(block)
+    
+    if link != '':
+        if res != []:
+            llist.append(link)
+            llist.extend(res)
+        else:
+            llist.append(link)
+    else: 
+        if res != []: 
+            llist.extend(res)
+    
+    return llist
+
+#############################################################
+
+def getNextPage(html):
+    ''' Gets link for the next page listing links of languages
+    '''
+    edgeIndic = 'View ('
+    listbeg = html.find(edgeIndic)
+    
+    newlink = html[listbeg:]
+    marker = newlink.find('|')
+    newlink = newlink[marker+1:]
+    
+    newlink = newlink.strip()
+    if newlink.find('next') == -1: 
+        print html
+        return ''
+    elif newlink.find('next') == 0:   #no more pages
+        return ''
+
+    s = newlink.find('\"')
+    nextl = newlink[s+1:]
+    e = nextl.find('\"')
+    nextl = nextl[:e]
+    nextl = nextl.replace('amp;', '')
+    nextl = 'http://www.en.wikipedia.org' + nextl
+   
+    return nextl 
+
+#######################################
+
+def go_thru_page(linksURL):
+    '''
+    Go thru one of the pages with the list of links, 
+    pull all the links from the given page using grabLinks func,
+    and grab the link for the next page and return a list of the 
+    links and the next url. 
+    '''
+    req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
+    conn = urllib2.urlopen(req)
+    listHTML = conn.read()
+    conn.close()
+    
+    nextURL = getNextPage(listHTML)
+    
+    start = listHTML.find('mw-whatlinkshere-list')
+    listHTML = listHTML[start:]
+    end = listHTML.find('View (')
+    listHTML = listHTML[:end]
+    
+    linklist = []
+    linklist = grabLinks(listHTML)
+
+    return (linklist, nextURL)
+    
 #########################################################
 
 def linksToPage(sourceURL):
@@ -496,110 +628,12 @@ def linksToPage(sourceURL):
     linktolinks = 'http://www.en.wikipedia.org' + srce
     return linktolinks
 
-#############################################################
-
-def getNextPage(html):
-    ''' Gets link for the next page listing links of languages
-    '''
-    edgeIndic = 'View ('
-    listbeg = html.find(edgeIndic)
-    
-    newlink = html[listbeg:]
-    marker = newlink.find('|')
-    newlink = newlink[marker+1:]
-    
-    newlink = newlink.strip()
-    if newlink.find('next') == 0:   #no more pages
-        return ''
-
-    s = newlink.find('\"')
-    nextl = newlink[s+1:]
-    e = nextl.find('\"')
-    nextl = nextl[:e]
-    nextl = nextl.replace('amp;', '')
-    nextl = 'http://www.en.wikipedia.org' + nextl
-    
-    return nextl 
-
-##################################
-
-def grabLinks(block):
-    ''' goes through page of links and grabs one by one, 
-    ignoring cases where a colon is present.  
-    '''
-    lbeg = -1
-    lend = -1 
-    link = ''
-    llist = []
-    lbeg = block.find('/wiki/')
-    
-    if lbeg == -1:
-        return  llist
-    else: 
-        
-        block = block[lbeg:]
-        lend = block.find('\"')
-        
-        if lend == -1:
-            return []
-        
-        link = block[:lend]
-        if link.find(':') != -1: 
-            link = ''
-        else: 
-            link = 'http://www.en.wikipedia.org' + link 
-           
-    block = block[lend:]
-    res = grabLinks(block)
-    
-    if link != '':
-        if res != []:
-            llist.append(link)
-            llist.extend(res)
-        else:
-            llist.append(link)
-    else: 
-        if res != []: 
-            llist.extend(res)
-    
-    return llist
-#######################################
-
-def go_thru_page(linksURL):
-    '''
-    Go thru one of the pages with the list of links, 
-    pull all the links from the given page using grabLinks func,
-    and grab the link for the next page and return a list of the 
-    links and the next url. 
-    '''
-    req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
-    conn = urllib2.urlopen(req)
-    listHTML = conn.read()
-    conn.close()
-    
-    nextURL = getNextPage(listHTML)
-    
-    start = listHTML.find('mw-whatlinkshere-list')
-    listHTML = listHTML[start:]
-    end = listHTML.find('View (')
-    listHTML = listHTML[:end]
-    
-    linklist = []
-    linklist = grabLinks(listHTML)
-
-    return (linklist, nextURL)
-    
-    
-    
-
-
 #########################################################################
 
-def collectData():
+def collectData(sourceURL):
     '''
     Main func
     '''
-    sourceURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
     linksURL = linksToPage(sourceURL)
     
     #read page full of links 
@@ -609,42 +643,35 @@ def collectData():
     conn.close()
 
     #get in right area, from the beginning of the list
-    edgeIndic = 'View ('
-    listbeg = srce.find(edgeIndic)
-    listend = srce.rfind(edgeIndic)
+#    edgeIndic = 'View ('
+#    listbeg = srce.find(edgeIndic)
+#    listend = srce.rfind(edgeIndic)
+#    
+#    listHTML = srce[listbeg:listend]
     
-    listHTML = srce[listbeg:listend]
     
-    morelinks = []
-    li_links = []
+    links = []
+    moarLinks = []
     nextLink = linksURL
     
     #get the links for the first page
-    li_links, nextLink = go_thru_page(nextLink)
-    recordoflinks = []
-    num1 = len(li_links)
+#    links, nextLink = go_thru_page(nextLink)
+#    moarLinks.extend(links)
     
     #parse lang pages linked from page, then get next page of links 
     while nextLink != '':
-        for l in li_links: 
-            id = parse_wiki(l) 
-            archive = l.replace('wiki/', 'w/index.php?title=' )
-            archive += '&oldid=' + id
-            recordoflinks.append(archive)
-            print archive 
-            
-        li_links, nextLink = go_thru_page(nextLink)
-        #num1 += len(li_links)
-        #li_links.extend(morelinks)
-    
-    for l in li_links: 
-            id = parse_wiki(l) 
-            archive = l.replace('wiki/', 'w/index.php?title=' )
-            archive += '&oldid=' + id
-            recordoflinks.append(archive)
-            #print archive 
+        print nextLink
+        links = []
+        links, nextLink = go_thru_page(nextLink)
+        moarLinks.extend(links)
+        
+#    for m in moarLinks: 
+#        link_content = pull_content(m)
+#        linkdict[m] = link_content
+#        print m
         
     
+    return moarLinks
     #langtotal = len(li_links)
     #print langtotal
 
@@ -652,13 +679,58 @@ def collectData():
     #print num
     #print num1
     
-              
-    return recordoflinks 
-    
+    #print len(recordoflinks)          
+    #return recordoflinks 
     
 
+#####################################################################
 
+def wiki_main():
+    
+    if len(sys.argv)  >= 3: 
+        filename = sys.argv[2]
+    else: 
+        filename = 'wikipedia_links.txt'
+        
+    file = open(filename, 'a') 
+    
+    
+    permaLinks = []
+    startURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
+    
+    links = collectData(startURL)
+    linksplus = []
+    
+    for url in links:
+        htmlSoucre = ''
+        htmlSource = pull_content(url)
+        linksplus.append([url, htmlSource])
+        print url 
+    
+    for pair in linksplus: 
+        url = pair[0]
+        srce = pair[1]
+        
+        perma= parse_wiki(url, srce)
+        permaLinks.append(perma)
+        
+        file.write(perma)
+        file.write('\n')
+        
+#        url = 'http://www.en.wikipedia.org/wiki/Biatah'
+#        content = pull_content(url)
+#        perma = parse_wiki(url, content)
+        
+        
+    return permaLinks 
+
+
+
+
+
+        
 if __name__ == "__main__":
-    collectData()
+    wiki_main()
+    #parse_wiki('','')
   
                     
