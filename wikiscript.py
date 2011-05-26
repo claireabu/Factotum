@@ -2,6 +2,7 @@ import urllib2
 import sys
 from string import *
 import string
+import time 
 
 
 
@@ -705,6 +706,7 @@ def wiki_main():
         htmlSoucre = ''
         htmlSource = pull_content(url)
         linksplus.append([url, htmlSource])
+        time.sleep(15)
         print url 
     
     for pair in linksplus: 

@@ -758,6 +758,10 @@ def fact_checker():
     
     vrules, vfail, vdict, TypeHier, grammar_dict  = check_vocab()
     
+    if vrules == [] or grammar_dict == {}:
+        sys.stderr.write("vocabulary failed to parse")
+        return
+
     #print_grammardict()
     
     add_predef_rules()

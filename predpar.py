@@ -339,18 +339,18 @@ def parseGrammar (rulePred, start_sym):
                                                     break
                                             
                                         if check_repeat(token):
-                                            re = []
+                                            rep = []
                                             if n < len(local):
                                                 
                                                 while (re.match(pattern, local[n])):
-                                                    re.append(local[n])
+                                                    rep.append(local[n])
                                                     if n < len(local)-1:
                                                         n += 1
                                                     else: 
                                                         n += 1
                                                         break
                                                     
-                                                tree.append([token, re])
+                                                tree.append([token, rep])
                                                 
                                                 if count == len(rtuple):
                                                     return(tree, local[n:])
@@ -409,18 +409,18 @@ def parseGrammar (rulePred, start_sym):
                                                 break #failed to be a phrasename or type name 
                                             
                                     if check_repeat(rtuple[0]):
-                                        re = []
+                                        rep = []
                                         
                                         if n < len(local):
                                             while (re.match(pattern, local[n])):
-                                                re.append(local[n])
+                                                rep.append(local[n])
                                                 if n < len(local)-1:
                                                     n += 1
                                                 else:
                                                     n += 1
                                                     break
                                             
-                                            tree.append([rtuple[0], re])
+                                            tree.append([rtuple[0], rep])
                                             return(tree, local[n:])
                                        
                                     else: #not in repeat
@@ -603,18 +603,24 @@ def checkBrackets(entry, d):
     
     elif entry[0] == 'Obj':
         tokens = entry[1]
-        for t in tokens:
-            if t == '<': 
-                if 'Typename' in d.keys():
-                    
-                    for e in d['Typename']:
-                        if e == 'ANY':
-                            return True
+#        for t in tokens:
+        for i in range(len(tokens)-1):
+            if tokens[i] == '<': 
+                
+                
                         
-                    d['Typename'].append('ANY')
+                if 'Typename' in d.keys():
+
+                        for e in d['Typename']:
+                            if e == 'ANY':
+                                return True
+                        
+                        d['Typename'].append('ANY')
                     
                 else:
-                    d['Typename'] = ['ANY']
+                   d['Typename'] = ['ANY']
+                    
+                
                 return True   
     else: 
         return  
@@ -887,14 +893,14 @@ def go_thru_file():
     Opens up the given file,  reads in line by line, and
     uses factotum lexer to go thru and find the subject and predicates
     '''
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
-
+#    if len(sys.argv) < 2: 
+#        sys.stderr.write("must include vocabulary (.v) file \n")
+#        raise SystemExit(1)
+#
+#    
+#    vocabfile = open(sys.argv[1], 'r')
     
-    vocabfile = open(sys.argv[1], 'r')
-    
-    #vocabfile = open('test.v', 'r')
+    vocabfile = open('test.v', 'r')
     
     facts = []
     line = ''
@@ -1057,38 +1063,38 @@ def parse_vocab():
       
     #####PRINT STATEMENTS 
     
-   # for n in second_parsed_rules:
-    #    for i in range(len(n)):
-     #       if i == 2:
-      #          for z in n[i]:
-       #            print z
-        #    else:
-         #       print n[i]
-       # print '\n'
+    for n in second_parsed_rules:
+        for i in range(len(n)):
+            if i == 2:
+                for z in n[i]:
+                   print z
+            else:
+                print n[i]
+        print '\n'
         
     #print failed_rules
   
-    #for x in new_dict:
-     #   print x + ":"
-      #  print x.__class__
-       # for y in new_dict[x]:
-        #    print  y + ":"
-         #   for z in new_dict[x][y]:
-          #      print  z 
-        #print '\n'
+#    for x in new_dict:
+#        print x + ":"
+#        #print x.__class__
+#        for y in new_dict[x]:
+#            print  y + ":"
+#            for z in new_dict[x][y]:
+#                print  z 
+#        print '\n'
             
             #print y.__class__
     
-    #for z in fcheck_dict: 
-    #    print z + ":"
-       # for k in fcheck_dict[z]:
-        #    print k
-    #for x in TypeTree: 
-     #   print x + ":"
-     #   print TypeTree[x]
-            
+    for z in fcheck_dict: 
+        print z + ":"
+        for k in fcheck_dict[z]:
+            print k
+    for x in TypeTree: 
+        print x + ":"
+        print TypeTree[x]
+##            
         
-    return(parsed_rules, failed_rules, new_dict, TypeTree, fcheck_dict)
+    return(second_parsed_rules, failed_rules, new_dict, TypeTree, fcheck_dict)
 
 #########################################################
 
