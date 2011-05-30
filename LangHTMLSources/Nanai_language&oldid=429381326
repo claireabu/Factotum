@@ -1,0 +1,829 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Nanai language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Nanai_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Nanai_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Nanai_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Nanai_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Nanai language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<div class="infobox sisterproject">
+<div class="floatleft"><a href="/wiki/File:Incubator-notext.svg" class="image" title="Wikimedia Incubator"><img alt="Wikimedia Incubator" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Incubator-notext.svg/40px-Incubator-notext.svg.png" width="40" height="50" /></a></div>
+<div style="margin-left: 60px;"><i><b><a href="http://incubator.wikimedia.org/wiki/Wp/gld/Main_Page" class="extiw" title="incubator:Wp/gld/Main Page">Nanai language test</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a> at <a href="http://meta.wikimedia.org/wiki/Wikimedia_Incubator" class="extiw" title="meta:Wikimedia Incubator">Wikimedia Incubator</a></div>
+</div>
+<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: yellowgreen">Nanai</th>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; font-weight: bold; color: black; background-color: yellowgreen">Нанай, Нанайэ (<i><b>Nanaj, Nanaje</b></i>)</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><a href="/wiki/Russia" title="Russia">Russia</a>, <a href="/wiki/China" title="China">China</a></td>
+</tr>
+<tr>
+<th>Region</th>
+<td colspan="2"><a href="/wiki/Siberia" title="Siberia">Siberia</a>, <a href="/wiki/Heilongjiang" title="Heilongjiang">Heilongjiang</a></td>
+</tr>
+<tr>
+<th>Total speakers</th>
+<td colspan="2">3,902</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Tungusic_languages" title="Tungusic languages">Tungusic</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Southern_Tungusic_languages" title="Southern Tungusic languages">Southern</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Southeastern_Tungusic_languages" title="Southeastern Tungusic languages">Southeastern</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/w/index.php?title=Nanaj_languages&amp;action=edit&amp;redlink=1" class="new" title="Nanaj languages (page does not exist)">Nanaj</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Nanai</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: yellowgreen">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=gld" class="extiw" title="iso639-3:gld">gld</a></tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p>The <b>Nanai language</b> (also called <b>Gold language</b> or <b>Hezhen language</b>) is spoken by the <a href="/wiki/Nani_people" title="Nani people">Nanai</a> people in <a href="/wiki/Siberia" title="Siberia">Siberia</a>, and to a much smaller extent in China's <a href="/wiki/Heilongjiang" title="Heilongjiang">Heilongjiang</a> province, where it is known as Hezhe. The language has about 3,902 speakers out of 12,160 members of the ethnicity, but most of them (especially younger generations) are also fluent in <a href="/wiki/Russian_language" title="Russian language">Russian</a> or <a href="/wiki/Chinese_language" title="Chinese language">Chinese</a> (depending on the country where they live), and mostly use one of those languages for communication.<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Nomenclature"><span class="tocnumber">1</span> <span class="toctext">Nomenclature</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Distribution"><span class="tocnumber">2</span> <span class="toctext">Distribution</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Historical_dialect_classifications"><span class="tocnumber">2.1</span> <span class="toctext">Historical dialect classifications</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Pedagogy"><span class="tocnumber">3</span> <span class="toctext">Pedagogy</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Orthography"><span class="tocnumber">4</span> <span class="toctext">Orthography</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Phonology"><span class="tocnumber">5</span> <span class="toctext">Phonology</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Vowels_and_vowel_harmony"><span class="tocnumber">5.1</span> <span class="toctext">Vowels and vowel harmony</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Consonants"><span class="tocnumber">5.2</span> <span class="toctext">Consonants</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Dialects"><span class="tocnumber">5.3</span> <span class="toctext">Dialects</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Lexicon"><span class="tocnumber">6</span> <span class="toctext">Lexicon</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Sources"><span class="tocnumber">8</span> <span class="toctext">Sources</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#General_works"><span class="tocnumber">9.1</span> <span class="toctext">General works</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Texts_in_Nanai"><span class="tocnumber">9.2</span> <span class="toctext">Texts in Nanai</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Dictionaries"><span class="tocnumber">9.3</span> <span class="toctext">Dictionaries</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#External_links"><span class="tocnumber">9.4</span> <span class="toctext">External links</span></a></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=1" title="Edit section: Nomenclature">edit</a>]</span> <span class="mw-headline" id="Nomenclature">Nomenclature</span></h2>
+<p>In China, the language is referred to as <i><span class="Unicode">hè zhé yǔ</span></i> (<a href="/wiki/Chinese_language" title="Chinese language">Chinese</a>: <span lang="zh" xml:lang="zh">赫哲语</span>). The Nanai people there variously refer to themselves as /na nio/, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/na bəi/</span>, /na nai/ (which all mean "local people"), <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ki lən/</span>, and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/χə ɖʐən/</span>, the last being the source of the Chinese ethnonym <i>Hezhe</i>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=2" title="Edit section: Distribution">edit</a>]</span> <span class="mw-headline" id="Distribution">Distribution</span></h2>
+<p>The language is distributed across several distantly-located areas:</p>
+<ul>
+<li>Middle/lower Amur dialects (Naykhin, Dzhuen, Bolon, Ekon, etc.): the areas along the Amur River below Khabarovsk (Nanai, Amursk, Solnechny, and <a href="/wiki/Komsomolsk-na-Amure" title="Komsomolsk-na-Amure" class="mw-redirect">Komsomolsk</a> districts of <a href="/wiki/Khabarovsk_Krai" title="Khabarovsk Krai">Khabarovsk Krai</a>);</li>
+<li>Kur-Urmi dialect: the area around the city of <a href="/wiki/Khabarovsk" title="Khabarovsk">Khabarovsk</a> (the <a href="/wiki/Kur_River_(Khabarovsk_Krai)" title="Kur River (Khabarovsk Krai)">Kur</a> and <a href="/wiki/Urmi_River" title="Urmi River">Urmi</a> rivers, and the Khabarovsk District of <a href="/wiki/Khabarovsk_Krai" title="Khabarovsk Krai">Khabarovsk Krai</a>);</li>
+<li>Bikin dialect: Pozharsky District of <a href="/wiki/Primorsky_Krai" title="Primorsky Krai">Primorsky Krai</a> (near the middle <a href="/wiki/Ussuri_River" title="Ussuri River" class="mw-redirect">Ussuri River</a>)<sup id="cite_ref-Sem_1976.2C_p24_2-0" class="reference"><a href="#cite_note-Sem_1976.2C_p24-2"><span>[</span>3<span>]</span></a></sup></li>
+<li>Sungari dialect: boundary areas of the Ussuri River in China<sup id="cite_ref-Stolyarov_1994_3-0" class="reference"><a href="#cite_note-Stolyarov_1994-3"><span>[</span>4<span>]</span></a></sup></li>
+</ul>
+<p>It is thought that in Russia, the Nanai language has been best preserved in the Nanai District of Khabarovsk Krai, because of the active Nanai-speaking community there, which has been active in working on the publication of books in Nanai, as well as textbooks on the language, and also because of the ethnic autonomous status of the Nanai District. According to Stolyarov's data, the world-wide Nanai population is 11,883, of whom 8,940 live in rural localities of Khabarovsk Krai. However, only 100-150 native speakers of the language remain there.<sup id="cite_ref-Stolyarov_1994_3-1" class="reference"><a href="#cite_note-Stolyarov_1994-3"><span>[</span>4<span>]</span></a></sup> The <a href="/wiki/Russian_Census_(2002)" title="Russian Census (2002)">2002 Census</a> recorded 12,194 people who claimed to speak the language, 90% in Khabarovsk Krai, 3.5% in <a href="/wiki/Primorsky_Krai" title="Primorsky Krai">Primorsky Krai</a>, 1.3% in <a href="/wiki/Sakhalin_Oblast" title="Sakhalin Oblast">Sakhalin Oblast</a>, and no more than 0.5% in any other area; of those, only 49, almost all in Khabarovsk Krai, were not also bilingual in <a href="/wiki/Russian_language" title="Russian language">Russian</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>5<span>]</span></a></sup> Three ethnic Nanai villages remain, those being Dzhuen, Ulika, and Dada; in the remaining populated areas, the proportion of Nanais among local residents is much smaller.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>6<span>]</span></a></sup></p>
+<p>Even in Russia, the situation for language preservation is not favorable: the carriers of language are scattered in different villages and often isolated from each other. The Nanai language continues to be used in the sphere of everyday contact among people older than 40. In their contact with people their age or younger, they prefer the Russian language, using Nanaian only for contact with elderly people aged 70 or older. On the whole, the Nanai language has been superseded by Russian in almost all spheres of communication; drastic measures are required for language preservation.<sup class="Template-Fact" title="This claim needs references to reliable sources from February 2007" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p>
+<p>Scholars in China have traditionally presented less fine-grained dialect classifications; An identified only two, Hezhen and Qile'en, the former referring to all varieties of the language spoken in <a href="/wiki/Russia" title="Russia">Russia</a>. He conducted his studies in Jiejinkou, Bacha, And Sipai villages in Heilongjiang; at the time of his survey in 1982, the youngest fluent speaker was 55, and the oldest 72.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>7<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=3" title="Edit section: Historical dialect classifications">edit</a>]</span> <span class="mw-headline" id="Historical_dialect_classifications">Historical dialect classifications</span></h3>
+<p>There are several classifications of Nanai dialects. Early classifications tended to be areal and paid less attention to criteria for the differentiation of dialects. Lipskoy-Val'rond's classification, which distinguishes seven dialects, is one example of this; he distinguished the <a href="/wiki/Songhua_River" title="Songhua River">Sungari</a>, Upper <a href="/wiki/Amur_River" title="Amur River">Amur</a>, <a href="/wiki/Ussuri" title="Ussuri" class="mw-redirect">Ussuri</a>, <a href="/wiki/Urmi_River" title="Urmi River">Urmi</a>, <a href="/wiki/Kur_River_(Khabarovsk_Krai)" title="Kur River (Khabarovsk Krai)">Kur</a>, Central Amur, and Lower Amur dialects. <sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>8<span>]</span></a></sup> In the 1920s, the period of initial studies of the Nanai language, the area of settlement of the Nanai people was more extensive than at present; many dialects, which had not yet been classified by researchers, later disappeared, and remain unnamed.</p>
+<p>The next period of studies did not begin until after a 20-year interruption, at the end of the 1940s; by then, the number of dialects had grown, and subsequent classifications distinguished as many as ten. Also, the distribution of the Nanai language had sharply narrowed; many Lower <a href="/wiki/Amur_River" title="Amur River">Amur</a> and <a href="/wiki/Ussuri" title="Ussuri" class="mw-redirect">Ussuri</a> dialects remained unstudied. According to Sunik's classification, which emphasizes morphological and phonetic features,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>9<span>]</span></a></sup> "Nanaian language forms two groups, which are decomposed into a number of dialects".<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>10<span>]</span></a></sup></p>
+<ol>
+<li>Upper Amur: Sakachi-Alyan, Naykhin, Bolon, Dzhuen, Garin</li>
+<li>Central Amur: Kur-Urmi, Bikin, Right-bank Amur, Sungari, Ussuri</li>
+</ol>
+<p>Avrorin divided the language into three varieties: Sungari (aka Upper Amur), (Lower) Amur, and Kur-Urmi, further subdividing them into a number of dialects. The basic difference with Sunik's classification concerns the Amur and Upper Amur groups: Avrovin considered Bolon and Dzhuen under Naykhin, while separating Kur-Urmi as its own group, while Sunik viewed Kur-Urmi as a dialect.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>11<span>]</span></a></sup> Sem, in contrast, classified Nanai into Upper, Central, and Lower Amur groups, each divided into a number of dialects; he counted a total of ten dialects.<sup id="cite_ref-Sem_1976.2C_p24_2-1" class="reference"><a href="#cite_note-Sem_1976.2C_p24-2"><span>[</span>3<span>]</span></a></sup></p>
+<ol>
+<li>Upper Amur: Right-bank Amur, Sungari, Bikin (Ussuri), Kur-Urmi</li>
+<li>Central Amur: Sakachi-Alyan, Naykhin, Dzhuen</li>
+<li>Lower Amur: Bolon, Ekon, Gorin</li>
+</ol>
+<p>It should be noted that among the contemporary carriers of Nanaian language (middle and lower Amur dialects), <a href="/wiki/Dialect_levelling" title="Dialect levelling">dialect levelling</a> and mixing has occurred due to extensive population migrations and the system of teaching of Nanai language (based on the Naykhin dialect); therefore it is difficult to differentiate the dialects in contemporary language data.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=4" title="Edit section: Pedagogy">edit</a>]</span> <span class="mw-headline" id="Pedagogy">Pedagogy</span></h2>
+<p>The Nanai language is taught in secondary schools in Russia, mainly in Nanai villages in <a href="/wiki/Khabarovsk_Krai" title="Khabarovsk Krai">Khabarovsk Krai</a>.<sup class="Template-Fact" title="This claim needs references to reliable sources from July 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> The duration of instruction and weekly contact hours vary; a standard curriculum used in 7 villages. Furthermore, in the villages of Belgo, Nizhnie Khalby (Lower Khalby), and Verkhnyaya Ekon (Upper Ekon), there is an experimental teaching programe in Nanaian language with a greater number of contact hours. Normally there are one to two contact hours per week; in different schools, the duration of instruction varies from 4 to 10 years, beginning from the first year. In the schools with the experimental program, the language is taught from years 1 through 9 with a larger number of contact hours.<sup class="Template-Fact" title="This claim needs references to reliable sources from February 2007" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p>
+<p>Textbooks on the Nanai language, fairy tales, and artistic literature are used in Nanai language teaching. Sometimes teachers took the initiative to use oral folklore as well. However, there is a shortage of teaching and auxiliary materials, as well as difficulty in motivating students. Nanai language textbooks follow the model of Russian language textbooks aimed at native speakers, rather than emphasising instruction in the language itself, and in the theoretical/practical grammar. This model is not adequate for the situation of <a href="/wiki/Heritage_speaker" title="Heritage speaker" class="mw-redirect">heritage language</a> preservation. Moreover the existing language teaching materials are oriented predominantly (or only) towards the development of reading habits; however, the number of publications in the Nanaian language does not exceed one-two ten, mostly collections of folklore or artistic works of the historical-biographical genre, publishing in limited print runs. Instruction in spoken language is not conducted sufficiently and is not reinforced by teaching aids.<sup class="Template-Fact" title="This claim needs references to reliable sources from February 2007" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p>
+<p>In China, the Nanai (Hezhe) people use Chinese for writing. The number of speakers has been in continual decline for decades; by the 1980s, the use of the language was restricted to special situations and communication with family members.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>12<span>]</span></a></sup> In an effort to reverse this decline, a text book for Hezhe schoolchildren discussing the Hezhe language was published in 2005 (in <a href="/wiki/Pinyin" title="Pinyin">pinyin</a> transcription).<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>13<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=5" title="Edit section: Orthography">edit</a>]</span> <span class="mw-headline" id="Orthography">Orthography</span></h2>
+<p>The first books in the Nanai language were printed by Russian Orthodox missionaries in the late 19th century in a <a href="/wiki/Cyrillic_alphabet" title="Cyrillic alphabet">Cyrillic</a> orthography. In the 1920s-30s, after several false starts, the modern written form of the Nanai language was created by a team of Russian linguists led by <a href="/wiki/Valentin_Avrorin" title="Valentin Avrorin">Valentin Avrorin</a>.<sup class="Template-Fact" title="This claim needs references to reliable sources from July 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p>
+<table style="font-family:Arial Unicode MS; font-size:1.4em; border-color:#000000; border-width:1px; border-style:solid; border-collapse:collapse; background-color:#F8F8EF">
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">А а</td>
+<td style="width:3em; text-align:center; padding: 3px;">Б б</td>
+<td style="width:3em; text-align:center; padding: 3px;">В в</td>
+<td style="width:3em; text-align:center; padding: 3px;">Г г</td>
+<td style="width:3em; text-align:center; padding: 3px;">Д д</td>
+<td style="width:3em; text-align:center; padding: 3px;">Е е</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ё ё</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ж ж</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">З з</td>
+<td style="width:3em; text-align:center; padding: 3px;">И и</td>
+<td style="width:3em; text-align:center; padding: 3px;">Й й</td>
+<td style="width:3em; text-align:center; padding: 3px;">К к</td>
+<td style="width:3em; text-align:center; padding: 3px;">Л л</td>
+<td style="width:3em; text-align:center; padding: 3px;">М м</td>
+<td style="width:3em; text-align:center; padding: 3px;">Н н</td>
+<td style="width:3em; text-align:center; padding: 3px;">О о</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">П п</td>
+<td style="width:3em; text-align:center; padding: 3px;">Р р</td>
+<td style="width:3em; text-align:center; padding: 3px;">С с</td>
+<td style="width:3em; text-align:center; padding: 3px;">Т т</td>
+<td style="width:3em; text-align:center; padding: 3px;">У у</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ф ф</td>
+<td style="width:3em; text-align:center; padding: 3px;">Х х</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ц ц</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Ч ч</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ш ш</td>
+<td style="width:3em; text-align:center; padding: 3px;">Щ щ</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ъ ъ</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ы ы</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ь ь</td>
+<td style="width:3em; text-align:center; padding: 3px;">Э э</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ю ю</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Я я</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p>Sample text from a Bible translation published in 2002 is shown below.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>14<span>]</span></a></sup></p>
+<table class="wikitable">
+<caption><b><a href="/wiki/Lord%27s_Prayer" title="Lord's Prayer">Lord's Prayer</a> (<a href="/wiki/Gospel_of_Luke" title="Gospel of Luke">Luke</a> 11:2-4)</b></caption>
+<tr>
+<th>Nanai (Cyrillic)</th>
+<th>Transliteration</th>
+<th>English (<a href="/wiki/New_International_Version" title="New International Version">NIV</a>)</th>
+</tr>
+<tr>
+<td>² <span class="Unicode">Нёани дахамдичии уӈкини: «Кэсивэ гэлэйдуэри туй ундусу: „Боаду, уйлэ би, Эндур Ама! Гэбукуди гэрбуси бигини. Си боа яловани далачайси эрин исигини! Наду-да, боаду-да Си чихалайси бигини!</span></td>
+<td>² Nǒani dahamdičii uŋkini: "Kesive geleĭdueri tuĭ undusu: 'Boadu, uĭle bi, Endur Ama! Gebukudi gerbusi bigini. Si boa ǎlovani dalačaĭsi erin isigini! Nadu-da, boadu-da Si čihalaĭsi bigini!</td>
+<td>² He said to them, "When you pray, say: 'Father, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven.</td>
+</tr>
+<tr>
+<td>³ <span class="Unicode">Ини таондоани сиагопова эпэмбэ бунду буру.</span></td>
+<td>³ Ini taondoani siagopova epembe bundu buru.</td>
+<td>³ Give us each day our daily bread.</td>
+</tr>
+<tr>
+<td>⁴ <span class="Unicode">Буэ оркимпова гудиэсигуру, буэ-дэ оркиӈку, наӈдаку гурумбэ гудиэсиэпу, буэ мурумпувэ-дэ эди памаванда, хай-да дялимбани, оркимбани эди дял дяпаванда“».</span></td>
+<td>⁴ Bue orkimpova gudiesiguru, bue-de orkiŋku, naŋdaku gurumbe gudiesiepu, bue murumpuve-de edi pamavanda, haĭ-da dǎlimbani, orkimbani edi dǎl dǎpavanda.'"</td>
+<td>⁴ Forgive us our sins, for we also forgive everyone who sins against us. And lead us not into temptation"</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=6" title="Edit section: Phonology">edit</a>]</span> <span class="mw-headline" id="Phonology">Phonology</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=7" title="Edit section: Vowels and vowel harmony">edit</a>]</span> <span class="mw-headline" id="Vowels_and_vowel_harmony">Vowels and vowel harmony</span></h3>
+<p>The Nanai language has seven phonemic vowels: <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/i, u, y, o, œ, a, ə/</span>. There are twelve allowed <a href="/wiki/Diphthong" title="Diphthong">diphthongs</a>: <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ai, ao, əi, əo, ia, iə, io, iu, ua, ui, uo, oi, ya, yə/</span>; there are also two allowed <a href="/wiki/Triphthong" title="Triphthong">triphthongs</a>: <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/iao, uai/</span>. Phonemic vowels change as follows based on surrounding consonants:<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>15<span>]</span></a></sup></p>
+<ul>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[i]</span> becomes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[]</span> after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[dz, ts, s]</span></li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/i/</span> becomes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɪ]</span> after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɖʐ, ʈʂ, s/</span></li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/i/</span> becomes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[i̟]</span> after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/m, n, l, d/</span></li>
+<li>A glottal stop <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʔ]</span> is inserted before <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/i/</span> when it begins a syllable and precedes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/dz, s, tɕ, ɕ, l, m, ŋ/</span>.</li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɘ/</span> may optionally become <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɯ]</span> in non-initial syllables</li>
+<li>A vowel in a final syllable is <a href="/wiki/Nasalization" title="Nasalization">nasalised</a> when it precedes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/n/</span></li>
+</ul>
+<p>The following table summarises the rules of vowel harmony.</p>
+<table class="wikitable">
+<caption><b>Vowel harmony in Nanai</b><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>16<span>]</span></a></sup></caption>
+<tr>
+<th>Class</th>
+<th>Group</th>
+<th>Members</th>
+<th>Notes</th>
+</tr>
+<tr>
+<th rowspan="2"><i>Yang</i> vowels</th>
+<th>Group 1</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[a]</span></td>
+<td></td>
+</tr>
+<tr>
+<th>Group 2</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[o, œ]</span></td>
+<td>Do not appear after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[i, u, y]</span>; also <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[o]</span> does not appear after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[œ]</span></td>
+</tr>
+<tr>
+<th><i>Yin</i> vowels</th>
+<th>Group 3</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ə]</span></td>
+<td>After <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[a, o]</span>, becomes neutral and can harmonise with any vowel</td>
+</tr>
+<tr>
+<th rowspan="2">Neutral vowels</th>
+<th>Group 4</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[i]</span></td>
+<td></td>
+</tr>
+<tr>
+<th>Group 5</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[u, y]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[y]</span> will not appear again after <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[y]</span></td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=8" title="Edit section: Consonants">edit</a>]</span> <span class="mw-headline" id="Consonants">Consonants</span></h3>
+<p>As for consonants, there are twenty-eight:</p>
+<table class="wikitable" style="text-align: center;">
+<tr>
+<th>&#160;</th>
+<th colspan="2"><a href="/wiki/Labial_consonant" title="Labial consonant">Labial</a></th>
+<th colspan="2"><a href="/wiki/Dental_consonant" title="Dental consonant">Dental</a> /<br />
+<a href="/wiki/Alveolar_consonant" title="Alveolar consonant">alveolar</a></th>
+<th colspan="2"><a href="/wiki/Retroflex_consonant" title="Retroflex consonant">Retroflex</a></th>
+<th colspan="2">(<a href="/wiki/Alveolo-palatal_consonant" title="Alveolo-palatal consonant">Alveolo</a>-)<br />
+<a href="/wiki/Palatal_consonant" title="Palatal consonant">Palatal</a></th>
+<th colspan="2"><a href="/wiki/Velar_consonant" title="Velar consonant">Velar</a></th>
+<th colspan="2"><a href="/wiki/Uvular_consonant" title="Uvular consonant">Uvular</a></th>
+</tr>
+<tr>
+<td><a href="/wiki/Plosive_consonant" title="Plosive consonant" class="mw-redirect">Plosives</a></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">p</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">b</span></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">t</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">d</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">k</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɡ</span></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">q</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɢ</span></td>
+</tr>
+<tr>
+<td><a href="/wiki/Affricates" title="Affricates" class="mw-redirect">Affricates</a></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ts</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">dz</span></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʈʂ</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɖʐ</span></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">tɕ</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">dʑ</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+</tr>
+<tr>
+<td><a href="/wiki/Fricative_consonant" title="Fricative consonant">Fricatives</a></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">f</span></td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">s</span></td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʂ</span></td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʐ</span></td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɕ</span></td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">x</span></td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">χ</span></td>
+<td style="border-left-width: 0;">&#160;</td>
+</tr>
+<tr>
+<td><a href="/wiki/Nasal_consonant" title="Nasal consonant">Nasals</a></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">m</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">n</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ŋ</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+</tr>
+<tr>
+<td><a href="/wiki/Approximant_consonant" title="Approximant consonant">Approximants</a></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">l</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">j</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">w</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+</tr>
+<tr>
+<td><a href="/wiki/Rhotic_consonant" title="Rhotic consonant">Rhotic</a></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">r</span></td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+<td style="border-right-width: 0;">&#160;</td>
+<td style="border-left-width: 0;">&#160;</td>
+</tr>
+</table>
+<p>Phonemic consonants may optionally change as follows:<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>17<span>]</span></a></sup></p>
+<ul>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/s ɕ χ/</span> become <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[z ʑ ʁ]</span> (respectively) between two vowels</li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɡ/</span> to <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɣ]</span> in syllable-final position, before <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[d]</span> in the following syllable</li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=9" title="Edit section: Dialects">edit</a>]</span> <span class="mw-headline" id="Dialects">Dialects</span></h3>
+<p>Phonology of the various dialects of Nanai has been influenced by surrounding languages. Tolskaya specifically noted several phonological peculiarities of Bikin dialect which may indicate influence from <a href="/wiki/Udege_language" title="Udege language">Udege</a>, including monopthongisation of diphthongs, denasalisation of <a href="/wiki/Nasal_vowels" title="Nasal vowels" class="mw-redirect">nasal vowels</a>, deletion of reduced final vowels, <a href="/wiki/Epenthetic_vowel" title="Epenthetic vowel" class="mw-redirect">epenthetic vowel</a> preventing consonant final words, and the deletion of intervocalic <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[w]</span>.<sup id="cite_ref-Tolskaya_2001.2C_p24_17-0" class="reference"><a href="#cite_note-Tolskaya_2001.2C_p24-17"><span>[</span>18<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=10" title="Edit section: Lexicon">edit</a>]</span> <span class="mw-headline" id="Lexicon">Lexicon</span></h2>
+<p>An noted a variety of <a href="/wiki/Loanword" title="Loanword">loanwords</a> from Chinese in his survey, such as <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʐili]</span> "calendar" from Chinese 日曆 (<a href="/wiki/Pinyin" title="Pinyin">Pinyin</a>: <i>rìlì</i>); a few also came from other languages, such as [pomidor] (tomato), almost certainly from <a href="/wiki/Russian_language" title="Russian language">Russian</a> помидор, though the exact route of transmission is not attested and it may have been reborrowed from other neighbouring languages rather than directly from Russian.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>19<span>]</span></a></sup> There is also some vocabulary shared with <a href="/wiki/Mongolian_language" title="Mongolian language">Mongolian</a> and the <a href="/wiki/Turkic_languages" title="Turkic languages">Turkic languages</a>, such as:</p>
+<ul>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sal]</span> ("beard"; <a href="/wiki/Mongolian_language" title="Mongolian language">Mongolian</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sahɘl]</span>, <a href="/wiki/Uyghur_language" title="Uyghur language">Uyghur</a> and <a href="/wiki/Kazakh_language" title="Kazakh language">Kazakh</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[saqal]</span>)</li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tœqo]</span> ("chicken"; <a href="/wiki/Mongolian_language" title="Mongolian language">Mongolian</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tahia]</span>, <a href="/wiki/Uyghur_language" title="Uyghur language">Uyghur</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[toχo]</span>, <a href="/wiki/Kazakh_language" title="Kazakh language">Kazakh</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tawuq]</span>)</li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[χonin]</span> ("sheep"; <a href="/wiki/Mongolian_language" title="Mongolian language">Mongolian</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[χœŋ]</span>, <a href="/wiki/Uyghur_language" title="Uyghur language">Uyghur</a> and <a href="/wiki/Kazakh_language" title="Kazakh language">Kazakh</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[qoi]</span>)</li>
+</ul>
+<p>These too are likely loanwords, though proponents of the <a href="/wiki/Altaic_hypothesis" title="Altaic hypothesis" class="mw-redirect">Altaic hypothesis</a> may take these as evidence of a <a href="/wiki/Genetic_(linguistics)" title="Genetic (linguistics)" class="mw-redirect">genetic relationship</a>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>20<span>]</span></a></sup> Conversely, the Nanai language itself has also contributed some loanwords to the <a href="/wiki/Udege_language" title="Udege language">Udege language</a>, supplanting Udege vocabulary:</p>
+<ul>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[banixe]</span> (thank you), from Nanai <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[banixa]</span>, instead of Udege <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[usasa]</span></li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[dœlbo]</span> (work), from Nanai <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[dœbo]</span>, instead of Udege <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[etete]</span></li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[daŋsa]</span> (book) from Nanai <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[daŋsa]</span>, itself a loanword from Chinese 單子 (<a href="/wiki/Pinyin" title="Pinyin">Pinyin</a>: <span class="Unicode">dānzi</span>), which actually means "list"</li>
+</ul>
+<p>A large degree of mutual assimilation of the two languages has been observed in the <a href="/wiki/Bikin" title="Bikin">Bikin</a> region;<sup id="cite_ref-Tolskaya_2001.2C_p24_17-1" class="reference"><a href="#cite_note-Tolskaya_2001.2C_p24-17"><span>[</span>18<span>]</span></a></sup> the Udege language itself only has 230 speakers left.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>21<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=11" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist references-column-count references-column-count-3" style="column-count: 3; -moz-column-count: 3; -webkit-column-count: 3; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> Lewis 2009 (<a href="http://www.ethnologue.com/show_language.asp?code=gld" class="external text" rel="nofollow">Nanai</a>)</li>
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> An 1986, p1</li>
+<li id="cite_note-Sem_1976.2C_p24-2">^ <a href="#cite_ref-Sem_1976.2C_p24_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Sem_1976.2C_p24_2-1"><sup><i><b>b</b></i></sup></a> Sem 1976, p24</li>
+<li id="cite_note-Stolyarov_1994-3">^ <a href="#cite_ref-Stolyarov_1994_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Stolyarov_1994_3-1"><sup><i><b>b</b></i></sup></a> Stolyarov 1994</li>
+<li id="cite_note-4"><b><a href="#cite_ref-4">^</a></b> <a href="/wiki/Russian_Census_(2002)" title="Russian Census (2002)">Russian Census (2002)</a>, <a href="http://www.perepis2002.ru/ct/doc/TOM_04_03.xls" class="external text" rel="nofollow">Table 4.3</a></li>
+<li id="cite_note-5"><b><a href="#cite_ref-5">^</a></b> Ministry of Trade and Economic Development, 2002</li>
+<li id="cite_note-6"><b><a href="#cite_ref-6">^</a></b> An 1986, pp. 1-2</li>
+<li id="cite_note-7"><b><a href="#cite_ref-7">^</a></b> Sem 1976: 21. Initially published in Дальневосточной энцинклопедии, 1927.</li>
+<li id="cite_note-8"><b><a href="#cite_ref-8">^</a></b> Sunik 1962, p23</li>
+<li id="cite_note-9"><b><a href="#cite_ref-9">^</a></b> «нанайский язык образует два наречия, распадающиеся на ряд говоров»</li>
+<li id="cite_note-10"><b><a href="#cite_ref-10">^</a></b> Avrovin 1955, pp. 7-8</li>
+<li id="cite_note-11"><b><a href="#cite_ref-11">^</a></b> He and Wu, 2005</li>
+<li id="cite_note-12"><b><a href="#cite_ref-12">^</a></b> Li, 2005</li>
+<li id="cite_note-13"><b><a href="#cite_ref-13">^</a></b> <a href="http://servus.christusrex.org/www1/pater/JPN-nanai.html" class="external text" rel="nofollow">Gospel of Luke in Nanai Language, 2002</a></li>
+<li id="cite_note-14"><b><a href="#cite_ref-14">^</a></b> An 1986, p8-10</li>
+<li id="cite_note-15"><b><a href="#cite_ref-15">^</a></b> An 1986, p13-15</li>
+<li id="cite_note-16"><b><a href="#cite_ref-16">^</a></b> An 1986, p11-13</li>
+<li id="cite_note-Tolskaya_2001.2C_p24-17">^ <a href="#cite_ref-Tolskaya_2001.2C_p24_17-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Tolskaya_2001.2C_p24_17-1"><sup><i><b>b</b></i></sup></a> Tolskaya 2001, p24</li>
+<li id="cite_note-18"><b><a href="#cite_ref-18">^</a></b> An, p7-11</li>
+<li id="cite_note-19"><b><a href="#cite_ref-19">^</a></b> An, p17</li>
+<li id="cite_note-20"><b><a href="#cite_ref-20">^</a></b> Lewis 2009, <a href="http://www.ethnologue.com/show_language.asp?code=ude" class="external text" rel="nofollow">Udihe</a></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=12" title="Edit section: Sources">edit</a>]</span> <span class="mw-headline" id="Sources">Sources</span></h2>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Chinese)</span> <span class="citation book">An, Jun (1986). <i>赫哲语简志 (An Outline of the Hezhe Language)</i>. Nationalities Publishing House.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%E8%B5%AB%E5%93%B2%E8%AF%AD%E7%AE%80%E5%BF%97+%28An+Outline+of+the+Hezhe+Language%29&amp;rft.aulast=An&amp;rft.aufirst=Jun&amp;rft.au=An%2C%26%2332%3BJun&amp;rft.date=1986&amp;rft.pub=Nationalities+Publishing+House&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Lewis, M. Paul (ed.) (2009). <a href="http://www.ethnologue.com/" class="external text" rel="nofollow"><i>Ethnologue: Languages of the World, 16<sup>th</sup> edition</i></a>. Dallas, Texas: SIL International<span class="printonly">. <a href="http://www.ethnologue.com/" class="external free" rel="nofollow">http://www.ethnologue.com/</a></span><span class="reference-accessdate">. Retrieved 2009-07-22</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ethnologue%3A+Languages+of+the+World%2C+16%3Csup%3Eth%3C%2Fsup%3E+edition&amp;rft.aulast=Lewis&amp;rft.aufirst=M.+Paul+%28ed.%29&amp;rft.au=Lewis%2C%26%2332%3BM.+Paul+%28ed.%29&amp;rft.date=2009&amp;rft.place=Dallas%2C+Texas&amp;rft.pub=SIL+International&amp;rft_id=http%3A%2F%2Fwww.ethnologue.com%2F&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Chinese)</span> <span class="citation Journal">He, Xuejuan; Wu Baozhu (January 2004). <a href="http://scholar.ilib.cn/Abstract.aspx?A=myyj200401013" class="external text" rel="nofollow">"街津口村赫哲语使用情况的调查 (Investigation on Hezhen language use in Jiejinkou Village)"</a>. <i>满语研究</i><span class="printonly">. <a href="http://scholar.ilib.cn/Abstract.aspx?A=myyj200401013" class="external free" rel="nofollow">http://scholar.ilib.cn/Abstract.aspx?A=myyj200401013</a></span><span class="reference-accessdate">. Retrieved 2006-12-19</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E8%A1%97%E6%B4%A5%E5%8F%A3%E6%9D%91%E8%B5%AB%E5%93%B2%E8%AF%AD%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5%E7%9A%84%E8%B0%83%E6%9F%A5+%28Investigation+on+Hezhen+language+use+in+Jiejinkou+Village%29&amp;rft.jtitle=%E6%BB%A1%E8%AF%AD%E7%A0%94%E7%A9%B6&amp;rft.aulast=He&amp;rft.aufirst=Xuejuan&amp;rft.au=He%2C%26%2332%3BXuejuan&amp;rft.date=January+2004&amp;rft_id=http%3A%2F%2Fscholar.ilib.cn%2FAbstract.aspx%3FA%3Dmyyj200401013&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation news">Li, Fangchao (2005-06-06). <a href="http://www.chinadaily.com.cn/english/doc/2005-06/06/content_448856.htm" class="external text" rel="nofollow">"Textbook preserves Hezhe language"</a>. China Daily<span class="printonly">. <a href="http://www.chinadaily.com.cn/english/doc/2005-06/06/content_448856.htm" class="external free" rel="nofollow">http://www.chinadaily.com.cn/english/doc/2005-06/06/content_448856.htm</a></span><span class="reference-accessdate">. Retrieved 2006-12-19</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=Textbook+preserves+Hezhe+language&amp;rft.atitle=&amp;rft.aulast=Li&amp;rft.aufirst=Fangchao&amp;rft.au=Li%2C%26%2332%3BFangchao&amp;rft.date=2005-06-06&amp;rft.pub=China+Daily&amp;rft_id=http%3A%2F%2Fwww.chinadaily.com.cn%2Fenglish%2Fdoc%2F2005-06%2F06%2Fcontent_448856.htm&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Sem, L.I. (1976). <i>Очерки диалектов нанайского языка: бикинский (уссурийский) диалект</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9E%D1%87%D0%B5%D1%80%D0%BA%D0%B8+%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D0%B2+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%3A+%D0%B1%D0%B8%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%28%D1%83%D1%81%D1%81%D1%83%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%29+%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82&amp;rft.aulast=Sem&amp;rft.aufirst=L.I.&amp;rft.au=Sem%2C%26%2332%3BL.I.&amp;rft.date=1976&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Stolyarov, A.V. (1994). <i>Нанайский язык // Красная книга языков народов России: Энциклопедический словарь-справочник</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%8F%D0%B7%D1%8B%D0%BA+%2F%2F+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0+%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%3A+%D0%AD%D0%BD%D1%86%D0%B8%D0%BA%D0%BB%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA&amp;rft.aulast=Stolyarov&amp;rft.aufirst=A.V.&amp;rft.au=Stolyarov%2C%26%2332%3BA.V.&amp;rft.date=1994&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Nikolaeva, Irina; Maria Tolskaya (2001). <i>A Grammar of Udihe</i>. Walter de Gruyter.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Grammar+of+Udihe&amp;rft.aulast=Nikolaeva&amp;rft.aufirst=Irina&amp;rft.au=Nikolaeva%2C%26%2332%3BIrina&amp;rft.date=2001&amp;rft.pub=Walter+de+Gruyter&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation Journal"><i>Информация по населенным пунктам, районам проживания и хозяйственной деятельности коренных малочисленных народов Севера и Дальнего Востока РФ</i>. Russia: Ministry of Economic Development and Trade. 2002-01-01.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F+%D0%BF%D0%BE+%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%D0%B0%D0%BC%2C+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%D0%BC+%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8+%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D0%BC%D0%B0%D0%BB%D0%BE%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2+%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%B0+%D0%B8+%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B3%D0%BE+%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B0+%D0%A0%D0%A4&amp;rft.date=2002-01-01&amp;rft.place=Russia&amp;rft.pub=Ministry+of+Economic+Development+and+Trade&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation web"><a href="http://www.perepis2002.ru/ct/doc/TOM_04_03.xls" class="external text" rel="nofollow">"Население по национальности и владению русским языком по субъектам Российской Федерации"</a> (<a href="/wiki/Microsoft_Excel" title="Microsoft Excel">Microsoft Excel</a>). Федеральная служба государственной статистики<span class="printonly">. <a href="http://www.perepis2002.ru/ct/doc/TOM_04_03.xls" class="external free" rel="nofollow">http://www.perepis2002.ru/ct/doc/TOM_04_03.xls</a></span><span class="reference-accessdate">. Retrieved 2006-12-01</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D0%BE+%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%B8+%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D1%8E+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%BC+%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC+%D0%BF%D0%BE+%D1%81%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%D0%BC+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;rft.atitle=&amp;rft.pub=%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0+%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8&amp;rft_id=http%3A%2F%2Fwww.perepis2002.ru%2Fct%2Fdoc%2FTOM_04_03.xls&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=13" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=14" title="Edit section: General works">edit</a>]</span> <span class="mw-headline" id="General_works">General works</span></h3>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book"><a href="/wiki/Valentin_Avrorin" title="Valentin Avrorin">Avrorin, Valentin Aleksandrovich</a> (1959). <i>Грамматика нанайского языка, т.1. М.</i>. <a href="/wiki/Soviet_Academy_of_Sciences" title="Soviet Academy of Sciences" class="mw-redirect">Soviet Academy of Sciences</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%93%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%2C+%D1%82.1.+%D0%9C.&amp;rft.aulast=Avrorin&amp;rft.aufirst=Valentin+Aleksandrovich&amp;rft.au=Avrorin%2C%26%2332%3BValentin+Aleksandrovich&amp;rft.date=1959&amp;rft.pub=%5B%5BSoviet+Academy+of+Sciences%5D%5D&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book"><a href="/wiki/Valentin_Avrorin" title="Valentin Avrorin">Avrorin, Valentin Aleksandrovich</a> (1961). <i>Грамматика нанайского языка, т.2. М.</i>. <a href="/wiki/Soviet_Academy_of_Sciences" title="Soviet Academy of Sciences" class="mw-redirect">Soviet Academy of Sciences</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%93%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%2C+%D1%82.2.+%D0%9C.&amp;rft.aulast=Avrorin&amp;rft.aufirst=Valentin+Aleksandrovich&amp;rft.au=Avrorin%2C%26%2332%3BValentin+Aleksandrovich&amp;rft.date=1961&amp;rft.pub=%5B%5BSoviet+Academy+of+Sciences%5D%5D&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Putintseva, A.P. (1954). <i>Морфология говора горинских нанай.</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9C%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B0+%D0%B3%D0%BE%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%85+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9.&amp;rft.aulast=Putintseva&amp;rft.aufirst=A.P.&amp;rft.au=Putintseva%2C%26%2332%3BA.P.&amp;rft.date=1954&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Putintseva, A.P. (1969). <i>О производственной лексике горинских нанай // Ученые записки ЛГПИ</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9E+%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D0%BA%D0%B5+%D0%B3%D0%BE%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%85+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9+%2F%2F+%D0%A3%D1%87%D0%B5%D0%BD%D1%8B%D0%B5+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%BA%D0%B8+%D0%9B%D0%93%D0%9F%D0%98&amp;rft.aulast=Putintseva&amp;rft.aufirst=A.P.&amp;rft.au=Putintseva%2C%26%2332%3BA.P.&amp;rft.date=1969&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Stolyarov, A.V. (1997). <i>Нанайский язык: социолингвистическая ситуация и перспектива сохранения // Малочисленные народы Севера, Сибири и Дальнего Востока. Проблемы сохранения и развития</i>. St. Petersburg.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%8F%D0%B7%D1%8B%D0%BA%3A+%D1%81%D0%BE%D1%86%D0%B8%D0%BE%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F+%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D1%8F+%D0%B8+%D0%BF%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0+%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F+%2F%2F+%D0%9C%D0%B0%D0%BB%D0%BE%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D1%8B+%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%B0%2C+%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D0%B8+%D0%B8+%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B3%D0%BE+%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B0.+%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B+%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F+%D0%B8+%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F&amp;rft.aulast=Stolyarov&amp;rft.aufirst=A.V.&amp;rft.au=Stolyarov%2C%26%2332%3BA.V.&amp;rft.date=1997&amp;rft.place=St.+Petersburg&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Sunik, O.P. (1958). <i>Кур-урмийский диалект</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9A%D1%83%D1%80-%D1%83%D1%80%D0%BC%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82&amp;rft.aulast=Sunik&amp;rft.aufirst=O.P.&amp;rft.au=Sunik%2C%26%2332%3BO.P.&amp;rft.date=1958&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(German)</span> <span class="citation Journal">Doerfer, Gerhard (1973). "Das Kur-Urmische und seine Verwandten". <i>Zentralasiatische Studien</i> (Wiesbaden: Otto Harrassowitz) (7): 567–599.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Das+Kur-Urmische+und+seine+Verwandten&amp;rft.jtitle=Zentralasiatische+Studien&amp;rft.aulast=Doerfer&amp;rft.aufirst=Gerhard&amp;rft.au=Doerfer%2C%26%2332%3BGerhard&amp;rft.date=1973&amp;rft.issue=7&amp;rft.pages=567%E2%80%93599&amp;rft.place=Wiesbaden&amp;rft.pub=Otto+Harrassowitz&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(German)</span> <span class="citation Journal">Doerfer, Gerhard (1975). "Ist Kur-Urmisch ein nanaischer Dialekt?". <i>Ural-Altaische Jahrbücher</i> (47): 51–63.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Ist+Kur-Urmisch+ein+nanaischer+Dialekt%3F&amp;rft.jtitle=Ural-Altaische+Jahrb%C3%BCcher&amp;rft.aulast=Doerfer&amp;rft.aufirst=Gerhard&amp;rft.au=Doerfer%2C%26%2332%3BGerhard&amp;rft.date=1975&amp;rft.issue=47&amp;rft.pages=51%E2%80%9363&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Japanese)</span> <span class="citation Journal"><a href="/wiki/Shinjiro_Kazama" title="Shinjiro Kazama">Kazama, Shinjiro</a> (March 1994). "ナーナイ語の「一致」について (On 'agreement' in Nanay)". <i>北大言語学研究報告</i> (Sapporo: Faculty of Letters, Hokkaido University) (5).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E3%83%8A%E3%83%BC%E3%83%8A%E3%82%A4%E8%AA%9E%E3%81%AE%E3%80%8C%E4%B8%80%E8%87%B4%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6+%28On+%27agreement%27+in+Nanay%29&amp;rft.jtitle=%E5%8C%97%E5%A4%A7%E8%A8%80%E8%AA%9E%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A&amp;rft.aulast=Kazama&amp;rft.aufirst=Shinjiro&amp;rft.au=Kazama%2C%26%2332%3BShinjiro&amp;rft.date=March+1994&amp;rft.issue=5&amp;rft.place=Sapporo&amp;rft.pub=Faculty+of+Letters%2C+Hokkaido+University&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Chinese)</span> <span class="citation book">Zhang, Yang-chang; Bing Li, Xi Zhang (1989). <i>赫哲语 (The Hezhen Language)</i>. Changchun: Jilin University Press.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%E8%B5%AB%E5%93%B2%E8%AF%AD+%28The+Hezhen+Language%29&amp;rft.aulast=Zhang&amp;rft.aufirst=Yang-chang&amp;rft.au=Zhang%2C%26%2332%3BYang-chang&amp;rft.date=1989&amp;rft.place=Changchun&amp;rft.pub=Jilin+University+Press&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><a href="http://www.omniglot.com/writing/nanai.htm" class="external text" rel="nofollow">Nanai alphabet on Omniglot</a></li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=15" title="Edit section: Texts in Nanai">edit</a>]</span> <span class="mw-headline" id="Texts_in_Nanai">Texts in Nanai</span></h3>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book"><a href="/wiki/Valentin_Avrorin" title="Valentin Avrorin">Avrorin, Valentin Aleksandrovich</a> (1986). <i>Материалы по нанайскому языку и фольклору</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B+%D0%BF%D0%BE+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%BC%D1%83+%D1%8F%D0%B7%D1%8B%D0%BA%D1%83+%D0%B8+%D1%84%D0%BE%D0%BB%D1%8C%D0%BA%D0%BB%D0%BE%D1%80%D1%83&amp;rft.aulast=Avrorin&amp;rft.aufirst=Valentin+Aleksandrovich&amp;rft.au=Avrorin%2C%26%2332%3BValentin+Aleksandrovich&amp;rft.date=1986&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book"><i>Нанайский фольклор: Нингман, сиохор, тэлунгу</i>. Новосибирск. 1996.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%84%D0%BE%D0%BB%D1%8C%D0%BA%D0%BB%D0%BE%D1%80%3A+%D0%9D%D0%B8%D0%BD%D0%B3%D0%BC%D0%B0%D0%BD%2C+%D1%81%D0%B8%D0%BE%D1%85%D0%BE%D1%80%2C+%D1%82%D1%8D%D0%BB%D1%83%D0%BD%D0%B3%D1%83&amp;rft.date=1996&amp;rft.place=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Samar, E. (1992). <i>Манга покто/Трудные тропы</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9C%D0%B0%D0%BD%D0%B3%D0%B0+%D0%BF%D0%BE%D0%BA%D1%82%D0%BE%2F%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D1%8B%D0%B5+%D1%82%D1%80%D0%BE%D0%BF%D1%8B&amp;rft.aulast=Samar&amp;rft.aufirst=E.&amp;rft.au=Samar%2C%26%2332%3BE.&amp;rft.date=1992&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Samar, E. (2000). <i>Кондонкан даламдини/Кондонский староста</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9A%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD%D0%BA%D0%B0%D0%BD+%D0%B4%D0%B0%D0%BB%D0%B0%D0%BC%D0%B4%D0%B8%D0%BD%D0%B8%2F%D0%9A%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D1%82%D0%B0%D1%80%D0%BE%D1%81%D1%82%D0%B0&amp;rft.aulast=Samar&amp;rft.aufirst=E.&amp;rft.au=Samar%2C%26%2332%3BE.&amp;rft.date=2000&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Passar, A. (2002). <i>Ми урэхэмби нингмансал/Сказки моего детства (Fairy Tales of my Childhood)</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9C%D0%B8+%D1%83%D1%80%D1%8D%D1%85%D1%8D%D0%BC%D0%B1%D0%B8+%D0%BD%D0%B8%D0%BD%D0%B3%D0%BC%D0%B0%D0%BD%D1%81%D0%B0%D0%BB%2F%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8+%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE+%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B0+%28Fairy+Tales+of+my+Childhood%29&amp;rft.aulast=Passar&amp;rft.aufirst=A.&amp;rft.au=Passar%2C%26%2332%3BA.&amp;rft.date=2002&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Khodzher, A. (2000). <i>Михорангоари/Поклонение природе</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9C%D0%B8%D1%85%D0%BE%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%B0%D1%80%D0%B8%2F%D0%9F%D0%BE%D0%BA%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5&amp;rft.aulast=Khodzher&amp;rft.aufirst=A.&amp;rft.au=Khodzher%2C%26%2332%3BA.&amp;rft.date=2000&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Marshak, S.Y.; <a href="/wiki/Valentin_Avrorin" title="Valentin Avrorin">Valentin Avrorin</a> (translator) (1990). <i>Двенадцать месяцев/Дёан дюэр биа</i>. Khaborovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%94%D0%B2%D0%B5%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D1%8C+%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B5%D0%B2%2F%D0%94%D1%91%D0%B0%D0%BD+%D0%B4%D1%8E%D1%8D%D1%80+%D0%B1%D0%B8%D0%B0&amp;rft.aulast=Marshak&amp;rft.aufirst=S.Y.&amp;rft.au=Marshak%2C%26%2332%3BS.Y.&amp;rft.date=1990&amp;rft.place=Khaborovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Bel'dy, G. (1980). <i>На найни: Стихи</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0+%D0%BD%D0%B0%D0%B9%D0%BD%D0%B8%3A+%D0%A1%D1%82%D0%B8%D1%85%D0%B8&amp;rft.aulast=Bel%27dy&amp;rft.aufirst=G.&amp;rft.au=Bel%27dy%2C%26%2332%3BG.&amp;rft.date=1980&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Japanese)</span> <span class="citation Journal"><a href="/wiki/Shinjiro_Kazama" title="Shinjiro Kazama">Kazama, Shinjiro</a> (1993). "ナーナイ語テキスト (Nanay Texts)". <i>Publications on Tungus Languages and Cultures</i> (Otaru, Japan: Center for Language Studies, Otaru University of Commerce) (4).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E3%83%8A%E3%83%BC%E3%83%8A%E3%82%A4%E8%AA%9E%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88+%28Nanay+Texts%29&amp;rft.jtitle=Publications+on+Tungus+Languages+and+Cultures&amp;rft.aulast=Kazama&amp;rft.aufirst=Shinjiro&amp;rft.au=Kazama%2C%26%2332%3BShinjiro&amp;rft.date=1993&amp;rft.issue=4&amp;rft.place=Otaru%2C+Japan&amp;rft.pub=Center+for+Language+Studies%2C+Otaru+University+of+Commerce&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Japanese)</span> <span class="citation Journal"><a href="/wiki/Shinjiro_Kazama" title="Shinjiro Kazama">Kazama, Shinjiro</a> (1996). "ナーナイの民話と伝説2 (Nanay Folk Tales and Legends 2)". <i>Publications on Tungus Languages and Cultures</i> (Tottori, Japan: Faculty of Education, Tottori University) (8).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E3%83%8A%E3%83%BC%E3%83%8A%E3%82%A4%E3%81%AE%E6%B0%91%E8%A9%B1%E3%81%A8%E4%BC%9D%E8%AA%AC2+%28Nanay+Folk+Tales+and+Legends+2%29&amp;rft.jtitle=Publications+on+Tungus+Languages+and+Cultures&amp;rft.aulast=Kazama&amp;rft.aufirst=Shinjiro&amp;rft.au=Kazama%2C%26%2332%3BShinjiro&amp;rft.date=1996&amp;rft.issue=8&amp;rft.place=Tottori%2C+Japan&amp;rft.pub=Faculty+of+Education%2C+Tottori+University&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Japanese)</span> <span class="citation Journal"><a href="/wiki/Shinjiro_Kazama" title="Shinjiro Kazama">Kazama, Shinjiro</a> (1997). "ナーナイの民話と伝説3 (Nanay Folk Tales and Legends 3)". <i>Publications on Tungus Languages and Cultures</i> (Tokyo, Japan: Tokyo University of Foreign Studies) (10).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E3%83%8A%E3%83%BC%E3%83%8A%E3%82%A4%E3%81%AE%E6%B0%91%E8%A9%B1%E3%81%A8%E4%BC%9D%E8%AA%AC3+%28Nanay+Folk+Tales+and+Legends+3%29&amp;rft.jtitle=Publications+on+Tungus+Languages+and+Cultures&amp;rft.aulast=Kazama&amp;rft.aufirst=Shinjiro&amp;rft.au=Kazama%2C%26%2332%3BShinjiro&amp;rft.date=1997&amp;rft.issue=10&amp;rft.place=Tokyo%2C+Japan&amp;rft.pub=Tokyo+University+of+Foreign+Studies&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Japanese)</span> <span class="citation Journal"><a href="/wiki/Shinjiro_Kazama" title="Shinjiro Kazama">Kazama, Shinjiro</a> (1998). "ナーナイの民話と伝説4 (Nanay Folk Tales and Legends 4)". <i>Publications on Tungus Languages and Cultures</i> (China, Japan: Chiba University) (12).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%E3%83%8A%E3%83%BC%E3%83%8A%E3%82%A4%E3%81%AE%E6%B0%91%E8%A9%B1%E3%81%A8%E4%BC%9D%E8%AA%AC4+%28Nanay+Folk+Tales+and+Legends+4%29&amp;rft.jtitle=Publications+on+Tungus+Languages+and+Cultures&amp;rft.aulast=Kazama&amp;rft.aufirst=Shinjiro&amp;rft.au=Kazama%2C%26%2332%3BShinjiro&amp;rft.date=1998&amp;rft.issue=12&amp;rft.place=China%2C+Japan&amp;rft.pub=Chiba+University&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=16" title="Edit section: Dictionaries">edit</a>]</span> <span class="mw-headline" id="Dictionaries">Dictionaries</span></h3>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Onenko, S.N. (1959). <i>Русско-нанайский словарь (свыше 8 000 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%28%D1%81%D0%B2%D1%8B%D1%88%D0%B5+8+000+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Onenko&amp;rft.aufirst=S.N.&amp;rft.au=Onenko%2C%26%2332%3BS.N.&amp;rft.date=1959&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Petrova, T.I. (1960). <i>Нанайско-русский словарь (около 8 000 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%28%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE+8+000+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Petrova&amp;rft.aufirst=T.I.&amp;rft.au=Petrova%2C%26%2332%3BT.I.&amp;rft.date=1960&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Onenko, S.N. (1982). <i>Нанайско-русский и русско-нанайский словарь: пособие для учащихся средней школы (более 3 600 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%B8+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%3A+%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D1%83%D1%87%D0%B0%D1%89%D0%B8%D1%85%D1%81%D1%8F+%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B9+%D1%88%D0%BA%D0%BE%D0%BB%D1%8B+%28%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5+3+600+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Onenko&amp;rft.aufirst=S.N.&amp;rft.au=Onenko%2C%26%2332%3BS.N.&amp;rft.date=1982&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Onenko, S.N. (1989). <i>Словарь нанайско-русский и русско-нанайский: пособие для учащихся средней школы (около 4 000 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%B8+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%3A+%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D1%83%D1%87%D0%B0%D1%89%D0%B8%D1%85%D1%81%D1%8F+%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B9+%D1%88%D0%BA%D0%BE%D0%BB%D1%8B+%28%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE+4+000+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Onenko&amp;rft.aufirst=S.N.&amp;rft.au=Onenko%2C%26%2332%3BS.N.&amp;rft.date=1989&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Onenko, S.N. (1986). <i>Лоца-Наанай Хэсэhкуни/Русско-нанайский словарь (около 5 000 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9B%D0%BE%D1%86%D0%B0-%D0%9D%D0%B0%D0%B0%D0%BD%D0%B0%D0%B9+%D0%A5%D1%8D%D1%81%D1%8Dh%D0%BA%D1%83%D0%BD%D0%B8%2F%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BD%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%28%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE+5+000+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Onenko&amp;rft.aufirst=S.N.&amp;rft.au=Onenko%2C%26%2332%3BS.N.&amp;rft.date=1986&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Onenko, S.N. (1980). <i>Нанай-Лоча Хэсэhкуни/Нанайско-русский словарь (12 800 слов)</i>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9-%D0%9B%D0%BE%D1%87%D0%B0+%D0%A5%D1%8D%D1%81%D1%8Dh%D0%BA%D1%83%D0%BD%D0%B8%2F%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%2812+800+%D1%81%D0%BB%D0%BE%D0%B2%29&amp;rft.aulast=Onenko&amp;rft.aufirst=S.N.&amp;rft.au=Onenko%2C%26%2332%3BS.N.&amp;rft.date=1980&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Russian)</span> <span class="citation book">Kile, A.S. (1999). <i>Нанайско-русский тематический словарь (духовная культура)</i>. Khabarovsk.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C+%28%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F+%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%29&amp;rft.aulast=Kile&amp;rft.aufirst=A.S.&amp;rft.au=Kile%2C%26%2332%3BA.S.&amp;rft.date=1999&amp;rft.place=Khabarovsk&amp;rfr_id=info:sid/en.wikipedia.org:Nanai_language"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Nanai_language&amp;action=edit&amp;section=17" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h3>
+<ul>
+<li><a href="http://www.omniglot.com/writing/nanai.htm" class="external text" rel="nofollow">Nanai writing on Omniglot</a></li>
+<li><a href="http://www.rosettaproject.org/archive/gld" class="external text" rel="nofollow">Entry for Nanai at Rosetta Project</a></li>
+<li><a href="http://www.llmap.org/languages/gld/data_browser.html" class="external text" rel="nofollow">Distribution map at The Linguist List</a></li>
+</ul>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Altaic_languages" title="Template:Altaic languages"><span style=";;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/wiki/Template_talk:Altaic_languages" title="Template talk:Altaic languages"><span style=";;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Altaic_languages&amp;action=edit" class="external text" rel="nofollow"><span style=";;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/Altaic_languages" title="Altaic languages">Altaic languages</a></span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div>
+<p><a href="/wiki/Turkic_languages" title="Turkic languages">Turkic</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Mongolic_languages" title="Mongolic languages">Mongolic</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Tungusic_languages" title="Tungusic languages">Tungusic</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Korean_language" title="Korean language">Korean</a><sup><small>1</small></sup>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Japonic_languages" title="Japonic languages">Japonic</a><sup><small>1</small></sup></p>
+</div>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";padding:0.4em 0.2em 0.2em; line-height:1.3em;" colspan="2"><span style="white-space:nowrap;"><span style="position: relative; top: 0.2em;"><sup><small>1</small></sup></span> Not always recognized as Altaic languages.</span> <span style="white-space:nowrap;">See also <a href="/wiki/Buyeo_languages" title="Buyeo languages">Buyeo languages</a>.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Tungusic_languages" title="Template:Tungusic languages"><span style=";;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/w/index.php?title=Template_talk:Tungusic_languages&amp;action=edit&amp;redlink=1" class="new" title="Template talk:Tungusic languages (page does not exist)"><span style=";;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Tungusic_languages&amp;action=edit" class="external text" rel="nofollow"><span style=";;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/Tungusic_languages" title="Tungusic languages">Tungusic languages</a></span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;"><a href="/wiki/Northern_Tungusic_languages" title="Northern Tungusic languages">Northern</a></td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Even_language" title="Even language">Even</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Evenki_language" title="Evenki language">Evenki</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/w/index.php?title=Manegir_language&amp;action=edit&amp;redlink=1" class="new" title="Manegir language (page does not exist)">Manegir</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Negidal_language" title="Negidal language">Negidal</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Oroqen_language" title="Oroqen language">Oroqen</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Evenki_language" title="Evenki language">Solon</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;"><a href="/wiki/Southern_Tungusic_languages" title="Southern Tungusic languages">Southern</a></td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;">
+<tr>
+<td class="navbox-group" style=";font-weight:normal;;">Southeastern</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/w/index.php?title=Akani_language&amp;action=edit&amp;redlink=1" class="new" title="Akani language (page does not exist)">Akani</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/w/index.php?title=Birar_language&amp;action=edit&amp;redlink=1" class="new" title="Birar language (page does not exist)">Birar</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/w/index.php?title=Kile_language&amp;action=edit&amp;redlink=1" class="new" title="Kile language (page does not exist)">Kile</a>&#160;<span style="font-weight:bold;">·</span>  <strong class="selflink">Nanai</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Oroch_language" title="Oroch language">Oroch</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Orok_language" title="Orok language">Orok</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/w/index.php?title=Samagir_language&amp;action=edit&amp;redlink=1" class="new" title="Samagir language (page does not exist)">Samagir</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Udege_language" title="Udege language">Udege</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Ulch_language" title="Ulch language">Ulch</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";font-weight:normal;;">Southwestern</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Jurchen_language" title="Jurchen language">Jurchen</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Manchu_language" title="Manchu language">Manchu</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Xibe_language" title="Xibe language">Xibe</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 27155/1000000
+Post-expand include size: 205092/2048000 bytes
+Template argument size: 52899/2048000 bytes
+Expensive parser function count: 5/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:7121636-0!*!0!!en!4 and timestamp 20110527212344 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Nanai_language">http://en.wikipedia.org/wiki/Nanai_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Agglutinative_languages" title="Category:Agglutinative languages">Agglutinative languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_Russia" title="Category:Languages of Russia">Languages of Russia</a></span> | <span dir='ltr'><a href="/wiki/Category:Khabarovsk_Krai" title="Category:Khabarovsk Krai">Khabarovsk Krai</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_China" title="Category:Languages of China">Languages of China</a></span> | <span dir='ltr'><a href="/wiki/Category:Heilongjiang" title="Category:Heilongjiang">Heilongjiang</a></span> | <span dir='ltr'><a href="/wiki/Category:Tungusic_languages" title="Category:Tungusic languages">Tungusic languages</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:Articles_containing_Chinese_language_text" title="Category:Articles containing Chinese language text">Articles containing Chinese language text</a></span> | <span dir='ltr'><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2007" title="Category:Articles with unsourced statements from February 2007">Articles with unsourced statements from February 2007</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2009" title="Category:Articles with unsourced statements from July 2009">Articles with unsourced statements from July 2009</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Nanai_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Nanai_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Nanai_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Nanai_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Nanai_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Nanai_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Nanai_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Nanai_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Nanai_language&amp;oldid=429381326" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Nanai_language&amp;id=429381326" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Nanai+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Nanai+language&amp;oldid=429381326&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Nanai_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Nanaieg" title="Nanaieg">Brezhoneg</a></li>
+					<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Nanaja_lingvo" title="Nanaja lingvo">Esperanto</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Nana%C3%AF" title="Nanaï">Français</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%82%98%EB%82%98%EC%9D%B4%EC%96%B4" title="나나이어">한국어</a></li>
+					<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Nanaj%C5%B3_kalba" title="Nanajų kalba">Lietuvių</a></li>
+					<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BD%D0%B0%D1%98%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA" title="Нанајски јазик">Македонски</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Nanai_(taal)" title="Nanai (taal)">Nederlands</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Nanaiisk" title="Nanaiisk">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Lenga_nanai" title="Lenga nanai">Piemontèis</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Нанайский язык">Русский</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Nanain_kieli" title="Nanain kieli">Suomi</a></li>
+					<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B9%84%E0%B8%99" title="ภาษานาไน">ไทย</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%B5%AB%E5%93%B2%E8%AF%AD" title="赫哲语">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 16 May 2011 at 12:10.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Nanai_language", "wgTitle": "Nanai language", "wgAction": "view", "wgArticleId": 7121636, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 429381326, "wgCategories": ["Articles containing Chinese language text", "All articles with unsourced statements", "Articles with unsourced statements from February 2007", "Articles with unsourced statements from July 2009", "Agglutinative languages", "Languages of Russia", "Khabarovsk Krai", "Languages of China", "Heilongjiang", "Tungusic languages"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "8266605572be9378d0b210db44515575", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv229 in 4.331 secs. -->			</body>
+</html>

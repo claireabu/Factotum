@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Laz language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Laz_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Laz_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Laz language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<div class="infobox sisterproject">
+<div class="floatleft"><a href="/wiki/File:Incubator-notext.svg" class="image" title="Wikimedia Incubator"><img alt="Wikimedia Incubator" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Incubator-notext.svg/40px-Incubator-notext.svg.png" width="40" height="50" /></a></div>
+<div style="margin-left: 60px;"><i><b><a href="http://incubator.wikimedia.org/wiki/Wp/lzz" class="extiw" title="incubator:Wp/lzz">Laz language test</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a> at <a href="http://meta.wikimedia.org/wiki/Wikimedia_Incubator" class="extiw" title="meta:Wikimedia Incubator">Wikimedia Incubator</a></div>
+</div>
+<div class="metadata topicon" id="protected-icon" style="display:none; right:55px;"><a href="/wiki/Wikipedia:Protection_policy#semi" title="This article is semi-protected to prevent sock puppets of currently blocked or banned users from editing it."><img alt="Page semi-protected" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png" width="20" height="20" /></a></div>
+<table class="metadata plainlinks ambox ambox-content" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" /></a></div>
+</td>
+<td class="mbox-text" style="">This article <b>needs additional <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">citations</a> for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a>.</b><br />
+<small>Please help <a href="http://en.wikipedia.org/w/index.php?title=Laz_language&amp;action=edit" class="external text" rel="nofollow">improve this article</a> by adding <a href="/wiki/Wikipedia:Identifying_reliable_sources" title="Wikipedia:Identifying reliable sources">reliable references</a>. Unsourced material may be <a href="/wiki/Template:Citation_needed" title="Template:Citation needed">challenged</a> and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>. <i>(May 2009)</i></small></td>
+</tr>
+</table>
+<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: lightgreen">Laz</th>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; font-weight: bold; color: black; background-color: lightgreen"><i>Lazuri</i>, ლაზური</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><span class="flagicon"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/22px-Flag_of_Turkey.svg.png" width="22" height="15" class="thumbborder" />&#160;</span><a href="/wiki/Turkey" title="Turkey">Turkey</a>, <span class="flagicon"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/22px-Flag_of_Georgia.svg.png" width="22" height="15" class="thumbborder" />&#160;</span><a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia</a>, <span class="flagicon"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/22px-Flag_of_Germany.svg.png" width="22" height="13" class="thumbborder" />&#160;</span><a href="/wiki/Germany" title="Germany">Germany</a></td>
+</tr>
+<tr>
+<th>Total speakers</th>
+<td colspan="2">33,250 in 1980<sup id="cite_ref-ethnologue_0-0" class="reference"><a href="#cite_note-ethnologue-0"><span>[</span>1<span>]</span></a></sup></td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/South_Caucasian_languages" title="South Caucasian languages" class="mw-redirect">South Caucasian</a> (Kartvelian)
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Karto-Zan_languages" title="Karto-Zan languages" class="mw-redirect">Karto-Zan</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Zan_languages" title="Zan languages">Zan</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Laz</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="/wiki/Writing_system" title="Writing system">Writing system</a></th>
+<td colspan="2"><a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin alphabet</a>, <a href="/wiki/Georgian_alphabet" title="Georgian alphabet">Georgian alphabet</a></td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: lightgreen">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=lzz" class="extiw" title="iso639-3:lzz">lzz</a></tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p>The <b>Laz language</b> (ლაზური ნენა, <i>lazuri nena</i>; <a href="/wiki/Georgian_language" title="Georgian language">Georgian</a>: <span lang="ka" xml:lang="ka">ლაზური ენა</span>, <i>lazuri ena</i>, or ჭანური ენა, <i>č'anuri ena</i>, also <i>chanuri ena</i>; <a href="/wiki/Turkish_language" title="Turkish language">Turkish</a>: <span lang="tr" xml:lang="tr"><i>Lazca</i></span>) is a <a href="/wiki/Kartvelian_languages" title="Kartvelian languages">South Caucasian language</a> (also known as Kartvelian language) spoken by the <a href="/wiki/Laz_people" title="Laz people">Laz people</a> on the Southeast shore of the <a href="/wiki/Black_Sea" title="Black Sea">Black Sea</a>. It is estimated that there are around 30,000<sup id="cite_ref-ethnologue_0-1" class="reference"><a href="#cite_note-ethnologue-0"><span>[</span>1<span>]</span></a></sup> native speakers of Laz in <a href="/wiki/Turkey" title="Turkey">Turkey</a>, in a strip of land extending from <a href="/w/index.php?title=Melyat&amp;action=edit&amp;redlink=1" class="new" title="Melyat (page does not exist)">Melyat</a> to the Georgian border (officially called <a href="/wiki/Lazistan" title="Lazistan">Lazistan</a> until 1925), and about 2,000 in <a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia</a>.<sup id="cite_ref-ethnologue_0-2" class="reference"><a href="#cite_note-ethnologue-0"><span>[</span>1<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Linguistic_classification"><span class="tocnumber">1</span> <span class="toctext">Linguistic classification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Dialects"><span class="tocnumber">1.1</span> <span class="toctext">Dialects</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Laz_Dialects"><span class="tocnumber">1.2</span> <span class="toctext">Laz Dialects</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Geographical_distribution"><span class="tocnumber">2</span> <span class="toctext">Geographical distribution</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Social_and_cultural_status"><span class="tocnumber">3</span> <span class="toctext">Social and cultural status</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Linguistic_features"><span class="tocnumber">3.1</span> <span class="toctext">Linguistic features</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Grammar"><span class="tocnumber">3.2</span> <span class="toctext">Grammar</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Vocabulary"><span class="tocnumber">4</span> <span class="toctext">Vocabulary</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Linguistic_classification">Linguistic classification</span></h2>
+<p>Laz is one of the four <a href="/wiki/South_Caucasian_languages" title="South Caucasian languages" class="mw-redirect">South Caucasian languages</a>. Along with <a href="/wiki/Mingrelian_language" title="Mingrelian language">Mingrelian</a>, it forms the <a href="/wiki/Zan_languages" title="Zan languages">Zan branch</a> of this language family. The two languages are very closely related, to the extent that some linguists refer to Mingrelian and Laz as dialects or regional variants of a single <i><a href="/wiki/Zan_language" title="Zan language" class="mw-redirect">Zan language</a></i>, a view held officially in the <a href="/wiki/Soviet" title="Soviet" class="mw-redirect">Soviet</a> era and still so in Georgia today. In general, however, Laz and <a href="/wiki/Mingrelian" title="Mingrelian">Mingrelian</a> are classed as separate languages, due both to the long-standing separation of their communities of speakers (500 years) and to a lack of mutual intelligibility.</p>
+<h3><span class="mw-headline" id="Dialects">Dialects</span></h3>
+<p>Laz has five major dialects:</p>
+<ul>
+<li>Xopuri, spoken in <a href="/wiki/Hopa" title="Hopa">Hopa</a> and <a href="/wiki/Ajaria" title="Ajaria" class="mw-redirect">Ajaria</a>;</li>
+<li>Vitzur-Ark'abuli, spoken in <a href="/wiki/Arhavi" title="Arhavi">Arhavi</a> and <a href="/wiki/F%C4%B1nd%C4%B1kl%C4%B1" title="Fındıklı">Fındıklı</a>;</li>
+<li>Çxala, spoken in Düzköy (Çxala) village in <a href="/wiki/Bor%C3%A7ka" title="Borçka">Borçka</a>;</li>
+<li>Atinuri, spoken in <a href="/wiki/Pazar" title="Pazar">Pazar</a> (former Atina);</li>
+<li>Art'aşenuri, spoken in <a href="/wiki/Arde%C5%9Fen" title="Ardeşen">Ardeşen</a>.</li>
+</ul>
+<p>The last two are often treated as a single Atinan dialect. Speakers of different Laz dialects have trouble understanding each other, and often prefer to communicate in the local official language.</p>
+<h3><span class="mw-headline" id="Laz_Dialects">Laz Dialects</span></h3>
+<table class="wikitable">
+<tr>
+<th width="100">English</th>
+<th width="80">Atina</th>
+<th width="80">Art'aşeni</th>
+<th width="80">Arkabi</th>
+<th width="80">Xopa - Batumi</th>
+</tr>
+<tr>
+<td><b>I love</b></td>
+<td>malimben</td>
+<td>maoropen</td>
+<td>p’orom</td>
+<td>p’qorop</td>
+</tr>
+<tr>
+<td><b>You love</b></td>
+<td>galimben</td>
+<td>gaoropen</td>
+<td>orom</td>
+<td>qorop</td>
+</tr>
+<tr>
+<td><b>S/he-It loves</b></td>
+<td>alimben</td>
+<td>aropen</td>
+<td>oroms</td>
+<td>qorops</td>
+</tr>
+<tr>
+<td><b>We love</b></td>
+<td>malimberan</td>
+<td>maoropenan</td>
+<td>p’oromt</td>
+<td>p’qorot</td>
+</tr>
+<tr>
+<td><b>You love</b></td>
+<td>galimberan</td>
+<td>gaoropenan</td>
+<td>oromt</td>
+<td>qoropt</td>
+</tr>
+<tr>
+<td><b>They love</b></td>
+<td>alimberan</td>
+<td>aoropenan</td>
+<td>oroman</td>
+<td>qoropan</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Geographical_distribution">Geographical distribution</span></h2>
+<p>The ancient kingdom of <a href="/wiki/Colchis" title="Colchis">Colchis</a> was located in the same region the Laz speakers are found in today, and its inhabitants probably spoke an ancestral version of the language. Colchis was the setting for the famous <a href="/wiki/Greek_mythology" title="Greek mythology">Greek legend</a> of <a href="/wiki/Jason_and_the_Argonauts" title="Jason and the Argonauts">Jason and the Argonauts</a>.</p>
+<p>Today most Laz speakers live in Northeast Turkey, in a strip of land along the shore of the Black Sea: in the <a href="/wiki/Pazar" title="Pazar">Pazar</a> (Atina), <a href="/wiki/Arde%C5%9Fen" title="Ardeşen">Ardeşen</a> (Art'aşeni), <a href="/wiki/%C3%87aml%C4%B1hem%C5%9Fin" title="Çamlıhemşin">Çamlıhemşin</a> (Vijadibi) and <a href="/wiki/F%C4%B1nd%C4%B1kl%C4%B1" title="Fındıklı">Fındıklı</a> (Vitze) districts of <a href="/wiki/Rize" title="Rize">Rize</a>, and in the <a href="/wiki/Arhavi" title="Arhavi">Arhavi</a> (Ark'abi), <a href="/wiki/Hopa" title="Hopa">Hopa</a> (Xopa) and <a href="/wiki/Bor%C3%A7ka" title="Borçka">Borçka</a> districts of <a href="/wiki/Artvin" title="Artvin">Artvin</a>. There are also communities in northwestern <a href="/wiki/Anatolia" title="Anatolia">Anatolia</a> (<a href="/wiki/Ak%C3%A7akoca" title="Akçakoca">Akçakoca</a> in <a href="/wiki/D%C3%BCzce_Province" title="Düzce Province">Düzce</a>, <a href="/wiki/Sapanca" title="Sapanca">Sapanca</a> in <a href="/wiki/Sakarya_Province" title="Sakarya Province">Sakarya</a>, <a href="/wiki/Karam%C3%BCrsel" title="Karamürsel">Karamürsel</a> and <a href="/wiki/G%C3%B6lc%C3%BCk" title="Gölcük" class="mw-redirect">Gölcük</a> in <a href="/wiki/Kocaeli_Province" title="Kocaeli Province">Kocaeli</a>, <a href="/wiki/Bart%C4%B1n_Province" title="Bartın Province">Bartın</a>, and <a href="/wiki/Yalova_Province" title="Yalova Province">Yalova</a>) where many immigrants settled since the <a href="/wiki/Russo-Turkish_War_(1877-1878)" title="Russo-Turkish War (1877-1878)" class="mw-redirect">Russo-Turkish War (1877-1878)</a> and now also in <a href="/wiki/Istanbul" title="Istanbul">Istanbul</a> and <a href="/wiki/Ankara" title="Ankara">Ankara</a>. Only a few Laz live in Georgia, chiefly in <a href="/wiki/Ajaria" title="Ajaria" class="mw-redirect">Ajaria</a>. Laz are also present in <a href="/wiki/Germany" title="Germany">Germany</a> where they have migrated from Turkey since the 1960s.</p>
+<h2><span class="mw-headline" id="Social_and_cultural_status">Social and cultural status</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="/wiki/File:Okitxuseni_Supara.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Okitxuseni_Supara.jpg/250px-Okitxuseni_Supara.jpg" width="250" height="188" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Okitxuseni_Supara.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A Laz book "<a href="/wiki/Mothertongue" title="Mothertongue" class="mw-redirect">Mothertongue</a>"</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="/wiki/File:Mcita_murutsxi.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mcita_murutsxi.jpg/250px-Mcita_murutsxi.jpg" width="250" height="353" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Mcita_murutsxi.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A Laz newspaper in 1928</div>
+</div>
+</div>
+<p>Laz has no official status in either Turkey or Georgia, and no written standard. It is presently used only for familiar and casual interaction; for literary, business, and other purposes, Laz speakers use their country's official language (<a href="/wiki/Turkish_language" title="Turkish language">Turkish</a> or Georgian).</p>
+<p>Laz is unique among the South Caucasian languages in that most of its speakers live in <a href="/wiki/Turkey" title="Turkey">Turkey</a> rather than Georgia. While the differences between the various dialects are minor, their speakers feel that their level of mutual intelligibility is low. Given that there is no common standard form of Laz, speakers of its different dialects use <a href="/wiki/Turkish_language" title="Turkish language">Turkish</a> to communicate with each other.</p>
+<p>Between 1930 and 1938, Zan (Laz and Mingrelian) enjoyed cultural autonomy in Georgia and was used as a literary language, but an official standard form of the tongue was never established. Since then, all attempts to create a written tradition in Zan have failed, despite the fact that most intellectuals use it as a literary language.</p>
+<p>In Turkey, Laz has been a written language since 1984, when an alphabet based on <a href="/wiki/Turkish_alphabet" title="Turkish alphabet">Turkish script</a> with <a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin alphabet</a> was created. Since then, this system has been used in most of the handful of publications that have appeared in Laz. Developed specifically for the South Caucasian languages, the <a href="/wiki/Georgian_alphabet" title="Georgian alphabet">Georgian alphabet</a> is better suited to the sounds of Laz, but the fact that most of the tongue's speakers live in Turkey, where the Latin alphabet is used, has rendered the adoption of the former impossible. Nonetheless, 1991 saw the publication of a textbook called Nana-nena ('Mother tongue'), which was aimed at all Laz speakers and used both the Latin and Georgian alphabets. The first Laz-Turkish dictionary was published in 1999.</p>
+<p>The only languages in which the Laz receive an education are Turkish (in Turkey) and Georgian (in Georgia). Virtually all the Laz are bilingual in Turkish and Laz or in Georgian and Laz. Even in villages inhabited exclusively by Laz people, it is common to hear conversations in <a href="/wiki/Turkish_language" title="Turkish language">Turkish</a> or <a href="/wiki/Georgian_language" title="Georgian language">Georgian</a>. Turkish has had a notable influence on the vocabulary of Laz.</p>
+<p>Laz speakers themselves basically regard the <a href="/wiki/Language" title="Language">language</a> as a means of oral communication. The families that still speak Laz only do so among adults in informal situations, with Turkish or Georgian being used in all other contexts. This means that the younger generations fail to fully acquire the language and only gain a passive knowledge of it.</p>
+<p>In recent times, the Laz folk musician <a href="/w/index.php?title=Birol_Topalo%C4%9Flu&amp;action=edit&amp;redlink=1" class="new" title="Birol Topaloğlu (page does not exist)">Birol Topaloğlu</a> has achieved a certain degree of international success with his albums <i><a href="/w/index.php?title=Heyamo&amp;action=edit&amp;redlink=1" class="new" title="Heyamo (page does not exist)">Heyamo</a></i> (1997, the first album ever sung entirely in the Laz language) and <i><a href="/w/index.php?title=Aravani_(album)&amp;action=edit&amp;redlink=1" class="new" title="Aravani (album) (page does not exist)">Aravani</a></i> (2000). The Laz rock and roll musician <a href="/wiki/Kaz%C4%B1m_Koyuncu" title="Kazım Koyuncu" class="mw-redirect">Kazım Koyuncu</a> performed rock and roll arrangements of Laz traditional music from 1995 until his death in 2005.</p>
+<p>In 2004, Dr. Mehmet Bekâroğlu, the deputy chairman of <a href="/wiki/Felicity_Party" title="Felicity Party">Felicity Party</a> in Turkey, sent a notice to the <a href="/wiki/Turkish_Radio_and_Television_Corporation" title="Turkish Radio and Television Corporation">Turkish Radio and Television Corporation</a> (TRT) declaring that his mother tongue is Laz and demanding broadcasts in Laz. The same year, a group of Laz intellectuals issued a petition and held a meeting with TRT officials for the implementation of Laz broadcasts. However, as of 2008, these requests have been ignored by authorities.</p>
+<h3><span class="mw-headline" id="Linguistic_features">Linguistic features</span></h3>
+<p>Like many <a href="/wiki/Languages_of_the_Caucasus" title="Languages of the Caucasus">languages of the Caucasus</a>, Laz has a rich consonantal system (in fact, the richest among the South Caucasian family) but only five vowels (a,e,i,o,u). The <a href="/wiki/Noun" title="Noun">nouns</a> are inflected with <a href="/wiki/Agglutinative" title="Agglutinative" class="mw-redirect">agglutinative</a> suffixes to indicate <a href="/wiki/Grammatical_function" title="Grammatical function" class="mw-redirect">grammatical function</a> (4 to 7 <a href="/wiki/Case_(linguistics)" title="Case (linguistics)" class="mw-redirect">cases</a>, depending on the dialect) and <a href="/wiki/Number_(linguistics)" title="Number (linguistics)" class="mw-redirect">number</a> (singular or plural), but not by gender.</p>
+<p>The Laz verb is inflected with suffixes according to person and number, and also for <a href="/wiki/Grammatical_tense" title="Grammatical tense">Grammatical tense</a>, <a href="/wiki/Grammatical_aspect" title="Grammatical aspect">aspect</a>, <a href="/wiki/Grammatical_mood" title="Grammatical mood">mood</a>, and (in some dialects) <a href="/wiki/Evidentiality" title="Evidentiality">evidentiality</a>. Up to 50 verbal prefixes are used to indicate spatial orientation/direction. Person and number suffixes provided for the subject as well as for one or two objects involved in the action, e.g. <i>gimpulam</i> = "I hide it from you".</p>
+<h3><span class="mw-headline" id="Grammar">Grammar</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Laz_grammar" title="Laz grammar">Laz grammar</a></div>
+<p>Some distinctive features of Laz among its family are:</p>
+<ul>
+<li>Two additional consonants, /f/ and /h/;</li>
+<li>All nouns end with a vowel.</li>
+<li>More extensive verb inflection, using directional prefixes.</li>
+<li>Substantial lexical borrowings from Greek and <a href="/wiki/Turkic_languages" title="Turkic languages">Turkic languages</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="Vocabulary">Vocabulary</span></h2>
+<ul>
+<li>Ho (ჰო) — yes</li>
+<li>Va (ვა), Var (ვარ) — no</li>
+<li>Ma (მა) — I</li>
+<li>Si (სი) — you</li>
+<li>Skani (სქანი) — your</li>
+<li>Chkimi (ჩქიმი), Shkimi (შკიმი) — my</li>
+<li>Gegajginas/Khela do kaobate (გეგაჯგინას/ხელა დო კაობათე) — Hello</li>
+<li>Kai serepe (კაი სერეფე) — Good night</li>
+<li>Kai mokhtit (კაი მოხთით) — Welcome</li>
+<li>Didi mardi (დიდი მარდი) — Thanks</li>
+<li>Muchore? (მუჭორე?) — How are you?</li>
+<li>Kai vore (კაი ვორე), Vrosi vore (ვროსი ვორე) — I'm fine</li>
+<li>Dido khelabas vore (დიდო ხელაბას ვორე) — I'm very happy</li>
+<li>Ma vulur (მა ვულურ) - I'm going</li>
+<li>Ma gamavulur (მა გამავულურ) - I'm going outside</li>
+<li>Gale (გალე) - Outside</li>
+<li>Ma amavulur (მა ამავულურ) - I'm going inside</li>
+<li>Dolokhe (დოლოხე) - Inside</li>
+<li>Ma gevulur (მა გევულურ) - I'm going down</li>
+<li>Tude (თუდე) - Down, under</li>
+<li>Ma eshevulur (მა ეშევულურ) - I'm going up</li>
+<li>Jin (ჟინ) - Up</li>
+<li>Sonuri re? (სონური რე?) — Where are you from?</li>
+<li>Trapuzani (ტრაფუზანი) — Trabzon</li>
+<li>Turketi (თურქონა), Turkiye (თურქიე) — Turkey</li>
+<li>Ruseti (რუსეთი) - Russia</li>
+<li>Giurcistani (გიურჯისთანი), Giurji-msva (გიურჯი-მსვა) - Georgia, Place of Georgian</li>
+<li>Okhorja (ოხორჯა) — woman</li>
+<li>Kochi (კოჩი) — man</li>
+<li>Bozo (ბოზო), kulani (კულანი) — girl</li>
+<li>Bichi (ბიჭი) — boy</li>
+<li>Supara (სუპარა) — book</li>
+<li>Megabre (მეგაბრე) — friend</li>
+<li>Qoropa (ყოროფა) — love</li>
+<li>Mu dulia ikip? (მუ დულია იქიფ?) — What is your job?</li>
+<li>Lazuri gichkini? (ლაზური გიჩქინი?) — Do you know Laz?</li>
+<li>Mu gjoxons? (მუ გჯოხონს?), — What is your name?</li>
+<li>Ma si kqorop (Hopa dialect) (მა სი ქყოროფ) — I love you</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="/wiki/Georgian_language" title="Georgian language">Georgian language</a></li>
+<li><a href="/wiki/Languages_of_the_Caucasus" title="Languages of the Caucasus">Languages of the Caucasus</a></li>
+<li><a href="/wiki/Megrelian_language" title="Megrelian language" class="mw-redirect">Megrelian language</a></li>
+<li><a href="/wiki/Svan_language" title="Svan language">Svan language</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-ethnologue-0">^ <a href="#cite_ref-ethnologue_0-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ethnologue_0-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-ethnologue_0-2"><sup><i><b>c</b></i></sup></a> <span class="citation web"><a href="http://www.ethnologue.com/show_language.asp?code=lzz" class="external text" rel="nofollow">"Laz"</a>. <i><a href="/wiki/Ethnologue" title="Ethnologue">Ethnologue</a></i><span class="printonly">. <a href="http://www.ethnologue.com/show_language.asp?code=lzz" class="external free" rel="nofollow">http://www.ethnologue.com/show_language.asp?code=lzz</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=Laz&amp;rft.atitle=%5B%5BEthnologue%5D%5D&amp;rft_id=http%3A%2F%2Fwww.ethnologue.com%2Fshow_language.asp%3Fcode%3Dlzz&amp;rfr_id=info:sid/en.wikipedia.org:Laz_language"><span style="display: none;">&#160;</span></span></li>
+</ol>
+<h2><span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Kojima, Gôichi (2003) <i>Lazuri grameri</i> Chiviyazıları, Kadıköy, İstanbul, <a href="/wiki/Special:BookSources/9758663550" class="internal mw-magiclink-isbn">ISBN 975-8663-55-0</a> (notes in English and Turkish)</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Turkish)</span> <a href="http://www.lazkulturdernegi.org.tr" class="external text" rel="nofollow">Lazkulturdernegi.org.tr</a></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Turkish)</span> <a href="http://www.lazurinena.com" class="external text" rel="nofollow">lazurinena.com</a></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Turkish)</span> <a href="http://www.lazebura.net" class="external text" rel="nofollow">Laz Cultur - Information about Lazs, Laz Language, Culture, Music</a></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Turkish)</span> <a href="http://www.lazuri.com" class="external text" rel="nofollow">Laz Cultur - Information about Lazs, Laz Language, Culture, Music</a></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Turkish)</span> <a href="http://kolkhoba.org" class="external text" rel="nofollow">Laz Cultur - Information about Lazs, Laz Language, Culture, Music and Laz Diaspora</a></li>
+<li><a href="http://www.uni-koeln.de/phil-fak/ifl/asw/forschung/projekte/Lasisch/benningwd.pdf" class="external text" rel="nofollow">Lazuri Nena - The Language of the Laz</a> by Silvia Kutscher.</li>
+<li><a href="http://www.karalahana.com/" class="external text" rel="nofollow">Laz-Turkish full dictionary in word format</a></li>
+<li><a href="http://www.webcitation.org/query?url=http://www.geocities.com/arzu_barske/lazuri1.html&amp;date=2009-10-25+12:41:18" class="external text" rel="nofollow">Samples of Laz Language in English, Dutch and Turkish,Arzu Barské</a> on <a href="/w/index.php?title=Yahoo!_GeoCities&amp;action=edit&amp;redlink=1" class="new" title="Yahoo! GeoCities (page does not exist)">Yahoo! GeoCities</a></li>
+<li><a href="http://www.webcitation.org/query?url=http://www.geocities.com/yilmazerdoganx/sayfa1.html&amp;date=2009-10-26+00:25:53" class="external text" rel="nofollow">Laz history and language, Lazlar, Yilmaz Erdogan</a> on Yahoo! GeoCities</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 2111/1000000
+Post-expand include size: 16753/2048000 bytes
+Template argument size: 4599/2048000 bytes
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:629784-0!*!0!!en!4!edit=0 and timestamp 20110528212622 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Laz_language">http://en.wikipedia.org/wiki/Laz_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Agglutinative_languages" title="Category:Agglutinative languages">Agglutinative languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_Georgia_(country)" title="Category:Languages of Georgia (country)">Languages of Georgia (country)</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_Turkey" title="Category:Languages of Turkey">Languages of Turkey</a></span> | <span dir='ltr'><a href="/wiki/Category:Endangered_Caucasian_languages" title="Category:Endangered Caucasian languages">Endangered Caucasian languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Kartvelian_languages" title="Category:Kartvelian languages">Kartvelian languages</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:Wikipedia_pages_semi-protected_from_banned_users" title="Category:Wikipedia pages semi-protected from banned users">Wikipedia pages semi-protected from banned users</a></span> | <span dir='ltr'><a href="/wiki/Category:Wikipedia_protected_pages_without_expiry" title="Category:Wikipedia protected pages without expiry">Wikipedia protected pages without expiry</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_needing_additional_references_from_May_2009" title="Category:Articles needing additional references from May 2009">Articles needing additional references from May 2009</a></span> | <span dir='ltr'><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_containing_Georgian_language_text" title="Category:Articles containing Georgian language text">Articles containing Georgian language text</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_containing_Turkish_language_text" title="Category:Articles containing Turkish language text">Articles containing Turkish language text</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Laz_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Laz_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Laz_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Laz_language" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/w/index.php?title=Laz_language&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Laz_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Laz_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Laz_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Laz_language&amp;oldid=425712480" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Laz_language&amp;id=425712480" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Laz+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Laz+language&amp;oldid=425712480&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Laz_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Laz_dili" title="Laz dili">Azərbaycanca</a></li>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Lazeg" title="Lazeg">Brezhoneg</a></li>
+					<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA" title="Лазки език">Български</a></li>
+					<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Laz" title="Laz">Català</a></li>
+					<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7_%D1%87%C4%95%D0%BB%D1%85%D0%B8" title="Лаз чĕлхи">Чӑвашла</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Lasische_Sprache" title="Lasische Sprache">Deutsch</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Idioma_laz" title="Idioma laz">Español</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Laze" title="Laze">Français</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lingua_laz" title="Lingua laz">Italiano</a></li>
+					<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9C%D7%90%D7%96%D7%99%D7%AA" title="לאזית">עברית</a></li>
+					<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%9A%E1%83%90%E1%83%96%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90" title="ლაზური ენა">ქართული</a></li>
+					<li class="interwiki-rw"><a href="http://rw.wikipedia.org/wiki/Ikilazi" title="Ikilazi">Kinyarwanda</a></li>
+					<li class="interwiki-ku"><a href="http://ku.wikipedia.org/wiki/Ziman%C3%AA_laz%C3%AE" title="Zimanê lazî">Kurdî</a></li>
+					<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/L%C3%A1z_nyelv" title="Láz nyelv">Magyar</a></li>
+					<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9B%D0%B0%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA" title="Ласки јазик">Македонски</a></li>
+					<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Bahasa_Laz" title="Bahasa Laz">Bahasa Melayu</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Lazisch" title="Lazisch">Nederlands</a></li>
+					<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%BA%E8%AA%9E" title="ラズ語">日本語</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Lazisk" title="Lazisk">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/J%C4%99zyk_lazyjski" title="Język lazyjski">Polski</a></li>
+					<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/L%C3%ADngua_laz" title="Língua laz">Português</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Лазский язык">Русский</a></li>
+					<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Laziska" title="Laziska">Svenska</a></li>
+					<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Lazca" title="Lazca">Türkçe</a></li>
+					<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0" title="Лазська мова">Українська</a></li>
+					<li class="interwiki-diq"><a href="http://diq.wikipedia.org/wiki/Lazki" title="Lazki">Zazaki</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 24 April 2011 at 20:10.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Laz_language", "wgTitle": "Laz language", "wgAction": "view", "wgArticleId": 629784, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 425712480, "wgCategories": ["Wikipedia pages semi-protected from banned users", "Wikipedia protected pages without expiry", "Articles needing additional references from May 2009", "All articles needing additional references", "Articles containing Georgian language text", "Articles containing Turkish language text", "Agglutinative languages", "Languages of Georgia (country)", "Languages of Turkey", "Endangered Caucasian languages", "Kartvelian languages"], "wgBreakFrames": false, "wgRestrictionEdit": ["autoconfirmed"], "wgRestrictionMove": ["autoconfirmed"], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "e5b2b2734ff36661f878d7b0635266fd", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv282 in 0.711 secs. -->			</body>
+</html>

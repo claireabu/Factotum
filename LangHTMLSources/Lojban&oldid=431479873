@@ -1,0 +1,1027 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Lojban - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Lojban&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Lojban&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Lojban";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Lojban skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Lojban</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: white; background-color: black">Lojban</th>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; font-weight: bold; color: white; background-color: black">la lojban.</th>
+</tr>
+<tr>
+<th style="vertical-align: middle">Logo</th>
+<td colspan="2">
+<div class="center">
+<div class="floatnone"><a href="/wiki/File:Lojban_flag_public_domain.svg" class="image" title="Lojban logo"><img alt="Lojban logo" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Lojban_flag_public_domain.svg/200px-Lojban_flag_public_domain.svg.png" width="200" height="133" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>Pronunciation</th>
+<td colspan="2"><span title="Pronunciation in IPA" class="IPA"><a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">[la ˈloʒban]</a></span></td>
+</tr>
+<tr>
+<th>Created by</th>
+<td>Logical Language Group</td>
+</tr>
+<tr>
+<th>Date founded</th>
+<td colspan="2">1987</td>
+</tr>
+<tr>
+<th>Setting and usage</th>
+<td colspan="2">A logically engineered language for various usages</td>
+</tr>
+<tr>
+<th>Total speakers</th>
+<td colspan="2">–</td>
+</tr>
+<tr>
+<th>Category (purpose)</th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Constructed_language" title="Constructed language">constructed languages</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Engineered_language" title="Engineered language">engineered languages</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Logical_language" title="Logical language" class="mw-redirect">logical languages</a><br />
+(descended from <a href="/wiki/Loglan" title="Loglan">Loglan</a>)
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Lojban</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="/wiki/Writing_system" title="Writing system">Writing system</a></th>
+<td colspan="2"><a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin alphabet</a> and others</td>
+</tr>
+<tr>
+<td colspan="2"><a href="/wiki/Constructed_language" title="Constructed language">constructed languages</a><br />
+&#160;mixed <a href="/wiki/A_priori_language" title="A priori language" class="mw-redirect">a priori</a>/<a href="/wiki/A_posteriori_language" title="A posteriori language" class="mw-redirect">a posteriori</a></td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: white; background-color: black">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-2" title="ISO 639-2">ISO 639-2</a></th>
+<td colspan="2"><tt>jbo</tt></td>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=jbo" class="extiw" title="iso639-3:jbo">jbo</a></tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p><b>Lojban</b> (pronounced <span title="Pronunciation in IPA" class="IPA"><a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">[ˈloʒban]</a></span>) is a <a href="/wiki/Constructed_language" title="Constructed language">constructed</a>, syntactically unambiguous human language based on <a href="/wiki/First-order_logic" title="First-order logic">predicate logic</a>, succeeding the project of <a href="/wiki/Loglan" title="Loglan">Loglan</a>. The name "Lojban" is a combination of <i>loj</i> and <i>ban</i>, which are short forms of <i>logji</i> (logic) and <i>bangu</i> (language), respectively.</p>
+<p>Development of the language began in 1987 by The Logical Language Group (LLG), who intended to realize Loglan's purposes as well as further complement the language by making it more usable, and freely available (as indicated by its official full English name "Lojban: a realization of Loglan"). After a long initial period of debating and testing, the baseline was completed in 1998 with the publication of <i>The Complete Lojban Language</i>. In an interview in 2010 with the <i><a href="/wiki/New_York_Times" title="New York Times" class="mw-redirect">New York Times</a></i>, <a href="/wiki/Arika_Okrent" title="Arika Okrent">Arika Okrent</a>, the author of <i>In the Land of Invented Languages</i>, stated: "The constructed language with the most complete grammar is probably Lojban – a language created to reflect the principles of logic."<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup> The main sources of its basic vocabulary were the six (at the time) <a href="/wiki/List_of_languages_by_number_of_native_speakers" title="List of languages by number of native speakers">most widely spoken languages</a>: <a href="/wiki/Mandarin_Chinese" title="Mandarin Chinese">Mandarin</a>, <a href="/wiki/English_language" title="English language">English</a>, <a href="/wiki/Hindi" title="Hindi" class="mw-redirect">Hindi</a>, <a href="/wiki/Spanish_language" title="Spanish language">Spanish</a>, <a href="/wiki/Russian_language" title="Russian language">Russian</a>, and <a href="/wiki/Arabic" title="Arabic" class="mw-redirect">Arabic</a>, chosen to reduce the unfamiliarity or strangeness of the root words to people of diverse linguistic backgrounds. The language has drawn on other constructed languages' components, a notable instance of which is <a href="/wiki/L%C3%A1adan" title="Láadan">Láadan</a>'s set of indicators.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Literature_and_vocabulary_development"><span class="tocnumber">1.1</span> <span class="toctext">Literature and vocabulary development</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Development_of_learning_aids"><span class="tocnumber">1.2</span> <span class="toctext">Development of learning aids</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Community_development"><span class="tocnumber">1.3</span> <span class="toctext">Community development</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Future_goals"><span class="tocnumber">1.4</span> <span class="toctext">Future goals</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Grammar"><span class="tocnumber">2</span> <span class="toctext">Grammar</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Phonology_and_orthography"><span class="tocnumber">2.1</span> <span class="toctext">Phonology and orthography</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Morphology"><span class="tocnumber">2.2</span> <span class="toctext">Morphology</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Syntax_and_semantics"><span class="tocnumber">2.3</span> <span class="toctext">Syntax and semantics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Samples"><span class="tocnumber">3</span> <span class="toctext">Samples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Common_phrases"><span class="tocnumber">3.1</span> <span class="toctext">Common phrases</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Some_unique_Lojbanic_expressions"><span class="tocnumber">3.2</span> <span class="toctext">Some unique Lojbanic expressions</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#The_North_Wind_and_the_Sun"><span class="tocnumber">3.3</span> <span class="toctext">The North Wind and the Sun</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Tongue_twisters"><span class="tocnumber">3.4</span> <span class="toctext">Tongue twisters</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#A_Lojbanic_poem_.28audio.29"><span class="tocnumber">3.5</span> <span class="toctext">A Lojbanic poem (audio)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Community"><span class="tocnumber">4</span> <span class="toctext">Community</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#The_Internet"><span class="tocnumber">4.1</span> <span class="toctext">The Internet</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#The_Logfest"><span class="tocnumber">4.2</span> <span class="toctext">The Logfest</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Population"><span class="tocnumber">4.3</span> <span class="toctext">Population</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Comparison_with_other_logical_languages"><span class="tocnumber">5</span> <span class="toctext">Comparison with other logical languages</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#Loglan"><span class="tocnumber">5.1</span> <span class="toctext">Loglan</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Lojsk"><span class="tocnumber">5.2</span> <span class="toctext">Lojsk</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Voksigid"><span class="tocnumber">5.3</span> <span class="toctext">Voksigid</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Gua.5Cspi"><span class="tocnumber">5.4</span> <span class="toctext">Gua\spi</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="#General"><span class="tocnumber">8.1</span> <span class="toctext">General</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Personal_blogs"><span class="tocnumber">8.2</span> <span class="toctext">Personal blogs</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#Learning_courses.2Fresources"><span class="tocnumber">8.3</span> <span class="toctext">Learning courses/resources</span></a>
+<ul>
+<li class="toclevel-3 tocsection-31"><a href="#Beginner"><span class="tocnumber">8.3.1</span> <span class="toctext">Beginner</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#Advanced"><span class="tocnumber">8.3.2</span> <span class="toctext">Advanced</span></a></li>
+<li class="toclevel-3 tocsection-33"><a href="#Poetry"><span class="tocnumber">8.3.3</span> <span class="toctext">Poetry</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=1" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>Lojban has a predecessor, <a href="/wiki/Loglan" title="Loglan">Loglan</a>, a language invented by <a href="/wiki/James_Cooke_Brown" title="James Cooke Brown">James Cooke Brown</a> in 1955 and developed by <a href="/w/index.php?title=The_Loglan_Institute&amp;action=edit&amp;redlink=1" class="new" title="The Loglan Institute (page does not exist)">The Loglan Institute</a>. Loglan was originally conceived as a means to examine the influence of language on the speaker's thought (an assumption known as the <a href="/wiki/Linguistic_relativity" title="Linguistic relativity">Sapir–Whorf hypothesis</a>).</p>
+<p>As Brown started to claim <a href="/wiki/Copyright" title="Copyright">copyright</a><sup class="Template-Fact" title="This claim needs references to reliable sources from October 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> on the language's components, restraint was laid on the community's activity. In order to circumvent such control, a group of people decided to initiate a separate project, departing from the lexical basis of Loglan and reinventing the whole vocabulary, which led to the current lexicon of Lojban. In effect they established in 1987 <a href="/wiki/The_Logical_Language_Group" title="The Logical Language Group" class="mw-redirect">The Logical Language Group</a>, based in <a href="/wiki/Washington_DC" title="Washington DC" class="mw-redirect">Washington DC</a>. They also won a trial over whether they could call their version of the language "Loglan".<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup></p>
+<p>Following the publication of <i>The Complete Lojban Language</i>, it was expected that "the documented lexicon would be baselined, and the combination of lexicon and reference grammar would be frozen for a minimum of 5 years while language usage grew."<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>4<span>]</span></a></sup> As scheduled, this period, which has officially been called the "freeze", expired in 2002. The speakers of Lojban are now free to construct new words and idioms, and decide where the language is heading.</p>
+<p>Lojban still shares many of the characteristics of Loglan:</p>
+<ul>
+<li>It has a grammar that is based on <a href="/wiki/Predicate_logic" title="Predicate logic">predicate logic</a>, designed to express complex logical constructs precisely.</li>
+<li>It has no irregularities or ambiguities in spelling and grammar (although word derivation relies on arbitrary variant forms). This gives rise to high intelligibility for <a href="/wiki/Parsing" title="Parsing">computer parsing</a>.</li>
+<li>It is designed to be as culturally neutral as possible.</li>
+<li>It allows highly <a href="/wiki/Language_learning" title="Language learning" class="mw-redirect">systematic learning</a> and use, compared to most natural languages.</li>
+<li>It possesses an intricate system of indicators which effectively communicate contextual <a href="/wiki/Attitude_(psychology)" title="Attitude (psychology)">attitudes</a> or <a href="/wiki/Emotion" title="Emotion">emotions</a>.</li>
+<li>It does not have <a href="/wiki/Simplicity" title="Simplicity">simplicity</a> as a design criterion.</li>
+</ul>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=2" title="Edit section: Literature and vocabulary development">edit</a>]</span> <span class="mw-headline" id="Literature_and_vocabulary_development">Literature and vocabulary development</span></h4>
+<p>Lojban can be an intellectual device for <a href="/wiki/Creative_writing" title="Creative writing">creative writing</a> and is deemed to have many potential aspects yet to be discovered or explored.</p>
+<blockquote class="toccolours" style="float:none; padding: 10px 15px 10px 15px; display:table;">
+<p>Dan Parmenter:<br />
+The removal of grammatical ambiguity from modification [...] seems to heighten creative exploration of word combination. [...] Other areas of possible benefit are (surprisingly in a 'logical' language) emotional expression. Lojban has a fully developed set of metalinguistic and emotional attitude indicators that supplant much of the baggage of aspect and mood found in natural languages, but most clearly separate indicative statements from the emotional communication associated with those statements. This might lead to freer expression and consideration of ideas, since stating an idea can be distinguished from supporting that idea. The set of possible indicators is also large enough to provide specificity and clarity of emotions that is difficult in natural languages.<br />
+<br />
+John Cowan:<br />
+There is a marker for "figurative speech" which would be used on "back stabber" and would signal "There is a culturally dependent construction here!" The intent is not that everything is instantly and perfectly comprehensible to someone who knows only the root words, but rather that non-root words are built up creatively from the roots. Thus "heart pain" would refer to the literal heart and literal pain; what would be ambiguous would be the exact connection between these two. Is the pain in the heart, because of the heart, or what? But "heart pain" would not be a valid tanru for "emotional pain", absent the figurative speech marker. <a href="http://www.lojban.org/files/why-lojban/swh.txt" class="external text" rel="nofollow"><i>Computer Network Discussions on Loglan/Lojban and Linguistics: Lojban as seen by the linguistics and cognitive science community</i> 20, 23</a></p>
+</blockquote>
+<blockquote class="toccolours" style="float:none; padding: 10px 15px 10px 15px; display:table;">
+<p>The language was built to attempt to remove some limits on human thought; these limits are not understood, so that the tendency is to try to remove restrictions whenever we find the language structure gets in our way. You definitely can talk nonsense in Lojban.<br />
+<br />
+Bob LeChevalier:<br />
+In Lojban, a little grammar makes for a lot of semantic fun, since the grammar doesn't interfere with the semantic quibble you love. [...] In addition to its grammar, Lojban is definitely a priori in its words[...] We presume that everything can be covered as compounds of the classification scheme implied by the gismu. [...] We haven't, though, tried to impose a system on the universe like most a priori languages have. Instead, we have tried to broaden gismu flexibility so that multiple approaches to classifying the universe are possible. Our rule is that any word have one meaning, not that any meaning have one word. There is no 'proper' classification scheme in Lojban. [...] Lojban offers a new world of thought. <a href="http://www.lojban.org/files/why-lojban/whylojb.txt" class="external text" rel="nofollow"><i>Why Lojban?</i></a></p>
+</blockquote>
+<p>See also <a href="http://www.lojban.org/files/papers/4thtense" class="external text" rel="nofollow">the proposed fourth tense of Lojban</a> discussed by Arthur Protin, Bob LeChevalier, Carl Burke, Doug Landauer, Guy Steele, Jack Waugh, Jeff Prothero, Jim Carter, and Robert Chassell, as well as <a href="http://www.lojban.org/files/papers/zaho" class="external text" rel="nofollow">ZAhO tenses</a>, the concepts which "average English speakers won't recognize" because most of them (the concepts) "have no exact English counterpart".</p>
+<p>Like most languages with few speakers, Lojban lacks much of an associated body of <a href="/wiki/Literature" title="Literature">literature</a> and its creative extensions have not been fully realized (the true potential of its attitudinal system, for example, is considered unlikely to be drawn out "until and unless we have children raised entirely in a multi-cultural Lojban-speaking environment"<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>5<span>]</span></a></sup>). Also such collective or encyclopedic sources of knowledge like the <a href="http://jbo.wikipedia.org/wiki/ralju_ckupau" class="external text" rel="nofollow">Lojban Wikipedia</a>, which may help expand the language's lexical horizon, are in need of development.</p>
+<p>Presently accessible Lojbanic writings are principally concentrated on the Lojban.org, though there exist independent Lojbanic blog/journal sites as well. The Lojban IRC (or its archive) has a gathering of Lojbanic expressions too, but its grammatical correctness is not always guaranteed. These available materials on the internet include both original works and translations of classic pieces in the field of natural languages, ranging from <a href="/wiki/Poetry" title="Poetry">poetry</a>, <a href="/wiki/Short_story" title="Short story">short story</a>, <a href="/wiki/Novel" title="Novel">novel</a>, and <a href="/wiki/Essay" title="Essay">academic writing</a>. This has been paralleled with a <a href="/wiki/Chrestomathy" title="Chrestomathy">chrestomathy</a> project aiming to produce a collection of translated writings in order to show wide samplings of various language, hopefully longer than 10000 words and with a variety of genres and styles<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>6<span>]</span></a></sup> (<i>see also - External link: Literature</i>). Exemplary works that are already available include:</p>
+<ul>
+<li><i>Alice in Wonderland</i> by the English author <a href="/wiki/Lewis_Carroll" title="Lewis Carroll">Lewis Carroll</a></li>
+<li><i><a href="/wiki/One_Thousand_and_One_Nights" title="One Thousand and One Nights">One Thousand and One Nights</a></i></li>
+<li><i>The Moon is a Harsh Mistress</i> (Chapter 1) by the science fiction writer <a href="/wiki/Robert_A._Heinlein" title="Robert A. Heinlein">Robert A. Heinlein</a></li>
+<li><i>The Prophet</i> by the Lebanese-American writer <a href="/wiki/Kahlil_Gibran" title="Kahlil Gibran" class="mw-redirect">Kahlil Gibran</a></li>
+<li><i>The Little Things</i> by the short story writer/poet <a href="/wiki/Raymond_Carver" title="Raymond Carver">Raymond Carver</a></li>
+<li><i>The Man and the Snake</i> by the short story writer/satirist <a href="/wiki/Ambrose_Bierce" title="Ambrose Bierce">Ambrose Bierce</a></li>
+<li><i>The Book</i> by the cosmic horror writer <a href="/wiki/H._P._Lovecraft" title="H. P. Lovecraft">H. P. Lovecraft</a></li>
+<li><i>The <a href="/wiki/Book_of_Esther" title="Book of Esther">Book of Esther</a></i> from the <a href="/wiki/Bible" title="Bible">Bible</a></li>
+</ul>
+<p>Other translation projects include:</p>
+<ul>
+<li>Eaton Interface: a translation of the Helen Eaton concept list into Lojban.</li>
+<li>Parliamentary Rules: Lojban terms for <a href="/wiki/Parliamentary_procedure" title="Parliamentary procedure">parliamentary actions</a>.</li>
+<li>Lojban Adventure: a Lojban version of the classic <a href="/wiki/Colossal_Cave_Adventure" title="Colossal Cave Adventure">Colossal Cave</a> text adventure game.</li>
+</ul>
+<p>Compound words (lujvo) and borrowed words (fu'ivla) are continually increasing as the speakers find demands. The number of root words (gismu) and structure words (cmavo) are basically unchanging, but new inventions are to be accepted as experimental components. In fact, it has been noticed that particular inclination or disproportion exists in the available vocabulary. Cortesi<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>7<span>]</span></a></sup> has pointed out the lack of certain terms for mathematics and geometry (although this demand may now be disputed as the current set of Lojban vocabulary does actually allow speakers to express such notions as steradian (stero), trigonometric tangent (tanjo), multiplicative inverse (fa'i), matrix transpose (re'a) among a number of other kinds of operators or metric units). Other instances which require speakers to construct noncanonical words:</p>
+<ul>
+<li>There are few (almost non-existent) entries of African country names on the official list of root words while other country names (especially those with large populations of speakers of the six source languages) are covered to a remarkable extent.</li>
+<li>Such distinction as between <i>palne</i> (tray) and <i>palta</i> (plate) exist while no distinction between "illustration" and "photography" is made by the available set of gismu (that is, no exclusive root word for "photography" exists except the generic <i>pixra</i> (picture) (<i>see also - Grammar: Morphology: brivla: gismu</i>).</li>
+</ul>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=3" title="Edit section: Development of learning aids">edit</a>]</span> <span class="mw-headline" id="Development_of_learning_aids">Development of learning aids</span></h4>
+<p>Apart from the actual practice of the language, some members of the community and LLG have been endeavoring to create various aids for the learners. <i>The Complete Lojban Language</i>, the definitive word on all aspects of Lojban, is one of them, finalized in 1997. Some of the projects in varying stages of completeness are:</p>
+<ul>
+<li>Phrasebook: Lojbanic Phrasebook Project, CVS/Wiki Lojban Phrasebook, Pocket Dictionary</li>
+<li>Parser: Lojban Parser/Machine Grammar (by Robin Lee Powell), jbofi'e (by Richard Curnow), valfendi (by Pierre Abbat)</li>
+<li>Database: jbovlaste (by Robin Lee Powell), Reference Database (by Matt Arnold on DabbleDB)</li>
+<li>Others: Lojban/Logic book and webpage (by John Clifford), TLI Loglan Interface (by Steven Belknap and Bob LeChevalier)</li>
+</ul>
+<dl>
+<dd>(<i>see also - External link: Learning Courses/Resources</i>)</dd>
+</dl>
+<p>A dedicated Lojban popup dictionary as a <a href="/wiki/Firefox" title="Firefox">Firefox add-on</a> has been suggested, but is still in the level of speculation as the present lexing and parsing system of Lojban does not cover <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>.</p>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=4" title="Edit section: Community development">edit</a>]</span> <span class="mw-headline" id="Community_development">Community development</span></h4>
+<p>Currently, Lojban's learning resources available on the internet are available mainly to speakers of English, French, Spanish, Russian, Hebrew, and Esperanto, to varying degrees.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>8<span>]</span></a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>9<span>]</span></a></sup></p>
+<p>Disproportion in the community population is still noticeable. It is reasonably hoped among Lojbanists that more people from different cultural/linguistic backgrounds join the community in order to maintain and further complement the intended neutrality of the language. (<i>see also - Community</i>)</p>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=5" title="Edit section: Future goals">edit</a>]</span> <span class="mw-headline" id="Future_goals">Future goals</span></h4>
+<p>While the initial aim of the Loglan project was to investigate the <a href="/wiki/Linguistic_relativity" title="Linguistic relativity">Sapir–Whorf hypothesis</a>, the active Lojban community recognizes additional goals for the language to be attained in the future, including but not limited to:</p>
+<ul>
+<li>Eliminating ambiguity in language</li>
+<li>Use as a potential <a href="/wiki/International_Auxiliary_Language" title="International Auxiliary Language" class="mw-redirect">International Auxiliary Language</a></li>
+<li>Use as a potential academic language, such as in science or philosophy</li>
+<li>Use as an <a href="/wiki/Education" title="Education">educational tool</a></li>
+<li>Research in <a href="/wiki/Linguistics" title="Linguistics">linguistics</a></li>
+<li>Research in <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">artificial intelligence and machine understanding</a></li>
+<li>Improved human-computer communication, <a href="/wiki/Ontology" title="Ontology">storage ontologies</a>, and <a href="/wiki/Translation" title="Translation">computer translation of natural language text</a></li>
+<li>Improved human-human communication, due to the logical and unambiguous structure and greater means of expression</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=6" title="Edit section: Grammar">edit</a>]</span> <span class="mw-headline" id="Grammar">Grammar</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Lojban_grammar" title="Lojban grammar">Lojban grammar</a></div>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=7" title="Edit section: Phonology and orthography">edit</a>]</span> <span class="mw-headline" id="Phonology_and_orthography">Phonology and orthography</span></h3>
+<p>Lojban has 6 <a href="/wiki/Vowel" title="Vowel">vowels</a> and 17 <a href="/wiki/Consonant" title="Consonant">consonants</a>. Some of them have, apart from the preferred/standard sounds, permitted variants intended to cover dissimilitude in pronunciation by speakers of different linguistic backgrounds.</p>
+<p>There are also 16 <a href="/wiki/Diphthong" title="Diphthong">diphthongs</a> (and no <a href="/wiki/Triphthong" title="Triphthong">triphthongs</a>). A distinction between diphthongs and monophthongs can be written by inserting a comma in the Latin alphabet. Vowel hiatus is also prevented by inserting an apostrophe, which usually indicates <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[h]</span>, though there are other valid realizations.</p>
+<p>For those who have trouble pronouncing certain <a href="/wiki/Consonant_cluster" title="Consonant cluster">consonant clusters</a>, there is the option of <a href="/wiki/Epenthesis" title="Epenthesis">epenthesizing</a> vowels between them, as long as they differ sufficiently from the phonological vowels and are pronounced as short as possible. The resulting additional syllables are not factored in the grammar, including for the purposes of stress determination.</p>
+<p>Lojban is written almost entirely with lower-case letters; upper-case letters are used to mark stress, either in words that do not fit the normal rules of stress assignment (stress normally falls on the penultimate syllable) or when whitespace is omitted. The letters in Lojban and their respective pronunciations are shown in the table below. The <a href="/wiki/IPA" title="IPA" class="mw-redirect">IPA</a> symbols in parenthesis indicate alternative pronunciations; preferred pronunciations have no parenthesis.</p>
+<center>
+<table class="wikitable" border="1">
+<tr>
+<th></th>
+<th colspan="17">Consonants</th>
+<th colspan="6">Vowels</th>
+<th colspan="3">Auxiliary characters</th>
+</tr>
+<tr align="center">
+<th><a href="/wiki/IPA" title="IPA" class="mw-redirect">IPA representation</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_bilabial_plosive" title="Voiced bilabial plosive">b</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_palato-alveolar_sibilant" title="Voiceless palato-alveolar sibilant">ʃ</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_retroflex_sibilant" title="Voiceless retroflex sibilant">ʂ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_alveolar_plosive" title="Voiced alveolar plosive">d</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_labiodental_fricative" title="Voiceless labiodental fricative">f</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_bilabial_fricative" title="Voiceless bilabial fricative">ɸ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_velar_plosive" title="Voiced velar plosive">ɡ</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_palato-alveolar_sibilant" title="Voiced palato-alveolar sibilant">ʒ</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_retroflex_sibilant" title="Voiced retroflex sibilant">ʐ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_velar_plosive" title="Voiceless velar plosive">k</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Alveolar_lateral_approximant" title="Alveolar lateral approximant">l</a>]</span><sup id="cite_ref-footnote1_9-0" class="reference"><a href="#cite_note-footnote1-9"><span>[</span>1<span>]</span></a></sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Bilabial_nasal" title="Bilabial nasal">m</a>]</span><sup id="cite_ref-footnote1_9-1" class="reference"><a href="#cite_note-footnote1-9"><span>[</span>1<span>]</span></a></sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Alveolar_nasal" title="Alveolar nasal">n</a>]</span><sup id="cite_ref-footnote1_9-2" class="reference"><a href="#cite_note-footnote1-9"><span>[</span>1<span>]</span></a></sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_bilabial_plosive" title="Voiceless bilabial plosive">p</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Alveolar_trill" title="Alveolar trill">r</a>]</span><sup id="cite_ref-footnote1_9-3" class="reference"><a href="#cite_note-footnote1-9"><span>[</span>1<span>]</span></a></sup> <sup id="cite_ref-footnote2_10-0" class="reference"><a href="#cite_note-footnote2-10"><span>[</span>2<span>]</span></a></sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_alveolar_sibilant" title="Voiceless alveolar sibilant">s</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_alveolar_plosive" title="Voiceless alveolar plosive">t</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_labiodental_fricative" title="Voiced labiodental fricative">v</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_bilabial_fricative" title="Voiced bilabial fricative">β</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_velar_fricative" title="Voiceless velar fricative">x</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiced_alveolar_sibilant" title="Voiced alveolar sibilant" class="mw-redirect">z</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Open_front_unrounded_vowel" title="Open front unrounded vowel">a</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Open_back_unrounded_vowel" title="Open back unrounded vowel">ɑ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Close-mid_front_unrounded_vowel" title="Close-mid front unrounded vowel">e</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Open-mid_front_unrounded_vowel" title="Open-mid front unrounded vowel">ɛ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Close_front_unrounded_vowel" title="Close front unrounded vowel">i</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Close-mid_back_rounded_vowel" title="Close-mid back rounded vowel">o</a>]</span> (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Open-mid_back_rounded_vowel" title="Open-mid back rounded vowel">ɔ</a>]</span>)</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Close_back_rounded_vowel" title="Close back rounded vowel">u</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Mid-central_vowel" title="Mid-central vowel">ə</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Voiceless_glottal_fricative" title="Voiceless glottal fricative">h</a>]</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="/wiki/Glottal_stop" title="Glottal stop">ʔ</a>]</span></td>
+<td>.</td>
+</tr>
+<tr align="center">
+<th><a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin</a></th>
+<td>b</td>
+<td>c</td>
+<td>d</td>
+<td>f</td>
+<td>g</td>
+<td>j</td>
+<td>k</td>
+<td>l</td>
+<td>m</td>
+<td>n</td>
+<td>p</td>
+<td>r</td>
+<td>s</td>
+<td>t</td>
+<td>v</td>
+<td>x</td>
+<td>z</td>
+<td>a</td>
+<td>e</td>
+<td>i</td>
+<td>o</td>
+<td>u</td>
+<td>y</td>
+<td>'</td>
+<td>.</td>
+<td>,</td>
+</tr>
+</table>
+</center>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-footnote1-9">^ <a href="#cite_ref-footnote1_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-footnote1_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-footnote1_9-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-footnote1_9-3"><sup><i><b>d</b></i></sup></a> Sonorants <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/m n l r/</span> may be <a href="/wiki/Syllabic_consonant" title="Syllabic consonant">syllabic</a>.</li>
+<li id="cite_note-footnote2-10"><b><a href="#cite_ref-footnote2_10-0">^</a></b> There is no preferred sound for <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/r/</span>; any <a href="/wiki/Rhotic_consonant" title="Rhotic consonant">rhotic sound</a> is equally acceptable.</li>
+</ol>
+</div>
+<p>In principle, Lojban may be written in any orthographic system as long as it satisfies the required regularities and unambiguities. Some of the reasons for such elasticity would be as follows:</p>
+<ol>
+<li>Lojban is rather defined by the <a href="/wiki/Phonemes" title="Phonemes" class="mw-redirect">phonemes</a> rather than graphemes; as long as they are correctly rendered so as to maintain the Lojbanic audio-visual <a href="/wiki/Isomorphism" title="Isomorphism">isomorphism</a>, a representational system can be said to be an appropriate orthography of the language;</li>
+<li>Lojban is meant to be as culturally neutral as possible, so it is never crucial or fundamental to claim that some particular orthography of some particular languages (e.g. the Latin alphabet) should be the dominant mode.</li>
+</ol>
+<p>Some Lojbanists extend this principle to claim that even an original orthography of the language is to be sought<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>12<span>]</span></a></sup>.</p>
+<p>This article will use the common Latin alphabet mode.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=8" title="Edit section: Morphology">edit</a>]</span> <span class="mw-headline" id="Morphology">Morphology</span></h3>
+<p>Lojban has three <a href="/wiki/Parts_of_speech" title="Parts of speech" class="mw-redirect">word-classes</a>: predicate words (<i>brivla</i>), structure words (<i>cmavo</i>), and name words (<i>cmene</i>). Each of them has uniquely identifying properties, so that one can unambiguously recognize which word is of which part of speech in a string of the language. They may be further divided in sub-classes. There also exists a special fragmental form assigned to some predicate words and structure words, from which compound words (<i>lujvo</i>) may be created.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>14<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=9" title="Edit section: Syntax and semantics">edit</a>]</span> <span class="mw-headline" id="Syntax_and_semantics">Syntax and semantics</span></h3>
+<p>The language's grammatical structures are "defined by a set of rules that have been tested to be unambiguous using computers", which is in effect called the "machine grammar".<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>15<span>]</span></a></sup> Hence the characteristics of the standard syntactic (not semantic) constructs in Lojban:</p>
+<ul>
+<li>each word has exactly one grammatical interpretation;</li>
+<li>the words relate grammatically to each other in exactly one way.</li>
+</ul>
+<p>Such standards, however, are to be attained with certain carefulness:</p>
+<blockquote class="toccolours" style="float:none; padding: 10px 15px 10px 15px; display:table;">
+<p>It is important to note that new Lojbanists will not be able to speak 'perfectly' when first learning Lojban. In fact, you may never speak perfectly in 'natural' Lojban conversation, even though you achieve fluency in the language. No English speaker always speaks textbook English in natural conversation; Lojban speakers will also make grammatical errors when talking quickly. Lojbanists will, however, be able to speak or write unambiguously if they are careful, which is difficult if not impossible with a natural language.<br />
+<br />
+Nick Nicholas and John Cowan. '<a href="http://lojban.org/publications/level0/brochure/grammar.html" class="external text" rel="nofollow"><i>What Is Lojban? II.3</i></a></p>
+</blockquote>
+<p>The computer-tested, unambiguous rules also include grammar for 'incomplete' sentences e.g. for narrative, quotational, or mathematical phrases.</p>
+<p>Lojbanic expressions are modular; smaller constructs of words are assembled into larger phrases so that all incorporating pieces manifest as a possible grammatical unity. This mechanism allows for simple yet infinitely powerful phrasings; "a more complex phrase can be placed inside a simple structure, which in turn can be used in another instance of the complex phrase structure".</p>
+<p>Its <a href="/wiki/Linguistic_typology" title="Linguistic typology">typology</a> can be said to be basically <a href="/wiki/Subject_Verb_Object" title="Subject Verb Object">Subject Verb Object</a> and <a href="/wiki/Subject_Object_Verb" title="Subject Object Verb">Subject Object Verb</a>. However, it can practically be anything:</p>
+<ul>
+<li><i>mi prami do</i> (SVO) (I love you)</li>
+<li><i>mi do prami</i> (SOV) (By me, you are loved)</li>
+<li><i>do se prami mi</i> (OVS) (You are loved by me)</li>
+<li><i>do mi se prami</i> (OSV) (You, I love)</li>
+<li><i>prami fa mi do</i> (VSO) (Loved by me, you are)</li>
+<li><i>prami do fa mi</i> (VOS) (Love you, I do)</li>
+</ul>
+<p>Such flexibility has to do with the language's intended capability to translate as many expressions of natural languages as possible, based on a unique positional case system. The meaning of the sentence {mi prami do} is determined by {prami} realizing, with its own predefined "place structure", a specific semantic relation between {mi} and {do}; when the positional relation between {mi} and {do} changes, the meaning of the sentence changes too. As shown above, Lojban has particular devices to preserve such semantic structure of words while altering their order.</p>
+<p>As befits a logical language, there is a large assortment of logical connectives. Such conjunction words take different forms depending on what they connect, another reason why the (standard) Lojbanic expressions are typically precise and clear.</p>
+<p>Multiple predicate words may be linked up together so as to narrow the semantic scope of the phrase. In <i>skami pilno</i> "computer user(s)", the modifying word <i>skami</i> narrows the sense of the modified word <i>pilno</i> to form a more specific concept (in which case the modifier may resemble English adverbs or adjectives).</p>
+<ul>
+<li><b>English:</b> <i>Several small fires were burning in the house</i>.</li>
+<li><b>Lojban:</b> <i>so'i cmalu fagri puca'o jelca ne'i le zdani</i></li>
+<li><b>Gloss:</b> <i>many small fire past-continuing burn inside the house</i> (Translation after English)</li>
+</ul>
+<p>One could go still further, adding a quite extreme example of its syntactical flexibility.</p>
+<p>Lojban can easily "imitate" even Amerindian one-word sentences like this one:</p>
+<ul>
+<li><b><a href="/wiki/Nuu-chah-nulth_language" title="Nuu-chah-nulth language">Nuu-chah-nulth language</a></b>: <i>inikwihl'minik'isit</i></li>
+<li><b>Lojban:</b> <i>zdane'ikemcmafagyso'ikemprununjelca</i> (so-called lujvo or compound word mainly using the underlying rafsi or roots according to strict compositional rules)</li>
+<li><b>Gloss:</b> (about) <i>house-inside type-of small fire multitude type-of past event type of burning</i></li>
+</ul>
+<p>The Nuu-chah-nulth one-word sentence breaks down a bit differently as:</p>
+<p><i>inkiw (fire/burn) -ihl (in-the-house) -'minik (plural) -'is (diminutive) -'it (past-tense)</i></p>
+<p>which can be readily expressed in Lojban the same way:</p>
+<ul>
+<li><b>Lojban:</b> <i>fagykemyzdanerso'icmapru</i></li>
+<li><b>Gloss:</b> <i>fire-type-house-inside-many-small-past-event</i></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=10" title="Edit section: Samples">edit</a>]</span> <span class="mw-headline" id="Samples">Samples</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=11" title="Edit section: Common phrases">edit</a>]</span> <span class="mw-headline" id="Common_phrases">Common phrases</span></h3>
+<table border="0" cellpadding="3" cellspacing="0">
+<tr bgcolor="#EEEEEE">
+<th align="left">Lojban</th>
+<th align="left">literal meaning</th>
+<th align="left">English</th>
+</tr>
+<tr>
+<td>coi/co'o</td>
+<td>[greetings!]/[farewell!]</td>
+<td>hello/good-bye</td>
+</tr>
+<tr>
+<td>pe'u</td>
+<td>[please!]</td>
+<td>please</td>
+</tr>
+<tr>
+<td>ki'e</td>
+<td>[thankful!]</td>
+<td>thank you</td>
+</tr>
+<tr>
+<td>.u'u</td>
+<td>[repentance!]</td>
+<td>I'm sorry</td>
+</tr>
+<tr>
+<td>xu do se glibau/jbobau</td>
+<td>[true-false?] you is-a-speaker-of-English/Lojban-language</td>
+<td>Do you speak English/Lojban?</td>
+</tr>
+<tr>
+<td>ti/ta</td>
+<td>that-here/that-there</td>
+<td>this one/that one</td>
+</tr>
+<tr>
+<td>mi na jimpe</td>
+<td>I [false] understand</td>
+<td>I don't understand</td>
+</tr>
+<tr>
+<td>go'i</td>
+<td>the-last-sentence</td>
+<td>yes/That's true;</td>
+</tr>
+<tr>
+<td>na go'i</td>
+<td>[false] the-last-sentence</td>
+<td>no/That's false;</td>
+</tr>
+<tr>
+<td>la'u ma</td>
+<td>being-a-quantity-of what</td>
+<td>How much/many?</td>
+</tr>
+<tr>
+<td>ma jdima</td>
+<td>what is-the-price-of</td>
+<td>What's the cost?</td>
+</tr>
+<tr>
+<td>ma stuzi lo vimku'a</td>
+<td>what is-an-inherent-site-of that-which-is toilet</td>
+<td>Where's the toilet?</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=12" title="Edit section: Some unique Lojbanic expressions">edit</a>]</span> <span class="mw-headline" id="Some_unique_Lojbanic_expressions">Some unique Lojbanic expressions</span></h3>
+<ul>
+<li><i>.oiro'o bu'onai pei</i><br />
+[physical pain!] [end emotion] [?]<br />
+Are you no longer in pain?</li>
+<li><i>mi nelci ko</i><br />
+I is-fond-of you-[imperative]<br />
+Make me be fond of you!</li>
+<li><i>le cukta be'u cu zvati ma</i><br />
+that-which-is-described-as book [need!] is-at what<br />
+I need the book! Where is it?</li>
+<li><i>ko ga'inai nenri klama le mi zdani</i><br />
+you-[imperative] [me-the-social-inferior!] inside-type-of come that-which-is-described-as having-to-do-with-me house<br />
+I would be honored if you would enter my residence.</li>
+<li><i>le nanmu cu ninmu</i><br />
+one-or-more-specific-things-which-I-describe-as "men" are women<br />
+The man/men is a/are woman/women.</li>
+<li><i>seri'agi mi jgari lei djacu gi mi jgari le kabri</i><br />
+With-physical-effect I grasp the-mass-of water, I grasp the cup.<br />
+I grasp water, since I grasp the cup.</li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=13" title="Edit section: The North Wind and the Sun">edit</a>]</span> <span class="mw-headline" id="The_North_Wind_and_the_Sun">The North Wind and the Sun</span></h3>
+<p><i>A translation of</i> <a href="/wiki/The_North_Wind_and_the_Sun" title="The North Wind and the Sun">The North Wind and the Sun</a> <i>by Nick Nicholas, used in comparative <a href="/wiki/IPA" title="IPA" class="mw-redirect">IPA</a> realizations.</i><sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>16<span>]</span></a></sup></p>
+<blockquote class="toccolours" style="float:none; padding: 10px 15px 10px 15px; display:table;">
+<p><b>la berbif. joi la sol</b><br />
+<br />
+la berbif. joi la sol. puki darlu lejei ri jikau ra vlimau le drata kei co'i lenu lo litru vi klama gi'e tagji dasni lo kamgla kosta .i lego'i cu tugni lenu le pamoi snada be lenu naldasri'a le litru le kosta du'o ru'a vlimau le drata .ibazibo la berbif. cu rocrai brife .iku'i go ri vlimau brife gi le litru cu tagmau vaungau le kosta ra .ibaze'e la berbif. uu cu sisti lenu troci .ibabo la sol. cu glare dirce .ibazibo le litru co'u dasni le kosta .iseki'ubo la berbif. cu bilga lenu tugni ledu'u la sol. vlimau</p>
+</blockquote>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=14" title="Edit section: Tongue twisters">edit</a>]</span> <span class="mw-headline" id="Tongue_twisters">Tongue twisters</span></h3>
+<ul>
+<li>lo'u lu le la li'u le'u</li>
+<li>le crisa srasu cu rirci crino</li>
+<li>tisna fa la tsani le cnita tsina lo tinci tinsa</li>
+<li>la bab. zbasu loi bakyzbabu loi bakygrasu</li>
+<li>mi na djuno le du'u klama fa makau la makaus. makau makau makau</li>
+<li>le jbijbejbo cu cpucpacpe le jbajbu le cpicpare</li>
+<li>lo la santas santa'a santa</li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=15" title="Edit section: A Lojbanic poem (audio)">edit</a>]</span> <span class="mw-headline" id="A_Lojbanic_poem_.28audio.29">A Lojbanic poem (audio)</span></h3>
+<ul>
+<li><i><span class="unicode" style="white-space:nowrap;"><a href="/wiki/File:Xekri_je_blanu_nicte.ogg" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" /></a> <a href="http://upload.wikimedia.org/wikipedia/commons/a/a1/Xekri_je_blanu_nicte.ogg" class="internal" title="Xekri je blanu nicte.ogg">xekri je blanu nicte</a> <small class="metadata audiolinkinfo" style="cursor:help;">(<a href="/wiki/Wikipedia:Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="/wiki/File:Xekri_je_blanu_nicte.ogg" title="File:Xekri je blanu nicte.ogg"><span style="cursor:help;">info</span></a>)</small></span></i></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=16" title="Edit section: Community">edit</a>]</span> <span class="mw-headline" id="Community">Community</span></h2>
+<table class="metadata plainlinks ambox mbox-small-left ambox-notice" style="">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Wiki_letter_w_cropped.svg" class="image"><img alt="Wiki letter w cropped.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png" width="20" height="14" /></a></td>
+<td class="mbox-text" style="">This section requires <a href="http://en.wikipedia.org/w/index.php?title=Lojban&amp;action=edit" class="external text" rel="nofollow">expansion</a>.</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=17" title="Edit section: The Internet">edit</a>]</span> <span class="mw-headline" id="The_Internet">The Internet</span></h3>
+<p>The activities of Lojban speakers are mostly via the <a href="/wiki/Internet" title="Internet">Internet</a>:</p>
+<ul>
+<li><a href="http://www.lojban.org/" class="external text" rel="nofollow">Lojban.org</a>: A user-maintained site, attempting to reflect a cross section of the Lojban community outside of the LLG.</li>
+<li>Lojban IRC (irc.freenode.net #lojban): Based on the Freenode <a href="/wiki/IRC" title="IRC" class="mw-redirect">IRC</a> network. One may use a web interface as an alternative to IRC clients.</li>
+<li><a href="http://www.lojban.org/lsg2/" class="external text" rel="nofollow">Lojban Mailing List</a>: A beginner-oriented means to talk/learn about the language.</li>
+<li><a href="http://www.lojban.org/jbovlaste/" class="external text" rel="nofollow">jbovlaste</a>: An official, dictionary editing interface created by Jay Kominek, updated by Robin Lee Powell. People can post new Lojbanic words with definitions and examples, or vote for such experimental words.</li>
+<li><a href="http://jbobac.lojban.org/" class="external text" rel="nofollow">jbobac</a>: A web-based forum that has posts/threads made up mainly of sound files.</li>
+<li>samxarmuj/The Lojban Moo: A multi-user virtual environment, similar to the old text adventure games. A guide is given <a href="http://www.lojban.org/tiki/tiki-index.php?page=The+Lojban+MOO&amp;bl" class="external text" rel="nofollow">here</a>.</li>
+<li><a href="http://community.livejournal.com/lojban" class="external text" rel="nofollow">le jbopre pe lj's Journal</a>: A communal Lojban blog.</li>
+<li><a href="http://tech.groups.yahoo.com/group/lojban-valsi/" class="external text" rel="nofollow">lojban-valsi</a>: A-word-a-day mailing list on the Yahoo! Groups.</li>
+<li><a href="http://jbotcan.org" class="external text" rel="nofollow">jbotcan.org</a>: A community in which people may practice their Lojban, ask questions, propose Lojban-related ideas, etc.</li>
+<li><a href="http://jbo.wikipedia.org/wiki/Main_Page" class="extiw" title="jbo:Main Page">uikipedias</a>: The Lojban Wikipedia, where discussions may be conversed in English.</li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=18" title="Edit section: The Logfest">edit</a>]</span> <span class="mw-headline" id="The_Logfest">The Logfest</span></h3>
+<p>Gatherings of Lojbanists have been organized in USA annually since as early as 1990, called Logfest. It is mostly informal, taking place on a weekend, with the only scheduled activity being the annual meeting of the LLG. Those who cannot be present may still be involved via IRC. Activities may be whatever the attendees want to do: Lojban conversation, lessons, technical discussions, or socializing.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=19" title="Edit section: Population">edit</a>]</span> <span class="mw-headline" id="Population">Population</span></h3>
+<p>The total number of Lojban speakers is unknown.</p>
+<p>According to Lojban.org,<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>17<span>]</span></a></sup> places known to have concentration of Lojbanists are:</p>
+<ul>
+<li>Australia, Israel, United States</li>
+</ul>
+<p>Also Frappr.com shows<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>18<span>]</span></a></sup> that, as of August 2007, some people from the following countries are interested in or enthusiasts of the language:</p>
+<ul>
+<li>Argentina, Canada, China, Estonia, France, Germany, Ireland, Mexico, The Netherlands, New Zealand, Norway, Russia, Thailand, Ukraine, United Kingdom, Venezuela.</li>
+</ul>
+<p>It is generally noticed that there is little participation from Hindi-speaking people, in spite of the etymological nature of Lojban vocabulary.</p>
+<p>Below are some of the notable personalities who have contributed to the development of Lojban:</p>
+<ul>
+<li>Bob LeChevalier (aka <i>lojbab</i>): the president of the LLG<sup id="cite_ref-LLG_Members_20-0" class="reference"><a href="#cite_note-LLG_Members-20"><span>[</span>19<span>]</span></a></sup>.</li>
+<li>John Cowan: the author of <i>The Complete Lojban Language</i>.</li>
+<li>Jorge Llambías (aka <i>xorxes</i>): one of the most active Lojbanists, having done several translations. He is also a prominent figure on the mailing list, helping beginners with the language.</li>
+<li>Matt Arnold (aka <i>epkat</i>): one of the most active Lojbanists. He has been contributing to the translation project and software development.</li>
+<li>Nick Nicholas (aka <i>nitcion</i>): an Australian linguist. He is the first fluent Lojban speaker (although he insists that he was the second; he is known to be excessively modest). He has done Lojbanic writing, including <i>Lojban For Beginners</i> coauthored by Robin Turner.</li>
+<li>Robin Lee Powell (aka <i>camgusmis</i>): the current webmaster of Lojban.org. He provides the machine and bandwidth from which the site is served. He has also written several Lojbanic materials including a novel-sized story.</li>
+<li>Robin Turner: a British philosopher and linguist living in Turkey. He is the coauthor of <i>Lojban For Beginners</i>.</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=20" title="Edit section: Comparison with other logical languages">edit</a>]</span> <span class="mw-headline" id="Comparison_with_other_logical_languages">Comparison with other logical languages</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=21" title="Edit section: Loglan">edit</a>]</span> <span class="mw-headline" id="Loglan">Loglan</span></h3>
+<p><a href="/wiki/Loglan" title="Loglan">Loglan</a> is now a generic term that refers both to <a href="/wiki/James_Cooke_Brown" title="James Cooke Brown">James Cooke Brown</a>'s <i>Loglan</i>, and all languages descended from it. Since the organization that Dr. Brown established, The Loglan Institute (TLI), still calls its language <i>Loglan</i>, it is necessary to state that this section refers specifically to the TLI language, instead of the entire family of languages.</p>
+<p>The principal difference between Lojban and Loglan is one of lexicon. A Washington DC splinter group, which later formed The Logical Language Group, LLG, decided in 1986 to remake the entire vocabulary of Loglan in order to evade Dr. Brown's claim of copyright to the language. After a lengthy battle in court, his claim to copyright was ruled invalid. But by then, the new vocabulary was already cemented as a part of the new language, which was called <i>Lojban: A realization of Loglan</i> by its supporters.</p>
+<p>The closed set of five-letter words was the first part of the vocabulary to be remade. The words for Lojban were made by the same principles as those for Loglan; that is, candidate forms were chosen according to how many sounds they had in common with their equivalent in some of the most commonly spoken languages on Earth, which was then multiplied by the number of speakers of the languages with which the words had letters in common. The difference with the Lojban remake of the root words was that the weighting was updated to reflect more recent numbers of speakers for the languages. This resulted in word forms that had fewer sounds taken from English, and more sounds taken from Chinese. For instance, the Loglan word <i>norma</i> is equivalent to the Lojban word <i>cnano</i> (cf. <a href="/wiki/Chinese_language" title="Chinese language">Chinese</a> 常, <a href="/wiki/Pinyin" title="Pinyin">pinyin</a> <i>cháng</i>), both meaning "normal".</p>
+<p>Grammatical words were gradually added to Lojban as the grammatical description of the language was made.</p>
+<p>Loglan and Lojban still have essentially the same grammars, and most of what is said in the <a href="#Grammar">Grammar</a> section above holds true for Loglan as well. Most simple, declarative sentences could be translated word by word between the two languages; but the grammars differ in the details, and in their formal foundations. The grammar of Lojban is defined mostly in the language definition formalism <a href="/wiki/YACC" title="YACC" class="mw-redirect">YACC</a>, with a few formal "pre-processing" rules. Loglan also has a machine grammar, but it is not definitive; it is based on a relatively small corpus of sentences that has remained unchanged through the decades, which takes precedence in case of a discrepancy.</p>
+<p>There are also many differences in the terminology used in English to talk about the two languages. In his writings, Brown used many terms based on English, Latin and Greek, some of which were already established with a slightly different meaning. On the other hand, the Lojban camp freely borrowed grammatical terms from Lojban itself. For example, what linguists call <i>roots</i> or <i><a href="/wiki/Root_word" title="Root word" class="mw-redirect">root words</a></i>, Loglanists call <i>primitives</i> or <i>prims</i>, and Lojbanists call <i>gismu</i>. The <i>lexeme</i> of Loglan and <i>selma'o</i> of Lojban have nothing to do with the <a href="/wiki/Linguistic_meaning" title="Linguistic meaning" class="mw-redirect">linguistic meaning</a> of <i><a href="/wiki/Lexeme" title="Lexeme">lexeme</a></i>. It is a kind of <a href="/wiki/Part_of_speech" title="Part of speech">part of speech</a>, a subdivision of the set of grammatical words, or particles, which loglanists call <i>little words</i> and lojbanists <i>cmavo</i>. Loglan and Lojban have a grammatical construct called <i>metaphor</i> and <i>tanru</i>, respectively; this is not really a <a href="/wiki/Metaphor" title="Metaphor">metaphor</a>, but a kind of modifier-modificand relationship, similar to that of a <a href="/wiki/Noun_adjunct" title="Noun adjunct">noun adjunct</a> and noun. A borrowed word in Loglan is simply called a <i>borrowing</i>; but in English discussions of Lojban, the Lojban word <i>fu'ivla</i> is used. This is probably because in Lojban, unlike Loglan, a certain set of CV templates is reserved for borrowed words.</p>
+<p>In the new phonology for Lojban, the consonant <i>q</i> and the vowel <i>w</i> were removed, and the consonant <i>h</i> was replaced by <i>x</i>. The consonant ' (<a href="/wiki/Apostrophe" title="Apostrophe">apostrophe</a>) was added with the value of [h] in the <a href="/wiki/International_Phonetic_Alphabet" title="International Phonetic Alphabet">International Phonetic Alphabet</a>, but its distribution is such that it can appear only intervocally, and in discussions of the morphology and phonotactics, it is described not as a proper consonant, but a "voiceless glide". (This phoneme is realized as [θ] by some speakers.) A rigid <a href="/wiki/Phonotactics" title="Phonotactics">phonotactical</a> system was made for Lojban, but Loglan does not seem to have had such a system.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=22" title="Edit section: Lojsk">edit</a>]</span> <span class="mw-headline" id="Lojsk">Lojsk</span></h3>
+<p><a href="/w/index.php?title=Lojsk&amp;action=edit&amp;redlink=1" class="new" title="Lojsk (page does not exist)">Lojsk</a> was conceived by Ari Reyes, heavily influenced by Loglan, Lojban, <a href="/wiki/Universal_Networking_Language" title="Universal Networking Language">Universal Networking Language</a> (UNL), <a href="/wiki/Esperanto" title="Esperanto">Esperanto</a>, <a href="/wiki/Visual_Basic" title="Visual Basic">Visual Basic</a>, <a href="/wiki/Dutton%27s_Speedwords" title="Dutton's Speedwords" class="mw-redirect">Dutton's Speedwords</a>, <a href="/w/index.php?title=Ceqli&amp;action=edit&amp;redlink=1" class="new" title="Ceqli (page does not exist)">Ceqli</a> and Gua\spi. It is designed to be more single-syllable oriented. If possible, that would nonetheless lead Lojsk to be more sensitive to noisy environments than Lojban is, therefore its practicality in oral communication may be questioned.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=23" title="Edit section: Voksigid">edit</a>]</span> <span class="mw-headline" id="Voksigid">Voksigid</span></h3>
+<p><a href="/w/index.php?title=Voksigid&amp;action=edit&amp;redlink=1" class="new" title="Voksigid (page does not exist)">Voksigid</a><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>20<span>]</span></a></sup>, created by an Internet working group led by Bruce R. Gilson, attempts to construct a predicate language of a different type from those which had gone before. Its syntax was somewhat influenced by Japanese, and its vocabulary was based mostly on European language roots. Loglan and Lojban both use word order to mark the various places in the predication, but because remembering which position means which role in the predication might be beyond easy memorization for most people, Voksigid was designed in order to overcome this issue. It uses an extensive set of very semantically specific prepositions to mark the roles of verb arguments, instead of positional order as in Loglan and Lojban.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=24" title="Edit section: Gua\spi">edit</a>]</span> <span class="mw-headline" id="Gua.5Cspi">Gua\spi</span></h3>
+<p><a href="/w/index.php?title=Gua%5Cspi&amp;action=edit&amp;redlink=1" class="new" title="Gua\spi (page does not exist)">Gua\spi</a> is a descendent of Lojban and Loglan which uses Chinese-like tones to mark grammatical structure, developed by Jim Carter. By using tones instead of structure words, and cutting predicates from two to one syllable, Carter has fixed a minor flaw in Gua\spi's predecessors&#160;– they take a lot of syllables to say things, albeit at the expense of adding tone, which is a far from universal language trait.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=25" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> New York Times, the. <a href="http://schott.blogs.nytimes.com/2010/03/10/questions-answered-invented-languages/" class="external text" rel="nofollow">Questions Answered: Invented Languages</a></li>
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> Cowan, John. <a href="http://www.lojban.org/tiki/tiki-download_wiki_attachment.php?attId=185&amp;page=The+Lojban+Reference+Grammar#s11" class="external text" rel="nofollow">The Complete Lojban Language 13.11</a></li>
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> Johansen, Arnt Richard. <a href="http://arj.nvg.org/lojban/why-i-like.html" class="external text" rel="nofollow"><i>Why I like Lojban</i></a> (accessed August 2007)</li>
+<li id="cite_note-3"><b><a href="#cite_ref-3">^</a></b> Lojban.org <a href="http://www.lojban.org/tiki/tiki-index.php?page=Official+Baseline+Statement&amp;bl" class="external text" rel="nofollow"><i>Official Baseline Statement</i></a></li>
+<li id="cite_note-4"><b><a href="#cite_ref-4">^</a></b> Cowan, John. <a href="http://www.lojban.org/tiki/tiki-download_wiki_attachment.php?attId=185&amp;page=The+Lojban+Reference+Grammar" class="external text" rel="nofollow">The Complete Lojban Language 13.16</a></li>
+<li id="cite_note-5"><b><a href="#cite_ref-5">^</a></b> Lojban.org <a href="http://www.lojban.com/tiki/tiki-index.php?page=Official%20LLG%20Projects&amp;refresh=1&amp;fullscreen=y" class="external text" rel="nofollow">Official LLG Projects: Chrestomathy</a> (accessed August 2007)</li>
+<li id="cite_note-6"><b><a href="#cite_ref-6">^</a></b> Cortesi, David. <a href="http://nuzban.wiw.org/archive/9110/msg00109.html" class="external text" rel="nofollow">Lack of Geometry</a></li>
+<li id="cite_note-7"><b><a href="#cite_ref-7">^</a></b> Lojban.org <a href="http://www.lojban.com/tiki/tiki-index.php?page=Official%20LLG%20Projects&amp;refresh=1&amp;fullscreen=y" class="external text" rel="nofollow">Official LLG Projects</a> (accessed August 2007)</li>
+<li id="cite_note-8"><b><a href="#cite_ref-8">^</a></b> Lojban.org <a href="http://www.lojban.org/tiki/tiki-index.php?page=Word+Lists&amp;bl" class="external text" rel="nofollow">Word Lists</a> (accessed August 2007)</li>
+<li id="cite_note-13"><b><a href="#cite_ref-13">^</a></b> Kena. <a href="http://vodka-pomme.net/projects/tengwar-for-lojban/write#lojban" class="external text" rel="nofollow"><i>Vodka-Pomme: Considerations on wrinting: The case of lojban</i></a> (accessed August 2007)</li>
+<li id="cite_note-14"><b><a href="#cite_ref-14">^</a></b> Cowan, John Woldemar. <a href="http://www.lojban.org/tiki/tiki-download_wiki_attachment.php?attId=194&amp;page=The+Lojban+Reference+Grammar" class="external text" rel="nofollow"><i>The Complete Lojban Language: 4.1</i></a> (accessed August 2007)</li>
+<li id="cite_note-15"><b><a href="#cite_ref-15">^</a></b> Nicholas, Nick, and John Cowan. <a href="http://lojban.org/publications/level0/brochure/morphol.html" class="external text" rel="nofollow"><i>What is Lojban?: 2.2</i></a> (accessed August 2007)</li>
+<li id="cite_note-16"><b><a href="#cite_ref-16">^</a></b> Nicholas, Nick. John Cowan. <a href="http://lojban.org/publications/level0/brochure/grammar.html" class="external text" rel="nofollow"><i>What Is Lojban? II.3</i></a></li>
+<li id="cite_note-17"><b><a href="#cite_ref-17">^</a></b> <a href="http://www.lojban.org/files/texts/northwind" class="external free" rel="nofollow">http://www.lojban.org/files/texts/northwind</a></li>
+<li id="cite_note-18"><b><a href="#cite_ref-18">^</a></b> Lojban.org <a href="http://www.lojban.org/eo/resources/community" class="external text" rel="nofollow"><i>The Lojban Online Community</i></a>. 2005</li>
+<li id="cite_note-19"><b><a href="#cite_ref-19">^</a></b> Frappr.com <a href="http://www.frappr.com/lojban" class="external text" rel="nofollow"><i>Lojban</i></a> (accessed August 2007)</li>
+<li id="cite_note-LLG_Members-20"><b><a href="#cite_ref-LLG_Members_20-0">^</a></b> Lojban.org <a href="http://www.lojban.org/tiki/tiki-index.php?page=LLG+Members" class="external text" rel="nofollow"><i>LLG Members</i></a> (accessed August 2010)</li>
+<li id="cite_note-21"><b><a href="#cite_ref-21">^</a></b> <a href="http://ViewsOfLanguage.host56.com/voksigid/" class="external text" rel="nofollow">Bruce R. Gilson's Voksigid page</a></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=26" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Goertzel, Ben: Potential Computational Linguistics Resources for Lojban. Self-published, March 6, 2005. <a href="http://www.goertzel.org/new_research/lojban_AI.pdf" class="external autonumber" rel="nofollow">[1]</a></li>
+<li>Speer, Rob; Havasi, Catherine: Meeting the Computer Halfway: Language Processing in the Artificial Language Lojban. Massachusetts Institute of Technology, 2004. <a href="http://ling16.ling.su.se:8080/new_PubDB/doc_repository/236_this_is_a_pdf_with_an_extremely_long_filename_just_to_test_our_publication_database.pdf" class="external autonumber" rel="nofollow">[2]</a></li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=Lojban+vs+Loglan%3A+comparison" class="external text" rel="nofollow">Lojban vs Loglan comparison</a></li>
+<li><span class="citation web"><a href="http://www.tlg.uci.edu/~opoudjis/lojbanbrochure/lessons/less1attitude.html" class="external text" rel="nofollow">"Lojban with attitude!"</a>. <i>Lojban for Beginners</i><span class="printonly">. <a href="http://www.tlg.uci.edu/~opoudjis/lojbanbrochure/lessons/less1attitude.html" class="external free" rel="nofollow">http://www.tlg.uci.edu/~opoudjis/lojbanbrochure/lessons/less1attitude.html</a></span><span class="reference-accessdate">. Retrieved 29 June 2005</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=Lojban+with+attitude%21&amp;rft.atitle=Lojban+for+Beginners&amp;rft_id=http%3A%2F%2Fwww.tlg.uci.edu%2F%7Eopoudjis%2Flojbanbrochure%2Flessons%2Fless1attitude.html&amp;rfr_id=info:sid/en.wikipedia.org:Lojban"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=27" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata plainlinks ambox ambox-style" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style="">This article's use of <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a> <b>may not follow Wikipedia's <a href="/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_mirror_or_a_repository_of_links.2C_images.2C_or_media_files" title="Wikipedia:What Wikipedia is not">policies</a> or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">guidelines</a></b>. Please <a href="http://en.wikipedia.org/w/index.php?title=Lojban&amp;action=edit" class="external text" rel="nofollow">improve this article</a> by removing excessive and inappropriate external links. <small><i>(November 2010)</i></small></td>
+</tr>
+</table>
+<div class="infobox sisterproject">
+<div class="floatleft"><a href="/wiki/File:Incubator-notext.svg" class="image" title="Wikimedia Incubator"><img alt="Wikimedia Incubator" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Incubator-notext.svg/40px-Incubator-notext.svg.png" width="40" height="50" /></a></div>
+<div style="margin-left: 60px;"><i><b><a href="http://incubator.wikimedia.org/wiki/Wp/jbo" class="extiw" title="incubator:Wp/jbo">Lojban test</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a> at <a href="http://meta.wikimedia.org/wiki/Wikimedia_Incubator" class="extiw" title="meta:Wikimedia Incubator">Wikimedia Incubator</a></div>
+</div>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/40px-Wikipedia-logo.png" width="40" height="40" /></td>
+<td class="mbox-text" style=""><i><b><a href="http://jbo.wikipedia.org/wiki/" class="extiw" title="jbo:">Lojban edition</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a>, the free encyclopedia</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" /></td>
+<td class="mbox-text" style="">Wikibooks has more on the topic of
+<div style="margin-left:10px;"><i><b><a href="http://en.wikibooks.org/wiki/Special:Search/Lojban" class="extiw" title="wikibooks:Special:Search/Lojban">Lojban</a></b></i></div>
+</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" /></td>
+<td class="mbox-text" style=""><i><b><a href="http://en.wiktionary.org/wiki/jbo:Main_Page" class="extiw" title="wikt:jbo:Main Page">Lojban edition</a></b></i> of <a href="/wiki/Wiktionary" title="Wiktionary">Wiktionary</a>, the free dictionary/thesaurus</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" /></td>
+<td class="mbox-text" style="">Look up <i><b><a href="http://en.wiktionary.org/wiki/Lojban" class="extiw" title="wiktionary:Lojban">Lojban</a></b></i> in <a href="/wiki/Wiktionary" title="Wiktionary">Wiktionary</a>, the free dictionary.</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" /></td>
+<td class="mbox-text" style="">Look up <i><b><a href="http://en.wiktionary.org/wiki/Category:Lojban_language" class="extiw" title="wiktionary:Category:Lojban language">Category:Lojban language</a></b></i> in <a href="/wiki/Wiktionary" title="Wiktionary">Wiktionary</a>, the free dictionary.</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=28" title="Edit section: General">edit</a>]</span> <span class="mw-headline" id="General">General</span></h3>
+<ul>
+<li><a href="http://www.lojban.org" class="external text" rel="nofollow">Lojban.org</a></li>
+<li><a href="http://community.livejournal.com/lojban/" class="external text" rel="nofollow">le jbopre pe lj's Journal</a></li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=29" title="Edit section: Personal blogs">edit</a>]</span> <span class="mw-headline" id="Personal_blogs">Personal blogs</span></h3>
+<ul>
+<li><a href="http://lambda.mit.edu/jboselfinti/" class="external text" rel="nofollow">lo cunso selpeisku</a></li>
+<li><a href="http://camgusmis.livejournal.com/" class="external text" rel="nofollow">le karni be fi la camgusmis</a> by Robin Lee Powell</li>
+<li><a href="http://www.nemorathwald.com/node/29" class="external text" rel="nofollow">C.I.T.O.K.A.T.E.</a> by Matt Arnold (direct link to his Lojbanic contents)</li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=30" title="Edit section: Learning courses/resources">edit</a>]</span> <span class="mw-headline" id="Learning_courses.2Fresources">Learning courses/resources</span></h3>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=31" title="Edit section: Beginner">edit</a>]</span> <span class="mw-headline" id="Beginner">Beginner</span></h4>
+<ul>
+<li><a href="http://www.coirodo.com/english/ctuca/01.html" class="external text" rel="nofollow">Conversational Lojban</a></li>
+<li><a href="http://neptune.spaceports.com/~words/lojban.html" class="external text" rel="nofollow">Lojban: A Logical Language</a> by Robin Turner</li>
+<li><a href="http://lojban.org/publications/level0/brochure/book1.html" class="external text" rel="nofollow">What is Lojban?</a> by John Cowan and Nick Nicholas</li>
+<li><a href="http://www.tlg.uci.edu/~opoudjis/lojbanbrochure/lessons/book1.html" class="external text" rel="nofollow">Lojban For Beginners</a> by Robin Turner and Nick Nicholas</li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=Everyday+Lojban+B01&amp;bl" class="external text" rel="nofollow">Everyday Lojban</a> by Lojban.org</li>
+<li><a href="http://www.lojban.org/jboski/" class="external text" rel="nofollow">jboski</a>: an online Lojban-to-English translator by LLG</li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=PARALLEL+2&amp;bl" class="external text" rel="nofollow">Parallel 2</a>: a free program for parallel reading and listening, based on the <a href="/wiki/Implicit_learning" title="Implicit learning">implicit learning approach</a></li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=jMemorize+instructions&amp;bl" class="external text" rel="nofollow">jMemorize</a>:</li>
+<li><a href="http://www.digitalkingdom.org/~bjoern/Popup/" class="external text" rel="nofollow">Popup.app</a>: a GNUstep based vocabulary learning tool that can use cmafi'e to extract the vocabulary from a given text.</li>
+<li><a href="http://quizlet.com/group/152/" class="external text" rel="nofollow">Quizlet</a>:</li>
+<li><a href="http://wakelift.de/cgi-bin/lojban_number.py" class="external text" rel="nofollow">Lojbanic Number Trainer</a>: a simple web tool</li>
+<li><a href="http://xahlee.org/lojban/lojban.html" class="external text" rel="nofollow">Xah's Logical Language Page</a>: A brief introduction + some word categories</li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=Software+assisted+learning&amp;bl" class="external text" rel="nofollow">Software Assisted Learning</a>: miscellaneous software listed on Lojban.org</li>
+<li><a href="http://jbo.wikipedia.org/wiki/pixra_liste_loi_gismu" class="extiw" title="jbo:pixra liste loi gismu">Basic Lojban picture wordlist</a>: a list of picturable gismu on the Lojban Wikipedia</li>
+<li><a href="http://tatoeba.org/eng/sentences/show_all_in/jbo/und/none/indifferent" class="external text" rel="nofollow">Tatoeba.org's List of Lojban Sentences with Translations</a></li>
+</ul>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=32" title="Edit section: Advanced">edit</a>]</span> <span class="mw-headline" id="Advanced">Advanced</span></h4>
+<ul>
+<li><a href="http://www.lojban.org/publications/wordlists/gismu.txt" class="external text" rel="nofollow">gimste</a>: a full list of Lojban gismu</li>
+<li><a href="http://www.lojban.org/publications/brochures/lojex.txt" class="external text" rel="nofollow">Diagrammed Summary of Lojban Grammar Forms with Example Sentences</a> by LLG</li>
+<li><a href="http://www.lojban.org/tiki/tiki-download_wiki_attachment.php?attId=198&amp;page=The+Lojban+Reference+Grammar" class="external text" rel="nofollow">The Lojban Reference Grammar</a> by John Cowan</li>
+<li><a href="http://www.lojban.org/tiki/tiki-download_wiki_attachment.php?attId=89" class="external text" rel="nofollow">The Level 0 Booklet</a></li>
+<li><a href="http://www.ibm.com/developerworks/rational/library/2740.html" class="external text" rel="nofollow">Using UML to understand Lojban</a></li>
+<li><a href="http://www.lojban.org/jbovlaste/" class="external text" rel="nofollow">jbovlaste</a>: an official Lojban dictionary project</li>
+<li><a href="http://jbo.wikipedia.org/wiki/" class="extiw" title="jbo:">The Lojban Wikipedia</a></li>
+</ul>
+<h4><span class="editsection">[<a href="/w/index.php?title=Lojban&amp;action=edit&amp;section=33" title="Edit section: Poetry">edit</a>]</span> <span class="mw-headline" id="Poetry">Poetry</span></h4>
+<ul>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=xirli%27u+selsanga&amp;bl" class="external text" rel="nofollow">xirli'u selsanga</a>: a poem by Federico Garca Lorca, translated by xorxes</li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=skanunydji&amp;bl" class="external text" rel="nofollow">skanunydji</a>: by Michael Helsem</li>
+<li><a href="http://www.lojban.org/tiki/tiki-index.php?page=sipna+pemci&amp;bl" class="external text" rel="nofollow">sipna pemci</a>: by Arnt Richard Johansen</li>
+<li><a href="http://www.fa-kuan.muc.de/LOJBAN.RXML" class="external text" rel="nofollow">Lojban Poetry - Tengwar script</a>: by .aulun.</li>
+<li><a href="http://www.fa-kuan.muc.de/HAIKU.RXML" class="external text" rel="nofollow">Lojban Haikus - Hiragana script</a>: by xorxes. &amp; .aulun.</li>
+<li><a href="http://www.fa-kuan.muc.de/HAIKU2.RXML" class="external text" rel="nofollow">Lojban Haikus - Hiragana script</a>: by .aulun.</li>
+<li><a href="http://www.fa-kuan.muc.de/GOETHE.RXML" class="external text" rel="nofollow">Goethe: nicte selsa'a be le dzuli'u</a>: by .aulun.</li>
+</ul>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Constructed_languages" title="Template:Constructed languages"><span style=";;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/wiki/Template_talk:Constructed_languages" title="Template talk:Constructed languages"><span style=";;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Constructed_languages&amp;action=edit" class="external text" rel="nofollow"><span style=";;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/File:Conlangflag.svg" class="image"><img alt="Conlangflag.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Conlangflag.svg/25px-Conlangflag.svg.png" width="25" height="15" /></a> <a href="/wiki/Constructed_language" title="Constructed language">Constructed languages</a> (conlangs)</span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;">Types and concepts</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Artistic_language" title="Artistic language">Artistic language (artlang)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Constructed_language" title="Constructed language">Constructed language (conlang)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Constructed_script" title="Constructed script">Constructed script</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Engineered_language" title="Engineered language">Engineered language (engelang)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Fictional_language" title="Fictional language">Fictional language</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/International_auxiliary_language" title="International auxiliary language">International auxiliary language (IAL)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Language_game" title="Language game">Language game</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Musical_language" title="Musical language">Musical language</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Relexification" title="Relexification">Relexification</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Universal_language" title="Universal language">Universal language</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Zonal_constructed_language" title="Zonal constructed language">Zonal language</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;">Most notable conlangs</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Blissymbols" title="Blissymbols">Blissymbols</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Brithenig" title="Brithenig">Brithenig</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Damin" title="Damin">Damin</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Dothraki_language" title="Dothraki language">Dothraki</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Enochian" title="Enochian">Enochian</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Esperanto" title="Esperanto">Esperanto</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Glosa" title="Glosa">Glosa</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Ido" title="Ido">Ido</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Interlingua" title="Interlingua">Interlingua</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Ithkuil" title="Ithkuil">Ithkuil</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/K%C4%93len" title="Kēlen">Kēlen</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Klingon_language" title="Klingon language">Klingon</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/L%C3%A1adan" title="Láadan">Láadan</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Lingua_Franca_Nova" title="Lingua Franca Nova">Lingua Franca Nova</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Lingua_Ignota" title="Lingua Ignota">Lingua Ignota</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Loglan" title="Loglan">Loglan</a>&#160;<span style="font-weight:bold;">·</span>  <strong class="selflink">Lojban</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Na%27vi_language" title="Na'vi language">Na'vi</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Nadsat" title="Nadsat">Nadsat</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Novial" title="Novial">Novial</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Occidental_language" title="Occidental language">Occidental</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Quenya" title="Quenya">Quenya</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Ro_(artificial_language)" title="Ro (artificial language)">Ro</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Sambahsa" title="Sambahsa">Sambahsa</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Sindarin" title="Sindarin">Sindarin</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Slovianski" title="Slovianski">Slovianski</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Solresol" title="Solresol">Solresol</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Teonaht" title="Teonaht">Teonaht</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Toki_Pona" title="Toki Pona">Toki Pona</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Tsoly%C3%A1ni_language" title="Tsolyáni language">Tsolyáni</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Volap%C3%BCk" title="Volapük">Volapük</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;">Comparisons</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Comparison_between_Esperanto_and_Ido" title="Comparison between Esperanto and Ido">Esperanto vs. Ido</a> &#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Comparison_between_Esperanto_and_Interlingua" title="Comparison between Esperanto and Interlingua">Esperanto vs. Interlingua</a> &#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Comparison_between_Esperanto_and_Novial" title="Comparison between Esperanto and Novial">Esperanto vs. Novial</a> &#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Comparison_between_Ido_and_Interlingua" title="Comparison between Ido and Interlingua">Ido vs. Interlingua</a> &#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Comparison_between_Ido_and_Novial" title="Comparison between Ido and Novial">Ido vs. Novial</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";;">Resources</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/List_of_language_inventors" title="List of language inventors">Conlanger</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Conlang_X-SAMPA" title="Conlang X-SAMPA">Conlang X-SAMPA</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Langmaker" title="Langmaker">Langmaker</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Language_Creation_Conference" title="Language Creation Conference">Language Creation Conference</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Language_Creation_Society" title="Language Creation Society">Language Creation Society</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Chinese_whispers" title="Chinese whispers">Translation relay</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Zompist.com" title="Zompist.com">Zompist.com</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/List_of_constructed_languages" title="List of constructed languages">List of constructed languages</a></div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2"><a href="/wiki/Portal:Constructed_languages" title="Portal:Constructed languages">Portal</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Wikipedia:WikiProject_Constructed_languages" title="Wikipedia:WikiProject Constructed languages">WikiProject</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><span id="interwiki-de-ga"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 11373/1000000
+Post-expand include size: 75146/2048000 bytes
+Template argument size: 34977/2048000 bytes
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18933156-0!*!0!!en!4 and timestamp 20110529125035 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Lojban">http://en.wikipedia.org/wiki/Lojban</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Vocabulary" title="Category:Vocabulary">Vocabulary</a></span> | <span dir='ltr'><a href="/wiki/Category:Engineered_languages" title="Category:Engineered languages">Engineered languages</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_with_unsourced_statements_from_October_2009" title="Category:Articles with unsourced statements from October 2009">Articles with unsourced statements from October 2009</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_to_be_expanded_from_August_2007" title="Category:Articles to be expanded from August 2007">Articles to be expanded from August 2007</a></span> | <span dir='ltr'><a href="/wiki/Category:All_articles_to_be_expanded" title="Category:All articles to be expanded">All articles to be expanded</a></span> | <span dir='ltr'><a href="/wiki/Category:Wikipedia_external_links_cleanup_from_November_2010" title="Category:Wikipedia external links cleanup from November 2010">Wikipedia external links cleanup from November 2010</a></span> | <span dir='ltr'><a href="/wiki/Category:Wikipedia_spam_cleanup_from_November_2010" title="Category:Wikipedia spam cleanup from November 2010">Wikipedia spam cleanup from November 2010</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Lojban" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Lojban"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Lojban"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Lojban" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Lojban&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Lojban&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Lojban" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Lojban" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Lojban&amp;oldid=431479873" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Lojban&amp;id=431479873" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Lojban" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Lojban&amp;oldid=431479873&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Lojban&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-am"><a href="http://am.wikipedia.org/wiki/%E1%88%8E%E1%8B%A5%E1%89%A3%E1%8A%95" title="ሎዥባን">አማርኛ</a></li>
+					<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%84%D8%AC%D8%A8%D9%86" title="لجبن">العربية</a></li>
+					<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Lojban" title="Lojban">Aragonés</a></li>
+					<li class="interwiki-ba"><a href="http://ba.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%B1%D0%B0%D0%BD" title="Ложбан">Башҡортса</a></li>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Lojbaneg" title="Lojbaneg">Brezhoneg</a></li>
+					<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Lojban" title="Lojban">Català</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Lojban" title="Lojban">Česky</a></li>
+					<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Lojban" title="Lojban">Dansk</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Lojban" title="Lojban">Deutsch</a></li>
+					<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Lojban" title="Lojban">Eesti</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Lojban" title="Lojban">Español</a></li>
+					<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Lo%C4%B5bano" title="Loĵbano">Esperanto</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Lojban" title="Lojban">Français</a></li>
+					<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Lojban" title="Lojban">Galego</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EB%B0%98" title="로지반">한국어</a></li>
+					<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Lojban" title="Lojban">Ido</a></li>
+					<li class="interwiki-ia"><a href="http://ia.wikipedia.org/wiki/Lojban" title="Lojban">Interlingua</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lojban" title="Lojban">Italiano</a></li>
+					<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%96%27%D7%91%D7%90%D7%9F" title="לוז'באן">עברית</a></li>
+					<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Lojban" title="Lojban">Latina</a></li>
+					<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Lojban" title="Lojban">Lietuvių</a></li>
+					<li class="interwiki-jbo"><a href="http://jbo.wikipedia.org/wiki/lojban." title="lojban.">Lojban</a></li>
+					<li class="interwiki-mg"><a href="http://mg.wikipedia.org/wiki/Fiteny_lojban" title="Fiteny lojban">Malagasy</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Lojban" title="Lojban">Nederlands</a></li>
+					<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B8%E3%83%90%E3%83%B3" title="ロジバン">日本語</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Lojban" title="Lojban">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Lojban" title="Lojban">Novial</a></li>
+					<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Lojban" title="Lojban">Occitan</a></li>
+					<li class="interwiki-mhr"><a href="http://mhr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%B1%D0%B0%D0%BD" title="Ложбан">Олык Марий</a></li>
+					<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D9%86" title="لوجبان">پنجابی</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Lojban" title="Lojban">Polski</a></li>
+					<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Lojban" title="Lojban">Português</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%B1%D0%B0%D0%BD" title="Ложбан">Русский</a></li>
+					<li class="interwiki-stq"><a href="http://stq.wikipedia.org/wiki/Lojban" title="Lojban">Seeltersk</a></li>
+					<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Lojban" title="Lojban">Simple English</a></li>
+					<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%B1%D0%B0%D0%BD" title="Ложбан">Српски / Srpski</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Lojban" title="Lojban">Suomi</a></li>
+					<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Lojban" title="Lojban">Svenska</a></li>
+					<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%89%E0%AE%B2%E0%AF%8B%E0%AE%9A%E0%AF%81%E0%AE%AA%E0%AE%A9%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF" title="உலோசுபன் மொழி">தமிழ்</a></li>
+					<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%B1%D0%B0%D0%BD" title="Ложбан">Українська</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E8%AF%AD" title="逻辑语">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 29 May 2011 at 12:50.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Lojban", "wgTitle": "Lojban", "wgAction": "view", "wgArticleId": 18933156, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 431479873, "wgCategories": ["All articles with unsourced statements", "Articles with unsourced statements from October 2009", "Articles to be expanded from August 2007", "All articles to be expanded", "Wikipedia external links cleanup from November 2010", "Wikipedia spam cleanup from November 2010", "Vocabulary", "Engineered languages"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "24343181b9384dbf35628d804881039a", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv234 in 0.054 secs. -->			</body>
+</html>

@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Comanche language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Comanche_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Comanche_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Comanche_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Comanche_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Comanche language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: dodgerblue">Comanche</th>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; font-weight: bold; color: black; background-color: dodgerblue"><span lang="com-Latn" xml:lang="com-Latn"><span class="Unicode">Nʉmʉ tekwap<s><u>u</u></s></span></span></th>
+</tr>
+<tr>
+<th>Pronunciation</th>
+<td colspan="2"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ˈnɨmɨ ˈrekʷapɨ ̥]</span></td>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><a href="/wiki/United_States" title="United States">United States</a></td>
+</tr>
+<tr>
+<th>Region</th>
+<td colspan="2"><a href="/wiki/Oklahoma" title="Oklahoma">Oklahoma</a> (formerly, <a href="/wiki/Texas" title="Texas">Texas</a>, <a href="/wiki/New_Mexico" title="New Mexico">New Mexico</a>, <a href="/wiki/Kansas" title="Kansas">Kansas</a>, <a href="/wiki/Colorado" title="Colorado">Colorado</a>, <a href="/wiki/Oklahoma" title="Oklahoma">Oklahoma</a>)</td>
+</tr>
+<tr>
+<th>Total speakers</th>
+<td colspan="2">200</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Uto-Aztecan_languages" title="Uto-Aztecan languages">Uto-Aztecan</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Numic_languages" title="Numic languages">Numic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Central Numic
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Comanche</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: dodgerblue">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=com" class="extiw" title="iso639-3:com">com</a></tt></td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: middle; padding-top: 5px">
+<div class="center">
+<div class="floatnone"><a href="/wiki/File:Comanche_lang.png" class="image"><img alt="Comanche lang.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Comanche_lang.png/260px-Comanche_lang.png" width="260" height="169" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p><b>Comanche</b> (pronounced <span title="Pronunciation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="/wiki/Wikipedia:IPA_for_English" title="Wikipedia:IPA for English">/kəˈmæntʃiː/</a></span>) is a <a href="/wiki/Uto-Aztecan_languages" title="Uto-Aztecan languages">Uto-Aztecan language</a> spoken by the <a href="/wiki/Comanche_people" title="Comanche people" class="mw-redirect">Comanche people</a>, who split off from the <a href="/wiki/Shoshone" title="Shoshone" class="mw-redirect">Shoshone</a> soon after they acquired <a href="/wiki/Horses" title="Horses" class="mw-redirect">horses</a> in around 1705. The Comanche language and the <a href="/wiki/Shoshoni_language" title="Shoshoni language">Shoshoni language</a> are therefore quite similar, although certain low-level consonant changes in Comanche have inhibited mutual intelligibility.<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup></p>
+<p>The name "Comanche" comes from the <a href="/wiki/Ute_language" title="Ute language" class="mw-redirect">Ute</a> word <i><span lang="com-Latn" xml:lang="com-Latn">kɨmmantsi</span></i> meaning "enemy, stranger".<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup> Their own name for the language is <i><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">nʉmʉ tekwap<u>ʉ</u></span></i> which means "language of the people".<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>4<span>]</span></a></sup></p>
+<p>Although efforts are now being made to ensure its survival, most speakers of the language are elderly, and less than one percent of the Comanche people can speak the language. In the late 19th century, Comanche children were placed in boarding schools where they were discouraged from speaking their native language, and even severely punished for doing so. The second generation then grew up speaking English, because of the belief that it was better for them not to know Comanche.</p>
+<p>The Comanche language was briefly prominent during <a href="/wiki/World_War_II" title="World War II">World War II</a>. A group of seventeen young men referred to as the Comanche <a href="/wiki/Code_talker" title="Code talker">Code Talkers</a> were trained and used by the <a href="/wiki/United_States_Army" title="United States Army">U.S. Army</a> to send messages conveying sensitive information in the Comanche language so that it could not be deciphered by the enemy.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Phonology"><span class="tocnumber">1</span> <span class="toctext">Phonology</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Vowels"><span class="tocnumber">1.1</span> <span class="toctext">Vowels</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Consonants"><span class="tocnumber">1.2</span> <span class="toctext">Consonants</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Stress"><span class="tocnumber">1.3</span> <span class="toctext">Stress</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Phonological_Processes"><span class="tocnumber">1.4</span> <span class="toctext">Phonological Processes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Morphology"><span class="tocnumber">2</span> <span class="toctext">Morphology</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Nouns"><span class="tocnumber">2.1</span> <span class="toctext">Nouns</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Verbs"><span class="tocnumber">2.2</span> <span class="toctext">Verbs</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Instrumental_Prefixes"><span class="tocnumber">2.2.1</span> <span class="toctext">Instrumental Prefixes</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Syntax"><span class="tocnumber">3</span> <span class="toctext">Syntax</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Switch_Reference"><span class="tocnumber">3.1</span> <span class="toctext">Switch Reference</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Writing_system"><span class="tocnumber">4</span> <span class="toctext">Writing system</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Examples"><span class="tocnumber">5</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Bibliography"><span class="tocnumber">8</span> <span class="toctext">Bibliography</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=1" title="Edit section: Phonology">edit</a>]</span> <span class="mw-headline" id="Phonology">Phonology</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=2" title="Edit section: Vowels">edit</a>]</span> <span class="mw-headline" id="Vowels">Vowels</span></h3>
+<p>Comanche has a typical <a href="/wiki/Numic" title="Numic" class="mw-redirect">Numic</a> <a href="/wiki/Vowel" title="Vowel">vowel</a> inventory of six vowels. In addition, there is the common <a href="/wiki/Diphthong" title="Diphthong">diphthong</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ai/</span>. Historically, there was a certain amount of free variation between <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ai]</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[e]</span> (as shown by comparison with Shoshoni cognates), but the variation is no longer so common and most morphemes have become fixed on either <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ai/</span> or <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/e/</span>.<sup id="cite_ref-Charney1993_4-0" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup> In the following chart, the basic symbols given are in the <a href="/wiki/International_Phonetic_Alphabet" title="International Phonetic Alphabet">IPA</a>, whereas the equivalent symbols in the conventional orthography are given to the right of them, in parentheses and boldface. Note that Comanche also has <a href="/wiki/Voiceless" title="Voiceless">voiceless</a> vowels, but they are non-phonemic and therefore not represented in this chart. In the conventional orthography, these vowels are marked with an underline: <b><span class="Unicode">a̱, e̱, i̱, o̱, u̱, ʉ̱</span></b>.</p>
+<table class="wikitable">
+<tr>
+<th rowspan="2">&#160;</th>
+<th colspan="3">&#160;<a href="/wiki/Vowel_length" title="Vowel length">Short</a>&#160;</th>
+<th colspan="3">&#160;<a href="/wiki/Vowel_length" title="Vowel length">Long</a>&#160;</th>
+</tr>
+<tr>
+<th>&#160;<a href="/wiki/Front_vowel" title="Front vowel">Front</a>&#160;</th>
+<th>&#160;<a href="/wiki/Central_vowel" title="Central vowel">Central</a>&#160;</th>
+<th>&#160;<a href="/wiki/Back_vowel" title="Back vowel">Back</a>&#160;</th>
+<th>&#160;Front&#160;</th>
+<th>&#160;Central&#160;</th>
+<th>&#160;Back&#160;</th>
+</tr>
+<tr>
+<td>&#160;<b><a href="/wiki/High_vowel" title="High vowel" class="mw-redirect">High</a> (close)</b>&#160;</td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">i</span></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɨ</span> (<b>ʉ</b>)</td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">u</span></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">iː</span> (<b>ii</b>)</td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɨː</span> (<b>ʉʉ</b>)</td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">uː</span> (<b>uu</b>)</td>
+</tr>
+<tr>
+<td>&#160;<b><a href="/wiki/Mid_vowel" title="Mid vowel">Mid</a></b>&#160;</td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">e</span></td>
+<td align="center"></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">o</span></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">eː</span> (<b>ee</b>)</td>
+<td align="center"></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">oː</span> (<b>oo</b>)</td>
+</tr>
+<tr>
+<td>&#160;<b><a href="/wiki/Low_vowel" title="Low vowel" class="mw-redirect">Low</a> (open)</b>&#160;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">a</span></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">aː</span> (<b>aa</b>)</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=3" title="Edit section: Consonants">edit</a>]</span> <span class="mw-headline" id="Consonants">Consonants</span></h3>
+<p>Comanche has a typical <a href="/wiki/Numic" title="Numic" class="mw-redirect">Numic</a> <a href="/wiki/Consonant" title="Consonant">consonant</a> inventory.<sup id="cite_ref-Charney1993_4-1" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup> As with the vowel charts, the basic symbols given in this chart are in the <a href="/wiki/International_Phonetic_Alphabet" title="International Phonetic Alphabet">IPA</a>, whereas the equivalent symbols in the conventional orthography are given to the right of them in parentheses and boldface.</p>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th rowspan="2"></th>
+<th rowspan="2"><a href="/wiki/Labial_consonant" title="Labial consonant">Labial</a></th>
+<th rowspan="2"><a href="/wiki/Dental_consonant" title="Dental consonant">Dental</a></th>
+<th rowspan="2"><a href="/wiki/Palatal" title="Palatal" class="mw-redirect">Palatal</a></th>
+<th colspan="2"><a href="/wiki/Velar_consonant" title="Velar consonant">Velar</a></th>
+<th rowspan="2"><a href="/wiki/Glottal_consonant" title="Glottal consonant">Glottal</a></th>
+</tr>
+<tr>
+<th><small>plain</small></th>
+<th><small>labial</small></th>
+</tr>
+<tr class="IPA" align="center">
+<th><a href="/wiki/Nasal_consonant" title="Nasal consonant">Nasal</a></th>
+<td>m</td>
+<td>n</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="IPA" align="center">
+<th><a href="/wiki/Plosive_consonant" title="Plosive consonant" class="mw-redirect">Plosive</a></th>
+<td>p</td>
+<td>t</td>
+<td></td>
+<td>k</td>
+<td>kʷ (<b>kw</b>)</td>
+<td>ʔ</td>
+</tr>
+<tr class="IPA" align="center">
+<th><a href="/wiki/Affricate_consonant" title="Affricate consonant">Affricate</a></th>
+<td></td>
+<td>ts</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="IPA" align="center">
+<th><a href="/wiki/Fricative_consonant" title="Fricative consonant">Fricative</a></th>
+<td></td>
+<td>s</td>
+<td></td>
+<td></td>
+<td></td>
+<td>h</td>
+</tr>
+<tr class="IPA" align="center">
+<th><a href="/wiki/Approximant_consonant" title="Approximant consonant">Approximant</a></th>
+<td></td>
+<td></td>
+<td>j (<b>y</b>)</td>
+<td></td>
+<td>w</td>
+<td></td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=4" title="Edit section: Stress">edit</a>]</span> <span class="mw-headline" id="Stress">Stress</span></h3>
+<p>Comanche stress most commonly falls on the first syllable. Exceptions to this rule, such as in the words <i>Waʔsáasiʔ</i>, meaning '<a href="/wiki/Osage_Nation" title="Osage Nation">Osage people</a>', and <i>aná</i>, meaning 'ouch!', are marked with an acute accent.</p>
+<p>For the purpose of stress placement, the <a href="/wiki/Diphthong" title="Diphthong">diphthongs</a> /ai/, /oi/, and /ui/ act as one vowel with one <a href="/wiki/Mora_(linguistics)" title="Mora (linguistics)">mora</a>. Additionally, possessive pronouns, which serve as <a href="/wiki/Clitic" title="Clitic">proclitics</a>, do not affect the stress of a word (so that <i>nʉ + námi</i> 'my sister' retains its stress on the /a/ in <i>námi</i>).</p>
+<p><a href="/wiki/Secondary_stress" title="Secondary stress">Secondary stress</a> is placed on the second syllable of a two-syllable word, the third syllable of a word with three, four, or five syllables, and the fourth syllable of a word with six syllables.<sup id="cite_ref-Robinson_5-0" class="reference"><a href="#cite_note-Robinson-5"><span>[</span>6<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=5" title="Edit section: Phonological Processes">edit</a>]</span> <span class="mw-headline" id="Phonological_Processes">Phonological Processes</span></h3>
+<ul>
+<li><b><a href="/wiki/Free_variation" title="Free variation">Free Variation</a></b>: although not often reflected in the orthography, certain sounds occur in free variation. For instance, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/j/</span> can be pronounced as a <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[dʒ]</span> (for example: <i>ma yaa</i> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ma dʒaː]</span>), and a labialized <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/k/</span> can be voiced (as in <i>nʉ gwʉhʉ</i>: it is written <b>gw</b>, even though it is more accurately <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɡʷ/</span>, just as the labialized <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/k/</span> is written in Comanche as <b>kw</b> rather than <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/kʷ/</span>). In contemporary times, preaspiration and preglottalization may occur in free variation with a long vowel: <i>aakaaʔ</i> / <i>ahkaaʔ</i> ('devil's horn').</li>
+<li><b><a href="/wiki/Lenition" title="Lenition">Spirantization</a></b>: spirantization can occur in the phonemes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/p/</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/t/</span> when they are preceded by vowels. <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/p/</span> becomes the voiced bilabial fricative, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[β]</span>, usually written as a <b>b</b>, and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/t/</span> becomes the voiced alveolar tap, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɾ]</span>, written as an <b>r</b>. An intervening <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/h/</span> or <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ʔ/</span> does not block this spirantization process, as seen in <i>tuaʔbaʔa</i> 'on the son' (the sound <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[β]</span> is written here as <b>b</b>, and is <a href="/wiki/Allophone" title="Allophone">allophonic</a> with the Comanche <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/p/</span>). In the past, there was a process of nasalization in Comanche which has since been lost and which blocked spirantization; certain words that would otherwise exhibit spirantization in modern Comanche do not, therefore, as a result of the historical presence of what would have been a preceding nasal (<i>ʉ papi</i> 'your head' would historically have been <i>ʉn papi</i>).</li>
+<li><b><a href="/wiki/Metathesis_(linguistics)" title="Metathesis (linguistics)">Metathesis</a></b>: A fairly regular process of metathesis occurs, sporadically with voiceless consonants and regularly with voiced consonants. It is accompanied by the deletion of a vowel: <i>otʉnhʉh</i> -&gt; <i>orʉhʉ</i> -&gt; <i>ohrʉ</i> ('they', dual). In modern Comanche, voiceless, unaspirated stops followed by a long <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɨ/</span> (written <b>ʉ</b>) and an <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/h/</span> may be realized as aspirated equivalents at the expensive of the subsequent long vowel and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[h]</span>: <i><span class="Unicode">pitsipʉ̱ha</span></i> -&gt; <i>pitsipʰa</i> ('milk').</li>
+<li><b><a href="/wiki/Preaspiration" title="Preaspiration">Preaspiration</a> and <a href="/wiki/Glottalization#Glottal_reinforcement" title="Glottalization">Preglottalization</a></b>: Certain consonants undergo preaspiration word medially, namely, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/n/</span> and the voiceless, unaspirated stops <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/p/</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/t/</span>, and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/k/</span> (rendered in the IPA as <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʰn]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʰp]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʰt]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʰk]</span>, respectively). It is usually written with an <b>h</b> before the consonant, as in <i>aworahna</i> 'cupboard' or <i>ekasahpanaʔ</i> 'soldier'. Similarly, many of the same consonants can also undergo preglottalization, which is written with <b>ʔ</b> before the consonant (resulting in the digraphs <b>ʔn</b>, <b>ʔb</b>, <b>ʔw</b>, and <b>ʔr</b>), as in <i>hunuʔbiʔ</i> 'creek' or <i>taʔwoʔiʔ</i> 'gun'.</li>
+<li><b>Organic and Inorganic <a href="/wiki/Voiceless" title="Voiceless">Devoicing</a></b>: each Comanche vowel has an allophonic <a href="/wiki/Voiceless" title="Voiceless">voiceless</a> (or "whispered") equivalent. The devoicing process in Comanche follows a predictable pattern, and can be broken down into two categories - organic (compulsory) and inorganic (optional).
+<ul>
+<li>A vowel which precedes an /s/ or an /h/ undergoes induced <b>organic devoicing</b>, provided that the vowel is unstressed, <a href="/wiki/Vowel_length" title="Vowel length">short</a>, and not part of a cluster (contrast <i>sit<s><u>u</u></s>suʔa</i>, 'this one also', which undergoes organic devoicing, with the similar word <i>sit<s>u</s><s>u</s>suʔa</i>, 'these ones also', which does not because the vowel is not short). Two adjacent syllables cannot both have organic voiceless vowels. In such a situation, the second vowel does not devoice.</li>
+<li>The second type of devoicing that can occur in Comanche is <b>inorganic devoicing</b>. Short vowels that are not part of a cluster may be optionally devoiced at the end of a breath group, and this may apply even if the preceding vowel has undergone organic devoicing. Additionally, an inorganic, voiceless vowel conditions optional lengthening of a voiced penultimate vowel if there is no intervening <a href="/wiki/Preaspiration" title="Preaspiration">preaspirated</a> consonant (for example, <i><span class="Unicode">kaasa̲</span></i> 'wing' and <i><span class="Unicode">oomo̲</span></i> 'leg').<sup id="cite_ref-Robinson_5-1" class="reference"><a href="#cite_note-Robinson-5"><span>[</span>6<span>]</span></a></sup></li>
+</ul>
+</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=6" title="Edit section: Morphology">edit</a>]</span> <span class="mw-headline" id="Morphology">Morphology</span></h2>
+<p>Like many languages of the Americas, Comanche can be classified as a <a href="/wiki/Polysynthetic_language" title="Polysynthetic language">polysynthetic language</a>.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=7" title="Edit section: Nouns">edit</a>]</span> <span class="mw-headline" id="Nouns">Nouns</span></h3>
+<p>Comanche nouns are inflected for case and number, and the language possesses a <a href="/wiki/Dual_(grammatical_number)" title="Dual (grammatical number)">dual</a> number. Like many Uto-Aztecan languages, nouns may take an <a href="/wiki/Absolutive_case" title="Absolutive case">absolutive</a> suffix. Many cases are also marked using <a href="/wiki/Preposition_and_postposition" title="Preposition and postposition">postpositions</a>.</p>
+<p>Personal pronouns exist for three <a href="/wiki/Grammatical_number" title="Grammatical number">numbers</a> (singular, dual, and plural) and three <a href="/wiki/Grammatical_person" title="Grammatical person">persons</a>. They have different forms depending on whether or not they are the subject or object of a verb, possessive (including <a href="/wiki/Reflexive_pronoun" title="Reflexive pronoun">reflexive</a> possessive forms), or the object of a postposition. Like many <a href="/wiki/Indigenous_languages_of_the_Americas" title="Indigenous languages of the Americas">languages of the Americas</a>, Comanche first-person plural pronouns have both <a href="/wiki/Clusivity" title="Clusivity">inclusive and exclusive forms</a>.</p>
+<p>The Comanche paradigm for nominal number suffixes is illustrated below:</p>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th rowspan="1"></th>
+<th rowspan="1"><a href="/wiki/Nominative_case" title="Nominative case">Subject</a></th>
+<th rowspan="1"><a href="/wiki/Accusative_case" title="Accusative case">Object</a></th>
+<th rowspan="1"><a href="/wiki/Genitive_case" title="Genitive case">Possessive</a></th>
+</tr>
+<tr class="IPA" align="center">
+<th>Dual I</th>
+<td>-nʉkwʉh</td>
+<td>-nʉkwʉh-ha</td>
+<td>-nʉkwʉh-ha</td>
+</tr>
+<tr class="IPA" align="center">
+<th>Dual II</th>
+<td>-nʉhʉ</td>
+<td>-nihi</td>
+<td>-nʉhʉ</td>
+</tr>
+<tr class="IPA" align="center">
+<th>Plural</th>
+<td>-nʉʉ</td>
+<td>-nii</td>
+<td>-nʉʉ</td>
+</tr>
+</table>
+<dl>
+<dd><b>Notes:</b></dd>
+</dl>
+<ul>
+<li>The objective and possessive forms differ only in their final feature: <a href="/wiki/Fortis_and_lenis" title="Fortis and lenis">fortis</a> is applied at the end of the possessive suffixes.</li>
+<li>The two dual suffixes are not technically distinct and may be used interchangeably. However, the first of the two (Dual I) is preferred for humans.</li>
+<li>The absolutive suffix may be dropped before the addition of these suffixes.<sup id="cite_ref-Charney1993_4-2" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=8" title="Edit section: Verbs">edit</a>]</span> <span class="mw-headline" id="Verbs">Verbs</span></h3>
+<p>Many of the verb stems regularly are <a href="/wiki/Suppletion" title="Suppletion">suppletive</a>: <a href="/wiki/Intransitive_verb" title="Intransitive verb">intransitive verbs</a> are suppletive for <a href="/wiki/Grammatical_number#Singular_versus_plural" title="Grammatical number">singular versus plural</a> <a href="/wiki/Subject_(grammar)" title="Subject (grammar)">subject</a> and <a href="/wiki/Transitive_verbs" title="Transitive verbs" class="mw-redirect">transitive verbs</a> are suppletive for singular versus plural <a href="/wiki/Object_(grammar)" title="Object (grammar)">object</a>. Verbs can take various affixes, including <a href="/wiki/Incorporation_(linguistics)" title="Incorporation (linguistics)">incorporated</a> nouns before the stem. Most verb affixes are suffixes, except for voicing-changing prefixes and instrumental prefixes.<sup id="cite_ref-Charney1993_4-3" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Comanche_Affix_Order_Paradigm.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Comanche_Affix_Order_Paradigm.gif/220px-Comanche_Affix_Order_Paradigm.gif" width="220" height="51" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Comanche_Affix_Order_Paradigm.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<b>Note</b>: <i>-HU=(1)</i> is a particular affix which adds the meaning 'to accomplish a goal'</div>
+</div>
+</div>
+<p>The verb stem can take a number of prefixes and suffixes. A sketch of all the elements that may be affixed to the verb is given on the right:</p>
+<p>In addition to verbal affixes, Comanche verbs can also be augmented by other verbs. Although in principle Comanche verbs may be freely combined with other verbs, in actuality only a handful of verbs, termed <a href="/wiki/Auxiliary_verb" title="Auxiliary verb">auxiliary verbs</a>, are frequently combined with others. These forms take the full range of aspectual suffixes. Common auxiliary verbs in Comanche include <i>hani</i> 'to do, make', <i>naha</i> 'to be, become', <i>miʔa</i> 'to go', and <i>katʉ / yʉkwi</i> 'to sit'. An example of how the verbs combine: <i>katʉ</i> 'to sit' + <i>miʔa</i> 'to go' = <i>katʉmiʔa</i> <i>to ride (and go)</i>.</p>
+<h4><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=9" title="Edit section: Instrumental Prefixes">edit</a>]</span> <span class="mw-headline" id="Instrumental_Prefixes">Instrumental Prefixes</span></h4>
+<p>As mentioned above, Comanche has a rich repertoire of <a href="/wiki/Instrumental_case" title="Instrumental case">instrumental</a> prefixes, and certain verbs (termed instrumental verbs) cannot occur without an instrumental prefix. These prefixes can affect the transitivity of a verb. The Comanche instrumental prefixes are listed below:</p>
+<ul>
+<li><i>kʉh-</i> = 'with the teeth, chin, mouth'</li>
+<li><i>kuh-</i> = 'with heat, fire'</li>
+<li><i>ma-</i> = 'with the hand' and as a generalized instrumental</li>
+<li><i>mu-</i> / <i>muh</i> = 'with the nose, lips, front'</li>
+<li><i>nih-</i> = 'verbally'</li>
+<li><i>pih-</i> = 'with the buttocks, rear (e.g., of a car)'</li>
+<li><i>sʉ-</i> = 'with cold'; <a href="/wiki/Fortis_and_lenis" title="Fortis and lenis">fortis</a> is applied at the end of the prefix</li>
+<li><i>sʉh-</i> = 'with the foot, in a violent motion'</li>
+<li><i>su-</i> = 'with the mind, mental activity'; fortis is applied at the end of the prefix</li>
+<li><i>tah-</i> = 'with the foot'</li>
+<li><i>toh-</i> = 'with the hand, violent or completed action'</li>
+<li><i>tsah-</i> = 'with the hand (extended to hand tools)'</li>
+<li><i>tsih-</i> = 'with a sharp point, with the finger'</li>
+<li><i>tsox-</i> = 'with the head'</li>
+<li><i>kʉh-</i> = 'with the teeth, chin, mouth'</li>
+<li><i>wʉh-</i> = an all-purpose instrumental</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=10" title="Edit section: Syntax">edit</a>]</span> <span class="mw-headline" id="Syntax">Syntax</span></h2>
+<p>Comanche parts of speech include nouns, verbs, adjectives, adverbs, pronouns, and <a href="/wiki/Interjection" title="Interjection">interjections</a> (such as <i>haa</i> 'yes' and <i>kee</i> 'no'), as well as <a href="/wiki/Grammatical_particle" title="Grammatical particle">particles</a>.</p>
+<p>The <a href="/wiki/Word_order" title="Word order">word order</a> is <a href="/wiki/Subject_Object_Verb" title="Subject Object Verb">SOV</a>: Subject - Object - Verb. But while the standard word order in Comanche is SOV, it can shift in two specific circumstances. The <a href="/wiki/Topic-comment" title="Topic-comment" class="mw-redirect">topic</a> of a sentence, though marked with one of two particles, is often placed at the beginning of the sentence, defying the standard word order. Furthermore, the subject of a sentence is often placed second in a sentence. When the subject is also the topic, as is often the case, it ends up in the first position, preserving SOV word order; otherwise, the subject will be placed second. For example, the English sentence 'I hit the man' could be rendered in Comanche with the components in either of the following two orders: 'I' (topic) 'man' (object) 'hit' (an aspect marker) - the standard SOV word order - or 'man' (object and topic) 'I' 'hit' (an aspect marker) - an <a href="/wiki/Object_Subject_Verb" title="Object Subject Verb">OSV</a> word order, which accentuates the role of the man who was hit.<sup id="cite_ref-Charney1993_4-4" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=11" title="Edit section: Switch Reference">edit</a>]</span> <span class="mw-headline" id="Switch_Reference">Switch Reference</span></h3>
+<p>Like other Numic languages, Comanche has <a href="/wiki/Switch-reference" title="Switch-reference">switch-reference</a> markers to handle subordination.<sup id="cite_ref-Charney1993_4-5" class="reference"><a href="#cite_note-Charney1993-4"><span>[</span>5<span>]</span></a></sup> This refers to markers which indicate whether or not a subordinate verb has the same or different subject as the main verb, and in the case of Comanche, also the temporal relation between the two verbs.</p>
+<p>When the verb of a <a href="/wiki/Dependent_clause" title="Dependent clause">subordinate clause</a> has a different subject from the verb of the <a href="/wiki/Independent_clause" title="Independent clause">main clause</a>, and the time of the verbs is simultaneous, the subordinate verb is marked with <i>-ku</i>, and its subject is marked as if it were an object. When the time of the verbs is not simultaneous, the subordinate verb is marked with one of several affixes depending on the <a href="/wiki/Length_(phonetics)" title="Length (phonetics)">duration</a> of the subordinate verb and whether it refers to an action which occurred before that described by the main verb or one which occurred after.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=12" title="Edit section: Writing system">edit</a>]</span> <span class="mw-headline" id="Writing_system">Writing system</span></h2>
+<p>The Comanche Alphabet was developed by Dr. <a href="/w/index.php?title=Alice_Anderton&amp;action=edit&amp;redlink=1" class="new" title="Alice Anderton (page does not exist)">Alice Anderton</a>, a linguistic anthropologist, and was adopted as the official Comanche Alphabet by the <a href="/wiki/Comanche_Nation" title="Comanche Nation" class="mw-redirect">Comanche Nation</a> in 1994. The alphabet is as follows:</p>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+<th>Alphabet</th>
+<th>Pronunciation</th>
+</tr>
+<tr>
+<td>a</td>
+<td>/a/</td>
+<td>b</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[β]</span> /p/</td>
+<td>e</td>
+<td>/e/</td>
+<td>h</td>
+<td>/h/</td>
+<td>i</td>
+<td>/i/</td>
+<td>k</td>
+<td>/k/</td>
+</tr>
+<tr>
+<td>m</td>
+<td>/m/</td>
+<td>n</td>
+<td>/n/</td>
+<td>o</td>
+<td>/o/</td>
+<td>p</td>
+<td>[p] /p/</td>
+<td>r</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɾ]</span> /t/</td>
+<td>s</td>
+<td>/s/</td>
+</tr>
+<tr>
+<td>t</td>
+<td>[t] /t/</td>
+<td>u</td>
+<td>/u/</td>
+<td><span class="Unicode">ʉ</span></td>
+<td>/ə/</td>
+<td>w</td>
+<td>/w/</td>
+<td>y</td>
+<td>/j/</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʔ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ʔ/</span></td>
+</tr>
+</table>
+<dl>
+<dd><b>Notes:</b></dd>
+</dl>
+<ul>
+<li>Long vowels are indicated by doubling the vowel: <b>aa, ee, ii, oo, uu, ʉʉ</b>.</li>
+<li>Voiceless vowels are indicated by an underline: <b><span class="Unicode">a̱, e̱, i̱, o̱, u̱, ʉ̱</span></b>.</li>
+<li>When the stress does not fall on the first syllable of the word, it is marked with an acute accent <b>´</b>: <i><span lang="com-Latn" xml:lang="com-Latn">kʉtséena</span></i> 'coyote'.</li>
+<li>The glottal stop <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ʔ/</span> is sometimes written as <b>?</b>.</li>
+<li>The phonemes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ts/</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/kʷ/</span> are written as <b>ts</b> and <b>kw</b>, respectively.</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=13" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<p>The following are examples of words from the Comanche language. They are based primarily on <i>the Comanche Vocabulary: Trilingual Edition</i> by Manuel García Rejón (originally published in 1864). The orthography used here is not the official Comanche Alphabet, but is based on <a href="/wiki/Writing_system_of_Spanish" title="Writing system of Spanish" class="mw-redirect">Spanish orthography</a>. In it, doubled letters are long, and <b>h</b> is always sounded as in the English "hit", even in the middle of a word, as in "<span lang="com-Latn" xml:lang="com-Latn">cuhtz</span>" (<i>kuutsuu</i> 'buffalo'). An accent mark indicates stress on that syllable.</p>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th>English</th>
+<th>Comanche</th>
+<th>Official alphabet equivalent</th>
+</tr>
+<tr>
+<td>Boy</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tuinéhpua</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tuinʉpʉ</span></td>
+</tr>
+<tr>
+<td>Brother (Older)</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Bávi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">pabi</span> (<span lang="com-Latn" xml:lang="com-Latn">-babi</span> following vowel)</td>
+</tr>
+<tr>
+<td>Brother (Younger)</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Rámi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tami</span> (sometimes <span lang="com-Latn" xml:lang="com-Latn">-rami</span> following vowel)</td>
+</tr>
+<tr>
+<td>Buffalo</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Cuhtz</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">kuutsuu</span></td>
+</tr>
+<tr>
+<td>Corn</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Janib</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">hanipʉ</span></td>
+</tr>
+<tr>
+<td>Cougar</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Toyarohco</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">toyaruku</span></td>
+</tr>
+<tr>
+<td>Coyote</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tzensa</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tzsensa</span>&#160;? (usual modern term is <span lang="com-Latn" xml:lang="com-Latn">kʉtséena</span>)</td>
+</tr>
+<tr>
+<td>Cricket</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tuaahtaqui</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tuaahtaki</span></td>
+</tr>
+<tr>
+<td>Deer</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Areca</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">arʉka</span></td>
+</tr>
+<tr>
+<td>Dog</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Sarrie</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">sarii</span></td>
+</tr>
+<tr>
+<td>Father</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Ap</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">apʉ</span></td>
+</tr>
+<tr>
+<td>Fire</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Cuuna</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">kuuna</span></td>
+</tr>
+<tr>
+<td>Fish</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Pécui</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">pekwi</span></td>
+</tr>
+<tr>
+<td>Frog</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Pasauiyió</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">pasawʔóo</span></td>
+</tr>
+<tr>
+<td>Grass</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Sonip</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">sunipʉ</span></td>
+</tr>
+<tr>
+<td>Horse</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Puc</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">puuku</span></td>
+</tr>
+<tr>
+<td>House</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Caani</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">kahni</span></td>
+</tr>
+<tr>
+<td>Jerky (meat)</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Inap</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">inapʉ</span></td>
+</tr>
+<tr>
+<td>Moon</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Muea</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">mʉa</span></td>
+</tr>
+<tr>
+<td>Mother</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Pia</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">pia</span></td>
+</tr>
+<tr>
+<td>No</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Niatz</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">niats</span>&#160;?? (modern 'no' is <span lang="com-Latn" xml:lang="com-Latn">kee</span>)</td>
+</tr>
+<tr>
+<td>Owl</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Mupitz</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">mupitsʉ</span></td>
+</tr>
+<tr>
+<td>Rabbit</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tábo</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tabu</span></td>
+</tr>
+<tr>
+<td>Rain</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Emar</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">ʉmarʉ</span></td>
+</tr>
+<tr>
+<td>Rainbow</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Paracoa</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">paracoa</span></td>
+</tr>
+<tr>
+<td>River</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Piajunubi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">pia hunuubi</span></td>
+</tr>
+<tr>
+<td>Sister (Older)</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Batzi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">patsi</span> (<span lang="com-Latn" xml:lang="com-Latn">-batsi</span> following a vowel)</td>
+</tr>
+<tr>
+<td>Sister (Younger)</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Nami</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">nami</span></td>
+</tr>
+<tr>
+<td>Sky</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tomóbi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tomoobi</span></td>
+</tr>
+<tr>
+<td>Star</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Tatzinupi</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">tatsinupi</span></td>
+</tr>
+<tr>
+<td>Sun</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Taabe</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">taabe</span></td>
+</tr>
+<tr>
+<td>Water</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Paa</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">paa</span></td>
+</tr>
+<tr>
+<td>Yes</td>
+<td><span lang="com-Latn" xml:lang="com-Latn">Jaa</span></td>
+<td><span lang="com-Latn" xml:lang="com-Latn">haa</span></td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=14" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="/wiki/Comanche" title="Comanche">Comanche people</a></li>
+<li><a href="/wiki/Numic_languages" title="Numic languages">Numic languages</a></li>
+<li><a href="/wiki/Shoshoni_language" title="Shoshoni language">Shoshoni language</a></li>
+<li><a href="/wiki/Timbisha_language" title="Timbisha language">Timbisha language</a></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=15" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> <span class="citation Journal">McLaughlin, John (1992). "A Counter-Intuitive Solution in Central Numic Phonology". <i>International Journal of American Linguistics</i> <b>58</b> (2): 158–181.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A+Counter-Intuitive+Solution+in+Central+Numic+Phonology&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=McLaughlin&amp;rft.aufirst=John&amp;rft.au=McLaughlin%2C%26%2332%3BJohn&amp;rft.date=1992&amp;rft.volume=58&amp;rft.issue=2&amp;rft.pages=158%E2%80%93181&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <span class="citation book">McLaughlin, John E. (2000). "Language Boundaries and Phonological Borrowing in the Central Numic Languages". In Casad, Gene; Willett, Thomas. <i>Uto-Aztecan: Structural, Temporal, and Geographical Perspectives</i>. Salt Lake City: University of Utah Press. pp.&#160;293–304. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9706890300" title="Special:BookSources/9706890300">9706890300</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=Language+Boundaries+and+Phonological+Borrowing+in+the+Central+Numic+Languages&amp;rft.atitle=Uto-Aztecan%3A+Structural%2C+Temporal%2C+and+Geographical+Perspectives&amp;rft.aulast=McLaughlin&amp;rft.aufirst=John+E.&amp;rft.au=McLaughlin%2C%26%2332%3BJohn+E.&amp;rft.date=2000&amp;rft.pages=pp.%26nbsp%3B293%E2%80%93304&amp;rft.place=Salt+Lake+City&amp;rft.pub=University+of+Utah+Press&amp;rft.isbn=9706890300&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> Edward Sapir. 1931. <i>Southern Paiute Dictionary</i>. Reprinted in 1992 in: <i>The Collected Works of Edward Sapir, X, Southern Paiute and Ute Linguistics and Ethnography</i>. Ed. William Bright. Berlin: Mouton deGruyter.</li>
+<li id="cite_note-3"><b><a href="#cite_ref-3">^</a></b> Lila Wistrand Robinson &amp; James Armagost. 1990. <i>Comanche Dictionary and Grammar</i>. Summer Institute of Linguistics and The University of Texas at Arlington Publications in Linguistics Publication 92. Dallas, Texas: The Summer Institute of Linguistics and The University of Texas at Arlington.</li>
+<li id="cite_note-Charney1993-4">^ <a href="#cite_ref-Charney1993_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Charney1993_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Charney1993_4-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Charney1993_4-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-Charney1993_4-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-Charney1993_4-5"><sup><i><b>f</b></i></sup></a> <span class="citation book">Charney, Jean O. (1993). <i>A Grammar of Comanche</i>. Studies in the Anthropology of North American Indians. Lincoln, Nebraska: University of Nebraska Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0803214618" title="Special:BookSources/0803214618">0803214618</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Grammar+of+Comanche&amp;rft.aulast=Charney&amp;rft.aufirst=Jean+O.&amp;rft.au=Charney%2C%26%2332%3BJean+O.&amp;rft.date=1993&amp;rft.series=Studies+in+the+Anthropology+of+North+American+Indians&amp;rft.place=Lincoln%2C+Nebraska&amp;rft.pub=University+of+Nebraska+Press&amp;rft.isbn=0803214618&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li id="cite_note-Robinson-5">^ <a href="#cite_ref-Robinson_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Robinson_5-1"><sup><i><b>b</b></i></sup></a> <span class="citation book">Robinson, Lila Wistrand; James Armagost (1992). <i>Comanche Dictionary and Grammar</i>. Arlington, Texas: The Summer Institute of Linguistics, Inc.. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0883127156" title="Special:BookSources/0883127156">0883127156</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Comanche+Dictionary+and+Grammar&amp;rft.aulast=Robinson&amp;rft.aufirst=Lila+Wistrand&amp;rft.au=Robinson%2C%26%2332%3BLila+Wistrand&amp;rft.date=1992&amp;rft.place=Arlington%2C+Texas&amp;rft.pub=The+Summer+Institute+of+Linguistics%2C+Inc.&amp;rft.isbn=0883127156&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=16" title="Edit section: Bibliography">edit</a>]</span> <span class="mw-headline" id="Bibliography">Bibliography</span></h2>
+<ul>
+<li>Ager, Simon. Comanche (nʉmʉ tekwap<u>ʉ</u>). Internet: <a href="http://www.omniglot.com/writing/comanche.htm" class="external text" rel="nofollow">www.omniglot.com/writing/comanche.htm</a> October 14, 2005.</li>
+<li>Anderton, Alice. (1997). Kaawosa plays a trick on a soldier: A Comanche coyote story. In Jane Hill, P.J. Mistry, &amp; Lyle Campbell (Eds.), <i>The life of language: Papers in linguistics in honor of William Bright</i> (pp.&#160;243–255). Trends in linguistics: Studies and monographs (No. 108). Berlin: Mouton de Gruyter.</li>
+<li><span class="citation Journal">Armagost, James (1982). <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/3611" class="external text" rel="nofollow">"Comanche deictic roots in narrative texts"</a>. <i>Kansas Working Papers in Linguistics</i> <b>7</b>: 5–14<span class="printonly">. <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/3611" class="external free" rel="nofollow">https://kuscholarworks.ku.edu/dspace/handle/1808/3611</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+deictic+roots+in+narrative+texts&amp;rft.jtitle=Kansas+Working+Papers+in+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1982&amp;rft.volume=7&amp;rft.pages=5%E2%80%9314&amp;rft_id=https%3A%2F%2Fkuscholarworks.ku.edu%2Fdspace%2Fhandle%2F1808%2F3611&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1982). "The temporal relationship between telling and happening in Comanche narrative". <i>Anthropological Linguistics</i> <b>24</b>: 193–200.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=The+temporal+relationship+between+telling+and+happening+in+Comanche+narrative&amp;rft.jtitle=Anthropological+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1982&amp;rft.volume=24&amp;rft.pages=193%E2%80%93200&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1983). <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/477" class="external text" rel="nofollow">"Comanche narrative: Some general remarks and a selected text"</a>. <i>Kansas Working Papers in Linguistics</i> <b>8</b> (2): 1–30<span class="printonly">. <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/477" class="external free" rel="nofollow">https://kuscholarworks.ku.edu/dspace/handle/1808/477</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+narrative%3A+Some+general+remarks+and+a+selected+text&amp;rft.jtitle=Kansas+Working+Papers+in+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1983&amp;rft.volume=8&amp;rft.issue=2&amp;rft.pages=1%E2%80%9330&amp;rft_id=https%3A%2F%2Fkuscholarworks.ku.edu%2Fdspace%2Fhandle%2F1808%2F477&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1985). <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/499" class="external text" rel="nofollow">"On predicting voiceless vowels in Comanche"</a>. <i>Kansas Working Papers in Linguistics</i> <b>10</b> (2): 1–15<span class="printonly">. <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/499" class="external free" rel="nofollow">https://kuscholarworks.ku.edu/dspace/handle/1808/499</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=On+predicting+voiceless+vowels+in+Comanche&amp;rft.jtitle=Kansas+Working+Papers+in+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1985&amp;rft.volume=10&amp;rft.issue=2&amp;rft.pages=1%E2%80%9315&amp;rft_id=https%3A%2F%2Fkuscholarworks.ku.edu%2Fdspace%2Fhandle%2F1808%2F499&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1985). <a href="http://www.jstor.org/pss/1265433" class="external text" rel="nofollow">"Comanche <i>ma-</i>: Undistinguished deictic, narrative obviative"</a>. <i>International Journal of American Linguistics</i> <b>51</b>: 302–310. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F465874" class="external text" rel="nofollow">10.1086/465874</a><span class="printonly">. <a href="http://www.jstor.org/pss/1265433" class="external free" rel="nofollow">http://www.jstor.org/pss/1265433</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+%27%27ma-%27%27%3A+Undistinguished+deictic%2C+narrative+obviative&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1985&amp;rft.volume=51&amp;rft.pages=302%E2%80%93310&amp;rft_id=info:doi/10.1086%2F465874&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1265433&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1986). "Three exceptions to vowel devoicing in Comanche". <i>Anthropological Linguistics</i> <b>28</b>: 3.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Three+exceptions+to+vowel+devoicing+in+Comanche&amp;rft.jtitle=Anthropological+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1986&amp;rft.volume=28&amp;rft.pages=3&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Armagost, James (1990). <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/435" class="external text" rel="nofollow">"Interpreting St. Clair's Comanche texts: Objective case marking and the 'same subject' dependent clauses"</a>. <i>Kansas Working Papers in Linguistics</i> <b>15</b> (2): 1–17<span class="printonly">. <a href="https://kuscholarworks.ku.edu/dspace/handle/1808/435" class="external free" rel="nofollow">https://kuscholarworks.ku.edu/dspace/handle/1808/435</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Interpreting+St.+Clair%27s+Comanche+texts%3A+Objective+case+marking+and+the+%27same+subject%27+dependent+clauses&amp;rft.jtitle=Kansas+Working+Papers+in+Linguistics&amp;rft.aulast=Armagost%2C+James&amp;rft.au=Armagost%2C+James&amp;rft.date=1990&amp;rft.volume=15&amp;rft.issue=2&amp;rft.pages=1%E2%80%9317&amp;rft_id=https%3A%2F%2Fkuscholarworks.ku.edu%2Fdspace%2Fhandle%2F1808%2F435&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li>Bruce, Benjamin. "Mar<s>ú</s>awe!" Internet: <a href="http://hello-oklahoma.niwic.net/comanche.htm" class="external autonumber" rel="nofollow">[1]</a> October 14, 2005.</li>
+<li><span class="citation Journal">Canonge, Elliott D. (1957). <a href="http://www.jstor.org/pss/1264055" class="external text" rel="nofollow">"Voiceless vowels in Comanche"</a>. <i>International Journal of American Linguistics</i> <b>23</b>: 63–67. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464394" class="external text" rel="nofollow">10.1086/464394</a><span class="printonly">. <a href="http://www.jstor.org/pss/1264055" class="external free" rel="nofollow">http://www.jstor.org/pss/1264055</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Voiceless+vowels+in+Comanche&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Canonge%2C+Elliott+D.&amp;rft.au=Canonge%2C+Elliott+D.&amp;rft.date=1957&amp;rft.volume=23&amp;rft.pages=63%E2%80%9367&amp;rft_id=info:doi/10.1086%2F464394&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1264055&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li>Canonge, Elliott D. (1958). <i>Comanche texts</i>. Summer Institute of Linguistics publications in linguistics and related fields (No. 1). Norman, OK: Summer Institute of Linguistics of the University of Oklahoma.</li>
+<li><span class="citation Journal">Casagrande, Joseph (1948). <a href="http://www.jstor.org/pss/1263088" class="external text" rel="nofollow">"Comanche baby language"</a>. <i>International Journal of American Linguistics</i> <b>14</b>: 11–14. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F463971" class="external text" rel="nofollow">10.1086/463971</a><span class="printonly">. <a href="http://www.jstor.org/pss/1263088" class="external free" rel="nofollow">http://www.jstor.org/pss/1263088</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+baby+language&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Casagrande%2C+Joseph&amp;rft.au=Casagrande%2C+Joseph&amp;rft.date=1948&amp;rft.volume=14&amp;rft.pages=11%E2%80%9314&amp;rft_id=info:doi/10.1086%2F463971&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1263088&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Casagrande, Joseph B. (1954). <a href="http://www.jstor.org/pss/1263388" class="external text" rel="nofollow">"Comanche linguistic acculturation: I"</a>. <i>International Journal of American Linguistics</i> <b>20</b> (2): 140–151. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464267" class="external text" rel="nofollow">10.1086/464267</a><span class="printonly">. <a href="http://www.jstor.org/pss/1263388" class="external free" rel="nofollow">http://www.jstor.org/pss/1263388</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+linguistic+acculturation%3A+I&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Casagrande%2C+Joseph+B.&amp;rft.au=Casagrande%2C+Joseph+B.&amp;rft.date=1954&amp;rft.volume=20&amp;rft.issue=2&amp;rft.pages=140%E2%80%93151&amp;rft_id=info:doi/10.1086%2F464267&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1263388&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Casagrande, Joseph B. (1954). <a href="http://www.jstor.org/pss/1263347" class="external text" rel="nofollow">"Comanche linguistic acculturation: II"</a>. <i>International Journal of American Linguistics</i> <b>20</b> (3): 217–237. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464281" class="external text" rel="nofollow">10.1086/464281</a><span class="printonly">. <a href="http://www.jstor.org/pss/1263347" class="external free" rel="nofollow">http://www.jstor.org/pss/1263347</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+linguistic+acculturation%3A+II&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Casagrande%2C+Joseph+B.&amp;rft.au=Casagrande%2C+Joseph+B.&amp;rft.date=1954&amp;rft.volume=20&amp;rft.issue=3&amp;rft.pages=217%E2%80%93237&amp;rft_id=info:doi/10.1086%2F464281&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1263347&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Casagrande, Joseph B. (1955). <a href="http://www.jstor.org/pss/1263210" class="external text" rel="nofollow">"Comanche linguistic acculturation: III"</a>. <i>International Journal of American Linguistics</i> <b>21</b> (1): 8–25. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464304" class="external text" rel="nofollow">10.1086/464304</a><span class="printonly">. <a href="http://www.jstor.org/pss/1263210" class="external free" rel="nofollow">http://www.jstor.org/pss/1263210</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+linguistic+acculturation%3A+III&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Casagrande%2C+Joseph+B.&amp;rft.au=Casagrande%2C+Joseph+B.&amp;rft.date=1955&amp;rft.volume=21&amp;rft.issue=1&amp;rft.pages=8%E2%80%9325&amp;rft_id=info:doi/10.1086%2F464304&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1263210&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li>Charney, Jean Ormsbee, 1993. <i>A Grammar of Comanche.</i> London/Lincoln: University of Nebraska Press.</li>
+<li><span class="citation Journal">Hamp, Eric. (1958). <a href="http://www.jstor.org/pss/1263980" class="external text" rel="nofollow">"Prosodic notes: On Comanche voiceless vowels"</a>. <i>International Journal of American Linguistics</i> <b>24</b> (4): 321<span class="printonly">. <a href="http://www.jstor.org/pss/1263980" class="external free" rel="nofollow">http://www.jstor.org/pss/1263980</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Prosodic+notes%3A+On+Comanche+voiceless+vowels&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Hamp%2C+Eric.&amp;rft.au=Hamp%2C+Eric.&amp;rft.date=1958&amp;rft.volume=24&amp;rft.issue=4&amp;rft.pages=321&amp;rft_id=http%3A%2F%2Fwww.jstor.org%2Fpss%2F1263980&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li>Gordon, Raymond G., Jr. (ed.), 2005. <i>Ethnologue: Languages of the World</i>, Fifteenth edition. Dallas, Tex.: SIL International. Online version: <a href="http://www.ethnologue.com/" class="external autonumber" rel="nofollow">[2]</a>.</li>
+<li>The Language. Internet: <a href="http://www.comanchelanguage.org/" class="external text" rel="nofollow">www.comanchelanguage.org</a> October 22, 2005.</li>
+<li><span class="citation Journal">Osborn, Henry; &amp; Smalley, William (1949). "Formulae for Comanche stem and word formation". <i>International Journal of American Linguistics</i> <b>15</b>: 93–99. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464027" class="external text" rel="nofollow">10.1086/464027</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Formulae+for+Comanche+stem+and+word+formation&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Osborn%2C+Henry%3B+%26+Smalley%2C+William&amp;rft.au=Osborn%2C+Henry%3B+%26+Smalley%2C+William&amp;rft.date=1949&amp;rft.volume=15&amp;rft.pages=93%E2%80%9399&amp;rft_id=info:doi/10.1086%2F464027&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li>Rejón, Manuel García. (1864; reprint 1995). <i>Comanche vocabulary</i> (trilingual ed.). Gelo, Daniel J. (Ed.). Texas archaeology and ethnohistory series. Austin: University of Texas Press.</li>
+<li>Robinson, Lila Wistrand; &amp; Armagost, James. (1990). <i>Comanche dictionary and grammar</i>. Summer Institute of Linguistics and The University of Texas at Arlington publications in linguistics (No. 92). Dallas, Texas: The Summer Institute of Linguistics and The University of Texas at Arlington.</li>
+<li><span class="citation Journal">Smalley, William (1953). "Phonemic rhythm in Comanche". <i>International Journal of American Linguistics</i> <b>19</b> (4): 297–301. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464236" class="external text" rel="nofollow">10.1086/464236</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Phonemic+rhythm+in+Comanche&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Smalley&amp;rft.aufirst=William&amp;rft.au=Smalley%2C%26%2332%3BWilliam&amp;rft.date=1953&amp;rft.volume=19&amp;rft.issue=4&amp;rft.pages=297%E2%80%93301&amp;rft_id=info:doi/10.1086%2F464236&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation Journal">Troike, Rudolph C. (1956). "Comanche linguistic acculturation: A critique". <i>International Journal of American Linguistics</i> <b>22</b> (3): 213–215. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a href="http://dx.doi.org/10.1086%2F464370" class="external text" rel="nofollow">10.1086/464370</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Comanche+linguistic+acculturation%3A+A+critique&amp;rft.jtitle=International+Journal+of+American+Linguistics&amp;rft.aulast=Troike&amp;rft.aufirst=Rudolph+C.&amp;rft.au=Troike%2C%26%2332%3BRudolph+C.&amp;rft.date=1956&amp;rft.volume=22&amp;rft.issue=3&amp;rft.pages=213%E2%80%93215&amp;rft_id=info:doi/10.1086%2F464370&amp;rfr_id=info:sid/en.wikipedia.org:Comanche_language"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<p><br /></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Comanche_language&amp;action=edit&amp;section=17" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a href="http://llmap.org/languages/com/static_map.html" class="external text" rel="nofollow">Linguist List map of Comanche</a></li>
+<li><a href="http://www.comanchelanguage.org" class="external text" rel="nofollow">Comanche Language and Cultural Preservation Committee</a> (Nʉmʉ Tekwapʉha Nomneekatʉ)</li>
+<li><a href="http://www.omniglot.com/writing/comanche.htm" class="external text" rel="nofollow">Comanche alphabet</a> at Omniglot.com</li>
+<li><a href="http://www.angelfire.com/creep2/fracod/comanche.html" class="external text" rel="nofollow">Comanche</a></li>
+<li><a href="http://www.learncomanche.com/" class="external text" rel="nofollow">Learn Comanche web site</a></li>
+<li><a href="http://texashistory.unt.edu/permalink/meta-pth-6105" class="external text" rel="nofollow"><i>Exploration of the Red River of Louisiana, in the year 1852 / by Randolph B. Marcy&#160;; assisted by George B. McClellan.</i></a> hosted by the <a href="http://texashistory.unt.edu/" class="external text" rel="nofollow">Portal to Texas History.</a> See charts in the back of the book that compare the English, Comanche, and Wichita languages.</li>
+</ul>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Languages_of_Oklahoma" title="Template:Languages of Oklahoma"><span style=";;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/wiki/Template_talk:Languages_of_Oklahoma" title="Template talk:Languages of Oklahoma"><span style=";;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Languages_of_Oklahoma&amp;action=edit" class="external text" rel="nofollow"><span style=";;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/File:Flag_of_Oklahoma.svg" class="image"><img alt="Flag of Oklahoma.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/20px-Flag_of_Oklahoma.svg.png" width="20" height="13" /></a>&#160;<a href="/w/index.php?title=Language_demographics_of_Oklahoma&amp;action=edit&amp;redlink=1" class="new" title="Language demographics of Oklahoma (page does not exist)">Languages</a> of <a href="/wiki/Oklahoma" title="Oklahoma">Oklahoma</a></span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2"><i>Italics</i> indicate extinct languages</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div>
+<p><a href="/wiki/Alabama_language" title="Alabama language">Alabama</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Arapaho_language" title="Arapaho language">Arapaho</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Caddo_language" title="Caddo language">Caddo</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Cayuga_language" title="Cayuga language">Cayuga</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Cherokee_language" title="Cherokee language">Cherokee</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Cheyenne_language" title="Cheyenne language">Cheyenne</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Chickasaw_language" title="Chickasaw language">Chickasaw</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Chiwere_language" title="Chiwere language">Chiwere (Iowa and Otoe)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Choctaw_language" title="Choctaw language">Choctaw</a>&#160;<span style="font-weight:bold;">·</span>  <strong class="selflink">Comanche</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Delaware_languages" title="Delaware languages">Delaware</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/American_English" title="American English">English</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Mikasuki_language" title="Mikasuki language">Hitchiti-Mikasuki</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Kansa_language" title="Kansa language">Kansa</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Koasati_language" title="Koasati language">Koasati</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Mescalero-Chiricahua_language" title="Mescalero-Chiricahua language">Mescalero-Chiricahua Apache</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Fox_language" title="Fox language">Mesquakie (Fox, Kickapoo, and Sauk)</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Creek_language" title="Creek language">Muscogee</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Osage_language" title="Osage language">Osage</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Ottawa_language" title="Ottawa language">Ottawa</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Pawnee_language" title="Pawnee language">Pawnee</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Plains_Apache_language" title="Plains Apache language">Plains Apache</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Omaha-Ponca_language" title="Omaha-Ponca language" class="mw-redirect">Ponca</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Potawatomi_language" title="Potawatomi language">Potawatomi</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Quapaw" title="Quapaw">Quapaw</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Seneca_language" title="Seneca language">Seneca</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Shawnee_language" title="Shawnee language">Shawnee</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Spanish_in_the_United_States" title="Spanish in the United States" class="mw-redirect">Spanish</a>&#160;<span style="font-weight:bold;">·</span>  <i><a href="/wiki/Tonkawa_language" title="Tonkawa language">Tonkawa</a></i>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Vietnamese_language" title="Vietnamese language">Vietnamese</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Wichita_language" title="Wichita language">Wichita</a>&#160;<span style="font-weight:bold;">·</span>  <i><a href="/wiki/Wyandot_language" title="Wyandot language">Wyandot</a></i>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Yuchi_language" title="Yuchi language">Yuchi</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 19037/1000000
+Post-expand include size: 129955/2048000 bytes
+Template argument size: 38110/2048000 bytes
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2850828-0!*!0!!en!4 and timestamp 20110528062058 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Comanche_language">http://en.wikipedia.org/wiki/Comanche_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Agglutinative_languages" title="Category:Agglutinative languages">Agglutinative languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Uto-Aztecan_languages" title="Category:Uto-Aztecan languages">Uto-Aztecan languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Indigenous_languages_of_the_North_American_Plains" title="Category:Indigenous languages of the North American Plains">Indigenous languages of the North American Plains</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_the_United_States" title="Category:Languages of the United States">Languages of the United States</a></span> | <span dir='ltr'><a href="/wiki/Category:Comanche_tribe" title="Category:Comanche tribe">Comanche tribe</a></span> | <span dir='ltr'><a href="/wiki/Category:SOV_languages" title="Category:SOV languages">SOV languages</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:Articles_containing_non-English_language_text" title="Category:Articles containing non-English language text">Articles containing non-English language text</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Comanche_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Comanche_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Comanche_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Comanche_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Comanche_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Comanche_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Comanche_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Comanche_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Comanche_language&amp;oldid=425268855" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Comanche_language&amp;id=425268855" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Comanche+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Comanche+language&amp;oldid=425268855&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Comanche_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Komantcheg" title="Komantcheg">Brezhoneg</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Koman%C4%8D%C5%A1tina" title="Komančština">Česky</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Idioma_comanche" title="Idioma comanche">Español</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Comanche_(langue)" title="Comanche (langue)">Français</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%BD%94%EB%A7%8C%EC%B9%98%EC%96%B4" title="코만치어">한국어</a></li>
+					<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/L%C3%ADngua_comanche" title="Língua comanche">Português</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D1%87%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Команчский язык">Русский</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Comanchen_kieli" title="Comanchen kieli">Suomi</a></li>
+					<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Comanche_dili" title="Comanche dili">Türkçe</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 22 April 2011 at 02:19.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Comanche_language", "wgTitle": "Comanche language", "wgAction": "view", "wgArticleId": 2850828, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 425268855, "wgCategories": ["Articles containing non-English language text", "Agglutinative languages", "Uto-Aztecan languages", "Indigenous languages of the North American Plains", "Languages of the United States", "Comanche tribe", "SOV languages"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "3b9ec60089693b655bd8ab321f3b69a9", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv269 in 2.940 secs. -->			</body>
+</html>

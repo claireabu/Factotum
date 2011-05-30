@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Ket language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Ket_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Ket_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Ket_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Ket_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Ket language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table class="metadata plainlinks ambox ambox-style" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="/wiki/File:Text_document_with_red_question_mark.svg" class="image"><img alt="Text document with red question mark.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" /></a></div>
+</td>
+<td class="mbox-text" style="">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, related reading or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, but <b>its sources remain unclear because it lacks <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>. <small>Please <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by introducing more precise citations <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">where appropriate</a>. <i>(February 2008)</i></small></td>
+</tr>
+</table>
+<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: deepskyblue">Ket</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><a href="/wiki/Russia" title="Russia">Russia</a></td>
+</tr>
+<tr>
+<th>Region</th>
+<td colspan="2"><a href="/wiki/Krasnoyarsk_Krai" title="Krasnoyarsk Krai">Krasnoyarsk Krai</a></td>
+</tr>
+<tr>
+<th>Total speakers</th>
+<td colspan="2">550</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Den%C3%A9%E2%80%93Yeniseian_languages" title="Dené–Yeniseian languages" class="mw-redirect">Dené–Yeniseian</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Yeniseian_languages" title="Yeniseian languages">Yeniseian</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Northern Yeniseian
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Ket</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: deepskyblue">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=ket" class="extiw" title="iso639-3:ket">ket</a></tt></td>
+</tr>
+</table>
+<p>The <b>Ket language</b>, formerly known as <b>Yenisei Ostyak</b>, a <a href="/wiki/Siberia" title="Siberia">Siberian</a> language long thought to be an <a href="/wiki/Language_isolate" title="Language isolate">isolate</a>, the sole surviving language of a <a href="/wiki/Yeniseian_languages" title="Yeniseian languages">Yeniseian language family</a>, is spoken along the middle <a href="/wiki/Yenisei" title="Yenisei" class="mw-redirect">Yenisei</a> basin by the <a href="/wiki/Ket_people" title="Ket people">Ket people</a>.</p>
+<p>The language is threatened with extinction—the number of ethnic Kets that are native speakers of the language has dropped from 1,225 in 1926 to 537 in 1989. Another Yeniseian language, <a href="/wiki/Yugh" title="Yugh">Yugh</a>, is believed to have recently become extinct.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Classification"><span class="tocnumber">1</span> <span class="toctext">Classification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Documentation"><span class="tocnumber">2</span> <span class="toctext">Documentation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Phonology"><span class="tocnumber">3</span> <span class="toctext">Phonology</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Vowels"><span class="tocnumber">3.1</span> <span class="toctext">Vowels</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Consonants"><span class="tocnumber">3.2</span> <span class="toctext">Consonants</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Tone"><span class="tocnumber">3.3</span> <span class="toctext">Tone</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Ket_Alphabet"><span class="tocnumber">4</span> <span class="toctext">Ket Alphabet</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Literature"><span class="tocnumber">5</span> <span class="toctext">Literature</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=1" title="Edit section: Classification">edit</a>]</span> <span class="mw-headline" id="Classification">Classification</span></h2>
+<p>Attempts have been made by <a href="/wiki/Soviet_Union" title="Soviet Union">Soviet</a> scholars to establish a relationship with either <a href="/wiki/Burushaski_language" title="Burushaski language" class="mw-redirect">Burushaski</a> or the <a href="/wiki/Sino-Tibetan_languages" title="Sino-Tibetan languages">Sino-Tibetan languages</a>, and it frequently forms part of the <a href="/wiki/Dene-Caucasian" title="Dene-Caucasian" class="mw-redirect">Dene-Caucasian</a> hypothesis. None of these attempts have been conclusive. <a href="/wiki/Joseph_Greenberg" title="Joseph Greenberg">Joseph Greenberg</a> proposed a link between Ket and other Yeniseian languages and the Na-Dene language group of North America in his final study of Eurasiatic languages. In February 2008, linguist <a href="/wiki/Edward_Vajda" title="Edward Vajda">Edward Vajda</a> also submitted a paper on the proposed link between Ket with the <a href="/wiki/Na-Dene_languages" title="Na-Dene languages">Na-Dene languages</a>. Now published in 2010, Vajda's paper has been favorably reviewed by several experts on Na-Dene and Yeniseian languages, including <a href="/wiki/Michael_E._Krauss" title="Michael E. Krauss">Michael Krauss</a>, Jeff Leer, <a href="/wiki/James_Kari" title="James Kari">James Kari</a>, and Heinrich Werner, as well as a number of other well-known linguists, including <a href="/wiki/Bernard_Comrie" title="Bernard Comrie">Bernard Comrie</a>, <a href="/wiki/Johanna_Nichols" title="Johanna Nichols">Johanna Nichols</a>, Victor Golla, <a href="/wiki/Michael_Fortescue" title="Michael Fortescue">Michael Fortescue</a>, and <a href="/wiki/Eric_P._Hamp" title="Eric P. Hamp">Eric Hamp</a>, so that a broad consensus has formed in support of this connection. Some experts on Yenisein remain extremely skeptical or reject the hypothesis (e.g. <a href="/wiki/Stefan_Georg" title="Stefan Georg">Stefan Georg</a>).</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=2" title="Edit section: Documentation">edit</a>]</span> <span class="mw-headline" id="Documentation">Documentation</span></h2>
+<p>The earliest observations about the language were published by P. S. Pallas in 1788 in a travel diary (Путешествия по разным провинциям Русского Государства <i>Puteshestviya po raznim provintsiyam Russkogo Gosudarstva</i>). In 1858, <a href="/wiki/M._A._Castr%C3%A9n" title="M. A. Castrén" class="mw-redirect">M. A. Castrén</a> published the first grammar and dictionary (<i>Versuch einer jenissei-ostjakischen und Kottischen Sprachlehre</i>), which also included material on the <a href="/wiki/Kot_language" title="Kot language" class="mw-redirect">Kot language</a>. During the 19th century, the Kets were mistaken for a tribe of the Finno-Ugric <a href="/wiki/Khanty" title="Khanty">Khanty</a>. A. Karger in 1934 published the first grammar (Кетский язык <i>Ketskij jazyk</i>), as well as a Ket primer (Букварь на кетском языке <i>Bukvar' na ketskom jazyke</i>), and a new treatment appeared in 1968, written by A. Kreinovich. E. Alekseyenko has written a historical-ethnological treatment of the Kets (Кеты <i>Kety</i>, 1967). <a href="/wiki/Western_Washington_University" title="Western Washington University">Western Washington University</a> historical linguist <a href="/wiki/Edward_Vajda" title="Edward Vajda">Edward Vajda</a> offers better substantiated findings into the origins of the Ket people, where DNA claims show genetic affinities with that of Tibetan, Burmese, and others <a href="http://pandora.cii.wwu.edu/vajda/ea210/ket.htm" class="external autonumber" rel="nofollow">[1]</a>. Edward Vajda spent a year in Siberia (2005–2006) studying the Ket people, and finds a relationship of Ket language to that of <a href="/wiki/Indigenous_peoples_of_the_Americas" title="Indigenous peoples of the Americas">Native American</a> <a href="/wiki/Na-Dene_languages" title="Na-Dene languages">Na-Dene languages</a>, and also suggests the tonal system of the Ket language is closer to that of <a href="/wiki/Vietnamese_people" title="Vietnamese people">Vietnamese</a> than any of the native Siberian languages <a href="http://video.google.com/videoplay?docid=-6050673836854498204#" class="external autonumber" rel="nofollow">[2]</a>. His (2004) monograph <i>Ket</i> is the first modern scholarly grammar of the Ket language in English. (Lueders 2008)</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=3" title="Edit section: Phonology">edit</a>]</span> <span class="mw-headline" id="Phonology">Phonology</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=4" title="Edit section: Vowels">edit</a>]</span> <span class="mw-headline" id="Vowels">Vowels</span></h3>
+<table class="wikitable">
+<tr>
+<th align="center"></th>
+<th><a href="/wiki/Front_vowel" title="Front vowel">Front</a></th>
+<th><a href="/wiki/Central_vowel" title="Central vowel">Central</a></th>
+<th><a href="/wiki/Back_vowel" title="Back vowel">Back</a></th>
+</tr>
+<tr align="center">
+<th align="left"><a href="/wiki/Close_vowel" title="Close vowel">Close</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">i</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɨ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">u</span></td>
+</tr>
+<tr align="center">
+<th align="left"><a href="/wiki/Mid_vowel" title="Mid vowel">Mid</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɛ</span><sup>1</sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ə</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɔ</span><sup>1</sup></td>
+</tr>
+<tr>
+<th align="left"><a href="/wiki/Open_vowel" title="Open vowel">Open</a></th>
+<td colspan="3" align="center"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">a</span> <sup>2</sup></td>
+</tr>
+</table>
+<ol>
+<li>The normally <a href="/wiki/Open-mid_vowel" title="Open-mid vowel">open-mid</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɛ/</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ɔ/</span> are pronounced as <a href="/wiki/Close-mid_vowel" title="Close-mid vowel">close-mid</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[e]</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[o]</span>, respectively, when they have the high-steady tone.</li>
+<li><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/a/</span> freely varies between <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[æ]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[a]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɐ]</span>, and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɑ]</span>.</li>
+</ol>
+<h3><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=5" title="Edit section: Consonants">edit</a>]</span> <span class="mw-headline" id="Consonants">Consonants</span></h3>
+<p>Vajda analyses Ket as having only twelve consonant phonemes:</p>
+<table class="wikitable" style="text-align:center">
+<tr>
+<th colspan="2"></th>
+<th><a href="/wiki/Bilabial_consonant" title="Bilabial consonant">Bilabial</a></th>
+<th><a href="/wiki/Alveolar_consonant" title="Alveolar consonant">Alveolar</a></th>
+<th><a href="/wiki/Palatal_consonant" title="Palatal consonant">Palatal</a></th>
+<th><a href="/wiki/Velar_consonant" title="Velar consonant">Velar</a></th>
+<th><a href="/wiki/Uvular_consonant" title="Uvular consonant">Uvular</a></th>
+<th><a href="/wiki/Glottal_consonant" title="Glottal consonant">Glottal</a></th>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Nasal_consonant" title="Nasal consonant">Nasal</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">m</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">n</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ŋ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th rowspan="2"><a href="/wiki/Plosive_consonant" title="Plosive consonant" class="mw-redirect">Plosive</a></th>
+<th><small><a href="/wiki/Voiceless" title="Voiceless">voiceless</a></small></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">t</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">k</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">q</span></td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th><small><a href="/wiki/Voice_(phonetics)" title="Voice (phonetics)">voiced</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">b</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">d</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Fricative_consonant" title="Fricative consonant">Fricative</a></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">s</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ç</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">h</span></td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Lateral_consonant" title="Lateral consonant">Lateral fricative</a></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɮ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</table>
+<p>There is much <a href="/wiki/Allophony" title="Allophony" class="mw-redirect">allophony</a>, and the phonetic inventory of consonants is essentially as below. This is the level of description reflected by the Ket alphabet.</p>
+<table class="wikitable" style="text-align:center">
+<tr>
+<th colspan="2"></th>
+<th><a href="/wiki/Bilabial_consonant" title="Bilabial consonant">Bilabial</a></th>
+<th><a href="/wiki/Alveolar_consonant" title="Alveolar consonant">Alveolar</a></th>
+<th><a href="/wiki/Palatal_consonant" title="Palatal consonant">Palatal</a></th>
+<th><a href="/wiki/Velar_consonant" title="Velar consonant">Velar</a></th>
+<th><a href="/wiki/Uvular_consonant" title="Uvular consonant">Uvular</a></th>
+<th><a href="/wiki/Glottal_consonant" title="Glottal consonant">Glottal</a></th>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Nasal_consonant" title="Nasal consonant">Nasal</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">m</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">n</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ŋ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th rowspan="2"><a href="/wiki/Plosive_consonant" title="Plosive consonant" class="mw-redirect">Plosive</a></th>
+<th><small><a href="/wiki/Voiceless" title="Voiceless">voiceless</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">p</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">t</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">k</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">q</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʔ</span></td>
+</tr>
+<tr>
+<th><small><a href="/wiki/Voice_(phonetics)" title="Voice (phonetics)">voiced</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">b</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">d</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɡ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɢ</span></td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th rowspan="2"><a href="/wiki/Fricative_consonant" title="Fricative consonant">Fricative</a></th>
+<th><small><a href="/wiki/Voiceless" title="Voiceless">voiceless</a></small></th>
+<td></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">s</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ç</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">(x)</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">(χ)</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">h</span></td>
+</tr>
+<tr>
+<th><small><a href="/wiki/Voice_(phonetics)" title="Voice (phonetics)">voiced</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">β</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʝ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɣ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʁ</span></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Lateral_consonant" title="Lateral consonant">Lateral fricative</a></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɮ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Tap_consonant" title="Tap consonant" class="mw-redirect">Tap</a></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɾ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Trill_consonant" title="Trill consonant">Trill</a></th>
+<td></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">r</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</table>
+<p>Furthermore, all nasal consonants in Ket have voiceless allophones at the end of a monosyllabic word with a glottalized or descending tone (i.e., <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[m, n, ŋ]</span> turn into <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[m̥, n̥, ŋ̥]</span>), likewise, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɮ]</span> becomes <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɬ]</span> in the same situation. Alveolars are often pronounced <a href="/wiki/Laminal_consonant" title="Laminal consonant">laminal</a> and possibly <a href="/wiki/Palatalized" title="Palatalized" class="mw-redirect">palatalized</a>, though not in the vicinity of a uvular consonant. <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/q/</span> is normally pronounced with affrication, as <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[q<sup>χ</sup>]</span>.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=6" title="Edit section: Tone">edit</a>]</span> <span class="mw-headline" id="Tone">Tone</span></h3>
+<p>Descriptions of Ket vary widely in the number of contrastive tones they report: as many as eight and as few as zero have been counted. Given this wide disagreement, whether or not Ket is a <a href="/wiki/Tonal_language" title="Tonal language" class="mw-redirect">tonal language</a> is debatable, although the non-tonal argument "seems to be the most well-supported."<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup></p>
+<p>In tonal descriptions, Ket does not employ a tone on every syllable but instead uses one tone per word. Following one description<sup class="Template-Fact" title="This claim needs references to reliable sources from August 2010" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> that employs tone, the five basic tones are as follows:</p>
+<table class="wikitable">
+<tr>
+<th><a href="/wiki/Tone_name" title="Tone name">Tone name</a></th>
+<th>Glottalized</th>
+<th>High-Even</th>
+<th>Rising Falling</th>
+<th>Falling</th>
+<th>Rising High-Falling</th>
+</tr>
+<tr>
+<th><a href="/wiki/Tone_contour" title="Tone contour">Tone contour</a></th>
+<td>34</td>
+<td>55</td>
+<td>13.31</td>
+<td>31</td>
+<td>13.53</td>
+</tr>
+<tr>
+<th>Example</th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[bɛ̌ʔs]</span><br />
+"rabbit"</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[súl]</span><br />
+"blood"</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[hə̌.nûl]</span><br />
+"puddle"</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɛ̂m̥]</span><br />
+"flying squirrel"</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[qǐ.bá͜âŋ]</span><br />
+"grandfathers"</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=7" title="Edit section: Ket Alphabet">edit</a>]</span> <span class="mw-headline" id="Ket_Alphabet">Ket Alphabet</span></h2>
+<p>In the 1930s a Latin based alphabet was developed and used:</p>
+<table style="font-family:Arial Unicode MS; font-size:1.4em; border-color:#000000; border-width:1px; border-style:solid; border-collapse:collapse; background-color:#F8F8EF">
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">A a</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ā ā</td>
+<td style="width:3em; text-align:center; padding: 3px;">Æ æ</td>
+<td style="width:3em; text-align:center; padding: 3px;">B b</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ç ç</td>
+<td style="width:3em; text-align:center; padding: 3px;">D d</td>
+<td style="width:3em; text-align:center; padding: 3px;">E e</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ē ē</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Ə ə</td>
+<td style="width:3em; text-align:center; padding: 3px;">F f</td>
+<td style="width:3em; text-align:center; padding: 3px;">G g</td>
+<td style="width:3em; text-align:center; padding: 3px;">H h</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ҕ ҕ</td>
+<td style="width:3em; text-align:center; padding: 3px;">I i</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ī ī</td>
+<td style="width:3em; text-align:center; padding: 3px;">J j</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">K k</td>
+<td style="width:3em; text-align:center; padding: 3px;">L l</td>
+<td style="width:3em; text-align:center; padding: 3px;">M m</td>
+<td style="width:3em; text-align:center; padding: 3px;">N n</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ņ ņ</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ŋ ŋ</td>
+<td style="width:3em; text-align:center; padding: 3px;">O o</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ō ō</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">P p</td>
+<td style="width:3em; text-align:center; padding: 3px;">Q q</td>
+<td style="width:3em; text-align:center; padding: 3px;">R r</td>
+<td style="width:3em; text-align:center; padding: 3px;">S s</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ş ş</td>
+<td style="width:3em; text-align:center; padding: 3px;">T t</td>
+<td style="width:3em; text-align:center; padding: 3px;">U u</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ū ū</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">V v</td>
+<td style="width:3em; text-align:center; padding: 3px;">Z z</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ƶ ƶ</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ь ь</td>
+</tr>
+</table>
+<p>In the 1980s a new, Cyrillic-based, alphabet was created:</p>
+<table style="font-family:Arial Unicode MS; font-size:1.4em; border-color:#000000; border-width:1px; border-style:solid; border-collapse:collapse; background-color:#F8F8EF">
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">А а</td>
+<td style="width:3em; text-align:center; padding: 3px;">Б б</td>
+<td style="width:3em; text-align:center; padding: 3px;">В в</td>
+<td style="width:3em; text-align:center; padding: 3px;">Г г</td>
+<td style="width:3em; text-align:center; padding: 3px;"><span class="Unicode">Г̡ г̡</span></td>
+<td style="width:3em; text-align:center; padding: 3px;">Д д</td>
+<td style="width:3em; text-align:center; padding: 3px;">Е е</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ё ё</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Ж ж</td>
+<td style="width:3em; text-align:center; padding: 3px;">З з</td>
+<td style="width:3em; text-align:center; padding: 3px;">И и</td>
+<td style="width:3em; text-align:center; padding: 3px;">Й й</td>
+<td style="width:3em; text-align:center; padding: 3px;">К к</td>
+<td style="width:3em; text-align:center; padding: 3px;"><span class="Unicode">Ӄ ӄ</span></td>
+<td style="width:3em; text-align:center; padding: 3px;">Л л</td>
+<td style="width:3em; text-align:center; padding: 3px;">М м</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Н н</td>
+<td style="width:3em; text-align:center; padding: 3px;"><span class="Unicode">Ӈ ӈ</span></td>
+<td style="width:3em; text-align:center; padding: 3px;">О о</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ө ө</td>
+<td style="width:3em; text-align:center; padding: 3px;">П п</td>
+<td style="width:3em; text-align:center; padding: 3px;">Р р</td>
+<td style="width:3em; text-align:center; padding: 3px;">С с</td>
+<td style="width:3em; text-align:center; padding: 3px;">Т т</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">У у</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ф ф</td>
+<td style="width:3em; text-align:center; padding: 3px;">Х х</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ц ц</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ч ч</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ш ш</td>
+<td style="width:3em; text-align:center; padding: 3px;">Щ щ</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ъ ъ</td>
+</tr>
+<tr>
+<td style="width:3em; text-align:center; padding: 3px;">Ә ә</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ы ы</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ь ь</td>
+<td style="width:3em; text-align:center; padding: 3px;">’</td>
+<td style="width:3em; text-align:center; padding: 3px;">Э э</td>
+<td style="width:3em; text-align:center; padding: 3px;">Ю ю</td>
+<td style="width:3em; text-align:center; padding: 3px;">Я я</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=8" title="Edit section: Literature">edit</a>]</span> <span class="mw-headline" id="Literature">Literature</span></h2>
+<ul>
+<li>N. K. Karger, <i>Кетский язык. — Языки и письменность народов Севера</i>. Ч. III, Moscow, Leningrad (1934)</li>
+<li>E. A. Kreinovich, <i>Кетский язык. — Языки народов СССР</i>. Т. V, Leningrad (1968)</li>
+<li>Edward J. Vajda. <i>Ket Prosodic Phonology</i>. (2000) Munich: Lincom Europa Languages of the World vol. 15.</li>
+<li>Edward J. Vajda. <i>Ket</i>. (2004) Munich: <a href="http://www.lincom.eu/" class="external text" rel="nofollow">Lincom Europa</a> Languages of the World vol. 204. <a href="/wiki/Special:BookSources/3895862215" class="internal mw-magiclink-isbn">ISBN 3895862215</a>. 109pp.</li>
+<li>E. Vajda, M. Zinn. <i>Morfologicheskii slovar ketskogo glagola: na osnove iuzhno-ketskogo dialekta. = Morphological dictionary of the Ket verb: Southern dialect</i> / E. Vajda, M. Zinn. (2004)</li>
+<li>Vajda, Edward J. "Siberian Link with Na-Dene Languages." <i>The Dene-Yeniseian Connection</i>, ed. by J. Kari and B. Potter, 33-99. <i>Anthropological Papers of the University of Alaska</i>, new series, vol. 5. Fairbanks: University of Alaska Fairbanks, Department of Anthropology. (2010)</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=9" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> Ian Maddieson, "Tone". The World Atlas of Language Structures Online. <a href="http://wals.info/feature/13" class="external free" rel="nofollow">http://wals.info/feature/13</a></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ket_language&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<div class="infobox sisterproject">
+<div class="floatleft"><a href="/wiki/File:Incubator-notext.svg" class="image" title="Wikimedia Incubator"><img alt="Wikimedia Incubator" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Incubator-notext.svg/40px-Incubator-notext.svg.png" width="40" height="50" /></a></div>
+<div style="margin-left: 60px;"><i><b><a href="http://incubator.wikimedia.org/wiki/Wp/ket" class="extiw" title="incubator:Wp/ket">Ket language test</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a> at <a href="http://meta.wikimedia.org/wiki/Wikimedia_Incubator" class="extiw" title="meta:Wikimedia Incubator">Wikimedia Incubator</a></div>
+</div>
+<ul>
+<li><a href="http://lingsib.unesco.ru/en/languages/ket.shtml.htm" class="external text" rel="nofollow">Endangered Languages of the Indigenous Peoples of Siberia - The Ket Language</a></li>
+<li><a href="http://wold.livingsources.org/vocabulary/18" class="external text" rel="nofollow">Ket language vocabulary with loanwords</a> (from the World Loanword Database)</li>
+<li>Filtchenko, Andrei. 2001. <a href="http://www.owlnet.rice.edu/~andreif/project/ket%20language.htm" class="external text" rel="nofollow">Ket Language</a></li>
+<li>Georg, Stefan. 2006. <a href="http://books.google.com/books?id=wFuPAAAACAAJ&amp;dq=A+Descriptive+Grammar+of+Ket&amp;client=firefox-a" class="external text" rel="nofollow"><i>A Descriptive Grammar of Ket</i> (Yenisei-Ostyak).</a> Folkestone, Kent: <a href="/wiki/Global_Oriental" title="Global Oriental">Global Oriental</a>. 10-<a href="/wiki/Special:BookSources/1901903583" class="internal mw-magiclink-isbn">ISBN 1-901-90358-3</a>; 13-<a href="/wiki/Special:BookSources/9781901903584" class="internal mw-magiclink-isbn">ISBN 978-1-901-90358-4</a></li>
+<li>Gordon, Raymond G., Jr. (ed.), 2005. <a href="http://www.ethnologue.com/show_language.asp?code=ket" class="external text" rel="nofollow">Ket</a>. In Ethnologue: Languages of the World, Fifteenth edition. Dallas, Tex.: SIL International.</li>
+<li>Kazakevich, Olga, et al. 2006?. <a href="http://minlang.srcc.msu.ru/kets/index.htm" class="external text" rel="nofollow">Multimedia Database of Ket Language, Moscow State (Lomonosov) University</a></li>
+<li>Lueders, Ulrich. Books: Language Description, Ket: Vajda. <a href="http://www.linguistlist.org/issues/17/17-1521.html" class="external text" rel="nofollow">Publisher's announcement</a> on <a href="/wiki/LINGUIST_List" title="LINGUIST List">LINGUIST List</a></li>
+<li>Vajda, Edward J. 2000. <a href="http://pandora.cii.wwu.edu/vajda/ea210/ket.htm" class="external text" rel="nofollow">Ket and other Yeneseic Peoples</a></li>
+<li>Vajda, Edward J. 2006. <a href="http://video.google.com/videoplay?docid=-6050673836854498204" class="external text" rel="nofollow">The Ket People - Google Video</a></li>
+<li><a href="http://www.uaf.edu/anthro/apua/" class="external text" rel="nofollow">Table of contents and ordering information for <i>The Dene-Yeniseian Connection.</i></a></li>
+<li><a href="http://anlc.uaf.edu/dy.html" class="external text" rel="nofollow">Notices and news items on Dene-Yeniseian</a></li>
+<li>Viikberg, Jüri. <a href="http://www.eki.ee/books/redbook/kets.shtml" class="external text" rel="nofollow">Kets</a>. In <i><a href="http://www.eki.ee/books/redbook/index1.shtml" class="external text" rel="nofollow">The Red Book of the Peoples of the Russian Empire</a></i>, NGO Red Book, <a href="/wiki/Special:BookSources/9985936922" class="internal mw-magiclink-isbn">ISBN 9985-9369-2-2</a> (<a href="/wiki/The_Red_Book_of_the_Peoples_of_the_Russian_Empire" title="The Red Book of the Peoples of the Russian Empire">Wikipedia article</a>)</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 2161/1000000
+Post-expand include size: 15802/2048000 bytes
+Template argument size: 3468/2048000 bytes
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:196028-0!*!0!!en!4 and timestamp 20110528205616 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Ket_language">http://en.wikipedia.org/wiki/Ket_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Languages_of_Russia" title="Category:Languages of Russia">Languages of Russia</a></span> | <span dir='ltr'><a href="/wiki/Category:Yeniseian_languages" title="Category:Yeniseian languages">Yeniseian languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Krasnoyarsk_Krai" title="Category:Krasnoyarsk Krai">Krasnoyarsk Krai</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:Articles_lacking_in-text_citations_from_February_2008" title="Category:Articles lacking in-text citations from February 2008">Articles lacking in-text citations from February 2008</a></span> | <span dir='ltr'><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></span> | <span dir='ltr'><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></span> | <span dir='ltr'><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2010" title="Category:Articles with unsourced statements from August 2010">Articles with unsourced statements from August 2010</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Ket_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Ket_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Ket_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Ket_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Ket_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Ket_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Ket_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Ket_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Ket_language&amp;oldid=427360301" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Ket_language&amp;id=427360301" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Ket+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Ket+language&amp;oldid=427360301&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Ket_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Keteg" title="Keteg">Brezhoneg</a></li>
+					<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%9A%D0%B5%D1%82_%D1%87%C4%95%D0%BB%D1%85%D0%B8" title="Кет чĕлхи">Чӑвашла</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Ket%C5%A1tina" title="Ketština">Česky</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Jenisseische_Sprachen#Das_Ketische" title="Jenisseische Sprachen">Deutsch</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Idioma_ket" title="Idioma ket">Español</a></li>
+					<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Keta_lingvo" title="Keta lingvo">Esperanto</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Kete_(langue_de_Sib%C3%A9rie)" title="Kete (langue de Sibérie)">Français</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%BC%80%ED%8A%B8%EC%96%B4" title="케트어">한국어</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lingua_ket" title="Lingua ket">Italiano</a></li>
+					<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%99%E1%83%94%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90" title="კეტური ენა">ქართული</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Ket_(taal)" title="Ket (taal)">Nederlands</a></li>
+					<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%83%E3%83%88%E8%AA%9E" title="ケット語">日本語</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Ketisk" title="Ketisk">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Ketisk_spr%C3%A5k" title="Ketisk språk">‪Norsk (nynorsk)‬</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/J%C4%99zyk_ketyjski" title="Język ketyjski">Polski</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Кетский язык">Русский</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Ketin_kieli" title="Ketin kieli">Suomi</a></li>
+					<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Ketiska" title="Ketiska">Svenska</a></li>
+					<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%86%E0%AE%9F%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF" title="கெட் மொழி">தமிழ்</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%84%92%E8%AA%9E" title="愒語">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 4 May 2011 at 05:52.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Ket_language", "wgTitle": "Ket language", "wgAction": "view", "wgArticleId": 196028, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 427360301, "wgCategories": ["Articles lacking in-text citations from February 2008", "All articles lacking in-text citations", "All articles with unsourced statements", "Articles with unsourced statements from August 2010", "Languages of Russia", "Yeniseian languages", "Krasnoyarsk Krai"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "c8af0e38c195788ce71752646ac01686", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv167 in 0.940 secs. -->			</body>
+</html>

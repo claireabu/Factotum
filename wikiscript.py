@@ -1,8 +1,11 @@
+#!/usr/local/bin/python
+# coding: utf-8
 import urllib2
 import sys
 from string import *
 import string
 import time 
+import io
 
 
 
@@ -63,21 +66,27 @@ def writeFacts(facts):
     if len(sys.argv)  >=  2: 
         filename = sys.argv[1]
     else: 
-        filename = 'wikidta.f'
+        filename = '_wikid1_.f'
     file = open(filename, 'a') 
     
     writestring = ''
     subject = Name 
-        
+    if subject == 'Serbian': 
+        print 'HERE'
     
     for k in facts.keys():
         if facts[k].__class__  == list: 
             for entry in facts[k]: 
                 
+                if entry.find('\"') != -1: 
+                    if entry.count('\"') % 2 != 0: 
+                        continue  
+                        
                 if not started:
                     global started
                     started = True
                     writestring = subject + ' ' + k + ' ' + entry #+ '\n'
+                    
                 else: 
                     writestring = '\"' + ' ' + k + ' ' + entry #+ '\n'
                     
@@ -87,6 +96,11 @@ def writeFacts(facts):
             continue 
                 
         elif not started:
+            
+            if facts[k].find('\"') != -1: 
+                if facts[k].count('\"') % 2 != 0: 
+                    continue
+                
             global started
             started = True 
             if k == '->':
@@ -97,6 +111,11 @@ def writeFacts(facts):
                 writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
             
         else: 
+            
+            if facts[k].find('\"') != -1: 
+                if facts[k].count('\"') % 2 != 0: 
+                    continue
+                
             if k == '<-':
                  writestring =  ':' + '\"' + ' ' + '<-' + ' ' + Native #+ '\n'
             
@@ -105,7 +124,8 @@ def writeFacts(facts):
                 
             else:   
                 writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
-        
+                
+        #writestring = unicode(writestring, 'utf-8')
         file.write(writestring)
         file.write('\n')
         
@@ -129,6 +149,7 @@ def cleanUpFact(x, key):
     '''
     
     z = x.strip(':')
+    z = z.strip(',')
     z = z.strip()
     
     #### GET RID OF CITATIONS 
@@ -159,6 +180,8 @@ def cleanUpFact(x, key):
             i = zi.find('IGNORE') 
             if i >= 0: 
                 removeli.append(zi)
+            else: 
+                zi = zi.strip(',')
             
         if removeli != []:
             for ri in removeli: 
@@ -166,36 +189,52 @@ def cleanUpFact(x, key):
     
     
         
-    ##### GET RID OF COMMAS 
+    ##### GET RID OF COMMAS --only if not in Total S, or there's more than one comma, and it's not
+    #in between parentheses 
+    removeli = []
     addon = []
-    if key == 'Total speakers' or key == 'Total Signers':
-#        if z.__class__ == list: 
-#            
-#        else: 
-        res = z.find(',')
-        while res != -1:
-            if z[res-1] in string.digits or z[res+1] in string.digits: 
-                z = z.replace(',', '')
-                res = z.find(',')
-            else: 
-                z = z.split(',')
-                for zj in z: 
-                    res = zj.find(',')
-                    while res != -1:
-                        if zj[res-1] in string.digits or zj[res+1] in string.digits: 
-                            zj = zj.replace(',', '')
-                            res = zj.find(',')
-                        else: 
-                            zj = zj.replace(',', '')
-                            move = zj[res:]
-                            addon.append(move)
-                            zj = zj[:res]
-                            res = zj.find(',')
-                
+            
+    if key != 'Total speakers' and key != 'Total signers':    
+        if z.__class__ == list: 
+            for zi in z: 
+                if zi.count(',') > 1 : 
+                    if zi.count(')') == 0:
+                        zk = zi.split(',')
+                        removeli.append(zi)
+                        addon.extend(zk)
+                    else: 
+                        if zi.find(':') == -1:
+                            p1 = zi.find('(')
+                            p2 = zi.find(')')
+                            if p1 != -1 and p2 != -1: 
+                                c = zi[p1:p2].find(',')
+                                if c == -1:  
+                                    zi = zi.split(',')
+                    
+        else: 
+            if z.count(',') > 1: 
+                if z.count(')') == 0: 
+                    z = z.split(',')
+                else: 
+                    if z.find(':') == -1:
+                        p1 = z.find('(')
+                        p2 = z.find(')')
+                        if p1 != -1 and p2 != -1: 
+                            c = z[p1:p2].find(',')
+                            if c == -1:  
+                                z = z.split(',')
+            
+    if removeli != []:
+        for ri in removeli: 
+            z.remove(ri)
+                   
     if addon != []:
         for a in addon: 
-            z.append(a)
-        cleanUpFact(z, key)
+            if a == '':
+                continue 
+            else: 
+                z.append(a)
+       
                 
     return z
 
@@ -455,18 +494,18 @@ def parse_wiki(url, htmlSource):
     Note: if using this function without collect data, you may 
     input a url using the first commented part below. 
     '''
-    if url == '':
-        if len(sys.argv) < 4: 
-            sys.stderr.write("please include URL")
-            raise SystemExit(1)
-        else: 
-            url = sys.argv[3]
-            htmlSource = pull_content(url)
-    elif htmlSource == '':
-        htmlSource = pull_content(url)
+#    if url == '':
+#        if len(sys.argv) < 4: 
+#            sys.stderr.write("please include URL")
+#            raise SystemExit(1)
+#        else: 
+#            url = sys.argv[3]
+#            htmlSource = pull_content(url)
+#    elif htmlSource == '':
+#        htmlSource = pull_content(url)
 
     
-    versID = getID(htmlSource)
+    
     
     start = htmlSource.find('<table class=\"infobox\" style=\"width: 22em; text-align: left; font-size: 88%; line-height: 1.5em\">' ) 
     infobox = htmlSource[start:]        
@@ -493,12 +532,17 @@ def parse_wiki(url, htmlSource):
     global Native
     Native = ''
         
+    
+
+########################################
+def getPerma(url, srce):
+    
+    versID = getID(srce)
     perma = url.replace('wiki/', 'w/index.php?title=' )
     perma += '&oldid=' + versID
     
-    return perma   
-
-
+    return perma, versID   
+    
 
 ##################################
 
@@ -692,39 +736,94 @@ def wiki_main():
         filename = sys.argv[2]
     else: 
         filename = 'wikipedia_links.txt'
+    
+    try: 
+        permafile = open(filename) 
+    except:
+        permafile = open(filename, 'a')
+        permafile.close()
+        permafile = open(filename, 'r')
+
+    succ = []
+    permas = permafile.readlines()
+    permafile.close()
+    #if file is empty (eg NO LINKS ARE FOUND YET) 
+    #otherwise, if a file of links is found: go through that 
+    if permas == []: 
+        permafile = open(filename, 'a') 
         
-    file = open(filename, 'a') 
+        startURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
     
+        links = collectData(startURL)
     
-    permaLinks = []
-    startURL = 'http://en.wikipedia.org/wiki/Template:Infobox_language'
-    
-    links = collectData(startURL)
-    linksplus = []
-    
-    for url in links:
-        htmlSoucre = ''
-        htmlSource = pull_content(url)
-        linksplus.append([url, htmlSource])
-        time.sleep(15)
-        print url 
-    
-    for pair in linksplus: 
-        url = pair[0]
-        srce = pair[1]
+        for url in links:
+            htmlSoucre = ''
+            htmlSource = pull_content(url)
+#           linksplus.append([url, htmlSource])
         
-        perma= parse_wiki(url, srce)
-        permaLinks.append(perma)
+            ###WRITE ALL PERMA LINKS TO A FILE 
+            perma, OID = getPerma(url, htmlSource)
+            permafile.write(perma)
+            permafile.write('\n')
+            permas.append(perma)
         
-        file.write(perma)
-        file.write('\n')
+            #WRITE CONTENT TO FILE, WITH PERMA LINK AS FILE NAME 
+            x = perma.find('=')
+            contentfilename = perma[x+1:]
+            
+            try:  #try to open file, if it exists, then it will open
+                contentfile = open(contentfilename, 'r') 
+                contentfile.close()
+            except: #if it can't open, then we create it, and write to it 
+                contentfile = open(contentfilename, 'a')
+                contentfile.write(htmlSource)
+                contentfile.close()
+    
+        permafile.close()
+    failed = []
+    for url in permas:
         
+        srcetitle = url.strip()
+        i = srcetitle.find('=') 
+        if i != -1: 
+            srcetitle = srcetitle[i+1:]
+        else: 
+            continue
+            
+        try:  #CHECK FOR FILE WITH HTMLSOURCE FOR LINK
+            srce = open('/Users/Claire/SchoolStuff/UCLA/CS199/Factotum 3G 2/LangHTMLSources/' + srcetitle, 'r')
+            htmlsrce = srce.read()
+            srce.close()
+            
+            parse_wiki(url, htmlsrce)
+            
+            succ.append(url)
+            print url
+            
+        except: 
+            try: #IF NO FILE, PULL CONTENT FROM LINK 
+                htmlSoucre = ''
+                htmlSource = pull_content(url)
+                parse_wiki(url, htmlsrce)
+            
+                succ.append(url)
+                print url
+            except:#CAN"T USE SOURCE FOR SOME REASON 
+                err = 'Link ' + url + ' failed to parse'
+                failed.append(err)
+                continue
+            
+        
+        
+    for f in failed:             
+        print >> sys.stderr, f
+
 #        url = 'http://www.en.wikipedia.org/wiki/Biatah'
 #        content = pull_content(url)
 #        perma = parse_wiki(url, content)
         
         
-    return permaLinks 
+    return succ 
 
 
 

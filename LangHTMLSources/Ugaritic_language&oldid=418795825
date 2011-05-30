@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Ugaritic language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Ugaritic_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Ugaritic_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Ugaritic_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Ugaritic_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Ugaritic language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<div class="dablink">Not to be confused with the unrelated <a href="/wiki/Ugric_languages" title="Ugric languages">Ugric languages</a>.</div>
+<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: yellow">Ugaritic</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td>ancient <a href="/wiki/Ugarit" title="Ugarit">Ugarit</a></td>
+</tr>
+<tr>
+<th><a href="/wiki/Extinct_language" title="Extinct language">Language extinction</a></th>
+<td colspan="2">twelfth century BC</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Afro-Asiatic_languages" title="Afro-Asiatic languages" class="mw-redirect">Afro-Asiatic</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Semitic_languages" title="Semitic languages">Semitic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Central_Semitic_languages" title="Central Semitic languages">Central Semitic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Northwest_Semitic_languages" title="Northwest Semitic languages">Northwest Semitic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Ugaritic</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: yellow">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-2" title="ISO 639-2">ISO 639-2</a></th>
+<td colspan="2"><tt>uga</tt></td>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=uga" class="extiw" title="iso639-3:uga">uga</a></tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p>The <b>Ugaritic language</b>, discovered by <a href="/wiki/France" title="France">French</a> <a href="/wiki/Archaeology" title="Archaeology">archaeologists</a> in 1928, is known only in the form of writings found in the lost city of <a href="/wiki/Ugarit" title="Ugarit">Ugarit</a> (modern <b>Ras Shamra</b>), <a href="/wiki/Syria" title="Syria">Syria</a>.<sup id="cite_ref-solve_0-0" class="reference"><a href="#cite_note-solve-0"><span>[</span>1<span>]</span></a></sup> It has been used by scholars of the <a href="/wiki/Old_Testament" title="Old Testament">Old Testament</a> to clarify Biblical Hebrew texts and has revealed ways in which ancient <a href="/wiki/Ancient_Israel" title="Ancient Israel" class="mw-redirect">Israelite</a> culture finds parallels in the neighboring cultures.<sup id="cite_ref-solve_0-1" class="reference"><a href="#cite_note-solve-0"><span>[</span>1<span>]</span></a></sup></p>
+<p>Ugaritic was "the greatest literary discovery from antiquity since the deciphering of the Egyptian hieroglyphs and Mesopotamian cuneiform."<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup> Literary texts discovered at Ugarit include the <a href="/wiki/Legend_of_Keret" title="Legend of Keret">Legend of Keret</a>, the <a href="/wiki/Aqhat" title="Aqhat" class="mw-redirect">Aqhat Epic</a> (or <a href="/wiki/Danel" title="Danel">Legend of Danel</a>), the <a href="/w/index.php?title=Myth_of_Baal-Aliyan&amp;action=edit&amp;redlink=1" class="new" title="Myth of Baal-Aliyan (page does not exist)">Myth of Baal-Aliyan</a>, and the <a href="/w/index.php?title=Death_of_Baal&amp;action=edit&amp;redlink=1" class="new" title="Death of Baal (page does not exist)">Death of Baal</a>—the latter two are also collectively known as <a href="/wiki/Baal_cycle" title="Baal cycle">the Baal Cycle</a>—all revealing a <a href="/wiki/Canaan" title="Canaan">Canaanite</a> religion. Ugaritic texts solved the <a href="/wiki/Bible" title="Bible">biblical</a> puzzle of the <a href="/wiki/Anachronism" title="Anachronism">anachronism</a> of <a href="/wiki/Ezekiel" title="Ezekiel">Ezekiel</a> mentioning <a href="/wiki/Daniel" title="Daniel">Daniel</a> at <a href="http://bibref.hebtools.com/?book=%20Ezekiel&amp;verse=14:13-16&amp;src=nrsv" class="external text" rel="nofollow">Ezekiel 14:13-16</a>; it is because in both Ugaritic and the <a href="/wiki/Ancient_Hebrew" title="Ancient Hebrew" class="mw-redirect">Ancient Hebrew</a> texts, it is correctly <i><a href="/wiki/Danel" title="Danel">Danel</a></i>.<sup id="cite_ref-solve_0-2" class="reference"><a href="#cite_note-solve-0"><span>[</span>1<span>]</span></a></sup></p>
+<p>The Ugaritic language is attested in texts from the 14th through the 12th century BCE.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup> The city was destroyed in 1180–1170 BCE.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Writing_system"><span class="tocnumber">1</span> <span class="toctext">Writing system</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Phonology"><span class="tocnumber">2</span> <span class="toctext">Phonology</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Grammar"><span class="tocnumber">3</span> <span class="toctext">Grammar</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=1" title="Edit section: Writing system">edit</a>]</span> <span class="mw-headline" id="Writing_system">Writing system</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Ugaritic_alphabet" title="Ugaritic alphabet" class="mw-redirect">Ugaritic alphabet</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="/wiki/File:List_of_Ugarit_gods_AO29393_img_0162.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/List_of_Ugarit_gods_AO29393_img_0162.jpg/250px-List_of_Ugarit_gods_AO29393_img_0162.jpg" width="250" height="250" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:List_of_Ugarit_gods_AO29393_img_0162.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+List of Ugaritic gods</div>
+</div>
+</div>
+<p>The <a href="/wiki/Ugaritic_alphabet" title="Ugaritic alphabet" class="mw-redirect">Ugaritic alphabet</a> is a <a href="/wiki/Cuneiform" title="Cuneiform" class="mw-redirect">cuneiform</a> <a href="/wiki/Abjad" title="Abjad">abjad</a> (alphabet without vowels), used from around 15th century BCE. Although it appears similar to Mesopotamian cuneiform, it was unrelated (see <a href="/wiki/Ugaritic_alphabet" title="Ugaritic alphabet" class="mw-redirect">Ugaritic alphabet</a>). It is the oldest example of the family of West Semitic scripts that were used for <a href="/wiki/Phoenician_script" title="Phoenician script" class="mw-redirect">Phoenician</a>, <a href="/wiki/Hebrew_script" title="Hebrew script" class="mw-redirect">Hebrew</a>, and <a href="/wiki/Aramaic_script" title="Aramaic script" class="mw-redirect">Aramaic</a>. The so-called long alphabet has 31 letters, while the short alphabet has 22. Other languages (particularly <a href="/wiki/Hurrian_language" title="Hurrian language">Hurrian</a>) were occasionally written in it in the Ugarit area, although not elsewhere.</p>
+<p><a href="/wiki/Clay_tablet" title="Clay tablet">Clay tablets</a> written in Ugaritic provide the earliest evidence of both the Levantine and South Semitic orders of the alphabet, which gave rise to the alphabetic orders of the <a href="/wiki/Hebrew_alphabet" title="Hebrew alphabet">Hebrew</a>, <a href="/wiki/Greek_alphabet" title="Greek alphabet">Greek</a>, and <a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin</a> alphabets. The script was written from left to right.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=2" title="Edit section: Phonology">edit</a>]</span> <span class="mw-headline" id="Phonology">Phonology</span></h2>
+<p>Ugaritic has 28 consonantal <a href="/wiki/Phonemes" title="Phonemes" class="mw-redirect">phonemes</a>, including two <a href="/wiki/Semivowels" title="Semivowels" class="mw-redirect">semivowels</a>, and eight <a href="/wiki/Vowel" title="Vowel">vowel</a> phonemes (three short vowels and five long vowels): a ā i ī u ū ē ō. (ē and ō only occur as long vowels and are the result of <a href="/wiki/Monophthongization" title="Monophthongization" class="mw-redirect">monophthongization</a> of the <a href="/wiki/Diphthongs" title="Diphthongs" class="mw-redirect">diphthongs</a> “ay” and “aw” respectively).</p>
+<table class="wikitable" style="text-align: center;">
+<caption><b>Ugaritic consonantal phonemes</b></caption>
+<tr>
+<th rowspan="2" colspan="2">&#160;</th>
+<th rowspan="2"><a href="/wiki/Labial_consonant" title="Labial consonant">Labial</a></th>
+<th rowspan="2"><a href="/wiki/Interdental" title="Interdental" class="mw-redirect">Interdental</a></th>
+<th colspan="2"><a href="/wiki/Dental_consonant" title="Dental consonant">Dental/Alveolar</a></th>
+<th rowspan="2"><a href="/wiki/Palatal_consonant" title="Palatal consonant">Palatal</a></th>
+<th rowspan="2"><a href="/wiki/Velar_consonant" title="Velar consonant">Velar</a></th>
+<th rowspan="2"><a href="/wiki/Uvular_consonant" title="Uvular consonant">Uvular</a></th>
+<th rowspan="2"><a href="/wiki/Pharyngeal_consonant" title="Pharyngeal consonant">Pharyngeal</a></th>
+<th rowspan="2"><a href="/wiki/Glottal_consonant" title="Glottal consonant">Glottal</a></th>
+</tr>
+<tr>
+<th><small>plain</small></th>
+<th><small><a href="/wiki/Pharyngealization" title="Pharyngealization">emphatic</a></small></th>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Nasal_consonant" title="Nasal consonant">Nasal</a></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">m</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">n</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th rowspan="2"><a href="/wiki/Stop_consonant" title="Stop consonant">Stop</a></th>
+<th><small><a href="/wiki/Voiceless_consonant" title="Voiceless consonant" class="mw-redirect">voiceless</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">p</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">t</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">tˤ</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">k</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">q</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʔ</span></td>
+</tr>
+<tr>
+<th><small><a href="/wiki/Voiced_consonant" title="Voiced consonant" class="mw-redirect">voiced</a></small></th>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">b</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">d</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɡ</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th rowspan="2"><a href="/wiki/Fricative_consonant" title="Fricative consonant">Fricative</a></th>
+<th><small><a href="/wiki/Voiceless_consonant" title="Voiceless consonant" class="mw-redirect">voiceless</a></small></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">θ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">s</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">sˤ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʃ</span></td>
+<td colspan="2"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">x</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ħ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">h</span></td>
+</tr>
+<tr>
+<th><small><a href="/wiki/Voiced_consonant" title="Voiced consonant" class="mw-redirect">voiced</a></small></th>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ð</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">z</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ðˤ</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʒ</span><sup id="cite_ref-footnote1_3-0" class="reference"><a href="#cite_note-footnote1-3"><span>[</span>1<span>]</span></a></sup></td>
+<td colspan="2"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ɣ</span><sup id="cite_ref-footnote2_4-0" class="reference"><a href="#cite_note-footnote2-4"><span>[</span>2<span>]</span></a></sup></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">ʕ</span></td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Trill_consonant" title="Trill consonant">Trill</a></th>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">r</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<th colspan="2"><a href="/wiki/Approximant" title="Approximant" class="mw-redirect">Approximant</a></th>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">l</span></td>
+<td>&#160;</td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">j</span></td>
+<td><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">w</span></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</table>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-footnote1-3"><b><a href="#cite_ref-footnote1_3-0">^</a></b> The voiced palatal fricative ʒ occurs as a late variant of the voiced interdental fricative ð.</li>
+<li id="cite_note-footnote2-4"><b><a href="#cite_ref-footnote2_4-0">^</a></b> The voiced velar fricative ɣ occurs as a late variant of the emphatic voiced interdental ðˤ.</li>
+</ol>
+</div>
+<p>The following table shows <a href="/wiki/Proto-Semitic" title="Proto-Semitic" class="mw-redirect">Proto-Semitic</a> <a href="/wiki/Phonemes" title="Phonemes" class="mw-redirect">phonemes</a> and their correspondences among Ugaritic, <a href="/wiki/Arabic" title="Arabic" class="mw-redirect">Arabic</a> and <a href="/wiki/Tiberian_Hebrew" title="Tiberian Hebrew" class="mw-redirect">Tiberian Hebrew</a>:</p>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th width="18%">Proto-Semitic</th>
+<th width="18%">Ugaritic</th>
+<th width="18%" colspan="2"><a href="/wiki/Arabic_language" title="Arabic language">Arabic</a></th>
+<th width="18%" colspan="2"><a href="/wiki/Tiberian_Hebrew" title="Tiberian Hebrew" class="mw-redirect">Tiberian Hebrew</a></th>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">b</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">b</span></td>
+<td>ب</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">b</span></td>
+<td>בּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">b</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">p</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">p</span></td>
+<td>ف</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">f</span></td>
+<td>פּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">p</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḏ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ð]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḏ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ð]</span></td>
+<td>ذ</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ḏ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ð]</span></td>
+<td>ז</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">z</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṯ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[θ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṯ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[θ]</span></td>
+<td>ث</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ṯ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[θ]</span></td>
+<td>שׁ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʃ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṱ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[θʼ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ẓ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ðˤ]</span></td>
+<td>ظ</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ẓ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ðˤ]</span></td>
+<td>צ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">d</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">d</span></td>
+<td>د</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">d</span></td>
+<td>דּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">d</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">t</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">t</span></td>
+<td>ت</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">t</span></td>
+<td>תּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">t</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṭ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tʼ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṭ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tˤ]</span></td>
+<td>ط</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ṭ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tˤ]</span></td>
+<td>ט</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṭ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tˤ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[s]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʃ]</span></td>
+<td>س</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">s</span></td>
+<td>שׁ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʃ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">z</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[dz]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">z</span></td>
+<td>ز</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">z</span></td>
+<td>ז</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">z</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">s</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ts]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">s</span></td>
+<td>س</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">s</span></td>
+<td>ס</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">s</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[tsʼ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+<td>ص</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+<td>צ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">l</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">l</span></td>
+<td>ل</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">l</span></td>
+<td>ל</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">l</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ś</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɬ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʃ]</span></td>
+<td>ش</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">š</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʃ]</span></td>
+<td>שׂ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ś/s</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɬ]→[s]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ́</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[(t)ɬʼ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+<td>ض</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ḍ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɮˤ]→[dˤ]</span></td>
+<td>צ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ṣ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[sˤ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">g</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɡ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">g</span></td>
+<td>ج</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ǧ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɡʲ]→[d͡ʒ]</span></td>
+<td>גּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">g</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">k</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">k</span></td>
+<td>ك</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">k</span></td>
+<td>כּ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">k</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">q</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[kʼ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">q</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[kˤ]</span></td>
+<td>ق</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">q</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[kˤ]</span></td>
+<td>ק</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">q</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[kˤ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ġ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɣ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ġ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɣ]</span><sup id="cite_ref-footnote_7-0" class="reference"><a href="#cite_note-footnote-7"><span>[</span>1<span>]</span></a></sup></td>
+<td>غ</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ġ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɣ]</span></td>
+<td>ע</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʻ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʕ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḫ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[x]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḫ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[x]</span></td>
+<td>خ</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ḫ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[x]</span></td>
+<td>ח</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḥ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ħ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʻ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʕ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʻ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʕ]</span></td>
+<td>ع</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ʻ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʕ]</span></td>
+<td>ע</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʻ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʕ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḥ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ħ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḥ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ħ]</span></td>
+<td>ح</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ḥ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ħ]</span></td>
+<td>ח</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ḥ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ħ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʼ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʔ]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʼ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʔ]</span></td>
+<td>ء</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">ʼ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʔ]</span></td>
+<td>א</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">ʼ</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʔ]</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">h</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">h</span></td>
+<td>ه</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">h</span></td>
+<td>ה</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">h</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">m</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">m</span></td>
+<td>م</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">m</span></td>
+<td>מ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">m</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">n</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">n</span></td>
+<td>ن</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">n</span></td>
+<td>נ</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">n</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">r</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">r</span></td>
+<td>ر</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">r</span></td>
+<td>ר</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">r</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">w</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">w</span></td>
+<td>و</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">w</span></td>
+<td>ו</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">w</span></td>
+</tr>
+<tr>
+<th><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">y</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[j]</span></th>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">y</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[j]</span></td>
+<td>ي</td>
+<td><span title="DIN 31635 Arabic" class="Unicode" style="white-space:normal; text-decoration: none">y</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[j]</span></td>
+<td>י</td>
+<td><span title="Semitic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">y</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[j]</span></td>
+</tr>
+<tr>
+<th width="18%">Proto-Semitic</th>
+<th width="18%">Ugaritic</th>
+<th width="18%" colspan="2"><a href="/wiki/Arabic_language" title="Arabic language">Arabic</a></th>
+<th width="18%" colspan="2"><a href="/wiki/Tiberian_Hebrew" title="Tiberian Hebrew" class="mw-redirect">Tiberian Hebrew</a></th>
+</tr>
+</table>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-footnote-7"><b><a href="#cite_ref-footnote_7-0">^</a></b> Sometimes Ugaritic ġ <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɣ]</span> corresponds to <a href="/wiki/Proto-Semitic" title="Proto-Semitic" class="mw-redirect">Proto-Semitic</a> ṣ́ <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɬˤ]</span>.</li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=3" title="Edit section: Grammar">edit</a>]</span> <span class="mw-headline" id="Grammar">Grammar</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Ugaritic_grammar" title="Ugaritic grammar">Ugaritic grammar</a></div>
+<p>Ugaritic is an <a href="/wiki/Inflected" title="Inflected" class="mw-redirect">inflected</a> language, and as a <a href="/wiki/Semitic_language" title="Semitic language" class="mw-redirect">Semitic language</a> its grammatical features are highly similar to those found in <a href="/wiki/Arabic_Language" title="Arabic Language" class="mw-redirect">Classical Arabic</a> and <a href="/wiki/Akkadian_language" title="Akkadian language">Akkadian</a>. It possesses two <a href="/wiki/Genders" title="Genders" class="mw-redirect">genders</a> (masculine and feminine), three <a href="/wiki/Grammatical_case" title="Grammatical case">cases</a> for <a href="/wiki/Nouns" title="Nouns" class="mw-redirect">nouns</a> and <a href="/wiki/Adjectives" title="Adjectives" class="mw-redirect">adjectives</a> (<a href="/wiki/Nominative" title="Nominative" class="mw-redirect">nominative</a>, <a href="/wiki/Accusative" title="Accusative" class="mw-redirect">accusative</a>, and <a href="/wiki/Genitive" title="Genitive" class="mw-redirect">genitive</a>); three <a href="/wiki/Grammatical_number" title="Grammatical number">numbers</a>: (singular, dual, and plural); and <a href="/wiki/Grammatical_aspect" title="Grammatical aspect">verb aspects</a> similar to those found in other <a href="/wiki/Northwest_Semitic_languages" title="Northwest Semitic languages">Northwest Semitic</a> languages. The <a href="/wiki/Word_order" title="Word order">word order</a> for Ugaritic is <a href="/wiki/Verb-subject-object" title="Verb-subject-object" class="mw-redirect">verb-subject-object</a> (VSO), <a href="/wiki/Possession_(linguistics)" title="Possession (linguistics)">possessed–possessor</a> (NG), and <a href="/wiki/Noun" title="Noun">noun</a>–<a href="/wiki/Adjective" title="Adjective">adjective</a> (NA). Ugaritic is considered a conservative Semitic language, since it retains most of the <a href="/wiki/Proto-Semitic" title="Proto-Semitic" class="mw-redirect">Proto-Semitic</a> <a href="/wiki/Phonemes" title="Phonemes" class="mw-redirect">phonemes</a>, the case system and the word order of the Proto-Semitic ancestor.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 0.5em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td><a href="/wiki/File:Babylonlion.JPG" class="image"><img alt="Babylonlion.JPG" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Babylonlion.JPG/32px-Babylonlion.JPG" width="32" height="28" /></a></td>
+<td style="padding:0 0.2em;"><i><b><a href="/wiki/Portal:Ancient_Near_East" title="Portal:Ancient Near East">Ancient Near East portal</a></b></i></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="/wiki/Ugarit" title="Ugarit">Ugarit</a></li>
+<li><a href="/wiki/Ugaritic_grammar" title="Ugaritic grammar">Ugaritic grammar</a></li>
+<li><a href="/wiki/Ugaritic_alphabet" title="Ugaritic alphabet" class="mw-redirect">Ugaritic alphabet</a></li>
+<li><a href="/wiki/Northwest_Semitic_languages" title="Northwest Semitic languages">Northwest Semitic languages</a></li>
+<li><a href="/wiki/Central_Semitic_languages" title="Central Semitic languages">Central Semitic languages</a></li>
+<li><a href="/wiki/Semitic_Languages" title="Semitic Languages" class="mw-redirect">Semitic Languages</a></li>
+<li><a href="/wiki/Proto-Semitic_language" title="Proto-Semitic language">Proto-Semitic language</a></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=5" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-solve-0">^ <a href="#cite_ref-solve_0-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-solve_0-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-solve_0-2"><sup><i><b>c</b></i></sup></a> Edward L. Greenstein, "Texts from Ugarit Solve Biblical Puzzles," <i><a href="/wiki/Biblical_Archaeology_Review" title="Biblical Archaeology Review">BAR</a></i> 36:06, Nov/Dec 2010, pp. 48-53, 70. Found at <a href="http://www.bib-arch.org/bar/article.asp?PubID=BSBA&amp;Volume=36&amp;Issue=6&amp;ArticleID=5" class="external text" rel="nofollow">Biblical Archaeology Review website</a>. Accessed October 29, 2010.</li>
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <span class="citation book"><a href="/wiki/Cyrus_Herzl_Gordon" title="Cyrus Herzl Gordon">Gordon, Cyrus Herzl</a> (1965). <i>The Ancient Near East</i>. W.W. Norton &amp; Company Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-393-00275-6" title="Special:BookSources/0-393-00275-6">0-393-00275-6</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Ancient+Near+East&amp;rft.aulast=%5B%5BCyrus+Herzl+Gordon%7CGordon%2C+Cyrus+Herzl%5D%5D&amp;rft.au=%5B%5BCyrus+Herzl+Gordon%7CGordon%2C+Cyrus+Herzl%5D%5D&amp;rft.date=1965&amp;rft.pub=W.W.+Norton+%26+Company+Press&amp;rft.isbn=0-393-00275-6&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> at p.99</li>
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> <a href="http://www.theology.edu/ugarbib.htm" class="external text" rel="nofollow">Quartz Hill School of Theology, Ugarit and the Bible</a></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=6" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation book">Bordreuil, Pierre. and Dennis Pardee. (2009). <i>A Manual of Ugaritic: Linguistic Studies in Ancient West Semitic 3</i>. Winona Lake, IN 46590: Eisenbraun's, Inc. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-5750-6153-8" title="Special:BookSources/1-5750-6153-8">1-5750-6153-8</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Manual+of+Ugaritic%3A+Linguistic+Studies+in+Ancient+West+Semitic+3&amp;rft.aulast=Bordreuil%2C+Pierre.+and+Dennis+Pardee.&amp;rft.au=Bordreuil%2C+Pierre.+and+Dennis+Pardee.&amp;rft.date=2009&amp;rft.place=Winona+Lake%2C+IN+46590&amp;rft.pub=Eisenbraun%27s%2C+Inc&amp;rft.isbn=1-5750-6153-8&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Cunchillos, J-L. and Juan-Pablo Vita (2003). <i>A Concordance of Ugaritic Words</i>. Piscataway, NJ: Gorgias Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-59333-258-0" title="Special:BookSources/1-59333-258-0">1-59333-258-0</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Concordance+of+Ugaritic+Words&amp;rft.aulast=Cunchillos%2C+J-L.+and+Juan-Pablo+Vita&amp;rft.au=Cunchillos%2C+J-L.+and+Juan-Pablo+Vita&amp;rft.date=2003&amp;rft.pub=Piscataway%2C+NJ%3A+Gorgias+Press&amp;rft.isbn=1-59333-258-0&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> Also available from <a href="http://www.logos.com/products/details/2954" class="external text" rel="nofollow">Logos Bible Software</a></li>
+<li><span class="citation book">del Olmo Lete, Gregorio; &amp; Sanmartín, Joaquín (2004). <i>A Dictionary of the Ugaritic Language in the Alphabetic Tradition</i>. Brill Academic Publishers. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/90-04-13694-0" title="Special:BookSources/90-04-13694-0">90-04-13694-0</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Dictionary+of+the+Ugaritic+Language+in+the+Alphabetic+Tradition&amp;rft.aulast=del+Olmo+Lete%2C+Gregorio%3B+%26+Sanmart%C3%ADn%2C+Joaqu%C3%ADn&amp;rft.au=del+Olmo+Lete%2C+Gregorio%3B+%26+Sanmart%C3%ADn%2C+Joaqu%C3%ADn&amp;rft.date=2004&amp;rft.pub=Brill+Academic+Publishers&amp;rft.isbn=90-04-13694-0&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> (2 vols), (originally in Spanish, translated by W.G.E. Watson).</li>
+<li><span class="citation book">Gibson, John C.L. (1977). <i>Canaanite Myths and Legends</i>. T. &amp; T. Clark. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-567-02351-6" title="Special:BookSources/0-567-02351-6">0-567-02351-6</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Canaanite+Myths+and+Legends&amp;rft.aulast=Gibson%2C+John+C.L.&amp;rft.au=Gibson%2C+John+C.L.&amp;rft.date=1977&amp;rft.pub=T.+%26+T.+Clark&amp;rft.isbn=0-567-02351-6&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> This contains Latin-alphabet <a href="/wiki/Transliteration" title="Transliteration">transliterations</a> of the Ugaritic texts and facing translations in English.</li>
+<li><span class="citation book"><a href="/wiki/Cyrus_Herzl_Gordon" title="Cyrus Herzl Gordon">Gordon, Cyrus Herzl</a> (1965). <i>The Ancient Near East</i>. W.W. Norton &amp; Company Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-393-00275-6" title="Special:BookSources/0-393-00275-6">0-393-00275-6</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Ancient+Near+East&amp;rft.aulast=%5B%5BCyrus+Herzl+Gordon%7CGordon%2C+Cyrus+Herzl%5D%5D&amp;rft.au=%5B%5BCyrus+Herzl+Gordon%7CGordon%2C+Cyrus+Herzl%5D%5D&amp;rft.date=1965&amp;rft.pub=W.W.+Norton+%26+Company+Press&amp;rft.isbn=0-393-00275-6&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Greenstein, Edward L. (1998). Shlomo Izre'el, Itamar Singer, Ran Zadok. ed. <i>"On a New Grammar of Ugartic" in Past links: studies in the languages and cultures of the ancient near east: Volume 18 of Israel oriental studies</i>. Eisenbrauns. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/97-81575060354" title="Special:BookSources/97-81575060354">97-81575060354</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=%22On+a+New+Grammar+of+Ugartic%22+in+Past+links%3A+studies+in+the+languages+and+cultures+of+the+ancient+near+east%3A+Volume+18+of+Israel+oriental+studies&amp;rft.aulast=Greenstein%2C+Edward+L.&amp;rft.au=Greenstein%2C+Edward+L.&amp;rft.date=1998&amp;rft.pub=Eisenbrauns&amp;rft.isbn=97-81575060354&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span>, found at <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=fKTRZrWTHh4C&amp;oi=fnd&amp;pg=PA397&amp;dq=Edward+L.+Greenstein+Ugaritic&amp;ots=8mScgStP0x&amp;sig=Bma5KRD9V8gleWOrLxtZDRZIy2A#v=onepage&amp;q=Edward%20L.%20Greenstein%20Ugaritic&amp;f=false" class="external text" rel="nofollow">Google Scholar</a></li>
+<li><span class="citation book">Moscati, Sabatino (1980). <i>An Introduction to the Comparative Grammar of Semitic Languages, Phonology and Morphology</i>. Harrassowitz Verlag. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/3-447-00689-7" title="Special:BookSources/3-447-00689-7">3-447-00689-7</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Introduction+to+the+Comparative+Grammar+of+Semitic+Languages%2C+Phonology+and+Morphology&amp;rft.aulast=Moscati%2C+Sabatino&amp;rft.au=Moscati%2C+Sabatino&amp;rft.date=1980&amp;rft.pub=Harrassowitz+Verlag&amp;rft.isbn=3-447-00689-7&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Parker, Simon B. (editor) (1997). <i>Ugaritic Narrative Poetry: Writings from the Ancient World Society of Biblical Literature</i>. Atlanta: Scholars Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7885-0337-5" title="Special:BookSources/0-7885-0337-5">0-7885-0337-5</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ugaritic+Narrative+Poetry%3A+Writings+from+the+Ancient+World+Society+of+Biblical+Literature&amp;rft.aulast=Parker%2C+Simon+B.+%28editor%29&amp;rft.au=Parker%2C+Simon+B.+%28editor%29&amp;rft.date=1997&amp;rft.place=Atlanta&amp;rft.pub=Scholars+Press&amp;rft.isbn=0-7885-0337-5&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Pardee, Dennis (2003-2004),). <i>Rezension von J. Tropper, Ugaritische Grammatik (AOAT 273) Ugarit-Verlag, Münster 2000: Internationale Zeitschrift für die Wissenschaft vom Vorderen Orient</i>. Vienna, Austria: Archiv für Orientforschung (AfO).</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Rezension+von+J.+Tropper%2C+Ugaritische+Grammatik+%28AOAT+273%29+Ugarit-Verlag%2C+M%C3%BCnster+2000%3A+Internationale+Zeitschrift+f%C3%BCr+die+Wissenschaft+vom+Vorderen+Orient&amp;rft.aulast=Pardee%2C+Dennis&amp;rft.au=Pardee%2C+Dennis&amp;rft.date=2003-2004%29%2C&amp;rft.place=Vienna%2C+Austria&amp;rft.pub=Archiv+f%C3%BCr+Orientforschung+%28AfO%29&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> <a href="http://orientalistik.univie.ac.at/fileadmin/user_upload/inst_orientalistik/UgGr_pp._1-100.pdf" class="external text" rel="nofollow">p.1-100,</a> <a href="http://orientalistik.univie.ac.at/fileadmin/user_upload/inst_orientalistik/UgGr_pp._101-200.pdf" class="external text" rel="nofollow">p.101-200,</a> <a href="http://orientalistik.univie.ac.at/fileadmin/user_upload/inst_orientalistik/UgGr_pp._201-300.pdf" class="external text" rel="nofollow">p.201-300</a> <a href="http://orientalistik.univie.ac.at/fileadmin/user_upload/inst_orientalistik/UgGr_pp._301-404.pdf" class="external text" rel="nofollow">p.301-404</a></li>
+<li><span class="citation book">Segert, Stanislav (1997). <i>A Basic Grammar of the Ugaritic Language</i>. University of California Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-520-03999-8" title="Special:BookSources/0-520-03999-8">0-520-03999-8</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Basic+Grammar+of+the+Ugaritic+Language&amp;rft.aulast=Segert%2C+Stanislav&amp;rft.au=Segert%2C+Stanislav&amp;rft.date=1997&amp;rft.pub=University+of+California+Press&amp;rft.isbn=0-520-03999-8&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Sivan, Daniel (1997). <i>A Grammar of the Ugaritic Language (Handbook of Oriental Studies/Handbuch Der Orientalistik)</i>. Brill Academic Publishers. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/90-04-10614-6" title="Special:BookSources/90-04-10614-6">90-04-10614-6</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Grammar+of+the+Ugaritic+Language+%28Handbook+of+Oriental+Studies%2FHandbuch+Der+Orientalistik%29&amp;rft.aulast=Sivan%2C+Daniel&amp;rft.au=Sivan%2C+Daniel&amp;rft.date=1997&amp;rft.pub=Brill+Academic+Publishers&amp;rft.isbn=90-04-10614-6&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span> A more concise grammar.</li>
+<li><span class="citation book">Tropper, J. (2000). <i>Ugartische Grammatik, AOAT 273</i>. Münster, Ugarit Verlag.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ugartische+Grammatik%2C+AOAT+273&amp;rft.aulast=Tropper%2C+J.&amp;rft.au=Tropper%2C+J.&amp;rft.date=2000&amp;rft.pub=M%C3%BCnster%2C+Ugarit+Verlag&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+<li><span class="citation book">Woodard, Roger D. (editor) (2008). <i>The Ancient Languages of Syria-Palestine and Arabia</i>. Cambridge: Cambridge University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0521684986" title="Special:BookSources/0521684986">0521684986</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Ancient+Languages+of+Syria-Palestine+and+Arabia&amp;rft.aulast=Woodard%2C+Roger+D.+%28editor%29&amp;rft.au=Woodard%2C+Roger+D.+%28editor%29&amp;rft.date=2008&amp;rft.place=Cambridge&amp;rft.pub=Cambridge+University+Press&amp;rft.isbn=0521684986&amp;rfr_id=info:sid/en.wikipedia.org:Ugaritic_language"><span style="display: none;">&#160;</span></span></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Ugaritic_language&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a href="http://www.theology.edu/ugarbib.htm" class="external text" rel="nofollow">Ugarit and the Bible</a> (An excerpt from an online introductory course on Ugaritic grammar (the Quartz Hill School of Theology's course noted in the links below); includes a cursory discussion on the relationship between Ugaritic and Old Testament/Hebrew Bible literature.)</li>
+<li><a href="http://www.bbc.co.uk/dna/ww2/A1113436" class="external text" rel="nofollow">BBCi website: "El in the Ugaritic tablets" gives many attributes of the Ugaritic creator and his consort Athirat.</a></li>
+<li><a href="http://www.bibleinterp.com/articles/MSmith_BiblicalMonotheism.htm" class="external text" rel="nofollow">Abstract of Mark Smith, <i>The Origins of Biblical Monotheism: Israel's Polytheistic Background and the Ugaritic Text</i>.</a></li>
+<li><a href="http://www.theology.edu/ugraintr.htm" class="external text" rel="nofollow">Introduction to Ugaritic Grammar</a> (Quartz Hill School of Theology)</li>
+<li><a href="http://www.unicode.org/charts/PDF/U10380.pdf" class="external text" rel="nofollow">Unicode Chart</a></li>
+<li><a href="http://www.logos.com/ugaritic" class="external text" rel="nofollow">What's Ugaritic Got to Do with Anything?</a> by Michael Heiser, Ph.D.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 12814/1000000
+Post-expand include size: 83296/2048000 bytes
+Template argument size: 16881/2048000 bytes
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:212342-0!*!0!!en!4 and timestamp 20110525192021 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Ugaritic_language">http://en.wikipedia.org/wiki/Ugaritic_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Languages_of_Syria" title="Category:Languages of Syria">Languages of Syria</a></span> | <span dir='ltr'><a href="/wiki/Category:Northwest_Semitic_languages" title="Category:Northwest Semitic languages">Northwest Semitic languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Extinct_languages_of_Asia" title="Category:Extinct languages of Asia">Extinct languages of Asia</a></span> | <span dir='ltr'><a href="/wiki/Category:Ugaritic_language_and_literature" title="Category:Ugaritic language and literature">Ugaritic language and literature</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Ugaritic_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Ugaritic_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Ugaritic_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Ugaritic_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Ugaritic_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Ugaritic_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Ugaritic_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Ugaritic_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Ugaritic_language&amp;oldid=418795825" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Ugaritic_language&amp;id=418795825" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Ugaritic+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Ugaritic+language&amp;oldid=418795825&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Ugaritic_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A3%D9%88%D8%BA%D8%A7%D8%B1%D9%8A%D8%AA%D9%8A%D8%A9" title="لغة أوغاريتية">العربية</a></li>
+					<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Idioma_ugaritico" title="Idioma ugaritico">Aragonés</a></li>
+					<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Ugar%C3%ADtic" title="Ugarític">Català</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Ugarit%C5%A1tina" title="Ugaritština">Česky</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Ugaritische_Sprache" title="Ugaritische Sprache">Deutsch</a></li>
+					<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9F%CF%85%CE%B3%CE%BA%CE%B1%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CE%AE_%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1" title="Ουγκαριτική γλώσσα">Ελληνικά</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Ugar%C3%ADtico" title="Ugarítico">Español</a></li>
+					<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Ugaritiko" title="Ugaritiko">Euskara</a></li>
+					<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%88%DA%AF%D8%A7%D8%B1%DB%8C%D8%AA%DB%8C" title="زبان اوگاریتی">فارسی</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Ougaritique" title="Ougaritique">Français</a></li>
+					<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Lingua_ugar%C3%ADtica" title="Lingua ugarítica">Galego</a></li>
+					<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/%C3%9Agar%C3%ADt" title="Úgarít">Íslenska</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lingua_ugaritica" title="Lingua ugaritica">Italiano</a></li>
+					<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%95%D7%92%D7%A8%D7%99%D7%AA%D7%99%D7%AA" title="אוגריתית">עברית</a></li>
+					<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%A3%D0%B3%D0%B0%D1%80%D0%B8%D1%82_%D1%82%D1%96%D0%BB%D1%96" title="Угарит тілі">Қазақша</a></li>
+					<li class="interwiki-rw"><a href="http://rw.wikipedia.org/wiki/Icyugaritike" title="Icyugaritike">Kinyarwanda</a></li>
+					<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%A3%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA" title="Угаритски јазик">Македонски</a></li>
+					<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%AF%E0%B5%81%E0%B4%97%E0%B4%BE%E0%B4%B0%E0%B4%BF%E0%B4%A4%E0%B5%80%E0%B4%AF_%E0%B4%AD%E0%B4%BE%E0%B4%B7" title="യുഗാരിതീയ ഭാഷ">മലയാളം</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Ugaritisch" title="Ugaritisch">Nederlands</a></li>
+					<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%AC%E3%83%AA%E3%83%83%E3%83%88%E8%AA%9E" title="ウガリット語">日本語</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Ugarittisk" title="Ugarittisk">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Ugarittisk_spr%C3%A5k" title="Ugarittisk språk">‪Norsk (nynorsk)‬</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/J%C4%99zyk_ugarycki" title="Język ugarycki">Polski</a></li>
+					<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/L%C3%ADngua_ugar%C3%ADtica" title="Língua ugarítica">Português</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A3%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Угаритский язык">Русский</a></li>
+					<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Ugarit%C5%A1%C4%8Dina" title="Ugaritščina">Slovenščina</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Ugaritin_kieli" title="Ugaritin kieli">Suomi</a></li>
+					<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%B9%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%81" title="ภาษายูการิติก">ไทย</a></li>
+					<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%B1%DB%8C%D9%B9%DA%A9" title="یوگریٹک">اردو</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%83%8F%E5%8A%A0%E9%87%8C%E7%89%B9%E8%AA%9E" title="烏加里特語">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 14 March 2011 at 15:55.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Ugaritic_language", "wgTitle": "Ugaritic language", "wgAction": "view", "wgArticleId": 212342, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 418795825, "wgCategories": ["Languages of Syria", "Northwest Semitic languages", "Extinct languages of Asia", "Ugaritic language and literature"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "91fb473df5f78a1cf341e7a3a0dc98a0", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv172 in 3.127 secs. -->			</body>
+</html>

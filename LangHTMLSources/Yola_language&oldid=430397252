@@ -1,0 +1,770 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Yola language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Yola_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Yola_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Yola_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Yola_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Yola language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: lawngreen">Yola</th>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; font-weight: bold; color: black; background-color: lawngreen">Yola</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><a href="/wiki/Ireland" title="Ireland">Ireland</a></td>
+</tr>
+<tr>
+<th>Region</th>
+<td colspan="2"><a href="/wiki/Wexford" title="Wexford">Wexford</a></td>
+</tr>
+<tr>
+<th><a href="/wiki/Extinct_language" title="Extinct language">Language extinction</a></th>
+<td colspan="2">Mid-19th century</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Indo-European_languages" title="Indo-European languages">Indo-European</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Germanic_languages" title="Germanic languages">Germanic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/West_Germanic_languages" title="West Germanic languages">West Germanic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Anglo-Frisian_languages" title="Anglo-Frisian languages">Anglo-Frisian</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/Anglic_languages" title="Anglic languages" class="mw-redirect">Anglic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Yola</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: lawngreen">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=yol" class="extiw" title="iso639-3:yol">yol</a></tt></td>
+</tr>
+<tr>
+<th><a href="/wiki/Linguasphere_Observatory" title="Linguasphere Observatory">Linguasphere</a></th>
+<td colspan="2"><tt>52-ABA-bd</tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<p><b>Yola</b> is an <a href="/wiki/Extinct_language" title="Extinct language">extinct</a> <a href="/wiki/West_Germanic_language" title="West Germanic language" class="mw-redirect">West Germanic language</a> formerly spoken in <a href="/wiki/Ireland" title="Ireland">Ireland</a>. A branch of <a href="/wiki/Middle_English_language" title="Middle English language" class="mw-redirect">Middle English</a>, it evolved separately among the English (known as <a href="/wiki/Old_English_(Ireland)" title="Old English (Ireland)">the Old English</a>) who followed the <a href="/wiki/Normans" title="Normans">Norman</a> barons <a href="/wiki/Richard_de_Clare,_2nd_Earl_of_Pembroke" title="Richard de Clare, 2nd Earl of Pembroke">Strongbow</a> and <a href="/wiki/Robert_Fitz-Stephen" title="Robert Fitz-Stephen">Robert Fitzstephen</a> to eastern <a href="/wiki/Ireland" title="Ireland">Ireland</a> in 1169.</p>
+<p>The dialect, which in the period before its extinction was known as "Yola", meaning "old", evolved separately from the mainstream of English. Perhaps as a result of the geographic isolation and predominately rural character of the communities where it was spoken, Yola seems to have changed little down the centuries from when it first arrived in Ireland, apart from assimilating many Irish words. By the early 19th century, it was distinctly different from English spoken elsewhere.</p>
+<p>The language continued to be spoken in south <a href="/wiki/County_Wexford" title="County Wexford">County Wexford</a> until the early to mid-19th century when it was gradually replaced with modern <a href="/wiki/Hiberno-English" title="Hiberno-English">Hiberno-English</a>. By the mid 19th century, the language was only spoken in remote parts of Forth, County Wexford. It was succumbing to the same set of social, political and economic processes and policies which were extinguishing the Irish language and by the end of that century little remained of its unique linguistic heritage.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Geographic_distribution"><span class="tocnumber">1</span> <span class="toctext">Geographic distribution</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Classification"><span class="tocnumber">2</span> <span class="toctext">Classification</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Phonology"><span class="tocnumber">3</span> <span class="toctext">Phonology</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Grammar"><span class="tocnumber">4</span> <span class="toctext">Grammar</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Pronouns"><span class="tocnumber">4.1</span> <span class="toctext">Pronouns</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Verbs"><span class="tocnumber">4.2</span> <span class="toctext">Verbs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Vocabulary"><span class="tocnumber">5</span> <span class="toctext">Vocabulary</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Modern_South_Wexford_English"><span class="tocnumber">6</span> <span class="toctext">Modern South Wexford English</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Examples"><span class="tocnumber">7</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#A_Yola_Song"><span class="tocnumber">7.1</span> <span class="toctext">A Yola Song</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Cardinal_numbers_in_Yola"><span class="tocnumber">7.2</span> <span class="toctext">Cardinal numbers in Yola</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Address_to_Lord_Lieutenant_in_1836"><span class="tocnumber">7.3</span> <span class="toctext">Address to Lord Lieutenant in 1836</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=1" title="Edit section: Geographic distribution">edit</a>]</span> <span class="mw-headline" id="Geographic_distribution">Geographic distribution</span></h2>
+<div class="floatright"><a href="/wiki/File:Forth-Bargy.gif" class="image"><img alt="Forth-Bargy.gif" src="http://upload.wikimedia.org/wikipedia/en/7/76/Forth-Bargy.gif" width="270" height="280" /></a></div>
+<p>It was mainly spoken in the <a href="/wiki/Barony" title="Barony">baronies</a> of Forth and <a href="/wiki/Bargy" title="Bargy">Bargy</a>, two of the ten baronies of <a href="/wiki/County_Wexford" title="County Wexford">County Wexford</a> in the South East of Ireland.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=2" title="Edit section: Classification">edit</a>]</span> <span class="mw-headline" id="Classification">Classification</span></h2>
+<p>Yola was a descendant of Middle English closely related to the dialects of South West England (Devon and Somerset) and <a href="/wiki/Little_England_beyond_Wales" title="Little England beyond Wales">South Pembrokeshire</a>.</p>
+<p>The urban settlements of Wexford and Dublin were both founded by the <a href="/wiki/Vikings" title="Vikings" class="mw-redirect">Vikings</a>. It is possible that the English which flourished there was influenced by the Norse speech of the Vikings, although no evidence exists to support this theory.</p>
+<p>There is also little evidence to support the theory of a link to <a href="/wiki/Dutch_language" title="Dutch language">Dutch</a> or Flemish.</p>
+<p>The now-extinct language of north <a href="/wiki/County_Dublin" title="County Dublin">County Dublin</a>, <a href="/wiki/Fingalian" title="Fingalian" class="mw-redirect">Fingalian</a>, originated around the same time and is believed to have been very similar.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=3" title="Edit section: Phonology">edit</a>]</span> <span class="mw-headline" id="Phonology">Phonology</span></h2>
+<p>As in the <a href="/wiki/Dutch_language" title="Dutch language">Dutch language</a> and south-western varieties of <a href="/wiki/English_language" title="English language">English</a>, most <a href="/wiki/Voiceless_consonant" title="Voiceless consonant" class="mw-redirect">voiceless</a> <a href="/wiki/Fricative_consonant" title="Fricative consonant">fricatives</a> in Yola became <a href="/wiki/Voiced_consonant" title="Voiced consonant" class="mw-redirect">voiced</a>. The <a href="/wiki/Middle_English_language" title="Middle English language" class="mw-redirect">Middle English</a> vowels are well-preserved, with no evidence of the <a href="/wiki/Great_Vowel_Shift" title="Great Vowel Shift">Great Vowel Shift</a>.</p>
+<p>One striking characteristic of Yola was the fact that <a href="/wiki/Stress_(linguistics)" title="Stress (linguistics)">stress</a> was shifted to the second syllable of words in many instances: <i>mor<u>saale</u></i> "morsel", <i>hat<u>cheat</u></i> "hatchet", <i>di<u>neare</u></i> "dinner", <i>rea<u>deare</u></i> "reader", <i>wed<u>deen</u></i> "wedding", etc.<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=4" title="Edit section: Grammar">edit</a>]</span> <span class="mw-headline" id="Grammar">Grammar</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=5" title="Edit section: Pronouns">edit</a>]</span> <span class="mw-headline" id="Pronouns">Pronouns</span></h3>
+<p>Yola pronouns are similar to Modern English pronouns except in the first person singular and third person plural.<sup id="cite_ref-Poole_1867.2C_p.133_1-0" class="reference"><a href="#cite_note-Poole_1867.2C_p.133-1"><span>[</span>2<span>]</span></a></sup></p>
+<table class="wikitable">
+<caption>First and Second Person</caption>
+<tr>
+<th rowspan="2"></th>
+<th colspan="2">First Person</th>
+<th colspan="2">Second Person</th>
+</tr>
+<tr>
+<th>singular</th>
+<th>plural</th>
+<th>singular</th>
+<th>plural</th>
+</tr>
+<tr>
+<th>nom.</th>
+<td>Ich</td>
+<td>wough/wee</td>
+<td>thou</td>
+<td>ye</td>
+</tr>
+<tr>
+<th>acc.</th>
+<td>me</td>
+<td>ouse</td>
+<td>thee</td>
+<td>ye</td>
+</tr>
+<tr>
+<th>gen.</th>
+<td>mee</td>
+<td>oure</td>
+<td>yer</td>
+<td>yer</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=6" title="Edit section: Verbs">edit</a>]</span> <span class="mw-headline" id="Verbs">Verbs</span></h3>
+<p>Yola verbs had some conservative characteristics. The second and third person plural endings are sometimes -eth as in Chaucerian English. The past participle retains the Middle English "y" prefix as "ee". <sup id="cite_ref-Poole_1867.2C_p.133_1-1" class="reference"><a href="#cite_note-Poole_1867.2C_p.133-1"><span>[</span>2<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=7" title="Edit section: Vocabulary">edit</a>]</span> <span class="mw-headline" id="Vocabulary">Vocabulary</span></h2>
+<p>The <a href="/wiki/Glossary" title="Glossary">glossary</a> compiled by Jacob Poole provides us with most of what we know about Yola vocabulary. Poole was a farmer and member of the <a href="/wiki/Quaker" title="Quaker" class="mw-redirect">Religious Society of Friends</a> from Growtown in the Parish of Taghmon on the border between the baronies of Bargy and Shelmalier.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup> He collected words and phrases from his tenants and farm labourers between 1800 and his death in 1827.</p>
+<p>Although most of its vocabulary is Anglo-Saxon in origin, Yola contains many borrowings from <a href="/wiki/Irish_language" title="Irish language">Irish</a> and <a href="/wiki/French_language" title="French language">French</a>.</p>
+<table class="wikitable">
+<tr>
+<th>Yola</th>
+<th>English</th>
+<th>Frisian</th>
+<th>Dutch</th>
+<th>German</th>
+<th>Irish</th>
+</tr>
+<tr>
+<td>Weisforthe</td>
+<td>Wexford</td>
+<td>"Wexford"</td>
+<td>"Wexford"</td>
+<td>"Wexford"</td>
+<td>Loch Garman</td>
+</tr>
+<tr>
+<td>zin</td>
+<td>sun</td>
+<td>sinne</td>
+<td>zon</td>
+<td>Sonn</td>
+<td>Grian</td>
+</tr>
+<tr>
+<td>lhoan</td>
+<td>land</td>
+<td>lân</td>
+<td>land</td>
+<td>Land</td>
+<td>Talamh</td>
+</tr>
+<tr>
+<td>die</td>
+<td>day</td>
+<td>dei</td>
+<td>dag</td>
+<td>Tag</td>
+<td>Iá</td>
+</tr>
+<tr>
+<td>theezil</td>
+<td>yourself</td>
+<td>dysels</td>
+<td>jezelf/dijzelf (old)</td>
+<td>dich selbst</td>
+<td>féin</td>
+</tr>
+<tr>
+<td>vriene</td>
+<td>friend</td>
+<td>freon</td>
+<td>vriend</td>
+<td>Freunde</td>
+<td>Cara</td>
+</tr>
+<tr>
+<td>a, ee</td>
+<td>the</td>
+<td>de, it</td>
+<td>de</td>
+<td>die, der, den, das</td>
+<td>an</td>
+</tr>
+<tr>
+<td>dhing</td>
+<td>thing</td>
+<td>ding</td>
+<td>ding</td>
+<td>Ding</td>
+<td>rud</td>
+</tr>
+<tr>
+<td>fho</td>
+<td>who</td>
+<td>wa</td>
+<td>wie</td>
+<td>wer</td>
+<td>a</td>
+</tr>
+<tr>
+<td>ee-go</td>
+<td>gone</td>
+<td>gean</td>
+<td>gaan</td>
+<td>gehen</td>
+<td>imithe</td>
+</tr>
+<tr>
+<td>egast</td>
+<td>fear</td>
+<td>frees</td>
+<td>vrees</td>
+<td>furcht</td>
+<td>eagla</td>
+</tr>
+<tr>
+<td>yola, yole</td>
+<td>old</td>
+<td>âld</td>
+<td>oud</td>
+<td>alt</td>
+<td>sean</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=8" title="Edit section: Modern South Wexford English">edit</a>]</span> <span class="mw-headline" id="Modern_South_Wexford_English">Modern South Wexford English</span></h2>
+<p>Diarmaid Ó Muirithe travelled to South Wexford in 1978 to study the English spoken there.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>4<span>]</span></a></sup> His informants ranged in age between 40 and 90. Among the long list of words still known or in use at that time are the following:</p>
+<ul>
+<li><b>Amain</b>: ‘Going on amain’ = getting on well</li>
+<li><b>Bolsker</b>: an unfriendly person</li>
+<li><b>Chy</b>: a little</li>
+<li><b>Drazed</b>: threadbare</li>
+<li><b>Fash</b>: confusion, in a fash</li>
+<li><b>Keek</b>: to peep</li>
+<li><b>Saak</b>: to sunbathe, to relax in front of the fire</li>
+<li><b>Quare</b>: 'Very' or 'Extremely'</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=9" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=10" title="Edit section: A Yola Song">edit</a>]</span> <span class="mw-headline" id="A_Yola_Song">A Yola Song</span></h3>
+<p>Fade teil thee zo lournagh, co Joane, zo knaggee?<br />
+Th' weithest all curcagh, wafur, an cornee.<br />
+Lidge w'ouse an a milagh, tis gaay an louthee:<br />
+Huck nigher; y'art scuddeen; fartoo zo hachee?</p>
+<p>Well, gosp, c'hull be zeid; mot thee fartoo, an fade;<br />
+Ha deight ouse var gabble, tell ee zin go t'glade.<br />
+Ch'am a stouk, an a donel; wou'll leigh out ee dey.<br />
+Th' valler w'speen here, th' lass ee chourch-hey.</p>
+<p>Yerstey w'had a baree, gist ing oor hoane,<br />
+Aar gentrize ware bibbern, aamzil cou no stoane.<br />
+Yith Muzleare had ba hole, t'was mee Tommeen,<br />
+At by mizluck was ee-pit t'drive in.</p>
+<p>Joud an moud vrem earchee ete was ee Lough.<br />
+Zitch vaperreen, an shimmereen, fan ee-daf ee aar scoth!<br />
+Zitch blakeen, an blayeen, fan ee ball was ee-drowe!<br />
+Chote well aar aim was t'yie ouz n'eer a blowe.</p>
+<p>Mot w'all aar boust, hi soon was ee-teight<br />
+At aar errone was var ameing 'ar 'ngish ee-height.<br />
+Zitch vezzeen, tarvizzeen, 'tell than w'ne'er zey.<br />
+Nore zichel ne'er well, nowe, nore ne'er mey.</p>
+<p>(There are nine more verses).</p>
+<p><b>Rough translation into Modern English</b></p>
+<p><b>An Old Song</b></p>
+<p>What ails you so melancholy, quoth John, so cross?<br />
+You seem all snappish, uneasy, and fretful.<br />
+Lie with us on the clover, 'tis fair and sheltered:<br />
+Come nearer; you're rubbing your back; why so ill tempered?</p>
+<p>Well, gossip, it shall be told; you ask me what ails me, and for what;<br />
+You have put us in talk, till the sun goes to set.<br />
+I am a fool and a dunce; we'll idle out the day.<br />
+The more we spend here, the less in the churchyard.</p>
+<p>Yesterday we had a goal just in our hand.<br />
+Their gentry were quaking, themselves could not stand.<br />
+If Good-for-little had been buried, it had been my Tommy,<br />
+Who by misluck was placed to drive in.</p>
+<p>Throngs and crowds from each quarter were at the Lough;<br />
+Such vapouring and glittering when stript in their shirts!<br />
+Such bawling and shouting, when the ball was thrown!<br />
+I saw their intent was to give us ne'er a stroke.</p>
+<p>But with all their bravado they were soon taught<br />
+That their errand was aiming to bring anguish upon them<br />
+Such driving, and struggling, 'till then we ne'er saw<br />
+Nor such never will, no, nor never may.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=11" title="Edit section: Cardinal numbers in Yola">edit</a>]</span> <span class="mw-headline" id="Cardinal_numbers_in_Yola">Cardinal numbers in Yola</span></h3>
+<table>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+<tr>
+<td>oane</td>
+<td>twye</td>
+<td>dhree</td>
+<td>vowér</td>
+<td>veeve</td>
+<td>zeese</td>
+<td>zebbem</td>
+<td>ayght</td>
+<td>neene</td>
+<td>dhen</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=12" title="Edit section: Address to Lord Lieutenant in 1836">edit</a>]</span> <span class="mw-headline" id="Address_to_Lord_Lieutenant_in_1836">Address to Lord Lieutenant in 1836</span></h3>
+<p>Congratulatory address in the dialect of Forth and Bargy, presented to Earl Musgrave, <a href="/wiki/Lord_Lieutenant_of_Ireland" title="Lord Lieutenant of Ireland">Lord Lieutenant of Ireland</a> on his visit to Wexford in 1836 taken from the <i>Wexford Independent</i> newspaper of 15 February 1860. The paper’s editor Mr Edmund Hore writes:</p>
+<p><i>The most remarkable fact, in reality, in connexion with the address is this. In all probability it was the first time regal or vice-regal ears were required to listen to word of such a dialect; an it is even still more probable that a like event will never happen again; for if the use of this old tongue dies out as fast for the next five-and-twenty years as it has for the same bygone period, it will be utterly extinct and forgotten before the present century shall have closed.</i></p>
+<p><i>In order for a person not acquainted with the pronunciation of the dialect to form anything like an idea of it, it is first necessary to speak slowly, and remember that the letter a has invariably the same sound, like</i> a <i>in “father”. Double</i> ee <i>sounds like</i> e <i>in “me”, and most words of two syllables the long accent is placed on the last. To follow the English pronunciation completely deprives the dialect of its peculiarities.</i></p>
+<p><b>To’s Excellencie Constantine Harrie Phipps, y’ Earle Mulgrave, Lord Lieutenant-General and General Governor of Ireland. Ye soumissive Spakeen o’ouz Dwelleres o’ Baronie Forthe, Weisforthe.</b></p>
+<p>MAI’T BE PLESANT TO TH’ECCELLENCIE, - Wee, Vassalès o’ ‘His Most Gracious majesty’, Wilyame ee Vourthe, an, az wee verilie chote, na coshe and loyale dwellerès na Baronie Forthe, crave na dicke luckie acte t’uck neicher th’ Eccellencie, an na plaine grabe o’ oure yola talke, wi vengem o’ core t’gie ours zense o’ y gradès whilke be ee-dighte wi yer name; and whilke we canna zei, albeit o’ ‘Governere’, ‘Statesman’, an alike. Yn ercha and aul o’ while yt beeth wi gleezom o’ core th’ oure eyen dwytheth apan ye Vigere o’dicke Zouvereine, Wilyame ee Vourthe, unnere fose fatherlie zwae oure diaez be ee-spant, az avare ye trad dicke londe yer name waz ee-kent var <i>ee vriene o’ livertie</i>, an <i>He fo brake ye neckares o’ zlaves</i>. Mang ourzels – var wee dwytheth an Irelonde az ure genreale haim – y’ast, bie ractzom o’honde, ee-delt t’ouz ye laas ee-mate var ercha vassale, ne’er dwythen na dicke waie nar dicka. Wee dwyth ye ane fose dais be gien var ee guidevare o’ye londe ye zwae, - t’avance pace an livertie, an, wi’oute vlynch, ee garde o’ generale reights an poplare vartue. Ye pace – yea, we mai zei, ye vast pace whilke bee ee-stent owr ye londe zince th’ast ee-cam, proo’th, y’at wee alane needeth ye giftes o’generale rights, az be displayth bie ee factes o’thie goveremente. Ye state na dicke daie o’ye londe, na whilke be nar fash nar moile, albeit ‘constitutional agitation’, ye wake o’hopes ee-blighte, stampe na yer zwae be rare an lightzom. Yer name var zetch avancet avare ye, e’en a dicke var hye, arent whilke ye brine o’zea an dye craggès o’noghanes cazed nae balke. Na oure gladès ana whilke we dellt wi’ mattoke, an zing t’oure caulès wi plou, wee hert ee zough o’ye colure o’ pace na name o’ <i>Mulgrave</i>. Wi Irishmen ower generale houpes be ee-boud – az Irishmen, an az dwellerès na cosh an loyale o’ Baronie Forthe, w’oul daie an ercha daie, our meines an oure gurles, praie var long an happie zins, shorne o’lournagh an ee-vilt wi benisons, an yersel and oure gude Zovereine, till ee zin o’oure daies be var aye be ee-go to’glade.</p>
+<p><b>Standard English Translation</b></p>
+<p><b>To his Excellency, Constantine Henry Phipps, Earl Mulgrave, Lord Lieutenant-General, and General Governor of Ireland. The humble Address of the Inhabitants of the Barony of Forth, Wexford.</b></p>
+<p>MAY IT PLEASE YOUR EXCELLENCY – We, the subjects of his Most Gracious Majesty, William IV, and, as we truly believe, both faithful and loyal inhabitants of the Barony of Forth, beg leave at this favourable opportunity to approach your Excellency, and in the simple dress of our old dialect to pour forth from the strength (or fullness) of our hearts, our sense (or admiration) of the qualities which characterise your name, and for which we have no words but of ‘Governor’, ‘Statesman’, etc. In each and every condition it is with joy of heart that our eyes rest upon the representative of the Sovereign, William IV, under whose paternal rule our days are spent; for before your foot pressed the soil, your name was known to us as the <i>friend of liberty</i>, and <i>he who broke the fetters of the slave</i>. Unto ourselves – for we look on Ireland to be our common country – you have with impartial hand ministered the laws made for every subject, without regard to this party or that. We behold in you one whose days are devoted to the welfare of the land you govern, to promote peace and liberty – the uncompromising guardian of the common right and public virtue. The peace – yes, we may say the profound peace – which overspreads the land since your arrival, proves that we alone stood in need of the enjoyment of common privileges, as is demonstrated by the results of your government. The condition, this day, of the country, in which is neither tumult nor disorder, but that constitutional agitation, the consequence of disappointed hopes, confirms your rule to be rare and enlightened. Your fame for such came before you even into this retired spot, to which neither the waters of the sea below nor the mountains above caused any impediment. In our valleys, where we were digging with the spade, or as we whistled to our horses in the plough, we heard the distant sound of the wings of the dove of peace, in the word <i>Mulgrave</i>. With Irishmen our common hopes are inseparably bound up – as Irishmen, and as inhabitants, faithful and loyal, of the Barony Forth, we will daily and every day, our wives and our children, implore long and happy days, free from melancholy and full of blessings, for yourself and our good Sovereign, until the sun of our lives be gone down the dark valley (of death).</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=13" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist references-column-count references-column-count-1" style="column-count: 1; -moz-column-count: 1; -webkit-column-count: 1; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> <span class="citation book"><a href="/wiki/T._F._O%27Rahilly" title="T. F. O'Rahilly">O'Rahilly, T. F</a> (1932). "The Accent in the English of South-east Wexford". <i>Irish Dialects Past and Present</i>. Dublin: Browne and Nolan. pp.&#160;94–98.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=The+Accent+in+the+English+of+South-east+Wexford&amp;rft.atitle=Irish+Dialects+Past+and+Present&amp;rft.aulast=O%27Rahilly&amp;rft.aufirst=T.+F&amp;rft.au=O%27Rahilly%2C%26%2332%3BT.+F&amp;rft.date=1932&amp;rft.pages=pp.%26nbsp%3B94%E2%80%9398&amp;rft.place=Dublin&amp;rft.pub=Browne+and+Nolan&amp;rfr_id=info:sid/en.wikipedia.org:Yola_language"><span style="display: none;">&#160;</span></span> Reprinted 1972 by the Dublin Institute for Advanced Studies, <a href="/wiki/Special:BookSources/0901282553" class="internal mw-magiclink-isbn">ISBN 0-901282-55-3</a>.</li>
+<li id="cite_note-Poole_1867.2C_p.133-1">^ <a href="#cite_ref-Poole_1867.2C_p.133_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Poole_1867.2C_p.133_1-1"><sup><i><b>b</b></i></sup></a> Poole 1867, p.133.</li>
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> Jacob Poole of Growtown.</li>
+<li id="cite_note-3"><b><a href="#cite_ref-3">^</a></b> <span class="citation book">Dolan, T.&#160;P.; D. Ó Muirithe (1996). <i>The Dialect of Forth and Bargy Co. Wexford, Ireland</i>. Four Courts Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85182-200-3" title="Special:BookSources/1-85182-200-3">1-85182-200-3</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Dialect+of+Forth+and+Bargy+Co.+Wexford%2C+Ireland&amp;rft.aulast=Dolan&amp;rft.aufirst=T.%26nbsp%3BP.&amp;rft.au=Dolan%2C%26%2332%3BT.%26nbsp%3BP.&amp;rft.date=1996&amp;rft.pub=Four+Courts+Press&amp;rft.isbn=1-85182-200-3&amp;rfr_id=info:sid/en.wikipedia.org:Yola_language"><span style="display: none;">&#160;</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=14" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="refbegin" style="">
+<ul>
+<li>Poole's Glossary (1867) – Ed. Rev. William Barnes (Editorial 'Observations')</li>
+<li>Poole's Glossary (1979) – Ed. Dr. D. O'Muirithe &amp; T.P. Dolan (Corrected Etymologies)</li>
+<li>The Anglo-Norman and their English Dialect of South-East Wexford by Diarmaid ó Muirithe, from the book The English Language in Ireland, a compilation of lectures from the Tomas Davis Lecture Series broadcast on RTE radio and published in printed form in 1977. <a href="/wiki/Special:BookSources/0853424527" class="internal mw-magiclink-isbn">ISBN 0-85342-452-7</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Yola_language&amp;action=edit&amp;section=15" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a href="http://homepage.tinet.ie/~taghmon/histsoc/vol3/chapter4/chapter4.htm" class="external text" rel="nofollow">Jacob Poole of Growtown — And the Yola Dialect</a></li>
+<li><a href="http://books.google.com/books?id=KBEHAAAAQAAJ&amp;printsec=titlepage&amp;dq=A+Yola+Zong" class="external text" rel="nofollow">A Glossary of Yola</a></li>
+</ul>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";background:#ccddff;" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Germanic_philology" title="Template:Germanic philology"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/wiki/Template_talk:Germanic_philology" title="Template talk:Germanic philology"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Germanic_philology&amp;action=edit" class="external text" rel="nofollow"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/Germanic_languages" title="Germanic languages">Germanic languages</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Germanic_philology" title="Germanic philology">Germanic philology</a></span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Language subgroups</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/North_Germanic_languages" title="North Germanic languages">North</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/East_Germanic_languages" title="East Germanic languages">East</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Germanic_languages" title="West Germanic languages">West</a><br />
+<i>North&#160;<span style="font-weight:bold;">·</span> East&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Irminones" title="Irminones">Elbe</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Istvaeones" title="Istvaeones">Weser-Rhine</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Ingvaeonic_languages" title="Ingvaeonic languages">North Sea</a></i></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Reconstructed</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Proto-Germanic_language" title="Proto-Germanic language">Proto-Germanic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Proto-Germanic_grammar" title="Proto-Germanic grammar">Proto-Germanic grammar</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Historical languages</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;">
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">North</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Proto-Norse_language" title="Proto-Norse language">Proto-Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Norse" title="Old Norse">Old Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Swedish" title="Old Swedish">Old Swedish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Gutnish" title="Old Gutnish">Old Gutnish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Norn_language" title="Norn language">Norn</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Greenlandic_Norse" title="Greenlandic Norse">Greenlandic Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Norwegian" title="Old Norwegian">Old Norwegian</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">East</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Gothic_language" title="Gothic language">Gothic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Crimean_Gothic" title="Crimean Gothic">Crimean Gothic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Vandalic_language" title="Vandalic language">Vandalic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Burgundian_language_(Germanic)" title="Burgundian language (Germanic)">Burgundian</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">West</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Old_Saxon" title="Old Saxon">Old Saxon</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Low_German" title="Middle Low German">Middle Low German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_High_German" title="Old High German">Old High German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_High_German" title="Middle High German">Middle High German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Frankish" title="Old Frankish">Old Frankish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Dutch" title="Old Dutch">Old Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Dutch" title="Middle Dutch">Middle Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Frisian" title="Old Frisian">Old Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Frisian" title="Middle Frisian" class="mw-redirect">Middle Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_English" title="Old English">Old English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_English" title="Middle English">Middle English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Early_Scots" title="Early Scots">Early Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Scots" title="Middle Scots">Middle Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Lombardic_language" title="Lombardic language">Lombardic</a>&#160;<span style="font-weight:bold;">·</span> <strong class="selflink">Yola</strong></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Modern languages</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Afrikaans" title="Afrikaans">Afrikaans</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Alemannic_German" title="Alemannic German">Alemannic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Danish_language" title="Danish language">Danish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Dutch_language" title="Dutch language">Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/English_language" title="English language">English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Faroese_language" title="Faroese language">Faroese</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/German_language" title="German language">German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Modern_Gutnish" title="Modern Gutnish">Gutnish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Icelandic_language" title="Icelandic language">Icelandic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Limburgish_language" title="Limburgish language">Limburgish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Low_German" title="Low German">Low German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Luxembourgish_language" title="Luxembourgish language">Luxembourgish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/North_Frisian_language" title="North Frisian language">North Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Norwegian_language" title="Norwegian language">Norwegian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Saterland_Frisian_language" title="Saterland Frisian language">Saterland Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Scots_language" title="Scots language">Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Swedish_language" title="Swedish language">Swedish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Frisian_language" title="West Frisian language">West Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Yiddish_language" title="Yiddish language">Yiddish</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Diachronic features</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Grimm%27s_law" title="Grimm's law">Grimm's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Verner%27s_law" title="Verner's law">Verner's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Holtzmann%27s_law" title="Holtzmann's law">Holtzmann's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Sievers%27_law" title="Sievers' law">Sievers' law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_substrate_hypothesis" title="Germanic substrate hypothesis">Germanic substrate hypothesis</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Germanic_gemination" title="West Germanic gemination">West Germanic gemination</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/High_German_consonant_shift" title="High German consonant shift">High German consonant shift</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Germanic_a-mutation" title="Germanic a-mutation">Germanic a-mutation</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_umlaut" title="Germanic umlaut">Germanic umlaut</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_spirant_law" title="Germanic spirant law">Germanic spirant law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Ingvaeonic_nasal_spirant_law" title="Ingvaeonic nasal spirant law">Ingvaeonic nasal spirant law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Great_Vowel_Shift" title="Great Vowel Shift">Great vowel shift</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Synchronic features</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Germanic_verb" title="Germanic verb">Germanic verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_strong_verb" title="Germanic strong verb">Germanic strong verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_weak_verb" title="Germanic weak verb">Germanic weak verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Preterite-present_verb" title="Preterite-present verb">Preterite-present verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Grammatischer_Wechsel" title="Grammatischer Wechsel">Grammatischer Wechsel</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Indo-European_ablaut" title="Indo-European ablaut">Indo-European ablaut</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Language histories</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/History_of_the_English_language" title="History of the English language">English</a> (<a href="/wiki/Phonological_history_of_the_English_language" title="Phonological history of the English language" class="mw-redirect">phonology</a>)&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Scots_language" title="History of the Scots language">Scots</a> (<a href="/wiki/Phonological_history_of_the_Scots_language" title="Phonological history of the Scots language" class="mw-redirect">phonology</a>)&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/History_of_German" title="History of German">German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Dutch_language" title="History of the Dutch language" class="mw-redirect">Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_Danish" title="History of Danish">Danish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Icelandic_language" title="History of the Icelandic language" class="mw-redirect">Icelandic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_Swedish" title="History of Swedish">Swedish</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 3354/1000000
+Post-expand include size: 66660/2048000 bytes
+Template argument size: 28516/2048000 bytes
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:951538-0!*!0!!en!4 and timestamp 20110528183444 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Yola_language">http://en.wikipedia.org/wiki/Yola_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Extinct_Germanic_languages" title="Category:Extinct Germanic languages">Extinct Germanic languages</a></span> | <span dir='ltr'><a href="/wiki/Category:English_languages" title="Category:English languages">English languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Middle_English_language" title="Category:Middle English language">Middle English language</a></span> | <span dir='ltr'><a href="/wiki/Category:Medieval_languages" title="Category:Medieval languages">Medieval languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_Ireland" title="Category:Languages of Ireland">Languages of Ireland</a></span> | <span dir='ltr'><a href="/wiki/Category:Extinct_languages_of_Europe" title="Category:Extinct languages of Europe">Extinct languages of Europe</a></span> | <span dir='ltr'><a href="/wiki/Category:County_Wexford" title="Category:County Wexford">County Wexford</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Yola_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Yola_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Yola_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Yola_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Yola_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Yola_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Yola_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Yola_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Yola_language&amp;oldid=430397252" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Yola_language&amp;id=430397252" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Yola+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Yola+language&amp;oldid=430397252&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Yola_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Yoleg" title="Yoleg">Brezhoneg</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Yol%C5%A1tina" title="Yolština">Česky</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Yola_(Sprache)" title="Yola (Sprache)">Deutsch</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Yola_(idioma)" title="Yola (idioma)">Español</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9A%9C%EB%9D%BC%EC%96%B4" title="욜라어">한국어</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lingua_Yola" title="Lingua Yola">Italiano</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Yola" title="Yola">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/J%C4%99zyk_Yola" title="Język Yola">Polski</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%99%D0%BE%D0%BB%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)" title="Йола (язык)">Русский</a></li>
+					<li class="interwiki-sco"><a href="http://sco.wikipedia.org/wiki/Yola_leid" title="Yola leid">Scots</a></li>
+					<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/Jola_(jezik)" title="Jola (jezik)">Српски / Srpski</a></li>
+					<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Jola_(jezik)" title="Jola (jezik)">Srpskohrvatski / Српскохрватски</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Yola" title="Yola">Suomi</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%BA%A6%E6%8B%89%E8%AF%AD" title="约拉语">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 22 May 2011 at 19:50.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Yola_language", "wgTitle": "Yola language", "wgAction": "view", "wgArticleId": 951538, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 430397252, "wgCategories": ["Extinct Germanic languages", "English languages", "Middle English language", "Medieval languages", "Languages of Ireland", "Extinct languages of Europe", "County Wexford"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "22b15f0020e147d4e9a9ff59b0b8fa19", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv246 in 0.837 secs. -->			</body>
+</html>

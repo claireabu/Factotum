@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Norn language - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.17wmf1" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Norn_language&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Norn_language&amp;action=edit" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki%21legacy%21commonPrint%7Cmediawiki%21legacy%21shared%7Cskins%21vector&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<meta name="ResourceLoaderDynamicStyles" content="" /><link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" type="text/css" media="all" />
+<style type="text/css" media="all">a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: enwiki:resourceloader:filter:minify-css:5:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script type="text/javascript">wgNamespaceNumber=0;wgAction="view";wgPageName="Norn_language";wgMainPageTitle="Main Page";wgWikimediaMobileUrl="http:\/\/en.m.wikipedia.org\/wiki";</script><script src="http://bits.wikimedia.org/w/extensions-1.17/WikimediaMobile/MobileRedirect.js?8.2" type="text/javascript"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.17/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Norn_language skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- centralNotice loads here --><script type="text/javascript">
+/* <![CDATA[ */
+document.writeln("\x3cdiv id=\"localNotice\"\x3e\x3cp\x3e\x3c/p\x3e\n\x3c/div\x3e");
+/* ]]> */
+</script></div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">Norn language</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table class="metadata plainlinks ambox ambox-style" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style="">This article's <b>citation style may be unclear</b>. The references used may be made clearer with a different or consistent style of <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">citation</a>, <a href="/wiki/Wikipedia:Footnotes" title="Wikipedia:Footnotes" class="mw-redirect">footnoting</a>, or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external linking</a>. <small><i>(September 2009)</i></small></td>
+</tr>
+</table>
+<table class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<tr>
+<th colspan="3" style="text-align: center; font-size: 125%; font-weight: bold; color: black; background-color: lawngreen">Norn</th>
+</tr>
+<tr>
+<th>Spoken in</th>
+<td><a href="/wiki/Shetland" title="Shetland">Shetland</a>, <a href="/wiki/Orkney" title="Orkney">Orkney</a> and <a href="/wiki/Caithness" title="Caithness">Caithness</a></td>
+</tr>
+<tr>
+<th><a href="/wiki/Extinct_language" title="Extinct language">Language extinction</a></th>
+<td colspan="2">by the 18th century (19th century at the latest); much earlier in Caithness</td>
+</tr>
+<tr>
+<th><a href="/wiki/Language_family" title="Language family">Language family</a></th>
+<td colspan="2" style="text-align:left"><a href="/wiki/Indo-European_languages" title="Indo-European languages">Indo-European</a>
+<ul style="line-height:100%; margin-left:15px;padding-left:0">
+<li><a href="/wiki/Germanic_languages" title="Germanic languages">Germanic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li><a href="/wiki/North_Germanic_languages" title="North Germanic languages">North Germanic</a>
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>West Scandinavian
+<ul style="line-height:100%; margin-left:5px;padding-left:0">
+<li>Norn</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th colspan="3" style="text-align: center; color: black; background-color: lawngreen">Language codes</th>
+</tr>
+<tr>
+<th><a href="/wiki/ISO_639-3" title="ISO 639-3">ISO 639-3</a></th>
+<td colspan="2"><tt><a href="http://www.sil.org/iso639-3/documentation.asp?id=nrn" class="extiw" title="iso639-3:nrn">nrn</a></tt></td>
+</tr>
+<tr>
+<th><a href="/wiki/Linguasphere_Observatory" title="Linguasphere Observatory">Linguasphere</a></th>
+<td colspan="2"><tt>52-AAA-ac</tt></td>
+</tr>
+<tr>
+<td colspan="3" class="boilerplate metadata" style="line-height:10pt; padding:0.5em;"><small><b>Note</b>: This page may contain <a href="/wiki/Wikipedia:IPA" title="Wikipedia:IPA">IPA</a> phonetic symbols in <a href="/wiki/Unicode" title="Unicode">Unicode</a>.</small></td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Languages_of_Scotland_1400_AD.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Languages_of_Scotland_1400_AD.svg/220px-Languages_of_Scotland_1400_AD.svg.png" width="220" height="335" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Languages_of_Scotland_1400_AD.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Languages of Scotland about 1400 CE, based on placename evidence. Orange is Norn, yellow is English/Scots and blue is Scottish Gaelic.</div>
+</div>
+</div>
+<p><b>Norn</b> is an extinct <a href="/wiki/North_Germanic_language" title="North Germanic language" class="mw-redirect">North Germanic language</a> that was spoken in <a href="/wiki/Shetland" title="Shetland">Shetland</a> and <a href="/wiki/Orkney" title="Orkney">Orkney</a>, off the north coast of mainland <a href="/wiki/Scotland" title="Scotland">Scotland</a>, and in <a href="/wiki/Caithness" title="Caithness">Caithness</a>. After the islands were <a href="/wiki/Pledge_(law)" title="Pledge (law)">pledged</a> to Scotland by Norway in the 15th century, it was gradually replaced by <a href="/wiki/Scots_language" title="Scots language">Scots</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Classification"><span class="tocnumber">2</span> <span class="toctext">Classification</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Sounds"><span class="tocnumber">3</span> <span class="toctext">Sounds</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Grammar"><span class="tocnumber">4</span> <span class="toctext">Grammar</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Sample_text"><span class="tocnumber">5</span> <span class="toctext">Sample text</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Modern_use"><span class="tocnumber">6</span> <span class="toctext">Modern use</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=1" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>It is not known exactly when Norn became extinct. The last reports of Norn speakers are claimed to be from the 19th century, but it is more likely that the language was dying out in the late 18th century (Price 1984: 203). The more isolated islands of <a href="/wiki/Foula" title="Foula">Foula</a> and <a href="/wiki/Unst" title="Unst">Unst</a> are variously claimed as the last refuges of the language in Shetland, where there were people "who could repeat sentences in Norn,"<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup> probably passages from folk songs or poems, as late as 1893. <a href="/wiki/Walter_Sutherland_(Norn)" title="Walter Sutherland (Norn)">Walter Sutherland</a> from Skaw in Unst, who died about 1850, has been cited as the last native speaker of the Norn language. However, fragments of vocabulary survived the death of the main language and remain to this day, mainly in place-names and terms referring to plants, animals, weather, mood, and fishing vocabulary.</p>
+<p>Dialects of Norse had also been spoken on mainland Scotland—for example, in <a href="/wiki/Caithness" title="Caithness">Caithness</a>—but here they became extinct many centuries before Norn died on Orkney and Shetland. Hence, some scholars also speak about "Caithness Norn", but others avoid this. Even less is known about "Caithness Norn" than about Orkney and Shetland Norn. Next to no written Norn has survived. What remains includes a version of the <a href="/wiki/Lord%27s_Prayer" title="Lord's Prayer">Lord's Prayer</a> and a <a href="/wiki/Ballad" title="Ballad">ballad</a>. <a href="/wiki/Michael_Barnes" title="Michael Barnes">Michael Barnes</a>, professor of Scandinavian Studies at University College London, has published a study, <i>The Norn Language of Orkney and Shetland</i>.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=2" title="Edit section: Classification">edit</a>]</span> <span class="mw-headline" id="Classification">Classification</span></h2>
+<p>Norn is an <a href="/wiki/Indo-European_language" title="Indo-European language" class="mw-redirect">Indo-European language</a> belonging to the <a href="/wiki/North_Germanic_language" title="North Germanic language" class="mw-redirect">North Germanic</a> branch of the <a href="/wiki/Germanic_language" title="Germanic language" class="mw-redirect">Germanic languages</a>. Together with <a href="/wiki/Faroese_language" title="Faroese language">Faroese</a>, <a href="/wiki/Icelandic_language" title="Icelandic language">Icelandic</a> and <a href="/wiki/Norwegian_language" title="Norwegian language">Norwegian</a> it belongs to the West Scandinavian group, separating it from the East Scandinavian group consisting of <a href="/wiki/Swedish_language" title="Swedish language">Swedish</a> and <a href="/wiki/Danish_language" title="Danish language">Danish</a>. While this classification is based on the differences between the North Germanic languages at the time they split, their present-day characteristics justify another classification, dividing them into an <i>Insular Scandinavian</i> and <i>Mainland Scandinavian</i> language groups, based on mutual intelligibility. Under this system, Norwegian is grouped together with the neighbouring languages Danish and Swedish, because the last millennium has seen all three undergo important changes, especially in grammar and lexis, which have set them apart from Faroese and Icelandic. Norn is generally considered to have been fairly similar to Faroese, sharing many phonological and grammatical traits with this language, and might even have been mutually intelligible with it; thus, it can be considered an Insular Scandinavian language.</p>
+<p>Few written texts remain. It is to be distinguished from the present day 'dialect', termed by linguists <a href="/wiki/Shetlandic" title="Shetlandic">Shetlandic</a>.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=3" title="Edit section: Sounds">edit</a>]</span> <span class="mw-headline" id="Sounds">Sounds</span></h2>
+<p>The <a href="/wiki/Phonology" title="Phonology">phonology</a> of Norn can never be determined with much precision due to the lack of source material, but the general aspects can be extrapolated from the few written sources that do exist. Norn shared many traits with the dialects of south-west <a href="/wiki/Norway" title="Norway">Norway</a>. This includes a voicing of <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/p, t, k/</span> to <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[b, d, ɡ]</span> before or between vowels and (in the <a href="/wiki/Shetlandic" title="Shetlandic">Shetland dialect</a>, but only partially in the <a href="/wiki/Orcadian_dialect" title="Orcadian dialect">Orkney dialect</a>) a conversion of <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/θ/</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/ð/</span> ("<b>th</b>ing" and "<b>th</b>at" respectively) to <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[t]</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[d]</span> respectively.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=4" title="Edit section: Grammar">edit</a>]</span> <span class="mw-headline" id="Grammar">Grammar</span></h2>
+<p>The features of Norn grammar were very similar to the other Scandinavian languages. There were two <a href="/wiki/Number_(grammar)" title="Number (grammar)" class="mw-redirect">numbers</a>, three <a href="/wiki/Gender_(grammar)" title="Gender (grammar)" class="mw-redirect">genders</a> and four <a href="/wiki/Case_(grammar)" title="Case (grammar)" class="mw-redirect">cases</a> (<a href="/wiki/Nominative" title="Nominative" class="mw-redirect">nominative</a>, <a href="/wiki/Accusative" title="Accusative" class="mw-redirect">accusative</a>, <a href="/wiki/Genitive" title="Genitive" class="mw-redirect">genitive</a> and <a href="/wiki/Dative" title="Dative" class="mw-redirect">dative</a>). The two main conjugations of <a href="/wiki/Verb" title="Verb">verbs</a> in <a href="/wiki/Present_tense" title="Present tense">present</a> and <a href="/wiki/Past_tense" title="Past tense">past tense</a> were also present and like all other North Germanic languages, it used a <a href="/wiki/Suffix" title="Suffix">suffix</a> instead of a prepositioned <a href="/wiki/Article_(linguistics)" title="Article (linguistics)" class="mw-redirect">article</a> to indicate definiteness as in modern Scandinavian: <i>man(n)</i> ("man"); <i>mannen</i> ("the man"). Though it is difficult to be certain of much of the aspects of Norn grammar, documents indicate that it may have featured subjectless clauses, which were common in the West Scandinavian languages.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=5" title="Edit section: Sample text">edit</a>]</span> <span class="mw-headline" id="Sample_text">Sample text</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:142px;"><a href="/wiki/File:Faroe_stamp_047_europe_(jakob_jakobsen).jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Faroe_stamp_047_europe_%28jakob_jakobsen%29.jpg/140px-Faroe_stamp_047_europe_%28jakob_jakobsen%29.jpg" width="140" height="188" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Faroe_stamp_047_europe_(jakob_jakobsen).jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="/wiki/Jakob_Jakobsen" title="Jakob Jakobsen">Jakob Jakobsen</a> was a <a href="/wiki/Faroes" title="Faroes" class="mw-redirect">Faroese</a> linguist and leading documentarist of Norn</div>
+</div>
+</div>
+<p>The following are Norn and old Norse versions of the <a href="/wiki/Lord%27s_Prayer" title="Lord's Prayer">Lord's Prayer</a>: <a href="http://www.christusrex.org/www1/pater/index-mn.html#N" class="external autonumber" rel="nofollow">[1]</a></p>
+<ul>
+<li><a href="/wiki/Orkney" title="Orkney">Orkney</a> Norn:</li>
+</ul>
+<dl>
+<dd><i>Favor i ir i chimrie, / Helleur ir i nam thite,</i></dd>
+<dd><i>gilla cosdum thite cumma, / veya thine mota vara gort</i></dd>
+<dd><i>o yurn sinna gort i chimrie, / ga vus da on da dalight brow vora</i></dd>
+<dd><i>Firgive vus sinna vora / sin vee Firgive sindara mutha vus,</i></dd>
+<dd><i>lyv vus ye i tumtation, / min delivera vus fro olt ilt, Amen.</i></dd>
+</dl>
+<ul>
+<li><a href="/wiki/Shetland" title="Shetland">Shetland</a> Norn:</li>
+</ul>
+<dl>
+<dd><i>Fy vor or er i Chimeri. / Halaght vara nam dit.</i></dd>
+<dd><i>La Konungdum din cumma. / La vill din vera guerde</i></dd>
+<dd><i>i vrildin sindaeri chimeri. / Gav vus dagh u dagloght brau.</i></dd>
+<dd><i>Forgive sindorwara / sin vi forgiva gem ao sinda gainst wus.</i></dd>
+<dd><i>Lia wus ikè o vera tempa, / but delivra wus fro adlu idlu.</i></dd>
+<dd><i>For do i ir Kongungdum, u puri, u glori, Amen</i></dd>
+</dl>
+<ul>
+<li><a href="/wiki/Nordic_countries" title="Nordic countries">Nordic countries</a> Old (West) Norse:</li>
+</ul>
+<dl>
+<dd><i>Faþer vár es ert í himenríki, verði nafn þitt hæilagt</i></dd>
+<dd><i>Til kome ríke þitt, værði vili þin</i></dd>
+<dd><i>sva a iarðu sem í himnum. Gef oss í dag brauð vort dagligt</i></dd>
+<dd><i>Ok fyr gefþu oss synþer órar, sem vér fyr gefom þeim er viþ oss hafa misgert</i></dd>
+<dd><i>Leiðd oss eigi í freistni, heldr leys þv oss frá ollu illu.</i></dd>
+</dl>
+<p>Modern Icelandic</p>
+<dl>
+<dd>"Faðir vor, þú sem ert á himnum."</dd>
+<dd>"Helgist þitt nafn, til komi þitt ríki,"</dd>
+<dd>"verði þinn vilji, svo á jörðu sem á himni."</dd>
+<dd>"Gef oss í dag vort daglegt brauð."</dd>
+<dd>"Fyrirgef oss vorar skuldir,"</dd>
+<dd>"svo sem vér og fyrirgefum"</dd>
+<dd>"vorum skuldunautum."</dd>
+<dd>"Og eigi leið þú oss í freistni,"</dd>
+<dd>"heldur frelsa oss frá illu."</dd>
+<dd>"Því að þitt er ríkið, mátturinn og dýrðin"</dd>
+<dd>að eilífu."</dd>
+<dd>Amen."</dd>
+</dl>
+<p>Modern <a href="/wiki/Norwegian_language" title="Norwegian language">Norwegian</a> (<a href="/wiki/Nynorsk" title="Nynorsk">nynorsk</a>)</p>
+<dl>
+<dd><i>Fader vår, du som er i himmelen!</i></dd>
+<dd><i>Lat namnet ditt helgast..</i></dd>
+<dd><i>Lat riket ditt koma.</i></dd>
+<dd><i>Lat viljen din råda</i></dd>
+<dd><i>på jorda så som i himmelen.</i></dd>
+<dd><i>Gjev oss i dag vårt daglege brød.</i></dd>
+<dd><i>Forlat vår skuld, som vi òg forlèt våre skuldmenn.</i></dd>
+<dd><i>Før oss ikkje ut i freisting, men frels oss frå det vonde.</i></dd>
+<dd><i>For riket er ditt, og makta og æra i all æve. Amen.</i></dd>
+</dl>
+<p>Modern Norwegian (<a href="/wiki/Bokm%C3%A5l" title="Bokmål">bokmål</a>)</p>
+<dl>
+<dd><i>Fader vår, du som er i himmelen!</i></dd>
+<dd><i>La ditt navn være hellig.</i></dd>
+<dd><i>La ditt rike komme.</i></dd>
+<dd><i>La din vilje skje</i></dd>
+<dd><i>på jorden som i himmelen.</i></dd>
+<dd><i>Gi oss i dag vårt daglige brød.</i></dd>
+<dd><i>Forlat oss våre synder, som vi óg forlater våre syndere.</i></dd>
+<dd><i>Led oss ikke inn i fristelse, men frels oss fra det onde.</i></dd>
+<dd><i>For riket er ditt, og makten og æren i evighet. Amen.</i></dd>
+</dl>
+<p>A Shetland "guddick" (<a href="/wiki/Riddle" title="Riddle">riddle</a>) in Norn, which <a href="/wiki/Jakob_Jakobsen" title="Jakob Jakobsen">Jakob Jakobsen</a> heard told on <a href="/wiki/Unst" title="Unst">Unst</a>, the northernmost island in <a href="/wiki/Shetland" title="Shetland">Shetland</a>, in the 1890s. The same riddle is also known from the <a href="/wiki/Faroe_Islands" title="Faroe Islands">Faroe Islands</a>.</p>
+<table width="100%" border="1">
+<tr>
+<td valign="top"><b>Shetland Norn</b> (<a href="/wiki/Jakob_Jakobsen" title="Jakob Jakobsen">Jakob Jakobsen</a>)
+<dl>
+<dd>Fira honga, fira gonga,</dd>
+<dd>Fira staad upo "skø"</dd>
+<dd>Twa veestra vaig a bee</dd>
+<dd>And een comes atta driljandi.</dd>
+</dl>
+</td>
+<td valign="top"><a href="/wiki/Faroese_language" title="Faroese language">Faroese</a>
+<dl>
+<dd>Fýra hanga, fýra ganga,</dd>
+<dd>Fýra standa uppí ský</dd>
+<dd>Tvey vísa veg á bø</dd>
+<dd>Og ein darlar aftast</dd>
+</dl>
+</td>
+<td valign="top"><a href="/wiki/English_language" title="English language">English</a> translation
+<dl>
+<dd>Four hang, four walk,</dd>
+<dd>Four stand skyward,</dd>
+<dd>Two show the way to the field</dd>
+<dd>And one comes shaking behind</dd>
+</dl>
+</td>
+<td valign="top"><a href="/wiki/Icelandic_language" title="Icelandic language">Icelandic</a>
+<dl>
+<dd>Fjórir hanga, fjórir ganga,</dd>
+<dd>Fjórir veg vísa,</dd>
+<dd>Tveir fyrir hundum verja</dd>
+<dd>Einn eftir drallar,</dd>
+<dd>sá er oftast saurugur</dd>
+</dl>
+</td>
+</tr>
+</table>
+<p>The answer is a cow. Four <a href="/wiki/Teat" title="Teat" class="mw-redirect">teats</a> hang, four legs walk, two <a href="/wiki/Horn_(anatomy)" title="Horn (anatomy)">horns</a> and two ears stand skyward, two eyes show the way to the field and one tail comes shaking (dangling) behind.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=6" title="Edit section: Modern use">edit</a>]</span> <span class="mw-headline" id="Modern_use">Modern use</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="/wiki/File:Yellferries.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Yellferries.jpg/200px-Yellferries.jpg" width="200" height="150" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Yellferries.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<i>Daggri</i> and <i>Dagalien</i> at <a href="/wiki/Ulsta" title="Ulsta">Ulsta</a>, <a href="/wiki/Isle_of_Yell" title="Isle of Yell" class="mw-redirect">Yell</a>, <a href="/wiki/Shetland" title="Shetland">Shetland</a>.</div>
+</div>
+</div>
+<p>Most of the use of Norn/Norse in modern day Shetland and Orkney is purely ceremonial, and mostly in Old Norse, for example the Shetland motto, which is "<b><a href="http://en.wiktionary.org/wiki/me%C3%B0_l%C3%B6gum_skal_land_byggja" class="extiw" title="wikt:með lögum skal land byggja">Með lögum skal land byggja</a></b>" ("with law shall land be built") which is the same motto used by the Icelandic police force.</p>
+<p>Another example of the use of Norse/Norn in the <a href="/wiki/Northern_Isles" title="Northern Isles">Northern Isles</a> can be found in the names of ferries:</p>
+<ul>
+<li><a href="/wiki/Northlink_Ferries" title="Northlink Ferries">Northlink Ferries</a> has ships named <a href="/wiki/MV_Hamnavoe" title="MV Hamnavoe">MV <i>Hamnavoe</i></a> (after the old name for <a href="/wiki/Stromness" title="Stromness">Stromness</a>), and <a href="/wiki/MV_Hjaltland" title="MV Hjaltland">MV <i>Hjaltland</i></a> (<a href="/wiki/Shetland" title="Shetland">Shetland</a>) and <a href="/wiki/MV_Hrossey" title="MV Hrossey">MV <i>Hrossey</i></a> ("Horse Island", an old name for <a href="/wiki/Mainland,_Orkney" title="Mainland, Orkney">Mainland, Orkney</a>).</li>
+<li>The Yell Sound <a href="/wiki/Ferry" title="Ferry">Ferry</a> sails from <a href="/wiki/Ulsta" title="Ulsta">Ulsta</a> on the <a href="/wiki/Island" title="Island">island</a> to <a href="/wiki/Toft,_Shetland" title="Toft, Shetland">Toft</a> on the <a href="/wiki/Shetland_Mainland" title="Shetland Mainland" class="mw-redirect">Shetland Mainland</a>. The service is operated by two ferries—<i>Daggri</i> (Norse for "dawn"), launched in 2003 and <i>Dagalien</i> (Norse for "dusk), launched in 2004.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=7" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> Price, Glanville. The Languages of Britain. London: Edward Arnold 1984. <a href="/wiki/Special:BookSources/9780713164527" class="internal mw-magiclink-isbn">ISBN 978-0-7131-6452-7</a>, p. 204</li>
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <span class="citation web"><a href="http://www.shetland.gov.uk/ferries/fleet/newyellsound.asp#Dagalien" class="external text" rel="nofollow">"The Fleet – New Yell Sound Ferries"</a>. <a href="/wiki/Shetland_Islands_Council" title="Shetland Islands Council">Shetland Islands Council</a><span class="printonly">. <a href="http://www.shetland.gov.uk/ferries/fleet/newyellsound.asp#Dagalien" class="external free" rel="nofollow">http://www.shetland.gov.uk/ferries/fleet/newyellsound.asp#Dagalien</a></span><span class="reference-accessdate">. Retrieved 2008-02-04</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=The+Fleet+%E2%80%93+New+Yell+Sound+Ferries&amp;rft.atitle=&amp;rft.pub=%5B%5BShetland+Islands+Council%5D%5D&amp;rft_id=http%3A%2F%2Fwww.shetland.gov.uk%2Fferries%2Ffleet%2Fnewyellsound.asp%23Dagalien&amp;rfr_id=info:sid/en.wikipedia.org:Norn_language"><span style="display: none;">&#160;</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=8" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="/wiki/Udal_law" title="Udal law">Udal law</a>, the Norse law system of the Northern Isles.</li>
+<li><a href="/wiki/Fingalian" title="Fingalian" class="mw-redirect">Fingalian</a>, the Anglo-Norse language of Co. Dublin.</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=9" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Barnes, Michael P. <i>The Norn Language of Orkney &amp; Shetland</i>. Lerwick: Shetland Times 1998. <a href="/wiki/Special:BookSources/1898852294" class="internal mw-magiclink-isbn">ISBN 1-898852-29-4</a></li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=10" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Barnes, Michael P. "Orkney and Shetland Norn". In <i>Language in the British Isles</i>, ed. Peter Trudgill, 352-66. Cambridge: Cambridge University Press, 1984.</li>
+<li>Jakobsen, Jakob. <i>An Etymological Dictionary of the Norn Language in Shetland</i>. 2 vols. London/Copenhagen: David Nutt/Vilhelm Prior, 1928-32 (reprinted 1985).</li>
+<li>Low, George. <i>A Tour through the Islands of Orkney and Schetland</i>. Kirkwall: William Peace, 1879.</li>
+<li><a href="/wiki/Hugh_Marwick" title="Hugh Marwick">Marwick, Hugh</a>. <i>The Orkney Norn</i>. London: Oxford University Press, 1929.</li>
+<li>Rendboe, Laurits. "The Lord's Prayer in Orkney and Shetland Norn 1-2". <i>North-Western European Language Evolution</i> 14 (1989): 77-112 and 15 (1990): 49-111.</li>
+<li>Wallace, James. <i>An Account of the Islands of Orkney</i>. London: Jacob Tonson, 1700.</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Norn_language&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<div class="infobox sisterproject">
+<div class="floatleft"><a href="/wiki/File:Incubator-notext.svg" class="image" title="Wikimedia Incubator"><img alt="Wikimedia Incubator" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Incubator-notext.svg/40px-Incubator-notext.svg.png" width="40" height="50" /></a></div>
+<div style="margin-left: 60px;"><i><b><a href="http://incubator.wikimedia.org/wiki/Wp/nrn/Main_Page" class="extiw" title="incubator:Wp/nrn/Main Page">Norn language test</a></b></i> of <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a> at <a href="http://meta.wikimedia.org/wiki/Wikimedia_Incubator" class="extiw" title="meta:Wikimedia Incubator">Wikimedia Incubator</a></div>
+</div>
+<ul>
+<li><a href="http://www.nornlanguage.110mb.com/" class="external text" rel="nofollow">Orkney&amp;Shetland Norn</a> Collection of all known texts in Norn, description of its phonology and grammar</li>
+<li><a href="http://www.foulaheritage.org.uk/Foula%201774%20%20Norn.htm" class="external text" rel="nofollow">Foula Heritage</a> about Norn language incl. the 'Hildina Ballad'</li>
+<li><a href="http://www.ethnologue.com/show_language.asp?code=nrn" class="external text" rel="nofollow">Ethnologue report on Norn</a></li>
+<li><a href="http://www.shetlanddictionary.com" class="external text" rel="nofollow">The Shetland dictionary containing many Shetland Norn words</a></li>
+</ul>
+<table class="navbox" cellspacing="0" style=";">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+<tr>
+<th style=";background:#ccddff;" colspan="2" class="navbox-title"><span style="float:left;width:6em;text-align:left;"><span class="noprint plainlinks navbar" style=""><span style="white-space:nowrap;word-spacing:-.12em;"><a href="/wiki/Template:Germanic_philology" title="Template:Germanic philology"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="View this template">v</span></a> <span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="/wiki/Template_talk:Germanic_philology" title="Template talk:Germanic philology"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="Discuss this template">d</span></a> <span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;"><b>·</b></span> <a href="http://en.wikipedia.org/w/index.php?title=Template:Germanic_philology&amp;action=edit" class="external text" rel="nofollow"><span style=";background:#ccddff;;background:none transparent;border:none;font-size:100%;" title="Edit this template">e</span></a></span></span></span><span class="" style="font-size:110%;"><a href="/wiki/Germanic_languages" title="Germanic languages">Germanic languages</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Germanic_philology" title="Germanic philology">Germanic philology</a></span></th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Language subgroups</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/North_Germanic_languages" title="North Germanic languages">North</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/East_Germanic_languages" title="East Germanic languages">East</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Germanic_languages" title="West Germanic languages">West</a><br />
+<i>North&#160;<span style="font-weight:bold;">·</span> East&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Irminones" title="Irminones">Elbe</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Istvaeones" title="Istvaeones">Weser-Rhine</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Ingvaeonic_languages" title="Ingvaeonic languages">North Sea</a></i></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Reconstructed</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Proto-Germanic_language" title="Proto-Germanic language">Proto-Germanic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Proto-Germanic_grammar" title="Proto-Germanic grammar">Proto-Germanic grammar</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Historical languages</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;">
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">North</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Proto-Norse_language" title="Proto-Norse language">Proto-Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Norse" title="Old Norse">Old Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Swedish" title="Old Swedish">Old Swedish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Gutnish" title="Old Gutnish">Old Gutnish</a>&#160;<span style="font-weight:bold;">·</span> <strong class="selflink">Norn</strong>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Greenlandic_Norse" title="Greenlandic Norse">Greenlandic Norse</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Norwegian" title="Old Norwegian">Old Norwegian</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">East</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Gothic_language" title="Gothic language">Gothic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Crimean_Gothic" title="Crimean Gothic">Crimean Gothic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Vandalic_language" title="Vandalic language">Vandalic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Burgundian_language_(Germanic)" title="Burgundian language (Germanic)">Burgundian</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;background:#ccddff; padding:0.2em;;">
+<div style="padding:0em 0.75em;">West</div>
+</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Old_Saxon" title="Old Saxon">Old Saxon</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Low_German" title="Middle Low German">Middle Low German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_High_German" title="Old High German">Old High German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_High_German" title="Middle High German">Middle High German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Frankish" title="Old Frankish">Old Frankish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Dutch" title="Old Dutch">Old Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Dutch" title="Middle Dutch">Middle Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_Frisian" title="Old Frisian">Old Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Frisian" title="Middle Frisian" class="mw-redirect">Middle Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Old_English" title="Old English">Old English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_English" title="Middle English">Middle English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Early_Scots" title="Early Scots">Early Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Middle_Scots" title="Middle Scots">Middle Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Lombardic_language" title="Lombardic language">Lombardic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Yola_language" title="Yola language">Yola</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Modern languages</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Afrikaans" title="Afrikaans">Afrikaans</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Alemannic_German" title="Alemannic German">Alemannic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Danish_language" title="Danish language">Danish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Dutch_language" title="Dutch language">Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/English_language" title="English language">English</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Faroese_language" title="Faroese language">Faroese</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/German_language" title="German language">German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Modern_Gutnish" title="Modern Gutnish">Gutnish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Icelandic_language" title="Icelandic language">Icelandic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Limburgish_language" title="Limburgish language">Limburgish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Low_German" title="Low German">Low German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Luxembourgish_language" title="Luxembourgish language">Luxembourgish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/North_Frisian_language" title="North Frisian language">North Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Norwegian_language" title="Norwegian language">Norwegian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Saterland_Frisian_language" title="Saterland Frisian language">Saterland Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Scots_language" title="Scots language">Scots</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Swedish_language" title="Swedish language">Swedish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Frisian_language" title="West Frisian language">West Frisian</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Yiddish_language" title="Yiddish language">Yiddish</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Diachronic features</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/Grimm%27s_law" title="Grimm's law">Grimm's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Verner%27s_law" title="Verner's law">Verner's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Holtzmann%27s_law" title="Holtzmann's law">Holtzmann's law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Sievers%27_law" title="Sievers' law">Sievers' law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_substrate_hypothesis" title="Germanic substrate hypothesis">Germanic substrate hypothesis</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/West_Germanic_gemination" title="West Germanic gemination">West Germanic gemination</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/High_German_consonant_shift" title="High German consonant shift">High German consonant shift</a>&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/Germanic_a-mutation" title="Germanic a-mutation">Germanic a-mutation</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_umlaut" title="Germanic umlaut">Germanic umlaut</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_spirant_law" title="Germanic spirant law">Germanic spirant law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Ingvaeonic_nasal_spirant_law" title="Ingvaeonic nasal spirant law">Ingvaeonic nasal spirant law</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Great_Vowel_Shift" title="Great Vowel Shift">Great vowel shift</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Synchronic features</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"><a href="/wiki/Germanic_verb" title="Germanic verb">Germanic verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_strong_verb" title="Germanic strong verb">Germanic strong verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Germanic_weak_verb" title="Germanic weak verb">Germanic weak verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Preterite-present_verb" title="Preterite-present verb">Preterite-present verb</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Grammatischer_Wechsel" title="Grammatischer Wechsel">Grammatischer Wechsel</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/Indo-European_ablaut" title="Indo-European ablaut">Indo-European ablaut</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-group" style=";padding:0.35em 1.0em; line-height:1.1em; background:#ccddff;;">Language histories</td>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;padding:0.25em 0; line-height:1.4em;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"><a href="/wiki/History_of_the_English_language" title="History of the English language">English</a> (<a href="/wiki/Phonological_history_of_the_English_language" title="Phonological history of the English language" class="mw-redirect">phonology</a>)&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Scots_language" title="History of the Scots language">Scots</a> (<a href="/wiki/Phonological_history_of_the_Scots_language" title="Phonological history of the Scots language" class="mw-redirect">phonology</a>)&#160;<span style="font-weight:bold;">·</span>  <a href="/wiki/History_of_German" title="History of German">German</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Dutch_language" title="History of the Dutch language" class="mw-redirect">Dutch</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_Danish" title="History of Danish">Danish</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_the_Icelandic_language" title="History of the Icelandic language" class="mw-redirect">Icelandic</a>&#160;<span style="font-weight:bold;">·</span> <a href="/wiki/History_of_Swedish" title="History of Swedish">Swedish</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 2695/1000000
+Post-expand include size: 65425/2048000 bytes
+Template argument size: 28913/2048000 bytes
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:22118-0!*!0!!en!4 and timestamp 20110528211704 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Norn_language">http://en.wikipedia.org/wiki/Norn_language</a>"</div>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Medieval_languages" title="Category:Medieval languages">Medieval languages</a></span> | <span dir='ltr'><a href="/wiki/Category:North_Germanic_languages" title="Category:North Germanic languages">North Germanic languages</a></span> | <span dir='ltr'><a href="/wiki/Category:History_of_Orkney" title="Category:History of Orkney">History of Orkney</a></span> | <span dir='ltr'><a href="/wiki/Category:History_of_Shetland" title="Category:History of Shetland">History of Shetland</a></span> | <span dir='ltr'><a href="/wiki/Category:Caithness" title="Category:Caithness">Caithness</a></span> | <span dir='ltr'><a href="/wiki/Category:Extinct_Germanic_languages" title="Category:Extinct Germanic languages">Extinct Germanic languages</a></span> | <span dir='ltr'><a href="/wiki/Category:Languages_of_Scotland" title="Category:Languages of Scotland">Languages of Scotland</a></span> | <span dir='ltr'><a href="/wiki/Category:Extinct_languages_of_Scotland" title="Category:Extinct languages of Scotland">Extinct languages of Scotland</a></span> | <span dir='ltr'><a href="/wiki/Category:Norse_activity_in_Scotland" title="Category:Norse activity in Scotland">Norse activity in Scotland</a></span> | <span dir='ltr'><a href="/wiki/Category:Old_Norse_language" title="Category:Old Norse language">Old Norse language</a></span></div><div id="mw-hidden-catlinks" class="mw-hidden-cats-hidden">Hidden categories: <span dir='ltr'><a href="/wiki/Category:Wikipedia_references_cleanup_from_September_2009" title="Category:Wikipedia references cleanup from September 2009">Wikipedia references cleanup from September 2009</a></span></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+					<li  id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Norn_language" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Norn_language"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Norn_language"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+		<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Norn_language" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Norn_language&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible "><span><a href="/w/index.php?title=Norn_language&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+		<input type='hidden' name="title" value="Special:Search"/>
+				<div id="simpleSearch">
+						<input id="searchInput" name="search" type="text"  title="Search Wikipedia [f]" accesskey="f"  value="" />
+						<button id="searchButton" type='submit' name='button'  title="Search Wikipedia for this text"><img src="http://bits.wikimedia.org/skins-1.17/vector/images/search-ltr.png?301-2" alt="Search" /></button>
+					</div>
+			</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+				<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+					<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+					<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+					<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+					<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+					<li id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&amp;language=en&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20101204SB002" title="Support us">Donate to Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+				<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+					<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+					<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+					<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+					<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+				</ul>
+			</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Norn_language" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+						<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Norn_language" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+																																					<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Norn_language&amp;oldid=430669019" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Norn_language&amp;id=430669019" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+				<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Norn+language" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Norn+language&amp;oldid=430669019&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Norn_language&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>			</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" id="p-lang">
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+					<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Norn" title="Norn">Afrikaans</a></li>
+					<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Norneg" title="Norneg">Brezhoneg</a></li>
+					<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Norn" title="Norn">Català</a></li>
+					<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Norn%C5%A1tina" title="Nornština">Česky</a></li>
+					<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Norn" title="Norn">Cymraeg</a></li>
+					<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Norn" title="Norn">Dansk</a></li>
+					<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Norn" title="Norn">Deutsch</a></li>
+					<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Norni_keel" title="Norni keel">Eesti</a></li>
+					<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Idioma_norn" title="Idioma norn">Español</a></li>
+					<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Norna_lingvo" title="Norna lingvo">Esperanto</a></li>
+					<li class="interwiki-fo"><a href="http://fo.wikipedia.org/wiki/Norn" title="Norn">Føroyskt</a></li>
+					<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Norne_(langue)" title="Norne (langue)">Français</a></li>
+					<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/N%C3%B2rnais" title="Nòrnais">Gàidhlig</a></li>
+					<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Norn" title="Norn">Galego</a></li>
+					<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B8%EC%96%B4" title="노른어">한국어</a></li>
+					<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Norn" title="Norn">Hrvatski</a></li>
+					<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Norn_(tungum%C3%A1l)" title="Norn (tungumál)">Íslenska</a></li>
+					<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lingua_norn" title="Lingua norn">Italiano</a></li>
+					<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%A0%D7%95%D7%A8%D7%9F" title="נורן">עברית</a></li>
+					<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Lingua_Noroena" title="Lingua Noroena">Latina</a></li>
+					<li class="interwiki-li"><a href="http://li.wikipedia.org/wiki/Norn" title="Norn">Limburgs</a></li>
+					<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Norn_(taal)" title="Norn (taal)">Nederlands</a></li>
+					<li class="interwiki-nds-nl"><a href="http://nds-nl.wikipedia.org/wiki/Norn_(sproake)" title="Norn (sproake)">Nedersaksisch</a></li>
+					<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Norn" title="Norn">‪Norsk (bokmål)‬</a></li>
+					<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Norn" title="Norn">‪Norsk (nynorsk)‬</a></li>
+					<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/J%C4%99zyk_norn" title="Język norn">Polski</a></li>
+					<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Norn" title="Norn">Português</a></li>
+					<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BD" title="Норн">Русский</a></li>
+					<li class="interwiki-sco"><a href="http://sco.wikipedia.org/wiki/Norn_leid" title="Norn leid">Scots</a></li>
+					<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Norni" title="Norni">Suomi</a></li>
+					<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Norn_(spr%C3%A5k)" title="Norn (språk)">Svenska</a></li>
+					<li class="interwiki-vec"><a href="http://vec.wikipedia.org/wiki/%C5%81%C3%A9ngua_norn" title="Łéngua norn">Vèneto</a></li>
+					<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%AB%BE%E6%81%A9%E8%AA%9E" title="諾恩語">中文</a></li>
+				</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+											<ul id="footer-info">
+																	<li id="footer-info-lastmod"> This page was last modified on 24 May 2011 at 12:23.<br /></li>
+																							<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia&reg; is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+															</ul>
+															<ul id="footer-places">
+																	<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+																							<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+																							<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+															</ul>
+											<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/skins-1.17/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Norn_language", "wgTitle": "Norn language", "wgAction": "view", "wgArticleId": 22118, "wgIsArticle": true, "wgUserName": null, "wgUserGroups": ["*"], "wgCurRevisionId": 430669019, "wgCategories": ["Wikipedia references cleanup from September 2009", "Medieval languages", "North Germanic languages", "History of Orkney", "History of Shetland", "Caithness", "Extinct Germanic languages", "Languages of Scotland", "Extinct languages of Scotland", "Norse activity in Scotland", "Old Norse language"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": [], "wgSearchNamespaces": [0], "wgFlaggedRevsParams": {"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}}, "wgStableRevisionId": null, "wgRevContents": {"error": "Unable to get content.", "waiting": "Waiting for content"}, "wgWikimediaMobileUrl": "http://en.m.wikipedia.org/wiki", "wgVectorEnabledModules": {"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "sectioneditlinks": false, "simplesearch": true, "experiments": true}, "wgWikiEditorEnabledModules": {"toolbar": true, "dialogs": true, "templateEditor": false, "templates": false, "addMediaWizard": false, "preview": false, "previewDialog": false, "publish": false, "toc": false}, "wgTrackingToken": "6f68de1fb6971413dae129dc3d2bcda0", "Geo": {"city": "", "country": ""}, "wgNoticeProject": "wikipedia"});
+}
+</script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.wikibits", "mediawiki.util", "mediawiki.legacy.ajax", "mediawiki.legacy.mwsuggest", "ext.vector.collapsibleNav", "ext.vector.collapsibleTabs", "ext.vector.editWarning", "ext.vector.simpleSearch", "ext.UserBuckets", "ext.articleFeedback.startup"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;301-2" type="text/javascript"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector" type="text/javascript"></script>
+<script type="text/javascript">if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":"3","watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":false,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false});;mediaWiki.loader.state({"user.options":"ready"});
+	
+	/* cache key: enwiki:resourceloader:filter:minify-js:5:27c920e3d777c540f5f38bf4516bf8fd */
+}
+</script><script type="text/javascript" src="http://geoiplookup.wikimedia.org/"></script>		<!-- fixalpha -->
+		<script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+		<!-- /fixalpha -->
+		<!-- Served by srv231 in 0.856 secs. -->			</body>
+</html>
