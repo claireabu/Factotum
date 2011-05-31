@@ -92,7 +92,7 @@ def go_thru_factFile():
     
     factfile = open(sys.argv[2], 'r')
     
-#    factfile = open('_wikidata_.f', 'r')
+#    factfile = open('_wikid1_.f', 'r')
     
     facts = []
     line = ''
@@ -274,7 +274,7 @@ def parse_Facts(fact, start_sym, dI):
 
     if depth == depthLim:
         print >> sys.stderr, 'Warning: Have exceeded depth limit, grammar is most likely Left Recursive\n Program now exiting'
-        exit(1) 
+        return 
     else: 
         global depth
         depth += 1
@@ -308,7 +308,7 @@ def parse_Facts(fact, start_sym, dI):
                             tree.extend(res[0])
                             local = res[1]
                                 
-                            if count == len(rtuple) and local == []:
+                            if count == len(rtuple): #and local == []:
                                  return (tree, local)
                             else: 
                                  n = 0
@@ -375,20 +375,26 @@ def parse_Facts(fact, start_sym, dI):
                                 else:
                                     continue
                             
-#                            elif token == '()':
-#                                for i in local[n]:
-#                                    if not i in string.digits:
-#                                        break 
-#                                    elif i in string.digits:
-#                                        if i == local[n][-1]: 
-#                                            n+= 1
-#                                
-#                                            if count == len(rtuple):
-#                                                return(tree, local[n:])
-#                                            else:
-#                                                continue
-#                                        else: 
-#                                            continue 
+                            elif '(' in token:
+                                if rtuple[count+1] == ')':
+                                    continue  
+                                
+                            elif ')' in token: 
+                                if rtuple[count-1] == ')':
+                                    
+                                    for i in local[n]:
+                                        if not i in string.digits:
+                                            break 
+                                        elif i in string.digits:
+                                            if i == local[n][-1]: 
+                                                n+= 1
+                                
+                                                if count == len(rtuple):
+                                                    return(tree, local[n:])
+                                                else:
+                                                    continue
+                                            else: 
+                                                continue 
                                         
                             elif re.match(token, local[n]): 
                                 n+=1
@@ -460,6 +466,28 @@ def parse_Facts(fact, start_sym, dI):
                             else:
                                  break
                             return(tree, local[n:])
+                        
+#                        elif '(' in rtuple:
+#                                if rtuple[count+1] == ')':
+#                                    continue  
+#                                
+#                            elif ')' in rtuple: 
+#                                if rtuple[count-1] == ')':
+#                                    
+#                                    for i in local[n]:
+#                                        if not i in string.digits:
+#                                            break 
+#                                        elif i in string.digits:
+#                                            if i == local[n][-1]: 
+#                                                n+= 1
+#                                
+#                                                if count == len(rtuple):
+#                                                    return(tree, local[n:])
+#                                                else:
+#                                                    continue
+#                                            else: 
+#                                                continue 
+#                                        
 
                         
                         elif re.match(rtuple[0], local[n]):
@@ -655,7 +683,7 @@ def first_pass(facts):
     '''
     remFacts = []
     failed = []
-    tokens = re.compile('(<-|->|:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|[()]!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
+    tokens = re.compile('(<-|->|:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
     
     for f in facts: 
         
@@ -730,11 +758,14 @@ def print_grammardict():
 
 def print_endFacts(parsed, failed):
     ##########PRINT STATMENTS 
+    
+    print 'PARSED FACTS'
     for n in parsed:
         print '\n'
         for i in n:
            print i
-          
+    
+    print '\n FAILED FACTS'
     print failed
     pass
 
@@ -778,7 +809,7 @@ def fact_checker():
         else: 
             failed_facts.append(f2)
      
-    #print_endFacts(parsed_facts, failed_facts)
+    print_endFacts(parsed_facts, failed_facts)
     
     return [parsed_facts, failed_facts] 
 

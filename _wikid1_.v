@@ -759,10 +759,7 @@ Yuin       []
 Spanish    []
 Popolocan  []
 
-*   <> <> <>
-"   <> <> ()
-"   <> <>
-"   <> <> <> <>
+
 *   <> <> & lt ; ()
 *   <> <> ' iche ' / Quich Ã © Total speakers () , ()
 *   <> ( ? ) <> first millennium AD
@@ -24907,3 +24904,7 @@ Popolocan  []
 *   <> Ã ‰ fat Ã © Total speakers () , ()
 *   <> <> <> Ã § al Total speakers â € “
 *   <> <> () â € “ ()
+*   <> <> <>
+"   <> <> ()
+"   <> <>
+"   <> <> <> <>

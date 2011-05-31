@@ -136,7 +136,7 @@ def capMain():
         for v in recordOfVers[r]: 
             print v
         print '\n'
-        
+#        
     return vmodname, modVocab, recordOfVers
 
 
