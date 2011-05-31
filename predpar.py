@@ -7,6 +7,7 @@ import sys
 import re
 import factotum_lex
 import factotum_globals
+import capitalization_unify 
 
 lex = factotum_lex.LexFacts()
 g = factotum_globals.GlobalClass()
@@ -14,7 +15,9 @@ g = factotum_globals.GlobalClass()
 
 
 
-regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\(\)\200-\377/]+$'), 
+regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\200-\377/]+$'), 
+                'Num1':  re.compile('\('),
+                'Num2':  re.compile('\)'),
                 'Label':    re.compile('^[-_0-9a-zA-Z\']+$'),
                 'Ttypespec': re.compile('^[-_0-9a-zA-Z\'\?.,;]+$'),
                 'Typename':  re.compile('^[-_0-9a-zA-Z\']+$'), 
@@ -53,19 +56,25 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                     
                                 ],
                     
-                    'Phrase' : [    ['Obj', 'Words', 'Phrase' ],
-                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"'],
-                                    [ '\"', 'Obj', 'Words', 'Phrase', '\"'],
-                                    [ 'Obj', 'Words'],
-                                    ['\"', 'Obj', 'Words', '\"'],
-                                    ['\"', 'Obj', 'Words', '\"'],
-                                    ['\"', 'Words', 'Phrase', '\"'],
-                                    ['\"', 'Words', 'Phrase', '\"'],
-                                    ['\"', 'Words', '\"'],
-                                    ['\"', 'Words', '\"'],
-                                    ['Words'], 
+                    'Phrase' : [    ['Obj', 'Wordz', 'Phrase' ],
+                                    [ '\"', 'Obj', 'Wordz', 'Phrase', '\"'],
+                                    [ '\"', 'Obj', 'Wordz', 'Phrase', '\"'],
+                                    [ 'Obj', 'Wordz'],
+                                    ['\"', 'Obj', 'Wordz', '\"'],
+                                    ['\"', 'Obj', 'Wordz', '\"'],
+                                    ['\"', 'Wordz', 'Phrase', '\"'],
+                                    ['\"', 'Wordz', 'Phrase', '\"'],
+                                    ['\"', 'Wordz', '\"'],
+                                    ['\"', 'Wordz', '\"'],
+                                    ['Wordz'], 
                                     ['Obj']
                                 ],
+                                
+                    'Wordz': [  ['Words'],
+                                ['Num1', 'Num2'],
+                                ['Words', 'Wordz'],
+                                ['Num1', 'Num2', 'Wordz']
+                              ],
                     
                     'Obj' :     [   ['<' , '>', 'Obj'],
                                     ['<', '>'],
@@ -713,7 +722,7 @@ def findInTree(nonterm, atree):
             return li[1]
         else: 
             continue 
-    return 
+    return []
 ######################################
 
 def getTermSymbs(nonterm, atree):
@@ -725,6 +734,8 @@ def getTermSymbs(nonterm, atree):
     c = 0
     edef = findInTree(nonterm, atree)
     
+    if edef == []:
+        return itemli
     for i in edef: 
         if not i in keys: 
             if i == '<' and edef[c+1] == '>':
@@ -765,7 +776,7 @@ def getTermSymbs(nonterm, atree):
 ########################################################
 def add_fcheckDictEDIT(ruletree, fcheckD):
     
-    if ['Pred', [':=', 'Phrase']] in ruletree: #rules get added in order?
+    if ['Pred', [':=', 'Phrase']] in ruletree or ['Pred', ['Phrase']] in ruletree: #rules get added in order?
         remTree = ruletree[2:]
         entry = []
         
@@ -786,7 +797,15 @@ def add_fcheckDictEDIT(ruletree, fcheckD):
             
             
         if LHS in fcheckD.keys():
-            fcheckD[LHS].append(entry)
+            count = 0
+            for r in fcheckD[LHS]:
+                count += 1
+                if r == entry: 
+                    break
+                elif count == len(fcheckD[LHS]):
+                    fcheckD[LHS].append(entry)
+                else: 
+                    continue 
         else: 
             fcheckD[LHS] = [entry]
     else: 
@@ -888,19 +907,19 @@ def tokenize_pred_string(pstring, tokens):
 
 
 
-def go_thru_file():
+def go_thru_file(filename):
     '''
     Opens up the given file,  reads in line by line, and
     uses factotum lexer to go thru and find the subject and predicates
     '''
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
-
-    
-    vocabfile = open(sys.argv[1], 'r')
-    
-#    vocabfile = open('test.v', 'r')
+    if filename == '':
+        if len(sys.argv) < 2: 
+            sys.stderr.write("must include vocabulary (.v) file \n")
+            raise SystemExit(1)
+        else: 
+            vocabfile = open(sys.argv[1], 'r')
+    else:
+        vocabfile = open(filename, 'r')
     
     facts = []
     line = ''
@@ -1003,7 +1022,9 @@ def parse_vocab():
     successfully parsed rules, otherwise, the rule gets aded to the list of failed facts. 
     
     '''
-    facts = go_thru_file()
+    vmodname, modVocab, recordOfVers = capitalization_unify.capMain()
+    facts = go_thru_file(vmodname)
+#    facts = go_thru_file('_wikid1_mod.v')
     
    # for x in facts: 
     #    print x
@@ -1062,7 +1083,7 @@ def parse_vocab():
       
       
     #####PRINT STATEMENTS 
-    
+    print 'PARSED RULES'
     for n in second_parsed_rules:
         for i in range(len(n)):
             if i == 2:
@@ -1071,8 +1092,9 @@ def parse_vocab():
             else:
                 print n[i]
         print '\n'
-        
-    #print failed_rules
+    
+    print 'FAILED RULES'
+    print failed_rules
   
 #    for x in new_dict:
 #        print x + ":"
@@ -1085,10 +1107,13 @@ def parse_vocab():
             
             #print y.__class__
     
+    print 'DICTIONARY PRODUCED FOR FCHECK'
     for z in fcheck_dict: 
         print z + ":"
         for k in fcheck_dict[z]:
             print k
+            
+    print 'TYPE TREE'        
     for x in TypeTree: 
         print x + ":"
         print TypeTree[x]

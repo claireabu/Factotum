@@ -97,12 +97,12 @@ def capMain():
 #    is opened, and each line is read and subsequently stored as an item in the list 
 #    'vocab' in which 
 #    '''
-#    if len(sys.argv) < 2: 
-#        sys.stderr.write("must include vocabulary (.v) file \n")
-#        raise SystemExit(1)
-#    else: 
-#        vfileName = sys.argv[1]
-    vfileName = '_wikid1_.v'
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
+    else: 
+        vfileName = sys.argv[1]
+#    vfileName = '_wikid1_.v'
     vfile = open(vfileName, 'r')
     
     
@@ -121,22 +121,23 @@ def capMain():
     modVocab, recordOfVers = secondPass()
     modVocab.sort()
     
+    vmodname = '_wikid1_mod.v'
+    vmod = open(vmodname, 'a')
     
-    vmod = open('_wikid1_mod.v', 'a')
-    
-#    for m in modVocab: 
-#        vmod.write(m) 
-#        vmod.write('\n')
+    for m in modVocab: 
+        vmod.write(m) 
+        vmod.write('\n')
             
     vmod.close()
     
+    print 'VERSIONS of CAPITALIZATION'
     for r in recordOfVers: 
         print r
         for v in recordOfVers[r]: 
             print v
         print '\n'
         
-    return modVocab, recordOfVers
+    return vmodname, modVocab, recordOfVers
 
 
 if __name__ == "__main__":
