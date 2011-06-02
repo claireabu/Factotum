@@ -66,13 +66,11 @@ def writeFacts(facts):
     if len(sys.argv)  >=  2: 
         filename = sys.argv[1]
     else: 
-        filename = '_wikid1_.f'
+        filename = '_wikidata_.f'
     file = open(filename, 'a') 
     
     writestring = ''
     subject = Name 
-    if subject == 'Serbian': 
-        print 'HERE'
     
     for k in facts.keys():
         if facts[k].__class__  == list: 
@@ -120,7 +118,7 @@ def writeFacts(facts):
                  writestring =  ':' + '\"' + ' ' + '<-' + ' ' + Native #+ '\n'
             
             elif k == 'Language family': 
-                writestring =  ':' + '\" ' + '[' +  facts[k] + '] ' #+ '\n'
+                writestring =  ':' + subject + ' ' + '[' +  facts[k] + '] ' #+ '\n'
                 
             else:   
                 writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
@@ -284,8 +282,18 @@ def parse_mainSection(lang_str):
         fams = facts['Language family']
         if fams == [] or fams == '':
             del facts['Language family']
-        else: 
-            facts['Language family'] = fams[-2]
+        else:
+            if fams.__class__ == list: 
+               # if len(fams) > 1: 
+               facts['Language family'] = fams[-2]
+               if facts['Language family'] == 'b':
+                     print "HERE"
+#                else: 
+#                    print 'SELF'
+            elif fams.__class__ == string: 
+                print 'ONE ITEM'
+                #only 1 item: 
+                    
     
     writeFacts(facts)
     
