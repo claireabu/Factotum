@@ -9,7 +9,7 @@ def getVocab():
 #    else: 
 #        orig_vfilename = sys.argv[1]
 
-    orig_vfilename = '_wikid1_orig.v'
+    orig_vfilename = '_wikidata_.orig.v'
 
     
     orig_vfile = open(orig_vfilename, 'r')
@@ -30,7 +30,7 @@ def getVocab():
             vocab = orig_vocab[res+len(note):]
             vocab = vocab.strip()
 
-        cleanv = open('_wikid1_.v', 'a')
+        cleanv = open('_wikidata_.v', 'a')
         cleanv.write(vocab)
         cleanv.close()
         return
