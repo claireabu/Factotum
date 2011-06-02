@@ -839,7 +839,7 @@ def tokenize_pred_string(pstring, tokens):
     tokenList = []
     count = 0
     if tokens == '':
-        tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_0-9a-zA-Z\']+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
+        tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_\'0-9a-zA-Z]+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
    
     
     for n in pstring:
@@ -945,6 +945,8 @@ def go_thru_file(filename):
             (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
         
             p = p.strip() # get rid of whitespace
+#            if p.find('<>') == 0:
+#                p = p[2:]
             facts.append([s,p])
     
     return facts
@@ -1022,9 +1024,9 @@ def parse_vocab():
     successfully parsed rules, otherwise, the rule gets aded to the list of failed facts. 
     
     '''
-    vmodname, modVocab, recordOfVers = capitalization_unify.capMain()
-    facts = go_thru_file(vmodname)
-#    facts = go_thru_file('_wikid1_mod.v')
+#    vmodname, modVocab, recordOfVers = capitalization_unify.capMain()
+#    facts = go_thru_file(vmodname)
+    facts = go_thru_file('_wikidata_.v')
     
    # for x in facts: 
     #    print x
@@ -1082,7 +1084,7 @@ def parse_vocab():
       
       
       
-    #####PRINT STATEMENTS 
+    ####PRINT STATEMENTS 
     print 'PARSED RULES'
     for n in second_parsed_rules:
         for i in range(len(n)):
@@ -1095,7 +1097,7 @@ def parse_vocab():
     
     print 'FAILED RULES'
     print failed_rules
-  
+#  
 #    for x in new_dict:
 #        print x + ":"
 #        #print x.__class__

@@ -121,8 +121,8 @@ def capMain():
     modVocab, recordOfVers = secondPass()
     modVocab.sort()
     
-    vmodname = '_wikid1_mod.v'
-    vmod = open(vmodname, 'a')
+    vmodname = '_wikidata_.v'
+    vmod = open(vmodname, 'w')
     
     for m in modVocab: 
         vmod.write(m) 

@@ -63,7 +63,7 @@ def main():
     global ctagf, utagf
     factd  = '/Users/Claire/SchoolStuff/UCLA/CS199/Factotum 3G 2/'#'X:/Factotum/Factotum 3G/'
     factv  = 'photo.v'
-    factf  = '_wikid1_.f'
+    factf  = '_wikidata_.f'
     factfx = 'photo.fx'
         
     # Process command line options
