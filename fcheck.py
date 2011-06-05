@@ -85,14 +85,14 @@ def go_thru_factFile():
     uses factotum lexer to go thru and find the subject and predicates
     (nearly identical to go_thru_file used in predpar.py) 
     '''
-    if len(sys.argv) < 3: 
-        sys.stderr.write("must include fact (.f) file \n")
-        raise SystemExit(1)
-
+#    if len(sys.argv) < 3: 
+#        sys.stderr.write("must include fact (.f) file \n")
+#        raise SystemExit(1)
+#
+#    
+#    factfile = open(sys.argv[2], 'r')
     
-    factfile = open(sys.argv[2], 'r')
-    
-#    factfile = open('_wikid1_.f', 'r')
+    factfile = open('_wikidata_.f', 'r')
     
     facts = []
     line = ''
@@ -139,7 +139,10 @@ def isDescendant(item, tmatch):
     '''
     tmatch.strip()
     if tmatch == 'ANY': 
-        return True 
+        if TypeHier.get(item):
+            return True 
+        else: 
+            return False 
     
     elif not item in TypeHier.keys(): #means you've parsed thru and made it to the root without finding a match 
         if item in AliasestoSubj.keys(): #means is an Alias
@@ -161,23 +164,25 @@ def checkLabel(rule, fact, n):
      
     if rule.__class__ == list: 
         label = rule[0]
-        ttype = rule[1]
         
-        x = checkTtype(ttype, fact, n)
+        if len(rule) > 1: 
+            ttype = rule[1]
         
-        if x.__class__ == string: 
-            if not label in Labels: 
-                i = x[1]
-                x = x[0]
-                #Labels[x] = label
-                fact = fact[i+1:]
-                return (fact, i)
-        elif x: 
-            #label = label[len('Label:'):]
-            #label.strip()
-            if not fact[n] in Labels:
-                #Labels[fact[n]] = labelr
-                return True 
+            x = checkTtype(ttype, fact, n)
+        
+            if x.__class__ == string: 
+                if not label in Labels: 
+                    i = x[1]
+                    x = x[0]
+                    #Labels[x] = label
+                    fact = fact[i+1:]
+                    return (fact, i)
+                elif x: 
+                    #label = label[len('Label:'):]
+                    #label.strip()
+                    if not fact[n] in Labels:
+                    #Labels[fact[n]] = labelr
+                        return True 
                 
         else: return False 
             
@@ -376,8 +381,9 @@ def parse_Facts(fact, start_sym, dI):
                                     continue
                             
                             elif '(' in token:
-                                if rtuple[count+1] == ')':
-                                    continue  
+                                if count + 1 < len(rtuple):
+                                    if rtuple[count+1] == ')':
+                                        continue  
                                 
                             elif ')' in token: 
                                 if rtuple[count-1] == ')':
@@ -432,7 +438,7 @@ def parse_Facts(fact, start_sym, dI):
                                 return(tree, local[n:])
                         
                         elif rtuple.__class__ == list:
-                                x = checkLabel(token, local, n)
+                                x = checkLabel(rtuple, local, n)
                                 if x.__class__ == tuple: 
                                     n = x[1]
                                     local = local[n:]
@@ -506,12 +512,42 @@ def parse_Facts(fact, start_sym, dI):
 
 def input_typedef(fact):
     
-    subj = fact[0]
+    paren1 = fact.index('[')
+    paren2 = fact.index(']')
+    if paren1 == -1 or paren2 == -1: 
+        return 
+    
+    subj = string.join(fact[:paren1])
+    
+#    if paren1 + 1 == paren2: 
+#        #root 
+        
     if subj in TypeHier.keys():
-        print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
-        return
+        
+        if TypeHier[subj][1] == 'ROOT':
+            head = string.join(fact[paren1 + 1: paren2])    
+            if head == '': #already a root 
+                return
+            elif head == subj: 
+                return 
+            else:  #DONT ADD TO TYPETREE/CHECK
+                if head.find('disputed') != -1:
+                    return 
+                elif head.find('Disputed') != -1:
+                    return
+                elif head.find('debated') != -1: 
+                    return
+                elif head.find('Debated') != -1: 
+                    return
+                else: 
+                    TypeHier[subj] = [False, head]
+                    return 
+        else: 
+            print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
+            return
     else: 
-        head = fact[2]
+        
+        head = string.join(fact[paren1 + 1: paren2])
         TypeHier[subj] = [False, head]
         return  
         
@@ -553,7 +589,14 @@ def f_tracePath(subtype, mini):
 #################################################
 
 def fcheck_types():
-   
+    
+    
+#    print 'TYPEHIER BEFORE FCEHCK TYPES'
+#    for ty in TypeHier.keys():
+#        print ty + ':'
+#        print TypeHier[ty]
+        
+    
     delList = []
     types = TypeHier.keys()
     
@@ -577,8 +620,13 @@ def fcheck_types():
     # path was discovered to the root, thus meaning the type
     # was in some way improperly defined, and so we remove it 
     # from the tree
+#    print 'TYPES THAT FAILED FCHECK'
     for t2 in types: 
         if not TypeHier[t2][0]:
+            
+#            print t2 + ':'
+#            print TypeHier[t2]
+            
             del TypeHier[t2]
             delList.append(t2)
         else:
@@ -707,7 +755,11 @@ def first_pass(facts):
             remFacts.append(f)
             continue 
     
+
+        
     no_path = fcheck_types() 
+    
+        
     for n in no_path: 
         if n in TypeHier:
             del TypeHier[n]
@@ -715,29 +767,60 @@ def first_pass(facts):
     remFacts1 = []
     
     for r in remFacts: 
-        
+        factstr = string.join(r)
         for a in MultiAl:
-            a2 = a.split()
-            if a2[0] in r: 
-                i = r.index(a2[0])
-                
-                for il in range(len(a2)): 
-                    if i+il == len(r):
-                        break
-                    elif r[i+il] == a2[il]:
-                        if il + 1 == len(a2):
-                            r[i] = a
-                            beg = r[:i+1]
-                            after = r[i+il+1:]
-                            r = beg + after  
-                    else: 
-                        break
+            if factstr.find(a) != -1:
+                a2 = a.split()
+                try:
+                    i = r.index(a2[0])
+                    start = i
+                    count = 1
+                    end = -1 
+                    while i != -1 and count < len(a2): 
+                        try:
+                            i = r.index(a2[count])
+                            count += 1
+                            if count == len(a2):
+                                end = i
+                        except: 
+                            break
                     
-                
+                    if end == -1: 
+                        continue 
+                    else: 
+                        
+                        before = r[:start]
+                        if end + 1 < len(r)-1:
+                            after = r[end+1:]
+                        else: 
+                            after = r[end:]
+                        newfacttoken = before + [a] + end 
+                        r = newfacttoken 
+                except: 
+                    break  
+                    
             else: 
                 continue 
         remFacts1.append(r)
+#            a2 = a.split()
+#            if a2[0] in r: 
+#                i = r.index(a2[0])
+#                
+#                for il in range(len(a2)): 
+#                    if i+il == len(r):
+#                        break
+#                    elif r[i+il] == a2[il]:
+#                        if il + 1 == len(a2):
+#                            r[i] = a
+#                            beg = r[:i+1]
+#                            after = r[i+il+1:]
+#                            r = beg + after  
+#                    else: 
+#                        break
+#        remFacts1.append(r)
     
+    
+        
         
     return  remFacts1, failed #so when parsing thru rules, don't go thru the type definition again 
  
@@ -799,6 +882,11 @@ def fact_checker():
     facts = go_thru_factFile()
     
     facts2, failed_facts = first_pass(facts) #goes thru and analyzes predefined rules 
+    
+    print 'TYPE TREE'        
+    for x in TypeHier.keys(): 
+        print x + ":"
+        print TypeHier[x]
     
     for f2 in facts2:
         global depth

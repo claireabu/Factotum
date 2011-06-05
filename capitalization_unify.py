@@ -97,12 +97,12 @@ def capMain():
 #    is opened, and each line is read and subsequently stored as an item in the list 
 #    'vocab' in which 
 #    '''
-    if len(sys.argv) < 2: 
-        sys.stderr.write("must include vocabulary (.v) file \n")
-        raise SystemExit(1)
-    else: 
-        vfileName = sys.argv[1]
-#    vfileName = '_wikid1_.v'
+#    if len(sys.argv) < 2: 
+#        sys.stderr.write("must include vocabulary (.v) file \n")
+#        raise SystemExit(1)
+#    else: 
+#        vfileName = sys.argv[1]
+    vfileName = '_wikidata_.v'
     vfile = open(vfileName, 'r')
     
     

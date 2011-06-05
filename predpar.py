@@ -3,6 +3,7 @@
 '''
 
 from string import *
+import string
 import sys
 import re
 import factotum_lex
@@ -28,11 +29,11 @@ regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\200-\377/]+$'),
                 'Tag':  re.compile('^[-_0-9a-zA-Z]+$'),
                 'Msg':  re.compile('^([:\-_\';,.\?a-zA-Z0-9]+)$' ),
                 'N':    re.compile('^[0-9]+$'),
-                'TypeDefName': re.compile('^[-_0-9a-zA-Z\']+$')
+                'TypeDefName': re.compile('^[-_\)\(\?,.:0-9a-zA-Z\' /]+$')
               }
 
 
-Repeat = ['Words', 'Msg']
+Repeat = ['Words', 'Msg', 'TypeDefName']
 Second_check = ['Typename', 'Phrasename']
 
 
@@ -225,10 +226,13 @@ def update_TypeTree(token, ruleList, tree):
     '''
 
     if token == 'TypeDef':
-        new_type = ruleList[0]
         
-        if len(ruleList) == 3:  #means blank, head of tree
-            
+        markbrack1 = ruleList.index('[')
+        new_type = ruleList[:markbrack1]
+        new_type = string.join(new_type)
+        markbrack2 = ruleList.index(']')
+        
+        if markbrack2 == markbrack1 + 1:  #means blank, head of tree
             #global TypeTree
             TypeTree[new_type] = [True, 'ROOT']
             #update typelist 
@@ -236,8 +240,9 @@ def update_TypeTree(token, ruleList, tree):
             
         else:
             
-            head = ruleList[2]
-            subtype = ruleList[0]
+            head = ruleList[markbrack1 + 1 : markbrack2]
+            subtype = ruleList[:markbrack1]
+            subtype = string.join(subtype)
             
             if subtype in TypeTree.keys():
                 print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subtype, )
@@ -978,17 +983,23 @@ def firstPass(facts):
             continue 
         
         #PARSE RULE
-        if rule_pred[0] != '[': #all rules except type defs
-            if '['  in rule_pred: 
-                i = rule_pred.index('[')
-                rule_pred = rule_pred[:i]
-                if rule_pred[-1] == '.':
-                    throwaway = rule_pred.pop()
-               
-            rule_parse =  parseGrammar(rule_pred, 'Start')
-        else:                   #TypeDefs don't have subject in front, so diff handle
+       
+        if  '['  in rule_pred and  ']' in rule_pred: 
+            #TypeDefs don't have subject in front, so diff handle
             rule_pred.insert(0, rule[0])
+            i = rule_pred.index('[')
+            type_def_name = string.join(rule_pred[:i])
+            rule_pred = rule_pred[i:]
+            rule_pred.insert(0, type_def_name)
+            #rule[0] = type_def_name 
             rule_parse = parseGrammar(rule_pred, 'Start')
+#               
+        else:   #all rules except type defs
+#             i = rule_pred.index('[')
+#                rule_pred = rule_pred[:i]
+#                if rule_pred[-1] == '.':
+#                    throwaway = rule_pred.pop()
+            rule_parse =  parseGrammar(rule_pred, 'Start')                 
             
       
         #RESULT OF PARSE
@@ -1084,20 +1095,21 @@ def parse_vocab():
       
       
       
-    ####PRINT STATEMENTS 
-    print 'PARSED RULES'
-    for n in second_parsed_rules:
-        for i in range(len(n)):
-            if i == 2:
-                for z in n[i]:
-                   print z
-            else:
-                print n[i]
-        print '\n'
-    
-    print 'FAILED RULES'
-    print failed_rules
-#  
+    ##PRINT STATEMENTS 
+#    print 'PARSED RULES'
+#    for n in second_parsed_rules:
+#        for i in range(len(n)):
+#            if i == 2:
+#                for z in n[i]:
+#                   print z
+#            else:
+#                print n[i]
+#        print '\n'
+#    
+#    print 'FAILED RULES'
+#    for fr in failed_rules: 
+#        print fr
+        
 #    for x in new_dict:
 #        print x + ":"
 #        #print x.__class__
@@ -1109,16 +1121,23 @@ def parse_vocab():
             
             #print y.__class__
     
-    print 'DICTIONARY PRODUCED FOR FCHECK'
-    for z in fcheck_dict: 
-        print z + ":"
-        for k in fcheck_dict[z]:
-            print k
-            
-    print 'TYPE TREE'        
-    for x in TypeTree: 
-        print x + ":"
-        print TypeTree[x]
+#    print 'DICTIONARY PRODUCED FOR FCHECK'
+#    dictname = '_predpar_fcheck_dict_'
+#    dictfile = open(dictname, 'w')
+#    for z in fcheck_dict: 
+#        print z + ":"
+#        for k in fcheck_dict[z]:
+#            print k
+#            writestr = z + ': '
+#            dictfile.write(writestr)
+#            writestr = k 
+#            dictfile.write(writestr)
+##    dictfile.close()
+##            
+#    print 'TYPE TREE'        
+#    for x in TypeTree: 
+#        print x + ":"
+#        print TypeTree[x]
 ##            
         
     return(second_parsed_rules, failed_rules, new_dict, TypeTree, fcheck_dict)
