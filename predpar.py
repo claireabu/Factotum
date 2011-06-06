@@ -71,10 +71,11 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                     ['Obj']
                                 ],
                                 
-                    'Wordz': [  ['Words'],
-                                ['Num1', 'Num2'],
+                    'Wordz': [  ['Num1', 'Num2', 'Wordz'],
                                 ['Words', 'Wordz'],
-                                ['Num1', 'Num2', 'Wordz']
+                                ['Num1', 'Num2'],
+                                ['Words']
+                                
                               ],
                     
                     'Obj' :     [   ['<' , '>', 'Obj'],
@@ -720,99 +721,137 @@ def add_new_dict(subj, parsetree, dict):
 
 
 ###########################################
-def findInTree(nonterm, atree):
+def findInstanceInTree(nonterm, aTree):
     
-    for li in atree: 
-        if nonterm == li[0]:
-            return li[1]
+    for parseBranch in aTree: 
+        if nonterm == parseBranch[0]:
+            index = aTree.index(parseBranch)
+            return (parseBranch, index)
         else: 
             continue 
-    return []
+    return ([], -1)
+
 ######################################
 
-def getTermSymbs(nonterm, atree):
+def getTermSymbs(nonterm, tree):
     
-    itemli = []
-    keys = vocab_grammar.keys() 
-    keys.extend(regex_dict.keys())
-
-    c = 0
-    edef = findInTree(nonterm, atree)
+    termList = []
+    allNonterms = vocab_grammar.keys() 
+    allNonterms.extend(regex_dict.keys())
     
-    if edef == []:
-        return itemli
-    for i in edef: 
-        if not i in keys: 
-            if i == '<' and edef[c+1] == '>':
-                i = 'Type: ANY'
-                itemli.append(i)
-            elif i == '<' or i == '>':
-                continue 
-            elif i == ':':
-                continue
-            else: 
-                itemli.append(i)
+    instance = findInstanceInTree(nonterm, tree)
+    
+    if instance[0] == []:
+        return (termList, tree)
+    else: 
+        nonTermBranchPair = instance[0]
+        branchCount = instance[1]
+   
+    nonTermBranch = nonTermBranchPair[1]
+    tokencount = -1 
+    tree = tree[branchCount+1:]
+    
+    
+    for leaf in nonTermBranch: 
+        tokencount += 1
+        
+        if not leaf in allNonterms: #TERMINAL SYMBOLS 
+            if leaf == '<' and tokencount < len(nonTermBranch) and nonTermBranch[tokencount + 1] == '>':
+                leaf = 'Type: ANY'
+                termList.append(leaf)
             
-        else: 
-            c += 1
-            if i == 'Typename':
-                type = findInTree(i, atree[c:])
-                type = 'Type: ' + type
-                itemli.append(type)
-            elif i == 'Label':
-                label = findInTree(i, atree[c:])
-                label = 'Label:' + label
-                itemli.append(label)
-            elif i == 'Ttypespec':
-                ttype = findInTree(i, atree[c:])
-                ttype = 'Ttype:' + ttype
-                if itemli != [] and 'Label' in itemli[-1]:
-                    itemli[-1] = [itemli[-1], ttype]
-                else: 
-                    itemli.append(ttype)
+            elif leaf == '<' or leaf == '>':
+                continue #don't include brackets 
+                
+            elif leaf == ':':
+                continue
+            
             else: 
-                x = getTermSymbs(i, atree[c:])
-                itemli.extend(x)
+                termList.append(leaf)
+            
+        else: #NONTERMINAL SYMBOLS 
+            if leaf == 'Typename':
+                type, branchCount = findInstanceInTree(leaf, tree)
+                if type != []:
+                    type = type[1]
+                    tree = tree[branchCount + 1:]
+                    type = 'Type: ' + type
+                    termList.append(type)
+                
+            elif leaf == 'Label':
+                label, branchCount = findInstanceInTree(leaf, tree)
+                if label != []:
+                    label = label[1]
+                    tree = tree[branchCount + 1:]
+                    label = 'Label:' + label
+                    termList.append(label)
+                    
+            elif leaf == 'Ttypespec':
+                ttype, branchCount = findInstanceInTree(leaf, tree)
+                if ttype != []:
+                    ttype = ttype[1]
+                    tree = tree[branchCount + 1:]
+                    ttype = 'Ttype:' + ttype
+                    
+                    if termList != [] and 'Label' in termList[-1]:
+                        termList[-1] = [termList[-1], ttype]
+                    else: 
+                        termList.append(ttype)
+            elif leaf == 'Num1' and tokencount < len(nonTermBranch) and nonTermBranch[tokencount + 1] == 'Num2': 
+                leaf = 'NUM'
+                termList.append(leaf)
+            elif leaf == 'Num2': #(skip over)
+                continue 
+            else: 
+                nextNonTerm, tree = getTermSymbs(leaf, tree)
+                termList.extend(nextNonTerm)
             
        
             
-    return itemli
-
+    return (termList, tree) 
+#################################################
 ########################################################
 def add_fcheckDictEDIT(ruletree, fcheckD):
     
     if ['Pred', [':=', 'Phrase']] in ruletree or ['Pred', ['Phrase']] in ruletree: #rules get added in order?
         remTree = ruletree[2:]
-        entry = []
+        grammarRule = []
         
-        branch = remTree[0]
-        LHS = branch[0]
-        count = 0 
+        start = remTree[0][0]
+        grammarRule, remTree = getTermSymbs(start, remTree)
+        
+        if remTree != []:
+            return 
+        
+        
+#        branch = remTree[0]
+#        LHS = branch[0]
+#        count = 0 
+#            
+#            
+#        for item in branch[1]: 
+#            #remove brackets 
+#            if item in vocab_grammar.keys() or item in regex_dict.keys():
+#                li = getTermSymbs(item, remTree[count:])
+#                entry.extend(li)
+#                     
+#            else:
+#                entry.append(item)
+#            count += 1
             
             
-        for item in branch[1]: 
-            #remove brackets 
-            if item in vocab_grammar.keys() or item in regex_dict.keys():
-                li = getTermSymbs(item, remTree[count:])
-                entry.extend(li)
-                     
-            else:
-                entry.append(item)
-            count += 1
-            
-            
-        if LHS in fcheckD.keys():
+        if start in fcheckD.keys():
             count = 0
-            for r in fcheckD[LHS]:
+            for r in fcheckD[start]:
                 count += 1
-                if r == entry: 
+                if r == grammarRule: 
                     break
-                elif count == len(fcheckD[LHS]):
-                    fcheckD[LHS].append(entry)
+                elif count == len(fcheckD[start]):
+                    fcheckD[start].append(grammarRule)
                 else: 
                     continue 
         else: 
-            fcheckD[LHS] = [entry]
+            fcheckD[start] = [grammarRule]
     else: 
         return
     
@@ -1076,8 +1115,8 @@ def parse_vocab():
         
         if second_pass: 
             second_parsed_rules.append([r[0], r[1], second_pass[0]])
-            new_entry = add_new_dict(r[0], second_pass[0], new_dict)
-            new_dict[r[0]] = new_entry
+#            new_entry = add_new_dict(r[0], second_pass[0], new_dict)
+#            new_dict[r[0]] = new_entry
             add_fcheckDictEDIT(second_pass[0], fcheck_dict)
             #add_fcheckDict(second_pass[0], fcheck_dict)
             
@@ -1096,7 +1135,7 @@ def parse_vocab():
       
       
       
-    ##PRINT STATEMENTS 
+    #PRINT STATEMENTS 
 #    print 'PARSED RULES'
 #    for n in second_parsed_rules:
 #        for i in range(len(n)):
@@ -1123,8 +1162,8 @@ def parse_vocab():
             #print y.__class__
     
 #    print 'DICTIONARY PRODUCED FOR FCHECK'
-#    dictname = '_predpar_fcheck_dict_'
-#    dictfile = open(dictname, 'w')
+##    dictname = '_predpar_fcheck_dict_'
+##    dictfile = open(dictname, 'w')
 #    for z in fcheck_dict: 
 #        print z + ":"
 #        for k in fcheck_dict[z]:
@@ -1133,7 +1172,7 @@ def parse_vocab():
 #            dictfile.write(writestr)
 #            writestr = k 
 #            dictfile.write(writestr)
-##    dictfile.close()
+#    dictfile.close()
 ##            
 #    print 'TYPE TREE'        
 #    for x in TypeTree: 
