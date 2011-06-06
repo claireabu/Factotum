@@ -1038,6 +1038,7 @@ def parse_vocab():
 #    vmodname, modVocab, recordOfVers = capitalization_unify.capMain()
 #    facts = go_thru_file(vmodname)
     facts = go_thru_file('_wikidata_.v')
+#    facts = go_thru_file('test.v')
     
    # for x in facts: 
     #    print x

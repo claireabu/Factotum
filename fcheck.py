@@ -51,6 +51,7 @@ AliasestoSubj = {}
 #SubjtoAliases = {}
 MultiAl = []
 Labels = {}
+ 
 
 ########################################################
 
@@ -93,6 +94,7 @@ def go_thru_factFile():
 #    factfile = open(sys.argv[2], 'r')
     
     factfile = open('_wikidata_.f', 'r')
+#    factfile = open('test.f', 'r')
     
     facts = []
     line = ''
@@ -264,6 +266,188 @@ def checkTtype(rule, fact, n):
     else: 
         return False
     
+###################################################
+def isTerminalSymbol(item):
+    if item in grammar_dict.keys():
+        return False 
+    else: 
+        return True 
+
+######################################################
+
+def matchTerminalSymbol(symbol, fact, next_index, tree, rule):
+    
+    if 'Type:' in symbol:
+        typename = symbol.replace('Type: ', '')
+        if isDescendant(fact[next_index], typename):
+            next_index += 1
+            
+            return(tree, next_index)
+            
+    elif symbol.__class__ == list:
+        x = checkLabel(symbol, fact, next_index)
+        if x.__class__ == tuple:
+            next_index = x[1] + 1
+            tree.append([symbol, x[0]])
+        elif x == True:
+            tree.append([symbol, fact[next_index]])
+            next_index+= 1
+        else:
+            return False 
+        
+        return(tree, next_index)
+                
+    elif 'Label:' in symbol:
+        if checkLabel(symbol, fact, next_index):
+            tree.append([symbol, [fact[next_index]]])
+            next_index += 1
+            
+            return(tree, next_index)
+                
+    elif 'Ttype:' in symbol:
+        x = checkTtype(symbol, fact, next_index)
+        if x.__class__ == tuple:
+            next_index = x[1] + 1
+            tree.append([symbol, x[0]])
+        elif x == True:
+            next_index += 1
+        else:
+            return False
+        
+        return (tree, next_index)
+        
+    elif '(' in symbol: 
+        if count + 1 < len(r) and rule[count + 1] == ')':
+            return (tree, next_index)
+            
+    elif ')' in symbol:
+        if rule[count-1] == ')':
+            for i in fact[next_index]:
+                if not i in string.digits:
+                    break
+                elif i in string.digits:
+                    if i == fact[next_index][-1]: #the last digit in the string of digits 
+                        next_index += 1
+                        return(tree, next_index)
+                  
+    elif re.match(symbol, fact[next_index]):
+        next_index+=1
+        return(tree, next_index)
+    
+    else:
+        return False
+    
+    return False  
+
+######################################################
+
+def parseRD_Facts(fact, start_sym, next, factFinished):
+    
+    next_index = next
+    
+    if start_sym in grammar_dict.keys():
+        rules = grammar_dict[start_sym]
+        
+        for r in rules:
+            tree = []
+            tree.append([start_sym, r])
+            
+            if r.__class__ == list and len(r) > 1:
+                count = 0  
+                
+                for token in r: 
+                    count += 1
+                    
+                    #TERMINAL SYMBOLS 
+                    if isTerminalSymbol(token):
+                        termMatch = matchTerminalSymbol(token, fact, next_index, tree, r)
+                        if not termMatch: #token didn't match, go to next rule 
+                            next_index = next
+                            break 
+                        else:  #token matched 
+                            tree, next_index = termMatch  #works because append to tree in the function, not just single entry
+                            if next_index == len(fact):  #have reached end of fact stream 
+                                if count == len(r):   #end of rule tokens 
+                                    factFinished = True
+                                    return (tree, next_index, factFinished)
+                                else:  #end of fact, not end of rule
+                                    next_index = next 
+                                    break #have reached end of input stream, but not end of rule -- BAD
+                            
+                            elif count == len(r): #end of rule, not end of fact 
+                                factFinished = False
+                                return (tree, next_index, factFinished)
+                                
+                            else:   #continue through tokens in rule (not end fact, not end of rule) 
+                                continue 
+                                
+                                
+                    #NOT A TERMINAL SYMBOL--- will have to deal with 
+                    else:
+                        if token in grammar_dict.keys():
+                            diveIn = parseRD_Facts(fact, token, next_index, factFinished)
+                            
+                            if diveIn: 
+                                tree.extend(diveIn[0])
+                                next_index = diveIn[1]
+                                factFinished = diveIn[2]
+                                
+                                if factFinished: 
+                                    return (tree, next_index, factFinished)
+                                else:  #continue through remainder of rule, which may contain more tokens
+                                    continue 
+                            else: #didn't parse this nonterminal, need to go to next rule 
+                                next_index = next
+                                break 
+                                
+                        else: #not terminal, but also not in grammar dict... typo most likely 
+                            break
+                        
+            else:  #ONLY 1 ITEM IN DEFINITON LIST-- SINGLE RULE TOKEN 
+                ruleLen1 = r[0] 
+                if isTerminalSymbol(ruleLen1): 
+                    termMatch = matchTerminalSymbol(ruleLen1, fact, next_index, tree, r)
+                    
+                    if not termMatch:
+                        next_index = next
+                        break 
+                    else: 
+                        tree, next_index = termMatch 
+                        if next_index == len(fact): #reached end of fact (obvi reached end of rule)
+                            factFinished = True
+                            return (tree, next_index, factFinished)
+                        else: #only 1 token in rule, but also not end of fact... 
+                            factFinished = False 
+                            return (tree, next_index, factFinished)
+                    
+                    
+                else:  #SINGLE RULE TOKEN, NONTERMINAL  (e.g. ['Phrase'])
+                    
+                    if ruleLen1 in grammar_dict.keys(): 
+                        diveIn = parseRD_Facts(fact, ruleLen1, next_index, factFinished)
+                        
+                        if diveIn: 
+                            tree.extend(diveIn[0])
+                            next_index = diveIn[1]
+                            factFinished = diveIn[2] 
+                        
+                            if factFinished:
+                                return(tree, next_index, factFinished)
+                            else: #fact not finished, but this one single item is, go to next rule
+                                next_index = next 
+                                continue 
+                        else:  #didn't parse this nonterminal, need to go to next rule
+                            next_index = next
+                            continue  
+                        
+                    else: 
+                        break 
+                    
+    return False
+
+
+
+    
 ######################################################
 
 def parse_Facts(fact, start_sym, dI):
@@ -273,7 +457,6 @@ def parse_Facts(fact, start_sym, dI):
         we must dive into that dictionary immediately and call the parse_Facts
         function on that dictionary. 
     '''
-    
     #if rulePred == []: return False 
     global depth
 
@@ -506,6 +689,9 @@ def parse_Facts(fact, start_sym, dI):
 
     else:         
         return False    
+
+#####################   
+  
 
 ##########################################################
 
@@ -764,44 +950,44 @@ def first_pass(facts):
         if n in TypeHier:
             del TypeHier[n]
     
-    remFacts1 = []
-    
-    for r in remFacts: 
-        factstr = string.join(r)
-        for a in MultiAl:
-            if factstr.find(a) != -1:
-                a2 = a.split()
-                try:
-                    i = r.index(a2[0])
-                    start = i
-                    count = 1
-                    end = -1 
-                    while i != -1 and count < len(a2): 
-                        try:
-                            i = r.index(a2[count])
-                            count += 1
-                            if count == len(a2):
-                                end = i
-                        except: 
-                            break
-                    
-                    if end == -1: 
-                        continue 
-                    else: 
-                        
-                        before = r[:start]
-                        if end + 1 < len(r)-1:
-                            after = r[end+1:]
-                        else: 
-                            after = r[end:]
-                        newfacttoken = before + [a] + end 
-                        r = newfacttoken 
-                except: 
-                    break  
-                    
-            else: 
-                continue 
-        remFacts1.append(r)
+#    remFacts1 = []
+#    
+#    for r in remFacts: 
+#        factstr = string.join(r)
+#        for a in MultiAl:
+#            if factstr.find(a) != -1:
+#                a2 = a.split()
+#                try:
+#                    i = r.index(a2[0])
+#                    start = i
+#                    count = 1
+#                    end = -1 
+#                    while i != -1 and count < len(a2): 
+#                        try:
+#                            i = r.index(a2[count])
+#                            count += 1
+#                            if count == len(a2):
+#                                end = i
+#                        except: 
+#                            break
+#                    
+#                    if end == -1: 
+#                        continue 
+#                    else: 
+#                        
+#                        before = r[:start]
+#                        if end + 1 < len(r)-1:
+#                            after = r[end+1:]
+#                        else: 
+#                            after = r[end:]
+#                        newfacttoken = before + [a] + end 
+#                        r = newfacttoken 
+#                except: 
+#                    break  
+#                    
+#            else: 
+#                continue 
+#        remFacts1.append(r)
 #            a2 = a.split()
 #            if a2[0] in r: 
 #                i = r.index(a2[0])
@@ -822,8 +1008,8 @@ def first_pass(facts):
     
         
         
-    return  remFacts1, failed #so when parsing thru rules, don't go thru the type definition again 
- 
+#    return  remFacts1, failed #so when parsing thru rules, don't go thru the type definition again 
+    return remFacts, failed
      
 ################################################
 def print_grammardict():
@@ -891,7 +1077,8 @@ def fact_checker():
     for f2 in facts2:
         global depth
         depth = 0 
-        factParse = parse_Facts(f2, 'Start', grammar_dict)
+#        factParse = parse_Facts(f2, 'Start', grammar_dict)
+        factParse = parseRD_Facts(f2, 'Start', 0, False)
         if factParse: 
             parsed_facts.append([f2, factParse])
         else: 
