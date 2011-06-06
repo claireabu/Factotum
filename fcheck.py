@@ -51,6 +51,9 @@ AliasestoSubj = {}
 #SubjtoAliases = {}
 MultiAl = []
 Labels = {}
+entrypoint = 0 
+PossibleRootsToAdd = []
+
  
 
 ########################################################
@@ -275,7 +278,7 @@ def isTerminalSymbol(item):
 
 ######################################################
 
-def matchTerminalSymbol(symbol, fact, next_index, tree, rule):
+def matchTerminalSymbol(symbol, fact, next_index, tree, rule, count):
     
     if 'Type:' in symbol:
         typename = symbol.replace('Type: ', '')
@@ -316,26 +319,30 @@ def matchTerminalSymbol(symbol, fact, next_index, tree, rule):
         
         return (tree, next_index)
         
-    elif '(' in symbol: 
-        if count + 1 < len(r) and rule[count + 1] == ')':
-            return (tree, next_index)
-            
-    elif ')' in symbol:
-        if rule[count-1] == ')':
-            for i in fact[next_index]:
-                if not i in string.digits:
-                    break
-                elif i in string.digits:
-                    if i == fact[next_index][-1]: #the last digit in the string of digits 
-                        next_index += 1
-                        return(tree, next_index)
+    elif 'NUM' in symbol:
+        for i in fact[next_index]:
+            if not i in string.digits:
+                break
+            elif i in string.digits:
+                if i == fact[next_index][-1]: #the last digit in the string of digits 
+                    tree.append([symbol, fact[next_index]])
+                    next_index += 1
+                    return(tree, next_index)
                   
-    elif re.match(symbol, fact[next_index]):
-        next_index+=1
-        return(tree, next_index)
-    
     else:
-        return False
+        try: 
+            if re.match(symbol, fact[next_index]):
+                next_index+=1
+                return(tree, next_index)
+            else:
+                return False 
+        except: 
+            if symbol == fact[next_index]:
+                next_index += 1
+                return (tree, next_index)
+            else:
+                return False
+    
     
     return False  
 
@@ -349,6 +356,8 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
         rules = grammar_dict[start_sym]
         
         for r in rules:
+
+            next_index = next
             tree = []
             tree.append([start_sym, r])
             
@@ -360,23 +369,25 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                     
                     #TERMINAL SYMBOLS 
                     if isTerminalSymbol(token):
-                        termMatch = matchTerminalSymbol(token, fact, next_index, tree, r)
+                        termMatch = matchTerminalSymbol(token, fact, next_index, tree, r, count)
                         if not termMatch: #token didn't match, go to next rule 
-                            next_index = next
                             break 
                         else:  #token matched 
                             tree, next_index = termMatch  #works because append to tree in the function, not just single entry
+                            
                             if next_index == len(fact):  #have reached end of fact stream 
                                 if count == len(r):   #end of rule tokens 
                                     factFinished = True
                                     return (tree, next_index, factFinished)
                                 else:  #end of fact, not end of rule
-                                    next_index = next 
                                     break #have reached end of input stream, but not end of rule -- BAD
                             
                             elif count == len(r): #end of rule, not end of fact 
                                 factFinished = False
-                                return (tree, next_index, factFinished)
+                                if entrypoint - 1 != 0: 
+                                    return (tree, next_index, factFinished)
+                                else: 
+                                    break 
                                 
                             else:   #continue through tokens in rule (not end fact, not end of rule) 
                                 continue 
@@ -385,6 +396,8 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                     #NOT A TERMINAL SYMBOL--- will have to deal with 
                     else:
                         if token in grammar_dict.keys():
+#                            global entrypoint
+#                            entrypoint += 1
                             diveIn = parseRD_Facts(fact, token, next_index, factFinished)
                             
                             if diveIn: 
@@ -397,7 +410,6 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                                 else:  #continue through remainder of rule, which may contain more tokens
                                     continue 
                             else: #didn't parse this nonterminal, need to go to next rule 
-                                next_index = next
                                 break 
                                 
                         else: #not terminal, but also not in grammar dict... typo most likely 
@@ -406,10 +418,9 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
             else:  #ONLY 1 ITEM IN DEFINITON LIST-- SINGLE RULE TOKEN 
                 ruleLen1 = r[0] 
                 if isTerminalSymbol(ruleLen1): 
-                    termMatch = matchTerminalSymbol(ruleLen1, fact, next_index, tree, r)
+                    termMatch = matchTerminalSymbol(ruleLen1, fact, next_index, tree, r, count)
                     
                     if not termMatch:
-                        next_index = next
                         break 
                     else: 
                         tree, next_index = termMatch 
@@ -418,14 +429,19 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                             return (tree, next_index, factFinished)
                         else: #only 1 token in rule, but also not end of fact... 
                             factFinished = False 
-                            return (tree, next_index, factFinished)
+                            if entrypoint - 1 != 0:
+                                return (tree, next_index, factFinished)
+                            else: #so need to continue to the next rule 
+                                continue 
                     
                     
                 else:  #SINGLE RULE TOKEN, NONTERMINAL  (e.g. ['Phrase'])
                     
                     if ruleLen1 in grammar_dict.keys(): 
+                        global entrypoint
+                        entrypoint += 1
                         diveIn = parseRD_Facts(fact, ruleLen1, next_index, factFinished)
-                        
+             
                         if diveIn: 
                             tree.extend(diveIn[0])
                             next_index = diveIn[1]
@@ -434,10 +450,8 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                             if factFinished:
                                 return(tree, next_index, factFinished)
                             else: #fact not finished, but this one single item is, go to next rule
-                                next_index = next 
                                 continue 
                         else:  #didn't parse this nonterminal, need to go to next rule
-                            next_index = next
                             continue  
                         
                     else: 
@@ -450,248 +464,7 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
     
 ######################################################
 
-def parse_Facts(fact, start_sym, dI):
-    ''' The main parsing function and is recursive, 
-        nearly identical to parseGrammar in predpar, 
-        except that at top level when we first encounter the subject, 
-        we must dive into that dictionary immediately and call the parse_Facts
-        function on that dictionary. 
-    '''
-    #if rulePred == []: return False 
-    global depth
-
-    if depth == depthLim:
-        print >> sys.stderr, 'Warning: Have exceeded depth limit, grammar is most likely Left Recursive\n Program now exiting'
-        return 
-    else: 
-        global depth
-        depth += 1
-        
-        
-    local = fact
-    tree = [] 
-    key = start_sym
-    n = 0
-    count = 0
     
-    if key in dI.keys(): 
-        rules = dI[key] 
-        
-        for rtuple in rules:
-            tree = []
-            tree.append([key, rtuple])
-            local = fact
-            n = 0
-            count = 0
-            
-            if  len(rtuple) > 1 and rtuple.__class__ == list:   #multiple options in grammar rule 
-                for token in rtuple:
-                    count += 1
-                        
-                    if token in dI.keys():
-                            
-                        res = parse_Facts (local[n:], token, dI)
-                            
-                        if res:
-                            tree.extend(res[0])
-                            local = res[1]
-                                
-                            if count == len(rtuple): #and local == []:
-                                 return (tree, local)
-                            else: 
-                                 n = 0
-                        else: 
-                            break
-                                
-                    else:        #encountered regex/terminal
-                        if n < len(local):
-                            if 'Type:' in token:
-                                typename = token.replace('Type: ', '')
-                                if isDescendant(local[n], typename):
-                                    n+= 1
-                                    if count == len(rtuple):
-                                        return(tree, local[n:])
-                                    else:
-                                        continue
-                                else: 
-                                    break 
-                                    
-                            elif token.__class__ == list:
-                                x = checkLabel(token, local, n)
-                                if x.__class__ == tuple: 
-                                    n = x[1] + 1
-                                    local = local[n:]
-                                    tree.append([token, x[0]])
-                                elif x == True:
-                                    tree.append([token, local[n]])
-                                    n+= 1
-                                else: 
-                                    break 
-                                
-                                if count == len(rtuple):
-                                    return(tree, local[n:])
-                                else:
-                                    continue
-                                    
-                                  
-                            elif 'Label:' in token: 
-                                if checkLabel(token, local, n):
-                                    tree.append([token, [local[n]]])
-                                    n += 1
-                                    if count == len(rtuple):
-                                        return(tree, local[n:])
-                                    else:
-                                        continue
-                                else: 
-                                    break 
-                                    
-                                
-                           
-                            elif 'Ttype:' in token: 
-                                x = checkTtype(token, local, n)
-                                if x.__class__ == tuple: 
-                                    n = x[1] + 1
-                                    local = local[n:]
-                                    tree.append([token, x[0]])
-                                elif x == True:
-                                    n+= 1
-                                else: 
-                                    break 
-                                
-                                if count == len(rtuple):
-                                    return(tree, local[n:])
-                                else:
-                                    continue
-                            
-                            elif '(' in token:
-                                if count + 1 < len(rtuple):
-                                    if rtuple[count+1] == ')':
-                                        continue  
-                                
-                            elif ')' in token: 
-                                if rtuple[count-1] == ')':
-                                    
-                                    for i in local[n]:
-                                        if not i in string.digits:
-                                            break 
-                                        elif i in string.digits:
-                                            if i == local[n][-1]: 
-                                                n+= 1
-                                
-                                                if count == len(rtuple):
-                                                    return(tree, local[n:])
-                                                else:
-                                                    continue
-                                            else: 
-                                                continue 
-                                        
-                            elif re.match(token, local[n]): 
-                                n+=1
-                                        
-                                if count == len(rtuple):
-                                    return(tree, local[n:])
-                                else:
-                                    continue
-                                
-                            
-                            else:
-                                break          
-                           
-            else: ####Only one item-- don't want to iterate thru the string 
-                    
-                if rtuple[0] in dI.keys():
-                    #need to check also if type of phrasename
-                        
-                    res = parse_Facts(local[n:], rtuple[0], dI) 
-                        
-                    if res:
-                        tree.extend(res[0])
-                        local = res[1]
-                        return(tree, local)
-                    else:
-                        return False
-                        
-                else: #not entry in dict
-                        
-                    if n < len(local):
-                        if 'Type:' in rtuple:
-                            typename = rtuple.replace('Type: ', '')
-                            if isDescendant(local[n], typename):
-                                n+= 1
-                                return(tree, local[n:])
-                        
-                        elif rtuple.__class__ == list:
-                                x = checkLabel(rtuple, local, n)
-                                if x.__class__ == tuple: 
-                                    n = x[1]
-                                    local = local[n:]
-                                    tree.append([rtuple, x[0]])
-                                elif x == True:
-                                    n+= 1
-                                else: 
-                                    break 
-                                
-                                
-                                return(tree, local[n:])
-                                
-                                  
-                        elif 'Label:' in rtuple: 
-                            if checkLabel(rtuple, local, n):
-                                tree.append([rtuple, [local[n]]])
-                                n += 1
-                                return(tree, local[n:])
-                                
-                            else: 
-                                break 
-                        
-                        elif 'Ttype:' in rtuple: 
-                            x = checkTtype(rtuple, local, n)
-                            if x.__class__ == tuple: 
-                                n = x[1]
-                                local = local[n:]
-                                tree.append([rtuple, x[0]])
-                            elif x == True:
-                                n+= 1
-                            else:
-                                 break
-                            return(tree, local[n:])
-                        
-#                        elif '(' in rtuple:
-#                                if rtuple[count+1] == ')':
-#                                    continue  
-#                                
-#                            elif ')' in rtuple: 
-#                                if rtuple[count-1] == ')':
-#                                    
-#                                    for i in local[n]:
-#                                        if not i in string.digits:
-#                                            break 
-#                                        elif i in string.digits:
-#                                            if i == local[n][-1]: 
-#                                                n+= 1
-#                                
-#                                                if count == len(rtuple):
-#                                                    return(tree, local[n:])
-#                                                else:
-#                                                    continue
-#                                            else: 
-#                                                continue 
-#                                        
-
-                        
-                        elif re.match(rtuple[0], local[n]):
-                            n+=1
-                            return(tree, local[n:])
-                                
-                            
-                        else:                       #only item in tuple doesn't match 
-                            break                    #break out of tuple loop
-
-    else:         
-        return False    
-
-#####################   
-  
 
 ##########################################################
 
@@ -704,9 +477,7 @@ def input_typedef(fact):
         return 
     
     subj = string.join(fact[:paren1])
-    
-#    if paren1 + 1 == paren2: 
-#        #root 
+
         
     if subj in TypeHier.keys():
         
@@ -727,6 +498,7 @@ def input_typedef(fact):
                     return
                 else: 
                     TypeHier[subj] = [False, head]
+                    PossibleRootsToAdd.append(head)
                     return 
         else: 
             print >> sys.stderr, " \nMulti-Inheritance detected, Type \"%s\" is not included in the type tree.\n" % (subj, )
@@ -735,6 +507,7 @@ def input_typedef(fact):
         
         head = string.join(fact[paren1 + 1: paren2])
         TypeHier[subj] = [False, head]
+        PossibleRootsToAdd.append(head)
         return  
         
 #############################################
@@ -751,7 +524,7 @@ def f_tracePath(subtype, mini):
     d = mini
     
     if sub in d.keys():
-        print >> sys.stderr, "Loop detected"
+        print >> sys.stderr, "Loop detected" + sub
         return [] #loop 
     
     elif head == 'ROOT':
@@ -782,7 +555,12 @@ def fcheck_types():
 #        print ty + ':'
 #        print TypeHier[ty]
         
-    
+    for poss in PossibleRootsToAdd: 
+        if poss in TypeHier.keys(): 
+            continue 
+        else: 
+            TypeHier[poss] = [True, 'ROOT']
+
     delList = []
     types = TypeHier.keys()
     
@@ -950,93 +728,81 @@ def first_pass(facts):
         if n in TypeHier:
             del TypeHier[n]
     
-#    remFacts1 = []
-#    
-#    for r in remFacts: 
-#        factstr = string.join(r)
-#        for a in MultiAl:
-#            if factstr.find(a) != -1:
-#                a2 = a.split()
-#                try:
-#                    i = r.index(a2[0])
-#                    start = i
-#                    count = 1
-#                    end = -1 
-#                    while i != -1 and count < len(a2): 
-#                        try:
-#                            i = r.index(a2[count])
-#                            count += 1
-#                            if count == len(a2):
-#                                end = i
-#                        except: 
-#                            break
-#                    
-#                    if end == -1: 
-#                        continue 
-#                    else: 
-#                        
-#                        before = r[:start]
-#                        if end + 1 < len(r)-1:
-#                            after = r[end+1:]
-#                        else: 
-#                            after = r[end:]
-#                        newfacttoken = before + [a] + end 
-#                        r = newfacttoken 
-#                except: 
-#                    break  
-#                    
-#            else: 
-#                continue 
-#        remFacts1.append(r)
-#            a2 = a.split()
-#            if a2[0] in r: 
-#                i = r.index(a2[0])
-#                
-#                for il in range(len(a2)): 
-#                    if i+il == len(r):
-#                        break
-#                    elif r[i+il] == a2[il]:
-#                        if il + 1 == len(a2):
-#                            r[i] = a
-#                            beg = r[:i+1]
-#                            after = r[i+il+1:]
-#                            r = beg + after  
-#                    else: 
-#                        break
-#        remFacts1.append(r)
+    remFacts1 = []
     
+    for r in remFacts: 
+        factstr = string.join(r)
+        for a in MultiAl:
+            if factstr.find(a) != -1:
+                a2 = a.split()
+                try:
+                    i = r.index(a2[0])
+                    start = i
+                    count = 1
+                    end = -1 
+                    while i != -1 and count < len(a2): 
+                        try:
+                            i = r.index(a2[count])
+                            count += 1
+                            if count == len(a2):
+                                end = i
+                        except: 
+                            break
+                    
+                    if end == -1: 
+                        continue 
+                    else: 
+                        
+                        before = r[:start]
+                        if end + 1 < len(r)-1:
+                            after = r[end+1:]
+                        else: 
+                            after = r[end:]
+                        newfacttoken = before + [a] + end 
+                        r = newfacttoken 
+                except: 
+                    break  
+                    
+            else: 
+                continue 
+        remFacts1.append(r)
+
     
         
-        
+    print >> sys.stderr, 'DONE MULTIAL CHECK'   
 #    return  remFacts1, failed #so when parsing thru rules, don't go thru the type definition again 
     return remFacts, failed
      
 ################################################
-def print_grammardict():
-      ##########PRINTING VOCAB DICTIONARY PRODUCED 
-    for x in grammar_dict:
-        print x + ":"
-        print x.__class__
-        for y in grammar_dict[x]:
-            print  y + ":"
-            for z in grammar_dict[x][y]:
-                print  z 
-        print '\n' 
+#def print_grammardict():
+#      ##########PRINTING VOCAB DICTIONARY PRODUCED 
+#    for x in grammar_dict:
+#        print x + ":"
+#        print x.__class__
+#        for y in grammar_dict[x]:
+#            print  y + ":"
+#            for z in grammar_dict[x][y]:
+#                print  z 
+#        print '\n' 
     
 ########################################################################
 
 def print_endFacts(parsed, failed):
     ##########PRINT STATMENTS 
-    
-    print 'PARSED FACTS'
+
+    print '\nPARSED FACTS'
+    print len(parsed)
     for n in parsed:
         print '\n'
         for i in n:
            print i
     
-    print '\n FAILED FACTS'
-    print failed
-    pass
+    print '\n FAILED FACTS: '
+    print len(failed)
+    for f in failed: 
+        print failed
+        print '\n'
+     
 
 ####################################
     
@@ -1065,28 +831,45 @@ def fact_checker():
     #print_grammardict()
     
     add_predef_rules()
-    facts = go_thru_factFile()
+    facts = go_thru_factFile()   
     
     facts2, failed_facts = first_pass(facts) #goes thru and analyzes predefined rules 
+    print >> sys.stderr, 'END FIRST PASS FCHECK'
     
-    print 'TYPE TREE'        
-    for x in TypeHier.keys(): 
-        print x + ":"
-        print TypeHier[x]
+#    print 'TYPE TREE'        
+#    for x in TypeHier.keys(): 
+#        print x + ":"
+#        print TypeHier[x]
+    
+    successfn = '_fcheck_succparsed_'
+    failedfn = '_fcheck_failparsed_'
+    
+    successf = open(successfn, 'a')
+    failedf = open(failedfn, 'a')
     
     for f2 in facts2:
         global depth
         depth = 0 
+        global entrypoint
+        entrypoint = 0 
+
 #        factParse = parse_Facts(f2, 'Start', grammar_dict)
         factParse = parseRD_Facts(f2, 'Start', 0, False)
         if factParse: 
             parsed_facts.append([f2, factParse])
+            writestr = str(f2) + ':\n' + str(factParse)
+            successf.write(writestr)
+            successf.write('\n\n')
         else: 
             failed_facts.append(f2)
+            writestr = str(f2)
+            failedf.write(writestr)
+            failedf.write('\n')
      
-    print_endFacts(parsed_facts, failed_facts)
+#    print_endFacts(parsed_facts, failed_facts)
     
     return [parsed_facts, failed_facts] 
+     
 
 
 
