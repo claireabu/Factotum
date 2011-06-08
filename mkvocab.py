@@ -61,7 +61,7 @@ def create_fx( ):
 
 def main():
     global ctagf, utagf
-    factd  = '/Users/Claire/SchoolStuff/UCLA/CS199/Factotum 3G 2/'#'X:/Factotum/Factotum 3G/'
+    factd  = '/'
     factv  = 'photo.v'
     factf  = '_wikidata_.f'
     factfx = 'photo.fx'
