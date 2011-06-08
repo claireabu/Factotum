@@ -16,8 +16,10 @@ OR (to get with updated wikipedia pages)
 -run wikiscript.py 
 
 TO GET _WIKIDATA_.V: 
-- run mkvocab.py > _wikidata_.orig.v 
-- run pullvocab.py _wikidata_.orig.v 
+add your directory into path in main of  mkvocab.py,
+then: 
+mkvovab.py > _wikidata_.orig.v 
+pullvocab.py _wikidata_.orig.v 
 
 TO RUN JUST PREDPAR.PY
 predpar.py _wikidata_.v
