@@ -1,33 +1,9 @@
 '''
-
+fcheck.py 
 @author: Claire
 
-1.   The markers, subject, predicate, and citation are lexically
-     recognized for all the facts.
-     
-2.   The resulting data is sorted by subject name, gathering all
-     common subjects together.
-     
-3.   The vocabulary file is parsed and an executable form of the rules
-     produced. Unrecognizable facts (rules>?) are printed.
-     
-4.   The entity sorted facts are brought in entity by entity and checked
-     for syntactic correctness against the vocabulary. This identifies
-     relations and objects. An internal structure is created for each
-     entity. For each entity "implied" facts are generated and added to
-     the internal structure.
-     
-5.   For each entity, the entity is checked for conditions in the types
-     associated with the entity.
-     
-6.   Upon completion of processing all the facts, there exists internally,
-     a representation of all the facts...this allows for much deeper and
-     specific entity checking. So at this point the entities are checked
-     against the constraintss on each type to which they belong. User
-     defined comments, errors, and warnings are generated.
-     
-7.   The internal structure is written out to a file which will be used by
-     other tools. [??]
+Parses facts against the vocabulary, 
+should include in arguments the .v file and .f file 
 
 '''
 
@@ -48,7 +24,6 @@ PhraseList  = []
 depth = 0
 depthLim = 100 
 AliasestoSubj = {}
-#SubjtoAliases = {}
 MultiAl = []
 Labels = {}
 entrypoint = 0 
@@ -89,15 +64,13 @@ def go_thru_factFile():
     uses factotum lexer to go thru and find the subject and predicates
     (nearly identical to go_thru_file used in predpar.py) 
     '''
-#    if len(sys.argv) < 3: 
-#        sys.stderr.write("must include fact (.f) file \n")
-#        raise SystemExit(1)
-#
-#    
-#    factfile = open(sys.argv[2], 'r')
+    if len(sys.argv) < 3: 
+        sys.stderr.write("must include fact (.f) file \n")
+        raise SystemExit(1)
     
-    factfile = open('_wikidata_.f', 'r')
-#    factfile = open('test.f', 'r')
+    factfile = open(sys.argv[2], 'r')
+    
+#    factfile = open('_wikidata_.f', 'r')
     
     facts = []
     line = ''
@@ -148,6 +121,7 @@ def isDescendant(item, tmatch):
             return True 
         else: 
             return False 
+        return True 
     
     elif not item in TypeHier.keys(): #means you've parsed thru and made it to the root without finding a match 
         if item in AliasestoSubj.keys(): #means is an Alias
@@ -166,6 +140,9 @@ def isDescendant(item, tmatch):
 #####################################################
 
 def checkLabel(rule, fact, n):
+    ''' Checks if there is a token type specification along with the 
+        label, checks it, or just provides a label for fact[n]
+    '''
      
     if rule.__class__ == list: 
         label = rule[0]
@@ -205,6 +182,9 @@ def checkLabel(rule, fact, n):
 ##############################################
 
 def checkTtype(rule, fact, n):
+    ''' Checks if item fact[n] follows the 
+        token type specification
+    '''
     
     z = len('Ttype:')
     ttype = rule[z:]
@@ -271,6 +251,10 @@ def checkTtype(rule, fact, n):
     
 ###################################################
 def isTerminalSymbol(item):
+    '''
+    checks if item is  terminal symbol 
+    (eg not in the grammar dictionary)
+    '''
     if item in grammar_dict.keys():
         return False 
     else: 
@@ -279,6 +263,8 @@ def isTerminalSymbol(item):
 ######################################################
 
 def matchTerminalSymbol(symbol, fact, next_index, tree, rule, count):
+    ''' Matches fact[next_index] with symbol
+    '''
     
     if 'Type:' in symbol:
         typename = symbol.replace('Type: ', '')
@@ -321,7 +307,9 @@ def matchTerminalSymbol(symbol, fact, next_index, tree, rule, count):
         
     elif 'NUM' in symbol:
         for i in fact[next_index]:
-            if not i in string.digits:
+            if i == '-':
+                continue
+            elif not i in string.digits:
                 break
             elif i in string.digits:
                 if i == fact[next_index][-1]: #the last digit in the string of digits 
@@ -349,6 +337,8 @@ def matchTerminalSymbol(symbol, fact, next_index, tree, rule, count):
 ######################################################
 
 def parseRD_Facts(fact, start_sym, next, factFinished):
+    ''' Recursive parsing function checking fact against vocabulary
+    '''
     
     next_index = next
     
@@ -396,8 +386,7 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
                     #NOT A TERMINAL SYMBOL--- will have to deal with 
                     else:
                         if token in grammar_dict.keys():
-#                            global entrypoint
-#                            entrypoint += 1
+#                           
                             diveIn = parseRD_Facts(fact, token, next_index, factFinished)
                             
                             if diveIn: 
@@ -460,16 +449,12 @@ def parseRD_Facts(fact, start_sym, next, factFinished):
     return False
 
 
-
-    
-######################################################
-
-    
-
 ##########################################################
 
 
 def input_typedef(fact):
+    ''' Adds predefined rules with type definitions to type tree 
+    '''
     
     paren1 = fact.index('[')
     paren2 = fact.index(']')
@@ -508,7 +493,7 @@ def input_typedef(fact):
         head = string.join(fact[paren1 + 1: paren2])
         TypeHier[subj] = [False, head]
         PossibleRootsToAdd.append(head)
-        return  
+        return  subj
         
 #############################################
 def f_tracePath(subtype, mini):
@@ -548,7 +533,8 @@ def f_tracePath(subtype, mini):
 #################################################
 
 def fcheck_types():
-    
+    ''' Checks types for loops and reachability to root 
+    '''
     
 #    print 'TYPEHIER BEFORE FCEHCK TYPES'
 #    for ty in TypeHier.keys():
@@ -602,6 +588,9 @@ def fcheck_types():
 #####################################################
 
 def isPredef(fact):
+    ''' Checks if fact is a predefined fact by the presence of ':' or 
+        [, ], <-, or ->
+    '''
     
     if fact[0] == ':':
         if '->' in fact:
@@ -651,8 +640,19 @@ def check_predef(f):
             i = f.index(symb)
             
             if symb == '[':
-                input_typedef(f)
-                break 
+                subj = input_typedef(f)
+                try:
+                    s = subj.split()
+                    if len(s) > 1: #MULTI WORDED SUBJECTTTT
+                        l = f[0]
+                        r = subj 
+                        r = r.replace('.', '')
+                        r = r.strip()
+                        MultiAl.append(r)
+                        AliasestoSubj[r] = l
+                        break
+                except:
+                    break 
             
             elif 'Alias' in rule[0]:
                 l  = f[:i][0]
@@ -787,21 +787,21 @@ def first_pass(facts):
     
 ########################################################################
 
-def print_endFacts(parsed, failed):
-    ##########PRINT STATMENTS 
-
-    print '\nPARSED FACTS'
-    print len(parsed)
-    for n in parsed:
-        print '\n'
-        for i in n:
-           print i
-    
-    print '\n FAILED FACTS: '
-    print len(failed)
-    for f in failed: 
-        print failed
-        print '\n'
+#def print_endFacts(parsed, failed):
+#    ##########PRINT STATMENTS 
+#
+#    print '\nPARSED FACTS'
+#    print len(parsed)
+#    for n in parsed:
+#        print '\n'
+#        for i in n:
+#           print i
+#    
+#    print '\n FAILED FACTS: '
+#    print len(failed)
+#    for f in failed: 
+#        print failed
+#        print '\n'
      
 
 ####################################
@@ -841,11 +841,11 @@ def fact_checker():
 #        print x + ":"
 #        print TypeHier[x]
     
-    successfn = '_fcheck_succparsed_'
-    failedfn = '_fcheck_failparsed_'
+    successfn = '_fcheck_succparsed2_'
+    failedfn = '_fcheck_failparsed2_'
     
-    successf = open(successfn, 'a')
-    failedf = open(failedfn, 'a')
+    successf = open(successfn, 'w')
+    failedf = open(failedfn, 'w')
     
     for f2 in facts2:
         global depth
@@ -865,7 +865,9 @@ def fact_checker():
             writestr = str(f2)
             failedf.write(writestr)
             failedf.write('\n')
-     
+    
+    successf.close()
+    failedf.close() 
 #    print_endFacts(parsed_facts, failed_facts)
     
     return [parsed_facts, failed_facts] 
