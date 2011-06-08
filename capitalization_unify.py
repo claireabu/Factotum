@@ -93,16 +93,16 @@ def secondPass():
 
 
 def capMain():
-#    ''' Argument passed through command line is the name of the vocab file, which
-#    is opened, and each line is read and subsequently stored as an item in the list 
-#    'vocab' in which 
-#    '''
-#    if len(sys.argv) < 2: 
-#        sys.stderr.write("must include vocabulary (.v) file \n")
-#        raise SystemExit(1)
-#    else: 
-#        vfileName = sys.argv[1]
-    vfileName = '_wikidata_.v'
+    ''' Argument passed through command line is the name of the vocab file, which
+    is opened, and each line is read and subsequently stored as an item in the list 
+    'vocab' in which 
+    '''
+    if len(sys.argv) < 2: 
+        sys.stderr.write("must include vocabulary (.v) file \n")
+        raise SystemExit(1)
+    else: 
+        vfileName = sys.argv[1]
+#    vfileName = '_wikidata_.v'
     vfile = open(vfileName, 'r')
     
     
@@ -121,7 +121,7 @@ def capMain():
     modVocab, recordOfVers = secondPass()
     modVocab.sort()
     
-    vmodname = '_wikidata_.v'
+    vmodname = '_wikidata_june7_mod.v'
     vmod = open(vmodname, 'w')
     
     for m in modVocab: 
