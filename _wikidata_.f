@@ -1,3 +1,7 @@
+APPENDIX A:
+
+_wikidata_.f 
+
 Arabic Total speakers Approx. 340 million native speakers
 " Dialects Western (Maghrebi)
 " Dialects Central (incl. Egyptian)

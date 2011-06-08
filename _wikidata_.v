@@ -5,26 +5,26 @@
 "   <> <> <> ?
 "   <> <> <> developed into <>
 "   <> <> <> th century
-"   <> <> ISO ()
-"   <> <> ISO () ()
-"   <> <> ISO () () iu
-"   <> <> ISO () () ss
-"   <> <> ISO () and
-"   <> <> ISO () hz
-"   <> <> ISO () io
-"   <> <> ISO () nhw ‚ Ä ì <> <>
-"   <> <> Linguasphere () AAA-c <>
-"   <> <> Spoken in <>
+"   <> <> Language codes ISO ()
+"   <> Language codes ISO () ()
+"   <> Language codes ISO () () iu
+"   <> Language codes ISO () () ss
+"   <> Language codes ISO () and
+"   <> Language codes ISO () hz
+"   <> Language codes ISO () io
+"   <> Language codes ISO () nhw ‚ Ä ì <> <>
+"   <> Language codes Linguasphere () AAA-c <>
+"  <> Language codes Linguasphere <> <> Spoken in <>
 "   <> <> Total speakers & gt ; () , ()
 "   <> <> Total speakers () , ()
 "   <> <> Total speakers () , () ( () )
 "   <> <> Total speakers () million
 "   <> <> Total speakers ‚ Ä ì
 "   <> <> developed into <>
-"   <> <> in
-"   <> <> in <> ( minority language )
-"   <> <> in <> <>
-"   <> <> in <> Burundi
+"   <> Official language in
+"   <> Official language in <> ( minority language )
+"   <> Official language in <> <>
+"   <> Official language in <> Burundi
 "   <> <> speakers ()
 "   <> <> speakers () () () () ()
 "   <> Category ( sources ) <> <>
@@ -32,6 +32,8 @@
 "   <> Dialects
 "   <> Dialects <> <>
 "   <> Dialects <> incl . <> <>
+"   <> Dialects <>  ( incl . <> , <> ) 
+"   <> Dialects <>  ( incl . <> , <> , <> )
 "   <> Dialects <> incl . <> <> <>
 "   <> Pomo Total speakers
 "   <> Recognised minority language in
@@ -466,4663 +468,4663 @@
 *   <> <> Figuig Berber Total speakers
 *   <> <> Frankish and Ingvaeonic by the () th century
 *   <> <> Hecho <> speakers ()
-*   <> <> ISO () ( T )
-*   <> <> ISO () ( generic )
-*   <> <> ISO () ( see varieties of <> the individual codes )
-*   <> <> ISO () () : <>
-*   <> <> ISO () () : <> Proper
-*   <> <> ISO () () : Changle
-*   <> <> ISO () () : Fuqing
-*   <> <> ISO () () : Lianjiang
-*   <> <> ISO () () : Luoyuan
-*   <> <> ISO () () : Minhou
-*   <> <> ISO () () : Minqing
-*   <> <> ISO () () : Pingnan
-*   <> <> ISO () () : Pingtan
-*   <> <> ISO () () : Regions in Fuding
-*   <> <> ISO () () : Regions in Nanping , () : Regions in Youxi
-*   <> <> ISO () () : Regions in Ningde
-*   <> <> ISO () () : Regions in Xiapu
-*   <> <> ISO () () : Yongtai
-*   <> <> ISO () () e ‚ Ä ì
-*   <> <> ISO () () ei ‚ Ä ì
-*   <> <> ISO () () em
-*   <> <> ISO () () gi
-*   <> <> ISO () () gt ‚ Ä ì
-*   <> <> ISO () () gw-mpa
-*   <> <> ISO () () hk ‚ Ä ì
-*   <> <> ISO () () hl
-*   <> <> ISO () () hm
-*   <> <> ISO () () hz
-*   <> <> ISO () () im ‚ Ä ì
-*   <> <> ISO () () in ‚ Ä ì
-*   <> <> ISO () () io
-*   <> <> ISO () () ip
-*   <> <> ISO () () iq
-*   <> <> ISO () () it ‚ Ä ì
-*   <> <> ISO () () iv ‚ Ä ì
-*   <> <> ISO () () ix ‚ Ä ì
-*   <> <> ISO () () j
-*   <> <> ISO () () l
-*   <> <> ISO () () nd century BC . It is unlikely <> spoken much beyond the green area
-*   <> <> ISO () () r ‚ Ä ì
-*   <> <> ISO () () t ‚ Ä ì
-*   <> <> ISO () () u8 ‚ Ä ì
-*   <> <> ISO () () xw ‚ Ä ì
-*   <> <> ISO () : aaq ‚ Ä ì <> ( extinct )
-*   <> <> ISO () : abh ‚ Ä ì <>
-*   <> <> ISO () : adz ‚ Ä ì <>
-*   <> <> ISO () : aee ‚ Ä ì <>
-*   <> <> ISO () : ahn ‚ Ä ì Ahaan
-*   <> <> ISO () : aid ‚ Ä ì <>
-*   <> <> ISO () : akj ‚ Ä ì <>
-*   <> <> ISO () : aln ‚ Ä ì <>
-*   <> <> ISO () : amu ‚ Ä ì <> Guerrero ) <>
-*   <> <> ISO () : amx ‚ Ä ì Anmatjirra
-*   <> <> ISO () : ant ‚ Ä ì Antikirinya
-*   <> <> ISO () : anw ‚ Ä ì Anaang
-*   <> <> ISO () : apc ‚ Ä ì <> <>
-*   <> <> ISO () : apq ‚ Ä ì <>
-*   <> <> ISO () : apx ‚ Ä ì Aputai
-*   <> <> ISO () : arc ‚ Ä ì Imperial and <> ( () BCE )
-*   <> <> ISO () : ast ‚ Ä ì <>
-*   <> <> ISO () : atv ‚ Ä ì <>
-*   <> <> ISO () : ayh ‚ Ä ì <>
-*   <> <> ISO () : ayr ‚ Ä ì <>
-*   <> <> ISO () : azj ‚ Ä ì <>
-*   <> <> ISO () : bal ‚ Ä ì Baluchi ( generic )
-*   <> <> ISO () : bca ‚ Ä ì <> , Jianchuan dialect
-*   <> <> ISO () : bgp ‚ Ä ì <>
-*   <> <> ISO () : bgq ‚ Ä ì <>
-*   <> <> ISO () : bjv ‚ Ä ì Bedjond
-*   <> <> ISO () : ble ‚ Ä ì Balanta-Kentohe
-*   <> <> ISO () : bnj ‚ Ä ì <>
-*   <> <> ISO () : boi ‚ Ä ì Barbare √ ± o
-*   <> <> ISO () : bxu ‚ Ä ì China Buriat
-*   <> <> ISO () : cco ‚ Ä ì Comaltepec <>
-*   <> <> ISO () : cdo ‚ Ä ì <>
-*   <> <> ISO () : cja ‚ Ä ì <>
-*   <> <> ISO () : ckb ‚ Ä ì Sorani
-*   <> <> ISO () : cmo ‚ Ä ì <>
-*   <> <> ISO () : crr ‚ Ä ì <>
-*   <> <> ISO () : crx ‚ Ä ì <>
-*   <> <> ISO () : csq ‚ Ä ì <>
-*   <> <> ISO () : cst ‚ Ä ì <>
-*   <> <> ISO () : cuk ‚ Ä ì <> <>
-*   <> <> ISO () : cux ‚ Ä ì Tepeuxila
-*   <> <> ISO () : dak ‚ Ä ì <>
-*   <> <> ISO () : deu ‚ Ä ì <> <>
-*   <> <> ISO () : dga ‚ Ä ì <>
-*   <> <> ISO () : dgo ‚ Ä ì <> individual )
-*   <> <> ISO () : dhd ‚ Ä ì Dhundari
-*   <> <> ISO () : dip ‚ Ä ì <> ( Padang )
-*   <> <> ISO () : dji ‚ Ä ì Djinang
-*   <> <> ISO () : doc ‚ Ä ì <>
-*   <> <> ISO () : egl ‚ Ä ì Emilian
-*   <> <> ISO () : ekk ‚ Ä ì <>
-*   <> <> ISO () : enf ‚ Ä ì <>
-*   <> <> ISO () : esi ‚ Ä ì <> Inupiatun
-*   <> <> ISO () : fal ‚ Ä ì <>
-*   <> <> ISO () : fat ‚ Ä ì Fanti language
-*   <> <> ISO () : fla ‚ Ä ì Flathead
-*   <> <> ISO () : fly ‚ Ä ì <>
-*   <> <> ISO () : fry ‚ Ä ì <>
-*   <> <> ISO () : fub ‚ Ä ì Adamawa Fulfulde
-*   <> <> ISO () : gax ‚ Ä ì Borana-Arsi-Guji-Walagaa <>
-*   <> <> ISO () : gcd ‚ Ä ì Ganggalida
-*   <> <> ISO () : gcf ‚ Ä ì Guadeloupean Creole <>
-*   <> <> ISO () : gct ‚ Ä ì Alem √ ° n Coloniero
-*   <> <> ISO () : gdb ‚ Ä ì <> Gadaba )
-*   <> <> ISO () : ggn ‚ Ä ì <>
-*   <> <> ISO () : ggo ‚ Ä ì <>
-*   <> <> ISO () : gkp ‚ Ä ì Guinea <>
-*   <> <> ISO () : gmv ‚ Ä ì Gamo
-*   <> <> ISO () : gom ‚ Ä ì Goan <>
-*   <> <> ISO () : grc ‚ Ä ì <>
-*   <> <> ISO () : grj ‚ Ä ì <> ( incl . <>
-*   <> <> ISO () : gsw ‚ Ä ì <>
-*   <> <> ISO () : gud ‚ Ä ì Yocobou √ © <>
-*   <> <> ISO () : gxx ‚ Ä ì W √ ® <>
-*   <> <> ISO () : hdn ‚ Ä ì <>
-*   <> <> ISO () : heb ‚ Ä ì <>
-*   <> <> ISO () : hgm ‚ Ä ì Hai « Å om
-*   <> <> ISO () : hin ‚ Ä ì <>
-*   <> <> ISO () : hio ‚ Ä ì <>
-*   <> <> ISO () : hmn ‚ Ä ì ]
-*   <> <> ISO () : hnd ‚ Ä ì <>
-*   <> <> ISO () : hos ‚ Ä ì <> Minh City Sign <>
-*   <> <> ISO () : hto ‚ Ä ì <>
-*   <> <> ISO () : hue ‚ Ä ì <> del Mar
-*   <> <> ISO () : hye ‚ Ä ì <>
-*   <> <> ISO () : igj ‚ Ä ì Ignaciano <>
-*   <> <> ISO () : ike ‚ Ä ì <> <>
-*   <> <> ISO () : inb ‚ Ä ì <>
-*   <> <> ISO () : ins ‚ Ä ì Indo-Bengali Sign <>
-*   <> <> ISO () : jav ‚ Ä ì <>
-*   <> <> ISO () : jiu ‚ Ä ì Youle Jinuo
-*   <> <> ISO () : kex ‚ Ä ì Kanara <>
-*   <> <> ISO () : khc ‚ Ä ì <> <>
-*   <> <> ISO () : khk ‚ Ä ì Khalkha <>
-*   <> <> ISO () : khm ‚ Ä ì <>
-*   <> <> ISO () : khn ‚ Ä ì <>
-*   <> <> ISO () : kho ‚ Ä ì Khotanese
-*   <> <> ISO () : kif ‚ Ä ì <> Kham
-*   <> <> ISO () : kiw ‚ Ä ì Northeast <>
-*   <> <> ISO () : knc ‚ Ä ì <>
-*   <> <> ISO () : kng ‚ Ä ì Koongo
-*   <> <> ISO () : koi ‚ Ä ì <>
-*   <> <> ISO () : kss ‚ Ä ì <>
-*   <> <> ISO () : kua ‚ Ä ì <>
-*   <> <> ISO () : lav ‚ Ä ì Macrolanguage
-*   <> <> ISO () : lrc ‚ Ä ì <>
-*   <> <> ISO () : maa ‚ Ä ì <> Tec √ ≥ atl <>
-*   <> <> ISO () : mco ‚ Ä ì Coatl √ ° n <>
-*   <> <> ISO () : mhr ‚ Ä ì <> ( <> )
-*   <> <> ISO () : mid ‚ Ä ì <>
-*   <> <> ISO () : mkw ‚ Ä ì <> Congo-Brazzaville )
-*   <> <> ISO () : mmc ‚ Ä ì Michoacan <>
-*   <> <> ISO () : mrq ‚ Ä ì <>
-*   <> <> ISO () : mww ‚ Ä ì <> ( Laos , China )
-*   <> <> ISO () : myq ‚ Ä ì <> <>
-*   <> <> ISO () : mzk ‚ Ä ì <>
-*   <> <> ISO () : nci ‚ Ä ì <>
-*   <> <> ISO () : ngb ‚ Ä ì <>
-*   <> <> ISO () : nnx ‚ Ä ì <>
-*   <> <> ISO () : nob ‚ Ä ì Bokm √ • l
-*   <> <> ISO () : nor ‚ Ä ì <>
-*   <> <> ISO () : nsk ‚ Ä ì <>
-*   <> <> ISO () : nsl ‚ Ä ì <>
-*   <> <> ISO () : ntp ‚ Ä ì <> √ ° n
-*   <> <> ISO () : ntu ‚ Ä ì Nat √ º gu
-*   <> <> ISO () : ocu ‚ Ä ì Ocuiltec / Tlahuica
-*   <> <> ISO () : ojs ‚ Ä ì <>
-*   <> <> ISO () : omn ‚ Ä ì Minoan
-*   <> <> ISO () : ote ‚ Ä ì <>
-*   <> <> ISO () : oun ‚ Ä ì « É   º O « É Kung
-*   <> <> ISO () : paz ‚ Ä ì Pankarar √ ∫
-*   <> <> ISO () : pbs ‚ Ä ì <>
-*   <> <> ISO () : pes ‚ Ä ì Iranian <>
-*   <> <> ISO () : pid ‚ Ä ì <>
-*   <> <> ISO () : pmi ‚ Ä ì <>
-*   <> <> ISO () : prs ‚ Ä ì <> Afghan <>
-*   <> <> ISO () : pst ‚ Ä ì <>
-*   <> <> ISO () : qvw ‚ Ä ì Waylla <>
-*   <> <> ISO () : qwa ‚ Ä ì Corongo
-*   <> <> ISO () : rar ‚ Ä ì Rarotonga dialect
-*   <> <> ISO () : rmn ‚ Ä ì <>
-*   <> <> ISO () : ryn ‚ Ä ì <>
-*   <> <> ISO () : sac ‚ Ä ì <> Sauk
-*   <> <> ISO () : sck ‚ Ä ì <>
-*   <> <> ISO () : scs ‚ Ä ì <>
-*   <> <> ISO () : sgg ‚ Ä ì <> SL
-*   <> <> ISO () : sia ‚ Ä ì <>
-*   <> <> ISO () : sro ‚ Ä ì Campidanese
-*   <> <> ISO () : srp ‚ Ä ì <>
-*   <> <> ISO () : srq ‚ Ä ì Sirion √ ≥
-*   <> <> ISO () : stv ‚ Ä ì Silt ' e
-*   <> <> ISO () : swc ‚ Ä ì Congo <>
-*   <> <> ISO () : tce ‚ Ä ì <>
-*   <> <> ISO () : tee ‚ Ä ì <> Huehuetla
-*   <> <> ISO () : thv ‚ Ä ì Tahaggart <>
-*   <> <> ISO () : tix ‚ Ä ì <>
-*   <> <> ISO () : tjs ‚ Ä ì <>
-*   <> <> ISO () : tnd ‚ Ä ì Angosturas Tunebo
-*   <> <> ISO () : toc ‚ Ä ì <> Coyutla
-*   <> <> ISO () : tpw ‚ Ä ì Tup √ ≠ ( <> √ ≠ )
-*   <> <> ISO () : trc ‚ Ä ì Copala
-*   <> <> ISO () : tsz ‚ Ä ì <>
-*   <> <> ISO () : ubl ‚ Ä ì Buhi ' non <>
-*   <> <> ISO () : uma ‚ Ä ì <>
-*   <> <> ISO () : umu ‚ Ä ì <>
-*   <> <> ISO () : unr ‚ Ä ì <>
-*   <> <> ISO () : uzn ‚ Ä ì <>
-*   <> <> ISO () : wib ‚ Ä ì <>
-*   <> <> ISO () : wol ‚ Ä ì <>
-*   <> <> ISO () : wub ‚ Ä ì <>
-*   <> <> ISO () : xal ‚ Ä ì <>
-*   <> <> ISO () : xlu ‚ Ä ì Cuneiform <>
-*   <> <> ISO () : xmv ‚ Ä ì Antankarana
-*   <> <> ISO () : xpp ‚ Ä ì Buyeo-Baekje
-*   <> <> ISO () : xtg ‚ Ä ì Transalpine <>
-*   <> <> ISO () : xto ‚ Ä ì <>
-*   <> <> ISO () : xuu ‚ Ä ì Khwe
-*   <> <> ISO () : ydd ‚ Ä ì <>
-*   <> <> ISO () : yhd ‚ Ä ì <>
-*   <> <> ISO () : yzg ‚ Ä ì <> ma <>
-*   <> <> ISO () : zch ‚ Ä ì <> <>
-*   <> <> ISO () : zdj ‚ Ä ì Ngazidja dialect
-*   <> <> ISO () : zlm-inl ‚ Ä ì ( inland )
-*   <> <> ISO () : zoc ‚ Ä ì Copainal √ ° <>
-*   <> <> ISO () : zsm ‚ Ä ì <>
-*   <> <> ISO () : zza ‚ Ä ì <> generic )
-*   <> <> ISO () <>
-*   <> <> ISO () <> . These boundaries are approximate .
-*   <> <> ISO () <> China
-*   <> <> ISO () <> No . () ) within the <> ( yellow ) and <> ( red ) language area
-*   <> <> ISO () <> and <> dialects
-*   <> <> ISO () <> at far upper-left ) is quite geographically isolated from the other Dravidian languages
-*   <> <> ISO () <> at the top , in blue .
-*   <> <> ISO () <> in the broad sense .
-*   <> <> ISO () <> in the context of paleohispanic languages
-*   <> <> ISO () <> is () on this map .
-*   <> <> ISO () <> is () on this regional map of <> .
-*   <> <> ISO () <> is in red . It is in contact with <> ( yellow ) , <> ( medium and light blue ) , <> purple ) , and <> dark blue ) .
-*   <> <> ISO () <> is in yellow . It is in contact with <> ( orange ) , <> ( red ) , <> ( blue and green , north ) , <> purple ) , and Hunan Tuhua ( dark green , south ) .
-*   <> <> ISO () <> is primarily spoken in the <> of Belgium , highlighted in red .
-*   <> <> ISO () <> language area . () = <>
-*   <> <> ISO () <> of <>
-*   <> <> ISO () <> red , in the middle of the <> .
-*   <> <> ISO () <> south ) , with the Kalapuyan languages to the north
-*   <> <> ISO () <> spread in the United States .
-*   <> <> ISO () <> the yellow area on the coast .
-*   <> <> ISO () A () th-century column capital with Caucasian <>
-*   <> <> ISO () A page from an <> translation of the Instructions of the Archangel Michael
-*   <> <> ISO () A rough map of <> locations .
-*   <> <> ISO () Aceh province , Sumatra
-*   <> <> ISO () Approximate distribution of languages in Iron Age Italy during the () th century BCE
-*   <> <> ISO () Area of Rif
-*   <> <> ISO () Area where <> and <> spoken .
-*   <> <> ISO () Area where <> spoken . Green = sparsely populated forest .
-*   <> <> ISO () Area where Luxembourgisch ( hatched ) and related <> is spoken .
-*   <> <> ISO () Area with significant Kazakh-speaking population
-*   <> <> ISO () Areas where <> are spoken , with ethnic divisions : ( () ) <> ( () ) <> ( () ) <> ( () ) <> <> , ( () ) Krashovani ( <> , ( () ) <> areas of Kosovo prior to ()
-*   <> <> ISO () Areas where <> spoken as mother tongue
-*   <> <> ISO () Berber-speaking areas of the Mzab
-*   <> <> ISO () Coauhuilteco language
-*   <> <> ISO () Communities where <> spoken
-*   <> <> ISO () Countries where <> a primary language are dark blue ; countries where it is an official but not a primary language are light blue . <> also one of the official languages of the European Union .
-*   <> <> ISO () Countries where <> is spoken . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Countries where <> spoken . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Dialects
-*   <> <> ISO () Distribution of <> .
-*   <> <> ISO () Distribution of <> Tall √ ° n in the Piura region .
-*   <> <> ISO () Distribution of <> an official language in the Arab World .
-*   <> <> ISO () Distribution of Minnan dialects . <> dark green .
-*   <> <> ISO () Distribution of native <> in India This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Distribution of native <> in India and <> This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Distribution of native <> in India and Pakistan This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Distribution of native Canarese <> in India This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Distribution of the <> around ()
-*   <> <> ISO () Distribution of ƒ å akavian
-*   <> <> ISO () Distribution throughout the Maritimes c . ()
-*   <> <> ISO () Ethnic territories ( pink ) of the Karekare-speaking people ( Kare ) in Nigeria
-*   <> <> ISO () Ethnic territories ( tan ) of the Ngas-speaking people ( Angas ) in Nigeria
-*   <> <> ISO () Ethnic territories of the Bata-speaking people ( Batta ) in Nigeria , in blue
-*   <> <> ISO () Ethnic territories of the Marghi-speaking people in Nigeria ( organge )
-*   <> <> ISO () Ethnic territories of the Tangale-speaking people in Nigeria in green
-*   <> <> ISO () Europe , () AD
-*   <> <> ISO () European countries with a Neo-Latin literary tradition
-*   <> <> ISO () Expansion of the Roman Republic
-*   <> <> ISO () Extension of <> ( es : Usuario : Fobos92 () ) .
-*   <> <> ISO () Extent of both the <> and language .
-*   <> <> ISO () For modern varieties , see List of Nahuan languages .
-*   <> <> ISO () Geographic Distribution of the <> .
-*   <> <> ISO () Geographic distribution of <>
-*   <> <> ISO () ISO code no ISO code ‚ Ä ì <>
-*   <> <> ISO () Indigenous languages of Mexico with more than () , () speakers . Mixtec is marked on the map by dark green .
-*   <> <> ISO () Information
-*   <> <> ISO () Jianghuai is in pale blue
-*   <> <> ISO () KBL <>
-*   <> <> ISO () KNC <> <>
-*   <> <> ISO () KNY <> Manga
-*   <> <> ISO () KRT <> Tumari
-*   <> <> ISO () Lan-Yin <> the light yellow .
-*   <> <> ISO () Light blue : One of the official languages
-*   <> <> ISO () Linguistic area of <> Charentes and the <> of Gironde
-*   <> <> ISO () Location ( in red ) of land traditionally associated with <> Dark grey area shows highlighted area on a map of Australia .
-*   <> <> ISO () Location of <>
-*   <> <> ISO () Location of <> in red . ( Dark lines are estimated language boundaries before colonization . )
-*   <> <> ISO () Location of Lemnos .
-*   <> <> ISO () Location of Qu · ∫ £ ng B √ ¨ nh Province
-*   <> <> ISO () Location of Vaupes Department in Colombia
-*   <> <> ISO () Location of Wellesley Islands , the area traditionally associated with <>
-*   <> <> ISO () Location of city of <> () ) in <> <> . <> is about two miles north of the city of <>
-*   <> <> ISO () Location of the Volsci .
-*   <> <> ISO () Location within Chad where the <> is spoken
-*   <> <> ISO () Majority <> ( blue ) and minority <> ( green ) .
-*   <> <> ISO () Map indicating where <> spoken
-*   <> <> ISO () Map of Greece as described in Homer ' s Iliad . The geographical data is believed to refer primarily to Bronze Age Greece
-*   <> <> ISO () Map of the Sinophone world .
-*   <> <> ISO () Map of the areas in which <> spoken
-*   <> <> ISO () Map of the extent of the N √ º pode <> .
-*   <> <> ISO () Map of the majority usage of the five major languages of the <> group . * BMS <> Bilma
-*   <> <> ISO () Map showing locations of <> dark blue ) and <> blue )
-*   <> <> ISO () Map showing locations of <> red ) within Uzbekistan
-*   <> <> ISO () Map showing locations of √ Ñ ynu ( red ) within Xinjiang
-*   <> <> ISO () Mirpuri <> part of the area listed as Lahnda
-*   <> <> ISO () None
-*   <> <> ISO () None <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () Number of <> by Countries This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Nuragic tribes
-*   <> <> ISO () On this map , the dialects of <> classified as <>
-*   <> <> ISO () Ouargla
-*   <> <> ISO () Page from a manuscript in the <>
-*   <> <> ISO () Pre-European contact distribution of <>
-*   <> <> ISO () Pre-European distribution of <>
-*   <> <> ISO () Pre-contact distribution of <>
-*   <> <> ISO () Pre-contact distribution of the <>
-*   <> <> ISO () Pre-contact distribution of the <> ( Florida ) and <>
-*   <> <> ISO () Pre-contact distribution of the <> .
-*   <> <> ISO () Red : Places with significant population or greater than () % but without official recognition . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Regions of the Carpathian Basin where the <> is spoken
-*   <> <> ISO () Sabinium . The Marsi were to the south of Lake Fucinus shown in the lower right .
-*   <> <> ISO () Sabinium . The border with Latium to the south was the Aniene river ; however , it is possible that Sabines extended to Lake Regillus slightly to the south of it near Gabii
-*   <> <> ISO () Territory occupied by the St . Lawrence Iroquoians , circa ()
-*   <> <> ISO () The <>
-*   <> <> ISO () The <> are in Nicaragua in the center of the map .
-*   <> <> ISO () The <> in the Democratic Republic of the Congo , <> and Burundi , which were formerly <> , can also be considered an offshoot of <> ( red on the map ) . Pink : Other French-speaking countries , see <> .
-*   <> <> ISO () The <> region ( grey ) on Halmahera
-*   <> <> ISO () The Three Kingdoms of Korea , with <> ' Kaya ' ) in pink .
-*   <> <> ISO () The Three Kingdoms of Korea , with <> <> blue .
-*   <> <> ISO () The Three Kingdoms of Korea , with <> green .
-*   <> <> ISO () The Three Kingdoms of Korea , with <> red .
-*   <> <> ISO () The area where Kimwani is spoken is in gray .
-*   <> <> ISO () The distribution of Oshiwambo languages in Namibia .
-*   <> <> ISO () The distribution of the Nama language in Namibia .
-*   <> <> ISO () The four <>
-*   <> <> ISO () The location of <> Monqui and Peric √ ∫ are essentially unattested ; Cochim √ ≠
-*   <> <> ISO () The location of <> Tamaulipas state
-*   <> <> ISO () The location of <> to Tamaulipas state .
-*   <> <> ISO () The location of the <> dialect dialect among the others <> .
-*   <> <> ISO () The range of <> () AD
-*   <> <> ISO () The spread of Christianity in Europe to () AD ‚ Ä î the dark pockets represent initial enclaves
-*   <> <> ISO () This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> ISO () Towa language distribution in the State of <>
-*   <> <> ISO () Two <> texts from the city of Carchemish .
-*   <> <> ISO () V √ µ ro language area ‚ Ä î V √ µ romaa ( V √ µ ro county ) in its historical boundaries between Tartu and <> , Russia ( Vinnemaa ) and Latvia ( L √ § timaa )
-*   <> <> ISO () Verses from the Qur ' an in <> , written in the cursive <> .
-*   <> <> ISO () World map with significant <> speakers Dark Blue : Main official language
-*   <> <> ISO () Zapotecan languages in Oaxaca .
-*   <> <> ISO () aa
-*   <> <> ISO () aaa
-*   <> <> ISO () aab
-*   <> <> ISO () aac
-*   <> <> ISO () aad
-*   <> <> ISO () aae
-*   <> <> ISO () aae ‚ Ä ì Arb √ ´ resh √ ´
-*   <> <> ISO () aaf
-*   <> <> ISO () aag
-*   <> <> ISO () aak
-*   <> <> ISO () aal
-*   <> <> ISO () aam
-*   <> <> ISO () aan
-*   <> <> ISO () aao
-*   <> <> ISO () aaq
-*   <> <> ISO () aar
-*   <> <> ISO () aas
-*   <> <> ISO () aat
-*   <> <> ISO () aat ‚ Ä ì <>
-*   <> <> ISO () aau
-*   <> <> ISO () ab
-*   <> <> ISO () aba
-*   <> <> ISO () abb
-*   <> <> ISO () abc
-*   <> <> ISO () abe
-*   <> <> ISO () abe ‚ Ä ì <>
-*   <> <> ISO () abh
-*   <> <> ISO () abj
-*   <> <> ISO () abk
-*   <> <> ISO () abm
-*   <> <> ISO () abp
-*   <> <> ISO () abq
-*   <> <> ISO () abr
-*   <> <> ISO () abt
-*   <> <> ISO () abv
-*   <> <> ISO () abx
-*   <> <> ISO () abz
-*   <> <> ISO () aca
-*   <> <> ISO () ace
-*   <> <> ISO () acf
-*   <> <> ISO () acf ‚ Ä ì <> Creole <>
-*   <> <> ISO () ach
-*   <> <> ISO () aci
-*   <> <> ISO () ack
-*   <> <> ISO () acl
-*   <> <> ISO () acm
-*   <> <> ISO () acn
-*   <> <> ISO () acp
-*   <> <> ISO () acq
-*   <> <> ISO () acq ‚ Ä ì Ta ' izzi-Adeni <>
-*   <> <> ISO () acr
-*   <> <> ISO () act
-*   <> <> ISO () acu
-*   <> <> ISO () acv
-*   <> <> ISO () acw
-*   <> <> ISO () acx
-*   <> <> ISO () acy
-*   <> <> ISO () ada
-*   <> <> ISO () adb
-*   <> <> ISO () ade
-*   <> <> ISO () adf
-*   <> <> ISO () adg
-*   <> <> ISO () adg ‚ Ä ì Antekerrepenhe
-*   <> <> ISO () adh
-*   <> <> ISO () adn
-*   <> <> ISO () ads <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () adt
-*   <> <> ISO () adx
-*   <> <> ISO () ady
-*   <> <> ISO () ae
-*   <> <> ISO () aeb
-*   <> <> ISO () aec
-*   <> <> ISO () aed <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () aem
-*   <> <> ISO () aen <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () aer ‚ Ä ì <>
-*   <> <> ISO () aes
-*   <> <> ISO () af
-*   <> <> ISO () afb
-*   <> <> ISO () afh
-*   <> <> ISO () afn
-*   <> <> ISO () afr
-*   <> <> ISO () afr ‚ Ä ì <>
-*   <> <> ISO () afs
-*   <> <> ISO () aga
-*   <> <> ISO () agj
-*   <> <> ISO () agn
-*   <> <> ISO () agq
-*   <> <> ISO () agr
-*   <> <> ISO () ags
-*   <> <> ISO () agu
-*   <> <> ISO () agv
-*   <> <> ISO () agw
-*   <> <> ISO () agx
-*   <> <> ISO () ahg
-*   <> <> ISO () ahh
-*   <> <> ISO () ahk
-*   <> <> ISO () aho
-*   <> <> ISO () ahr ‚ Ä ì Ahirani
-*   <> <> ISO () aht
-*   <> <> ISO () aia
-*   <> <> ISO () aib
-*   <> <> ISO () aid
-*   <> <> ISO () aie
-*   <> <> ISO () aig
-*   <> <> ISO () aih
-*   <> <> ISO () aii
-*   <> <> ISO () aii ‚ Ä ì <>
-*   <> <> ISO () aij
-*   <> <> ISO () aij ‚ Ä ì <>
-*   <> <> ISO () ain
-*   <> <> ISO () aiq
-*   <> <> ISO () aiq ‚ Ä ì <>
-*   <> <> ISO () air
-*   <> <> ISO () aiw
-*   <> <> ISO () aix
-*   <> <> ISO () aja
-*   <> <> ISO () ajg
-*   <> <> ISO () aji
-*   <> <> ISO () ajp
-*   <> <> ISO () ajp ‚ Ä ì <> <>
-*   <> <> ISO () ajt
-*   <> <> ISO () ajt ‚ Ä ì <>
-*   <> <> ISO () aju
-*   <> <> ISO () aju ‚ Ä ì <>
-*   <> <> ISO () ajw
-*   <> <> ISO () ak
-*   <> <> ISO () aka
-*   <> <> ISO () aka ‚ Ä ì Macrolanguage
-*   <> <> ISO () akc
-*   <> <> ISO () ake
-*   <> <> ISO () akk
-*   <> <> ISO () akl
-*   <> <> ISO () akm
-*   <> <> ISO () akp
-*   <> <> ISO () akr
-*   <> <> ISO () akv
-*   <> <> ISO () akx
-*   <> <> ISO () aky
-*   <> <> ISO () akz
-*   <> <> ISO () alb ( B )
-*   <> <> ISO () alc
-*   <> <> ISO () ale
-*   <> <> ISO () alg
-*   <> <> ISO () ali
-*   <> <> ISO () alj
-*   <> <> ISO () alk
-*   <> <> ISO () all
-*   <> <> ISO () aln
-*   <> <> ISO () alq
-*   <> <> ISO () alq ‚ Ä ì <>
-*   <> <> ISO () alr
-*   <> <> ISO () als
-*   <> <> ISO () als ‚ Ä ì <>
-*   <> <> ISO () alt
-*   <> <> ISO () alt ‚ Ä ì <>
-*   <> <> ISO () alu
-*   <> <> ISO () alw
-*   <> <> ISO () aly ‚ Ä ì Alyawarr
-*   <> <> ISO () alz
-*   <> <> ISO () am
-*   <> <> ISO () ama
-*   <> <> ISO () amc
-*   <> <> ISO () ame
-*   <> <> ISO () amf
-*   <> <> ISO () amg
-*   <> <> ISO () amh
-*   <> <> ISO () ami
-*   <> <> ISO () amj
-*   <> <> ISO () amk
-*   <> <> ISO () aml
-*   <> <> ISO () amm
-*   <> <> ISO () amn
-*   <> <> ISO () amp
-*   <> <> ISO () amr
-*   <> <> ISO () ams ‚ Ä ì <>
-*   <> <> ISO () amt
-*   <> <> ISO () amu
-*   <> <> ISO () amv
-*   <> <> ISO () amw
-*   <> <> ISO () amw ‚ Ä ì <>
-*   <> <> ISO () amz
-*   <> <> ISO () an
-*   <> <> ISO () ana
-*   <> <> ISO () anb
-*   <> <> ISO () anc
-*   <> <> ISO () and <>
-*   <> <> ISO () and other Senufo languages .
-*   <> <> ISO () and therefore can be used as an estimator of the range .
-*   <> <> ISO () and was by no means ubiquitous within it .
-*   <> <> ISO () anf
-*   <> <> ISO () ang
-*   <> <> ISO () ani
-*   <> <> ISO () ank
-*   <> <> ISO () anm
-*   <> <> ISO () ano
-*   <> <> ISO () anp
-*   <> <> ISO () anq
-*   <> <> ISO () ant
-*   <> <> ISO () anu
-*   <> <> ISO () any
-*   <> <> ISO () anz
-*   <> <> ISO () aoa
-*   <> <> ISO () aob
-*   <> <> ISO () aoc
-*   <> <> ISO () aoi
-*   <> <> ISO () aol
-*   <> <> ISO () aot
-*   <> <> ISO () aoz
-*   <> <> ISO () apa
-*   <> <> ISO () apb
-*   <> <> ISO () apc
-*   <> <> ISO () apd
-*   <> <> ISO () aph
-*   <> <> ISO () api
-*   <> <> ISO () apj
-*   <> <> ISO () apk
-*   <> <> ISO () apl
-*   <> <> ISO () apm
-*   <> <> ISO () apn
-*   <> <> ISO () app
-*   <> <> ISO () apr
-*   <> <> ISO () apu
-*   <> <> ISO () apw
-*   <> <> ISO () apy
-*   <> <> ISO () aqc
-*   <> <> ISO () aqg
-*   <> <> ISO () aqp
-*   <> <> ISO () ar
-*   <> <> ISO () ara
-*   <> <> ISO () ara ‚ Ä ì <> generic )
-*   <> <> ISO () arb
-*   <> <> ISO () arc
-*   <> <> ISO () ard
-*   <> <> ISO () are marked with a ' Y '
-*   <> <> ISO () are ‚ Ä ì <>
-*   <> <> ISO () arg
-*   <> <> ISO () arh
-*   <> <> ISO () ari <> distribution
-*   <> <> ISO () ark
-*   <> <> ISO () arl
-*   <> <> ISO () arm ( B )
-*   <> <> ISO () arn
-*   <> <> ISO () arn Graffiti in Mapudungun meaining () .
-*   <> <> ISO () aro
-*   <> <> ISO () arp
-*   <> <> ISO () arq
-*   <> <> ISO () arr
-*   <> <> ISO () ars
-*   <> <> ISO () art
-*   <> <> ISO () aru
-*   <> <> ISO () arv
-*   <> <> ISO () arw
-*   <> <> ISO () ary
-*   <> <> ISO () arz
-*   <> <> ISO () as
-*   <> <> ISO () asa
-*   <> <> ISO () asb
-*   <> <> ISO () ase <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () asf <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ash
-*   <> <> ISO () ask
-*   <> <> ISO () asm
-*   <> <> ISO () aso
-*   <> <> ISO () asp <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () asq <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ast
-*   <> <> ISO () ast ‚ Ä ì <>
-*   <> <> ISO () asu
-*   <> <> ISO () asv
-*   <> <> ISO () at right
-*   <> <> ISO () ata
-*   <> <> ISO () atb
-*   <> <> ISO () ath
-*   <> <> ISO () atj
-*   <> <> ISO () atj ‚ Ä ì <>
-*   <> <> ISO () atn
-*   <> <> ISO () ats
-*   <> <> ISO () atv
-*   <> <> ISO () atw
-*   <> <> ISO () atx
-*   <> <> ISO () aty
-*   <> <> ISO () auc
-*   <> <> ISO () aud
-*   <> <> ISO () aue
-*   <> <> ISO () aue ‚ Ä ì « Ç Kx   º au « Å   º ein
-*   <> <> ISO () auj
-*   <> <> ISO () aul
-*   <> <> ISO () aum
-*   <> <> ISO () auo
-*   <> <> ISO () auq
-*   <> <> ISO () aut
-*   <> <> ISO () aux
-*   <> <> ISO () auz
-*   <> <> ISO () auz ‚ Ä ì <>
-*   <> <> ISO () av
-*   <> <> ISO () ava
-*   <> <> ISO () ave
-*   <> <> ISO () avi
-*   <> <> ISO () avl
-*   <> <> ISO () avn
-*   <> <> ISO () avs
-*   <> <> ISO () avt
-*   <> <> ISO () avu
-*   <> <> ISO () awa
-*   <> <> ISO () awc
-*   <> <> ISO () awe
-*   <> <> ISO () awk
-*   <> <> ISO () awn
-*   <> <> ISO () axb
-*   <> <> ISO () axg
-*   <> <> ISO () axk
-*   <> <> ISO () axm
-*   <> <> ISO () axm ‚ Ä ì <>
-*   <> <> ISO () ay
-*   <> <> ISO () ayc
-*   <> <> ISO () ayc ‚ Ä ì <>
-*   <> <> ISO () aye ‚ Ä ì Ayere
-*   <> <> ISO () ayh
-*   <> <> ISO () ayl
-*   <> <> ISO () aym
-*   <> <> ISO () aym ‚ Ä ì Macrolanguage
-*   <> <> ISO () ayn
-*   <> <> ISO () ayn ‚ Ä ì <>
-*   <> <> ISO () ayo
-*   <> <> ISO () ayp
-*   <> <> ISO () ayq
-*   <> <> ISO () ayr
-*   <> <> ISO () ayt
-*   <> <> ISO () ayz
-*   <> <> ISO () az
-*   <> <> ISO () azb
-*   <> <> ISO () azb ‚ Ä ì ( <> )
-*   <> <> ISO () azb ‚ Ä ì <>
-*   <> <> ISO () aze
-*   <> <> ISO () aze ‚ Ä ì Macrolanguage
-*   <> <> ISO () azg ‚ Ä ì <> Amuzgos <>
-*   <> <> ISO () azj
-*   <> <> ISO () azm ‚ Ä ì Ipalapa <>
-*   <> <> ISO () azz
-*   <> <> ISO () azz ‚ Ä ì <> <>
-*   <> <> ISO () ba
-*   <> <> ISO () bad
-*   <> <> ISO () bah
-*   <> <> ISO () bak
-*   <> <> ISO () bal
-*   <> <> ISO () bal ‚ Ä ì Macrolanguage
-*   <> <> ISO () bam
-*   <> <> ISO () ban
-*   <> <> ISO () bap
-*   <> <> ISO () baq ( B )
-*   <> <> ISO () bar
-*   <> <> ISO () bar ‚ Ä ì <>
-*   <> <> ISO () bas
-*   <> <> ISO () bav
-*   <> <> ISO () bax
-*   <> <> ISO () bba
-*   <> <> ISO () bbc
-*   <> <> ISO () bbf
-*   <> <> ISO () bbh
-*   <> <> ISO () bbi
-*   <> <> ISO () bbl
-*   <> <> ISO () bbn
-*   <> <> ISO () bbt
-*   <> <> ISO () bbv
-*   <> <> ISO () bcc ‚ Ä ì <>
-*   <> <> ISO () bcg
-*   <> <> ISO () bci
-*   <> <> ISO () bcj
-*   <> <> ISO () bcl
-*   <> <> ISO () bcl ‚ Ä ì <>
-*   <> <> ISO () bcn
-*   <> <> ISO () bcq
-*   <> <> ISO () bcr
-*   <> <> ISO () bcu
-*   <> <> ISO () bcw
-*   <> <> ISO () bcy
-*   <> <> ISO () bda
-*   <> <> ISO () bde
-*   <> <> ISO () bdk
-*   <> <> ISO () bdm
-*   <> <> ISO () bdn
-*   <> <> ISO () bdq
-*   <> <> ISO () bds
-*   <> <> ISO () bdy
-*   <> <> ISO () be
-*   <> <> ISO () bea
-*   <> <> ISO () bej
-*   <> <> ISO () bel
-*   <> <> ISO () bem
-*   <> <> ISO () ben
-*   <> <> ISO () ber
-*   <> <> ISO () bew
-*   <> <> ISO () bex
-*   <> <> ISO () bez
-*   <> <> ISO () bfa
-*   <> <> ISO () bfc ‚ Ä ì <> , Bijiang dialect
-*   <> <> ISO () bfd
-*   <> <> ISO () bfi <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () bfj
-*   <> <> ISO () bfk <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () bfn
-*   <> <> ISO () bfq
-*   <> <> ISO () bfs ‚ Ä ì <> , Dali dialect
-*   <> <> ISO () bft
-*   <> <> ISO () bfu
-*   <> <> ISO () bfw
-*   <> <> ISO () bfy
-*   <> <> ISO () bg
-*   <> <> ISO () bgc
-*   <> <> ISO () bgk
-*   <> <> ISO () bgl
-*   <> <> ISO () bgn ‚ Ä ì <>
-*   <> <> ISO () bgp ‚ Ä ì <>
-*   <> <> ISO () bgq
-*   <> <> ISO () bgx
-*   <> <> ISO () bgz
-*   <> <> ISO () bh ( Bihari )
-*   <> <> ISO () bh ( Bihari languages )
-*   <> <> ISO () bhb
-*   <> <> ISO () bhf
-*   <> <> ISO () bhh
-*   <> <> ISO () bhh ‚ Ä ì Bukharic
-*   <> <> ISO () bhj
-*   <> <> ISO () bhk ‚ Ä ì Macrolanguage
-*   <> <> ISO () bhm
-*   <> <> ISO () bhn
-*   <> <> ISO () bhn ‚ Ä ì <>
-*   <> <> ISO () bho
-*   <> <> ISO () bhp
-*   <> <> ISO () bhq ‚ Ä ì <> <>
-*   <> <> ISO () bhr ‚ Ä ì Bara
-*   <> <> ISO () bhs
-*   <> <> ISO () bhw
-*   <> <> ISO () bi
-*   <> <> ISO () bia
-*   <> <> ISO () bid
-*   <> <> ISO () bih
-*   <> <> ISO () bik
-*   <> <> ISO () bin
-*   <> <> ISO () bio
-*   <> <> ISO () biq
-*   <> <> ISO () bis
-*   <> <> ISO () biw
-*   <> <> ISO () biy
-*   <> <> ISO () biz
-*   <> <> ISO () bjf
-*   <> <> ISO () bjf ‚ Ä ì <> Neo-Aramaic
-*   <> <> ISO () bjg
-*   <> <> ISO () bji
-*   <> <> ISO () bjj
-*   <> <> ISO () bjn
-*   <> <> ISO () bjq ‚ Ä ì <>
-*   <> <> ISO () bjs
-*   <> <> ISO () bjt ‚ Ä ì Balanta-Ganja
-*   <> <> ISO () bju
-*   <> <> ISO () bkc
-*   <> <> ISO () bkl
-*   <> <> ISO () bkm
-*   <> <> ISO () bkr
-*   <> <> ISO () bku
-*   <> <> ISO () bla
-*   <> <> ISO () blb
-*   <> <> ISO () blc
-*   <> <> ISO () bld
-*   <> <> ISO () blf
-*   <> <> ISO () blh
-*   <> <> ISO () bll
-*   <> <> ISO () blt
-*   <> <> ISO () blx
-*   <> <> ISO () bm
-*   <> <> ISO () bmf
-*   <> <> ISO () bmi
-*   <> <> ISO () bmm ‚ Ä ì <>
-*   <> <> ISO () bmr
-*   <> <> ISO () bms ‚ Ä ì Bilma <>
-*   <> <> ISO () bn
-*   <> <> ISO () bnc
-*   <> <> ISO () bng
-*   <> <> ISO () bni
-*   <> <> ISO () bnl
-*   <> <> ISO () bnn
-*   <> <> ISO () bno
-*   <> <> ISO () bnq
-*   <> <> ISO () bns
-*   <> <> ISO () bnt
-*   <> <> ISO () bo
-*   <> <> ISO () boa
-*   <> <> ISO () bob
-*   <> <> ISO () bod
-*   <> <> ISO () bod ( T )
-*   <> <> ISO () boi
-*   <> <> ISO () bol
-*   <> <> ISO () bom
-*   <> <> ISO () bor
-*   <> <> ISO () bos
-*   <> <> ISO () bos ‚ Ä ì <>
-*   <> <> ISO () bot
-*   <> <> ISO () bpb
-*   <> <> ISO () bph
-*   <> <> ISO () bpl
-*   <> <> ISO () bpt
-*   <> <> ISO () bpw
-*   <> <> ISO () bpy
-*   <> <> ISO () bqd
-*   <> <> ISO () bqh
-*   <> <> ISO () bqi
-*   <> <> ISO () bqi ‚ Ä ì <>
-*   <> <> ISO () bqp
-*   <> <> ISO () bqy <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () br
-*   <> <> ISO () bra
-*   <> <> ISO () brc
-*   <> <> ISO () bre
-*   <> <> ISO () brg
-*   <> <> ISO () brh
-*   <> <> ISO () brk
-*   <> <> ISO () brn
-*   <> <> ISO () bro
-*   <> <> ISO () brp
-*   <> <> ISO () bru
-*   <> <> ISO () brv
-*   <> <> ISO () brx
-*   <> <> ISO () brz
-*   <> <> ISO () bs
-*   <> <> ISO () bsa
-*   <> <> ISO () bsg
-*   <> <> ISO () bsh
-*   <> <> ISO () bsh-mum
-*   <> <> ISO () bsk
-*   <> <> ISO () bsn
-*   <> <> ISO () bso
-*   <> <> ISO () bsq
-*   <> <> ISO () bss
-*   <> <> ISO () bst
-*   <> <> ISO () bsw
-*   <> <> ISO () bta
-*   <> <> ISO () btb
-*   <> <> ISO () btf
-*   <> <> ISO () bth
-*   <> <> ISO () btm
-*   <> <> ISO () btn
-*   <> <> ISO () bto
-*   <> <> ISO () btw
-*   <> <> ISO () btx
-*   <> <> ISO () bty
-*   <> <> ISO () bua
-*   <> <> ISO () bua ‚ Ä ì Macrolanguage
-*   <> <> ISO () bub
-*   <> <> ISO () buc
-*   <> <> ISO () bue
-*   <> <> ISO () bug
-*   <> <> ISO () buh
-*   <> <> ISO () buk
-*   <> <> ISO () bul
-*   <> <> ISO () bul-ban
-*   <> <> ISO () bum
-*   <> <> ISO () bun
-*   <> <> ISO () buo
-*   <> <> ISO () bur ( B )
-*   <> <> ISO () buu
-*   <> <> ISO () bux
-*   <> <> ISO () buy
-*   <> <> ISO () bva
-*   <> <> ISO () bvb
-*   <> <> ISO () bvd
-*   <> <> ISO () bve
-*   <> <> ISO () bvf
-*   <> <> ISO () bvh
-*   <> <> ISO () bvl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () bvo
-*   <> <> ISO () bvr
-*   <> <> ISO () bvw
-*   <> <> ISO () bwb
-*   <> <> ISO () bwh
-*   <> <> ISO () bwo
-*   <> <> ISO () bwr
-*   <> <> ISO () bwx
-*   <> <> ISO () bwz
-*   <> <> ISO () bxa
-*   <> <> ISO () bxe
-*   <> <> ISO () bxg
-*   <> <> ISO () bxk
-*   <> <> ISO () bxm ‚ Ä ì Mongolia Buriat
-*   <> <> ISO () bxn
-*   <> <> ISO () bxq
-*   <> <> ISO () bxr ‚ Ä ì Russia Buriat
-*   <> <> ISO () bxx
-*   <> <> ISO () byb
-*   <> <> ISO () byf
-*   <> <> ISO () byg
-*   <> <> ISO () byh
-*   <> <> ISO () byk
-*   <> <> ISO () bym
-*   <> <> ISO () byn
-*   <> <> ISO () byq
-*   <> <> ISO () byw
-*   <> <> ISO () bza
-*   <> <> ISO () bzd
-*   <> <> ISO () bzf
-*   <> <> ISO () bzg
-*   <> <> ISO () bzj
-*   <> <> ISO () bzk
-*   <> <> ISO () bzk ‚ Ä ì <> Creole
-*   <> <> ISO () bzs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () bzt
-*   <> <> ISO () bzu
-*   <> <> ISO () bzw
-*   <> <> ISO () ca
-*   <> <> ISO () caa
-*   <> <> ISO () cab
-*   <> <> ISO () cac
-*   <> <> ISO () cad
-*   <> <> ISO () caf ‚ Ä ì <>
-*   <> <> ISO () cag
-*   <> <> ISO () cah
-*   <> <> ISO () caj
-*   <> <> ISO () cak
-*   <> <> ISO () cal
-*   <> <> ISO () cam
-*   <> <> ISO () cao
-*   <> <> ISO () cap
-*   <> <> ISO () caq
-*   <> <> ISO () car
-*   <> <> ISO () cas
-*   <> <> ISO () cat
-*   <> <> ISO () cat-rib
-*   <> <> ISO () cav
-*   <> <> ISO () caw
-*   <> <> ISO () cax
-*   <> <> ISO () cay
-*   <> <> ISO () caz
-*   <> <> ISO () cbb
-*   <> <> ISO () cbe
-*   <> <> ISO () cbh
-*   <> <> ISO () cbi
-*   <> <> ISO () cbk
-*   <> <> ISO () cbn
-*   <> <> ISO () cbr
-*   <> <> ISO () cbs
-*   <> <> ISO () cbt
-*   <> <> ISO () cbu
-*   <> <> ISO () cbv
-*   <> <> ISO () cby
-*   <> <> ISO () ccc
-*   <> <> ISO () cce
-*   <> <> ISO () ccp
-*   <> <> ISO () ccr
-*   <> <> ISO () cde
-*   <> <> ISO () cdm
-*   <> <> ISO () cdo
-*   <> <> ISO () cdo-fuz Foochowese in Fujian Province , regions where the standard form is spoken are deep blue .
-*   <> <> ISO () cdy
-*   <> <> ISO () ce
-*   <> <> ISO () ceb
-*   <> <> ISO () ceg
-*   <> <> ISO () ces
-*   <> <> ISO () ces ( T )
-*   <> <> ISO () cet
-*   <> <> ISO () cgc
-*   <> <> ISO () cgg
-*   <> <> ISO () cgk
-*   <> <> ISO () ch
-*   <> <> ISO () cha
-*   <> <> ISO () cha <> spread in the United States
-*   <> <> ISO () chb
-*   <> <> ISO () che
-*   <> <> ISO () chf
-*   <> <> ISO () chg
-*   <> <> ISO () chi ( B )
-*   <> <> ISO () chj ‚ Ä ì Ojitl √ ° n <>
-*   <> <> ISO () chk
-*   <> <> ISO () chl
-*   <> <> ISO () chm
-*   <> <> ISO () chm ‚ Ä ì Macrolanguage
-*   <> <> ISO () chn
-*   <> <> ISO () chn ( B )
-*   <> <> ISO () cho
-*   <> <> ISO () chp
-*   <> <> ISO () chq ‚ Ä ì Quiotepec <>
-*   <> <> ISO () chr
-*   <> <> ISO () cht
-*   <> <> ISO () chu
-*   <> <> ISO () chv
-*   <> <> ISO () chw
-*   <> <> ISO () chx
-*   <> <> ISO () chy
-*   <> <> ISO () chz ‚ Ä ì Ozumac √ ≠ n <>
-*   <> <> ISO () cia
-*   <> <> ISO () cic
-*   <> <> ISO () cid
-*   <> <> ISO () cie
-*   <> <> ISO () cim
-*   <> <> ISO () cim ‚ Ä ì <>
-*   <> <> ISO () cip
-*   <> <> ISO () ciw
-*   <> <> ISO () ciw ‚ Ä ì <>
-*   <> <> ISO () cji
-*   <> <> ISO () cjk
-*   <> <> ISO () cjm ‚ Ä ì <>
-*   <> <> ISO () cjo
-*   <> <> ISO () cjp
-*   <> <> ISO () cjs
-*   <> <> ISO () cjy
-*   <> <> ISO () cjy ‚ Ä ì Jinyu
-*   <> <> ISO () ckb
-*   <> <> ISO () ckl
-*   <> <> ISO () ckq
-*   <> <> ISO () cks
-*   <> <> ISO () ckt
-*   <> <> ISO () cku
-*   <> <> ISO () ckv
-*   <> <> ISO () cky
-*   <> <> ISO () cla
-*   <> <> ISO () clc
-*   <> <> ISO () cld
-*   <> <> ISO () cld ‚ Ä ì <>
-*   <> <> ISO () cle ‚ Ä ì Lealao <>
-*   <> <> ISO () clh
-*   <> <> ISO () clk
-*   <> <> ISO () clm
-*   <> <> ISO () clu
-*   <> <> ISO () clw
-*   <> <> ISO () cmg
-*   <> <> ISO () cmi
-*   <> <> ISO () cmk
-*   <> <> ISO () cmn
-*   <> <> ISO () cmn ‚ Ä ì <>
-*   <> <> ISO () cmn-bei ( <> )
-*   <> <> ISO () cmn-bej ( <> )
-*   <> <> ISO () cmn-jia
-*   <> <> ISO () cmn-jil
-*   <> <> ISO () cmn-jin
-*   <> <> ISO () cmn-lan ‚ Ä ì
-*   <> <> ISO () cmn-nem
-*   <> <> ISO () cmn-xin
-*   <> <> ISO () cmn-zho ‚ Ä ì
-*   <> <> ISO () cms
-*   <> <> ISO () cmt ‚ Ä ì Camtho
-*   <> <> ISO () cng
-*   <> <> ISO () cnh
-*   <> <> ISO () cnh ( B )
-*   <> <> ISO () cnh ( T )
-*   <> <> ISO () cni
-*   <> <> ISO () cnl ‚ Ä ì Lalana <>
-*   <> <> ISO () cno
-*   <> <> ISO () cnt ‚ Ä ì Tepetotutla <>
-*   <> <> ISO () cnu
-*   <> <> ISO () co
-*   <> <> ISO () coa ‚ Ä ì Cocos Islands <>
-*   <> <> ISO () cob
-*   <> <> ISO () coc
-*   <> <> ISO () cod
-*   <> <> ISO () cog
-*   <> <> ISO () coj
-*   <> <> ISO () com
-*   <> <> ISO () con
-*   <> <> ISO () coo
-*   <> <> ISO () cop
-*   <> <> ISO () cor
-*   <> <> ISO () cos
-*   <> <> ISO () cot
-*   <> <> ISO () cow
-*   <> <> ISO () coz
-*   <> <> ISO () cpa ‚ Ä ì Palantla <>
-*   <> <> ISO () cpb
-*   <> <> ISO () cpc
-*   <> <> ISO () cpe
-*   <> <> ISO () cpe ( ? )
-*   <> <> ISO () cpf
-*   <> <> ISO () cpg
-*   <> <> ISO () cpg ‚ Ä ì <>
-*   <> <> ISO () cpi
-*   <> <> ISO () cpp
-*   <> <> ISO () cps
-*   <> <> ISO () cpu
-*   <> <> ISO () cpx
-*   <> <> ISO () cpx ‚ Ä ì Pu Xian
-*   <> <> ISO () cpy
-*   <> <> ISO () cqd ‚ Ä ì Chuanqiandian Cluster <>
-*   <> <> ISO () cqd ‚ Ä ì ]
-*   <> <> ISO () cqu
-*   <> <> ISO () cr
-*   <> <> ISO () cra
-*   <> <> ISO () crd
-*   <> <> ISO () cre
-*   <> <> ISO () cre ‚ Ä ì Macrolanguage
-*   <> <> ISO () crg
-*   <> <> ISO () crh
-*   <> <> ISO () cri
-*   <> <> ISO () crj
-*   <> <> ISO () crj ‚ Ä ì <> <>
-*   <> <> ISO () crk
-*   <> <> ISO () crk ‚ Ä ì <>
-*   <> <> ISO () crl
-*   <> <> ISO () crl ‚ Ä ì <> <>
-*   <> <> ISO () crm
-*   <> <> ISO () crm ‚ Ä ì <>
-*   <> <> ISO () crn
-*   <> <> ISO () cro
-*   <> <> ISO () crp
-*   <> <> ISO () crq
-*   <> <> ISO () crs
-*   <> <> ISO () crt
-*   <> <> ISO () crv
-*   <> <> ISO () crw
-*   <> <> ISO () crw ‚ Ä ì <>
-*   <> <> ISO () cry
-*   <> <> ISO () crz ‚ Ä ì Cruze √ ± o
-*   <> <> ISO () cs
-*   <> <> ISO () csa ‚ Ä ì Chiltepec <>
-*   <> <> ISO () csb
-*   <> <> ISO () csb-slo
-*   <> <> ISO () csc <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () csg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () csl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () csn <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () cso ‚ Ä ì Sochiapan <>
-*   <> <> ISO () csq <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () css
-*   <> <> ISO () css ‚ Ä ì <>
-*   <> <> ISO () cst
-*   <> <> ISO () csw
-*   <> <> ISO () cte ‚ Ä ì Tepinapa <>
-*   <> <> ISO () ctg
-*   <> <> ISO () ctl ‚ Ä ì Tlacoatzintepec <>
-*   <> <> ISO () ctm
-*   <> <> ISO () ctn
-*   <> <> ISO () cto
-*   <> <> ISO () ctp
-*   <> <> ISO () cts
-*   <> <> ISO () ctu
-*   <> <> ISO () cu
-*   <> <> ISO () cua
-*   <> <> ISO () cub
-*   <> <> ISO () cuc ‚ Ä ì Usila <>
-*   <> <> ISO () cui
-*   <> <> ISO () cuk ‚ Ä ì ( erroneous )
-*   <> <> ISO () cul
-*   <> <> ISO () cup
-*   <> <> ISO () cus
-*   <> <> ISO () cut ‚ Ä ì Teutila
-*   <> <> ISO () cuv
-*   <> <> ISO () cv
-*   <> <> ISO () cvn ‚ Ä ì Valle Nacional <>
-*   <> <> ISO () cwd
-*   <> <> ISO () cwd ‚ Ä ì <>
-*   <> <> ISO () cy
-*   <> <> ISO () cyb
-*   <> <> ISO () cym
-*   <> <> ISO () cym ( T )
-*   <> <> ISO () cyo
-*   <> <> ISO () cze ( B )
-*   <> <> ISO () czh
-*   <> <> ISO () czh ‚ Ä ì Huizhou
-*   <> <> ISO () czk
-*   <> <> ISO () czo
-*   <> <> ISO () czo ‚ Ä ì <>
-*   <> <> ISO () da
-*   <> <> ISO () daa
-*   <> <> ISO () dad
-*   <> <> ISO () daf
-*   <> <> ISO () dag
-*   <> <> ISO () dah
-*   <> <> ISO () dai
-*   <> <> ISO () daj
-*   <> <> ISO () dak
-*   <> <> ISO () dak ‚ Ä î <>
-*   <> <> ISO () dal
-*   <> <> ISO () dam
-*   <> <> ISO () dan
-*   <> <> ISO () dar
-*   <> <> ISO () dax ‚ Ä ì Dayi
-*   <> <> ISO () dba
-*   <> <> ISO () dbb
-*   <> <> ISO () dbj
-*   <> <> ISO () dbl
-*   <> <> ISO () dbp
-*   <> <> ISO () dbq
-*   <> <> ISO () dbr
-*   <> <> ISO () dcr
-*   <> <> ISO () ddg
-*   <> <> ISO () ddo
-*   <> <> ISO () ddw
-*   <> <> ISO () de
-*   <> <> ISO () dec
-*   <> <> ISO () dee
-*   <> <> ISO () deg
-*   <> <> ISO () del
-*   <> <> ISO () del ‚ Ä ì Macrolanguage
-*   <> <> ISO () dem
-*   <> <> ISO () den
-*   <> <> ISO () den ‚ Ä ì Macrolanguage
-*   <> <> ISO () der
-*   <> <> ISO () deu
-*   <> <> ISO () deu ( T )
-*   <> <> ISO () dgd ‚ Ä ì Dagaari <>
-*   <> <> ISO () dgg
-*   <> <> ISO () dgh
-*   <> <> ISO () dgi ‚ Ä ì <>
-*   <> <> ISO () dgr
-*   <> <> ISO () dhd
-*   <> <> ISO () dhg ‚ Ä ì Dhangu
-*   <> <> ISO () dhn ‚ Ä ì Dhanki
-*   <> <> ISO () dhv
-*   <> <> ISO () dhw
-*   <> <> ISO () dib ‚ Ä ì <> <> Agar )
-*   <> <> ISO () dic ‚ Ä ì <>
-*   <> <> ISO () dif
-*   <> <> ISO () dig
-*   <> <> ISO () dih
-*   <> <> ISO () dih ‚ Ä ì Campo
-*   <> <> ISO () dik ‚ Ä ì <> ( Rek )
-*   <> <> ISO () dim
-*   <> <> ISO () din
-*   <> <> ISO () din ‚ Ä ì Macrolanguage
-*   <> <> ISO () diq ‚ Ä ì Dimli ( <> )
-*   <> <> ISO () dis
-*   <> <> ISO () diu
-*   <> <> ISO () div
-*   <> <> ISO () diw ‚ Ä ì <> ( Ruweng )
-*   <> <> ISO () djb ‚ Ä ì Djinba
-*   <> <> ISO () djc
-*   <> <> ISO () djd
-*   <> <> ISO () dje
-*   <> <> ISO () djj
-*   <> <> ISO () djk
-*   <> <> ISO () djl
-*   <> <> ISO () djl ‚ Ä ì ( <>
-*   <> <> ISO () djm
-*   <> <> ISO () djr ‚ Ä ì Djambarrpuyngu
-*   <> <> ISO () djw
-*   <> <> ISO () dka
-*   <> <> ISO () dks ‚ Ä ì <> ( Bor , Twic / Tuic )
-*   <> <> ISO () dkx
-*   <> <> ISO () dlc
-*   <> <> ISO () dlg
-*   <> <> ISO () dlm
-*   <> <> ISO () dme
-*   <> <> ISO () dmk
-*   <> <> ISO () dml
-*   <> <> ISO () dmo
-*   <> <> ISO () dmy
-*   <> <> ISO () dng
-*   <> <> ISO () dnw
-*   <> <> ISO () dny
-*   <> <> ISO () doi
-*   <> <> ISO () doi ‚ Ä ì Macrolanguage
-*   <> <> ISO () dol
-*   <> <> ISO () dor
-*   <> <> ISO () dot
-*   <> <> ISO () dox
-*   <> <> ISO () doz
-*   <> <> ISO () dra
-*   <> <> ISO () drl
-*   <> <> ISO () drq
-*   <> <> ISO () drr
-*   <> <> ISO () drs
-*   <> <> ISO () drt
-*   <> <> ISO () dru
-*   <> <> ISO () drw ‚ Ä ì Darwazi
-*   <> <> ISO () dsb
-*   <> <> ISO () dse <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () dsh
-*   <> <> ISO () dsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () dsn
-*   <> <> ISO () dsq
-*   <> <> ISO () dta
-*   <> <> ISO () dtp
-*   <> <> ISO () dts
-*   <> <> ISO () dua
-*   <> <> ISO () duf
-*   <> <> ISO () duj
-*   <> <> ISO () duj ‚ Ä ì <>
-*   <> <> ISO () dum
-*   <> <> ISO () dus
-*   <> <> ISO () dut ( B )
-*   <> <> ISO () duu
-*   <> <> ISO () dv
-*   <> <> ISO () dwa
-*   <> <> ISO () dwr ‚ Ä ì Dawro
-*   <> <> ISO () dyd
-*   <> <> ISO () dyo
-*   <> <> ISO () dyu
-*   <> <> ISO () dyy
-*   <> <> ISO () dz
-*   <> <> ISO () dzd
-*   <> <> ISO () dzg
-*   <> <> ISO () dzl
-*   <> <> ISO () dzo
-*   <> <> ISO () ebg
-*   <> <> ISO () ebu
-*   <> <> ISO () ecr ‚ Ä ì <>
-*   <> <> ISO () ecs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ecy
-*   <> <> ISO () ee
-*   <> <> ISO () eee
-*   <> <> ISO () efe
-*   <> <> ISO () efi
-*   <> <> ISO () efi ‚ Ä ì Efik
-*   <> <> ISO () ega
-*   <> <> ISO () egl
-*   <> <> ISO () ego
-*   <> <> ISO () either
-*   <> <> ISO () eka
-*   <> <> ISO () ekg
-*   <> <> ISO () eko
-*   <> <> ISO () el
-*   <> <> ISO () ell ( T )
-*   <> <> ISO () ell ‚ Ä ì <>
-*   <> <> ISO () ell-gri
-*   <> <> ISO () elo
-*   <> <> ISO () elx
-*   <> <> ISO () eme
-*   <> <> ISO () emi
-*   <> <> ISO () emk
-*   <> <> ISO () emk ‚ Ä ì Maninkaka , <>
-*   <> <> ISO () ems
-*   <> <> ISO () emx
-*   <> <> ISO () en
-*   <> <> ISO () enc
-*   <> <> ISO () eng
-*   <> <> ISO () enh ‚ Ä ì <>
-*   <> <> ISO () enm
-*   <> <> ISO () eno
-*   <> <> ISO () enq
-*   <> <> ISO () eo
-*   <> <> ISO () epi
-*   <> <> ISO () epo
-*   <> <> ISO () erg
-*   <> <> ISO () eri
-*   <> <> ISO () erk
-*   <> <> ISO () ers
-*   <> <> ISO () es
-*   <> <> ISO () ese
-*   <> <> ISO () esk ‚ Ä ì Northwest Alaska Inupiatun
-*   <> <> ISO () esn <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () eso <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () esq
-*   <> <> ISO () ess
-*   <> <> ISO () est
-*   <> <> ISO () est ‚ Ä ì Macrolanguage
-*   <> <> ISO () esu
-*   <> <> ISO () esu-hoo ‚ Ä ì
-*   <> <> ISO () esu-nun
-*   <> <> ISO () et
-*   <> <> ISO () etc
-*   <> <> ISO () ett
-*   <> <> ISO () eu
-*   <> <> ISO () eus
-*   <> <> ISO () eus ( T )
-*   <> <> ISO () eve
-*   <> <> ISO () evn
-*   <> <> ISO () ewe
-*   <> <> ISO () ewo
-*   <> <> ISO () ext
-*   <> <> ISO () ext ‚ Ä ì <>
-*   <> <> ISO () eya
-*   <> <> ISO () fa
-*   <> <> ISO () faa
-*   <> <> ISO () fab
-*   <> <> ISO () faf
-*   <> <> ISO () fah
-*   <> <> ISO () faj
-*   <> <> ISO () fan
-*   <> <> ISO () fao
-*   <> <> ISO () fas ( T )
-*   <> <> ISO () fas ‚ Ä ì Macrolanguage
-*   <> <> ISO () fax
-*   <> <> ISO () fay
-*   <> <> ISO () fbl ‚ Ä ì <> <>
-*   <> <> ISO () fcs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ff
-*   <> <> ISO () ffm
-*   <> <> ISO () ffm ‚ Ä ì <>
-*   <> <> ISO () fi
-*   <> <> ISO () fia
-*   <> <> ISO () fie
-*   <> <> ISO () fij
-*   <> <> ISO () fil
-*   <> <> ISO () fin
-*   <> <> ISO () fip
-*   <> <> ISO () fit
-*   <> <> ISO () fj
-*   <> <> ISO () fkv
-*   <> <> ISO () fli
-*   <> <> ISO () fll ‚ Ä ì <>
-*   <> <> ISO () flr
-*   <> <> ISO () fmp
-*   <> <> ISO () fng
-*   <> <> ISO () fo
-*   <> <> ISO () fon
-*   <> <> ISO () fos
-*   <> <> ISO () found at Pakhoras
-*   <> <> ISO () fqs
-*   <> <> ISO () fr
-*   <> <> ISO () fra
-*   <> <> ISO () fra ( T )
-*   <> <> ISO () fra-aca ‚ Ä ì
-*   <> <> ISO () fra-gal
-*   <> <> ISO () fra-nor
-*   <> <> ISO () fra-poi
-*   <> <> ISO () fra-san
-*   <> <> ISO () frc
-*   <> <> ISO () fre
-*   <> <> ISO () fre ( B )
-*   <> <> ISO () frk
-*   <> <> ISO () frm
-*   <> <> ISO () fro
-*   <> <> ISO () from the () th-10th century
-*   <> <> ISO () frp
-*   <> <> ISO () frr
-*   <> <> ISO () frr ‚ Ä ì <>
-*   <> <> ISO () frs
-*   <> <> ISO () frt
-*   <> <> ISO () fry
-*   <> <> ISO () fse <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () fsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () fuc ‚ Ä ì Pulaar
-*   <> <> ISO () fud
-*   <> <> ISO () fue ‚ Ä ì Borgu Fulfulde
-*   <> <> ISO () fuf ‚ Ä ì <>
-*   <> <> ISO () fuf ‚ Ä ì ]
-*   <> <> ISO () fuh ‚ Ä ì <> Fulfulde
-*   <> <> ISO () fui ‚ Ä ì <>
-*   <> <> ISO () ful
-*   <> <> ISO () ful ‚ Ä ì Macrolanguage
-*   <> <> ISO () fun
-*   <> <> ISO () fuq ‚ Ä ì Central-Eastern Niger Fulfulde
-*   <> <> ISO () fur
-*   <> <> ISO () fut
-*   <> <> ISO () fuv ‚ Ä ì <>
-*   <> <> ISO () fvr
-*   <> <> ISO () fwe
-*   <> <> ISO () fy
-*   <> <> ISO () ga
-*   <> <> ISO () gaa
-*   <> <> ISO () gac ‚ Ä ì Great Andamanese creole
-*   <> <> ISO () gad
-*   <> <> ISO () gag
-*   <> <> ISO () gah
-*   <> <> ISO () gal
-*   <> <> ISO () gan
-*   <> <> ISO () gan ‚ Ä ì <>
-*   <> <> ISO () gaq
-*   <> <> ISO () gat
-*   <> <> ISO () gau ‚ Ä ì Kondekor ( Gadaba )
-*   <> <> ISO () gax
-*   <> <> ISO () gay
-*   <> <> ISO () gaz ‚ Ä ì <> <>
-*   <> <> ISO () gbc
-*   <> <> ISO () gbd
-*   <> <> ISO () gbi
-*   <> <> ISO () gbj
-*   <> <> ISO () gbm
-*   <> <> ISO () gbo ‚ Ä ì <>
-*   <> <> ISO () gbu
-*   <> <> ISO () gbz
-*   <> <> ISO () gcl
-*   <> <> ISO () gcr
-*   <> <> ISO () gct
-*   <> <> ISO () gct ‚ Ä ì Alem √ ° n Coloniero
-*   <> <> ISO () gd
-*   <> <> ISO () gda ‚ Ä ì Gade Lohar
-*   <> <> ISO () gdd
-*   <> <> ISO () gde
-*   <> <> ISO () gdf
-*   <> <> ISO () gdg
-*   <> <> ISO () gdh
-*   <> <> ISO () gdk
-*   <> <> ISO () gdl
-*   <> <> ISO () gdm
-*   <> <> ISO () gdo
-*   <> <> ISO () gdq
-*   <> <> ISO () gdu
-*   <> <> ISO () gdx
-*   <> <> ISO () gea
-*   <> <> ISO () gec ‚ Ä ì Gboloo <>
-*   <> <> ISO () geh
-*   <> <> ISO () geh ‚ Ä ì <>
-*   <> <> ISO () gej
-*   <> <> ISO () gel
-*   <> <> ISO () gem
-*   <> <> ISO () geo ( B )
-*   <> <> ISO () ger
-*   <> <> ISO () ger ( B )
-*   <> <> ISO () gew
-*   <> <> ISO () gex
-*   <> <> ISO () gez
-*   <> <> ISO () gfk
-*   <> <> ISO () gft
-*   <> <> ISO () ggb
-*   <> <> ISO () gge
-*   <> <> ISO () ggr
-*   <> <> ISO () ggw
-*   <> <> ISO () gha
-*   <> <> ISO () ghc
-*   <> <> ISO () ghn
-*   <> <> ISO () gho
-*   <> <> ISO () ghs
-*   <> <> ISO () gia
-*   <> <> ISO () gic
-*   <> <> ISO () gig
-*   <> <> ISO () gil
-*   <> <> ISO () gin
-*   <> <> ISO () gio
-*   <> <> ISO () gis
-*   <> <> ISO () git
-*   <> <> ISO () giz
-*   <> <> ISO () gjn
-*   <> <> ISO () gju
-*   <> <> ISO () gju ‚ Ä ì Gujari
-*   <> <> ISO () gkm
-*   <> <> ISO () gkm ‚ Ä ì <>
-*   <> <> ISO () gkn
-*   <> <> ISO () gl
-*   <> <> ISO () gla
-*   <> <> ISO () gld
-*   <> <> ISO () gle
-*   <> <> ISO () gle The <> of <> s Avalon Peninsula .
-*   <> <> ISO () glg
-*   <> <> ISO () glh ‚ Ä ì <>
-*   <> <> ISO () gli
-*   <> <> ISO () glj
-*   <> <> ISO () glk
-*   <> <> ISO () glo
-*   <> <> ISO () glv
-*   <> <> ISO () glw
-*   <> <> ISO () gma ‚ Ä ì Gamberre
-*   <> <> ISO () gmh
-*   <> <> ISO () gmh ‚ Ä ì <> <>
-*   <> <> ISO () gmy
-*   <> <> ISO () gmy ‚ Ä ì <>
-*   <> <> ISO () gn
-*   <> <> ISO () gnc
-*   <> <> ISO () gnd
-*   <> <> ISO () gni
-*   <> <> ISO () gnk
-*   <> <> ISO () gnn ‚ Ä ì Gumatj
-*   <> <> ISO () gno ‚ Ä ì <>
-*   <> <> ISO () gnu
-*   <> <> ISO () gnw
-*   <> <> ISO () goa
-*   <> <> ISO () gob
-*   <> <> ISO () goe
-*   <> <> ISO () gof ‚ Ä ì Gofa
-*   <> <> ISO () gog
-*   <> <> ISO () goh
-*   <> <> ISO () goh ‚ Ä ì <> <>
-*   <> <> ISO () goh-eas ‚ Ä ì
-*   <> <> ISO () goh-mid ‚ Ä ì
-*   <> <> ISO () goh-sfr
-*   <> <> ISO () gom
-*   <> <> ISO () gom ‚ Ä ì Goan <>
-*   <> <> ISO () gon
-*   <> <> ISO () gon ‚ Ä ì Macrolanguage
-*   <> <> ISO () goo
-*   <> <> ISO () gor
-*   <> <> ISO () gos
-*   <> <> ISO () got
-*   <> <> ISO () got ‚ Ä ì <>
-*   <> <> ISO () gou
-*   <> <> ISO () gow
-*   <> <> ISO () gpn
-*   <> <> ISO () gqa
-*   <> <> ISO () gqr ‚ Ä ì Gor
-*   <> <> ISO () grb ‚ Ä ì Macrolanguage
-*   <> <> ISO () grc
-*   <> <> ISO () grd
-*   <> <> ISO () gre
-*   <> <> ISO () gre ( B )
-*   <> <> ISO () gri
-*   <> <> ISO () grj
-*   <> <> ISO () grn
-*   <> <> ISO () gro
-*   <> <> ISO () grr
-*   <> <> ISO () grt
-*   <> <> ISO () gru
-*   <> <> ISO () grv ‚ Ä ì <>
-*   <> <> ISO () grx
-*   <> <> ISO () gry ‚ Ä ì Barclayville <>
-*   <> <> ISO () gsg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () gsm <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () gss <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () gsw
-*   <> <> ISO () gsw ‚ Ä ì <>
-*   <> <> ISO () gta
-*   <> <> ISO () gu
-*   <> <> ISO () guc
-*   <> <> ISO () gue
-*   <> <> ISO () guf ‚ Ä ì Gupapuyngu
-*   <> <> ISO () gug
-*   <> <> ISO () guh
-*   <> <> ISO () gui
-*   <> <> ISO () guj
-*   <> <> ISO () guk
-*   <> <> ISO () gul
-*   <> <> ISO () gum
-*   <> <> ISO () gun
-*   <> <> ISO () guo
-*   <> <> ISO () gup
-*   <> <> ISO () gut
-*   <> <> ISO () guz
-*   <> <> ISO () gv
-*   <> <> ISO () gvc
-*   <> <> ISO () gve
-*   <> <> ISO () gvf
-*   <> <> ISO () gvn
-*   <> <> ISO () gvr ‚ Ä ì <>
-*   <> <> ISO () gwc
-*   <> <> ISO () gwd
-*   <> <> ISO () gwi
-*   <> <> ISO () gwj
-*   <> <> ISO () gwn
-*   <> <> ISO () gwr
-*   <> <> ISO () gwt
-*   <> <> ISO () gww ‚ Ä ì Kwini
-*   <> <> ISO () gyd
-*   <> <> ISO () gyi
-*   <> <> ISO () gym
-*   <> <> ISO () gyn
-*   <> <> ISO () gyy
-*   <> <> ISO () gza
-*   <> <> ISO () ha
-*   <> <> ISO () haa
-*   <> <> ISO () hab ‚ Ä ì Hanoi Sign <> language ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () hac
-*   <> <> ISO () had
-*   <> <> ISO () hae
-*   <> <> ISO () hae ‚ Ä ì <>
-*   <> <> ISO () haf ‚ Ä ì Haiphong Sign <>
-*   <> <> ISO () hai
-*   <> <> ISO () hai ‚ Ä ì Macrolanguage
-*   <> <> ISO () haj
-*   <> <> ISO () hak
-*   <> <> ISO () hak ‚ Ä ì <>
-*   <> <> ISO () hal
-*   <> <> ISO () haq
-*   <> <> ISO () har
-*   <> <> ISO () has
-*   <> <> ISO () hat
-*   <> <> ISO () hau
-*   <> <> ISO () hav
-*   <> <> ISO () haw
-*   <> <> ISO () hax ‚ Ä ì <>
-*   <> <> ISO () hay
-*   <> <> ISO () haz
-*   <> <> ISO () haz ‚ Ä ì Hazaragi
-*   <> <> ISO () hbo
-*   <> <> ISO () hbo ‚ Ä ì <>
-*   <> <> ISO () hbs ‚ Ä ì Macrolanguage
-*   <> <> ISO () hch
-*   <> <> ISO () hds <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () hdy
-*   <> <> ISO () he
-*   <> <> ISO () hea ‚ Ä ì <> <>
-*   <> <> ISO () hea ‚ Ä ì ]
-*   <> <> ISO () heb
-*   <> <> ISO () heh
-*   <> <> ISO () hei
-*   <> <> ISO () hei-hai
-*   <> <> ISO () her
-*   <> <> ISO () hi
-*   <> <> ISO () hi , ur
-*   <> <> ISO () hib
-*   <> <> ISO () hid
-*   <> <> ISO () hif
-*   <> <> ISO () hig
-*   <> <> ISO () hil
-*   <> <> ISO () hin
-*   <> <> ISO () hin , urd
-*   <> <> ISO () hin-dak
-*   <> <> ISO () hin-hin
-*   <> <> ISO () hin-rek
-*   <> <> ISO () hir
-*   <> <> ISO () hit
-*   <> <> ISO () hiw
-*   <> <> ISO () hix
-*   <> <> ISO () hke
-*   <> <> ISO () hlb
-*   <> <> ISO () hld
-*   <> <> ISO () hlu
-*   <> <> ISO () hlu ‚ Ä ì Hieroglyphic <> of the <> ( after Melchert () )
-*   <> <> ISO () hma ‚ Ä ì <> <>
-*   <> <> ISO () hma ‚ Ä ì ]
-*   <> <> ISO () hmc ‚ Ä ì <> Huishui ( China )
-*   <> <> ISO () hmc ‚ Ä ì ]
-*   <> <> ISO () hmd ‚ Ä ì Large Flowery <>
-*   <> <> ISO () hmd ‚ Ä ì ]
-*   <> <> ISO () hme ‚ Ä ì <> Huishui ( China )
-*   <> <> ISO () hme ‚ Ä ì ]
-*   <> <> ISO () hmf ‚ Ä ì <> ( Vietnam )
-*   <> <> ISO () hmg ‚ Ä ì <> <>
-*   <> <> ISO () hmg ‚ Ä ì ]
-*   <> <> ISO () hmh ‚ Ä ì <> <>
-*   <> <> ISO () hmh ‚ Ä ì ]
-*   <> <> ISO () hmi ‚ Ä ì <> <>
-*   <> <> ISO () hmi ‚ Ä ì ]
-*   <> <> ISO () hmj ‚ Ä ì <> ( China )
-*   <> <> ISO () hmj ‚ Ä ì ]
-*   <> <> ISO () hml ‚ Ä ì Luopohe <>
-*   <> <> ISO () hml ‚ Ä ì ]
-*   <> <> ISO () hmm ‚ Ä ì <> Mashan ( China )
-*   <> <> ISO () hmm ‚ Ä ì ]
-*   <> <> ISO () hmn
-*   <> <> ISO () hmo
-*   <> <> ISO () hmp ‚ Ä ì <> <>
-*   <> <> ISO () hmp ‚ Ä ì ]
-*   <> <> ISO () hmq ‚ Ä ì <> <>
-*   <> <> ISO () hmq ‚ Ä ì ]
-*   <> <> ISO () hmr
-*   <> <> ISO () hms ‚ Ä ì <> <>
-*   <> <> ISO () hms ‚ Ä ì ]
-*   <> <> ISO () hmv ‚ Ä ì <> ( Vietnam )
-*   <> <> ISO () hmw ‚ Ä ì <> <>
-*   <> <> ISO () hmw ‚ Ä ì ]
-*   <> <> ISO () hmy ‚ Ä ì <> <>
-*   <> <> ISO () hmy ‚ Ä ì ]
-*   <> <> ISO () hmz ‚ Ä ì <> ( Vietnam )
-*   <> <> ISO () hna
-*   <> <> ISO () hne
-*   <> <> ISO () hnh ‚ Ä ì « Å Ani
-*   <> <> ISO () hni
-*   <> <> ISO () hnj ‚ Ä ì <>
-*   <> <> ISO () hnj ‚ Ä ì ]
-*   <> <> ISO () hnn
-*   <> <> ISO () hno ‚ Ä ì <>
-*   <> <> ISO () hnu
-*   <> <> ISO () ho
-*   <> <> ISO () hoa
-*   <> <> ISO () hoc
-*   <> <> ISO () hod
-*   <> <> ISO () hoh
-*   <> <> ISO () hoi
-*   <> <> ISO () hoj
-*   <> <> ISO () hoj ‚ Ä ì <>
-*   <> <> ISO () hop
-*   <> <> ISO () hoz
-*   <> <> ISO () hps <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () hr
-*   <> <> ISO () hra
-*   <> <> ISO () hrm ‚ Ä ì Horned <>
-*   <> <> ISO () hrm ‚ Ä ì ]
-*   <> <> ISO () hrt
-*   <> <> ISO () hrt ‚ Ä ì H √ © rtevin
-*   <> <> ISO () hrv
-*   <> <> ISO () hrv ‚ Ä ì <>
-*   <> <> ISO () hrv-cha
-*   <> <> ISO () hrv-kay
-*   <> <> ISO () hrv-sht
-*   <> <> ISO () hrx
-*   <> <> ISO () hsb
-*   <> <> ISO () hsh <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () hsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () hsn
-*   <> <> ISO () hsn ‚ Ä ì <>
-*   <> <> ISO () hsn-cha
-*   <> <> ISO () hsn-jis ‚ Ä ì
-*   <> <> ISO () hsn-luo
-*   <> <> ISO () hss
-*   <> <> ISO () ht
-*   <> <> ISO () hto
-*   <> <> ISO () hts
-*   <> <> ISO () hu
-*   <> <> ISO () hub
-*   <> <> ISO () huc
-*   <> <> ISO () hug
-*   <> <> ISO () huh
-*   <> <> ISO () hui
-*   <> <> ISO () huj ‚ Ä ì <> <>
-*   <> <> ISO () huj ‚ Ä ì ]
-*   <> <> ISO () hun
-*   <> <> ISO () hup
-*   <> <> ISO () huq
-*   <> <> ISO () huq ‚ Ä ì <>
-*   <> <> ISO () hur
-*   <> <> ISO () hus
-*   <> <> ISO () huu
-*   <> <> ISO () huu ‚ Ä ì <>
-*   <> <> ISO () huv ‚ Ä ì <> del Mar
-*   <> <> ISO () hux
-*   <> <> ISO () hux ‚ Ä ì N √ º pode
-*   <> <> ISO () huy
-*   <> <> ISO () huy ‚ Ä ì Hulaul √ °
-*   <> <> ISO () huz
-*   <> <> ISO () hvc
-*   <> <> ISO () hve ‚ Ä ì <> del Mar
-*   <> <> ISO () hvn
-*   <> <> ISO () hvv ‚ Ä ì <> √ ≠ a del Mar , Oaxaca
-*   <> <> ISO () hwc
-*   <> <> ISO () hwo
-*   <> <> ISO () hy
-*   <> <> ISO () hya
-*   <> <> ISO () hye ( T )
-*   <> <> ISO () ia
-*   <> <> ISO () iai
-*   <> <> ISO () ian
-*   <> <> ISO () iap
-*   <> <> ISO () iar
-*   <> <> ISO () iba
-*   <> <> ISO () ibb ‚ Ä ì <>
-*   <> <> ISO () ibd
-*   <> <> ISO () ibe
-*   <> <> ISO () ibg
-*   <> <> ISO () ibo
-*   <> <> ISO () ibo Lingusitic map of <> <> <> center
-*   <> <> ISO () ice ( B )
-*   <> <> ISO () icl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () icr
-*   <> <> ISO () id
-*   <> <> ISO () idb
-*   <> <> ISO () ido
-*   <> <> ISO () idu
-*   <> <> ISO () ie
-*   <> <> ISO () if it were truly <>
-*   <> <> ISO () ifb
-*   <> <> ISO () ife
-*   <> <> ISO () ifk Ph locator ifugao kiangan . png
-*   <> <> ISO () ig
-*   <> <> ISO () ige
-*   <> <> ISO () igl
-*   <> <> ISO () igs
-*   <> <> ISO () ii
-*   <> <> ISO () iii
-*   <> <> ISO () ik
-*   <> <> ISO () ike-lab
-*   <> <> ISO () ikk
-*   <> <> ISO () ikt
-*   <> <> ISO () ikt-cop ‚ Ä ì
-*   <> <> ISO () ikt-net
-*   <> <> ISO () ikt-sig ‚ Ä ì
-*   <> <> ISO () iku
-*   <> <> ISO () iku ‚ Ä ì Macrolanguage
-*   <> <> ISO () ikw
-*   <> <> ISO () ikx
-*   <> <> ISO () ile
-*   <> <> ISO () ili
-*   <> <> ISO () ilk
-*   <> <> ISO () ilo
-*   <> <> ISO () ils <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ilu ‚ Ä ì <> uun
-*   <> <> ISO () ilw ‚ Ä ì Talur
-*   <> <> ISO () imo
-*   <> <> ISO () ims
-*   <> <> ISO () ina
-*   <> <> ISO () ind
-*   <> <> ISO () ind ‚ Ä ì <>
-*   <> <> ISO () individual code
-*   <> <> ISO () individual codes
-*   <> <> ISO () ing
-*   <> <> ISO () inh
-*   <> <> ISO () inj ‚ Ä ì Jungle <>
-*   <> <> ISO () inl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () inm
-*   <> <> ISO () inp
-*   <> <> ISO () inz ‚ Ä ì Inese √ ± o
-*   <> <> ISO () ior
-*   <> <> ISO () iow
-*   <> <> ISO () ipk
-*   <> <> ISO () ipk ‚ Ä ì Macrolanguage
-*   <> <> ISO () iqu
-*   <> <> ISO () ira
-*   <> <> ISO () irk
-*   <> <> ISO () irn
-*   <> <> ISO () irr
-*   <> <> ISO () iru
-*   <> <> ISO () iry
-*   <> <> ISO () is
-*   <> <> ISO () is a Yuman language .
-*   <> <> ISO () is labeled <>
-*   <> <> ISO () is labeled Beihai
-*   <> <> ISO () is labeled Nanning
-*   <> <> ISO () is labeled Yulin
-*   <> <> ISO () isc
-*   <> <> ISO () isd
-*   <> <> ISO () ise <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () isg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () isl
-*   <> <> ISO () isl ( T )
-*   <> <> ISO () isn
-*   <> <> ISO () iso
-*   <> <> ISO () isr <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ist
-*   <> <> ISO () it
-*   <> <> ISO () ita
-*   <> <> ISO () ita-cen
-*   <> <> ISO () ita-cen ‚ Ä ì
-*   <> <> ISO () ita-tus
-*   <> <> ISO () itk
-*   <> <> ISO () itl
-*   <> <> ISO () ito
-*   <> <> ISO () itr
-*   <> <> ISO () its
-*   <> <> ISO () itv
-*   <> <> ISO () itz
-*   <> <> ISO () iu
-*   <> <> ISO () ium
-*   <> <> ISO () ivv
-*   <> <> ISO () iwm
-*   <> <> ISO () ixc
-*   <> <> ISO () ixl
-*   <> <> ISO () izh
-*   <> <> ISO () izi
-*   <> <> ISO () ja
-*   <> <> ISO () jaa
-*   <> <> ISO () jac
-*   <> <> ISO () jae
-*   <> <> ISO () jaf
-*   <> <> ISO () jak
-*   <> <> ISO () jam
-*   <> <> ISO () jao
-*   <> <> ISO () jap
-*   <> <> ISO () jar
-*   <> <> ISO () jas ‚ Ä ì <> <>
-*   <> <> ISO () jat
-*   <> <> ISO () jau
-*   <> <> ISO () jav
-*   <> <> ISO () jav ‚ Ä ì <>
-*   <> <> ISO () jax
-*   <> <> ISO () jay
-*   <> <> ISO () jay ‚ Ä ì Yan-nhangu
-*   <> <> ISO () jbe
-*   <> <> ISO () jbn
-*   <> <> ISO () jbo
-*   <> <> ISO () jbt
-*   <> <> ISO () jct
-*   <> <> ISO () jdt
-*   <> <> ISO () jeb
-*   <> <> ISO () jeg
-*   <> <> ISO () jeh
-*   <> <> ISO () jeu
-*   <> <> ISO () jge
-*   <> <> ISO () jic
-*   <> <> ISO () jie
-*   <> <> ISO () jig
-*   <> <> ISO () jii
-*   <> <> ISO () jim
-*   <> <> ISO () jio
-*   <> <> ISO () jiy ‚ Ä ì Buyuan Jinuo
-*   <> <> ISO () jmb
-*   <> <> ISO () jmi
-*   <> <> ISO () jmk
-*   <> <> ISO () jnj
-*   <> <> ISO () jpa
-*   <> <> ISO () jpa ‚ Ä ì <> <>
-*   <> <> ISO () jpn
-*   <> <> ISO () jpr ‚ Ä ì Dzhidi
-*   <> <> ISO () jra
-*   <> <> ISO () jrb
-*   <> <> ISO () jrb ‚ Ä ì Macrolanguage
-*   <> <> ISO () jrt
-*   <> <> ISO () jsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () juc
-*   <> <> ISO () jun
-*   <> <> ISO () jup
-*   <> <> ISO () jut
-*   <> <> ISO () jv
-*   <> <> ISO () jvd
-*   <> <> ISO () jvn ‚ Ä ì Caribbean <>
-*   <> <> ISO () jye
-*   <> <> ISO () jye ‚ Ä ì <>
-*   <> <> ISO () ka
-*   <> <> ISO () kaa
-*   <> <> ISO () kab
-*   <> <> ISO () kab Kabyle-speaking areas ( in () )
-*   <> <> ISO () kac
-*   <> <> ISO () kah
-*   <> <> ISO () kai
-*   <> <> ISO () kal
-*   <> <> ISO () kal-pol
-*   <> <> ISO () kam
-*   <> <> ISO () kan
-*   <> <> ISO () kao
-*   <> <> ISO () kap
-*   <> <> ISO () kaq
-*   <> <> ISO () kas
-*   <> <> ISO () kat
-*   <> <> ISO () kat ( T )
-*   <> <> ISO () kau
-*   <> <> ISO () kau ‚ Ä ì Macrolanguage
-*   <> <> ISO () kav
-*   <> <> ISO () kaw
-*   <> <> ISO () kaw ‚ Ä ì <>
-*   <> <> ISO () kay
-*   <> <> ISO () kaz
-*   <> <> ISO () kbc
-*   <> <> ISO () kbd
-*   <> <> ISO () kbf
-*   <> <> ISO () kbh
-*   <> <> ISO () kbl
-*   <> <> ISO () kbl ‚ Ä ì <>
-*   <> <> ISO () kbm
-*   <> <> ISO () kbp
-*   <> <> ISO () kbr
-*   <> <> ISO () kby ‚ Ä ì Manga <>
-*   <> <> ISO () kbz
-*   <> <> ISO () kca
-*   <> <> ISO () kcf
-*   <> <> ISO () kck
-*   <> <> ISO () kcl
-*   <> <> ISO () kcm
-*   <> <> ISO () kcn
-*   <> <> ISO () kcr
-*   <> <> ISO () kcs
-*   <> <> ISO () kcx
-*   <> <> ISO () kcy
-*   <> <> ISO () kda
-*   <> <> ISO () kdd
-*   <> <> ISO () kdd ‚ Ä ì <>
-*   <> <> ISO () kdj
-*   <> <> ISO () kdq
-*   <> <> ISO () kdr
-*   <> <> ISO () kdt
-*   <> <> ISO () kdx
-*   <> <> ISO () kea
-*   <> <> ISO () kei
-*   <> <> ISO () kek
-*   <> <> ISO () kem
-*   <> <> ISO () kep
-*   <> <> ISO () ker
-*   <> <> ISO () ket
-*   <> <> ISO () keu
-*   <> <> ISO () kev
-*   <> <> ISO () kex
-*   <> <> ISO () kfa
-*   <> <> ISO () kfb
-*   <> <> ISO () kfd
-*   <> <> ISO () kff Image : () px
-*   <> <> ISO () kfi
-*   <> <> ISO () kfj
-*   <> <> ISO () kfk
-*   <> <> ISO () kfm
-*   <> <> ISO () kfq
-*   <> <> ISO () kfr
-*   <> <> ISO () kfx
-*   <> <> ISO () kfy
-*   <> <> ISO () kfz
-*   <> <> ISO () kg
-*   <> <> ISO () kgg
-*   <> <> ISO () kgi <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () kgj ‚ Ä ì Gamale Kham
-*   <> <> ISO () kgk
-*   <> <> ISO () kgo
-*   <> <> ISO () kgp
-*   <> <> ISO () kgq
-*   <> <> ISO () kgr
-*   <> <> ISO () kgs
-*   <> <> ISO () kgv
-*   <> <> ISO () kha
-*   <> <> ISO () khb
-*   <> <> ISO () khg
-*   <> <> ISO () khh
-*   <> <> ISO () khm
-*   <> <> ISO () kho
-*   <> <> ISO () khp
-*   <> <> ISO () khq
-*   <> <> ISO () khr
-*   <> <> ISO () khv
-*   <> <> ISO () khw
-*   <> <> ISO () khy
-*   <> <> ISO () ki
-*   <> <> ISO () kib
-*   <> <> ISO () kic ‚ Ä ì Kickapoo
-*   <> <> ISO () kii
-*   <> <> ISO () kik
-*   <> <> ISO () kil
-*   <> <> ISO () kim
-*   <> <> ISO () kin
-*   <> <> ISO () kio
-*   <> <> ISO () kip ‚ Ä ì Sheshi Kham
-*   <> <> ISO () kir
-*   <> <> ISO () kiu ‚ Ä ì Kirmanjki ( <> )
-*   <> <> ISO () kj
-*   <> <> ISO () kj ‚ Ä ì <>
-*   <> <> ISO () kjb
-*   <> <> ISO () kjd ‚ Ä ì <>
-*   <> <> ISO () kjg
-*   <> <> ISO () kjh
-*   <> <> ISO () kjj
-*   <> <> ISO () kjl ‚ Ä ì <> Kham
-*   <> <> ISO () kjn
-*   <> <> ISO () kjn-ogh
-*   <> <> ISO () kju
-*   <> <> ISO () kjz
-*   <> <> ISO () kk
-*   <> <> ISO () kkh
-*   <> <> ISO () kkj
-*   <> <> ISO () kkk
-*   <> <> ISO () kkr
-*   <> <> ISO () kks
-*   <> <> ISO () kkv
-*   <> <> ISO () kkw
-*   <> <> ISO () kky
-*   <> <> ISO () kkz
-*   <> <> ISO () kl
-*   <> <> ISO () kla
-*   <> <> ISO () kld
-*   <> <> ISO () kle
-*   <> <> ISO () klj
-*   <> <> ISO () kln
-*   <> <> ISO () klr
-*   <> <> ISO () kls
-*   <> <> ISO () klu
-*   <> <> ISO () km
-*   <> <> ISO () kmb
-*   <> <> ISO () kmc ‚ Ä ì <>
-*   <> <> ISO () kmg
-*   <> <> ISO () kmj
-*   <> <> ISO () kmn
-*   <> <> ISO () kmq
-*   <> <> ISO () kmr
-*   <> <> ISO () kmr ‚ Ä ì <>
-*   <> <> ISO () kmv
-*   <> <> ISO () kmz
-*   <> <> ISO () kn
-*   <> <> ISO () kne
-*   <> <> ISO () knf
-*   <> <> ISO () knj
-*   <> <> ISO () knm
-*   <> <> ISO () knn ‚ Ä ì <> Independent <>
-*   <> <> ISO () knn ‚ Ä ì Mararashtra <>
-*   <> <> ISO () kno
-*   <> <> ISO () kns
-*   <> <> ISO () knw ‚ Ä ì « Ä   º Akhwe
-*   <> <> ISO () ko
-*   <> <> ISO () koc
-*   <> <> ISO () koe
-*   <> <> ISO () kof
-*   <> <> ISO () koi
-*   <> <> ISO () kok
-*   <> <> ISO () kok ‚ Ä ì Macrolanguage
-*   <> <> ISO () kol
-*   <> <> ISO () kom
-*   <> <> ISO () kom ‚ Ä ì Macrolanguage
-*   <> <> ISO () kon
-*   <> <> ISO () kon ‚ Ä ì Macrolanguage
-*   <> <> ISO () koo
-*   <> <> ISO () koq
-*   <> <> ISO () kor
-*   <> <> ISO () kos
-*   <> <> ISO () kot
-*   <> <> ISO () kox
-*   <> <> ISO () koy
-*   <> <> ISO () kpe
-*   <> <> ISO () kpe ‚ Ä ì Macrolanguage
-*   <> <> ISO () kpg
-*   <> <> ISO () kpj
-*   <> <> ISO () kpl
-*   <> <> ISO () kpm
-*   <> <> ISO () kpo
-*   <> <> ISO () kps
-*   <> <> ISO () kpt
-*   <> <> ISO () kpv
-*   <> <> ISO () kpv ‚ Ä ì Komi-Zyrian
-*   <> <> ISO () kpw
-*   <> <> ISO () kpy
-*   <> <> ISO () kqd
-*   <> <> ISO () kqd ‚ Ä ì <> Surat
-*   <> <> ISO () kqn
-*   <> <> ISO () kqq
-*   <> <> ISO () kqs ‚ Ä ì <>
-*   <> <> ISO () kqu
-*   <> <> ISO () kqx
-*   <> <> ISO () kqy
-*   <> <> ISO () kqz
-*   <> <> ISO () kr
-*   <> <> ISO () krb
-*   <> <> ISO () krb ‚ Ä ì <>
-*   <> <> ISO () krc
-*   <> <> ISO () krf
-*   <> <> ISO () krh
-*   <> <> ISO () kri
-*   <> <> ISO () krj
-*   <> <> ISO () krk
-*   <> <> ISO () krl
-*   <> <> ISO () krm
-*   <> <> ISO () krn
-*   <> <> ISO () krs
-*   <> <> ISO () krt ‚ Ä ì Tumari <>
-*   <> <> ISO () kru
-*   <> <> ISO () krx
-*   <> <> ISO () kry
-*   <> <> ISO () ks
-*   <> <> ISO () ksb
-*   <> <> ISO () ksd
-*   <> <> ISO () ksg
-*   <> <> ISO () ksh
-*   <> <> ISO () ksh ‚ Ä ì K √ ∂ lsch
-*   <> <> ISO () ksi
-*   <> <> ISO () ksk
-*   <> <> ISO () kso
-*   <> <> ISO () ksq
-*   <> <> ISO () ksw
-*   <> <> ISO () ksy
-*   <> <> ISO () ktb
-*   <> <> ISO () ktc
-*   <> <> ISO () ktd ‚ Ä ì Kokata
-*   <> <> ISO () ktg
-*   <> <> ISO () ktk
-*   <> <> ISO () ktl
-*   <> <> ISO () ktn
-*   <> <> ISO () kto
-*   <> <> ISO () ktu ‚ Ä ì <> Congo-Kinshasa )
-*   <> <> ISO () ktw
-*   <> <> ISO () ktz
-*   <> <> ISO () ktz ‚ Ä ì Ju « Ä   º hoansi
-*   <> <> ISO () ku
-*   <> <> ISO () kua
-*   <> <> ISO () kua ‚ Ä ì <>
-*   <> <> ISO () kud
-*   <> <> ISO () kue
-*   <> <> ISO () kul
-*   <> <> ISO () kum
-*   <> <> ISO () kun
-*   <> <> ISO () kuq
-*   <> <> ISO () kur
-*   <> <> ISO () kur ‚ Ä ì Macrolanguage
-*   <> <> ISO () kus
-*   <> <> ISO () kut
-*   <> <> ISO () kuu
-*   <> <> ISO () kux ‚ Ä ì Kukatja
-*   <> <> ISO () kuz
-*   <> <> ISO () kv
-*   <> <> ISO () kva
-*   <> <> ISO () kvd
-*   <> <> ISO () kvf
-*   <> <> ISO () kvj
-*   <> <> ISO () kvk <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () kvn ‚ Ä ì Border <>
-*   <> <> ISO () kvw Languages of the Alor Islands . <> shown at four locations around the east coast .
-*   <> <> ISO () kvx
-*   <> <> ISO () kw
-*   <> <> ISO () kwa
-*   <> <> ISO () kwb
-*   <> <> ISO () kwf
-*   <> <> ISO () kwi
-*   <> <> ISO () kwj
-*   <> <> ISO () kwk
-*   <> <> ISO () kwl
-*   <> <> ISO () kwm
-*   <> <> ISO () kwn
-*   <> <> ISO () kwo
-*   <> <> ISO () kwy ‚ Ä ì <> <>
-*   <> <> ISO () kwz
-*   <> <> ISO () kxa
-*   <> <> ISO () kxc
-*   <> <> ISO () kxd
-*   <> <> ISO () kxh
-*   <> <> ISO () kxm ‚ Ä ì <>
-*   <> <> ISO () kxo
-*   <> <> ISO () kxr
-*   <> <> ISO () kxs
-*   <> <> ISO () kxu
-*   <> <> ISO () ky
-*   <> <> ISO () kyh
-*   <> <> ISO () kyi
-*   <> <> ISO () kyk
-*   <> <> ISO () kyl
-*   <> <> ISO () kyl ‚ Ä ì ( <>
-*   <> <> ISO () kyv
-*   <> <> ISO () kyw
-*   <> <> ISO () kzi
-*   <> <> ISO () kzj
-*   <> <> ISO () kzk
-*   <> <> ISO () kzl
-*   <> <> ISO () kzv
-*   <> <> ISO () kzw
-*   <> <> ISO () kzy
-*   <> <> ISO () la
-*   <> <> ISO () lac
-*   <> <> ISO () lad
-*   <> <> ISO () lad ‚ Ä ì Ladino
-*   <> <> ISO () lae
-*   <> <> ISO () laf
-*   <> <> ISO () lag
-*   <> <> ISO () lah
-*   <> <> ISO () laj
-*   <> <> ISO () lam
-*   <> <> ISO () lao
-*   <> <> ISO () laq
-*   <> <> ISO () lar
-*   <> <> ISO () lat
-*   <> <> ISO () lat Europe in () AD
-*   <> <> ISO () lat The Late-Latin speaking world , () AD
-*   <> <> ISO () lat The Roman Empire in () AD
-*   <> <> ISO () lat-afr
-*   <> <> ISO () lat-cla
-*   <> <> ISO () lat-pan
-*   <> <> ISO () lav
-*   <> <> ISO () laz
-*   <> <> ISO () lb
-*   <> <> ISO () lbc
-*   <> <> ISO () lbe
-*   <> <> ISO () lbj
-*   <> <> ISO () lbl ‚ Ä ì Libon <>
-*   <> <> ISO () lbt
-*   <> <> ISO () lbu
-*   <> <> ISO () lbx
-*   <> <> ISO () lbz
-*   <> <> ISO () lcd
-*   <> <> ISO () lcl
-*   <> <> ISO () ldi ‚ Ä ì Laari
-*   <> <> ISO () ldn
-*   <> <> ISO () ldq
-*   <> <> ISO () lec
-*   <> <> ISO () led
-*   <> <> ISO () leg
-*   <> <> ISO () len
-*   <> <> ISO () lep
-*   <> <> ISO () les
-*   <> <> ISO () leu
-*   <> <> ISO () lev
-*   <> <> ISO () lez
-*   <> <> ISO () lfn
-*   <> <> ISO () lg
-*   <> <> ISO () lga
-*   <> <> ISO () lgb
-*   <> <> ISO () lgg
-*   <> <> ISO () lgh
-*   <> <> ISO () lgl
-*   <> <> ISO () lgn
-*   <> <> ISO () lgq
-*   <> <> ISO () lha
-*   <> <> ISO () lhp
-*   <> <> ISO () lhs
-*   <> <> ISO () lhs ‚ Ä ì Mlahs √ ¥
-*   <> <> ISO () lht
-*   <> <> ISO () lhu
-*   <> <> ISO () li
-*   <> <> ISO () lib
-*   <> <> ISO () lic
-*   <> <> ISO () lid
-*   <> <> ISO () lif
-*   <> <> ISO () lig
-*   <> <> ISO () lih
-*   <> <> ISO () lij
-*   <> <> ISO () lil
-*   <> <> ISO () lim
-*   <> <> ISO () lin
-*   <> <> ISO () liq
-*   <> <> ISO () lis
-*   <> <> ISO () lit
-*   <> <> ISO () liv
-*   <> <> ISO () ljp
-*   <> <> ISO () lkh
-*   <> <> ISO () lki
-*   <> <> ISO () lki ‚ Ä ì <>
-*   <> <> ISO () lkn
-*   <> <> ISO () lkt
-*   <> <> ISO () lkt ‚ Ä ì <>
-*   <> <> ISO () llc
-*   <> <> ISO () lld
-*   <> <> ISO () lle
-*   <> <> ISO () llf
-*   <> <> ISO () llp
-*   <> <> ISO () lls <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () llu
-*   <> <> ISO () llx
-*   <> <> ISO () lmd
-*   <> <> ISO () lmg
-*   <> <> ISO () lml
-*   <> <> ISO () lmn
-*   <> <> ISO () lmn ‚ Ä ì <>
-*   <> <> ISO () lmo
-*   <> <> ISO () lmo ‚ Ä ì <>
-*   <> <> ISO () lmv
-*   <> <> ISO () ln
-*   <> <> ISO () lnd
-*   <> <> ISO () lng
-*   <> <> ISO () lnj
-*   <> <> ISO () lnj ‚ Ä ì <>
-*   <> <> ISO () lnn
-*   <> <> ISO () lno
-*   <> <> ISO () lo
-*   <> <> ISO () loc
-*   <> <> ISO () location of Roraima , Brazil
-*   <> <> ISO () log
-*   <> <> ISO () loj
-*   <> <> ISO () lok
-*   <> <> ISO () lol
-*   <> <> ISO () lon
-*   <> <> ISO () lot
-*   <> <> ISO () lou
-*   <> <> ISO () lox
-*   <> <> ISO () loz
-*   <> <> ISO () lpe
-*   <> <> ISO () lra
-*   <> <> ISO () lrc ‚ Ä ì <> ( <>
-*   <> <> ISO () lre
-*   <> <> ISO () lrg
-*   <> <> ISO () lrk
-*   <> <> ISO () lrl
-*   <> <> ISO () lro
-*   <> <> ISO () lrt
-*   <> <> ISO () lrt ‚ Ä ì <>
-*   <> <> ISO () lsd
-*   <> <> ISO () lsd ‚ Ä ì <>
-*   <> <> ISO () lsd-bet ‚ Ä ì
-*   <> <> ISO () lsg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () lt
-*   <> <> ISO () ltc
-*   <> <> ISO () ltc ‚ Ä ì <> <>
-*   <> <> ISO () ltg
-*   <> <> ISO () lti
-*   <> <> ISO () ltz
-*   <> <> ISO () ltz ‚ Ä ì <>
-*   <> <> ISO () lu
-*   <> <> ISO () lua
-*   <> <> ISO () lub
-*   <> <> ISO () luc
-*   <> <> ISO () lud
-*   <> <> ISO () lue
-*   <> <> ISO () luf
-*   <> <> ISO () lug
-*   <> <> ISO () lui
-*   <> <> ISO () lul
-*   <> <> ISO () lun
-*   <> <> ISO () luo
-*   <> <> ISO () luq
-*   <> <> ISO () lus
-*   <> <> ISO () lut
-*   <> <> ISO () luv
-*   <> <> ISO () luw
-*   <> <> ISO () luy
-*   <> <> ISO () luz ‚ Ä ì <>
-*   <> <> ISO () lv
-*   <> <> ISO () lva
-*   <> <> ISO () lvk
-*   <> <> ISO () lvs ‚ Ä ì <>
-*   <> <> ISO () lwo
-*   <> <> ISO () lzh
-*   <> <> ISO () lzh ‚ Ä ì Literary <>
-*   <> <> ISO () lzz
-*   <> <> ISO () mac ( B )
-*   <> <> ISO () mad
-*   <> <> ISO () maf
-*   <> <> ISO () mag
-*   <> <> ISO () mah
-*   <> <> ISO () mai
-*   <> <> ISO () maj
-*   <> <> ISO () maj ‚ Ä ì <> D √ ≠ az <>
-*   <> <> ISO () mak
-*   <> <> ISO () mal
-*   <> <> ISO () mam
-*   <> <> ISO () man
-*   <> <> ISO () mao ( B )
-*   <> <> ISO () map
-*   <> <> ISO () map ( group )
-*   <> <> ISO () maq ‚ Ä ì Chiquihuitl √ ° n <>
-*   <> <> ISO () mar
-*   <> <> ISO () mas
-*   <> <> ISO () mat ‚ Ä ì <>
-*   <> <> ISO () mau ‚ Ä ì Huautla <>
-*   <> <> ISO () mav
-*   <> <> ISO () max ‚ Ä ì <> <>
-*   <> <> ISO () may ( B )
-*   <> <> ISO () maz ‚ Ä ì <>
-*   <> <> ISO () mbc
-*   <> <> ISO () mbe
-*   <> <> ISO () mbl
-*   <> <> ISO () mbm
-*   <> <> ISO () mbn
-*   <> <> ISO () mbo
-*   <> <> ISO () mbp
-*   <> <> ISO () mbq
-*   <> <> ISO () mbr
-*   <> <> ISO () mca
-*   <> <> ISO () mcf
-*   <> <> ISO () mcg
-*   <> <> ISO () mcm
-*   <> <> ISO () mcn
-*   <> <> ISO () mco
-*   <> <> ISO () mcu ‚ Ä ì Camerounian <>
-*   <> <> ISO () mcw
-*   <> <> ISO () mdd
-*   <> <> ISO () mdf
-*   <> <> ISO () mdh
-*   <> <> ISO () mdj
-*   <> <> ISO () mdk
-*   <> <> ISO () mdm
-*   <> <> ISO () mdn
-*   <> <> ISO () mdr
-*   <> <> ISO () mds
-*   <> <> ISO () mdx
-*   <> <> ISO () mdy
-*   <> <> ISO () mec
-*   <> <> ISO () med
-*   <> <> ISO () mei
-*   <> <> ISO () mej
-*   <> <> ISO () mel
-*   <> <> ISO () men
-*   <> <> ISO () meo
-*   <> <> ISO () mep
-*   <> <> ISO () meq
-*   <> <> ISO () mer
-*   <> <> ISO () mes
-*   <> <> ISO () meu
-*   <> <> ISO () mev
-*   <> <> ISO () mew
-*   <> <> ISO () mey
-*   <> <> ISO () mez
-*   <> <> ISO () mfa
-*   <> <> ISO () mfb
-*   <> <> ISO () mfc
-*   <> <> ISO () mfe
-*   <> <> ISO () mfh
-*   <> <> ISO () mfj
-*   <> <> ISO () mfk
-*   <> <> ISO () mfl
-*   <> <> ISO () mfp ‚ Ä ì <>
-*   <> <> ISO () mfs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () mfx
-*   <> <> ISO () mfy
-*   <> <> ISO () mg
-*   <> <> ISO () mga
-*   <> <> ISO () mgb
-*   <> <> ISO () mgd
-*   <> <> ISO () mge ‚ Ä ì Mango
-*   <> <> ISO () mgh
-*   <> <> ISO () mgl
-*   <> <> ISO () mgn
-*   <> <> ISO () mgp
-*   <> <> ISO () mgr
-*   <> <> ISO () mgu
-*   <> <> ISO () mgw
-*   <> <> ISO () mgy
-*   <> <> ISO () mgz
-*   <> <> ISO () mh
-*   <> <> ISO () mhc
-*   <> <> ISO () mhd
-*   <> <> ISO () mhi
-*   <> <> ISO () mhj
-*   <> <> ISO () mhn
-*   <> <> ISO () mhn ‚ Ä ì M √ ≥ cheno
-*   <> <> ISO () mhp ‚ Ä ì <>
-*   <> <> ISO () mhq
-*   <> <> ISO () mhr
-*   <> <> ISO () mhs
-*   <> <> ISO () mhw
-*   <> <> ISO () mhy
-*   <> <> ISO () mi
-*   <> <> ISO () mia
-*   <> <> ISO () mic
-*   <> <> ISO () mid
-*   <> <> ISO () mid ‚ Ä ì <>
-*   <> <> ISO () mif
-*   <> <> ISO () mik
-*   <> <> ISO () min
-*   <> <> ISO () min ( B )
-*   <> <> ISO () miq
-*   <> <> ISO () mir
-*   <> <> ISO () mir ‚ Ä ì <>
-*   <> <> ISO () mis
-*   <> <> ISO () mjd
-*   <> <> ISO () mjg
-*   <> <> ISO () mji
-*   <> <> ISO () mjk
-*   <> <> ISO () mjs
-*   <> <> ISO () mjt
-*   <> <> ISO () mjw
-*   <> <> ISO () mjy
-*   <> <> ISO () mk
-*   <> <> ISO () mka
-*   <> <> ISO () mkb
-*   <> <> ISO () mkd
-*   <> <> ISO () mkd ( T )
-*   <> <> ISO () mkf
-*   <> <> ISO () mkg
-*   <> <> ISO () mki
-*   <> <> ISO () mkj
-*   <> <> ISO () mku ‚ Ä ì <> Konyanka
-*   <> <> ISO () mkx
-*   <> <> ISO () mky
-*   <> <> ISO () mkz
-*   <> <> ISO () ml
-*   <> <> ISO () mla
-*   <> <> ISO () mlb
-*   <> <> ISO () mlg ( B )
-*   <> <> ISO () mlg ( T )
-*   <> <> ISO () mlg ‚ Ä ì Macrolanguage
-*   <> <> ISO () mlj
-*   <> <> ISO () mlm
-*   <> <> ISO () mlo
-*   <> <> ISO () mlr
-*   <> <> ISO () mls
-*   <> <> ISO () mlt
-*   <> <> ISO () mlv
-*   <> <> ISO () mlw
-*   <> <> ISO () mmd
-*   <> <> ISO () mmf
-*   <> <> ISO () mmn
-*   <> <> ISO () mmp
-*   <> <> ISO () mmr ‚ Ä ì <> <>
-*   <> <> ISO () mmr ‚ Ä ì ]
-*   <> <> ISO () mmv
-*   <> <> ISO () mmy
-*   <> <> ISO () mn
-*   <> <> ISO () mna
-*   <> <> ISO () mnc
-*   <> <> ISO () mne
-*   <> <> ISO () mng ‚ Ä ì <>
-*   <> <> ISO () mnh
-*   <> <> ISO () mni
-*   <> <> ISO () mnj
-*   <> <> ISO () mnk
-*   <> <> ISO () mnn ‚ Ä ì <>
-*   <> <> ISO () mno
-*   <> <> ISO () mnp
-*   <> <> ISO () mnp ‚ Ä ì <>
-*   <> <> ISO () mnr
-*   <> <> ISO () mns
-*   <> <> ISO () mnu
-*   <> <> ISO () mnv
-*   <> <> ISO () mnw
-*   <> <> ISO () mnx
-*   <> <> ISO () moc
-*   <> <> ISO () mod
-*   <> <> ISO () moe
-*   <> <> ISO () moe ‚ Ä ì <>
-*   <> <> ISO () mof
-*   <> <> ISO () mog
-*   <> <> ISO () moh
-*   <> <> ISO () mok
-*   <> <> ISO () mom
-*   <> <> ISO () mom Linguist List
-*   <> <> ISO () mon
-*   <> <> ISO () mon ‚ Ä ì Macrolanguage
-*   <> <> ISO () mop
-*   <> <> ISO () moq
-*   <> <> ISO () mor
-*   <> <> ISO () mos
-*   <> <> ISO () mot
-*   <> <> ISO () mou
-*   <> <> ISO () mov
-*   <> <> ISO () moy
-*   <> <> ISO () moz
-*   <> <> ISO () mpb
-*   <> <> ISO () mpe
-*   <> <> ISO () mpg
-*   <> <> ISO () mpi
-*   <> <> ISO () mpj ‚ Ä ì Martu Wangka
-*   <> <> ISO () mpn
-*   <> <> ISO () mpo
-*   <> <> ISO () mpr
-*   <> <> ISO () mps
-*   <> <> ISO () mpt
-*   <> <> ISO () mpx
-*   <> <> ISO () mqb
-*   <> <> ISO () mqm ‚ Ä ì <>
-*   <> <> ISO () mqs
-*   <> <> ISO () mqu
-*   <> <> ISO () mqx
-*   <> <> ISO () mqz
-*   <> <> ISO () mr
-*   <> <> ISO () mra
-*   <> <> ISO () mrc
-*   <> <> ISO () mre <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () mrf
-*   <> <> ISO () mrh
-*   <> <> ISO () mri
-*   <> <> ISO () mri ( T )
-*   <> <> ISO () mrj
-*   <> <> ISO () mrj ‚ Ä ì <> ( <> )
-*   <> <> ISO () mrm
-*   <> <> ISO () mrr
-*   <> <> ISO () mrt
-*   <> <> ISO () mrv
-*   <> <> ISO () mrw
-*   <> <> ISO () ms
-*   <> <> ISO () msa
-*   <> <> ISO () msa ( T )
-*   <> <> ISO () msa ‚ Ä ì Macrolanguage
-*   <> <> ISO () msb
-*   <> <> ISO () msd <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () msh ‚ Ä ì Masikoro
-*   <> <> ISO () msl
-*   <> <> ISO () msr <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () msv
-*   <> <> ISO () mt
-*   <> <> ISO () mta
-*   <> <> ISO () mte
-*   <> <> ISO () mtl
-*   <> <> ISO () mtm
-*   <> <> ISO () mtn
-*   <> <> ISO () mto
-*   <> <> ISO () mto ‚ Ä ì <>
-*   <> <> ISO () mtp
-*   <> <> ISO () mtq
-*   <> <> ISO () mtr
-*   <> <> ISO () mtr ‚ Ä ì <>
-*   <> <> ISO () mts
-*   <> <> ISO () mtt
-*   <> <> ISO () mub
-*   <> <> ISO () mud
-*   <> <> ISO () mue
-*   <> <> ISO () mui
-*   <> <> ISO () muj
-*   <> <> ISO () mup
-*   <> <> ISO () mup ‚ Ä ì <>
-*   <> <> ISO () muq ‚ Ä ì <> <>
-*   <> <> ISO () muq ‚ Ä ì ]
-*   <> <> ISO () mur
-*   <> <> ISO () mus
-*   <> <> ISO () muu
-*   <> <> ISO () muy
-*   <> <> ISO () muz
-*   <> <> ISO () mva
-*   <> <> ISO () mvb
-*   <> <> ISO () mve ‚ Ä ì <> Pakistan )
-*   <> <> ISO () mvf ‚ Ä ì Peripheral <>
-*   <> <> ISO () mvh
-*   <> <> ISO () mvi
-*   <> <> ISO () mvl
-*   <> <> ISO () mvo
-*   <> <> ISO () mvs
-*   <> <> ISO () mvv
-*   <> <> ISO () mvz
-*   <> <> ISO () mwc
-*   <> <> ISO () mwf
-*   <> <> ISO () mwh
-*   <> <> ISO () mwj ‚ Ä ì Maligo
-*   <> <> ISO () mwl
-*   <> <> ISO () mwl ‚ Ä ì <>
-*   <> <> ISO () mwn
-*   <> <> ISO () mwp
-*   <> <> ISO () mwr
-*   <> <> ISO () mwr ‚ Ä ì Macrolanguage
-*   <> <> ISO () mwv
-*   <> <> ISO () mww ‚ Ä ì ]
-*   <> <> ISO () mxc
-*   <> <> ISO () mxf
-*   <> <> ISO () mxi
-*   <> <> ISO () mxp
-*   <> <> ISO () mxp ‚ Ä ì <>
-*   <> <> ISO () mxq
-*   <> <> ISO () mxq ‚ Ä ì <>
-*   <> <> ISO () mxu
-*   <> <> ISO () my
-*   <> <> ISO () mya
-*   <> <> ISO () mya ( T )
-*   <> <> ISO () mye
-*   <> <> ISO () myf
-*   <> <> ISO () myh
-*   <> <> ISO () myk
-*   <> <> ISO () mym
-*   <> <> ISO () myn
-*   <> <> ISO () myo
-*   <> <> ISO () myp
-*   <> <> ISO () myr
-*   <> <> ISO () mys
-*   <> <> ISO () myu
-*   <> <> ISO () myv
-*   <> <> ISO () myx
-*   <> <> ISO () myz ‚ Ä ì <>
-*   <> <> ISO () mzb Berber-speaking areas of the Mzab
-*   <> <> ISO () mzc ‚ Ä ì <> language ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () mzg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () mzh
-*   <> <> ISO () mzi ‚ Ä ì Ixcatl √ ° n <>
-*   <> <> ISO () mzj
-*   <> <> ISO () mzj ‚ Ä ì <>
-*   <> <> ISO () mzl
-*   <> <> ISO () mzl ‚ Ä ì Mazatl √ ° n <>
-*   <> <> ISO () mzn
-*   <> <> ISO () mzp
-*   <> <> ISO () mzs
-*   <> <> ISO () na
-*   <> <> ISO () naa
-*   <> <> ISO () nab
-*   <> <> ISO () nag
-*   <> <> ISO () nah
-*   <> <> ISO () nai
-*   <> <> ISO () nak
-*   <> <> ISO () nal
-*   <> <> ISO () nam
-*   <> <> ISO () nan
-*   <> <> ISO () nan ‚ Ä ì <>
-*   <> <> ISO () nan-amo
-*   <> <> ISO () nan-cha ( Chao-Shan )
-*   <> <> ISO () nan-chs ( Chaozhou proper )
-*   <> <> ISO () nan-fuj ( redundant )
-*   <> <> ISO () nan-fuk ( redundant )
-*   <> <> ISO () nan-hai
-*   <> <> ISO () nan-han ( redundant )
-*   <> <> ISO () nan-hok
-*   <> <> ISO () nan-lei
-*   <> <> ISO () nan-lon ( Longdu )
-*   <> <> ISO () nan-sha
-*   <> <> ISO () nan-teo ( <> Ä ì ambiguous )
-*   <> <> ISO () nan-zhe
-*   <> <> ISO () nap
-*   <> <> ISO () naq ‚ Ä ì Nama
-*   <> <> ISO () nas
-*   <> <> ISO () nau
-*   <> <> ISO () nav
-*   <> <> ISO () nax
-*   <> <> ISO () nay
-*   <> <> ISO () naz ‚ Ä ì Coatepec <>
-*   <> <> ISO () nb ‚ Ä ì Bokm √ • l
-*   <> <> ISO () nbf
-*   <> <> ISO () nbg
-*   <> <> ISO () nbh
-*   <> <> ISO () nbl
-*   <> <> ISO () nbm
-*   <> <> ISO () nbw ‚ Ä ì <>
-*   <> <> ISO () nbx
-*   <> <> ISO () nce
-*   <> <> ISO () ncg
-*   <> <> ISO () nch
-*   <> <> ISO () nch ‚ Ä ì <> <>
-*   <> <> ISO () nci
-*   <> <> ISO () nci ‚ Ä ì <>
-*   <> <> ISO () ncj ‚ Ä ì <> <>
-*   <> <> ISO () nck
-*   <> <> ISO () ncl ‚ Ä ì Michoac √ ° n <>
-*   <> <> ISO () ncs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ncx ‚ Ä ì <> <>
-*   <> <> ISO () ncz
-*   <> <> ISO () nd
-*   <> <> ISO () ndc
-*   <> <> ISO () nde
-*   <> <> ISO () ndh
-*   <> <> ISO () ndm
-*   <> <> ISO () ndo
-*   <> <> ISO () ndo ‚ Ä ì <>
-*   <> <> ISO () nds
-*   <> <> ISO () nds ‚ Ä ì <>
-*   <> <> ISO () nds ‚ Ä ì <> ( generic )
-*   <> <> ISO () nds-mar
-*   <> <> ISO () nds-mec
-*   <> <> ISO () ne
-*   <> <> ISO () nec
-*   <> <> ISO () neg
-*   <> <> ISO () neh
-*   <> <> ISO () nep
-*   <> <> ISO () neq
-*   <> <> ISO () neq ‚ Ä ì <> <>
-*   <> <> ISO () net
-*   <> <> ISO () new
-*   <> <> ISO () nez
-*   <> <> ISO () nfa
-*   <> <> ISO () nfl
-*   <> <> ISO () nfr
-*   <> <> ISO () ng
-*   <> <> ISO () ng ‚ Ä ì <>
-*   <> <> ISO () nga
-*   <> <> ISO () ngc
-*   <> <> ISO () ngh
-*   <> <> ISO () ngi
-*   <> <> ISO () ngk
-*   <> <> ISO () ngl
-*   <> <> ISO () ngn
-*   <> <> ISO () ngp
-*   <> <> ISO () ngr
-*   <> <> ISO () ngs
-*   <> <> ISO () ngu ‚ Ä ì Guerrero <>
-*   <> <> ISO () ngv ‚ Ä ì Nagumi
-*   <> <> ISO () ngw
-*   <> <> ISO () nha
-*   <> <> ISO () nhc ‚ Ä ì Tabasco <>
-*   <> <> ISO () nhd
-*   <> <> ISO () nhe
-*   <> <> ISO () nhe ‚ Ä ì <> <>
-*   <> <> ISO () nhg
-*   <> <> ISO () nhg ‚ Ä ì <>
-*   <> <> ISO () nhh
-*   <> <> ISO () nhi ‚ Ä ì Tenango <>
-*   <> <> ISO () nhj ‚ Ä ì Tlalitzlipa <>
-*   <> <> ISO () nhk ‚ Ä ì Isthmus-Cosoleacaque <>
-*   <> <> ISO () nhm ‚ Ä ì Morelos <>
-*   <> <> ISO () nhn ‚ Ä ì <>
-*   <> <> ISO () nho
-*   <> <> ISO () nhp
-*   <> <> ISO () nhp ‚ Ä ì Isthmus-Pajapan <>
-*   <> <> ISO () nhq ‚ Ä ì Huaxcaleca <>
-*   <> <> ISO () nhr
-*   <> <> ISO () nhs ‚ Ä ì <> <>
-*   <> <> ISO () nht ‚ Ä ì Ometepec <>
-*   <> <> ISO () nhu
-*   <> <> ISO () nhv ‚ Ä ì Temascaltepec <>
-*   <> <> ISO () nhw ‚ Ä ì
-*   <> <> ISO () nhx
-*   <> <> ISO () nhx ‚ Ä ì Isthmus-Mecayapan <>
-*   <> <> ISO () nhy ‚ Ä ì <> <>
-*   <> <> ISO () nhz ‚ Ä ì <> √ ≠ a la Alta <>
-*   <> <> ISO () nia
-*   <> <> ISO () nie
-*   <> <> ISO () nig
-*   <> <> ISO () nij
-*   <> <> ISO () nim
-*   <> <> ISO () nio
-*   <> <> ISO () niu
-*   <> <> ISO () niv
-*   <> <> ISO () niw
-*   <> <> ISO () nja
-*   <> <> ISO () njh
-*   <> <> ISO () nji
-*   <> <> ISO () njm
-*   <> <> ISO () njo
-*   <> <> ISO () nke
-*   <> <> ISO () nkp
-*   <> <> ISO () nkr
-*   <> <> ISO () nkw
-*   <> <> ISO () nkx
-*   <> <> ISO () nl
-*   <> <> ISO () nld
-*   <> <> ISO () nld ( T )
-*   <> <> ISO () nle
-*   <> <> ISO () nlg
-*   <> <> ISO () nli
-*   <> <> ISO () nll
-*   <> <> ISO () nln
-*   <> <> ISO () nln ‚ Ä ì Durango <>
-*   <> <> ISO () nlr
-*   <> <> ISO () nlv
-*   <> <> ISO () nlv ‚ Ä ì <>
-*   <> <> ISO () nlx
-*   <> <> ISO () nlz ‚ Ä ì Nal √ ∂ go
-*   <> <> ISO () nmb
-*   <> <> ISO () nmg
-*   <> <> ISO () nmi
-*   <> <> ISO () nmj
-*   <> <> ISO () nmk
-*   <> <> ISO () nmn
-*   <> <> ISO () nmp
-*   <> <> ISO () nmr
-*   <> <> ISO () nmu
-*   <> <> ISO () nn ‚ Ä ì Nynorsk
-*   <> <> ISO () nna
-*   <> <> ISO () nnb
-*   <> <> ISO () nnh
-*   <> <> ISO () nnj
-*   <> <> ISO () nno ‚ Ä ì Nynorsk
-*   <> <> ISO () nnr
-*   <> <> ISO () nnt
-*   <> <> ISO () nnv
-*   <> <> ISO () nny ‚ Ä ì Nyannga
-*   <> <> ISO () no ‚ Ä ì <>
-*   <> <> ISO () noa
-*   <> <> ISO () nob ‚ Ä ì Bokm √ • l
-*   <> <> ISO () nod
-*   <> <> ISO () noe
-*   <> <> ISO () nog
-*   <> <> ISO () nok
-*   <> <> ISO () non
-*   <> <> ISO () non-gre ‚ Ä ì
-*   <> <> ISO () non-gut
-*   <> <> ISO () non-swe ‚ Ä ì
-*   <> <> ISO () noo
-*   <> <> ISO () nop
-*   <> <> ISO () nor ‚ Ä ì <>
-*   <> <> ISO () nor ‚ Ä ì Macrolanguage
-*   <> <> ISO () nov
-*   <> <> ISO () now at the <> . Michael ' s name appears in red : Nubians during the period frequently used <> names
-*   <> <> ISO () noy
-*   <> <> ISO () noz
-*   <> <> ISO () npa
-*   <> <> ISO () nph
-*   <> <> ISO () npn
-*   <> <> ISO () nqm
-*   <> <> ISO () nqo
-*   <> <> ISO () nr
-*   <> <> ISO () nrb
-*   <> <> ISO () nrc
-*   <> <> ISO () nrm
-*   <> <> ISO () nrn
-*   <> <> ISO () nrp Approximate distribution of languages in Iron Age Italy during the sixth century BC .
-*   <> <> ISO () nrt
-*   <> <> ISO () nrx
-*   <> <> ISO () nse
-*   <> <> ISO () nsg
-*   <> <> ISO () nsk
-*   <> <> ISO () nso
-*   <> <> ISO () nsp <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () nsr <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () nsz
-*   <> <> ISO () ntj
-*   <> <> ISO () ntj ‚ Ä ì <>
-*   <> <> ISO () nts
-*   <> <> ISO () nub
-*   <> <> ISO () nug
-*   <> <> ISO () nui
-*   <> <> ISO () nuj
-*   <> <> ISO () num
-*   <> <> ISO () nun
-*   <> <> ISO () nuo
-*   <> <> ISO () nup
-*   <> <> ISO () nus
-*   <> <> ISO () nut
-*   <> <> ISO () nux
-*   <> <> ISO () nuy
-*   <> <> ISO () nuz ‚ Ä ì Tlamacazapa <>
-*   <> <> ISO () nv
-*   <> <> ISO () nwa
-*   <> <> ISO () nwb
-*   <> <> ISO () nwc
-*   <> <> ISO () nxg
-*   <> <> ISO () nxn
-*   <> <> ISO () ny
-*   <> <> ISO () nya
-*   <> <> ISO () nyc
-*   <> <> ISO () nyd
-*   <> <> ISO () nyh
-*   <> <> ISO () nyj
-*   <> <> ISO () nym
-*   <> <> ISO () nyn
-*   <> <> ISO () nyo
-*   <> <> ISO () nyp
-*   <> <> ISO () nys
-*   <> <> ISO () nyv
-*   <> <> ISO () nyw
-*   <> <> ISO () nyy
-*   <> <> ISO () nzi
-*   <> <> ISO () nzs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () oaa
-*   <> <> ISO () oac
-*   <> <> ISO () oar
-*   <> <> ISO () oar ‚ Ä ì <> ( before () BCE )
-*   <> <> ISO () obi
-*   <> <> ISO () obi ‚ Ä ì Obispe √ ± o
-*   <> <> ISO () obm
-*   <> <> ISO () obr
-*   <> <> ISO () oc
-*   <> <> ISO () oca
-*   <> <> ISO () och
-*   <> <> ISO () och ‚ Ä ì <>
-*   <> <> ISO () oci
-*   <> <> ISO () oci-auv
-*   <> <> ISO () oci-lim
-*   <> <> ISO () oci-nic ‚ Ä ì
-*   <> <> ISO () oci-prv
-*   <> <> ISO () odt
-*   <> <> ISO () odu
-*   <> <> ISO () ofo
-*   <> <> ISO () ofs
-*   <> <> ISO () often with a terminal () Œ π added .
-*   <> <> ISO () ogc
-*   <> <> ISO () oge
-*   <> <> ISO () oia
-*   <> <> ISO () oj
-*   <> <> ISO () ojb
-*   <> <> ISO () ojb ‚ Ä ì <>
-*   <> <> ISO () ojc
-*   <> <> ISO () ojc ‚ Ä ì <>
-*   <> <> ISO () ojg
-*   <> <> ISO () ojg ‚ Ä ì <>
-*   <> <> ISO () oji
-*   <> <> ISO () oji ‚ Ä ì Macrolanguage
-*   <> <> ISO () ojp
-*   <> <> ISO () ojp ‚ Ä ì but see caveat
-*   <> <> ISO () ojs
-*   <> <> ISO () ojw
-*   <> <> ISO () ojw ‚ Ä ì <>
-*   <> <> ISO () oka
-*   <> <> ISO () oki
-*   <> <> ISO () okj
-*   <> <> ISO () okl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () oko
-*   <> <> ISO () ole
-*   <> <> ISO () olo
-*   <> <> ISO () om
-*   <> <> ISO () oma
-*   <> <> ISO () omb
-*   <> <> ISO () omc
-*   <> <> ISO () omi
-*   <> <> ISO () omo
-*   <> <> ISO () omu
-*   <> <> ISO () ona
-*   <> <> ISO () onb
-*   <> <> ISO () one
-*   <> <> ISO () ono
-*   <> <> ISO () onw
-*   <> <> ISO () ood
-*   <> <> ISO () oon A map of tribal and language divisions in the Andaman Islands prior to the () s
-*   <> <> ISO () oor
-*   <> <> ISO () opm
-*   <> <> ISO () opt
-*   <> <> ISO () opy
-*   <> <> ISO () or
-*   <> <> ISO () ora
-*   <> <> ISO () orc
-*   <> <> ISO () orc ‚ Ä ì <>
-*   <> <> ISO () org
-*   <> <> ISO () orh
-*   <> <> ISO () ori
-*   <> <> ISO () orm
-*   <> <> ISO () orm ‚ Ä ì Macrolanguage
-*   <> <> ISO () orn
-*   <> <> ISO () oro
-*   <> <> ISO () ors ( B )
-*   <> <> ISO () ors ( T )
-*   <> <> ISO () oru
-*   <> <> ISO () orv
-*   <> <> ISO () orv-olr
-*   <> <> ISO () orv-olr ( <> )
-*   <> <> ISO () orw
-*   <> <> ISO () os
-*   <> <> ISO () osa
-*   <> <> ISO () osc
-*   <> <> ISO () osi
-*   <> <> ISO () osi ‚ Ä ì <>
-*   <> <> ISO () osp
-*   <> <> ISO () oss
-*   <> <> ISO () osx
-*   <> <> ISO () ota
-*   <> <> ISO () ote
-*   <> <> ISO () oti
-*   <> <> ISO () otk
-*   <> <> ISO () otl ‚ Ä ì Tilapa <>
-*   <> <> ISO () otm
-*   <> <> ISO () otm ‚ Ä ì <>
-*   <> <> ISO () otn ‚ Ä ì Tenango <>
-*   <> <> ISO () oto
-*   <> <> ISO () otq ‚ Ä ì Quer √ © taro <>
-*   <> <> ISO () ots ‚ Ä ì Estado de M √ © xico <>
-*   <> <> ISO () ott
-*   <> <> ISO () ott ‚ Ä ì <>
-*   <> <> ISO () otw
-*   <> <> ISO () otw ‚ Ä ì <>
-*   <> <> ISO () otx ‚ Ä ì Texcatepec <>
-*   <> <> ISO () otz ‚ Ä ì Ixtenco <>
-*   <> <> ISO () oua Berber-speaking areas of the Mzab
-*   <> <> ISO () oub
-*   <> <> ISO () oun
-*   <> <> ISO () owi
-*   <> <> ISO () owl
-*   <> <> ISO () oyd
-*   <> <> ISO () pa
-*   <> <> ISO () pac
-*   <> <> ISO () pad
-*   <> <> ISO () pag
-*   <> <> ISO () pal
-*   <> <> ISO () pal ( see text left )
-*   <> <> ISO () pam
-*   <> <> ISO () pan
-*   <> <> ISO () pao
-*   <> <> ISO () pap
-*   <> <> ISO () paq
-*   <> <> ISO () par
-*   <> <> ISO () pau
-*   <> <> ISO () pav
-*   <> <> ISO () paw
-*   <> <> ISO () pax ‚ Ä ì Pankarar √ ©
-*   <> <> ISO () pay
-*   <> <> ISO () pbb
-*   <> <> ISO () pbc
-*   <> <> ISO () pbh
-*   <> <> ISO () pbt ‚ Ä ì <>
-*   <> <> ISO () pbu ‚ Ä ì <>
-*   <> <> ISO () pbv
-*   <> <> ISO () pby
-*   <> <> ISO () pcc
-*   <> <> ISO () pcd
-*   <> <> ISO () pch
-*   <> <> ISO () pci
-*   <> <> ISO () pcm
-*   <> <> ISO () pcp
-*   <> <> ISO () pcw
-*   <> <> ISO () pdc
-*   <> <> ISO () pdc ‚ Ä ì <>
-*   <> <> ISO () pdt
-*   <> <> ISO () pdt ‚ Ä ì <>
-*   <> <> ISO () peb
-*   <> <> ISO () pef
-*   <> <> ISO () peh
-*   <> <> ISO () pei
-*   <> <> ISO () pej
-*   <> <> ISO () peo
-*   <> <> ISO () peq
-*   <> <> ISO () per ( B )
-*   <> <> ISO () pev
-*   <> <> ISO () pex
-*   <> <> ISO () pey
-*   <> <> ISO () pfl
-*   <> <> ISO () pfl ‚ Ä ì Palatinate <>
-*   <> <> ISO () pga
-*   <> <> ISO () pgk
-*   <> <> ISO () pgl
-*   <> <> ISO () pha
-*   <> <> ISO () phh
-*   <> <> ISO () phl
-*   <> <> ISO () phn
-*   <> <> ISO () phr
-*   <> <> ISO () pht
-*   <> <> ISO () phu
-*   <> <> ISO () phv ‚ Ä ì Pahlavani
-*   <> <> ISO () pia
-*   <> <> ISO () pib
-*   <> <> ISO () pif
-*   <> <> ISO () pig
-*   <> <> ISO () pih
-*   <> <> ISO () pij
-*   <> <> ISO () pim
-*   <> <> ISO () pis
-*   <> <> ISO () pit
-*   <> <> ISO () piu
-*   <> <> ISO () piu ‚ Ä ì Pintupi-Luritja
-*   <> <> ISO () piv
-*   <> <> ISO () pjt
-*   <> <> ISO () pjt ‚ Ä ì <>
-*   <> <> ISO () pka
-*   <> <> ISO () pkb
-*   <> <> ISO () pkc ‚ Ä ì Macrolanguage
-*   <> <> ISO () pkn
-*   <> <> ISO () pko
-*   <> <> ISO () pkp
-*   <> <> ISO () pks ‚ Ä ì Pakistani Sign <> language ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () pl
-*   <> <> ISO () pld
-*   <> <> ISO () ple
-*   <> <> ISO () plg
-*   <> <> ISO () pln
-*   <> <> ISO () plo
-*   <> <> ISO () plo ‚ Ä ì <>
-*   <> <> ISO () plp
-*   <> <> ISO () plq
-*   <> <> ISO () plr
-*   <> <> ISO () plt ‚ Ä ì <>
-*   <> <> ISO () ply
-*   <> <> ISO () pma
-*   <> <> ISO () pmf
-*   <> <> ISO () pmh
-*   <> <> ISO () pmj ‚ Ä ì <>
-*   <> <> ISO () pmk ‚ Ä ì Pamlico
-*   <> <> ISO () pml
-*   <> <> ISO () pmq ‚ Ä ì <>
-*   <> <> ISO () pmr
-*   <> <> ISO () pms
-*   <> <> ISO () pmt
-*   <> <> ISO () pmu
-*   <> <> ISO () pmw
-*   <> <> ISO () pmz ‚ Ä ì <>
-*   <> <> ISO () pnb
-*   <> <> ISO () png
-*   <> <> ISO () pnh
-*   <> <> ISO () pnh ‚ Ä ì Tongareva dialect ( <>
-*   <> <> ISO () pnn
-*   <> <> ISO () pnt
-*   <> <> ISO () pnt ‚ Ä ì <>
-*   <> <> ISO () pnu
-*   <> <> ISO () pnw
-*   <> <> ISO () pnx
-*   <> <> ISO () pny
-*   <> <> ISO () poc
-*   <> <> ISO () pog
-*   <> <> ISO () poh
-*   <> <> ISO () poi
-*   <> <> ISO () poi ‚ Ä ì <>
-*   <> <> ISO () pol
-*   <> <> ISO () pom
-*   <> <> ISO () pon
-*   <> <> ISO () poo
-*   <> <> ISO () poq
-*   <> <> ISO () poq ‚ Ä ì <>
-*   <> <> ISO () por
-*   <> <> ISO () pos
-*   <> <> ISO () pos ‚ Ä ì <>
-*   <> <> ISO () pot
-*   <> <> ISO () pov
-*   <> <> ISO () pox
-*   <> <> ISO () ppi
-*   <> <> ISO () ppl
-*   <> <> ISO () ppl ‚ Ä ì <>
-*   <> <> ISO () ppo
-*   <> <> ISO () pqa
-*   <> <> ISO () pqm
-*   <> <> ISO () prc
-*   <> <> ISO () pre
-*   <> <> ISO () prg
-*   <> <> ISO () prh
-*   <> <> ISO () pri
-*   <> <> ISO () prl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () prm
-*   <> <> ISO () prn
-*   <> <> ISO () pro
-*   <> <> ISO () prq
-*   <> <> ISO () prs ‚ Ä ì Afghan <>
-*   <> <> ISO () prz <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ps
-*   <> <> ISO () psc <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () psd <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () pse
-*   <> <> ISO () psg <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () psh ‚ Ä ì <>
-*   <> <> ISO () psi ‚ Ä ì <>
-*   <> <> ISO () pso <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () psp <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () psr <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () pss
-*   <> <> ISO () psu
-*   <> <> ISO () psy
-*   <> <> ISO () pt
-*   <> <> ISO () pth
-*   <> <> ISO () pto
-*   <> <> ISO () ptw
-*   <> <> ISO () pua ‚ Ä ì <>
-*   <> <> ISO () pue
-*   <> <> ISO () pug
-*   <> <> ISO () pui
-*   <> <> ISO () pum
-*   <> <> ISO () puq
-*   <> <> ISO () pur
-*   <> <> ISO () pus
-*   <> <> ISO () pus ‚ Ä ì Macrolanguage
-*   <> <> ISO () puy ‚ Ä ì Purisime √ ± o
-*   <> <> ISO () pwa
-*   <> <> ISO () pwn
-*   <> <> ISO () pxm
-*   <> <> ISO () pxm ‚ Ä ì <>
-*   <> <> ISO () pyu
-*   <> <> ISO () pyx
-*   <> <> ISO () q06 ‚ Ä ì
-*   <> <> ISO () qbt ( Alyentiyak )
-*   <> <> ISO () qbz ‚ Ä ì Paunaka-Paikone
-*   <> <> ISO () qc5
-*   <> <> ISO () qcs ‚ Ä ì ] ]
-*   <> <> ISO () qcx
-*   <> <> ISO () qe8
-*   <> <> ISO () qef ‚ Ä ì
-*   <> <> ISO () qer ‚ Ä ì
-*   <> <> ISO () qfi ‚ Ä ì
-*   <> <> ISO () qfn ( Cuica )
-*   <> <> ISO () qfu ‚ Ä ì
-*   <> <> ISO () qgb ( Milykayak )
-*   <> <> ISO () qgg
-*   <> <> ISO () qgu
-*   <> <> ISO () qhy
-*   <> <> ISO () qic
-*   <> <> ISO () qij
-*   <> <> ISO () qjg ‚ Ä ì
-*   <> <> ISO () qjm ‚ Ä ì [ http : / / multitree . org / codes / qjm . html
-*   <> <> ISO () qjt ‚ Ä ì
-*   <> <> ISO () ql4 ‚ Ä ì
-*   <> <> ISO () ql8 ‚ Ä ì
-*   <> <> ISO () qlf ‚ Ä ì
-*   <> <> ISO () qoi
-*   <> <> ISO () qot ‚ Ä ì Macrolanguage
-*   <> <> ISO () qp8 ‚ Ä ì
-*   <> <> ISO () qpb
-*   <> <> ISO () qpg
-*   <> <> ISO () qpj ( <>
-*   <> <> ISO () qr4
-*   <> <> ISO () qs1 ‚ Ä ì
-*   <> <> ISO () qs7
-*   <> <> ISO () qtd
-*   <> <> ISO () qu
-*   <> <> ISO () quc
-*   <> <> ISO () que
-*   <> <> ISO () quf
-*   <> <> ISO () quh
-*   <> <> ISO () qui
-*   <> <> ISO () quk
-*   <> <> ISO () qum
-*   <> <> ISO () qus
-*   <> <> ISO () qut
-*   <> <> ISO () quv
-*   <> <> ISO () quy
-*   <> <> ISO () quz
-*   <> <> ISO () qvc
-*   <> <> ISO () qvn ‚ Ä ì Huamal √ ≠ es y Norte de Dos de <>
-*   <> <> ISO () qvp
-*   <> <> ISO () qvs
-*   <> <> ISO () qwh ‚ Ä ì Huaylas
-*   <> <> ISO () qwm
-*   <> <> ISO () qws ‚ Ä ì Sihuas
-*   <> <> ISO () qxn ‚ Ä ì Norte de Conchucos
-*   <> <> ISO () qxo ‚ Ä ì Sur de Conchucos
-*   <> <> ISO () qxp
-*   <> <> ISO () qxq
-*   <> <> ISO () qxs
-*   <> <> ISO () qxw ‚ Ä ì Shawsha <>
-*   <> <> ISO () qya Ah ! like gold fall the leaves in the wind , long years numberless as the wings of trees ! The beginning of the <> <> ° ri √ ´ written in tengwar and in <> .
-*   <> <> ISO () qyp
-*   <> <> ISO () rab
-*   <> <> ISO () rac
-*   <> <> ISO () raj
-*   <> <> ISO () raj ‚ Ä ì Macrolanguage
-*   <> <> ISO () rak
-*   <> <> ISO () ram
-*   <> <> ISO () rap
-*   <> <> ISO () rar
-*   <> <> ISO () ras
-*   <> <> ISO () rav
-*   <> <> ISO () ray
-*   <> <> ISO () rbl ‚ Ä ì Miraya <>
-*   <> <> ISO () rcf
-*   <> <> ISO () rej
-*   <> <> ISO () rel
-*   <> <> ISO () rem
-*   <> <> ISO () ren
-*   <> <> ISO () rey
-*   <> <> ISO () rge
-*   <> <> ISO () rgk
-*   <> <> ISO () rgn
-*   <> <> ISO () rgn ‚ Ä ì Romagnol
-*   <> <> ISO () rhg
-*   <> <> ISO () rif
-*   <> <> ISO () rim
-*   <> <> ISO () rit ‚ Ä ì Ritharngu
-*   <> <> ISO () rkb
-*   <> <> ISO () rkh
-*   <> <> ISO () rkh ‚ Ä ì <>
-*   <> <> ISO () rki
-*   <> <> ISO () rkm
-*   <> <> ISO () rkt
-*   <> <> ISO () rm
-*   <> <> ISO () rma
-*   <> <> ISO () rmc ‚ Ä ì Carpathian <>
-*   <> <> ISO () rme
-*   <> <> ISO () rmf
-*   <> <> ISO () rmf ‚ Ä ì <>
-*   <> <> ISO () rmg
-*   <> <> ISO () rmh
-*   <> <> ISO () rmi
-*   <> <> ISO () rml ‚ Ä ì Baltic <>
-*   <> <> ISO () rmm
-*   <> <> ISO () rmn
-*   <> <> ISO () rmo
-*   <> <> ISO () rmo ‚ Ä ì Sinte <>
-*   <> <> ISO () rmq
-*   <> <> ISO () rmt
-*   <> <> ISO () rmu
-*   <> <> ISO () rmw
-*   <> <> ISO () rmw ‚ Ä ì <>
-*   <> <> ISO () rmy
-*   <> <> ISO () rmy ‚ Ä ì <>
-*   <> <> ISO () rn
-*   <> <> ISO () rng
-*   <> <> ISO () ro
-*   <> <> ISO () rof
-*   <> <> ISO () roh
-*   <> <> ISO () rol
-*   <> <> ISO () rom
-*   <> <> ISO () rom ‚ Ä ì Macrolanguage
-*   <> <> ISO () ron
-*   <> <> ISO () ron ( T )
-*   <> <> ISO () roo
-*   <> <> ISO () rop
-*   <> <> ISO () rro
-*   <> <> ISO () rsb
-*   <> <> ISO () rsi <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () rsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () rtm
-*   <> <> ISO () ru
-*   <> <> ISO () rue
-*   <> <> ISO () rue ( T )
-*   <> <> ISO () ruf
-*   <> <> ISO () rug
-*   <> <> ISO () rum ( B )
-*   <> <> ISO () run
-*   <> <> ISO () ruo
-*   <> <> ISO () rup
-*   <> <> ISO () ruq
-*   <> <> ISO () rus
-*   <> <> ISO () rut
-*   <> <> ISO () rw
-*   <> <> ISO () rwm
-*   <> <> ISO () rwr ‚ Ä ì <> India )
-*   <> <> ISO () ryn ‚ Ä ì Macrolanguage
-*   <> <> ISO () rys
-*   <> <> ISO () ryu
-*   <> <> ISO () sa
-*   <> <> ISO () saa
-*   <> <> ISO () sad
-*   <> <> ISO () sag
-*   <> <> ISO () sag ( B )
-*   <> <> ISO () sag ( T )
-*   <> <> ISO () sah
-*   <> <> ISO () sai ( Collective )
-*   <> <> ISO () sal
-*   <> <> ISO () sam
-*   <> <> ISO () sam ‚ Ä ì <>
-*   <> <> ISO () san
-*   <> <> ISO () sap
-*   <> <> ISO () saq
-*   <> <> ISO () sar
-*   <> <> ISO () sas
-*   <> <> ISO () sat
-*   <> <> ISO () saw
-*   <> <> ISO () sax
-*   <> <> ISO () saz
-*   <> <> ISO () sba
-*   <> <> ISO () sbb
-*   <> <> ISO () sbc
-*   <> <> ISO () sbf
-*   <> <> ISO () sbh
-*   <> <> ISO () sbp
-*   <> <> ISO () sbs
-*   <> <> ISO () sbv
-*   <> <> ISO () sc
-*   <> <> ISO () sc or co
-*   <> <> ISO () scb
-*   <> <> ISO () sce
-*   <> <> ISO () sci
-*   <> <> ISO () scl
-*   <> <> ISO () scn
-*   <> <> ISO () sco
-*   <> <> ISO () scr , scc ( deprecated )
-*   <> <> ISO () scw
-*   <> <> ISO () sd
-*   <> <> ISO () sdb
-*   <> <> ISO () sdc
-*   <> <> ISO () sdc ‚ Ä ì <>
-*   <> <> ISO () sdh
-*   <> <> ISO () sdh ‚ Ä ì <>
-*   <> <> ISO () sdl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () sdn
-*   <> <> ISO () sdn ‚ Ä ì <>
-*   <> <> ISO () sdr ‚ Ä ì Oraon <>
-*   <> <> ISO () sds
-*   <> <> ISO () sdt
-*   <> <> ISO () sdz
-*   <> <> ISO () se
-*   <> <> ISO () se ( <> )
-*   <> <> ISO () sea
-*   <> <> ISO () sec
-*   <> <> ISO () sed
-*   <> <> ISO () see
-*   <> <> ISO () seh
-*   <> <> ISO () sei
-*   <> <> ISO () sek
-*   <> <> ISO () sel
-*   <> <> ISO () sen
-*   <> <> ISO () sep
-*   <> <> ISO () ser
-*   <> <> ISO () ses
-*   <> <> ISO () set
-*   <> <> ISO () sfm ‚ Ä ì Small Flowery <>
-*   <> <> ISO () sfm ‚ Ä ì ]
-*   <> <> ISO () sfs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () sg
-*   <> <> ISO () sga
-*   <> <> ISO () sgb
-*   <> <> ISO () sgc
-*   <> <> ISO () sgd
-*   <> <> ISO () sgh
-*   <> <> ISO () sgh-bar
-*   <> <> ISO () sgl ‚ Ä ì Sanglechi ‚ Ä ì <>
-*   <> <> ISO () sgn
-*   <> <> ISO () sgn-DE
-*   <> <> ISO () sgn-ES
-*   <> <> ISO () sgn-MY
-*   <> <> ISO () sgn-NL
-*   <> <> ISO () sgn-NZ
-*   <> <> ISO () sgn-US-HI
-*   <> <> ISO () sgn-US-MA
-*   <> <> ISO () sgr
-*   <> <> ISO () sgs
-*   <> <> ISO () sgt
-*   <> <> ISO () sgw
-*   <> <> ISO () sgz
-*   <> <> ISO () sh ( deprecated )
-*   <> <> ISO () shb
-*   <> <> ISO () she
-*   <> <> ISO () shg
-*   <> <> ISO () shh
-*   <> <> ISO () shi
-*   <> <> ISO () shj
-*   <> <> ISO () shk
-*   <> <> ISO () shn
-*   <> <> ISO () shp
-*   <> <> ISO () shs
-*   <> <> ISO () sht
-*   <> <> ISO () shu
-*   <> <> ISO () shv
-*   <> <> ISO () shx
-*   <> <> ISO () shy
-*   <> <> ISO () si
-*   <> <> ISO () sia
-*   <> <> ISO () sid
-*   <> <> ISO () sif
-*   <> <> ISO () sii
-*   <> <> ISO () sij
-*   <> <> ISO () sik
-*   <> <> ISO () sin
-*   <> <> ISO () sio
-*   <> <> ISO () sio ‚ Ä î Siouan ( collective )
-*   <> <> ISO () sip
-*   <> <> ISO () sir
-*   <> <> ISO () sis
-*   <> <> ISO () siy
-*   <> <> ISO () siz
-*   <> <> ISO () sjd
-*   <> <> ISO () sjd ‚ Ä ì <>
-*   <> <> ISO () sje <> is () on this map .
-*   <> <> ISO () sje ‚ Ä ì <>
-*   <> <> ISO () sjg
-*   <> <> ISO () sjk
-*   <> <> ISO () sjk ‚ Ä ì <>
-*   <> <> ISO () sjn
-*   <> <> ISO () sjo
-*   <> <> ISO () sjs
-*   <> <> ISO () sjt <> is number () on the map .
-*   <> <> ISO () sjt ‚ Ä ì <>
-*   <> <> ISO () sju <> is () on this map .
-*   <> <> ISO () sju ‚ Ä ì <>
-*   <> <> ISO () sjw
-*   <> <> ISO () sk
-*   <> <> ISO () skb
-*   <> <> ISO () skd
-*   <> <> ISO () ske
-*   <> <> ISO () skg ‚ Ä ì Sakalava
-*   <> <> ISO () skh
-*   <> <> ISO () ski
-*   <> <> ISO () skr
-*   <> <> ISO () sku
-*   <> <> ISO () skw
-*   <> <> ISO () sl
-*   <> <> ISO () sla ( B )
-*   <> <> ISO () slc
-*   <> <> ISO () slf ‚ Ä ì <> SL <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () sli
-*   <> <> ISO () sli ‚ Ä ì <>
-*   <> <> ISO () slk
-*   <> <> ISO () slk ( T )
-*   <> <> ISO () sln
-*   <> <> ISO () slo ( B )
-*   <> <> ISO () slq
-*   <> <> ISO () slr
-*   <> <> ISO () sls <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () slv
-*   <> <> ISO () slv-pre
-*   <> <> ISO () slv-res
-*   <> <> ISO () sly
-*   <> <> ISO () slz
-*   <> <> ISO () sm
-*   <> <> ISO () sma
-*   <> <> ISO () sma ‚ Ä ì <>
-*   <> <> ISO () sme
-*   <> <> ISO () sme ‚ Ä ì <>
-*   <> <> ISO () smi
-*   <> <> ISO () smj
-*   <> <> ISO () smj <> is () on this map .
-*   <> <> ISO () smj ‚ Ä ì <>
-*   <> <> ISO () smk
-*   <> <> ISO () smm
-*   <> <> ISO () smn
-*   <> <> ISO () smn <> is () on this map .
-*   <> <> ISO () smn ‚ Ä ì <>
-*   <> <> ISO () smo
-*   <> <> ISO () smr
-*   <> <> ISO () sms
-*   <> <> ISO () sms ‚ Ä ì <>
-*   <> <> ISO () smv ‚ Ä ì <>
-*   <> <> ISO () smw
-*   <> <> ISO () sn
-*   <> <> ISO () sna
-*   <> <> ISO () snd
-*   <> <> ISO () snk
-*   <> <> ISO () snn
-*   <> <> ISO () snq
-*   <> <> ISO () so
-*   <> <> ISO () sob
-*   <> <> ISO () sog
-*   <> <> ISO () soh
-*   <> <> ISO () sok
-*   <> <> ISO () som
-*   <> <> ISO () some neighbouring languages
-*   <> <> ISO () sop
-*   <> <> ISO () sor
-*   <> <> ISO () sot
-*   <> <> ISO () sou
-*   <> <> ISO () sov
-*   <> <> ISO () soz
-*   <> <> ISO () spa
-*   <> <> ISO () spc
-*   <> <> ISO () spi
-*   <> <> ISO () spo ‚ Ä ì Spokane
-*   <> <> ISO () spp
-*   <> <> ISO () spx Approximate distribution of languages in Iron Age Italy during the () th century BC .
-*   <> <> ISO () sq
-*   <> <> ISO () sqi ( T )
-*   <> <> ISO () sqi ‚ Ä ì Macrolanguage
-*   <> <> ISO () sqn
-*   <> <> ISO () sqr
-*   <> <> ISO () sqs <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () sqt
-*   <> <> ISO () squ
-*   <> <> ISO () sr
-*   <> <> ISO () srb
-*   <> <> ISO () src
-*   <> <> ISO () src ‚ Ä ì <>
-*   <> <> ISO () srd
-*   <> <> ISO () srd or cos
-*   <> <> ISO () srd ‚ Ä ì Macrolanguage
-*   <> <> ISO () sre
-*   <> <> ISO () srh
-*   <> <> ISO () srl
-*   <> <> ISO () srm
-*   <> <> ISO () srn
-*   <> <> ISO () srp
-*   <> <> ISO () srp ‚ Ä ì Ethnologue identifies it as an alternate name of <>
-*   <> <> ISO () srp-tor ‚ Ä ì
-*   <> <> ISO () srr
-*   <> <> ISO () srs
-*   <> <> ISO () ss
-*   <> <> ISO () ssa
-*   <> <> ISO () ssf
-*   <> <> ISO () ssg
-*   <> <> ISO () ssh
-*   <> <> ISO () ssi
-*   <> <> ISO () ssk
-*   <> <> ISO () ssl
-*   <> <> ISO () sso
-*   <> <> ISO () ssp <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ssr ‚ Ä ì <> SL
-*   <> <> ISO () ssu
-*   <> <> ISO () ssv
-*   <> <> ISO () ssw
-*   <> <> ISO () ssy
-*   <> <> ISO () ssz
-*   <> <> ISO () st
-*   <> <> ISO () stc ‚ Ä ì Macrolanguage
-*   <> <> ISO () std
-*   <> <> ISO () sth
-*   <> <> ISO () stl
-*   <> <> ISO () stn
-*   <> <> ISO () stp ‚ Ä ì <> √ ° n
-*   <> <> ISO () stq
-*   <> <> ISO () stq ‚ Ä ì <>
-*   <> <> ISO () str
-*   <> <> ISO () sts
-*   <> <> ISO () su
-*   <> <> ISO () sua
-*   <> <> ISO () sui
-*   <> <> ISO () suj
-*   <> <> ISO () suk
-*   <> <> ISO () sum
-*   <> <> ISO () sun
-*   <> <> ISO () suq
-*   <> <> ISO () sur
-*   <> <> ISO () sus
-*   <> <> ISO () sus Where it is mainly spoken
-*   <> <> ISO () sut
-*   <> <> ISO () sux
-*   <> <> ISO () suz
-*   <> <> ISO () sv
-*   <> <> ISO () sva
-*   <> <> ISO () svc
-*   <> <> ISO () svs
-*   <> <> ISO () sw
-*   <> <> ISO () swa
-*   <> <> ISO () swa ‚ Ä ì Macrolanguage
-*   <> <> ISO () swb
-*   <> <> ISO () swb ‚ Ä ì Maore <>
-*   <> <> ISO () swe
-*   <> <> ISO () swg
-*   <> <> ISO () swg ‚ Ä ì <>
-*   <> <> ISO () swh ‚ Ä ì <>
-*   <> <> ISO () swh ‚ Ä ì Chimwiini
-*   <> <> ISO () swh ‚ Ä ì Coastal <>
-*   <> <> ISO () swi
-*   <> <> ISO () swl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () swn
-*   <> <> ISO () swo
-*   <> <> ISO () swq
-*   <> <> ISO () swv
-*   <> <> ISO () sww
-*   <> <> ISO () swx
-*   <> <> ISO () swy
-*   <> <> ISO () sxb
-*   <> <> ISO () sxc
-*   <> <> ISO () sxl
-*   <> <> ISO () sxn
-*   <> <> ISO () sxo
-*   <> <> ISO () sxr
-*   <> <> ISO () sxu
-*   <> <> ISO () sxu ‚ Ä ì <>
-*   <> <> ISO () syc ( classical )
-*   <> <> ISO () syc ‚ Ä ì <> classical )
-*   <> <> ISO () syi
-*   <> <> ISO () syk
-*   <> <> ISO () syl
-*   <> <> ISO () syn
-*   <> <> ISO () syn ‚ Ä ì <>
-*   <> <> ISO () syr
-*   <> <> ISO () sys
-*   <> <> ISO () syy <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () sza
-*   <> <> ISO () sze
-*   <> <> ISO () szl
-*   <> <> ISO () szw
-*   <> <> ISO () ta
-*   <> <> ISO () taa
-*   <> <> ISO () tab
-*   <> <> ISO () tad
-*   <> <> ISO () tae
-*   <> <> ISO () tag
-*   <> <> ISO () tah
-*   <> <> ISO () tai
-*   <> <> ISO () taj
-*   <> <> ISO () tal
-*   <> <> ISO () tam
-*   <> <> ISO () tan
-*   <> <> ISO () tao
-*   <> <> ISO () taq ‚ Ä ì Tamasheq
-*   <> <> ISO () tar
-*   <> <> ISO () tas
-*   <> <> ISO () tat
-*   <> <> ISO () tau
-*   <> <> ISO () tax
-*   <> <> ISO () tay
-*   <> <> ISO () tba
-*   <> <> ISO () tbb
-*   <> <> ISO () tbd
-*   <> <> ISO () tbf
-*   <> <> ISO () tbh
-*   <> <> ISO () tbi
-*   <> <> ISO () tbn ‚ Ä ì Barro Negro Tunebo
-*   <> <> ISO () tbu
-*   <> <> ISO () tca
-*   <> <> ISO () tcb
-*   <> <> ISO () tcc
-*   <> <> ISO () tcf
-*   <> <> ISO () tch
-*   <> <> ISO () tcm
-*   <> <> ISO () tcs
-*   <> <> ISO () tct
-*   <> <> ISO () tcx
-*   <> <> ISO () tcy
-*   <> <> ISO () tdd
-*   <> <> ISO () tdh
-*   <> <> ISO () tdk
-*   <> <> ISO () tdx ‚ Ä ì Tandroy-Mafahaly
-*   <> <> ISO () tdy
-*   <> <> ISO () te
-*   <> <> ISO () teb
-*   <> <> ISO () teh
-*   <> <> ISO () tel
-*   <> <> ISO () tem
-*   <> <> ISO () ten
-*   <> <> ISO () teo
-*   <> <> ISO () tep
-*   <> <> ISO () tep ‚ Ä ì <>
-*   <> <> ISO () teq
-*   <> <> ISO () ter
-*   <> <> ISO () tes ‚ Ä ì Tenggerese
-*   <> <> ISO () tet
-*   <> <> ISO () teu
-*   <> <> ISO () tew
-*   <> <> ISO () tfn
-*   <> <> ISO () tfr
-*   <> <> ISO () tft
-*   <> <> ISO () tg
-*   <> <> ISO () tgc
-*   <> <> ISO () tgd
-*   <> <> ISO () tgf
-*   <> <> ISO () tgh
-*   <> <> ISO () tgk
-*   <> <> ISO () tgk ‚ Ä ì <>
-*   <> <> ISO () tgl
-*   <> <> ISO () tgl-bag
-*   <> <> ISO () tgp
-*   <> <> ISO () tgv
-*   <> <> ISO () tgx
-*   <> <> ISO () th
-*   <> <> ISO () tha
-*   <> <> ISO () thd
-*   <> <> ISO () thm
-*   <> <> ISO () thp
-*   <> <> ISO () tht
-*   <> <> ISO () thv
-*   <> <> ISO () thz
-*   <> <> ISO () thz ‚ Ä ì Tayart Tamajeq
-*   <> <> ISO () ti
-*   <> <> ISO () tib ( B )
-*   <> <> ISO () tic
-*   <> <> ISO () tif
-*   <> <> ISO () tig
-*   <> <> ISO () til
-*   <> <> ISO () tin
-*   <> <> ISO () tiq
-*   <> <> ISO () tir
-*   <> <> ISO () tit
-*   <> <> ISO () tiv
-*   <> <> ISO () tiw
-*   <> <> ISO () tix
-*   <> <> ISO () tja
-*   <> <> ISO () tji ‚ Ä ì <>
-*   <> <> ISO () tjm
-*   <> <> ISO () tjm ‚ Ä ì ( <>
-*   <> <> ISO () tjo
-*   <> <> ISO () tju
-*   <> <> ISO () tk
-*   <> <> ISO () tka
-*   <> <> ISO () tkd
-*   <> <> ISO () tkl
-*   <> <> ISO () tkm
-*   <> <> ISO () tkp
-*   <> <> ISO () tkq
-*   <> <> ISO () tkr
-*   <> <> ISO () tks
-*   <> <> ISO () tkw
-*   <> <> ISO () tl
-*   <> <> ISO () tla ‚ Ä ì <> √ ° n
-*   <> <> ISO () tlb
-*   <> <> ISO () tlc
-*   <> <> ISO () tlc ‚ Ä ì <>
-*   <> <> ISO () tlf
-*   <> <> ISO () tlg
-*   <> <> ISO () tlh
-*   <> <> ISO () tli
-*   <> <> ISO () tlj
-*   <> <> ISO () tll
-*   <> <> ISO () tlm
-*   <> <> ISO () tlp ‚ Ä ì <> Filomeno Mata-Coahuitl √ ° n
-*   <> <> ISO () tlx
-*   <> <> ISO () tly
-*   <> <> ISO () tma
-*   <> <> ISO () tmc
-*   <> <> ISO () tmd
-*   <> <> ISO () tme
-*   <> <> ISO () tmg
-*   <> <> ISO () tmh
-*   <> <> ISO () tmh ‚ Ä ì Macrolanguage
-*   <> <> ISO () tmj
-*   <> <> ISO () tmr
-*   <> <> ISO () tmr ‚ Ä ì <> <>
-*   <> <> ISO () tms
-*   <> <> ISO () tmw
-*   <> <> ISO () tn
-*   <> <> ISO () tna
-*   <> <> ISO () tnb ‚ Ä ì <>
-*   <> <> ISO () tnp
-*   <> <> ISO () tnq
-*   <> <> ISO () tnv
-*   <> <> ISO () to
-*   <> <> ISO () to the left in brown
-*   <> <> ISO () to the left in chartreuse
-*   <> <> ISO () to the left in green
-*   <> <> ISO () to the left in pink
-*   <> <> ISO () tob
-*   <> <> ISO () toi
-*   <> <> ISO () toj
-*   <> <> ISO () tol
-*   <> <> ISO () ton
-*   <> <> ISO () too ‚ Ä ì <> Xicotepec
-*   <> <> ISO () top
-*   <> <> ISO () top ‚ Ä ì <>
-*   <> <> ISO () toq
-*   <> <> ISO () tos
-*   <> <> ISO () tos ‚ Ä ì <>
-*   <> <> ISO () tot ‚ Ä ì <> <>
-*   <> <> ISO () tow
-*   <> <> ISO () tox
-*   <> <> ISO () tpc
-*   <> <> ISO () tpi
-*   <> <> ISO () tpj
-*   <> <> ISO () tpl
-*   <> <> ISO () tpn ‚ Ä ì Tupinamb √ °
-*   <> <> ISO () tpp ‚ Ä ì <> Pisaflores
-*   <> <> ISO () tpt ‚ Ä ì <> Tlachichilco
-*   <> <> ISO () tpv
-*   <> <> ISO () tpx
-*   <> <> ISO () tpy
-*   <> <> ISO () tqn ‚ Ä ì Tenino
-*   <> <> ISO () tqq
-*   <> <> ISO () tqt ‚ Ä ì <> Ozumatl √ ° n
-*   <> <> ISO () tqu
-*   <> <> ISO () tqw
-*   <> <> ISO () tr
-*   <> <> ISO () trf
-*   <> <> ISO () trg
-*   <> <> ISO () trg ‚ Ä ì Lish √ ° n Did √ ° n
-*   <> <> ISO () tri
-*   <> <> ISO () trj
-*   <> <> ISO () trl
-*   <> <> ISO () trm
-*   <> <> ISO () trn ‚ Ä ì Trinitario <>
-*   <> <> ISO () trp
-*   <> <> ISO () trq ‚ Ä ì <> √ ≠ n Itunyoso
-*   <> <> ISO () trr
-*   <> <> ISO () trs ‚ Ä ì Chicahuaxtla
-*   <> <> ISO () trt
-*   <> <> ISO () tru
-*   <> <> ISO () tru ‚ Ä ì Turoyo
-*   <> <> ISO () trv
-*   <> <> ISO () trw
-*   <> <> ISO () try
-*   <> <> ISO () ts
-*   <> <> ISO () tsb
-*   <> <> ISO () tsc
-*   <> <> ISO () tsd
-*   <> <> ISO () tsd ‚ Ä ì <>
-*   <> <> ISO () tsg
-*   <> <> ISO () tsh
-*   <> <> ISO () tsi
-*   <> <> ISO () tsj
-*   <> <> ISO () tsl
-*   <> <> ISO () tsm <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () tsn
-*   <> <> ISO () tso
-*   <> <> ISO () tsp ‚ Ä ì <>
-*   <> <> ISO () tsq <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () tss <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () tsu
-*   <> <> ISO () tt
-*   <> <> ISO () tta
-*   <> <> ISO () ttc
-*   <> <> ISO () ttj
-*   <> <> ISO () ttm ‚ Ä ì <>
-*   <> <> ISO () ttq
-*   <> <> ISO () ttq ‚ Ä ì Tawallammat Tamajaq
-*   <> <> ISO () ttr
-*   <> <> ISO () tts
-*   <> <> ISO () ttt
-*   <> <> ISO () tub
-*   <> <> ISO () tud
-*   <> <> ISO () tue
-*   <> <> ISO () tuf ‚ Ä ì <>
-*   <> <> ISO () tui
-*   <> <> ISO () tuk
-*   <> <> ISO () tum
-*   <> <> ISO () tun
-*   <> <> ISO () tuo
-*   <> <> ISO () tup
-*   <> <> ISO () tuq
-*   <> <> ISO () tur
-*   <> <> ISO () tur-kar
-*   <> <> ISO () tus Pre-contact distribution of <>
-*   <> <> ISO () tuv
-*   <> <> ISO () tuy
-*   <> <> ISO () tvl
-*   <> <> ISO () tvo
-*   <> <> ISO () tvy
-*   <> <> ISO () twa
-*   <> <> ISO () twb ‚ Ä ì <>
-*   <> <> ISO () twc
-*   <> <> ISO () twd
-*   <> <> ISO () twf
-*   <> <> ISO () twf ‚ Ä ì <>
-*   <> <> ISO () twi ‚ Ä ì Twi language
-*   <> <> ISO () twm
-*   <> <> ISO () txb ‚ Ä ì <>
-*   <> <> ISO () txc
-*   <> <> ISO () txe
-*   <> <> ISO () txg
-*   <> <> ISO () txh
-*   <> <> ISO () txo
-*   <> <> ISO () txr
-*   <> <> ISO () txt
-*   <> <> ISO () txy ‚ Ä ì Tanosy
-*   <> <> ISO () ty
-*   <> <> ISO () tya
-*   <> <> ISO () typ
-*   <> <> ISO () tyu ‚ Ä ì Kua
-*   <> <> ISO () tyv
-*   <> <> ISO () tza <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () tzb
-*   <> <> ISO () tzc
-*   <> <> ISO () tzh
-*   <> <> ISO () tzj
-*   <> <> ISO () tzm
-*   <> <> ISO () tzm-cen
-*   <> <> ISO () tzn ‚ Ä ì Tugun
-*   <> <> ISO () tzo
-*   <> <> ISO () uam
-*   <> <> ISO () ubi
-*   <> <> ISO () uby
-*   <> <> ISO () ude
-*   <> <> ISO () udi
-*   <> <> ISO () udl
-*   <> <> ISO () udm
-*   <> <> ISO () udu
-*   <> <> ISO () ug
-*   <> <> ISO () uga
-*   <> <> ISO () uge
-*   <> <> ISO () ugn <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ugo
-*   <> <> ISO () uhn
-*   <> <> ISO () uig
-*   <> <> ISO () uk
-*   <> <> ISO () ukq ‚ Ä ì Ukwa
-*   <> <> ISO () ukr
-*   <> <> ISO () uks <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ulc
-*   <> <> ISO () ule
-*   <> <> ISO () ulf
-*   <> <> ISO () uli
-*   <> <> ISO () ulk
-*   <> <> ISO () uln
-*   <> <> ISO () uln ‚ Ä ì <>
-*   <> <> ISO () uma
-*   <> <> ISO () umb
-*   <> <> ISO () umo
-*   <> <> ISO () umr
-*   <> <> ISO () umu
-*   <> <> ISO () ung
-*   <> <> ISO () unk
-*   <> <> ISO () unm
-*   <> <> ISO () unm ‚ Ä ì <>
-*   <> <> ISO () unx ‚ Ä ì Munda
-*   <> <> ISO () upv
-*   <> <> ISO () ur
-*   <> <> ISO () ura
-*   <> <> ISO () urd
-*   <> <> ISO () urd ‚ Ä ì <>
-*   <> <> ISO () ure
-*   <> <> ISO () urf
-*   <> <> ISO () urf ‚ Ä ì <>
-*   <> <> ISO () urh
-*   <> <> ISO () urm
-*   <> <> ISO () urv
-*   <> <> ISO () urw
-*   <> <> ISO () usa
-*   <> <> ISO () ush
-*   <> <> ISO () usp
-*   <> <> ISO () ute
-*   <> <> ISO () uum
-*   <> <> ISO () uun
-*   <> <> ISO () uuu
-*   <> <> ISO () uve
-*   <> <> ISO () uvl
-*   <> <> ISO () uwa
-*   <> <> ISO () uz
-*   <> <> ISO () uzb
-*   <> <> ISO () uzb ‚ Ä ì Macrolanguage
-*   <> <> ISO () uzn
-*   <> <> ISO () uzs
-*   <> <> ISO () uzs ‚ Ä ì <>
-*   <> <> ISO () vah
-*   <> <> ISO () vai
-*   <> <> ISO () vaj ‚ Ä ì Vasekela
-*   <> <> ISO () vao
-*   <> <> ISO () var
-*   <> <> ISO () variously
-*   <> <> ISO () vay
-*   <> <> ISO () ve
-*   <> <> ISO () vec
-*   <> <> ISO () ved
-*   <> <> ISO () vel
-*   <> <> ISO () ven
-*   <> <> ISO () veo
-*   <> <> ISO () veo ‚ Ä ì Venture √ ± o
-*   <> <> ISO () vep
-*   <> <> ISO () vgt <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () vi
-*   <> <> ISO () vic
-*   <> <> ISO () vie
-*   <> <> ISO () vig
-*   <> <> ISO () vil
-*   <> <> ISO () vkj
-*   <> <> ISO () vkp
-*   <> <> ISO () vku
-*   <> <> ISO () vls
-*   <> <> ISO () vma
-*   <> <> ISO () vmb
-*   <> <> ISO () vmf
-*   <> <> ISO () vmf ‚ Ä ì Main-Franconian
-*   <> <> ISO () vmg
-*   <> <> ISO () vmi ‚ Ä ì Miwa
-*   <> <> ISO () vmk
-*   <> <> ISO () vml
-*   <> <> ISO () vmp ‚ Ä ì Soyaltepec <>
-*   <> <> ISO () vmv
-*   <> <> ISO () vmw
-*   <> <> ISO () vmy ‚ Ä ì Ayautla <>
-*   <> <> ISO () vmz ‚ Ä ì Mazatl √ ° n <>
-*   <> <> ISO () vo
-*   <> <> ISO () vol
-*   <> <> ISO () vor
-*   <> <> ISO () vot
-*   <> <> ISO () vro
-*   <> <> ISO () vro ‚ Ä ì V √ µ ro
-*   <> <> ISO () vsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () vsv <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () vun
-*   <> <> ISO () wa
-*   <> <> ISO () waa ‚ Ä ì Walla Walla
-*   <> <> ISO () wab
-*   <> <> ISO () wac
-*   <> <> ISO () wae
-*   <> <> ISO () wae ‚ Ä ì <>
-*   <> <> ISO () wae ‚ Ä ì <> The traditional distribution area of <> <> = <> dialect features in the () th and () th century
-*   <> <> ISO () waf
-*   <> <> ISO () wak
-*   <> <> ISO () wal
-*   <> <> ISO () wam
-*   <> <> ISO () wao
-*   <> <> ISO () waq
-*   <> <> ISO () war
-*   <> <> ISO () was
-*   <> <> ISO () wba
-*   <> <> ISO () wbj
-*   <> <> ISO () wbk
-*   <> <> ISO () wbl
-*   <> <> ISO () wbp
-*   <> <> ISO () wbr
-*   <> <> ISO () wbr ‚ Ä ì <>
-*   <> <> ISO () wbv
-*   <> <> ISO () wbw
-*   <> <> ISO () wdg
-*   <> <> ISO () wec ‚ Ä ì W √ ® <>
-*   <> <> ISO () wel ( B )
-*   <> <> ISO () wep
-*   <> <> ISO () wep ‚ Ä ì <>
-*   <> <> ISO () wes
-*   <> <> ISO () wet ‚ Ä ì Macrolanguage
-*   <> <> ISO () wet ‚ Ä ì Parai
-*   <> <> ISO () wgi
-*   <> <> ISO () when <> would have been spoken
-*   <> <> ISO () which is still spoken
-*   <> <> ISO () wic
-*   <> <> ISO () wig
-*   <> <> ISO () wik
-*   <> <> ISO () wil ‚ Ä ì Wilawila
-*   <> <> ISO () wim
-*   <> <> ISO () win
-*   <> <> ISO () wit
-*   <> <> ISO () wiu
-*   <> <> ISO () wiv
-*   <> <> ISO () wiw
-*   <> <> ISO () wiw ‚ Ä ì <>
-*   <> <> ISO () wiy
-*   <> <> ISO () wji
-*   <> <> ISO () wka
-*   <> <> ISO () wlc ‚ Ä ì Mwali dialect
-*   <> <> ISO () wle ‚ Ä ì Wolane
-*   <> <> ISO () wlk
-*   <> <> ISO () wlm
-*   <> <> ISO () wln
-*   <> <> ISO () wlo
-*   <> <> ISO () wls
-*   <> <> ISO () wlv
-*   <> <> ISO () wma
-*   <> <> ISO () wmb
-*   <> <> ISO () wmd
-*   <> <> ISO () wme
-*   <> <> ISO () wmh
-*   <> <> ISO () wmo
-*   <> <> ISO () wms
-*   <> <> ISO () wmt
-*   <> <> ISO () wmw
-*   <> <> ISO () wnd
-*   <> <> ISO () wni ‚ Ä ì Ndzwani dialect
-*   <> <> ISO () wnk
-*   <> <> ISO () wo
-*   <> <> ISO () wob ‚ Ä ì W √ ® <>
-*   <> <> ISO () woe
-*   <> <> ISO () wof ‚ Ä ì Gambian <>
-*   <> <> ISO () wog
-*   <> <> ISO () wol
-*   <> <> ISO () would have been geographically isolated in <>
-*   <> <> ISO () woy
-*   <> <> ISO () wpc
-*   <> <> ISO () wpc ‚ Ä ì <>
-*   <> <> ISO () wra
-*   <> <> ISO () wrb
-*   <> <> ISO () wrg
-*   <> <> ISO () wrh
-*   <> <> ISO () wrl
-*   <> <> ISO () wrm
-*   <> <> ISO () wrr
-*   <> <> ISO () wrs
-*   <> <> ISO () wry ‚ Ä ì Merwari
-*   <> <> ISO () wrz
-*   <> <> ISO () wsa
-*   <> <> ISO () wsu
-*   <> <> ISO () wtf External link
-*   <> <> ISO () wti
-*   <> <> ISO () wtm
-*   <> <> ISO () wuh
-*   <> <> ISO () wur
-*   <> <> ISO () wut
-*   <> <> ISO () wuu
-*   <> <> ISO () wuu ‚ Ä ì <>
-*   <> <> ISO () wuu-chh
-*   <> <> ISO () wuu-chu
-*   <> <> ISO () wuu-haz
-*   <> <> ISO () wuu-ouj
-*   <> <> ISO () wuu-pil
-*   <> <> ISO () wuu-sha
-*   <> <> ISO () wuu-suh
-*   <> <> ISO () wuu-tai
-*   <> <> ISO () wuu-taz
-*   <> <> ISO () wuu-wux
-*   <> <> ISO () wuu-wuz
-*   <> <> ISO () wuu-xua ‚ Ä ì
-*   <> <> ISO () wuv
-*   <> <> ISO () wwo
-*   <> <> ISO () wwr
-*   <> <> ISO () www
-*   <> <> ISO () wxa
-*   <> <> ISO () wya
-*   <> <> ISO () wyb
-*   <> <> ISO () wym
-*   <> <> ISO () wyy
-*   <> <> ISO () xaa
-*   <> <> ISO () xac
-*   <> <> ISO () xad
-*   <> <> ISO () xae Abraham Ortelius ' s map of ancient Latium , published in ()
-*   <> <> ISO () xag
-*   <> <> ISO () xai
-*   <> <> ISO () xal
-*   <> <> ISO () xam
-*   <> <> ISO () xan
-*   <> <> ISO () xaq
-*   <> <> ISO () xas
-*   <> <> ISO () xat
-*   <> <> ISO () xav
-*   <> <> ISO () xaw
-*   <> <> ISO () xba
-*   <> <> ISO () xbc
-*   <> <> ISO () xbo
-*   <> <> ISO () xbr
-*   <> <> ISO () xbw
-*   <> <> ISO () xcb
-*   <> <> ISO () xcc
-*   <> <> ISO () xce
-*   <> <> ISO () xcg
-*   <> <> ISO () xcg ‚ Ä ì <>
-*   <> <> ISO () xcl
-*   <> <> ISO () xcl ‚ Ä ì <>
-*   <> <> ISO () xcn
-*   <> <> ISO () xco
-*   <> <> ISO () xcr
-*   <> <> ISO () xcu
-*   <> <> ISO () xcw
-*   <> <> ISO () xcy
-*   <> <> ISO () xdc
-*   <> <> ISO () xeb
-*   <> <> ISO () xeg
-*   <> <> ISO () xep ‚ Ä ì ? Epi-Olmec
-*   <> <> ISO () xfa
-*   <> <> ISO () xga Map showing the Roman province of Galatia .
-*   <> <> ISO () xga ‚ Ä ì <>
-*   <> <> ISO () xgf
-*   <> <> ISO () xgl
-*   <> <> ISO () xh
-*   <> <> ISO () xhc
-*   <> <> ISO () xhd
-*   <> <> ISO () xho
-*   <> <> ISO () xht
-*   <> <> ISO () xhu
-*   <> <> ISO () xib
-*   <> <> ISO () xii
-*   <> <> ISO () xil
-*   <> <> ISO () xin
-*   <> <> ISO () xir
-*   <> <> ISO () xiv
-*   <> <> ISO () xiy
-*   <> <> ISO () xkc
-*   <> <> ISO () xke
-*   <> <> ISO () xkf
-*   <> <> ISO () xkh
-*   <> <> ISO () xki <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () xkr
-*   <> <> ISO () xkv
-*   <> <> ISO () xkw
-*   <> <> ISO () xkx
-*   <> <> ISO () xkz
-*   <> <> ISO () xla
-*   <> <> ISO () xlc
-*   <> <> ISO () xld
-*   <> <> ISO () xle
-*   <> <> ISO () xlg
-*   <> <> ISO () xli
-*   <> <> ISO () xlp
-*   <> <> ISO () xlp ‚ Ä ì <>
-*   <> <> ISO () xls
-*   <> <> ISO () xma
-*   <> <> ISO () xmd
-*   <> <> ISO () xme
-*   <> <> ISO () xmf
-*   <> <> ISO () xmk
-*   <> <> ISO () xml <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () xmm
-*   <> <> ISO () xmr
-*   <> <> ISO () xmu
-*   <> <> ISO () xmw ‚ Ä ì Tsimihety
-*   <> <> ISO () xna
-*   <> <> ISO () xnb
-*   <> <> ISO () xng
-*   <> <> ISO () xno
-*   <> <> ISO () xno ( <>
-*   <> <> ISO () xnr
-*   <> <> ISO () xnr ‚ Ä ì <>
-*   <> <> ISO () xog
-*   <> <> ISO () xom
-*   <> <> ISO () xpc
-*   <> <> ISO () xpe ‚ Ä ì Liberia <>
-*   <> <> ISO () xpg
-*   <> <> ISO () xpi
-*   <> <> ISO () xpm
-*   <> <> ISO () xpn
-*   <> <> ISO () xpo
-*   <> <> ISO () xpr
-*   <> <> ISO () xps
-*   <> <> ISO () xpu
-*   <> <> ISO () xpy
-*   <> <> ISO () xqt
-*   <> <> ISO () xre
-*   <> <> ISO () xrn
-*   <> <> ISO () xrr
-*   <> <> ISO () xrt
-*   <> <> ISO () xsa
-*   <> <> ISO () xsb
-*   <> <> ISO () xsc
-*   <> <> ISO () xsd
-*   <> <> ISO () xse
-*   <> <> ISO () xsi
-*   <> <> ISO () xsl ‚ Ä ì <>
-*   <> <> ISO () xsm
-*   <> <> ISO () xso
-*   <> <> ISO () xsr
-*   <> <> ISO () xss
-*   <> <> ISO () xsu
-*   <> <> ISO () xsv
-*   <> <> ISO () xsy
-*   <> <> ISO () xtc
-*   <> <> ISO () xtq ‚ Ä ì Tumshuqese
-*   <> <> ISO () xtz
-*   <> <> ISO () xub
-*   <> <> ISO () xug
-*   <> <> ISO () xum Approximate distribution of languages in Iron Age Italy during the () th century BC .
-*   <> <> ISO () xur
-*   <> <> ISO () xve
-*   <> <> ISO () xvi
-*   <> <> ISO () xvn
-*   <> <> ISO () xvo
-*   <> <> ISO () xvs
-*   <> <> ISO () xwa
-*   <> <> ISO () xwg
-*   <> <> ISO () xwo ‚ Ä ì Written <>
-*   <> <> ISO () xxb
-*   <> <> ISO () xxt
-*   <> <> ISO () xzh
-*   <> <> ISO () xzm
-*   <> <> ISO () yaa
-*   <> <> ISO () yad
-*   <> <> ISO () yae
-*   <> <> ISO () yaf
-*   <> <> ISO () yag
-*   <> <> ISO () yah
-*   <> <> ISO () yai
-*   <> <> ISO () yak ‚ Ä ì Yakima
-*   <> <> ISO () yal
-*   <> <> ISO () yao
-*   <> <> ISO () yap
-*   <> <> ISO () yaq
-*   <> <> ISO () yar
-*   <> <> ISO () yau
-*   <> <> ISO () yax
-*   <> <> ISO () ybd
-*   <> <> ISO () ybe
-*   <> <> ISO () ybh
-*   <> <> ISO () ybi
-*   <> <> ISO () ydg
-*   <> <> ISO () yee
-*   <> <> ISO () yei
-*   <> <> ISO () yej
-*   <> <> ISO () yeu
-*   <> <> ISO () yey
-*   <> <> ISO () yha
-*   <> <> ISO () yha ‚ Ä ì Baha <>
-*   <> <> ISO () yhd
-*   <> <> ISO () yi
-*   <> <> ISO () yia
-*   <> <> ISO () yid
-*   <> <> ISO () yid ‚ Ä ì Macrolanguage
-*   <> <> ISO () yih ‚ Ä ì <>
-*   <> <> ISO () yii
-*   <> <> ISO () yij
-*   <> <> ISO () yiy
-*   <> <> ISO () yiy-jir
-*   <> <> ISO () ykg
-*   <> <> ISO () yki
-*   <> <> ISO () yle
-*   <> <> ISO () yln ‚ Ä ì Langnian <>
-*   <> <> ISO () ylr
-*   <> <> ISO () yme
-*   <> <> ISO () ymm
-*   <> <> ISO () yms
-*   <> <> ISO () ynk
-*   <> <> ISO () ynn
-*   <> <> ISO () yo
-*   <> <> ISO () yoi
-*   <> <> ISO () yok
-*   <> <> ISO () yol
-*   <> <> ISO () yor
-*   <> <> ISO () yri
-*   <> <> ISO () yrk
-*   <> <> ISO () yrl
-*   <> <> ISO () ysl ‚ Ä ì <> <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () ysr
-*   <> <> ISO () yua
-*   <> <> ISO () yub
-*   <> <> ISO () yuc
-*   <> <> ISO () yud
-*   <> <> ISO () yud ‚ Ä ì <>
-*   <> <> ISO () yue
-*   <> <> ISO () yue ‚ Ä ì <>
-*   <> <> ISO () yue-can
-*   <> <> ISO () yue-gao
-*   <> <> ISO () yue-qin
-*   <> <> ISO () yue-siy
-*   <> <> ISO () yue-yue ‚ Ä ì
-*   <> <> ISO () yuf
-*   <> <> ISO () yuj
-*   <> <> ISO () yuk
-*   <> <> ISO () yum
-*   <> <> ISO () yuq ‚ Ä ì Yuqui
-*   <> <> ISO () yur
-*   <> <> ISO () yuu
-*   <> <> ISO () yux
-*   <> <> ISO () yuy
-*   <> <> ISO () yuz
-*   <> <> ISO () yvt
-*   <> <> ISO () za
-*   <> <> ISO () zag
-*   <> <> ISO () zah
-*   <> <> ISO () zai
-*   <> <> ISO () zaj
-*   <> <> ISO () zak
-*   <> <> ISO () zap
-*   <> <> ISO () zap ( see List of <> )
-*   <> <> ISO () zay
-*   <> <> ISO () zbl
-*   <> <> ISO () zea
-*   <> <> ISO () zeh ‚ Ä ì <> <>
-*   <> <> ISO () zen
-*   <> <> ISO () zgb ‚ Ä ì Guibei <>
-*   <> <> ISO () zgm ‚ Ä ì Minz <>
-*   <> <> ISO () zgn ‚ Ä ì Guibian <>
-*   <> <> ISO () zh
-*   <> <> ISO () zh ( <>
-*   <> <> ISO () zha
-*   <> <> ISO () zha ‚ Ä ì Macrolanguage
-*   <> <> ISO () zhb
-*   <> <> ISO () zhd ‚ Ä ì Dai <>
-*   <> <> ISO () zhn ‚ Ä ì Nong <>
-*   <> <> ISO () zho ( T )
-*   <> <> ISO () zho ‚ Ä ì Macrolanguage
-*   <> <> ISO () zia
-*   <> <> ISO () zik
-*   <> <> ISO () zil
-*   <> <> ISO () ziz
-*   <> <> ISO () zkb
-*   <> <> ISO () zkg
-*   <> <> ISO () zkk
-*   <> <> ISO () zko
-*   <> <> ISO () zkt
-*   <> <> ISO () zku
-*   <> <> ISO () zkz
-*   <> <> ISO () zlj ‚ Ä ì Liujiang <>
-*   <> <> ISO () zlm-coa ‚ Ä ì ( coastal )
-*   <> <> ISO () zlm-kel
-*   <> <> ISO () zlm-sar
-*   <> <> ISO () zln ‚ Ä ì Lianshan <>
-*   <> <> ISO () zlq ‚ Ä ì Liuqian <>
-*   <> <> ISO () zmh
-*   <> <> ISO () zmi
-*   <> <> ISO () zml
-*   <> <> ISO () zmu
-*   <> <> ISO () zne
-*   <> <> ISO () zns
-*   <> <> ISO () zoh ‚ Ä ì Chimalapa <>
-*   <> <> ISO () zom
-*   <> <> ISO () zoq ‚ Ä ì Tabasco <>
-*   <> <> ISO () zor ‚ Ä ì Ray √ ≥ n <>
-*   <> <> ISO () zos ‚ Ä ì Francisco Le √ ≥ n <>
-*   <> <> ISO () zps
-*   <> <> ISO () zqe ‚ Ä ì Qiubei <>
-*   <> <> ISO () zra
-*   <> <> ISO () zrn
-*   <> <> ISO () zro
-*   <> <> ISO () zrp
-*   <> <> ISO () zsa ‚ Ä ì Sarasira
-*   <> <> ISO () zsk
-*   <> <> ISO () zsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
-*   <> <> ISO () zsm
-*   <> <> ISO () zsu ‚ Ä ì Sukurum
-*   <> <> ISO () zu
-*   <> <> ISO () zua
-*   <> <> ISO () zuh
-*   <> <> ISO () zul
-*   <> <> ISO () zum
-*   <> <> ISO () zum ‚ Ä ì <>
-*   <> <> ISO () zun
-*   <> <> ISO () zuy
-*   <> <> ISO () zwa
-*   <> <> ISO () zyb ‚ Ä ì Yongbei <>
-*   <> <> ISO () zyg ‚ Ä ì Yang <>
-*   <> <> ISO () zyj ‚ Ä ì Youjiang <>
-*   <> <> ISO () zyn ‚ Ä ì Yongnan <>
-*   <> <> ISO () zyp
-*   <> <> ISO () zza
-*   <> <> ISO () zzj ‚ Ä ì Zuojiang <>
-*   <> <> ISO () ‚ Ä ì
-*   <> <> ISO () ‚ Ä ì Linguist List
+*   <> Language codes ISO () ( T )
+*   <> Language codes ISO () ( generic )
+*   <> Language codes ISO () ( see varieties of <> the individual codes )
+*   <> Language codes ISO () () : <>
+*   <> Language codes ISO () () : <> Proper
+*   <> Language codes ISO () () : Changle
+*   <> Language codes ISO () () : Fuqing
+*   <> Language codes ISO () () : Lianjiang
+*   <> Language codes ISO () () : Luoyuan
+*   <> Language codes ISO () () : Minhou
+*   <> Language codes ISO () () : Minqing
+*   <> Language codes ISO () () : Pingnan
+*   <> Language codes ISO () () : Pingtan
+*   <> Language codes ISO () () : Regions in Fuding
+*   <> Language codes ISO () () : Regions in Nanping , () : Regions in Youxi
+*   <> Language codes ISO () () : Regions in Ningde
+*   <> Language codes ISO () () : Regions in Xiapu
+*   <> Language codes ISO () () : Yongtai
+*   <> Language codes ISO () () e ‚ Ä ì
+*   <> Language codes ISO () () ei ‚ Ä ì
+*   <> Language codes ISO () () em
+*   <> Language codes ISO () () gi
+*   <> Language codes ISO () () gt ‚ Ä ì
+*   <> Language codes ISO () () gw-mpa
+*   <> Language codes ISO () () hk ‚ Ä ì
+*   <> Language codes ISO () () hl
+*   <> Language codes ISO () () hm
+*   <> Language codes ISO () () hz
+*   <> Language codes ISO () () im ‚ Ä ì
+*   <> Language codes ISO () () in ‚ Ä ì
+*   <> Language codes ISO () () io
+*   <> Language codes ISO () () ip
+*   <> Language codes ISO () () iq
+*   <> Language codes ISO () () it ‚ Ä ì
+*   <> Language codes ISO () () iv ‚ Ä ì
+*   <> Language codes ISO () () ix ‚ Ä ì
+*   <> Language codes ISO () () j
+*   <> Language codes ISO () () l
+*   <> Language codes ISO () () nd century BC . It is unlikely <> spoken much beyond the green area
+*   <> Language codes ISO () () r ‚ Ä ì
+*   <> Language codes ISO () () t ‚ Ä ì
+*   <> Language codes ISO () () u8 ‚ Ä ì
+*   <> Language codes ISO () () xw ‚ Ä ì
+*   <> Language codes ISO () : aaq ‚ Ä ì <> ( extinct )
+*   <> Language codes ISO () : abh ‚ Ä ì <>
+*   <> Language codes ISO () : adz ‚ Ä ì <>
+*   <> Language codes ISO () : aee ‚ Ä ì <>
+*   <> Language codes ISO () : ahn ‚ Ä ì Ahaan
+*   <> Language codes ISO () : aid ‚ Ä ì <>
+*   <> Language codes ISO () : akj ‚ Ä ì <>
+*   <> Language codes ISO () : aln ‚ Ä ì <>
+*   <> Language codes ISO () : amu ‚ Ä ì <> Guerrero ) <>
+*   <> Language codes ISO () : amx ‚ Ä ì Anmatjirra
+*   <> Language codes ISO () : ant ‚ Ä ì Antikirinya
+*   <> Language codes ISO () : anw ‚ Ä ì Anaang
+*   <> Language codes ISO () : apc ‚ Ä ì <> <>
+*   <> Language codes ISO () : apq ‚ Ä ì <>
+*   <> Language codes ISO () : apx ‚ Ä ì Aputai
+*   <> Language codes ISO () : arc ‚ Ä ì Imperial and <> ( () BCE )
+*   <> Language codes ISO () : ast ‚ Ä ì <>
+*   <> Language codes ISO () : atv ‚ Ä ì <>
+*   <> Language codes ISO () : ayh ‚ Ä ì <>
+*   <> Language codes ISO () : ayr ‚ Ä ì <>
+*   <> Language codes ISO () : azj ‚ Ä ì <>
+*   <> Language codes ISO () : bal ‚ Ä ì Baluchi ( generic )
+*   <> Language codes ISO () : bca ‚ Ä ì <> , Jianchuan dialect
+*   <> Language codes ISO () : bgp ‚ Ä ì <>
+*   <> Language codes ISO () : bgq ‚ Ä ì <>
+*   <> Language codes ISO () : bjv ‚ Ä ì Bedjond
+*   <> Language codes ISO () : ble ‚ Ä ì Balanta-Kentohe
+*   <> Language codes ISO () : bnj ‚ Ä ì <>
+*   <> Language codes ISO () : boi ‚ Ä ì Barbare √ ± o
+*   <> Language codes ISO () : bxu ‚ Ä ì China Buriat
+*   <> Language codes ISO () : cco ‚ Ä ì Comaltepec <>
+*   <> Language codes ISO () : cdo ‚ Ä ì <>
+*   <> Language codes ISO () : cja ‚ Ä ì <>
+*   <> Language codes ISO () : ckb ‚ Ä ì Sorani
+*   <> Language codes ISO () : cmo ‚ Ä ì <>
+*   <> Language codes ISO () : crr ‚ Ä ì <>
+*   <> Language codes ISO () : crx ‚ Ä ì <>
+*   <> Language codes ISO () : csq ‚ Ä ì <>
+*   <> Language codes ISO () : cst ‚ Ä ì <>
+*   <> Language codes ISO () : cuk ‚ Ä ì <> <>
+*   <> Language codes ISO () : cux ‚ Ä ì Tepeuxila
+*   <> Language codes ISO () : dak ‚ Ä ì <>
+*   <> Language codes ISO () : deu ‚ Ä ì <> <>
+*   <> Language codes ISO () : dga ‚ Ä ì <>
+*   <> Language codes ISO () : dgo ‚ Ä ì <> individual )
+*   <> Language codes ISO () : dhd ‚ Ä ì Dhundari
+*   <> Language codes ISO () : dip ‚ Ä ì <> ( Padang )
+*   <> Language codes ISO () : dji ‚ Ä ì Djinang
+*   <> Language codes ISO () : doc ‚ Ä ì <>
+*   <> Language codes ISO () : egl ‚ Ä ì Emilian
+*   <> Language codes ISO () : ekk ‚ Ä ì <>
+*   <> Language codes ISO () : enf ‚ Ä ì <>
+*   <> Language codes ISO () : esi ‚ Ä ì <> Inupiatun
+*   <> Language codes ISO () : fal ‚ Ä ì <>
+*   <> Language codes ISO () : fat ‚ Ä ì Fanti language
+*   <> Language codes ISO () : fla ‚ Ä ì Flathead
+*   <> Language codes ISO () : fly ‚ Ä ì <>
+*   <> Language codes ISO () : fry ‚ Ä ì <>
+*   <> Language codes ISO () : fub ‚ Ä ì Adamawa Fulfulde
+*   <> Language codes ISO () : gax ‚ Ä ì Borana-Arsi-Guji-Walagaa <>
+*   <> Language codes ISO () : gcd ‚ Ä ì Ganggalida
+*   <> Language codes ISO () : gcf ‚ Ä ì Guadeloupean Creole <>
+*   <> Language codes ISO () : gct ‚ Ä ì Alem √ ° n Coloniero
+*   <> Language codes ISO () : gdb ‚ Ä ì <> Gadaba )
+*   <> Language codes ISO () : ggn ‚ Ä ì <>
+*   <> Language codes ISO () : ggo ‚ Ä ì <>
+*   <> Language codes ISO () : gkp ‚ Ä ì Guinea <>
+*   <> Language codes ISO () : gmv ‚ Ä ì Gamo
+*   <> Language codes ISO () : gom ‚ Ä ì Goan <>
+*   <> Language codes ISO () : grc ‚ Ä ì <>
+*   <> Language codes ISO () : grj ‚ Ä ì <> ( incl . <>
+*   <> Language codes ISO () : gsw ‚ Ä ì <>
+*   <> Language codes ISO () : gud ‚ Ä ì Yocobou √ © <>
+*   <> Language codes ISO () : gxx ‚ Ä ì W √ ® <>
+*   <> Language codes ISO () : hdn ‚ Ä ì <>
+*   <> Language codes ISO () : heb ‚ Ä ì <>
+*   <> Language codes ISO () : hgm ‚ Ä ì Hai « Å om
+*   <> Language codes ISO () : hin ‚ Ä ì <>
+*   <> Language codes ISO () : hio ‚ Ä ì <>
+*   <> Language codes ISO () : hmn ‚ Ä ì ]
+*   <> Language codes ISO () : hnd ‚ Ä ì <>
+*   <> Language codes ISO () : hos ‚ Ä ì <> Minh City Sign <>
+*   <> Language codes ISO () : hto ‚ Ä ì <>
+*   <> Language codes ISO () : hue ‚ Ä ì <> del Mar
+*   <> Language codes ISO () : hye ‚ Ä ì <>
+*   <> Language codes ISO () : igj ‚ Ä ì Ignaciano <>
+*   <> Language codes ISO () : ike ‚ Ä ì <> <>
+*   <> Language codes ISO () : inb ‚ Ä ì <>
+*   <> Language codes ISO () : ins ‚ Ä ì Indo-Bengali Sign <>
+*   <> Language codes ISO () : jav ‚ Ä ì <>
+*   <> Language codes ISO () : jiu ‚ Ä ì Youle Jinuo
+*   <> Language codes ISO () : kex ‚ Ä ì Kanara <>
+*   <> Language codes ISO () : khc ‚ Ä ì <> <>
+*   <> Language codes ISO () : khk ‚ Ä ì Khalkha <>
+*   <> Language codes ISO () : khm ‚ Ä ì <>
+*   <> Language codes ISO () : khn ‚ Ä ì <>
+*   <> Language codes ISO () : kho ‚ Ä ì Khotanese
+*   <> Language codes ISO () : kif ‚ Ä ì <> Kham
+*   <> Language codes ISO () : kiw ‚ Ä ì Northeast <>
+*   <> Language codes ISO () : knc ‚ Ä ì <>
+*   <> Language codes ISO () : kng ‚ Ä ì Koongo
+*   <> Language codes ISO () : koi ‚ Ä ì <>
+*   <> Language codes ISO () : kss ‚ Ä ì <>
+*   <> Language codes ISO () : kua ‚ Ä ì <>
+*   <> Language codes ISO () : lav ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () : lrc ‚ Ä ì <>
+*   <> Language codes ISO () : maa ‚ Ä ì <> Tec √ ≥ atl <>
+*   <> Language codes ISO () : mco ‚ Ä ì Coatl √ ° n <>
+*   <> Language codes ISO () : mhr ‚ Ä ì <> ( <> )
+*   <> Language codes ISO () : mid ‚ Ä ì <>
+*   <> Language codes ISO () : mkw ‚ Ä ì <> Congo-Brazzaville )
+*   <> Language codes ISO () : mmc ‚ Ä ì Michoacan <>
+*   <> Language codes ISO () : mrq ‚ Ä ì <>
+*   <> Language codes ISO () : mww ‚ Ä ì <> ( Laos , China )
+*   <> Language codes ISO () : myq ‚ Ä ì <> <>
+*   <> Language codes ISO () : mzk ‚ Ä ì <>
+*   <> Language codes ISO () : nci ‚ Ä ì <>
+*   <> Language codes ISO () : ngb ‚ Ä ì <>
+*   <> Language codes ISO () : nnx ‚ Ä ì <>
+*   <> Language codes ISO () : nob ‚ Ä ì Bokm √ • l
+*   <> Language codes ISO () : nor ‚ Ä ì <>
+*   <> Language codes ISO () : nsk ‚ Ä ì <>
+*   <> Language codes ISO () : nsl ‚ Ä ì <>
+*   <> Language codes ISO () : ntp ‚ Ä ì <> √ ° n
+*   <> Language codes ISO () : ntu ‚ Ä ì Nat √ º gu
+*   <> Language codes ISO () : ocu ‚ Ä ì Ocuiltec / Tlahuica
+*   <> Language codes ISO () : ojs ‚ Ä ì <>
+*   <> Language codes ISO () : omn ‚ Ä ì Minoan
+*   <> Language codes ISO () : ote ‚ Ä ì <>
+*   <> Language codes ISO () : oun ‚ Ä ì « É   º O « É Kung
+*   <> Language codes ISO () : paz ‚ Ä ì Pankarar √ ∫
+*   <> Language codes ISO () : pbs ‚ Ä ì <>
+*   <> Language codes ISO () : pes ‚ Ä ì Iranian <>
+*   <> Language codes ISO () : pid ‚ Ä ì <>
+*   <> Language codes ISO () : pmi ‚ Ä ì <>
+*   <> Language codes ISO () : prs ‚ Ä ì <> Afghan <>
+*   <> Language codes ISO () : pst ‚ Ä ì <>
+*   <> Language codes ISO () : qvw ‚ Ä ì Waylla <>
+*   <> Language codes ISO () : qwa ‚ Ä ì Corongo
+*   <> Language codes ISO () : rar ‚ Ä ì Rarotonga dialect
+*   <> Language codes ISO () : rmn ‚ Ä ì <>
+*   <> Language codes ISO () : ryn ‚ Ä ì <>
+*   <> Language codes ISO () : sac ‚ Ä ì <> Sauk
+*   <> Language codes ISO () : sck ‚ Ä ì <>
+*   <> Language codes ISO () : scs ‚ Ä ì <>
+*   <> Language codes ISO () : sgg ‚ Ä ì <> SL
+*   <> Language codes ISO () : sia ‚ Ä ì <>
+*   <> Language codes ISO () : sro ‚ Ä ì Campidanese
+*   <> Language codes ISO () : srp ‚ Ä ì <>
+*   <> Language codes ISO () : srq ‚ Ä ì Sirion √ ≥
+*   <> Language codes ISO () : stv ‚ Ä ì Silt ' e
+*   <> Language codes ISO () : swc ‚ Ä ì Congo <>
+*   <> Language codes ISO () : tce ‚ Ä ì <>
+*   <> Language codes ISO () : tee ‚ Ä ì <> Huehuetla
+*   <> Language codes ISO () : thv ‚ Ä ì Tahaggart <>
+*   <> Language codes ISO () : tix ‚ Ä ì <>
+*   <> Language codes ISO () : tjs ‚ Ä ì <>
+*   <> Language codes ISO () : tnd ‚ Ä ì Angosturas Tunebo
+*   <> Language codes ISO () : toc ‚ Ä ì <> Coyutla
+*   <> Language codes ISO () : tpw ‚ Ä ì Tup √ ≠ ( <> √ ≠ )
+*   <> Language codes ISO () : trc ‚ Ä ì Copala
+*   <> Language codes ISO () : tsz ‚ Ä ì <>
+*   <> Language codes ISO () : ubl ‚ Ä ì Buhi ' non <>
+*   <> Language codes ISO () : uma ‚ Ä ì <>
+*   <> Language codes ISO () : umu ‚ Ä ì <>
+*   <> Language codes ISO () : unr ‚ Ä ì <>
+*   <> Language codes ISO () : uzn ‚ Ä ì <>
+*   <> Language codes ISO () : wib ‚ Ä ì <>
+*   <> Language codes ISO () : wol ‚ Ä ì <>
+*   <> Language codes ISO () : wub ‚ Ä ì <>
+*   <> Language codes ISO () : xal ‚ Ä ì <>
+*   <> Language codes ISO () : xlu ‚ Ä ì Cuneiform <>
+*   <> Language codes ISO () : xmv ‚ Ä ì Antankarana
+*   <> Language codes ISO () : xpp ‚ Ä ì Buyeo-Baekje
+*   <> Language codes ISO () : xtg ‚ Ä ì Transalpine <>
+*   <> Language codes ISO () : xto ‚ Ä ì <>
+*   <> Language codes ISO () : xuu ‚ Ä ì Khwe
+*   <> Language codes ISO () : ydd ‚ Ä ì <>
+*   <> Language codes ISO () : yhd ‚ Ä ì <>
+*   <> Language codes ISO () : yzg ‚ Ä ì <> ma <>
+*   <> Language codes ISO () : zch ‚ Ä ì <> <>
+*   <> Language codes ISO () : zdj ‚ Ä ì Ngazidja dialect
+*   <> Language codes ISO () : zlm-inl ‚ Ä ì ( inland )
+*   <> Language codes ISO () : zoc ‚ Ä ì Copainal √ ° <>
+*   <> Language codes ISO () : zsm ‚ Ä ì <>
+*   <> Language codes ISO () : zza ‚ Ä ì <> generic )
+*   <> Language codes ISO () <>
+*   <> Language codes ISO () <> . These boundaries are approximate .
+*   <> Language codes ISO () <> China
+*   <> Language codes ISO () <> No . () ) within the <> ( yellow ) and <> ( red ) language area
+*   <> Language codes ISO () <> and <> dialects
+*   <> Language codes ISO () <> at far upper-left ) is quite geographically isolated from the other Dravidian languages
+*   <> Language codes ISO () <> at the top , in blue .
+*   <> Language codes ISO () <> in the broad sense .
+*   <> Language codes ISO () <> in the context of paleohispanic languages
+*   <> Language codes ISO () <> is () on this map .
+*   <> Language codes ISO () <> is () on this regional map of <> .
+*   <> Language codes ISO () <> is in red . It is in contact with <> ( yellow ) , <> ( medium and light blue ) , <> purple ) , and <> dark blue ) .
+*   <> Language codes ISO () <> is in yellow . It is in contact with <> ( orange ) , <> ( red ) , <> ( blue and green , north ) , <> purple ) , and Hunan Tuhua ( dark green , south ) .
+*   <> Language codes ISO () <> is primarily spoken in the <> of Belgium , highlighted in red .
+*   <> Language codes ISO () <> language area . () = <>
+*   <> Language codes ISO () <> of <>
+*   <> Language codes ISO () <> red , in the middle of the <> .
+*   <> Language codes ISO () <> south ) , with the Kalapuyan languages to the north
+*   <> Language codes ISO () <> spread in the United States .
+*   <> Language codes ISO () <> the yellow area on the coast .
+*   <> Language codes ISO () A () th-century column capital with Caucasian <>
+*   <> Language codes ISO () A page from an <> translation of the Instructions of the Archangel Michael
+*   <> Language codes ISO () A rough map of <> locations .
+*   <> Language codes ISO () Aceh province , Sumatra
+*   <> Language codes ISO () Approximate distribution of languages in Iron Age Italy during the () th century BCE
+*   <> Language codes ISO () Area of Rif
+*   <> Language codes ISO () Area where <> and <> spoken .
+*   <> Language codes ISO () Area where <> spoken . Green = sparsely populated forest .
+*   <> Language codes ISO () Area where Luxembourgisch ( hatched ) and related <> is spoken .
+*   <> Language codes ISO () Area with significant Kazakh-speaking population
+*   <> Language codes ISO () Areas where <> are spoken , with ethnic divisions : ( () ) <> ( () ) <> ( () ) <> ( () ) <> <> , ( () ) Krashovani ( <> , ( () ) <> areas of Kosovo prior to ()
+*   <> Language codes ISO () Areas where <> spoken as mother tongue
+*   <> Language codes ISO () Berber-speaking areas of the Mzab
+*   <> Language codes ISO () Coauhuilteco language
+*   <> Language codes ISO () Communities where <> spoken
+*   <> Language codes ISO () Countries where <> a primary language are dark blue ; countries where it is an official but not a primary language are light blue . <> also one of the <> Official languages of the European Union .
+*   <> Language codes ISO () Countries where <> is spoken . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Countries where <> spoken . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Dialects
+*   <> Language codes ISO () Distribution of <> .
+*   <> Language codes ISO () Distribution of <> Tall √ ° n in the Piura region .
+*   <> Language codes ISO () Distribution of <> an <> Official language in the Arab World .
+*   <> Language codes ISO () Distribution of Minnan dialects . <> dark green .
+*   <> Language codes ISO () Distribution of native <> in India This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Distribution of native <> in India and <> This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Distribution of native <> in India and Pakistan This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Distribution of native Canarese <> in India This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Distribution of the <> around ()
+*   <> Language codes ISO () Distribution of ƒ å akavian
+*   <> Language codes ISO () Distribution throughout the Maritimes c . ()
+*   <> Language codes ISO () Ethnic territories ( pink ) of the Karekare-speaking people ( Kare ) in Nigeria
+*   <> Language codes ISO () Ethnic territories ( tan ) of the Ngas-speaking people ( Angas ) in Nigeria
+*   <> Language codes ISO () Ethnic territories of the Bata-speaking people ( Batta ) in Nigeria , in blue
+*   <> Language codes ISO () Ethnic territories of the Marghi-speaking people in Nigeria ( organge )
+*   <> Language codes ISO () Ethnic territories of the Tangale-speaking people in Nigeria in green
+*   <> Language codes ISO () Europe , () AD
+*   <> Language codes ISO () European countries with a Neo-Latin literary tradition
+*   <> Language codes ISO () Expansion of the Roman Republic
+*   <> Language codes ISO () Extension of <> ( es : Usuario : Fobos92 () ) .
+*   <> Language codes ISO () Extent of both the <> and language .
+*   <> Language codes ISO () For modern varieties , see List of Nahuan languages .
+*   <> Language codes ISO () Geographic Distribution of the <> .
+*   <> Language codes ISO () Geographic distribution of <>
+*   <> Language codes ISO () ISO code no ISO code ‚ Ä ì <>
+*   <> Language codes ISO () Indigenous languages of Mexico with more than () , () speakers . Mixtec is marked on the map by dark green .
+*   <> Language codes ISO () Information
+*   <> Language codes ISO () Jianghuai is in pale blue
+*   <> Language codes ISO () KBL <>
+*   <> Language codes ISO () KNC <> <>
+*   <> Language codes ISO () KNY <> Manga
+*   <> Language codes ISO () KRT <> Tumari
+*   <> Language codes ISO () Lan-Yin <> the light yellow .
+*   <> Language codes ISO () Light blue : One of the <> Official languages
+*   <> Language codes ISO () Linguistic area of <> Charentes and the <> of Gironde
+*   <> Language codes ISO () Location ( in red ) of land traditionally associated with <> Dark grey area shows highlighted area on a map of Australia .
+*   <> Language codes ISO () Location of <>
+*   <> Language codes ISO () Location of <> in red . ( Dark lines are estimated language boundaries before colonization . )
+*   <> Language codes ISO () Location of Lemnos .
+*   <> Language codes ISO () Location of Qu · ∫ £ ng B √ ¨ nh Province
+*   <> Language codes ISO () Location of Vaupes Department in Colombia
+*   <> Language codes ISO () Location of Wellesley Islands , the area traditionally associated with <>
+*   <> Language codes ISO () Location of city of <> () ) in <> <> . <> is about two miles north of the city of <>
+*   <> Language codes ISO () Location of the Volsci .
+*   <> Language codes ISO () Location within Chad where the <> is spoken
+*   <> Language codes ISO () Majority <> ( blue ) and minority <> ( green ) .
+*   <> Language codes ISO () Map indicating where <> spoken
+*   <> Language codes ISO () Map of Greece as described in Homer ' s Iliad . The geographical data is believed to refer primarily to Bronze Age Greece
+*   <> Language codes ISO () Map of the Sinophone world .
+*   <> Language codes ISO () Map of the areas in which <> spoken
+*   <> Language codes ISO () Map of the extent of the N √ º pode <> .
+*   <> Language codes ISO () Map of the majority usage of the five major languages of the <> group . * BMS <> Bilma
+*   <> Language codes ISO () Map showing locations of <> dark blue ) and <> blue )
+*   <> Language codes ISO () Map showing locations of <> red ) within Uzbekistan
+*   <> Language codes ISO () Map showing locations of √ Ñ ynu ( red ) within Xinjiang
+*   <> Language codes ISO () Mirpuri <> part of the area listed as Lahnda
+*   <> Language codes ISO () None
+*   <> Language codes ISO () None <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () Number of <> by Countries This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Nuragic tribes
+*   <> Language codes ISO () On this map , the dialects of <> classified as <>
+*   <> Language codes ISO () Ouargla
+*   <> Language codes ISO () Page from a manuscript in the <>
+*   <> Language codes ISO () Pre-European contact distribution of <>
+*   <> Language codes ISO () Pre-European distribution of <>
+*   <> Language codes ISO () Pre-contact distribution of <>
+*   <> Language codes ISO () Pre-contact distribution of the <>
+*   <> Language codes ISO () Pre-contact distribution of the <> ( Florida ) and <>
+*   <> Language codes ISO () Pre-contact distribution of the <> .
+*   <> Language codes ISO () Red : Places with significant population or greater than () % but without official recognition . This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Regions of the Carpathian Basin where the <> is spoken
+*   <> Language codes ISO () Sabinium . The Marsi were to the south of Lake Fucinus shown in the lower right .
+*   <> Language codes ISO () Sabinium . The border with Latium to the south was the Aniene river ; however , it is possible that Sabines extended to Lake Regillus slightly to the south of it near Gabii
+*   <> Language codes ISO () Territory occupied by the St . Lawrence Iroquoians , circa ()
+*   <> Language codes ISO () The <>
+*   <> Language codes ISO () The <> are in Nicaragua in the center of the map .
+*   <> Language codes ISO () The <> in the Democratic Republic of the Congo , <> and Burundi , which were formerly <> , can also be considered an offshoot of <> ( red on the map ) . Pink : Other French-speaking countries , see <> .
+*   <> Language codes ISO () The <> region ( grey ) on Halmahera
+*   <> Language codes ISO () The Three Kingdoms of Korea , with <> ' Kaya ' ) in pink .
+*   <> Language codes ISO () The Three Kingdoms of Korea , with <> <> blue .
+*   <> Language codes ISO () The Three Kingdoms of Korea , with <> green .
+*   <> Language codes ISO () The Three Kingdoms of Korea , with <> red .
+*   <> Language codes ISO () The area where Kimwani is spoken is in gray .
+*   <> Language codes ISO () The distribution of Oshiwambo languages in Namibia .
+*   <> Language codes ISO () The distribution of the Nama language in Namibia .
+*   <> Language codes ISO () The four <>
+*   <> Language codes ISO () The location of <> Monqui and Peric √ ∫ are essentially unattested ; Cochim √ ≠
+*   <> Language codes ISO () The location of <> Tamaulipas state
+*   <> Language codes ISO () The location of <> to Tamaulipas state .
+*   <> Language codes ISO () The location of the <> dialect dialect among the others <> .
+*   <> Language codes ISO () The range of <> () AD
+*   <> Language codes ISO () The spread of Christianity in Europe to () AD ‚ Ä î the dark pockets represent initial enclaves
+*   <> Language codes ISO () This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes ISO () Towa language distribution in the State of <>
+*   <> Language codes ISO () Two <> texts from the city of Carchemish .
+*   <> Language codes ISO () V √ µ ro language area ‚ Ä î V √ µ romaa ( V √ µ ro county ) in its historical boundaries between Tartu and <> , Russia ( Vinnemaa ) and Latvia ( L √ § timaa )
+*   <> Language codes ISO () Verses from the Qur ' an in <> , written in the cursive <> .
+*   <> Language codes ISO () World map with significant <> speakers Dark Blue : Main <> Official language
+*   <> Language codes ISO () Zapotecan languages in Oaxaca .
+*   <> Language codes ISO () aa
+*   <> Language codes ISO () aaa
+*   <> Language codes ISO () aab
+*   <> Language codes ISO () aac
+*   <> Language codes ISO () aad
+*   <> Language codes ISO () aae
+*   <> Language codes ISO () aae ‚ Ä ì Arb √ ´ resh √ ´
+*   <> Language codes ISO () aaf
+*   <> Language codes ISO () aag
+*   <> Language codes ISO () aak
+*   <> Language codes ISO () aal
+*   <> Language codes ISO () aam
+*   <> Language codes ISO () aan
+*   <> Language codes ISO () aao
+*   <> Language codes ISO () aaq
+*   <> Language codes ISO () aar
+*   <> Language codes ISO () aas
+*   <> Language codes ISO () aat
+*   <> Language codes ISO () aat ‚ Ä ì <>
+*   <> Language codes ISO () aau
+*   <> Language codes ISO () ab
+*   <> Language codes ISO () aba
+*   <> Language codes ISO () abb
+*   <> Language codes ISO () abc
+*   <> Language codes ISO () abe
+*   <> Language codes ISO () abe ‚ Ä ì <>
+*   <> Language codes ISO () abh
+*   <> Language codes ISO () abj
+*   <> Language codes ISO () abk
+*   <> Language codes ISO () abm
+*   <> Language codes ISO () abp
+*   <> Language codes ISO () abq
+*   <> Language codes ISO () abr
+*   <> Language codes ISO () abt
+*   <> Language codes ISO () abv
+*   <> Language codes ISO () abx
+*   <> Language codes ISO () abz
+*   <> Language codes ISO () aca
+*   <> Language codes ISO () ace
+*   <> Language codes ISO () acf
+*   <> Language codes ISO () acf ‚ Ä ì <> Creole <>
+*   <> Language codes ISO () ach
+*   <> Language codes ISO () aci
+*   <> Language codes ISO () ack
+*   <> Language codes ISO () acl
+*   <> Language codes ISO () acm
+*   <> Language codes ISO () acn
+*   <> Language codes ISO () acp
+*   <> Language codes ISO () acq
+*   <> Language codes ISO () acq ‚ Ä ì Ta ' izzi-Adeni <>
+*   <> Language codes ISO () acr
+*   <> Language codes ISO () act
+*   <> Language codes ISO () acu
+*   <> Language codes ISO () acv
+*   <> Language codes ISO () acw
+*   <> Language codes ISO () acx
+*   <> Language codes ISO () acy
+*   <> Language codes ISO () ada
+*   <> Language codes ISO () adb
+*   <> Language codes ISO () ade
+*   <> Language codes ISO () adf
+*   <> Language codes ISO () adg
+*   <> Language codes ISO () adg ‚ Ä ì Antekerrepenhe
+*   <> Language codes ISO () adh
+*   <> Language codes ISO () adn
+*   <> Language codes ISO () ads <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () adt
+*   <> Language codes ISO () adx
+*   <> Language codes ISO () ady
+*   <> Language codes ISO () ae
+*   <> Language codes ISO () aeb
+*   <> Language codes ISO () aec
+*   <> Language codes ISO () aed <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () aem
+*   <> Language codes ISO () aen <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () aer ‚ Ä ì <>
+*   <> Language codes ISO () aes
+*   <> Language codes ISO () af
+*   <> Language codes ISO () afb
+*   <> Language codes ISO () afh
+*   <> Language codes ISO () afn
+*   <> Language codes ISO () afr
+*   <> Language codes ISO () afr ‚ Ä ì <>
+*   <> Language codes ISO () afs
+*   <> Language codes ISO () aga
+*   <> Language codes ISO () agj
+*   <> Language codes ISO () agn
+*   <> Language codes ISO () agq
+*   <> Language codes ISO () agr
+*   <> Language codes ISO () ags
+*   <> Language codes ISO () agu
+*   <> Language codes ISO () agv
+*   <> Language codes ISO () agw
+*   <> Language codes ISO () agx
+*   <> Language codes ISO () ahg
+*   <> Language codes ISO () ahh
+*   <> Language codes ISO () ahk
+*   <> Language codes ISO () aho
+*   <> Language codes ISO () ahr ‚ Ä ì Ahirani
+*   <> Language codes ISO () aht
+*   <> Language codes ISO () aia
+*   <> Language codes ISO () aib
+*   <> Language codes ISO () aid
+*   <> Language codes ISO () aie
+*   <> Language codes ISO () aig
+*   <> Language codes ISO () aih
+*   <> Language codes ISO () aii
+*   <> Language codes ISO () aii ‚ Ä ì <>
+*   <> Language codes ISO () aij
+*   <> Language codes ISO () aij ‚ Ä ì <>
+*   <> Language codes ISO () ain
+*   <> Language codes ISO () aiq
+*   <> Language codes ISO () aiq ‚ Ä ì <>
+*   <> Language codes ISO () air
+*   <> Language codes ISO () aiw
+*   <> Language codes ISO () aix
+*   <> Language codes ISO () aja
+*   <> Language codes ISO () ajg
+*   <> Language codes ISO () aji
+*   <> Language codes ISO () ajp
+*   <> Language codes ISO () ajp ‚ Ä ì <> <>
+*   <> Language codes ISO () ajt
+*   <> Language codes ISO () ajt ‚ Ä ì <>
+*   <> Language codes ISO () aju
+*   <> Language codes ISO () aju ‚ Ä ì <>
+*   <> Language codes ISO () ajw
+*   <> Language codes ISO () ak
+*   <> Language codes ISO () aka
+*   <> Language codes ISO () aka ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () akc
+*   <> Language codes ISO () ake
+*   <> Language codes ISO () akk
+*   <> Language codes ISO () akl
+*   <> Language codes ISO () akm
+*   <> Language codes ISO () akp
+*   <> Language codes ISO () akr
+*   <> Language codes ISO () akv
+*   <> Language codes ISO () akx
+*   <> Language codes ISO () aky
+*   <> Language codes ISO () akz
+*   <> Language codes ISO () alb ( B )
+*   <> Language codes ISO () alc
+*   <> Language codes ISO () ale
+*   <> Language codes ISO () alg
+*   <> Language codes ISO () ali
+*   <> Language codes ISO () alj
+*   <> Language codes ISO () alk
+*   <> Language codes ISO () all
+*   <> Language codes ISO () aln
+*   <> Language codes ISO () alq
+*   <> Language codes ISO () alq ‚ Ä ì <>
+*   <> Language codes ISO () alr
+*   <> Language codes ISO () als
+*   <> Language codes ISO () als ‚ Ä ì <>
+*   <> Language codes ISO () alt
+*   <> Language codes ISO () alt ‚ Ä ì <>
+*   <> Language codes ISO () alu
+*   <> Language codes ISO () alw
+*   <> Language codes ISO () aly ‚ Ä ì Alyawarr
+*   <> Language codes ISO () alz
+*   <> Language codes ISO () am
+*   <> Language codes ISO () ama
+*   <> Language codes ISO () amc
+*   <> Language codes ISO () ame
+*   <> Language codes ISO () amf
+*   <> Language codes ISO () amg
+*   <> Language codes ISO () amh
+*   <> Language codes ISO () ami
+*   <> Language codes ISO () amj
+*   <> Language codes ISO () amk
+*   <> Language codes ISO () aml
+*   <> Language codes ISO () amm
+*   <> Language codes ISO () amn
+*   <> Language codes ISO () amp
+*   <> Language codes ISO () amr
+*   <> Language codes ISO () ams ‚ Ä ì <>
+*   <> Language codes ISO () amt
+*   <> Language codes ISO () amu
+*   <> Language codes ISO () amv
+*   <> Language codes ISO () amw
+*   <> Language codes ISO () amw ‚ Ä ì <>
+*   <> Language codes ISO () amz
+*   <> Language codes ISO () an
+*   <> Language codes ISO () ana
+*   <> Language codes ISO () anb
+*   <> Language codes ISO () anc
+*   <> Language codes ISO () and <>
+*   <> Language codes ISO () and other Senufo languages .
+*   <> Language codes ISO () and therefore can be used as an estimator of the range .
+*   <> Language codes ISO () and was by no means ubiquitous within it .
+*   <> Language codes ISO () anf
+*   <> Language codes ISO () ang
+*   <> Language codes ISO () ani
+*   <> Language codes ISO () ank
+*   <> Language codes ISO () anm
+*   <> Language codes ISO () ano
+*   <> Language codes ISO () anp
+*   <> Language codes ISO () anq
+*   <> Language codes ISO () ant
+*   <> Language codes ISO () anu
+*   <> Language codes ISO () any
+*   <> Language codes ISO () anz
+*   <> Language codes ISO () aoa
+*   <> Language codes ISO () aob
+*   <> Language codes ISO () aoc
+*   <> Language codes ISO () aoi
+*   <> Language codes ISO () aol
+*   <> Language codes ISO () aot
+*   <> Language codes ISO () aoz
+*   <> Language codes ISO () apa
+*   <> Language codes ISO () apb
+*   <> Language codes ISO () apc
+*   <> Language codes ISO () apd
+*   <> Language codes ISO () aph
+*   <> Language codes ISO () api
+*   <> Language codes ISO () apj
+*   <> Language codes ISO () apk
+*   <> Language codes ISO () apl
+*   <> Language codes ISO () apm
+*   <> Language codes ISO () apn
+*   <> Language codes ISO () app
+*   <> Language codes ISO () apr
+*   <> Language codes ISO () apu
+*   <> Language codes ISO () apw
+*   <> Language codes ISO () apy
+*   <> Language codes ISO () aqc
+*   <> Language codes ISO () aqg
+*   <> Language codes ISO () aqp
+*   <> Language codes ISO () ar
+*   <> Language codes ISO () ara
+*   <> Language codes ISO () ara ‚ Ä ì <> generic )
+*   <> Language codes ISO () arb
+*   <> Language codes ISO () arc
+*   <> Language codes ISO () ard
+*   <> Language codes ISO () are marked with a ' Y '
+*   <> Language codes ISO () are ‚ Ä ì <>
+*   <> Language codes ISO () arg
+*   <> Language codes ISO () arh
+*   <> Language codes ISO () ari <> distribution
+*   <> Language codes ISO () ark
+*   <> Language codes ISO () arl
+*   <> Language codes ISO () arm ( B )
+*   <> Language codes ISO () arn
+*   <> Language codes ISO () arn Graffiti in Mapudungun meaining () .
+*   <> Language codes ISO () aro
+*   <> Language codes ISO () arp
+*   <> Language codes ISO () arq
+*   <> Language codes ISO () arr
+*   <> Language codes ISO () ars
+*   <> Language codes ISO () art
+*   <> Language codes ISO () aru
+*   <> Language codes ISO () arv
+*   <> Language codes ISO () arw
+*   <> Language codes ISO () ary
+*   <> Language codes ISO () arz
+*   <> Language codes ISO () as
+*   <> Language codes ISO () asa
+*   <> Language codes ISO () asb
+*   <> Language codes ISO () ase <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () asf <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ash
+*   <> Language codes ISO () ask
+*   <> Language codes ISO () asm
+*   <> Language codes ISO () aso
+*   <> Language codes ISO () asp <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () asq <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ast
+*   <> Language codes ISO () ast ‚ Ä ì <>
+*   <> Language codes ISO () asu
+*   <> Language codes ISO () asv
+*   <> Language codes ISO () at right
+*   <> Language codes ISO () ata
+*   <> Language codes ISO () atb
+*   <> Language codes ISO () ath
+*   <> Language codes ISO () atj
+*   <> Language codes ISO () atj ‚ Ä ì <>
+*   <> Language codes ISO () atn
+*   <> Language codes ISO () ats
+*   <> Language codes ISO () atv
+*   <> Language codes ISO () atw
+*   <> Language codes ISO () atx
+*   <> Language codes ISO () aty
+*   <> Language codes ISO () auc
+*   <> Language codes ISO () aud
+*   <> Language codes ISO () aue
+*   <> Language codes ISO () aue ‚ Ä ì « Ç Kx   º au « Å   º ein
+*   <> Language codes ISO () auj
+*   <> Language codes ISO () aul
+*   <> Language codes ISO () aum
+*   <> Language codes ISO () auo
+*   <> Language codes ISO () auq
+*   <> Language codes ISO () aut
+*   <> Language codes ISO () aux
+*   <> Language codes ISO () auz
+*   <> Language codes ISO () auz ‚ Ä ì <>
+*   <> Language codes ISO () av
+*   <> Language codes ISO () ava
+*   <> Language codes ISO () ave
+*   <> Language codes ISO () avi
+*   <> Language codes ISO () avl
+*   <> Language codes ISO () avn
+*   <> Language codes ISO () avs
+*   <> Language codes ISO () avt
+*   <> Language codes ISO () avu
+*   <> Language codes ISO () awa
+*   <> Language codes ISO () awc
+*   <> Language codes ISO () awe
+*   <> Language codes ISO () awk
+*   <> Language codes ISO () awn
+*   <> Language codes ISO () axb
+*   <> Language codes ISO () axg
+*   <> Language codes ISO () axk
+*   <> Language codes ISO () axm
+*   <> Language codes ISO () axm ‚ Ä ì <>
+*   <> Language codes ISO () ay
+*   <> Language codes ISO () ayc
+*   <> Language codes ISO () ayc ‚ Ä ì <>
+*   <> Language codes ISO () aye ‚ Ä ì Ayere
+*   <> Language codes ISO () ayh
+*   <> Language codes ISO () ayl
+*   <> Language codes ISO () aym
+*   <> Language codes ISO () aym ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () ayn
+*   <> Language codes ISO () ayn ‚ Ä ì <>
+*   <> Language codes ISO () ayo
+*   <> Language codes ISO () ayp
+*   <> Language codes ISO () ayq
+*   <> Language codes ISO () ayr
+*   <> Language codes ISO () ayt
+*   <> Language codes ISO () ayz
+*   <> Language codes ISO () az
+*   <> Language codes ISO () azb
+*   <> Language codes ISO () azb ‚ Ä ì ( <> )
+*   <> Language codes ISO () azb ‚ Ä ì <>
+*   <> Language codes ISO () aze
+*   <> Language codes ISO () aze ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () azg ‚ Ä ì <> Amuzgos <>
+*   <> Language codes ISO () azj
+*   <> Language codes ISO () azm ‚ Ä ì Ipalapa <>
+*   <> Language codes ISO () azz
+*   <> Language codes ISO () azz ‚ Ä ì <> <>
+*   <> Language codes ISO () ba
+*   <> Language codes ISO () bad
+*   <> Language codes ISO () bah
+*   <> Language codes ISO () bak
+*   <> Language codes ISO () bal
+*   <> Language codes ISO () bal ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () bam
+*   <> Language codes ISO () ban
+*   <> Language codes ISO () bap
+*   <> Language codes ISO () baq ( B )
+*   <> Language codes ISO () bar
+*   <> Language codes ISO () bar ‚ Ä ì <>
+*   <> Language codes ISO () bas
+*   <> Language codes ISO () bav
+*   <> Language codes ISO () bax
+*   <> Language codes ISO () bba
+*   <> Language codes ISO () bbc
+*   <> Language codes ISO () bbf
+*   <> Language codes ISO () bbh
+*   <> Language codes ISO () bbi
+*   <> Language codes ISO () bbl
+*   <> Language codes ISO () bbn
+*   <> Language codes ISO () bbt
+*   <> Language codes ISO () bbv
+*   <> Language codes ISO () bcc ‚ Ä ì <>
+*   <> Language codes ISO () bcg
+*   <> Language codes ISO () bci
+*   <> Language codes ISO () bcj
+*   <> Language codes ISO () bcl
+*   <> Language codes ISO () bcl ‚ Ä ì <>
+*   <> Language codes ISO () bcn
+*   <> Language codes ISO () bcq
+*   <> Language codes ISO () bcr
+*   <> Language codes ISO () bcu
+*   <> Language codes ISO () bcw
+*   <> Language codes ISO () bcy
+*   <> Language codes ISO () bda
+*   <> Language codes ISO () bde
+*   <> Language codes ISO () bdk
+*   <> Language codes ISO () bdm
+*   <> Language codes ISO () bdn
+*   <> Language codes ISO () bdq
+*   <> Language codes ISO () bds
+*   <> Language codes ISO () bdy
+*   <> Language codes ISO () be
+*   <> Language codes ISO () bea
+*   <> Language codes ISO () bej
+*   <> Language codes ISO () bel
+*   <> Language codes ISO () bem
+*   <> Language codes ISO () ben
+*   <> Language codes ISO () ber
+*   <> Language codes ISO () bew
+*   <> Language codes ISO () bex
+*   <> Language codes ISO () bez
+*   <> Language codes ISO () bfa
+*   <> Language codes ISO () bfc ‚ Ä ì <> , Bijiang dialect
+*   <> Language codes ISO () bfd
+*   <> Language codes ISO () bfi <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () bfj
+*   <> Language codes ISO () bfk <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () bfn
+*   <> Language codes ISO () bfq
+*   <> Language codes ISO () bfs ‚ Ä ì <> , Dali dialect
+*   <> Language codes ISO () bft
+*   <> Language codes ISO () bfu
+*   <> Language codes ISO () bfw
+*   <> Language codes ISO () bfy
+*   <> Language codes ISO () bg
+*   <> Language codes ISO () bgc
+*   <> Language codes ISO () bgk
+*   <> Language codes ISO () bgl
+*   <> Language codes ISO () bgn ‚ Ä ì <>
+*   <> Language codes ISO () bgp ‚ Ä ì <>
+*   <> Language codes ISO () bgq
+*   <> Language codes ISO () bgx
+*   <> Language codes ISO () bgz
+*   <> Language codes ISO () bh ( Bihari )
+*   <> Language codes ISO () bh ( Bihari languages )
+*   <> Language codes ISO () bhb
+*   <> Language codes ISO () bhf
+*   <> Language codes ISO () bhh
+*   <> Language codes ISO () bhh ‚ Ä ì Bukharic
+*   <> Language codes ISO () bhj
+*   <> Language codes ISO () bhk ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () bhm
+*   <> Language codes ISO () bhn
+*   <> Language codes ISO () bhn ‚ Ä ì <>
+*   <> Language codes ISO () bho
+*   <> Language codes ISO () bhp
+*   <> Language codes ISO () bhq ‚ Ä ì <> <>
+*   <> Language codes ISO () bhr ‚ Ä ì Bara
+*   <> Language codes ISO () bhs
+*   <> Language codes ISO () bhw
+*   <> Language codes ISO () bi
+*   <> Language codes ISO () bia
+*   <> Language codes ISO () bid
+*   <> Language codes ISO () bih
+*   <> Language codes ISO () bik
+*   <> Language codes ISO () bin
+*   <> Language codes ISO () bio
+*   <> Language codes ISO () biq
+*   <> Language codes ISO () bis
+*   <> Language codes ISO () biw
+*   <> Language codes ISO () biy
+*   <> Language codes ISO () biz
+*   <> Language codes ISO () bjf
+*   <> Language codes ISO () bjf ‚ Ä ì <> Neo-Aramaic
+*   <> Language codes ISO () bjg
+*   <> Language codes ISO () bji
+*   <> Language codes ISO () bjj
+*   <> Language codes ISO () bjn
+*   <> Language codes ISO () bjq ‚ Ä ì <>
+*   <> Language codes ISO () bjs
+*   <> Language codes ISO () bjt ‚ Ä ì Balanta-Ganja
+*   <> Language codes ISO () bju
+*   <> Language codes ISO () bkc
+*   <> Language codes ISO () bkl
+*   <> Language codes ISO () bkm
+*   <> Language codes ISO () bkr
+*   <> Language codes ISO () bku
+*   <> Language codes ISO () bla
+*   <> Language codes ISO () blb
+*   <> Language codes ISO () blc
+*   <> Language codes ISO () bld
+*   <> Language codes ISO () blf
+*   <> Language codes ISO () blh
+*   <> Language codes ISO () bll
+*   <> Language codes ISO () blt
+*   <> Language codes ISO () blx
+*   <> Language codes ISO () bm
+*   <> Language codes ISO () bmf
+*   <> Language codes ISO () bmi
+*   <> Language codes ISO () bmm ‚ Ä ì <>
+*   <> Language codes ISO () bmr
+*   <> Language codes ISO () bms ‚ Ä ì Bilma <>
+*   <> Language codes ISO () bn
+*   <> Language codes ISO () bnc
+*   <> Language codes ISO () bng
+*   <> Language codes ISO () bni
+*   <> Language codes ISO () bnl
+*   <> Language codes ISO () bnn
+*   <> Language codes ISO () bno
+*   <> Language codes ISO () bnq
+*   <> Language codes ISO () bns
+*   <> Language codes ISO () bnt
+*   <> Language codes ISO () bo
+*   <> Language codes ISO () boa
+*   <> Language codes ISO () bob
+*   <> Language codes ISO () bod
+*   <> Language codes ISO () bod ( T )
+*   <> Language codes ISO () boi
+*   <> Language codes ISO () bol
+*   <> Language codes ISO () bom
+*   <> Language codes ISO () bor
+*   <> Language codes ISO () bos
+*   <> Language codes ISO () bos ‚ Ä ì <>
+*   <> Language codes ISO () bot
+*   <> Language codes ISO () bpb
+*   <> Language codes ISO () bph
+*   <> Language codes ISO () bpl
+*   <> Language codes ISO () bpt
+*   <> Language codes ISO () bpw
+*   <> Language codes ISO () bpy
+*   <> Language codes ISO () bqd
+*   <> Language codes ISO () bqh
+*   <> Language codes ISO () bqi
+*   <> Language codes ISO () bqi ‚ Ä ì <>
+*   <> Language codes ISO () bqp
+*   <> Language codes ISO () bqy <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () br
+*   <> Language codes ISO () bra
+*   <> Language codes ISO () brc
+*   <> Language codes ISO () bre
+*   <> Language codes ISO () brg
+*   <> Language codes ISO () brh
+*   <> Language codes ISO () brk
+*   <> Language codes ISO () brn
+*   <> Language codes ISO () bro
+*   <> Language codes ISO () brp
+*   <> Language codes ISO () bru
+*   <> Language codes ISO () brv
+*   <> Language codes ISO () brx
+*   <> Language codes ISO () brz
+*   <> Language codes ISO () bs
+*   <> Language codes ISO () bsa
+*   <> Language codes ISO () bsg
+*   <> Language codes ISO () bsh
+*   <> Language codes ISO () bsh-mum
+*   <> Language codes ISO () bsk
+*   <> Language codes ISO () bsn
+*   <> Language codes ISO () bso
+*   <> Language codes ISO () bsq
+*   <> Language codes ISO () bss
+*   <> Language codes ISO () bst
+*   <> Language codes ISO () bsw
+*   <> Language codes ISO () bta
+*   <> Language codes ISO () btb
+*   <> Language codes ISO () btf
+*   <> Language codes ISO () bth
+*   <> Language codes ISO () btm
+*   <> Language codes ISO () btn
+*   <> Language codes ISO () bto
+*   <> Language codes ISO () btw
+*   <> Language codes ISO () btx
+*   <> Language codes ISO () bty
+*   <> Language codes ISO () bua
+*   <> Language codes ISO () bua ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () bub
+*   <> Language codes ISO () buc
+*   <> Language codes ISO () bue
+*   <> Language codes ISO () bug
+*   <> Language codes ISO () buh
+*   <> Language codes ISO () buk
+*   <> Language codes ISO () bul
+*   <> Language codes ISO () bul-ban
+*   <> Language codes ISO () bum
+*   <> Language codes ISO () bun
+*   <> Language codes ISO () buo
+*   <> Language codes ISO () bur ( B )
+*   <> Language codes ISO () buu
+*   <> Language codes ISO () bux
+*   <> Language codes ISO () buy
+*   <> Language codes ISO () bva
+*   <> Language codes ISO () bvb
+*   <> Language codes ISO () bvd
+*   <> Language codes ISO () bve
+*   <> Language codes ISO () bvf
+*   <> Language codes ISO () bvh
+*   <> Language codes ISO () bvl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () bvo
+*   <> Language codes ISO () bvr
+*   <> Language codes ISO () bvw
+*   <> Language codes ISO () bwb
+*   <> Language codes ISO () bwh
+*   <> Language codes ISO () bwo
+*   <> Language codes ISO () bwr
+*   <> Language codes ISO () bwx
+*   <> Language codes ISO () bwz
+*   <> Language codes ISO () bxa
+*   <> Language codes ISO () bxe
+*   <> Language codes ISO () bxg
+*   <> Language codes ISO () bxk
+*   <> Language codes ISO () bxm ‚ Ä ì Mongolia Buriat
+*   <> Language codes ISO () bxn
+*   <> Language codes ISO () bxq
+*   <> Language codes ISO () bxr ‚ Ä ì Russia Buriat
+*   <> Language codes ISO () bxx
+*   <> Language codes ISO () byb
+*   <> Language codes ISO () byf
+*   <> Language codes ISO () byg
+*   <> Language codes ISO () byh
+*   <> Language codes ISO () byk
+*   <> Language codes ISO () bym
+*   <> Language codes ISO () byn
+*   <> Language codes ISO () byq
+*   <> Language codes ISO () byw
+*   <> Language codes ISO () bza
+*   <> Language codes ISO () bzd
+*   <> Language codes ISO () bzf
+*   <> Language codes ISO () bzg
+*   <> Language codes ISO () bzj
+*   <> Language codes ISO () bzk
+*   <> Language codes ISO () bzk ‚ Ä ì <> Creole
+*   <> Language codes ISO () bzs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () bzt
+*   <> Language codes ISO () bzu
+*   <> Language codes ISO () bzw
+*   <> Language codes ISO () ca
+*   <> Language codes ISO () caa
+*   <> Language codes ISO () cab
+*   <> Language codes ISO () cac
+*   <> Language codes ISO () cad
+*   <> Language codes ISO () caf ‚ Ä ì <>
+*   <> Language codes ISO () cag
+*   <> Language codes ISO () cah
+*   <> Language codes ISO () caj
+*   <> Language codes ISO () cak
+*   <> Language codes ISO () cal
+*   <> Language codes ISO () cam
+*   <> Language codes ISO () cao
+*   <> Language codes ISO () cap
+*   <> Language codes ISO () caq
+*   <> Language codes ISO () car
+*   <> Language codes ISO () cas
+*   <> Language codes ISO () cat
+*   <> Language codes ISO () cat-rib
+*   <> Language codes ISO () cav
+*   <> Language codes ISO () caw
+*   <> Language codes ISO () cax
+*   <> Language codes ISO () cay
+*   <> Language codes ISO () caz
+*   <> Language codes ISO () cbb
+*   <> Language codes ISO () cbe
+*   <> Language codes ISO () cbh
+*   <> Language codes ISO () cbi
+*   <> Language codes ISO () cbk
+*   <> Language codes ISO () cbn
+*   <> Language codes ISO () cbr
+*   <> Language codes ISO () cbs
+*   <> Language codes ISO () cbt
+*   <> Language codes ISO () cbu
+*   <> Language codes ISO () cbv
+*   <> Language codes ISO () cby
+*   <> Language codes ISO () ccc
+*   <> Language codes ISO () cce
+*   <> Language codes ISO () ccp
+*   <> Language codes ISO () ccr
+*   <> Language codes ISO () cde
+*   <> Language codes ISO () cdm
+*   <> Language codes ISO () cdo
+*   <> Language codes ISO () cdo-fuz Foochowese in Fujian Province , regions where the standard form is spoken are deep blue .
+*   <> Language codes ISO () cdy
+*   <> Language codes ISO () ce
+*   <> Language codes ISO () ceb
+*   <> Language codes ISO () ceg
+*   <> Language codes ISO () ces
+*   <> Language codes ISO () ces ( T )
+*   <> Language codes ISO () cet
+*   <> Language codes ISO () cgc
+*   <> Language codes ISO () cgg
+*   <> Language codes ISO () cgk
+*   <> Language codes ISO () ch
+*   <> Language codes ISO () cha
+*   <> Language codes ISO () cha <> spread in the United States
+*   <> Language codes ISO () chb
+*   <> Language codes ISO () che
+*   <> Language codes ISO () chf
+*   <> Language codes ISO () chg
+*   <> Language codes ISO () chi ( B )
+*   <> Language codes ISO () chj ‚ Ä ì Ojitl √ ° n <>
+*   <> Language codes ISO () chk
+*   <> Language codes ISO () chl
+*   <> Language codes ISO () chm
+*   <> Language codes ISO () chm ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () chn
+*   <> Language codes ISO () chn ( B )
+*   <> Language codes ISO () cho
+*   <> Language codes ISO () chp
+*   <> Language codes ISO () chq ‚ Ä ì Quiotepec <>
+*   <> Language codes ISO () chr
+*   <> Language codes ISO () cht
+*   <> Language codes ISO () chu
+*   <> Language codes ISO () chv
+*   <> Language codes ISO () chw
+*   <> Language codes ISO () chx
+*   <> Language codes ISO () chy
+*   <> Language codes ISO () chz ‚ Ä ì Ozumac √ ≠ n <>
+*   <> Language codes ISO () cia
+*   <> Language codes ISO () cic
+*   <> Language codes ISO () cid
+*   <> Language codes ISO () cie
+*   <> Language codes ISO () cim
+*   <> Language codes ISO () cim ‚ Ä ì <>
+*   <> Language codes ISO () cip
+*   <> Language codes ISO () ciw
+*   <> Language codes ISO () ciw ‚ Ä ì <>
+*   <> Language codes ISO () cji
+*   <> Language codes ISO () cjk
+*   <> Language codes ISO () cjm ‚ Ä ì <>
+*   <> Language codes ISO () cjo
+*   <> Language codes ISO () cjp
+*   <> Language codes ISO () cjs
+*   <> Language codes ISO () cjy
+*   <> Language codes ISO () cjy ‚ Ä ì Jinyu
+*   <> Language codes ISO () ckb
+*   <> Language codes ISO () ckl
+*   <> Language codes ISO () ckq
+*   <> Language codes ISO () cks
+*   <> Language codes ISO () ckt
+*   <> Language codes ISO () cku
+*   <> Language codes ISO () ckv
+*   <> Language codes ISO () cky
+*   <> Language codes ISO () cla
+*   <> Language codes ISO () clc
+*   <> Language codes ISO () cld
+*   <> Language codes ISO () cld ‚ Ä ì <>
+*   <> Language codes ISO () cle ‚ Ä ì Lealao <>
+*   <> Language codes ISO () clh
+*   <> Language codes ISO () clk
+*   <> Language codes ISO () clm
+*   <> Language codes ISO () clu
+*   <> Language codes ISO () clw
+*   <> Language codes ISO () cmg
+*   <> Language codes ISO () cmi
+*   <> Language codes ISO () cmk
+*   <> Language codes ISO () cmn
+*   <> Language codes ISO () cmn ‚ Ä ì <>
+*   <> Language codes ISO () cmn-bei ( <> )
+*   <> Language codes ISO () cmn-bej ( <> )
+*   <> Language codes ISO () cmn-jia
+*   <> Language codes ISO () cmn-jil
+*   <> Language codes ISO () cmn-jin
+*   <> Language codes ISO () cmn-lan ‚ Ä ì
+*   <> Language codes ISO () cmn-nem
+*   <> Language codes ISO () cmn-xin
+*   <> Language codes ISO () cmn-zho ‚ Ä ì
+*   <> Language codes ISO () cms
+*   <> Language codes ISO () cmt ‚ Ä ì Camtho
+*   <> Language codes ISO () cng
+*   <> Language codes ISO () cnh
+*   <> Language codes ISO () cnh ( B )
+*   <> Language codes ISO () cnh ( T )
+*   <> Language codes ISO () cni
+*   <> Language codes ISO () cnl ‚ Ä ì Lalana <>
+*   <> Language codes ISO () cno
+*   <> Language codes ISO () cnt ‚ Ä ì Tepetotutla <>
+*   <> Language codes ISO () cnu
+*   <> Language codes ISO () co
+*   <> Language codes ISO () coa ‚ Ä ì Cocos Islands <>
+*   <> Language codes ISO () cob
+*   <> Language codes ISO () coc
+*   <> Language codes ISO () cod
+*   <> Language codes ISO () cog
+*   <> Language codes ISO () coj
+*   <> Language codes ISO () com
+*   <> Language codes ISO () con
+*   <> Language codes ISO () coo
+*   <> Language codes ISO () cop
+*   <> Language codes ISO () cor
+*   <> Language codes ISO () cos
+*   <> Language codes ISO () cot
+*   <> Language codes ISO () cow
+*   <> Language codes ISO () coz
+*   <> Language codes ISO () cpa ‚ Ä ì Palantla <>
+*   <> Language codes ISO () cpb
+*   <> Language codes ISO () cpc
+*   <> Language codes ISO () cpe
+*   <> Language codes ISO () cpe ( ? )
+*   <> Language codes ISO () cpf
+*   <> Language codes ISO () cpg
+*   <> Language codes ISO () cpg ‚ Ä ì <>
+*   <> Language codes ISO () cpi
+*   <> Language codes ISO () cpp
+*   <> Language codes ISO () cps
+*   <> Language codes ISO () cpu
+*   <> Language codes ISO () cpx
+*   <> Language codes ISO () cpx ‚ Ä ì Pu Xian
+*   <> Language codes ISO () cpy
+*   <> Language codes ISO () cqd ‚ Ä ì Chuanqiandian Cluster <>
+*   <> Language codes ISO () cqd ‚ Ä ì ]
+*   <> Language codes ISO () cqu
+*   <> Language codes ISO () cr
+*   <> Language codes ISO () cra
+*   <> Language codes ISO () crd
+*   <> Language codes ISO () cre
+*   <> Language codes ISO () cre ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () crg
+*   <> Language codes ISO () crh
+*   <> Language codes ISO () cri
+*   <> Language codes ISO () crj
+*   <> Language codes ISO () crj ‚ Ä ì <> <>
+*   <> Language codes ISO () crk
+*   <> Language codes ISO () crk ‚ Ä ì <>
+*   <> Language codes ISO () crl
+*   <> Language codes ISO () crl ‚ Ä ì <> <>
+*   <> Language codes ISO () crm
+*   <> Language codes ISO () crm ‚ Ä ì <>
+*   <> Language codes ISO () crn
+*   <> Language codes ISO () cro
+*   <> Language codes ISO () crp
+*   <> Language codes ISO () crq
+*   <> Language codes ISO () crs
+*   <> Language codes ISO () crt
+*   <> Language codes ISO () crv
+*   <> Language codes ISO () crw
+*   <> Language codes ISO () crw ‚ Ä ì <>
+*   <> Language codes ISO () cry
+*   <> Language codes ISO () crz ‚ Ä ì Cruze √ ± o
+*   <> Language codes ISO () cs
+*   <> Language codes ISO () csa ‚ Ä ì Chiltepec <>
+*   <> Language codes ISO () csb
+*   <> Language codes ISO () csb-slo
+*   <> Language codes ISO () csc <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () csg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () csl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () csn <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () cso ‚ Ä ì Sochiapan <>
+*   <> Language codes ISO () csq <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () css
+*   <> Language codes ISO () css ‚ Ä ì <>
+*   <> Language codes ISO () cst
+*   <> Language codes ISO () csw
+*   <> Language codes ISO () cte ‚ Ä ì Tepinapa <>
+*   <> Language codes ISO () ctg
+*   <> Language codes ISO () ctl ‚ Ä ì Tlacoatzintepec <>
+*   <> Language codes ISO () ctm
+*   <> Language codes ISO () ctn
+*   <> Language codes ISO () cto
+*   <> Language codes ISO () ctp
+*   <> Language codes ISO () cts
+*   <> Language codes ISO () ctu
+*   <> Language codes ISO () cu
+*   <> Language codes ISO () cua
+*   <> Language codes ISO () cub
+*   <> Language codes ISO () cuc ‚ Ä ì Usila <>
+*   <> Language codes ISO () cui
+*   <> Language codes ISO () cuk ‚ Ä ì ( erroneous )
+*   <> Language codes ISO () cul
+*   <> Language codes ISO () cup
+*   <> Language codes ISO () cus
+*   <> Language codes ISO () cut ‚ Ä ì Teutila
+*   <> Language codes ISO () cuv
+*   <> Language codes ISO () cv
+*   <> Language codes ISO () cvn ‚ Ä ì Valle Nacional <>
+*   <> Language codes ISO () cwd
+*   <> Language codes ISO () cwd ‚ Ä ì <>
+*   <> Language codes ISO () cy
+*   <> Language codes ISO () cyb
+*   <> Language codes ISO () cym
+*   <> Language codes ISO () cym ( T )
+*   <> Language codes ISO () cyo
+*   <> Language codes ISO () cze ( B )
+*   <> Language codes ISO () czh
+*   <> Language codes ISO () czh ‚ Ä ì Huizhou
+*   <> Language codes ISO () czk
+*   <> Language codes ISO () czo
+*   <> Language codes ISO () czo ‚ Ä ì <>
+*   <> Language codes ISO () da
+*   <> Language codes ISO () daa
+*   <> Language codes ISO () dad
+*   <> Language codes ISO () daf
+*   <> Language codes ISO () dag
+*   <> Language codes ISO () dah
+*   <> Language codes ISO () dai
+*   <> Language codes ISO () daj
+*   <> Language codes ISO () dak
+*   <> Language codes ISO () dak ‚ Ä î <>
+*   <> Language codes ISO () dal
+*   <> Language codes ISO () dam
+*   <> Language codes ISO () dan
+*   <> Language codes ISO () dar
+*   <> Language codes ISO () dax ‚ Ä ì Dayi
+*   <> Language codes ISO () dba
+*   <> Language codes ISO () dbb
+*   <> Language codes ISO () dbj
+*   <> Language codes ISO () dbl
+*   <> Language codes ISO () dbp
+*   <> Language codes ISO () dbq
+*   <> Language codes ISO () dbr
+*   <> Language codes ISO () dcr
+*   <> Language codes ISO () ddg
+*   <> Language codes ISO () ddo
+*   <> Language codes ISO () ddw
+*   <> Language codes ISO () de
+*   <> Language codes ISO () dec
+*   <> Language codes ISO () dee
+*   <> Language codes ISO () deg
+*   <> Language codes ISO () del
+*   <> Language codes ISO () del ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () dem
+*   <> Language codes ISO () den
+*   <> Language codes ISO () den ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () der
+*   <> Language codes ISO () deu
+*   <> Language codes ISO () deu ( T )
+*   <> Language codes ISO () dgd ‚ Ä ì Dagaari <>
+*   <> Language codes ISO () dgg
+*   <> Language codes ISO () dgh
+*   <> Language codes ISO () dgi ‚ Ä ì <>
+*   <> Language codes ISO () dgr
+*   <> Language codes ISO () dhd
+*   <> Language codes ISO () dhg ‚ Ä ì Dhangu
+*   <> Language codes ISO () dhn ‚ Ä ì Dhanki
+*   <> Language codes ISO () dhv
+*   <> Language codes ISO () dhw
+*   <> Language codes ISO () dib ‚ Ä ì <> <> Agar )
+*   <> Language codes ISO () dic ‚ Ä ì <>
+*   <> Language codes ISO () dif
+*   <> Language codes ISO () dig
+*   <> Language codes ISO () dih
+*   <> Language codes ISO () dih ‚ Ä ì Campo
+*   <> Language codes ISO () dik ‚ Ä ì <> ( Rek )
+*   <> Language codes ISO () dim
+*   <> Language codes ISO () din
+*   <> Language codes ISO () din ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () diq ‚ Ä ì Dimli ( <> )
+*   <> Language codes ISO () dis
+*   <> Language codes ISO () diu
+*   <> Language codes ISO () div
+*   <> Language codes ISO () diw ‚ Ä ì <> ( Ruweng )
+*   <> Language codes ISO () djb ‚ Ä ì Djinba
+*   <> Language codes ISO () djc
+*   <> Language codes ISO () djd
+*   <> Language codes ISO () dje
+*   <> Language codes ISO () djj
+*   <> Language codes ISO () djk
+*   <> Language codes ISO () djl
+*   <> Language codes ISO () djl ‚ Ä ì ( <>
+*   <> Language codes ISO () djm
+*   <> Language codes ISO () djr ‚ Ä ì Djambarrpuyngu
+*   <> Language codes ISO () djw
+*   <> Language codes ISO () dka
+*   <> Language codes ISO () dks ‚ Ä ì <> ( Bor , Twic / Tuic )
+*   <> Language codes ISO () dkx
+*   <> Language codes ISO () dlc
+*   <> Language codes ISO () dlg
+*   <> Language codes ISO () dlm
+*   <> Language codes ISO () dme
+*   <> Language codes ISO () dmk
+*   <> Language codes ISO () dml
+*   <> Language codes ISO () dmo
+*   <> Language codes ISO () dmy
+*   <> Language codes ISO () dng
+*   <> Language codes ISO () dnw
+*   <> Language codes ISO () dny
+*   <> Language codes ISO () doi
+*   <> Language codes ISO () doi ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () dol
+*   <> Language codes ISO () dor
+*   <> Language codes ISO () dot
+*   <> Language codes ISO () dox
+*   <> Language codes ISO () doz
+*   <> Language codes ISO () dra
+*   <> Language codes ISO () drl
+*   <> Language codes ISO () drq
+*   <> Language codes ISO () drr
+*   <> Language codes ISO () drs
+*   <> Language codes ISO () drt
+*   <> Language codes ISO () dru
+*   <> Language codes ISO () drw ‚ Ä ì Darwazi
+*   <> Language codes ISO () dsb
+*   <> Language codes ISO () dse <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () dsh
+*   <> Language codes ISO () dsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () dsn
+*   <> Language codes ISO () dsq
+*   <> Language codes ISO () dta
+*   <> Language codes ISO () dtp
+*   <> Language codes ISO () dts
+*   <> Language codes ISO () dua
+*   <> Language codes ISO () duf
+*   <> Language codes ISO () duj
+*   <> Language codes ISO () duj ‚ Ä ì <>
+*   <> Language codes ISO () dum
+*   <> Language codes ISO () dus
+*   <> Language codes ISO () dut ( B )
+*   <> Language codes ISO () duu
+*   <> Language codes ISO () dv
+*   <> Language codes ISO () dwa
+*   <> Language codes ISO () dwr ‚ Ä ì Dawro
+*   <> Language codes ISO () dyd
+*   <> Language codes ISO () dyo
+*   <> Language codes ISO () dyu
+*   <> Language codes ISO () dyy
+*   <> Language codes ISO () dz
+*   <> Language codes ISO () dzd
+*   <> Language codes ISO () dzg
+*   <> Language codes ISO () dzl
+*   <> Language codes ISO () dzo
+*   <> Language codes ISO () ebg
+*   <> Language codes ISO () ebu
+*   <> Language codes ISO () ecr ‚ Ä ì <>
+*   <> Language codes ISO () ecs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ecy
+*   <> Language codes ISO () ee
+*   <> Language codes ISO () eee
+*   <> Language codes ISO () efe
+*   <> Language codes ISO () efi
+*   <> Language codes ISO () efi ‚ Ä ì Efik
+*   <> Language codes ISO () ega
+*   <> Language codes ISO () egl
+*   <> Language codes ISO () ego
+*   <> Language codes ISO () either
+*   <> Language codes ISO () eka
+*   <> Language codes ISO () ekg
+*   <> Language codes ISO () eko
+*   <> Language codes ISO () el
+*   <> Language codes ISO () ell ( T )
+*   <> Language codes ISO () ell ‚ Ä ì <>
+*   <> Language codes ISO () ell-gri
+*   <> Language codes ISO () elo
+*   <> Language codes ISO () elx
+*   <> Language codes ISO () eme
+*   <> Language codes ISO () emi
+*   <> Language codes ISO () emk
+*   <> Language codes ISO () emk ‚ Ä ì Maninkaka , <>
+*   <> Language codes ISO () ems
+*   <> Language codes ISO () emx
+*   <> Language codes ISO () en
+*   <> Language codes ISO () enc
+*   <> Language codes ISO () eng
+*   <> Language codes ISO () enh ‚ Ä ì <>
+*   <> Language codes ISO () enm
+*   <> Language codes ISO () eno
+*   <> Language codes ISO () enq
+*   <> Language codes ISO () eo
+*   <> Language codes ISO () epi
+*   <> Language codes ISO () epo
+*   <> Language codes ISO () erg
+*   <> Language codes ISO () eri
+*   <> Language codes ISO () erk
+*   <> Language codes ISO () ers
+*   <> Language codes ISO () es
+*   <> Language codes ISO () ese
+*   <> Language codes ISO () esk ‚ Ä ì Northwest Alaska Inupiatun
+*   <> Language codes ISO () esn <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () eso <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () esq
+*   <> Language codes ISO () ess
+*   <> Language codes ISO () est
+*   <> Language codes ISO () est ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () esu
+*   <> Language codes ISO () esu-hoo ‚ Ä ì
+*   <> Language codes ISO () esu-nun
+*   <> Language codes ISO () et
+*   <> Language codes ISO () etc
+*   <> Language codes ISO () ett
+*   <> Language codes ISO () eu
+*   <> Language codes ISO () eus
+*   <> Language codes ISO () eus ( T )
+*   <> Language codes ISO () eve
+*   <> Language codes ISO () evn
+*   <> Language codes ISO () ewe
+*   <> Language codes ISO () ewo
+*   <> Language codes ISO () ext
+*   <> Language codes ISO () ext ‚ Ä ì <>
+*   <> Language codes ISO () eya
+*   <> Language codes ISO () fa
+*   <> Language codes ISO () faa
+*   <> Language codes ISO () fab
+*   <> Language codes ISO () faf
+*   <> Language codes ISO () fah
+*   <> Language codes ISO () faj
+*   <> Language codes ISO () fan
+*   <> Language codes ISO () fao
+*   <> Language codes ISO () fas ( T )
+*   <> Language codes ISO () fas ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () fax
+*   <> Language codes ISO () fay
+*   <> Language codes ISO () fbl ‚ Ä ì <> <>
+*   <> Language codes ISO () fcs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ff
+*   <> Language codes ISO () ffm
+*   <> Language codes ISO () ffm ‚ Ä ì <>
+*   <> Language codes ISO () fi
+*   <> Language codes ISO () fia
+*   <> Language codes ISO () fie
+*   <> Language codes ISO () fij
+*   <> Language codes ISO () fil
+*   <> Language codes ISO () fin
+*   <> Language codes ISO () fip
+*   <> Language codes ISO () fit
+*   <> Language codes ISO () fj
+*   <> Language codes ISO () fkv
+*   <> Language codes ISO () fli
+*   <> Language codes ISO () fll ‚ Ä ì <>
+*   <> Language codes ISO () flr
+*   <> Language codes ISO () fmp
+*   <> Language codes ISO () fng
+*   <> Language codes ISO () fo
+*   <> Language codes ISO () fon
+*   <> Language codes ISO () fos
+*   <> Language codes ISO () found at Pakhoras
+*   <> Language codes ISO () fqs
+*   <> Language codes ISO () fr
+*   <> Language codes ISO () fra
+*   <> Language codes ISO () fra ( T )
+*   <> Language codes ISO () fra-aca ‚ Ä ì
+*   <> Language codes ISO () fra-gal
+*   <> Language codes ISO () fra-nor
+*   <> Language codes ISO () fra-poi
+*   <> Language codes ISO () fra-san
+*   <> Language codes ISO () frc
+*   <> Language codes ISO () fre
+*   <> Language codes ISO () fre ( B )
+*   <> Language codes ISO () frk
+*   <> Language codes ISO () frm
+*   <> Language codes ISO () fro
+*   <> Language codes ISO () from the () th-10th century
+*   <> Language codes ISO () frp
+*   <> Language codes ISO () frr
+*   <> Language codes ISO () frr ‚ Ä ì <>
+*   <> Language codes ISO () frs
+*   <> Language codes ISO () frt
+*   <> Language codes ISO () fry
+*   <> Language codes ISO () fse <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () fsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () fuc ‚ Ä ì Pulaar
+*   <> Language codes ISO () fud
+*   <> Language codes ISO () fue ‚ Ä ì Borgu Fulfulde
+*   <> Language codes ISO () fuf ‚ Ä ì <>
+*   <> Language codes ISO () fuf ‚ Ä ì ]
+*   <> Language codes ISO () fuh ‚ Ä ì <> Fulfulde
+*   <> Language codes ISO () fui ‚ Ä ì <>
+*   <> Language codes ISO () ful
+*   <> Language codes ISO () ful ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () fun
+*   <> Language codes ISO () fuq ‚ Ä ì Central-Eastern Niger Fulfulde
+*   <> Language codes ISO () fur
+*   <> Language codes ISO () fut
+*   <> Language codes ISO () fuv ‚ Ä ì <>
+*   <> Language codes ISO () fvr
+*   <> Language codes ISO () fwe
+*   <> Language codes ISO () fy
+*   <> Language codes ISO () ga
+*   <> Language codes ISO () gaa
+*   <> Language codes ISO () gac ‚ Ä ì Great Andamanese creole
+*   <> Language codes ISO () gad
+*   <> Language codes ISO () gag
+*   <> Language codes ISO () gah
+*   <> Language codes ISO () gal
+*   <> Language codes ISO () gan
+*   <> Language codes ISO () gan ‚ Ä ì <>
+*   <> Language codes ISO () gaq
+*   <> Language codes ISO () gat
+*   <> Language codes ISO () gau ‚ Ä ì Kondekor ( Gadaba )
+*   <> Language codes ISO () gax
+*   <> Language codes ISO () gay
+*   <> Language codes ISO () gaz ‚ Ä ì <> <>
+*   <> Language codes ISO () gbc
+*   <> Language codes ISO () gbd
+*   <> Language codes ISO () gbi
+*   <> Language codes ISO () gbj
+*   <> Language codes ISO () gbm
+*   <> Language codes ISO () gbo ‚ Ä ì <>
+*   <> Language codes ISO () gbu
+*   <> Language codes ISO () gbz
+*   <> Language codes ISO () gcl
+*   <> Language codes ISO () gcr
+*   <> Language codes ISO () gct
+*   <> Language codes ISO () gct ‚ Ä ì Alem √ ° n Coloniero
+*   <> Language codes ISO () gd
+*   <> Language codes ISO () gda ‚ Ä ì Gade Lohar
+*   <> Language codes ISO () gdd
+*   <> Language codes ISO () gde
+*   <> Language codes ISO () gdf
+*   <> Language codes ISO () gdg
+*   <> Language codes ISO () gdh
+*   <> Language codes ISO () gdk
+*   <> Language codes ISO () gdl
+*   <> Language codes ISO () gdm
+*   <> Language codes ISO () gdo
+*   <> Language codes ISO () gdq
+*   <> Language codes ISO () gdu
+*   <> Language codes ISO () gdx
+*   <> Language codes ISO () gea
+*   <> Language codes ISO () gec ‚ Ä ì Gboloo <>
+*   <> Language codes ISO () geh
+*   <> Language codes ISO () geh ‚ Ä ì <>
+*   <> Language codes ISO () gej
+*   <> Language codes ISO () gel
+*   <> Language codes ISO () gem
+*   <> Language codes ISO () geo ( B )
+*   <> Language codes ISO () ger
+*   <> Language codes ISO () ger ( B )
+*   <> Language codes ISO () gew
+*   <> Language codes ISO () gex
+*   <> Language codes ISO () gez
+*   <> Language codes ISO () gfk
+*   <> Language codes ISO () gft
+*   <> Language codes ISO () ggb
+*   <> Language codes ISO () gge
+*   <> Language codes ISO () ggr
+*   <> Language codes ISO () ggw
+*   <> Language codes ISO () gha
+*   <> Language codes ISO () ghc
+*   <> Language codes ISO () ghn
+*   <> Language codes ISO () gho
+*   <> Language codes ISO () ghs
+*   <> Language codes ISO () gia
+*   <> Language codes ISO () gic
+*   <> Language codes ISO () gig
+*   <> Language codes ISO () gil
+*   <> Language codes ISO () gin
+*   <> Language codes ISO () gio
+*   <> Language codes ISO () gis
+*   <> Language codes ISO () git
+*   <> Language codes ISO () giz
+*   <> Language codes ISO () gjn
+*   <> Language codes ISO () gju
+*   <> Language codes ISO () gju ‚ Ä ì Gujari
+*   <> Language codes ISO () gkm
+*   <> Language codes ISO () gkm ‚ Ä ì <>
+*   <> Language codes ISO () gkn
+*   <> Language codes ISO () gl
+*   <> Language codes ISO () gla
+*   <> Language codes ISO () gld
+*   <> Language codes ISO () gle
+*   <> Language codes ISO () gle The <> of <> s Avalon Peninsula .
+*   <> Language codes ISO () glg
+*   <> Language codes ISO () glh ‚ Ä ì <>
+*   <> Language codes ISO () gli
+*   <> Language codes ISO () glj
+*   <> Language codes ISO () glk
+*   <> Language codes ISO () glo
+*   <> Language codes ISO () glv
+*   <> Language codes ISO () glw
+*   <> Language codes ISO () gma ‚ Ä ì Gamberre
+*   <> Language codes ISO () gmh
+*   <> Language codes ISO () gmh ‚ Ä ì <> <>
+*   <> Language codes ISO () gmy
+*   <> Language codes ISO () gmy ‚ Ä ì <>
+*   <> Language codes ISO () gn
+*   <> Language codes ISO () gnc
+*   <> Language codes ISO () gnd
+*   <> Language codes ISO () gni
+*   <> Language codes ISO () gnk
+*   <> Language codes ISO () gnn ‚ Ä ì Gumatj
+*   <> Language codes ISO () gno ‚ Ä ì <>
+*   <> Language codes ISO () gnu
+*   <> Language codes ISO () gnw
+*   <> Language codes ISO () goa
+*   <> Language codes ISO () gob
+*   <> Language codes ISO () goe
+*   <> Language codes ISO () gof ‚ Ä ì Gofa
+*   <> Language codes ISO () gog
+*   <> Language codes ISO () goh
+*   <> Language codes ISO () goh ‚ Ä ì <> <>
+*   <> Language codes ISO () goh-eas ‚ Ä ì
+*   <> Language codes ISO () goh-mid ‚ Ä ì
+*   <> Language codes ISO () goh-sfr
+*   <> Language codes ISO () gom
+*   <> Language codes ISO () gom ‚ Ä ì Goan <>
+*   <> Language codes ISO () gon
+*   <> Language codes ISO () gon ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () goo
+*   <> Language codes ISO () gor
+*   <> Language codes ISO () gos
+*   <> Language codes ISO () got
+*   <> Language codes ISO () got ‚ Ä ì <>
+*   <> Language codes ISO () gou
+*   <> Language codes ISO () gow
+*   <> Language codes ISO () gpn
+*   <> Language codes ISO () gqa
+*   <> Language codes ISO () gqr ‚ Ä ì Gor
+*   <> Language codes ISO () grb ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () grc
+*   <> Language codes ISO () grd
+*   <> Language codes ISO () gre
+*   <> Language codes ISO () gre ( B )
+*   <> Language codes ISO () gri
+*   <> Language codes ISO () grj
+*   <> Language codes ISO () grn
+*   <> Language codes ISO () gro
+*   <> Language codes ISO () grr
+*   <> Language codes ISO () grt
+*   <> Language codes ISO () gru
+*   <> Language codes ISO () grv ‚ Ä ì <>
+*   <> Language codes ISO () grx
+*   <> Language codes ISO () gry ‚ Ä ì Barclayville <>
+*   <> Language codes ISO () gsg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () gsm <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () gss <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () gsw
+*   <> Language codes ISO () gsw ‚ Ä ì <>
+*   <> Language codes ISO () gta
+*   <> Language codes ISO () gu
+*   <> Language codes ISO () guc
+*   <> Language codes ISO () gue
+*   <> Language codes ISO () guf ‚ Ä ì Gupapuyngu
+*   <> Language codes ISO () gug
+*   <> Language codes ISO () guh
+*   <> Language codes ISO () gui
+*   <> Language codes ISO () guj
+*   <> Language codes ISO () guk
+*   <> Language codes ISO () gul
+*   <> Language codes ISO () gum
+*   <> Language codes ISO () gun
+*   <> Language codes ISO () guo
+*   <> Language codes ISO () gup
+*   <> Language codes ISO () gut
+*   <> Language codes ISO () guz
+*   <> Language codes ISO () gv
+*   <> Language codes ISO () gvc
+*   <> Language codes ISO () gve
+*   <> Language codes ISO () gvf
+*   <> Language codes ISO () gvn
+*   <> Language codes ISO () gvr ‚ Ä ì <>
+*   <> Language codes ISO () gwc
+*   <> Language codes ISO () gwd
+*   <> Language codes ISO () gwi
+*   <> Language codes ISO () gwj
+*   <> Language codes ISO () gwn
+*   <> Language codes ISO () gwr
+*   <> Language codes ISO () gwt
+*   <> Language codes ISO () gww ‚ Ä ì Kwini
+*   <> Language codes ISO () gyd
+*   <> Language codes ISO () gyi
+*   <> Language codes ISO () gym
+*   <> Language codes ISO () gyn
+*   <> Language codes ISO () gyy
+*   <> Language codes ISO () gza
+*   <> Language codes ISO () ha
+*   <> Language codes ISO () haa
+*   <> Language codes ISO () hab ‚ Ä ì Hanoi Sign <> language ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () hac
+*   <> Language codes ISO () had
+*   <> Language codes ISO () hae
+*   <> Language codes ISO () hae ‚ Ä ì <>
+*   <> Language codes ISO () haf ‚ Ä ì Haiphong Sign <>
+*   <> Language codes ISO () hai
+*   <> Language codes ISO () hai ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () haj
+*   <> Language codes ISO () hak
+*   <> Language codes ISO () hak ‚ Ä ì <>
+*   <> Language codes ISO () hal
+*   <> Language codes ISO () haq
+*   <> Language codes ISO () har
+*   <> Language codes ISO () has
+*   <> Language codes ISO () hat
+*   <> Language codes ISO () hau
+*   <> Language codes ISO () hav
+*   <> Language codes ISO () haw
+*   <> Language codes ISO () hax ‚ Ä ì <>
+*   <> Language codes ISO () hay
+*   <> Language codes ISO () haz
+*   <> Language codes ISO () haz ‚ Ä ì Hazaragi
+*   <> Language codes ISO () hbo
+*   <> Language codes ISO () hbo ‚ Ä ì <>
+*   <> Language codes ISO () hbs ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () hch
+*   <> Language codes ISO () hds <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () hdy
+*   <> Language codes ISO () he
+*   <> Language codes ISO () hea ‚ Ä ì <> <>
+*   <> Language codes ISO () hea ‚ Ä ì ]
+*   <> Language codes ISO () heb
+*   <> Language codes ISO () heh
+*   <> Language codes ISO () hei
+*   <> Language codes ISO () hei-hai
+*   <> Language codes ISO () her
+*   <> Language codes ISO () hi
+*   <> Language codes ISO () hi , ur
+*   <> Language codes ISO () hib
+*   <> Language codes ISO () hid
+*   <> Language codes ISO () hif
+*   <> Language codes ISO () hig
+*   <> Language codes ISO () hil
+*   <> Language codes ISO () hin
+*   <> Language codes ISO () hin , urd
+*   <> Language codes ISO () hin-dak
+*   <> Language codes ISO () hin-hin
+*   <> Language codes ISO () hin-rek
+*   <> Language codes ISO () hir
+*   <> Language codes ISO () hit
+*   <> Language codes ISO () hiw
+*   <> Language codes ISO () hix
+*   <> Language codes ISO () hke
+*   <> Language codes ISO () hlb
+*   <> Language codes ISO () hld
+*   <> Language codes ISO () hlu
+*   <> Language codes ISO () hlu ‚ Ä ì Hieroglyphic <> of the <> ( after Melchert () )
+*   <> Language codes ISO () hma ‚ Ä ì <> <>
+*   <> Language codes ISO () hma ‚ Ä ì ]
+*   <> Language codes ISO () hmc ‚ Ä ì <> Huishui ( China )
+*   <> Language codes ISO () hmc ‚ Ä ì ]
+*   <> Language codes ISO () hmd ‚ Ä ì Large Flowery <>
+*   <> Language codes ISO () hmd ‚ Ä ì ]
+*   <> Language codes ISO () hme ‚ Ä ì <> Huishui ( China )
+*   <> Language codes ISO () hme ‚ Ä ì ]
+*   <> Language codes ISO () hmf ‚ Ä ì <> ( Vietnam )
+*   <> Language codes ISO () hmg ‚ Ä ì <> <>
+*   <> Language codes ISO () hmg ‚ Ä ì ]
+*   <> Language codes ISO () hmh ‚ Ä ì <> <>
+*   <> Language codes ISO () hmh ‚ Ä ì ]
+*   <> Language codes ISO () hmi ‚ Ä ì <> <>
+*   <> Language codes ISO () hmi ‚ Ä ì ]
+*   <> Language codes ISO () hmj ‚ Ä ì <> ( China )
+*   <> Language codes ISO () hmj ‚ Ä ì ]
+*   <> Language codes ISO () hml ‚ Ä ì Luopohe <>
+*   <> Language codes ISO () hml ‚ Ä ì ]
+*   <> Language codes ISO () hmm ‚ Ä ì <> Mashan ( China )
+*   <> Language codes ISO () hmm ‚ Ä ì ]
+*   <> Language codes ISO () hmn
+*   <> Language codes ISO () hmo
+*   <> Language codes ISO () hmp ‚ Ä ì <> <>
+*   <> Language codes ISO () hmp ‚ Ä ì ]
+*   <> Language codes ISO () hmq ‚ Ä ì <> <>
+*   <> Language codes ISO () hmq ‚ Ä ì ]
+*   <> Language codes ISO () hmr
+*   <> Language codes ISO () hms ‚ Ä ì <> <>
+*   <> Language codes ISO () hms ‚ Ä ì ]
+*   <> Language codes ISO () hmv ‚ Ä ì <> ( Vietnam )
+*   <> Language codes ISO () hmw ‚ Ä ì <> <>
+*   <> Language codes ISO () hmw ‚ Ä ì ]
+*   <> Language codes ISO () hmy ‚ Ä ì <> <>
+*   <> Language codes ISO () hmy ‚ Ä ì ]
+*   <> Language codes ISO () hmz ‚ Ä ì <> ( Vietnam )
+*   <> Language codes ISO () hna
+*   <> Language codes ISO () hne
+*   <> Language codes ISO () hnh ‚ Ä ì « Å Ani
+*   <> Language codes ISO () hni
+*   <> Language codes ISO () hnj ‚ Ä ì <>
+*   <> Language codes ISO () hnj ‚ Ä ì ]
+*   <> Language codes ISO () hnn
+*   <> Language codes ISO () hno ‚ Ä ì <>
+*   <> Language codes ISO () hnu
+*   <> Language codes ISO () ho
+*   <> Language codes ISO () hoa
+*   <> Language codes ISO () hoc
+*   <> Language codes ISO () hod
+*   <> Language codes ISO () hoh
+*   <> Language codes ISO () hoi
+*   <> Language codes ISO () hoj
+*   <> Language codes ISO () hoj ‚ Ä ì <>
+*   <> Language codes ISO () hop
+*   <> Language codes ISO () hoz
+*   <> Language codes ISO () hps <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () hr
+*   <> Language codes ISO () hra
+*   <> Language codes ISO () hrm ‚ Ä ì Horned <>
+*   <> Language codes ISO () hrm ‚ Ä ì ]
+*   <> Language codes ISO () hrt
+*   <> Language codes ISO () hrt ‚ Ä ì H √ © rtevin
+*   <> Language codes ISO () hrv
+*   <> Language codes ISO () hrv ‚ Ä ì <>
+*   <> Language codes ISO () hrv-cha
+*   <> Language codes ISO () hrv-kay
+*   <> Language codes ISO () hrv-sht
+*   <> Language codes ISO () hrx
+*   <> Language codes ISO () hsb
+*   <> Language codes ISO () hsh <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () hsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () hsn
+*   <> Language codes ISO () hsn ‚ Ä ì <>
+*   <> Language codes ISO () hsn-cha
+*   <> Language codes ISO () hsn-jis ‚ Ä ì
+*   <> Language codes ISO () hsn-luo
+*   <> Language codes ISO () hss
+*   <> Language codes ISO () ht
+*   <> Language codes ISO () hto
+*   <> Language codes ISO () hts
+*   <> Language codes ISO () hu
+*   <> Language codes ISO () hub
+*   <> Language codes ISO () huc
+*   <> Language codes ISO () hug
+*   <> Language codes ISO () huh
+*   <> Language codes ISO () hui
+*   <> Language codes ISO () huj ‚ Ä ì <> <>
+*   <> Language codes ISO () huj ‚ Ä ì ]
+*   <> Language codes ISO () hun
+*   <> Language codes ISO () hup
+*   <> Language codes ISO () huq
+*   <> Language codes ISO () huq ‚ Ä ì <>
+*   <> Language codes ISO () hur
+*   <> Language codes ISO () hus
+*   <> Language codes ISO () huu
+*   <> Language codes ISO () huu ‚ Ä ì <>
+*   <> Language codes ISO () huv ‚ Ä ì <> del Mar
+*   <> Language codes ISO () hux
+*   <> Language codes ISO () hux ‚ Ä ì N √ º pode
+*   <> Language codes ISO () huy
+*   <> Language codes ISO () huy ‚ Ä ì Hulaul √ °
+*   <> Language codes ISO () huz
+*   <> Language codes ISO () hvc
+*   <> Language codes ISO () hve ‚ Ä ì <> del Mar
+*   <> Language codes ISO () hvn
+*   <> Language codes ISO () hvv ‚ Ä ì <> √ ≠ a del Mar , Oaxaca
+*   <> Language codes ISO () hwc
+*   <> Language codes ISO () hwo
+*   <> Language codes ISO () hy
+*   <> Language codes ISO () hya
+*   <> Language codes ISO () hye ( T )
+*   <> Language codes ISO () ia
+*   <> Language codes ISO () iai
+*   <> Language codes ISO () ian
+*   <> Language codes ISO () iap
+*   <> Language codes ISO () iar
+*   <> Language codes ISO () iba
+*   <> Language codes ISO () ibb ‚ Ä ì <>
+*   <> Language codes ISO () ibd
+*   <> Language codes ISO () ibe
+*   <> Language codes ISO () ibg
+*   <> Language codes ISO () ibo
+*   <> Language codes ISO () ibo Lingusitic map of <> <> <> center
+*   <> Language codes ISO () ice ( B )
+*   <> Language codes ISO () icl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () icr
+*   <> Language codes ISO () id
+*   <> Language codes ISO () idb
+*   <> Language codes ISO () ido
+*   <> Language codes ISO () idu
+*   <> Language codes ISO () ie
+*   <> Language codes ISO () if it were truly <>
+*   <> Language codes ISO () ifb
+*   <> Language codes ISO () ife
+*   <> Language codes ISO () ifk Ph locator ifugao kiangan . png
+*   <> Language codes ISO () ig
+*   <> Language codes ISO () ige
+*   <> Language codes ISO () igl
+*   <> Language codes ISO () igs
+*   <> Language codes ISO () ii
+*   <> Language codes ISO () iii
+*   <> Language codes ISO () ik
+*   <> Language codes ISO () ike-lab
+*   <> Language codes ISO () ikk
+*   <> Language codes ISO () ikt
+*   <> Language codes ISO () ikt-cop ‚ Ä ì
+*   <> Language codes ISO () ikt-net
+*   <> Language codes ISO () ikt-sig ‚ Ä ì
+*   <> Language codes ISO () iku
+*   <> Language codes ISO () iku ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () ikw
+*   <> Language codes ISO () ikx
+*   <> Language codes ISO () ile
+*   <> Language codes ISO () ili
+*   <> Language codes ISO () ilk
+*   <> Language codes ISO () ilo
+*   <> Language codes ISO () ils <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ilu ‚ Ä ì <> uun
+*   <> Language codes ISO () ilw ‚ Ä ì Talur
+*   <> Language codes ISO () imo
+*   <> Language codes ISO () ims
+*   <> Language codes ISO () ina
+*   <> Language codes ISO () ind
+*   <> Language codes ISO () ind ‚ Ä ì <>
+*   <> Language codes ISO () individual code
+*   <> Language codes ISO () individual codes
+*   <> Language codes ISO () ing
+*   <> Language codes ISO () inh
+*   <> Language codes ISO () inj ‚ Ä ì Jungle <>
+*   <> Language codes ISO () inl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () inm
+*   <> Language codes ISO () inp
+*   <> Language codes ISO () inz ‚ Ä ì Inese √ ± o
+*   <> Language codes ISO () ior
+*   <> Language codes ISO () iow
+*   <> Language codes ISO () ipk
+*   <> Language codes ISO () ipk ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () iqu
+*   <> Language codes ISO () ira
+*   <> Language codes ISO () irk
+*   <> Language codes ISO () irn
+*   <> Language codes ISO () irr
+*   <> Language codes ISO () iru
+*   <> Language codes ISO () iry
+*   <> Language codes ISO () is
+*   <> Language codes ISO () is a Yuman language .
+*   <> Language codes ISO () is labeled <>
+*   <> Language codes ISO () is labeled Beihai
+*   <> Language codes ISO () is labeled Nanning
+*   <> Language codes ISO () is labeled Yulin
+*   <> Language codes ISO () isc
+*   <> Language codes ISO () isd
+*   <> Language codes ISO () ise <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () isg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () isl
+*   <> Language codes ISO () isl ( T )
+*   <> Language codes ISO () isn
+*   <> Language codes ISO () iso
+*   <> Language codes ISO () isr <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ist
+*   <> Language codes ISO () it
+*   <> Language codes ISO () ita
+*   <> Language codes ISO () ita-cen
+*   <> Language codes ISO () ita-cen ‚ Ä ì
+*   <> Language codes ISO () ita-tus
+*   <> Language codes ISO () itk
+*   <> Language codes ISO () itl
+*   <> Language codes ISO () ito
+*   <> Language codes ISO () itr
+*   <> Language codes ISO () its
+*   <> Language codes ISO () itv
+*   <> Language codes ISO () itz
+*   <> Language codes ISO () iu
+*   <> Language codes ISO () ium
+*   <> Language codes ISO () ivv
+*   <> Language codes ISO () iwm
+*   <> Language codes ISO () ixc
+*   <> Language codes ISO () ixl
+*   <> Language codes ISO () izh
+*   <> Language codes ISO () izi
+*   <> Language codes ISO () ja
+*   <> Language codes ISO () jaa
+*   <> Language codes ISO () jac
+*   <> Language codes ISO () jae
+*   <> Language codes ISO () jaf
+*   <> Language codes ISO () jak
+*   <> Language codes ISO () jam
+*   <> Language codes ISO () jao
+*   <> Language codes ISO () jap
+*   <> Language codes ISO () jar
+*   <> Language codes ISO () jas ‚ Ä ì <> <>
+*   <> Language codes ISO () jat
+*   <> Language codes ISO () jau
+*   <> Language codes ISO () jav
+*   <> Language codes ISO () jav ‚ Ä ì <>
+*   <> Language codes ISO () jax
+*   <> Language codes ISO () jay
+*   <> Language codes ISO () jay ‚ Ä ì Yan-nhangu
+*   <> Language codes ISO () jbe
+*   <> Language codes ISO () jbn
+*   <> Language codes ISO () jbo
+*   <> Language codes ISO () jbt
+*   <> Language codes ISO () jct
+*   <> Language codes ISO () jdt
+*   <> Language codes ISO () jeb
+*   <> Language codes ISO () jeg
+*   <> Language codes ISO () jeh
+*   <> Language codes ISO () jeu
+*   <> Language codes ISO () jge
+*   <> Language codes ISO () jic
+*   <> Language codes ISO () jie
+*   <> Language codes ISO () jig
+*   <> Language codes ISO () jii
+*   <> Language codes ISO () jim
+*   <> Language codes ISO () jio
+*   <> Language codes ISO () jiy ‚ Ä ì Buyuan Jinuo
+*   <> Language codes ISO () jmb
+*   <> Language codes ISO () jmi
+*   <> Language codes ISO () jmk
+*   <> Language codes ISO () jnj
+*   <> Language codes ISO () jpa
+*   <> Language codes ISO () jpa ‚ Ä ì <> <>
+*   <> Language codes ISO () jpn
+*   <> Language codes ISO () jpr ‚ Ä ì Dzhidi
+*   <> Language codes ISO () jra
+*   <> Language codes ISO () jrb
+*   <> Language codes ISO () jrb ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () jrt
+*   <> Language codes ISO () jsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () juc
+*   <> Language codes ISO () jun
+*   <> Language codes ISO () jup
+*   <> Language codes ISO () jut
+*   <> Language codes ISO () jv
+*   <> Language codes ISO () jvd
+*   <> Language codes ISO () jvn ‚ Ä ì Caribbean <>
+*   <> Language codes ISO () jye
+*   <> Language codes ISO () jye ‚ Ä ì <>
+*   <> Language codes ISO () ka
+*   <> Language codes ISO () kaa
+*   <> Language codes ISO () kab
+*   <> Language codes ISO () kab Kabyle-speaking areas ( in () )
+*   <> Language codes ISO () kac
+*   <> Language codes ISO () kah
+*   <> Language codes ISO () kai
+*   <> Language codes ISO () kal
+*   <> Language codes ISO () kal-pol
+*   <> Language codes ISO () kam
+*   <> Language codes ISO () kan
+*   <> Language codes ISO () kao
+*   <> Language codes ISO () kap
+*   <> Language codes ISO () kaq
+*   <> Language codes ISO () kas
+*   <> Language codes ISO () kat
+*   <> Language codes ISO () kat ( T )
+*   <> Language codes ISO () kau
+*   <> Language codes ISO () kau ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () kav
+*   <> Language codes ISO () kaw
+*   <> Language codes ISO () kaw ‚ Ä ì <>
+*   <> Language codes ISO () kay
+*   <> Language codes ISO () kaz
+*   <> Language codes ISO () kbc
+*   <> Language codes ISO () kbd
+*   <> Language codes ISO () kbf
+*   <> Language codes ISO () kbh
+*   <> Language codes ISO () kbl
+*   <> Language codes ISO () kbl ‚ Ä ì <>
+*   <> Language codes ISO () kbm
+*   <> Language codes ISO () kbp
+*   <> Language codes ISO () kbr
+*   <> Language codes ISO () kby ‚ Ä ì Manga <>
+*   <> Language codes ISO () kbz
+*   <> Language codes ISO () kca
+*   <> Language codes ISO () kcf
+*   <> Language codes ISO () kck
+*   <> Language codes ISO () kcl
+*   <> Language codes ISO () kcm
+*   <> Language codes ISO () kcn
+*   <> Language codes ISO () kcr
+*   <> Language codes ISO () kcs
+*   <> Language codes ISO () kcx
+*   <> Language codes ISO () kcy
+*   <> Language codes ISO () kda
+*   <> Language codes ISO () kdd
+*   <> Language codes ISO () kdd ‚ Ä ì <>
+*   <> Language codes ISO () kdj
+*   <> Language codes ISO () kdq
+*   <> Language codes ISO () kdr
+*   <> Language codes ISO () kdt
+*   <> Language codes ISO () kdx
+*   <> Language codes ISO () kea
+*   <> Language codes ISO () kei
+*   <> Language codes ISO () kek
+*   <> Language codes ISO () kem
+*   <> Language codes ISO () kep
+*   <> Language codes ISO () ker
+*   <> Language codes ISO () ket
+*   <> Language codes ISO () keu
+*   <> Language codes ISO () kev
+*   <> Language codes ISO () kex
+*   <> Language codes ISO () kfa
+*   <> Language codes ISO () kfb
+*   <> Language codes ISO () kfd
+*   <> Language codes ISO () kff Image : () px
+*   <> Language codes ISO () kfi
+*   <> Language codes ISO () kfj
+*   <> Language codes ISO () kfk
+*   <> Language codes ISO () kfm
+*   <> Language codes ISO () kfq
+*   <> Language codes ISO () kfr
+*   <> Language codes ISO () kfx
+*   <> Language codes ISO () kfy
+*   <> Language codes ISO () kfz
+*   <> Language codes ISO () kg
+*   <> Language codes ISO () kgg
+*   <> Language codes ISO () kgi <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () kgj ‚ Ä ì Gamale Kham
+*   <> Language codes ISO () kgk
+*   <> Language codes ISO () kgo
+*   <> Language codes ISO () kgp
+*   <> Language codes ISO () kgq
+*   <> Language codes ISO () kgr
+*   <> Language codes ISO () kgs
+*   <> Language codes ISO () kgv
+*   <> Language codes ISO () kha
+*   <> Language codes ISO () khb
+*   <> Language codes ISO () khg
+*   <> Language codes ISO () khh
+*   <> Language codes ISO () khm
+*   <> Language codes ISO () kho
+*   <> Language codes ISO () khp
+*   <> Language codes ISO () khq
+*   <> Language codes ISO () khr
+*   <> Language codes ISO () khv
+*   <> Language codes ISO () khw
+*   <> Language codes ISO () khy
+*   <> Language codes ISO () ki
+*   <> Language codes ISO () kib
+*   <> Language codes ISO () kic ‚ Ä ì Kickapoo
+*   <> Language codes ISO () kii
+*   <> Language codes ISO () kik
+*   <> Language codes ISO () kil
+*   <> Language codes ISO () kim
+*   <> Language codes ISO () kin
+*   <> Language codes ISO () kio
+*   <> Language codes ISO () kip ‚ Ä ì Sheshi Kham
+*   <> Language codes ISO () kir
+*   <> Language codes ISO () kiu ‚ Ä ì Kirmanjki ( <> )
+*   <> Language codes ISO () kj
+*   <> Language codes ISO () kj ‚ Ä ì <>
+*   <> Language codes ISO () kjb
+*   <> Language codes ISO () kjd ‚ Ä ì <>
+*   <> Language codes ISO () kjg
+*   <> Language codes ISO () kjh
+*   <> Language codes ISO () kjj
+*   <> Language codes ISO () kjl ‚ Ä ì <> Kham
+*   <> Language codes ISO () kjn
+*   <> Language codes ISO () kjn-ogh
+*   <> Language codes ISO () kju
+*   <> Language codes ISO () kjz
+*   <> Language codes ISO () kk
+*   <> Language codes ISO () kkh
+*   <> Language codes ISO () kkj
+*   <> Language codes ISO () kkk
+*   <> Language codes ISO () kkr
+*   <> Language codes ISO () kks
+*   <> Language codes ISO () kkv
+*   <> Language codes ISO () kkw
+*   <> Language codes ISO () kky
+*   <> Language codes ISO () kkz
+*   <> Language codes ISO () kl
+*   <> Language codes ISO () kla
+*   <> Language codes ISO () kld
+*   <> Language codes ISO () kle
+*   <> Language codes ISO () klj
+*   <> Language codes ISO () kln
+*   <> Language codes ISO () klr
+*   <> Language codes ISO () kls
+*   <> Language codes ISO () klu
+*   <> Language codes ISO () km
+*   <> Language codes ISO () kmb
+*   <> Language codes ISO () kmc ‚ Ä ì <>
+*   <> Language codes ISO () kmg
+*   <> Language codes ISO () kmj
+*   <> Language codes ISO () kmn
+*   <> Language codes ISO () kmq
+*   <> Language codes ISO () kmr
+*   <> Language codes ISO () kmr ‚ Ä ì <>
+*   <> Language codes ISO () kmv
+*   <> Language codes ISO () kmz
+*   <> Language codes ISO () kn
+*   <> Language codes ISO () kne
+*   <> Language codes ISO () knf
+*   <> Language codes ISO () knj
+*   <> Language codes ISO () knm
+*   <> Language codes ISO () knn ‚ Ä ì <> Independent <>
+*   <> Language codes ISO () knn ‚ Ä ì Mararashtra <>
+*   <> Language codes ISO () kno
+*   <> Language codes ISO () kns
+*   <> Language codes ISO () knw ‚ Ä ì « Ä   º Akhwe
+*   <> Language codes ISO () ko
+*   <> Language codes ISO () koc
+*   <> Language codes ISO () koe
+*   <> Language codes ISO () kof
+*   <> Language codes ISO () koi
+*   <> Language codes ISO () kok
+*   <> Language codes ISO () kok ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () kol
+*   <> Language codes ISO () kom
+*   <> Language codes ISO () kom ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () kon
+*   <> Language codes ISO () kon ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () koo
+*   <> Language codes ISO () koq
+*   <> Language codes ISO () kor
+*   <> Language codes ISO () kos
+*   <> Language codes ISO () kot
+*   <> Language codes ISO () kox
+*   <> Language codes ISO () koy
+*   <> Language codes ISO () kpe
+*   <> Language codes ISO () kpe ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () kpg
+*   <> Language codes ISO () kpj
+*   <> Language codes ISO () kpl
+*   <> Language codes ISO () kpm
+*   <> Language codes ISO () kpo
+*   <> Language codes ISO () kps
+*   <> Language codes ISO () kpt
+*   <> Language codes ISO () kpv
+*   <> Language codes ISO () kpv ‚ Ä ì Komi-Zyrian
+*   <> Language codes ISO () kpw
+*   <> Language codes ISO () kpy
+*   <> Language codes ISO () kqd
+*   <> Language codes ISO () kqd ‚ Ä ì <> Surat
+*   <> Language codes ISO () kqn
+*   <> Language codes ISO () kqq
+*   <> Language codes ISO () kqs ‚ Ä ì <>
+*   <> Language codes ISO () kqu
+*   <> Language codes ISO () kqx
+*   <> Language codes ISO () kqy
+*   <> Language codes ISO () kqz
+*   <> Language codes ISO () kr
+*   <> Language codes ISO () krb
+*   <> Language codes ISO () krb ‚ Ä ì <>
+*   <> Language codes ISO () krc
+*   <> Language codes ISO () krf
+*   <> Language codes ISO () krh
+*   <> Language codes ISO () kri
+*   <> Language codes ISO () krj
+*   <> Language codes ISO () krk
+*   <> Language codes ISO () krl
+*   <> Language codes ISO () krm
+*   <> Language codes ISO () krn
+*   <> Language codes ISO () krs
+*   <> Language codes ISO () krt ‚ Ä ì Tumari <>
+*   <> Language codes ISO () kru
+*   <> Language codes ISO () krx
+*   <> Language codes ISO () kry
+*   <> Language codes ISO () ks
+*   <> Language codes ISO () ksb
+*   <> Language codes ISO () ksd
+*   <> Language codes ISO () ksg
+*   <> Language codes ISO () ksh
+*   <> Language codes ISO () ksh ‚ Ä ì K √ ∂ lsch
+*   <> Language codes ISO () ksi
+*   <> Language codes ISO () ksk
+*   <> Language codes ISO () kso
+*   <> Language codes ISO () ksq
+*   <> Language codes ISO () ksw
+*   <> Language codes ISO () ksy
+*   <> Language codes ISO () ktb
+*   <> Language codes ISO () ktc
+*   <> Language codes ISO () ktd ‚ Ä ì Kokata
+*   <> Language codes ISO () ktg
+*   <> Language codes ISO () ktk
+*   <> Language codes ISO () ktl
+*   <> Language codes ISO () ktn
+*   <> Language codes ISO () kto
+*   <> Language codes ISO () ktu ‚ Ä ì <> Congo-Kinshasa )
+*   <> Language codes ISO () ktw
+*   <> Language codes ISO () ktz
+*   <> Language codes ISO () ktz ‚ Ä ì Ju « Ä   º hoansi
+*   <> Language codes ISO () ku
+*   <> Language codes ISO () kua
+*   <> Language codes ISO () kua ‚ Ä ì <>
+*   <> Language codes ISO () kud
+*   <> Language codes ISO () kue
+*   <> Language codes ISO () kul
+*   <> Language codes ISO () kum
+*   <> Language codes ISO () kun
+*   <> Language codes ISO () kuq
+*   <> Language codes ISO () kur
+*   <> Language codes ISO () kur ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () kus
+*   <> Language codes ISO () kut
+*   <> Language codes ISO () kuu
+*   <> Language codes ISO () kux ‚ Ä ì Kukatja
+*   <> Language codes ISO () kuz
+*   <> Language codes ISO () kv
+*   <> Language codes ISO () kva
+*   <> Language codes ISO () kvd
+*   <> Language codes ISO () kvf
+*   <> Language codes ISO () kvj
+*   <> Language codes ISO () kvk <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () kvn ‚ Ä ì Border <>
+*   <> Language codes ISO () kvw Languages of the Alor Islands . <> shown at four locations around the east coast .
+*   <> Language codes ISO () kvx
+*   <> Language codes ISO () kw
+*   <> Language codes ISO () kwa
+*   <> Language codes ISO () kwb
+*   <> Language codes ISO () kwf
+*   <> Language codes ISO () kwi
+*   <> Language codes ISO () kwj
+*   <> Language codes ISO () kwk
+*   <> Language codes ISO () kwl
+*   <> Language codes ISO () kwm
+*   <> Language codes ISO () kwn
+*   <> Language codes ISO () kwo
+*   <> Language codes ISO () kwy ‚ Ä ì <> <>
+*   <> Language codes ISO () kwz
+*   <> Language codes ISO () kxa
+*   <> Language codes ISO () kxc
+*   <> Language codes ISO () kxd
+*   <> Language codes ISO () kxh
+*   <> Language codes ISO () kxm ‚ Ä ì <>
+*   <> Language codes ISO () kxo
+*   <> Language codes ISO () kxr
+*   <> Language codes ISO () kxs
+*   <> Language codes ISO () kxu
+*   <> Language codes ISO () ky
+*   <> Language codes ISO () kyh
+*   <> Language codes ISO () kyi
+*   <> Language codes ISO () kyk
+*   <> Language codes ISO () kyl
+*   <> Language codes ISO () kyl ‚ Ä ì ( <>
+*   <> Language codes ISO () kyv
+*   <> Language codes ISO () kyw
+*   <> Language codes ISO () kzi
+*   <> Language codes ISO () kzj
+*   <> Language codes ISO () kzk
+*   <> Language codes ISO () kzl
+*   <> Language codes ISO () kzv
+*   <> Language codes ISO () kzw
+*   <> Language codes ISO () kzy
+*   <> Language codes ISO () la
+*   <> Language codes ISO () lac
+*   <> Language codes ISO () lad
+*   <> Language codes ISO () lad ‚ Ä ì Ladino
+*   <> Language codes ISO () lae
+*   <> Language codes ISO () laf
+*   <> Language codes ISO () lag
+*   <> Language codes ISO () lah
+*   <> Language codes ISO () laj
+*   <> Language codes ISO () lam
+*   <> Language codes ISO () lao
+*   <> Language codes ISO () laq
+*   <> Language codes ISO () lar
+*   <> Language codes ISO () lat
+*   <> Language codes ISO () lat Europe in () AD
+*   <> Language codes ISO () lat The Late-Latin speaking world , () AD
+*   <> Language codes ISO () lat The Roman Empire in () AD
+*   <> Language codes ISO () lat-afr
+*   <> Language codes ISO () lat-cla
+*   <> Language codes ISO () lat-pan
+*   <> Language codes ISO () lav
+*   <> Language codes ISO () laz
+*   <> Language codes ISO () lb
+*   <> Language codes ISO () lbc
+*   <> Language codes ISO () lbe
+*   <> Language codes ISO () lbj
+*   <> Language codes ISO () lbl ‚ Ä ì Libon <>
+*   <> Language codes ISO () lbt
+*   <> Language codes ISO () lbu
+*   <> Language codes ISO () lbx
+*   <> Language codes ISO () lbz
+*   <> Language codes ISO () lcd
+*   <> Language codes ISO () lcl
+*   <> Language codes ISO () ldi ‚ Ä ì Laari
+*   <> Language codes ISO () ldn
+*   <> Language codes ISO () ldq
+*   <> Language codes ISO () lec
+*   <> Language codes ISO () led
+*   <> Language codes ISO () leg
+*   <> Language codes ISO () len
+*   <> Language codes ISO () lep
+*   <> Language codes ISO () les
+*   <> Language codes ISO () leu
+*   <> Language codes ISO () lev
+*   <> Language codes ISO () lez
+*   <> Language codes ISO () lfn
+*   <> Language codes ISO () lg
+*   <> Language codes ISO () lga
+*   <> Language codes ISO () lgb
+*   <> Language codes ISO () lgg
+*   <> Language codes ISO () lgh
+*   <> Language codes ISO () lgl
+*   <> Language codes ISO () lgn
+*   <> Language codes ISO () lgq
+*   <> Language codes ISO () lha
+*   <> Language codes ISO () lhp
+*   <> Language codes ISO () lhs
+*   <> Language codes ISO () lhs ‚ Ä ì Mlahs √ ¥
+*   <> Language codes ISO () lht
+*   <> Language codes ISO () lhu
+*   <> Language codes ISO () li
+*   <> Language codes ISO () lib
+*   <> Language codes ISO () lic
+*   <> Language codes ISO () lid
+*   <> Language codes ISO () lif
+*   <> Language codes ISO () lig
+*   <> Language codes ISO () lih
+*   <> Language codes ISO () lij
+*   <> Language codes ISO () lil
+*   <> Language codes ISO () lim
+*   <> Language codes ISO () lin
+*   <> Language codes ISO () liq
+*   <> Language codes ISO () lis
+*   <> Language codes ISO () lit
+*   <> Language codes ISO () liv
+*   <> Language codes ISO () ljp
+*   <> Language codes ISO () lkh
+*   <> Language codes ISO () lki
+*   <> Language codes ISO () lki ‚ Ä ì <>
+*   <> Language codes ISO () lkn
+*   <> Language codes ISO () lkt
+*   <> Language codes ISO () lkt ‚ Ä ì <>
+*   <> Language codes ISO () llc
+*   <> Language codes ISO () lld
+*   <> Language codes ISO () lle
+*   <> Language codes ISO () llf
+*   <> Language codes ISO () llp
+*   <> Language codes ISO () lls <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () llu
+*   <> Language codes ISO () llx
+*   <> Language codes ISO () lmd
+*   <> Language codes ISO () lmg
+*   <> Language codes ISO () lml
+*   <> Language codes ISO () lmn
+*   <> Language codes ISO () lmn ‚ Ä ì <>
+*   <> Language codes ISO () lmo
+*   <> Language codes ISO () lmo ‚ Ä ì <>
+*   <> Language codes ISO () lmv
+*   <> Language codes ISO () ln
+*   <> Language codes ISO () lnd
+*   <> Language codes ISO () lng
+*   <> Language codes ISO () lnj
+*   <> Language codes ISO () lnj ‚ Ä ì <>
+*   <> Language codes ISO () lnn
+*   <> Language codes ISO () lno
+*   <> Language codes ISO () lo
+*   <> Language codes ISO () loc
+*   <> Language codes ISO () location of Roraima , Brazil
+*   <> Language codes ISO () log
+*   <> Language codes ISO () loj
+*   <> Language codes ISO () lok
+*   <> Language codes ISO () lol
+*   <> Language codes ISO () lon
+*   <> Language codes ISO () lot
+*   <> Language codes ISO () lou
+*   <> Language codes ISO () lox
+*   <> Language codes ISO () loz
+*   <> Language codes ISO () lpe
+*   <> Language codes ISO () lra
+*   <> Language codes ISO () lrc ‚ Ä ì <> ( <>
+*   <> Language codes ISO () lre
+*   <> Language codes ISO () lrg
+*   <> Language codes ISO () lrk
+*   <> Language codes ISO () lrl
+*   <> Language codes ISO () lro
+*   <> Language codes ISO () lrt
+*   <> Language codes ISO () lrt ‚ Ä ì <>
+*   <> Language codes ISO () lsd
+*   <> Language codes ISO () lsd ‚ Ä ì <>
+*   <> Language codes ISO () lsd-bet ‚ Ä ì
+*   <> Language codes ISO () lsg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () lt
+*   <> Language codes ISO () ltc
+*   <> Language codes ISO () ltc ‚ Ä ì <> <>
+*   <> Language codes ISO () ltg
+*   <> Language codes ISO () lti
+*   <> Language codes ISO () ltz
+*   <> Language codes ISO () ltz ‚ Ä ì <>
+*   <> Language codes ISO () lu
+*   <> Language codes ISO () lua
+*   <> Language codes ISO () lub
+*   <> Language codes ISO () luc
+*   <> Language codes ISO () lud
+*   <> Language codes ISO () lue
+*   <> Language codes ISO () luf
+*   <> Language codes ISO () lug
+*   <> Language codes ISO () lui
+*   <> Language codes ISO () lul
+*   <> Language codes ISO () lun
+*   <> Language codes ISO () luo
+*   <> Language codes ISO () luq
+*   <> Language codes ISO () lus
+*   <> Language codes ISO () lut
+*   <> Language codes ISO () luv
+*   <> Language codes ISO () luw
+*   <> Language codes ISO () luy
+*   <> Language codes ISO () luz ‚ Ä ì <>
+*   <> Language codes ISO () lv
+*   <> Language codes ISO () lva
+*   <> Language codes ISO () lvk
+*   <> Language codes ISO () lvs ‚ Ä ì <>
+*   <> Language codes ISO () lwo
+*   <> Language codes ISO () lzh
+*   <> Language codes ISO () lzh ‚ Ä ì Literary <>
+*   <> Language codes ISO () lzz
+*   <> Language codes ISO () mac ( B )
+*   <> Language codes ISO () mad
+*   <> Language codes ISO () maf
+*   <> Language codes ISO () mag
+*   <> Language codes ISO () mah
+*   <> Language codes ISO () mai
+*   <> Language codes ISO () maj
+*   <> Language codes ISO () maj ‚ Ä ì <> D √ ≠ az <>
+*   <> Language codes ISO () mak
+*   <> Language codes ISO () mal
+*   <> Language codes ISO () mam
+*   <> Language codes ISO () man
+*   <> Language codes ISO () mao ( B )
+*   <> Language codes ISO () map
+*   <> Language codes ISO () map ( group )
+*   <> Language codes ISO () maq ‚ Ä ì Chiquihuitl √ ° n <>
+*   <> Language codes ISO () mar
+*   <> Language codes ISO () mas
+*   <> Language codes ISO () mat ‚ Ä ì <>
+*   <> Language codes ISO () mau ‚ Ä ì Huautla <>
+*   <> Language codes ISO () mav
+*   <> Language codes ISO () max ‚ Ä ì <> <>
+*   <> Language codes ISO () may ( B )
+*   <> Language codes ISO () maz ‚ Ä ì <>
+*   <> Language codes ISO () mbc
+*   <> Language codes ISO () mbe
+*   <> Language codes ISO () mbl
+*   <> Language codes ISO () mbm
+*   <> Language codes ISO () mbn
+*   <> Language codes ISO () mbo
+*   <> Language codes ISO () mbp
+*   <> Language codes ISO () mbq
+*   <> Language codes ISO () mbr
+*   <> Language codes ISO () mca
+*   <> Language codes ISO () mcf
+*   <> Language codes ISO () mcg
+*   <> Language codes ISO () mcm
+*   <> Language codes ISO () mcn
+*   <> Language codes ISO () mco
+*   <> Language codes ISO () mcu ‚ Ä ì Camerounian <>
+*   <> Language codes ISO () mcw
+*   <> Language codes ISO () mdd
+*   <> Language codes ISO () mdf
+*   <> Language codes ISO () mdh
+*   <> Language codes ISO () mdj
+*   <> Language codes ISO () mdk
+*   <> Language codes ISO () mdm
+*   <> Language codes ISO () mdn
+*   <> Language codes ISO () mdr
+*   <> Language codes ISO () mds
+*   <> Language codes ISO () mdx
+*   <> Language codes ISO () mdy
+*   <> Language codes ISO () mec
+*   <> Language codes ISO () med
+*   <> Language codes ISO () mei
+*   <> Language codes ISO () mej
+*   <> Language codes ISO () mel
+*   <> Language codes ISO () men
+*   <> Language codes ISO () meo
+*   <> Language codes ISO () mep
+*   <> Language codes ISO () meq
+*   <> Language codes ISO () mer
+*   <> Language codes ISO () mes
+*   <> Language codes ISO () meu
+*   <> Language codes ISO () mev
+*   <> Language codes ISO () mew
+*   <> Language codes ISO () mey
+*   <> Language codes ISO () mez
+*   <> Language codes ISO () mfa
+*   <> Language codes ISO () mfb
+*   <> Language codes ISO () mfc
+*   <> Language codes ISO () mfe
+*   <> Language codes ISO () mfh
+*   <> Language codes ISO () mfj
+*   <> Language codes ISO () mfk
+*   <> Language codes ISO () mfl
+*   <> Language codes ISO () mfp ‚ Ä ì <>
+*   <> Language codes ISO () mfs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () mfx
+*   <> Language codes ISO () mfy
+*   <> Language codes ISO () mg
+*   <> Language codes ISO () mga
+*   <> Language codes ISO () mgb
+*   <> Language codes ISO () mgd
+*   <> Language codes ISO () mge ‚ Ä ì Mango
+*   <> Language codes ISO () mgh
+*   <> Language codes ISO () mgl
+*   <> Language codes ISO () mgn
+*   <> Language codes ISO () mgp
+*   <> Language codes ISO () mgr
+*   <> Language codes ISO () mgu
+*   <> Language codes ISO () mgw
+*   <> Language codes ISO () mgy
+*   <> Language codes ISO () mgz
+*   <> Language codes ISO () mh
+*   <> Language codes ISO () mhc
+*   <> Language codes ISO () mhd
+*   <> Language codes ISO () mhi
+*   <> Language codes ISO () mhj
+*   <> Language codes ISO () mhn
+*   <> Language codes ISO () mhn ‚ Ä ì M √ ≥ cheno
+*   <> Language codes ISO () mhp ‚ Ä ì <>
+*   <> Language codes ISO () mhq
+*   <> Language codes ISO () mhr
+*   <> Language codes ISO () mhs
+*   <> Language codes ISO () mhw
+*   <> Language codes ISO () mhy
+*   <> Language codes ISO () mi
+*   <> Language codes ISO () mia
+*   <> Language codes ISO () mic
+*   <> Language codes ISO () mid
+*   <> Language codes ISO () mid ‚ Ä ì <>
+*   <> Language codes ISO () mif
+*   <> Language codes ISO () mik
+*   <> Language codes ISO () min
+*   <> Language codes ISO () min ( B )
+*   <> Language codes ISO () miq
+*   <> Language codes ISO () mir
+*   <> Language codes ISO () mir ‚ Ä ì <>
+*   <> Language codes ISO () mis
+*   <> Language codes ISO () mjd
+*   <> Language codes ISO () mjg
+*   <> Language codes ISO () mji
+*   <> Language codes ISO () mjk
+*   <> Language codes ISO () mjs
+*   <> Language codes ISO () mjt
+*   <> Language codes ISO () mjw
+*   <> Language codes ISO () mjy
+*   <> Language codes ISO () mk
+*   <> Language codes ISO () mka
+*   <> Language codes ISO () mkb
+*   <> Language codes ISO () mkd
+*   <> Language codes ISO () mkd ( T )
+*   <> Language codes ISO () mkf
+*   <> Language codes ISO () mkg
+*   <> Language codes ISO () mki
+*   <> Language codes ISO () mkj
+*   <> Language codes ISO () mku ‚ Ä ì <> Konyanka
+*   <> Language codes ISO () mkx
+*   <> Language codes ISO () mky
+*   <> Language codes ISO () mkz
+*   <> Language codes ISO () ml
+*   <> Language codes ISO () mla
+*   <> Language codes ISO () mlb
+*   <> Language codes ISO () mlg ( B )
+*   <> Language codes ISO () mlg ( T )
+*   <> Language codes ISO () mlg ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () mlj
+*   <> Language codes ISO () mlm
+*   <> Language codes ISO () mlo
+*   <> Language codes ISO () mlr
+*   <> Language codes ISO () mls
+*   <> Language codes ISO () mlt
+*   <> Language codes ISO () mlv
+*   <> Language codes ISO () mlw
+*   <> Language codes ISO () mmd
+*   <> Language codes ISO () mmf
+*   <> Language codes ISO () mmn
+*   <> Language codes ISO () mmp
+*   <> Language codes ISO () mmr ‚ Ä ì <> <>
+*   <> Language codes ISO () mmr ‚ Ä ì ]
+*   <> Language codes ISO () mmv
+*   <> Language codes ISO () mmy
+*   <> Language codes ISO () mn
+*   <> Language codes ISO () mna
+*   <> Language codes ISO () mnc
+*   <> Language codes ISO () mne
+*   <> Language codes ISO () mng ‚ Ä ì <>
+*   <> Language codes ISO () mnh
+*   <> Language codes ISO () mni
+*   <> Language codes ISO () mnj
+*   <> Language codes ISO () mnk
+*   <> Language codes ISO () mnn ‚ Ä ì <>
+*   <> Language codes ISO () mno
+*   <> Language codes ISO () mnp
+*   <> Language codes ISO () mnp ‚ Ä ì <>
+*   <> Language codes ISO () mnr
+*   <> Language codes ISO () mns
+*   <> Language codes ISO () mnu
+*   <> Language codes ISO () mnv
+*   <> Language codes ISO () mnw
+*   <> Language codes ISO () mnx
+*   <> Language codes ISO () moc
+*   <> Language codes ISO () mod
+*   <> Language codes ISO () moe
+*   <> Language codes ISO () moe ‚ Ä ì <>
+*   <> Language codes ISO () mof
+*   <> Language codes ISO () mog
+*   <> Language codes ISO () moh
+*   <> Language codes ISO () mok
+*   <> Language codes ISO () mom
+*   <> Language codes ISO () mom Linguist List
+*   <> Language codes ISO () mon
+*   <> Language codes ISO () mon ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () mop
+*   <> Language codes ISO () moq
+*   <> Language codes ISO () mor
+*   <> Language codes ISO () mos
+*   <> Language codes ISO () mot
+*   <> Language codes ISO () mou
+*   <> Language codes ISO () mov
+*   <> Language codes ISO () moy
+*   <> Language codes ISO () moz
+*   <> Language codes ISO () mpb
+*   <> Language codes ISO () mpe
+*   <> Language codes ISO () mpg
+*   <> Language codes ISO () mpi
+*   <> Language codes ISO () mpj ‚ Ä ì Martu Wangka
+*   <> Language codes ISO () mpn
+*   <> Language codes ISO () mpo
+*   <> Language codes ISO () mpr
+*   <> Language codes ISO () mps
+*   <> Language codes ISO () mpt
+*   <> Language codes ISO () mpx
+*   <> Language codes ISO () mqb
+*   <> Language codes ISO () mqm ‚ Ä ì <>
+*   <> Language codes ISO () mqs
+*   <> Language codes ISO () mqu
+*   <> Language codes ISO () mqx
+*   <> Language codes ISO () mqz
+*   <> Language codes ISO () mr
+*   <> Language codes ISO () mra
+*   <> Language codes ISO () mrc
+*   <> Language codes ISO () mre <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () mrf
+*   <> Language codes ISO () mrh
+*   <> Language codes ISO () mri
+*   <> Language codes ISO () mri ( T )
+*   <> Language codes ISO () mrj
+*   <> Language codes ISO () mrj ‚ Ä ì <> ( <> )
+*   <> Language codes ISO () mrm
+*   <> Language codes ISO () mrr
+*   <> Language codes ISO () mrt
+*   <> Language codes ISO () mrv
+*   <> Language codes ISO () mrw
+*   <> Language codes ISO () ms
+*   <> Language codes ISO () msa
+*   <> Language codes ISO () msa ( T )
+*   <> Language codes ISO () msa ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () msb
+*   <> Language codes ISO () msd <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () msh ‚ Ä ì Masikoro
+*   <> Language codes ISO () msl
+*   <> Language codes ISO () msr <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () msv
+*   <> Language codes ISO () mt
+*   <> Language codes ISO () mta
+*   <> Language codes ISO () mte
+*   <> Language codes ISO () mtl
+*   <> Language codes ISO () mtm
+*   <> Language codes ISO () mtn
+*   <> Language codes ISO () mto
+*   <> Language codes ISO () mto ‚ Ä ì <>
+*   <> Language codes ISO () mtp
+*   <> Language codes ISO () mtq
+*   <> Language codes ISO () mtr
+*   <> Language codes ISO () mtr ‚ Ä ì <>
+*   <> Language codes ISO () mts
+*   <> Language codes ISO () mtt
+*   <> Language codes ISO () mub
+*   <> Language codes ISO () mud
+*   <> Language codes ISO () mue
+*   <> Language codes ISO () mui
+*   <> Language codes ISO () muj
+*   <> Language codes ISO () mup
+*   <> Language codes ISO () mup ‚ Ä ì <>
+*   <> Language codes ISO () muq ‚ Ä ì <> <>
+*   <> Language codes ISO () muq ‚ Ä ì ]
+*   <> Language codes ISO () mur
+*   <> Language codes ISO () mus
+*   <> Language codes ISO () muu
+*   <> Language codes ISO () muy
+*   <> Language codes ISO () muz
+*   <> Language codes ISO () mva
+*   <> Language codes ISO () mvb
+*   <> Language codes ISO () mve ‚ Ä ì <> Pakistan )
+*   <> Language codes ISO () mvf ‚ Ä ì Peripheral <>
+*   <> Language codes ISO () mvh
+*   <> Language codes ISO () mvi
+*   <> Language codes ISO () mvl
+*   <> Language codes ISO () mvo
+*   <> Language codes ISO () mvs
+*   <> Language codes ISO () mvv
+*   <> Language codes ISO () mvz
+*   <> Language codes ISO () mwc
+*   <> Language codes ISO () mwf
+*   <> Language codes ISO () mwh
+*   <> Language codes ISO () mwj ‚ Ä ì Maligo
+*   <> Language codes ISO () mwl
+*   <> Language codes ISO () mwl ‚ Ä ì <>
+*   <> Language codes ISO () mwn
+*   <> Language codes ISO () mwp
+*   <> Language codes ISO () mwr
+*   <> Language codes ISO () mwr ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () mwv
+*   <> Language codes ISO () mww ‚ Ä ì ]
+*   <> Language codes ISO () mxc
+*   <> Language codes ISO () mxf
+*   <> Language codes ISO () mxi
+*   <> Language codes ISO () mxp
+*   <> Language codes ISO () mxp ‚ Ä ì <>
+*   <> Language codes ISO () mxq
+*   <> Language codes ISO () mxq ‚ Ä ì <>
+*   <> Language codes ISO () mxu
+*   <> Language codes ISO () my
+*   <> Language codes ISO () mya
+*   <> Language codes ISO () mya ( T )
+*   <> Language codes ISO () mye
+*   <> Language codes ISO () myf
+*   <> Language codes ISO () myh
+*   <> Language codes ISO () myk
+*   <> Language codes ISO () mym
+*   <> Language codes ISO () myn
+*   <> Language codes ISO () myo
+*   <> Language codes ISO () myp
+*   <> Language codes ISO () myr
+*   <> Language codes ISO () mys
+*   <> Language codes ISO () myu
+*   <> Language codes ISO () myv
+*   <> Language codes ISO () myx
+*   <> Language codes ISO () myz ‚ Ä ì <>
+*   <> Language codes ISO () mzb Berber-speaking areas of the Mzab
+*   <> Language codes ISO () mzc ‚ Ä ì <> language ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () mzg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () mzh
+*   <> Language codes ISO () mzi ‚ Ä ì Ixcatl √ ° n <>
+*   <> Language codes ISO () mzj
+*   <> Language codes ISO () mzj ‚ Ä ì <>
+*   <> Language codes ISO () mzl
+*   <> Language codes ISO () mzl ‚ Ä ì Mazatl √ ° n <>
+*   <> Language codes ISO () mzn
+*   <> Language codes ISO () mzp
+*   <> Language codes ISO () mzs
+*   <> Language codes ISO () na
+*   <> Language codes ISO () naa
+*   <> Language codes ISO () nab
+*   <> Language codes ISO () nag
+*   <> Language codes ISO () nah
+*   <> Language codes ISO () nai
+*   <> Language codes ISO () nak
+*   <> Language codes ISO () nal
+*   <> Language codes ISO () nam
+*   <> Language codes ISO () nan
+*   <> Language codes ISO () nan ‚ Ä ì <>
+*   <> Language codes ISO () nan-amo
+*   <> Language codes ISO () nan-cha ( Chao-Shan )
+*   <> Language codes ISO () nan-chs ( Chaozhou proper )
+*   <> Language codes ISO () nan-fuj ( redundant )
+*   <> Language codes ISO () nan-fuk ( redundant )
+*   <> Language codes ISO () nan-hai
+*   <> Language codes ISO () nan-han ( redundant )
+*   <> Language codes ISO () nan-hok
+*   <> Language codes ISO () nan-lei
+*   <> Language codes ISO () nan-lon ( Longdu )
+*   <> Language codes ISO () nan-sha
+*   <> Language codes ISO () nan-teo ( <> Ä ì ambiguous )
+*   <> Language codes ISO () nan-zhe
+*   <> Language codes ISO () nap
+*   <> Language codes ISO () naq ‚ Ä ì Nama
+*   <> Language codes ISO () nas
+*   <> Language codes ISO () nau
+*   <> Language codes ISO () nav
+*   <> Language codes ISO () nax
+*   <> Language codes ISO () nay
+*   <> Language codes ISO () naz ‚ Ä ì Coatepec <>
+*   <> Language codes ISO () nb ‚ Ä ì Bokm √ • l
+*   <> Language codes ISO () nbf
+*   <> Language codes ISO () nbg
+*   <> Language codes ISO () nbh
+*   <> Language codes ISO () nbl
+*   <> Language codes ISO () nbm
+*   <> Language codes ISO () nbw ‚ Ä ì <>
+*   <> Language codes ISO () nbx
+*   <> Language codes ISO () nce
+*   <> Language codes ISO () ncg
+*   <> Language codes ISO () nch
+*   <> Language codes ISO () nch ‚ Ä ì <> <>
+*   <> Language codes ISO () nci
+*   <> Language codes ISO () nci ‚ Ä ì <>
+*   <> Language codes ISO () ncj ‚ Ä ì <> <>
+*   <> Language codes ISO () nck
+*   <> Language codes ISO () ncl ‚ Ä ì Michoac √ ° n <>
+*   <> Language codes ISO () ncs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ncx ‚ Ä ì <> <>
+*   <> Language codes ISO () ncz
+*   <> Language codes ISO () nd
+*   <> Language codes ISO () ndc
+*   <> Language codes ISO () nde
+*   <> Language codes ISO () ndh
+*   <> Language codes ISO () ndm
+*   <> Language codes ISO () ndo
+*   <> Language codes ISO () ndo ‚ Ä ì <>
+*   <> Language codes ISO () nds
+*   <> Language codes ISO () nds ‚ Ä ì <>
+*   <> Language codes ISO () nds ‚ Ä ì <> ( generic )
+*   <> Language codes ISO () nds-mar
+*   <> Language codes ISO () nds-mec
+*   <> Language codes ISO () ne
+*   <> Language codes ISO () nec
+*   <> Language codes ISO () neg
+*   <> Language codes ISO () neh
+*   <> Language codes ISO () nep
+*   <> Language codes ISO () neq
+*   <> Language codes ISO () neq ‚ Ä ì <> <>
+*   <> Language codes ISO () net
+*   <> Language codes ISO () new
+*   <> Language codes ISO () nez
+*   <> Language codes ISO () nfa
+*   <> Language codes ISO () nfl
+*   <> Language codes ISO () nfr
+*   <> Language codes ISO () ng
+*   <> Language codes ISO () ng ‚ Ä ì <>
+*   <> Language codes ISO () nga
+*   <> Language codes ISO () ngc
+*   <> Language codes ISO () ngh
+*   <> Language codes ISO () ngi
+*   <> Language codes ISO () ngk
+*   <> Language codes ISO () ngl
+*   <> Language codes ISO () ngn
+*   <> Language codes ISO () ngp
+*   <> Language codes ISO () ngr
+*   <> Language codes ISO () ngs
+*   <> Language codes ISO () ngu ‚ Ä ì Guerrero <>
+*   <> Language codes ISO () ngv ‚ Ä ì Nagumi
+*   <> Language codes ISO () ngw
+*   <> Language codes ISO () nha
+*   <> Language codes ISO () nhc ‚ Ä ì Tabasco <>
+*   <> Language codes ISO () nhd
+*   <> Language codes ISO () nhe
+*   <> Language codes ISO () nhe ‚ Ä ì <> <>
+*   <> Language codes ISO () nhg
+*   <> Language codes ISO () nhg ‚ Ä ì <>
+*   <> Language codes ISO () nhh
+*   <> Language codes ISO () nhi ‚ Ä ì Tenango <>
+*   <> Language codes ISO () nhj ‚ Ä ì Tlalitzlipa <>
+*   <> Language codes ISO () nhk ‚ Ä ì Isthmus-Cosoleacaque <>
+*   <> Language codes ISO () nhm ‚ Ä ì Morelos <>
+*   <> Language codes ISO () nhn ‚ Ä ì <>
+*   <> Language codes ISO () nho
+*   <> Language codes ISO () nhp
+*   <> Language codes ISO () nhp ‚ Ä ì Isthmus-Pajapan <>
+*   <> Language codes ISO () nhq ‚ Ä ì Huaxcaleca <>
+*   <> Language codes ISO () nhr
+*   <> Language codes ISO () nhs ‚ Ä ì <> <>
+*   <> Language codes ISO () nht ‚ Ä ì Ometepec <>
+*   <> Language codes ISO () nhu
+*   <> Language codes ISO () nhv ‚ Ä ì Temascaltepec <>
+*   <> Language codes ISO () nhw ‚ Ä ì
+*   <> Language codes ISO () nhx
+*   <> Language codes ISO () nhx ‚ Ä ì Isthmus-Mecayapan <>
+*   <> Language codes ISO () nhy ‚ Ä ì <> <>
+*   <> Language codes ISO () nhz ‚ Ä ì <> √ ≠ a la Alta <>
+*   <> Language codes ISO () nia
+*   <> Language codes ISO () nie
+*   <> Language codes ISO () nig
+*   <> Language codes ISO () nij
+*   <> Language codes ISO () nim
+*   <> Language codes ISO () nio
+*   <> Language codes ISO () niu
+*   <> Language codes ISO () niv
+*   <> Language codes ISO () niw
+*   <> Language codes ISO () nja
+*   <> Language codes ISO () njh
+*   <> Language codes ISO () nji
+*   <> Language codes ISO () njm
+*   <> Language codes ISO () njo
+*   <> Language codes ISO () nke
+*   <> Language codes ISO () nkp
+*   <> Language codes ISO () nkr
+*   <> Language codes ISO () nkw
+*   <> Language codes ISO () nkx
+*   <> Language codes ISO () nl
+*   <> Language codes ISO () nld
+*   <> Language codes ISO () nld ( T )
+*   <> Language codes ISO () nle
+*   <> Language codes ISO () nlg
+*   <> Language codes ISO () nli
+*   <> Language codes ISO () nll
+*   <> Language codes ISO () nln
+*   <> Language codes ISO () nln ‚ Ä ì Durango <>
+*   <> Language codes ISO () nlr
+*   <> Language codes ISO () nlv
+*   <> Language codes ISO () nlv ‚ Ä ì <>
+*   <> Language codes ISO () nlx
+*   <> Language codes ISO () nlz ‚ Ä ì Nal √ ∂ go
+*   <> Language codes ISO () nmb
+*   <> Language codes ISO () nmg
+*   <> Language codes ISO () nmi
+*   <> Language codes ISO () nmj
+*   <> Language codes ISO () nmk
+*   <> Language codes ISO () nmn
+*   <> Language codes ISO () nmp
+*   <> Language codes ISO () nmr
+*   <> Language codes ISO () nmu
+*   <> Language codes ISO () nn ‚ Ä ì Nynorsk
+*   <> Language codes ISO () nna
+*   <> Language codes ISO () nnb
+*   <> Language codes ISO () nnh
+*   <> Language codes ISO () nnj
+*   <> Language codes ISO () nno ‚ Ä ì Nynorsk
+*   <> Language codes ISO () nnr
+*   <> Language codes ISO () nnt
+*   <> Language codes ISO () nnv
+*   <> Language codes ISO () nny ‚ Ä ì Nyannga
+*   <> Language codes ISO () no ‚ Ä ì <>
+*   <> Language codes ISO () noa
+*   <> Language codes ISO () nob ‚ Ä ì Bokm √ • l
+*   <> Language codes ISO () nod
+*   <> Language codes ISO () noe
+*   <> Language codes ISO () nog
+*   <> Language codes ISO () nok
+*   <> Language codes ISO () non
+*   <> Language codes ISO () non-gre ‚ Ä ì
+*   <> Language codes ISO () non-gut
+*   <> Language codes ISO () non-swe ‚ Ä ì
+*   <> Language codes ISO () noo
+*   <> Language codes ISO () nop
+*   <> Language codes ISO () nor ‚ Ä ì <>
+*   <> Language codes ISO () nor ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () nov
+*   <> Language codes ISO () now at the <> . Michael ' s name appears in red : Nubians during the period frequently used <> names
+*   <> Language codes ISO () noy
+*   <> Language codes ISO () noz
+*   <> Language codes ISO () npa
+*   <> Language codes ISO () nph
+*   <> Language codes ISO () npn
+*   <> Language codes ISO () nqm
+*   <> Language codes ISO () nqo
+*   <> Language codes ISO () nr
+*   <> Language codes ISO () nrb
+*   <> Language codes ISO () nrc
+*   <> Language codes ISO () nrm
+*   <> Language codes ISO () nrn
+*   <> Language codes ISO () nrp Approximate distribution of languages in Iron Age Italy during the sixth century BC .
+*   <> Language codes ISO () nrt
+*   <> Language codes ISO () nrx
+*   <> Language codes ISO () nse
+*   <> Language codes ISO () nsg
+*   <> Language codes ISO () nsk
+*   <> Language codes ISO () nso
+*   <> Language codes ISO () nsp <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () nsr <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () nsz
+*   <> Language codes ISO () ntj
+*   <> Language codes ISO () ntj ‚ Ä ì <>
+*   <> Language codes ISO () nts
+*   <> Language codes ISO () nub
+*   <> Language codes ISO () nug
+*   <> Language codes ISO () nui
+*   <> Language codes ISO () nuj
+*   <> Language codes ISO () num
+*   <> Language codes ISO () nun
+*   <> Language codes ISO () nuo
+*   <> Language codes ISO () nup
+*   <> Language codes ISO () nus
+*   <> Language codes ISO () nut
+*   <> Language codes ISO () nux
+*   <> Language codes ISO () nuy
+*   <> Language codes ISO () nuz ‚ Ä ì Tlamacazapa <>
+*   <> Language codes ISO () nv
+*   <> Language codes ISO () nwa
+*   <> Language codes ISO () nwb
+*   <> Language codes ISO () nwc
+*   <> Language codes ISO () nxg
+*   <> Language codes ISO () nxn
+*   <> Language codes ISO () ny
+*   <> Language codes ISO () nya
+*   <> Language codes ISO () nyc
+*   <> Language codes ISO () nyd
+*   <> Language codes ISO () nyh
+*   <> Language codes ISO () nyj
+*   <> Language codes ISO () nym
+*   <> Language codes ISO () nyn
+*   <> Language codes ISO () nyo
+*   <> Language codes ISO () nyp
+*   <> Language codes ISO () nys
+*   <> Language codes ISO () nyv
+*   <> Language codes ISO () nyw
+*   <> Language codes ISO () nyy
+*   <> Language codes ISO () nzi
+*   <> Language codes ISO () nzs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () oaa
+*   <> Language codes ISO () oac
+*   <> Language codes ISO () oar
+*   <> Language codes ISO () oar ‚ Ä ì <> ( before () BCE )
+*   <> Language codes ISO () obi
+*   <> Language codes ISO () obi ‚ Ä ì Obispe √ ± o
+*   <> Language codes ISO () obm
+*   <> Language codes ISO () obr
+*   <> Language codes ISO () oc
+*   <> Language codes ISO () oca
+*   <> Language codes ISO () och
+*   <> Language codes ISO () och ‚ Ä ì <>
+*   <> Language codes ISO () oci
+*   <> Language codes ISO () oci-auv
+*   <> Language codes ISO () oci-lim
+*   <> Language codes ISO () oci-nic ‚ Ä ì
+*   <> Language codes ISO () oci-prv
+*   <> Language codes ISO () odt
+*   <> Language codes ISO () odu
+*   <> Language codes ISO () ofo
+*   <> Language codes ISO () ofs
+*   <> Language codes ISO () often with a terminal () Œ π added .
+*   <> Language codes ISO () ogc
+*   <> Language codes ISO () oge
+*   <> Language codes ISO () oia
+*   <> Language codes ISO () oj
+*   <> Language codes ISO () ojb
+*   <> Language codes ISO () ojb ‚ Ä ì <>
+*   <> Language codes ISO () ojc
+*   <> Language codes ISO () ojc ‚ Ä ì <>
+*   <> Language codes ISO () ojg
+*   <> Language codes ISO () ojg ‚ Ä ì <>
+*   <> Language codes ISO () oji
+*   <> Language codes ISO () oji ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () ojp
+*   <> Language codes ISO () ojp ‚ Ä ì but see caveat
+*   <> Language codes ISO () ojs
+*   <> Language codes ISO () ojw
+*   <> Language codes ISO () ojw ‚ Ä ì <>
+*   <> Language codes ISO () oka
+*   <> Language codes ISO () oki
+*   <> Language codes ISO () okj
+*   <> Language codes ISO () okl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () oko
+*   <> Language codes ISO () ole
+*   <> Language codes ISO () olo
+*   <> Language codes ISO () om
+*   <> Language codes ISO () oma
+*   <> Language codes ISO () omb
+*   <> Language codes ISO () omc
+*   <> Language codes ISO () omi
+*   <> Language codes ISO () omo
+*   <> Language codes ISO () omu
+*   <> Language codes ISO () ona
+*   <> Language codes ISO () onb
+*   <> Language codes ISO () one
+*   <> Language codes ISO () ono
+*   <> Language codes ISO () onw
+*   <> Language codes ISO () ood
+*   <> Language codes ISO () oon A map of tribal and language divisions in the Andaman Islands prior to the () s
+*   <> Language codes ISO () oor
+*   <> Language codes ISO () opm
+*   <> Language codes ISO () opt
+*   <> Language codes ISO () opy
+*   <> Language codes ISO () or
+*   <> Language codes ISO () ora
+*   <> Language codes ISO () orc
+*   <> Language codes ISO () orc ‚ Ä ì <>
+*   <> Language codes ISO () org
+*   <> Language codes ISO () orh
+*   <> Language codes ISO () ori
+*   <> Language codes ISO () orm
+*   <> Language codes ISO () orm ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () orn
+*   <> Language codes ISO () oro
+*   <> Language codes ISO () ors ( B )
+*   <> Language codes ISO () ors ( T )
+*   <> Language codes ISO () oru
+*   <> Language codes ISO () orv
+*   <> Language codes ISO () orv-olr
+*   <> Language codes ISO () orv-olr ( <> )
+*   <> Language codes ISO () orw
+*   <> Language codes ISO () os
+*   <> Language codes ISO () osa
+*   <> Language codes ISO () osc
+*   <> Language codes ISO () osi
+*   <> Language codes ISO () osi ‚ Ä ì <>
+*   <> Language codes ISO () osp
+*   <> Language codes ISO () oss
+*   <> Language codes ISO () osx
+*   <> Language codes ISO () ota
+*   <> Language codes ISO () ote
+*   <> Language codes ISO () oti
+*   <> Language codes ISO () otk
+*   <> Language codes ISO () otl ‚ Ä ì Tilapa <>
+*   <> Language codes ISO () otm
+*   <> Language codes ISO () otm ‚ Ä ì <>
+*   <> Language codes ISO () otn ‚ Ä ì Tenango <>
+*   <> Language codes ISO () oto
+*   <> Language codes ISO () otq ‚ Ä ì Quer √ © taro <>
+*   <> Language codes ISO () ots ‚ Ä ì Estado de M √ © xico <>
+*   <> Language codes ISO () ott
+*   <> Language codes ISO () ott ‚ Ä ì <>
+*   <> Language codes ISO () otw
+*   <> Language codes ISO () otw ‚ Ä ì <>
+*   <> Language codes ISO () otx ‚ Ä ì Texcatepec <>
+*   <> Language codes ISO () otz ‚ Ä ì Ixtenco <>
+*   <> Language codes ISO () oua Berber-speaking areas of the Mzab
+*   <> Language codes ISO () oub
+*   <> Language codes ISO () oun
+*   <> Language codes ISO () owi
+*   <> Language codes ISO () owl
+*   <> Language codes ISO () oyd
+*   <> Language codes ISO () pa
+*   <> Language codes ISO () pac
+*   <> Language codes ISO () pad
+*   <> Language codes ISO () pag
+*   <> Language codes ISO () pal
+*   <> Language codes ISO () pal ( see text left )
+*   <> Language codes ISO () pam
+*   <> Language codes ISO () pan
+*   <> Language codes ISO () pao
+*   <> Language codes ISO () pap
+*   <> Language codes ISO () paq
+*   <> Language codes ISO () par
+*   <> Language codes ISO () pau
+*   <> Language codes ISO () pav
+*   <> Language codes ISO () paw
+*   <> Language codes ISO () pax ‚ Ä ì Pankarar √ ©
+*   <> Language codes ISO () pay
+*   <> Language codes ISO () pbb
+*   <> Language codes ISO () pbc
+*   <> Language codes ISO () pbh
+*   <> Language codes ISO () pbt ‚ Ä ì <>
+*   <> Language codes ISO () pbu ‚ Ä ì <>
+*   <> Language codes ISO () pbv
+*   <> Language codes ISO () pby
+*   <> Language codes ISO () pcc
+*   <> Language codes ISO () pcd
+*   <> Language codes ISO () pch
+*   <> Language codes ISO () pci
+*   <> Language codes ISO () pcm
+*   <> Language codes ISO () pcp
+*   <> Language codes ISO () pcw
+*   <> Language codes ISO () pdc
+*   <> Language codes ISO () pdc ‚ Ä ì <>
+*   <> Language codes ISO () pdt
+*   <> Language codes ISO () pdt ‚ Ä ì <>
+*   <> Language codes ISO () peb
+*   <> Language codes ISO () pef
+*   <> Language codes ISO () peh
+*   <> Language codes ISO () pei
+*   <> Language codes ISO () pej
+*   <> Language codes ISO () peo
+*   <> Language codes ISO () peq
+*   <> Language codes ISO () per ( B )
+*   <> Language codes ISO () pev
+*   <> Language codes ISO () pex
+*   <> Language codes ISO () pey
+*   <> Language codes ISO () pfl
+*   <> Language codes ISO () pfl ‚ Ä ì Palatinate <>
+*   <> Language codes ISO () pga
+*   <> Language codes ISO () pgk
+*   <> Language codes ISO () pgl
+*   <> Language codes ISO () pha
+*   <> Language codes ISO () phh
+*   <> Language codes ISO () phl
+*   <> Language codes ISO () phn
+*   <> Language codes ISO () phr
+*   <> Language codes ISO () pht
+*   <> Language codes ISO () phu
+*   <> Language codes ISO () phv ‚ Ä ì Pahlavani
+*   <> Language codes ISO () pia
+*   <> Language codes ISO () pib
+*   <> Language codes ISO () pif
+*   <> Language codes ISO () pig
+*   <> Language codes ISO () pih
+*   <> Language codes ISO () pij
+*   <> Language codes ISO () pim
+*   <> Language codes ISO () pis
+*   <> Language codes ISO () pit
+*   <> Language codes ISO () piu
+*   <> Language codes ISO () piu ‚ Ä ì Pintupi-Luritja
+*   <> Language codes ISO () piv
+*   <> Language codes ISO () pjt
+*   <> Language codes ISO () pjt ‚ Ä ì <>
+*   <> Language codes ISO () pka
+*   <> Language codes ISO () pkb
+*   <> Language codes ISO () pkc ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () pkn
+*   <> Language codes ISO () pko
+*   <> Language codes ISO () pkp
+*   <> Language codes ISO () pks ‚ Ä ì Pakistani Sign <> language ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () pl
+*   <> Language codes ISO () pld
+*   <> Language codes ISO () ple
+*   <> Language codes ISO () plg
+*   <> Language codes ISO () pln
+*   <> Language codes ISO () plo
+*   <> Language codes ISO () plo ‚ Ä ì <>
+*   <> Language codes ISO () plp
+*   <> Language codes ISO () plq
+*   <> Language codes ISO () plr
+*   <> Language codes ISO () plt ‚ Ä ì <>
+*   <> Language codes ISO () ply
+*   <> Language codes ISO () pma
+*   <> Language codes ISO () pmf
+*   <> Language codes ISO () pmh
+*   <> Language codes ISO () pmj ‚ Ä ì <>
+*   <> Language codes ISO () pmk ‚ Ä ì Pamlico
+*   <> Language codes ISO () pml
+*   <> Language codes ISO () pmq ‚ Ä ì <>
+*   <> Language codes ISO () pmr
+*   <> Language codes ISO () pms
+*   <> Language codes ISO () pmt
+*   <> Language codes ISO () pmu
+*   <> Language codes ISO () pmw
+*   <> Language codes ISO () pmz ‚ Ä ì <>
+*   <> Language codes ISO () pnb
+*   <> Language codes ISO () png
+*   <> Language codes ISO () pnh
+*   <> Language codes ISO () pnh ‚ Ä ì Tongareva dialect ( <>
+*   <> Language codes ISO () pnn
+*   <> Language codes ISO () pnt
+*   <> Language codes ISO () pnt ‚ Ä ì <>
+*   <> Language codes ISO () pnu
+*   <> Language codes ISO () pnw
+*   <> Language codes ISO () pnx
+*   <> Language codes ISO () pny
+*   <> Language codes ISO () poc
+*   <> Language codes ISO () pog
+*   <> Language codes ISO () poh
+*   <> Language codes ISO () poi
+*   <> Language codes ISO () poi ‚ Ä ì <>
+*   <> Language codes ISO () pol
+*   <> Language codes ISO () pom
+*   <> Language codes ISO () pon
+*   <> Language codes ISO () poo
+*   <> Language codes ISO () poq
+*   <> Language codes ISO () poq ‚ Ä ì <>
+*   <> Language codes ISO () por
+*   <> Language codes ISO () pos
+*   <> Language codes ISO () pos ‚ Ä ì <>
+*   <> Language codes ISO () pot
+*   <> Language codes ISO () pov
+*   <> Language codes ISO () pox
+*   <> Language codes ISO () ppi
+*   <> Language codes ISO () ppl
+*   <> Language codes ISO () ppl ‚ Ä ì <>
+*   <> Language codes ISO () ppo
+*   <> Language codes ISO () pqa
+*   <> Language codes ISO () pqm
+*   <> Language codes ISO () prc
+*   <> Language codes ISO () pre
+*   <> Language codes ISO () prg
+*   <> Language codes ISO () prh
+*   <> Language codes ISO () pri
+*   <> Language codes ISO () prl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () prm
+*   <> Language codes ISO () prn
+*   <> Language codes ISO () pro
+*   <> Language codes ISO () prq
+*   <> Language codes ISO () prs ‚ Ä ì Afghan <>
+*   <> Language codes ISO () prz <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ps
+*   <> Language codes ISO () psc <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () psd <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () pse
+*   <> Language codes ISO () psg <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () psh ‚ Ä ì <>
+*   <> Language codes ISO () psi ‚ Ä ì <>
+*   <> Language codes ISO () pso <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () psp <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () psr <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () pss
+*   <> Language codes ISO () psu
+*   <> Language codes ISO () psy
+*   <> Language codes ISO () pt
+*   <> Language codes ISO () pth
+*   <> Language codes ISO () pto
+*   <> Language codes ISO () ptw
+*   <> Language codes ISO () pua ‚ Ä ì <>
+*   <> Language codes ISO () pue
+*   <> Language codes ISO () pug
+*   <> Language codes ISO () pui
+*   <> Language codes ISO () pum
+*   <> Language codes ISO () puq
+*   <> Language codes ISO () pur
+*   <> Language codes ISO () pus
+*   <> Language codes ISO () pus ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () puy ‚ Ä ì Purisime √ ± o
+*   <> Language codes ISO () pwa
+*   <> Language codes ISO () pwn
+*   <> Language codes ISO () pxm
+*   <> Language codes ISO () pxm ‚ Ä ì <>
+*   <> Language codes ISO () pyu
+*   <> Language codes ISO () pyx
+*   <> Language codes ISO () q06 ‚ Ä ì
+*   <> Language codes ISO () qbt ( Alyentiyak )
+*   <> Language codes ISO () qbz ‚ Ä ì Paunaka-Paikone
+*   <> Language codes ISO () qc5
+*   <> Language codes ISO () qcs ‚ Ä ì ] ]
+*   <> Language codes ISO () qcx
+*   <> Language codes ISO () qe8
+*   <> Language codes ISO () qef ‚ Ä ì
+*   <> Language codes ISO () qer ‚ Ä ì
+*   <> Language codes ISO () qfi ‚ Ä ì
+*   <> Language codes ISO () qfn ( Cuica )
+*   <> Language codes ISO () qfu ‚ Ä ì
+*   <> Language codes ISO () qgb ( Milykayak )
+*   <> Language codes ISO () qgg
+*   <> Language codes ISO () qgu
+*   <> Language codes ISO () qhy
+*   <> Language codes ISO () qic
+*   <> Language codes ISO () qij
+*   <> Language codes ISO () qjg ‚ Ä ì
+*   <> Language codes ISO () qjm ‚ Ä ì [ http : / / multitree . org / codes / qjm . html
+*   <> Language codes ISO () qjt ‚ Ä ì
+*   <> Language codes ISO () ql4 ‚ Ä ì
+*   <> Language codes ISO () ql8 ‚ Ä ì
+*   <> Language codes ISO () qlf ‚ Ä ì
+*   <> Language codes ISO () qoi
+*   <> Language codes ISO () qot ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () qp8 ‚ Ä ì
+*   <> Language codes ISO () qpb
+*   <> Language codes ISO () qpg
+*   <> Language codes ISO () qpj ( <>
+*   <> Language codes ISO () qr4
+*   <> Language codes ISO () qs1 ‚ Ä ì
+*   <> Language codes ISO () qs7
+*   <> Language codes ISO () qtd
+*   <> Language codes ISO () qu
+*   <> Language codes ISO () quc
+*   <> Language codes ISO () que
+*   <> Language codes ISO () quf
+*   <> Language codes ISO () quh
+*   <> Language codes ISO () qui
+*   <> Language codes ISO () quk
+*   <> Language codes ISO () qum
+*   <> Language codes ISO () qus
+*   <> Language codes ISO () qut
+*   <> Language codes ISO () quv
+*   <> Language codes ISO () quy
+*   <> Language codes ISO () quz
+*   <> Language codes ISO () qvc
+*   <> Language codes ISO () qvn ‚ Ä ì Huamal √ ≠ es y Norte de Dos de <>
+*   <> Language codes ISO () qvp
+*   <> Language codes ISO () qvs
+*   <> Language codes ISO () qwh ‚ Ä ì Huaylas
+*   <> Language codes ISO () qwm
+*   <> Language codes ISO () qws ‚ Ä ì Sihuas
+*   <> Language codes ISO () qxn ‚ Ä ì Norte de Conchucos
+*   <> Language codes ISO () qxo ‚ Ä ì Sur de Conchucos
+*   <> Language codes ISO () qxp
+*   <> Language codes ISO () qxq
+*   <> Language codes ISO () qxs
+*   <> Language codes ISO () qxw ‚ Ä ì Shawsha <>
+*   <> Language codes ISO () qya Ah ! like gold fall the leaves in the wind , long years numberless as the wings of trees ! The beginning of the <> <> ° ri √ ´ written in tengwar and in <> .
+*   <> Language codes ISO () qyp
+*   <> Language codes ISO () rab
+*   <> Language codes ISO () rac
+*   <> Language codes ISO () raj
+*   <> Language codes ISO () raj ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () rak
+*   <> Language codes ISO () ram
+*   <> Language codes ISO () rap
+*   <> Language codes ISO () rar
+*   <> Language codes ISO () ras
+*   <> Language codes ISO () rav
+*   <> Language codes ISO () ray
+*   <> Language codes ISO () rbl ‚ Ä ì Miraya <>
+*   <> Language codes ISO () rcf
+*   <> Language codes ISO () rej
+*   <> Language codes ISO () rel
+*   <> Language codes ISO () rem
+*   <> Language codes ISO () ren
+*   <> Language codes ISO () rey
+*   <> Language codes ISO () rge
+*   <> Language codes ISO () rgk
+*   <> Language codes ISO () rgn
+*   <> Language codes ISO () rgn ‚ Ä ì Romagnol
+*   <> Language codes ISO () rhg
+*   <> Language codes ISO () rif
+*   <> Language codes ISO () rim
+*   <> Language codes ISO () rit ‚ Ä ì Ritharngu
+*   <> Language codes ISO () rkb
+*   <> Language codes ISO () rkh
+*   <> Language codes ISO () rkh ‚ Ä ì <>
+*   <> Language codes ISO () rki
+*   <> Language codes ISO () rkm
+*   <> Language codes ISO () rkt
+*   <> Language codes ISO () rm
+*   <> Language codes ISO () rma
+*   <> Language codes ISO () rmc ‚ Ä ì Carpathian <>
+*   <> Language codes ISO () rme
+*   <> Language codes ISO () rmf
+*   <> Language codes ISO () rmf ‚ Ä ì <>
+*   <> Language codes ISO () rmg
+*   <> Language codes ISO () rmh
+*   <> Language codes ISO () rmi
+*   <> Language codes ISO () rml ‚ Ä ì Baltic <>
+*   <> Language codes ISO () rmm
+*   <> Language codes ISO () rmn
+*   <> Language codes ISO () rmo
+*   <> Language codes ISO () rmo ‚ Ä ì Sinte <>
+*   <> Language codes ISO () rmq
+*   <> Language codes ISO () rmt
+*   <> Language codes ISO () rmu
+*   <> Language codes ISO () rmw
+*   <> Language codes ISO () rmw ‚ Ä ì <>
+*   <> Language codes ISO () rmy
+*   <> Language codes ISO () rmy ‚ Ä ì <>
+*   <> Language codes ISO () rn
+*   <> Language codes ISO () rng
+*   <> Language codes ISO () ro
+*   <> Language codes ISO () rof
+*   <> Language codes ISO () roh
+*   <> Language codes ISO () rol
+*   <> Language codes ISO () rom
+*   <> Language codes ISO () rom ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () ron
+*   <> Language codes ISO () ron ( T )
+*   <> Language codes ISO () roo
+*   <> Language codes ISO () rop
+*   <> Language codes ISO () rro
+*   <> Language codes ISO () rsb
+*   <> Language codes ISO () rsi <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () rsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () rtm
+*   <> Language codes ISO () ru
+*   <> Language codes ISO () rue
+*   <> Language codes ISO () rue ( T )
+*   <> Language codes ISO () ruf
+*   <> Language codes ISO () rug
+*   <> Language codes ISO () rum ( B )
+*   <> Language codes ISO () run
+*   <> Language codes ISO () ruo
+*   <> Language codes ISO () rup
+*   <> Language codes ISO () ruq
+*   <> Language codes ISO () rus
+*   <> Language codes ISO () rut
+*   <> Language codes ISO () rw
+*   <> Language codes ISO () rwm
+*   <> Language codes ISO () rwr ‚ Ä ì <> India )
+*   <> Language codes ISO () ryn ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () rys
+*   <> Language codes ISO () ryu
+*   <> Language codes ISO () sa
+*   <> Language codes ISO () saa
+*   <> Language codes ISO () sad
+*   <> Language codes ISO () sag
+*   <> Language codes ISO () sag ( B )
+*   <> Language codes ISO () sag ( T )
+*   <> Language codes ISO () sah
+*   <> Language codes ISO () sai ( Collective )
+*   <> Language codes ISO () sal
+*   <> Language codes ISO () sam
+*   <> Language codes ISO () sam ‚ Ä ì <>
+*   <> Language codes ISO () san
+*   <> Language codes ISO () sap
+*   <> Language codes ISO () saq
+*   <> Language codes ISO () sar
+*   <> Language codes ISO () sas
+*   <> Language codes ISO () sat
+*   <> Language codes ISO () saw
+*   <> Language codes ISO () sax
+*   <> Language codes ISO () saz
+*   <> Language codes ISO () sba
+*   <> Language codes ISO () sbb
+*   <> Language codes ISO () sbc
+*   <> Language codes ISO () sbf
+*   <> Language codes ISO () sbh
+*   <> Language codes ISO () sbp
+*   <> Language codes ISO () sbs
+*   <> Language codes ISO () sbv
+*   <> Language codes ISO () sc
+*   <> Language codes ISO () sc or co
+*   <> Language codes ISO () scb
+*   <> Language codes ISO () sce
+*   <> Language codes ISO () sci
+*   <> Language codes ISO () scl
+*   <> Language codes ISO () scn
+*   <> Language codes ISO () sco
+*   <> Language codes ISO () scr , scc ( deprecated )
+*   <> Language codes ISO () scw
+*   <> Language codes ISO () sd
+*   <> Language codes ISO () sdb
+*   <> Language codes ISO () sdc
+*   <> Language codes ISO () sdc ‚ Ä ì <>
+*   <> Language codes ISO () sdh
+*   <> Language codes ISO () sdh ‚ Ä ì <>
+*   <> Language codes ISO () sdl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () sdn
+*   <> Language codes ISO () sdn ‚ Ä ì <>
+*   <> Language codes ISO () sdr ‚ Ä ì Oraon <>
+*   <> Language codes ISO () sds
+*   <> Language codes ISO () sdt
+*   <> Language codes ISO () sdz
+*   <> Language codes ISO () se
+*   <> Language codes ISO () se ( <> )
+*   <> Language codes ISO () sea
+*   <> Language codes ISO () sec
+*   <> Language codes ISO () sed
+*   <> Language codes ISO () see
+*   <> Language codes ISO () seh
+*   <> Language codes ISO () sei
+*   <> Language codes ISO () sek
+*   <> Language codes ISO () sel
+*   <> Language codes ISO () sen
+*   <> Language codes ISO () sep
+*   <> Language codes ISO () ser
+*   <> Language codes ISO () ses
+*   <> Language codes ISO () set
+*   <> Language codes ISO () sfm ‚ Ä ì Small Flowery <>
+*   <> Language codes ISO () sfm ‚ Ä ì ]
+*   <> Language codes ISO () sfs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () sg
+*   <> Language codes ISO () sga
+*   <> Language codes ISO () sgb
+*   <> Language codes ISO () sgc
+*   <> Language codes ISO () sgd
+*   <> Language codes ISO () sgh
+*   <> Language codes ISO () sgh-bar
+*   <> Language codes ISO () sgl ‚ Ä ì Sanglechi ‚ Ä ì <>
+*   <> Language codes ISO () sgn
+*   <> Language codes ISO () sgn-DE
+*   <> Language codes ISO () sgn-ES
+*   <> Language codes ISO () sgn-MY
+*   <> Language codes ISO () sgn-NL
+*   <> Language codes ISO () sgn-NZ
+*   <> Language codes ISO () sgn-US-HI
+*   <> Language codes ISO () sgn-US-MA
+*   <> Language codes ISO () sgr
+*   <> Language codes ISO () sgs
+*   <> Language codes ISO () sgt
+*   <> Language codes ISO () sgw
+*   <> Language codes ISO () sgz
+*   <> Language codes ISO () sh ( deprecated )
+*   <> Language codes ISO () shb
+*   <> Language codes ISO () she
+*   <> Language codes ISO () shg
+*   <> Language codes ISO () shh
+*   <> Language codes ISO () shi
+*   <> Language codes ISO () shj
+*   <> Language codes ISO () shk
+*   <> Language codes ISO () shn
+*   <> Language codes ISO () shp
+*   <> Language codes ISO () shs
+*   <> Language codes ISO () sht
+*   <> Language codes ISO () shu
+*   <> Language codes ISO () shv
+*   <> Language codes ISO () shx
+*   <> Language codes ISO () shy
+*   <> Language codes ISO () si
+*   <> Language codes ISO () sia
+*   <> Language codes ISO () sid
+*   <> Language codes ISO () sif
+*   <> Language codes ISO () sii
+*   <> Language codes ISO () sij
+*   <> Language codes ISO () sik
+*   <> Language codes ISO () sin
+*   <> Language codes ISO () sio
+*   <> Language codes ISO () sio ‚ Ä î Siouan ( collective )
+*   <> Language codes ISO () sip
+*   <> Language codes ISO () sir
+*   <> Language codes ISO () sis
+*   <> Language codes ISO () siy
+*   <> Language codes ISO () siz
+*   <> Language codes ISO () sjd
+*   <> Language codes ISO () sjd ‚ Ä ì <>
+*   <> Language codes ISO () sje <> is () on this map .
+*   <> Language codes ISO () sje ‚ Ä ì <>
+*   <> Language codes ISO () sjg
+*   <> Language codes ISO () sjk
+*   <> Language codes ISO () sjk ‚ Ä ì <>
+*   <> Language codes ISO () sjn
+*   <> Language codes ISO () sjo
+*   <> Language codes ISO () sjs
+*   <> Language codes ISO () sjt <> is number () on the map .
+*   <> Language codes ISO () sjt ‚ Ä ì <>
+*   <> Language codes ISO () sju <> is () on this map .
+*   <> Language codes ISO () sju ‚ Ä ì <>
+*   <> Language codes ISO () sjw
+*   <> Language codes ISO () sk
+*   <> Language codes ISO () skb
+*   <> Language codes ISO () skd
+*   <> Language codes ISO () ske
+*   <> Language codes ISO () skg ‚ Ä ì Sakalava
+*   <> Language codes ISO () skh
+*   <> Language codes ISO () ski
+*   <> Language codes ISO () skr
+*   <> Language codes ISO () sku
+*   <> Language codes ISO () skw
+*   <> Language codes ISO () sl
+*   <> Language codes ISO () sla ( B )
+*   <> Language codes ISO () slc
+*   <> Language codes ISO () slf ‚ Ä ì <> SL <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () sli
+*   <> Language codes ISO () sli ‚ Ä ì <>
+*   <> Language codes ISO () slk
+*   <> Language codes ISO () slk ( T )
+*   <> Language codes ISO () sln
+*   <> Language codes ISO () slo ( B )
+*   <> Language codes ISO () slq
+*   <> Language codes ISO () slr
+*   <> Language codes ISO () sls <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () slv
+*   <> Language codes ISO () slv-pre
+*   <> Language codes ISO () slv-res
+*   <> Language codes ISO () sly
+*   <> Language codes ISO () slz
+*   <> Language codes ISO () sm
+*   <> Language codes ISO () sma
+*   <> Language codes ISO () sma ‚ Ä ì <>
+*   <> Language codes ISO () sme
+*   <> Language codes ISO () sme ‚ Ä ì <>
+*   <> Language codes ISO () smi
+*   <> Language codes ISO () smj
+*   <> Language codes ISO () smj <> is () on this map .
+*   <> Language codes ISO () smj ‚ Ä ì <>
+*   <> Language codes ISO () smk
+*   <> Language codes ISO () smm
+*   <> Language codes ISO () smn
+*   <> Language codes ISO () smn <> is () on this map .
+*   <> Language codes ISO () smn ‚ Ä ì <>
+*   <> Language codes ISO () smo
+*   <> Language codes ISO () smr
+*   <> Language codes ISO () sms
+*   <> Language codes ISO () sms ‚ Ä ì <>
+*   <> Language codes ISO () smv ‚ Ä ì <>
+*   <> Language codes ISO () smw
+*   <> Language codes ISO () sn
+*   <> Language codes ISO () sna
+*   <> Language codes ISO () snd
+*   <> Language codes ISO () snk
+*   <> Language codes ISO () snn
+*   <> Language codes ISO () snq
+*   <> Language codes ISO () so
+*   <> Language codes ISO () sob
+*   <> Language codes ISO () sog
+*   <> Language codes ISO () soh
+*   <> Language codes ISO () sok
+*   <> Language codes ISO () som
+*   <> Language codes ISO () some neighbouring languages
+*   <> Language codes ISO () sop
+*   <> Language codes ISO () sor
+*   <> Language codes ISO () sot
+*   <> Language codes ISO () sou
+*   <> Language codes ISO () sov
+*   <> Language codes ISO () soz
+*   <> Language codes ISO () spa
+*   <> Language codes ISO () spc
+*   <> Language codes ISO () spi
+*   <> Language codes ISO () spo ‚ Ä ì Spokane
+*   <> Language codes ISO () spp
+*   <> Language codes ISO () spx Approximate distribution of languages in Iron Age Italy during the () th century BC .
+*   <> Language codes ISO () sq
+*   <> Language codes ISO () sqi ( T )
+*   <> Language codes ISO () sqi ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () sqn
+*   <> Language codes ISO () sqr
+*   <> Language codes ISO () sqs <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () sqt
+*   <> Language codes ISO () squ
+*   <> Language codes ISO () sr
+*   <> Language codes ISO () srb
+*   <> Language codes ISO () src
+*   <> Language codes ISO () src ‚ Ä ì <>
+*   <> Language codes ISO () srd
+*   <> Language codes ISO () srd or cos
+*   <> Language codes ISO () srd ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () sre
+*   <> Language codes ISO () srh
+*   <> Language codes ISO () srl
+*   <> Language codes ISO () srm
+*   <> Language codes ISO () srn
+*   <> Language codes ISO () srp
+*   <> Language codes ISO () srp ‚ Ä ì Ethnologue identifies it as an alternate name of <>
+*   <> Language codes ISO () srp-tor ‚ Ä ì
+*   <> Language codes ISO () srr
+*   <> Language codes ISO () srs
+*   <> Language codes ISO () ss
+*   <> Language codes ISO () ssa
+*   <> Language codes ISO () ssf
+*   <> Language codes ISO () ssg
+*   <> Language codes ISO () ssh
+*   <> Language codes ISO () ssi
+*   <> Language codes ISO () ssk
+*   <> Language codes ISO () ssl
+*   <> Language codes ISO () sso
+*   <> Language codes ISO () ssp <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ssr ‚ Ä ì <> SL
+*   <> Language codes ISO () ssu
+*   <> Language codes ISO () ssv
+*   <> Language codes ISO () ssw
+*   <> Language codes ISO () ssy
+*   <> Language codes ISO () ssz
+*   <> Language codes ISO () st
+*   <> Language codes ISO () stc ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () std
+*   <> Language codes ISO () sth
+*   <> Language codes ISO () stl
+*   <> Language codes ISO () stn
+*   <> Language codes ISO () stp ‚ Ä ì <> √ ° n
+*   <> Language codes ISO () stq
+*   <> Language codes ISO () stq ‚ Ä ì <>
+*   <> Language codes ISO () str
+*   <> Language codes ISO () sts
+*   <> Language codes ISO () su
+*   <> Language codes ISO () sua
+*   <> Language codes ISO () sui
+*   <> Language codes ISO () suj
+*   <> Language codes ISO () suk
+*   <> Language codes ISO () sum
+*   <> Language codes ISO () sun
+*   <> Language codes ISO () suq
+*   <> Language codes ISO () sur
+*   <> Language codes ISO () sus
+*   <> Language codes ISO () sus Where it is mainly spoken
+*   <> Language codes ISO () sut
+*   <> Language codes ISO () sux
+*   <> Language codes ISO () suz
+*   <> Language codes ISO () sv
+*   <> Language codes ISO () sva
+*   <> Language codes ISO () svc
+*   <> Language codes ISO () svs
+*   <> Language codes ISO () sw
+*   <> Language codes ISO () swa
+*   <> Language codes ISO () swa ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () swb
+*   <> Language codes ISO () swb ‚ Ä ì Maore <>
+*   <> Language codes ISO () swe
+*   <> Language codes ISO () swg
+*   <> Language codes ISO () swg ‚ Ä ì <>
+*   <> Language codes ISO () swh ‚ Ä ì <>
+*   <> Language codes ISO () swh ‚ Ä ì Chimwiini
+*   <> Language codes ISO () swh ‚ Ä ì Coastal <>
+*   <> Language codes ISO () swi
+*   <> Language codes ISO () swl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () swn
+*   <> Language codes ISO () swo
+*   <> Language codes ISO () swq
+*   <> Language codes ISO () swv
+*   <> Language codes ISO () sww
+*   <> Language codes ISO () swx
+*   <> Language codes ISO () swy
+*   <> Language codes ISO () sxb
+*   <> Language codes ISO () sxc
+*   <> Language codes ISO () sxl
+*   <> Language codes ISO () sxn
+*   <> Language codes ISO () sxo
+*   <> Language codes ISO () sxr
+*   <> Language codes ISO () sxu
+*   <> Language codes ISO () sxu ‚ Ä ì <>
+*   <> Language codes ISO () syc ( classical )
+*   <> Language codes ISO () syc ‚ Ä ì <> classical )
+*   <> Language codes ISO () syi
+*   <> Language codes ISO () syk
+*   <> Language codes ISO () syl
+*   <> Language codes ISO () syn
+*   <> Language codes ISO () syn ‚ Ä ì <>
+*   <> Language codes ISO () syr
+*   <> Language codes ISO () sys
+*   <> Language codes ISO () syy <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () sza
+*   <> Language codes ISO () sze
+*   <> Language codes ISO () szl
+*   <> Language codes ISO () szw
+*   <> Language codes ISO () ta
+*   <> Language codes ISO () taa
+*   <> Language codes ISO () tab
+*   <> Language codes ISO () tad
+*   <> Language codes ISO () tae
+*   <> Language codes ISO () tag
+*   <> Language codes ISO () tah
+*   <> Language codes ISO () tai
+*   <> Language codes ISO () taj
+*   <> Language codes ISO () tal
+*   <> Language codes ISO () tam
+*   <> Language codes ISO () tan
+*   <> Language codes ISO () tao
+*   <> Language codes ISO () taq ‚ Ä ì Tamasheq
+*   <> Language codes ISO () tar
+*   <> Language codes ISO () tas
+*   <> Language codes ISO () tat
+*   <> Language codes ISO () tau
+*   <> Language codes ISO () tax
+*   <> Language codes ISO () tay
+*   <> Language codes ISO () tba
+*   <> Language codes ISO () tbb
+*   <> Language codes ISO () tbd
+*   <> Language codes ISO () tbf
+*   <> Language codes ISO () tbh
+*   <> Language codes ISO () tbi
+*   <> Language codes ISO () tbn ‚ Ä ì Barro Negro Tunebo
+*   <> Language codes ISO () tbu
+*   <> Language codes ISO () tca
+*   <> Language codes ISO () tcb
+*   <> Language codes ISO () tcc
+*   <> Language codes ISO () tcf
+*   <> Language codes ISO () tch
+*   <> Language codes ISO () tcm
+*   <> Language codes ISO () tcs
+*   <> Language codes ISO () tct
+*   <> Language codes ISO () tcx
+*   <> Language codes ISO () tcy
+*   <> Language codes ISO () tdd
+*   <> Language codes ISO () tdh
+*   <> Language codes ISO () tdk
+*   <> Language codes ISO () tdx ‚ Ä ì Tandroy-Mafahaly
+*   <> Language codes ISO () tdy
+*   <> Language codes ISO () te
+*   <> Language codes ISO () teb
+*   <> Language codes ISO () teh
+*   <> Language codes ISO () tel
+*   <> Language codes ISO () tem
+*   <> Language codes ISO () ten
+*   <> Language codes ISO () teo
+*   <> Language codes ISO () tep
+*   <> Language codes ISO () tep ‚ Ä ì <>
+*   <> Language codes ISO () teq
+*   <> Language codes ISO () ter
+*   <> Language codes ISO () tes ‚ Ä ì Tenggerese
+*   <> Language codes ISO () tet
+*   <> Language codes ISO () teu
+*   <> Language codes ISO () tew
+*   <> Language codes ISO () tfn
+*   <> Language codes ISO () tfr
+*   <> Language codes ISO () tft
+*   <> Language codes ISO () tg
+*   <> Language codes ISO () tgc
+*   <> Language codes ISO () tgd
+*   <> Language codes ISO () tgf
+*   <> Language codes ISO () tgh
+*   <> Language codes ISO () tgk
+*   <> Language codes ISO () tgk ‚ Ä ì <>
+*   <> Language codes ISO () tgl
+*   <> Language codes ISO () tgl-bag
+*   <> Language codes ISO () tgp
+*   <> Language codes ISO () tgv
+*   <> Language codes ISO () tgx
+*   <> Language codes ISO () th
+*   <> Language codes ISO () tha
+*   <> Language codes ISO () thd
+*   <> Language codes ISO () thm
+*   <> Language codes ISO () thp
+*   <> Language codes ISO () tht
+*   <> Language codes ISO () thv
+*   <> Language codes ISO () thz
+*   <> Language codes ISO () thz ‚ Ä ì Tayart Tamajeq
+*   <> Language codes ISO () ti
+*   <> Language codes ISO () tib ( B )
+*   <> Language codes ISO () tic
+*   <> Language codes ISO () tif
+*   <> Language codes ISO () tig
+*   <> Language codes ISO () til
+*   <> Language codes ISO () tin
+*   <> Language codes ISO () tiq
+*   <> Language codes ISO () tir
+*   <> Language codes ISO () tit
+*   <> Language codes ISO () tiv
+*   <> Language codes ISO () tiw
+*   <> Language codes ISO () tix
+*   <> Language codes ISO () tja
+*   <> Language codes ISO () tji ‚ Ä ì <>
+*   <> Language codes ISO () tjm
+*   <> Language codes ISO () tjm ‚ Ä ì ( <>
+*   <> Language codes ISO () tjo
+*   <> Language codes ISO () tju
+*   <> Language codes ISO () tk
+*   <> Language codes ISO () tka
+*   <> Language codes ISO () tkd
+*   <> Language codes ISO () tkl
+*   <> Language codes ISO () tkm
+*   <> Language codes ISO () tkp
+*   <> Language codes ISO () tkq
+*   <> Language codes ISO () tkr
+*   <> Language codes ISO () tks
+*   <> Language codes ISO () tkw
+*   <> Language codes ISO () tl
+*   <> Language codes ISO () tla ‚ Ä ì <> √ ° n
+*   <> Language codes ISO () tlb
+*   <> Language codes ISO () tlc
+*   <> Language codes ISO () tlc ‚ Ä ì <>
+*   <> Language codes ISO () tlf
+*   <> Language codes ISO () tlg
+*   <> Language codes ISO () tlh
+*   <> Language codes ISO () tli
+*   <> Language codes ISO () tlj
+*   <> Language codes ISO () tll
+*   <> Language codes ISO () tlm
+*   <> Language codes ISO () tlp ‚ Ä ì <> Filomeno Mata-Coahuitl √ ° n
+*   <> Language codes ISO () tlx
+*   <> Language codes ISO () tly
+*   <> Language codes ISO () tma
+*   <> Language codes ISO () tmc
+*   <> Language codes ISO () tmd
+*   <> Language codes ISO () tme
+*   <> Language codes ISO () tmg
+*   <> Language codes ISO () tmh
+*   <> Language codes ISO () tmh ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () tmj
+*   <> Language codes ISO () tmr
+*   <> Language codes ISO () tmr ‚ Ä ì <> <>
+*   <> Language codes ISO () tms
+*   <> Language codes ISO () tmw
+*   <> Language codes ISO () tn
+*   <> Language codes ISO () tna
+*   <> Language codes ISO () tnb ‚ Ä ì <>
+*   <> Language codes ISO () tnp
+*   <> Language codes ISO () tnq
+*   <> Language codes ISO () tnv
+*   <> Language codes ISO () to
+*   <> Language codes ISO () to the left in brown
+*   <> Language codes ISO () to the left in chartreuse
+*   <> Language codes ISO () to the left in green
+*   <> Language codes ISO () to the left in pink
+*   <> Language codes ISO () tob
+*   <> Language codes ISO () toi
+*   <> Language codes ISO () toj
+*   <> Language codes ISO () tol
+*   <> Language codes ISO () ton
+*   <> Language codes ISO () too ‚ Ä ì <> Xicotepec
+*   <> Language codes ISO () top
+*   <> Language codes ISO () top ‚ Ä ì <>
+*   <> Language codes ISO () toq
+*   <> Language codes ISO () tos
+*   <> Language codes ISO () tos ‚ Ä ì <>
+*   <> Language codes ISO () tot ‚ Ä ì <> <>
+*   <> Language codes ISO () tow
+*   <> Language codes ISO () tox
+*   <> Language codes ISO () tpc
+*   <> Language codes ISO () tpi
+*   <> Language codes ISO () tpj
+*   <> Language codes ISO () tpl
+*   <> Language codes ISO () tpn ‚ Ä ì Tupinamb √ °
+*   <> Language codes ISO () tpp ‚ Ä ì <> Pisaflores
+*   <> Language codes ISO () tpt ‚ Ä ì <> Tlachichilco
+*   <> Language codes ISO () tpv
+*   <> Language codes ISO () tpx
+*   <> Language codes ISO () tpy
+*   <> Language codes ISO () tqn ‚ Ä ì Tenino
+*   <> Language codes ISO () tqq
+*   <> Language codes ISO () tqt ‚ Ä ì <> Ozumatl √ ° n
+*   <> Language codes ISO () tqu
+*   <> Language codes ISO () tqw
+*   <> Language codes ISO () tr
+*   <> Language codes ISO () trf
+*   <> Language codes ISO () trg
+*   <> Language codes ISO () trg ‚ Ä ì Lish √ ° n Did √ ° n
+*   <> Language codes ISO () tri
+*   <> Language codes ISO () trj
+*   <> Language codes ISO () trl
+*   <> Language codes ISO () trm
+*   <> Language codes ISO () trn ‚ Ä ì Trinitario <>
+*   <> Language codes ISO () trp
+*   <> Language codes ISO () trq ‚ Ä ì <> √ ≠ n Itunyoso
+*   <> Language codes ISO () trr
+*   <> Language codes ISO () trs ‚ Ä ì Chicahuaxtla
+*   <> Language codes ISO () trt
+*   <> Language codes ISO () tru
+*   <> Language codes ISO () tru ‚ Ä ì Turoyo
+*   <> Language codes ISO () trv
+*   <> Language codes ISO () trw
+*   <> Language codes ISO () try
+*   <> Language codes ISO () ts
+*   <> Language codes ISO () tsb
+*   <> Language codes ISO () tsc
+*   <> Language codes ISO () tsd
+*   <> Language codes ISO () tsd ‚ Ä ì <>
+*   <> Language codes ISO () tsg
+*   <> Language codes ISO () tsh
+*   <> Language codes ISO () tsi
+*   <> Language codes ISO () tsj
+*   <> Language codes ISO () tsl
+*   <> Language codes ISO () tsm <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () tsn
+*   <> Language codes ISO () tso
+*   <> Language codes ISO () tsp ‚ Ä ì <>
+*   <> Language codes ISO () tsq <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () tss <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () tsu
+*   <> Language codes ISO () tt
+*   <> Language codes ISO () tta
+*   <> Language codes ISO () ttc
+*   <> Language codes ISO () ttj
+*   <> Language codes ISO () ttm ‚ Ä ì <>
+*   <> Language codes ISO () ttq
+*   <> Language codes ISO () ttq ‚ Ä ì Tawallammat Tamajaq
+*   <> Language codes ISO () ttr
+*   <> Language codes ISO () tts
+*   <> Language codes ISO () ttt
+*   <> Language codes ISO () tub
+*   <> Language codes ISO () tud
+*   <> Language codes ISO () tue
+*   <> Language codes ISO () tuf ‚ Ä ì <>
+*   <> Language codes ISO () tui
+*   <> Language codes ISO () tuk
+*   <> Language codes ISO () tum
+*   <> Language codes ISO () tun
+*   <> Language codes ISO () tuo
+*   <> Language codes ISO () tup
+*   <> Language codes ISO () tuq
+*   <> Language codes ISO () tur
+*   <> Language codes ISO () tur-kar
+*   <> Language codes ISO () tus Pre-contact distribution of <>
+*   <> Language codes ISO () tuv
+*   <> Language codes ISO () tuy
+*   <> Language codes ISO () tvl
+*   <> Language codes ISO () tvo
+*   <> Language codes ISO () tvy
+*   <> Language codes ISO () twa
+*   <> Language codes ISO () twb ‚ Ä ì <>
+*   <> Language codes ISO () twc
+*   <> Language codes ISO () twd
+*   <> Language codes ISO () twf
+*   <> Language codes ISO () twf ‚ Ä ì <>
+*   <> Language codes ISO () twi ‚ Ä ì Twi language
+*   <> Language codes ISO () twm
+*   <> Language codes ISO () txb ‚ Ä ì <>
+*   <> Language codes ISO () txc
+*   <> Language codes ISO () txe
+*   <> Language codes ISO () txg
+*   <> Language codes ISO () txh
+*   <> Language codes ISO () txo
+*   <> Language codes ISO () txr
+*   <> Language codes ISO () txt
+*   <> Language codes ISO () txy ‚ Ä ì Tanosy
+*   <> Language codes ISO () ty
+*   <> Language codes ISO () tya
+*   <> Language codes ISO () typ
+*   <> Language codes ISO () tyu ‚ Ä ì Kua
+*   <> Language codes ISO () tyv
+*   <> Language codes ISO () tza <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () tzb
+*   <> Language codes ISO () tzc
+*   <> Language codes ISO () tzh
+*   <> Language codes ISO () tzj
+*   <> Language codes ISO () tzm
+*   <> Language codes ISO () tzm-cen
+*   <> Language codes ISO () tzn ‚ Ä ì Tugun
+*   <> Language codes ISO () tzo
+*   <> Language codes ISO () uam
+*   <> Language codes ISO () ubi
+*   <> Language codes ISO () uby
+*   <> Language codes ISO () ude
+*   <> Language codes ISO () udi
+*   <> Language codes ISO () udl
+*   <> Language codes ISO () udm
+*   <> Language codes ISO () udu
+*   <> Language codes ISO () ug
+*   <> Language codes ISO () uga
+*   <> Language codes ISO () uge
+*   <> Language codes ISO () ugn <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ugo
+*   <> Language codes ISO () uhn
+*   <> Language codes ISO () uig
+*   <> Language codes ISO () uk
+*   <> Language codes ISO () ukq ‚ Ä ì Ukwa
+*   <> Language codes ISO () ukr
+*   <> Language codes ISO () uks <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ulc
+*   <> Language codes ISO () ule
+*   <> Language codes ISO () ulf
+*   <> Language codes ISO () uli
+*   <> Language codes ISO () ulk
+*   <> Language codes ISO () uln
+*   <> Language codes ISO () uln ‚ Ä ì <>
+*   <> Language codes ISO () uma
+*   <> Language codes ISO () umb
+*   <> Language codes ISO () umo
+*   <> Language codes ISO () umr
+*   <> Language codes ISO () umu
+*   <> Language codes ISO () ung
+*   <> Language codes ISO () unk
+*   <> Language codes ISO () unm
+*   <> Language codes ISO () unm ‚ Ä ì <>
+*   <> Language codes ISO () unx ‚ Ä ì Munda
+*   <> Language codes ISO () upv
+*   <> Language codes ISO () ur
+*   <> Language codes ISO () ura
+*   <> Language codes ISO () urd
+*   <> Language codes ISO () urd ‚ Ä ì <>
+*   <> Language codes ISO () ure
+*   <> Language codes ISO () urf
+*   <> Language codes ISO () urf ‚ Ä ì <>
+*   <> Language codes ISO () urh
+*   <> Language codes ISO () urm
+*   <> Language codes ISO () urv
+*   <> Language codes ISO () urw
+*   <> Language codes ISO () usa
+*   <> Language codes ISO () ush
+*   <> Language codes ISO () usp
+*   <> Language codes ISO () ute
+*   <> Language codes ISO () uum
+*   <> Language codes ISO () uun
+*   <> Language codes ISO () uuu
+*   <> Language codes ISO () uve
+*   <> Language codes ISO () uvl
+*   <> Language codes ISO () uwa
+*   <> Language codes ISO () uz
+*   <> Language codes ISO () uzb
+*   <> Language codes ISO () uzb ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () uzn
+*   <> Language codes ISO () uzs
+*   <> Language codes ISO () uzs ‚ Ä ì <>
+*   <> Language codes ISO () vah
+*   <> Language codes ISO () vai
+*   <> Language codes ISO () vaj ‚ Ä ì Vasekela
+*   <> Language codes ISO () vao
+*   <> Language codes ISO () var
+*   <> Language codes ISO () variously
+*   <> Language codes ISO () vay
+*   <> Language codes ISO () ve
+*   <> Language codes ISO () vec
+*   <> Language codes ISO () ved
+*   <> Language codes ISO () vel
+*   <> Language codes ISO () ven
+*   <> Language codes ISO () veo
+*   <> Language codes ISO () veo ‚ Ä ì Venture √ ± o
+*   <> Language codes ISO () vep
+*   <> Language codes ISO () vgt <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () vi
+*   <> Language codes ISO () vic
+*   <> Language codes ISO () vie
+*   <> Language codes ISO () vig
+*   <> Language codes ISO () vil
+*   <> Language codes ISO () vkj
+*   <> Language codes ISO () vkp
+*   <> Language codes ISO () vku
+*   <> Language codes ISO () vls
+*   <> Language codes ISO () vma
+*   <> Language codes ISO () vmb
+*   <> Language codes ISO () vmf
+*   <> Language codes ISO () vmf ‚ Ä ì Main-Franconian
+*   <> Language codes ISO () vmg
+*   <> Language codes ISO () vmi ‚ Ä ì Miwa
+*   <> Language codes ISO () vmk
+*   <> Language codes ISO () vml
+*   <> Language codes ISO () vmp ‚ Ä ì Soyaltepec <>
+*   <> Language codes ISO () vmv
+*   <> Language codes ISO () vmw
+*   <> Language codes ISO () vmy ‚ Ä ì Ayautla <>
+*   <> Language codes ISO () vmz ‚ Ä ì Mazatl √ ° n <>
+*   <> Language codes ISO () vo
+*   <> Language codes ISO () vol
+*   <> Language codes ISO () vor
+*   <> Language codes ISO () vot
+*   <> Language codes ISO () vro
+*   <> Language codes ISO () vro ‚ Ä ì V √ µ ro
+*   <> Language codes ISO () vsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () vsv <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () vun
+*   <> Language codes ISO () wa
+*   <> Language codes ISO () waa ‚ Ä ì Walla Walla
+*   <> Language codes ISO () wab
+*   <> Language codes ISO () wac
+*   <> Language codes ISO () wae
+*   <> Language codes ISO () wae ‚ Ä ì <>
+*   <> Language codes ISO () wae ‚ Ä ì <> The traditional distribution area of <> <> = <> dialect features in the () th and () th century
+*   <> Language codes ISO () waf
+*   <> Language codes ISO () wak
+*   <> Language codes ISO () wal
+*   <> Language codes ISO () wam
+*   <> Language codes ISO () wao
+*   <> Language codes ISO () waq
+*   <> Language codes ISO () war
+*   <> Language codes ISO () was
+*   <> Language codes ISO () wba
+*   <> Language codes ISO () wbj
+*   <> Language codes ISO () wbk
+*   <> Language codes ISO () wbl
+*   <> Language codes ISO () wbp
+*   <> Language codes ISO () wbr
+*   <> Language codes ISO () wbr ‚ Ä ì <>
+*   <> Language codes ISO () wbv
+*   <> Language codes ISO () wbw
+*   <> Language codes ISO () wdg
+*   <> Language codes ISO () wec ‚ Ä ì W √ ® <>
+*   <> Language codes ISO () wel ( B )
+*   <> Language codes ISO () wep
+*   <> Language codes ISO () wep ‚ Ä ì <>
+*   <> Language codes ISO () wes
+*   <> Language codes ISO () wet ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () wet ‚ Ä ì Parai
+*   <> Language codes ISO () wgi
+*   <> Language codes ISO () when <> would have been spoken
+*   <> Language codes ISO () which is still spoken
+*   <> Language codes ISO () wic
+*   <> Language codes ISO () wig
+*   <> Language codes ISO () wik
+*   <> Language codes ISO () wil ‚ Ä ì Wilawila
+*   <> Language codes ISO () wim
+*   <> Language codes ISO () win
+*   <> Language codes ISO () wit
+*   <> Language codes ISO () wiu
+*   <> Language codes ISO () wiv
+*   <> Language codes ISO () wiw
+*   <> Language codes ISO () wiw ‚ Ä ì <>
+*   <> Language codes ISO () wiy
+*   <> Language codes ISO () wji
+*   <> Language codes ISO () wka
+*   <> Language codes ISO () wlc ‚ Ä ì Mwali dialect
+*   <> Language codes ISO () wle ‚ Ä ì Wolane
+*   <> Language codes ISO () wlk
+*   <> Language codes ISO () wlm
+*   <> Language codes ISO () wln
+*   <> Language codes ISO () wlo
+*   <> Language codes ISO () wls
+*   <> Language codes ISO () wlv
+*   <> Language codes ISO () wma
+*   <> Language codes ISO () wmb
+*   <> Language codes ISO () wmd
+*   <> Language codes ISO () wme
+*   <> Language codes ISO () wmh
+*   <> Language codes ISO () wmo
+*   <> Language codes ISO () wms
+*   <> Language codes ISO () wmt
+*   <> Language codes ISO () wmw
+*   <> Language codes ISO () wnd
+*   <> Language codes ISO () wni ‚ Ä ì Ndzwani dialect
+*   <> Language codes ISO () wnk
+*   <> Language codes ISO () wo
+*   <> Language codes ISO () wob ‚ Ä ì W √ ® <>
+*   <> Language codes ISO () woe
+*   <> Language codes ISO () wof ‚ Ä ì Gambian <>
+*   <> Language codes ISO () wog
+*   <> Language codes ISO () wol
+*   <> Language codes ISO () would have been geographically isolated in <>
+*   <> Language codes ISO () woy
+*   <> Language codes ISO () wpc
+*   <> Language codes ISO () wpc ‚ Ä ì <>
+*   <> Language codes ISO () wra
+*   <> Language codes ISO () wrb
+*   <> Language codes ISO () wrg
+*   <> Language codes ISO () wrh
+*   <> Language codes ISO () wrl
+*   <> Language codes ISO () wrm
+*   <> Language codes ISO () wrr
+*   <> Language codes ISO () wrs
+*   <> Language codes ISO () wry ‚ Ä ì Merwari
+*   <> Language codes ISO () wrz
+*   <> Language codes ISO () wsa
+*   <> Language codes ISO () wsu
+*   <> Language codes ISO () wtf External link
+*   <> Language codes ISO () wti
+*   <> Language codes ISO () wtm
+*   <> Language codes ISO () wuh
+*   <> Language codes ISO () wur
+*   <> Language codes ISO () wut
+*   <> Language codes ISO () wuu
+*   <> Language codes ISO () wuu ‚ Ä ì <>
+*   <> Language codes ISO () wuu-chh
+*   <> Language codes ISO () wuu-chu
+*   <> Language codes ISO () wuu-haz
+*   <> Language codes ISO () wuu-ouj
+*   <> Language codes ISO () wuu-pil
+*   <> Language codes ISO () wuu-sha
+*   <> Language codes ISO () wuu-suh
+*   <> Language codes ISO () wuu-tai
+*   <> Language codes ISO () wuu-taz
+*   <> Language codes ISO () wuu-wux
+*   <> Language codes ISO () wuu-wuz
+*   <> Language codes ISO () wuu-xua ‚ Ä ì
+*   <> Language codes ISO () wuv
+*   <> Language codes ISO () wwo
+*   <> Language codes ISO () wwr
+*   <> Language codes ISO () www
+*   <> Language codes ISO () wxa
+*   <> Language codes ISO () wya
+*   <> Language codes ISO () wyb
+*   <> Language codes ISO () wym
+*   <> Language codes ISO () wyy
+*   <> Language codes ISO () xaa
+*   <> Language codes ISO () xac
+*   <> Language codes ISO () xad
+*   <> Language codes ISO () xae Abraham Ortelius ' s map of ancient Latium , published in ()
+*   <> Language codes ISO () xag
+*   <> Language codes ISO () xai
+*   <> Language codes ISO () xal
+*   <> Language codes ISO () xam
+*   <> Language codes ISO () xan
+*   <> Language codes ISO () xaq
+*   <> Language codes ISO () xas
+*   <> Language codes ISO () xat
+*   <> Language codes ISO () xav
+*   <> Language codes ISO () xaw
+*   <> Language codes ISO () xba
+*   <> Language codes ISO () xbc
+*   <> Language codes ISO () xbo
+*   <> Language codes ISO () xbr
+*   <> Language codes ISO () xbw
+*   <> Language codes ISO () xcb
+*   <> Language codes ISO () xcc
+*   <> Language codes ISO () xce
+*   <> Language codes ISO () xcg
+*   <> Language codes ISO () xcg ‚ Ä ì <>
+*   <> Language codes ISO () xcl
+*   <> Language codes ISO () xcl ‚ Ä ì <>
+*   <> Language codes ISO () xcn
+*   <> Language codes ISO () xco
+*   <> Language codes ISO () xcr
+*   <> Language codes ISO () xcu
+*   <> Language codes ISO () xcw
+*   <> Language codes ISO () xcy
+*   <> Language codes ISO () xdc
+*   <> Language codes ISO () xeb
+*   <> Language codes ISO () xeg
+*   <> Language codes ISO () xep ‚ Ä ì ? Epi-Olmec
+*   <> Language codes ISO () xfa
+*   <> Language codes ISO () xga Map showing the Roman province of Galatia .
+*   <> Language codes ISO () xga ‚ Ä ì <>
+*   <> Language codes ISO () xgf
+*   <> Language codes ISO () xgl
+*   <> Language codes ISO () xh
+*   <> Language codes ISO () xhc
+*   <> Language codes ISO () xhd
+*   <> Language codes ISO () xho
+*   <> Language codes ISO () xht
+*   <> Language codes ISO () xhu
+*   <> Language codes ISO () xib
+*   <> Language codes ISO () xii
+*   <> Language codes ISO () xil
+*   <> Language codes ISO () xin
+*   <> Language codes ISO () xir
+*   <> Language codes ISO () xiv
+*   <> Language codes ISO () xiy
+*   <> Language codes ISO () xkc
+*   <> Language codes ISO () xke
+*   <> Language codes ISO () xkf
+*   <> Language codes ISO () xkh
+*   <> Language codes ISO () xki <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () xkr
+*   <> Language codes ISO () xkv
+*   <> Language codes ISO () xkw
+*   <> Language codes ISO () xkx
+*   <> Language codes ISO () xkz
+*   <> Language codes ISO () xla
+*   <> Language codes ISO () xlc
+*   <> Language codes ISO () xld
+*   <> Language codes ISO () xle
+*   <> Language codes ISO () xlg
+*   <> Language codes ISO () xli
+*   <> Language codes ISO () xlp
+*   <> Language codes ISO () xlp ‚ Ä ì <>
+*   <> Language codes ISO () xls
+*   <> Language codes ISO () xma
+*   <> Language codes ISO () xmd
+*   <> Language codes ISO () xme
+*   <> Language codes ISO () xmf
+*   <> Language codes ISO () xmk
+*   <> Language codes ISO () xml <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () xmm
+*   <> Language codes ISO () xmr
+*   <> Language codes ISO () xmu
+*   <> Language codes ISO () xmw ‚ Ä ì Tsimihety
+*   <> Language codes ISO () xna
+*   <> Language codes ISO () xnb
+*   <> Language codes ISO () xng
+*   <> Language codes ISO () xno
+*   <> Language codes ISO () xno ( <>
+*   <> Language codes ISO () xnr
+*   <> Language codes ISO () xnr ‚ Ä ì <>
+*   <> Language codes ISO () xog
+*   <> Language codes ISO () xom
+*   <> Language codes ISO () xpc
+*   <> Language codes ISO () xpe ‚ Ä ì Liberia <>
+*   <> Language codes ISO () xpg
+*   <> Language codes ISO () xpi
+*   <> Language codes ISO () xpm
+*   <> Language codes ISO () xpn
+*   <> Language codes ISO () xpo
+*   <> Language codes ISO () xpr
+*   <> Language codes ISO () xps
+*   <> Language codes ISO () xpu
+*   <> Language codes ISO () xpy
+*   <> Language codes ISO () xqt
+*   <> Language codes ISO () xre
+*   <> Language codes ISO () xrn
+*   <> Language codes ISO () xrr
+*   <> Language codes ISO () xrt
+*   <> Language codes ISO () xsa
+*   <> Language codes ISO () xsb
+*   <> Language codes ISO () xsc
+*   <> Language codes ISO () xsd
+*   <> Language codes ISO () xse
+*   <> Language codes ISO () xsi
+*   <> Language codes ISO () xsl ‚ Ä ì <>
+*   <> Language codes ISO () xsm
+*   <> Language codes ISO () xso
+*   <> Language codes ISO () xsr
+*   <> Language codes ISO () xss
+*   <> Language codes ISO () xsu
+*   <> Language codes ISO () xsv
+*   <> Language codes ISO () xsy
+*   <> Language codes ISO () xtc
+*   <> Language codes ISO () xtq ‚ Ä ì Tumshuqese
+*   <> Language codes ISO () xtz
+*   <> Language codes ISO () xub
+*   <> Language codes ISO () xug
+*   <> Language codes ISO () xum Approximate distribution of languages in Iron Age Italy during the () th century BC .
+*   <> Language codes ISO () xur
+*   <> Language codes ISO () xve
+*   <> Language codes ISO () xvi
+*   <> Language codes ISO () xvn
+*   <> Language codes ISO () xvo
+*   <> Language codes ISO () xvs
+*   <> Language codes ISO () xwa
+*   <> Language codes ISO () xwg
+*   <> Language codes ISO () xwo ‚ Ä ì Written <>
+*   <> Language codes ISO () xxb
+*   <> Language codes ISO () xxt
+*   <> Language codes ISO () xzh
+*   <> Language codes ISO () xzm
+*   <> Language codes ISO () yaa
+*   <> Language codes ISO () yad
+*   <> Language codes ISO () yae
+*   <> Language codes ISO () yaf
+*   <> Language codes ISO () yag
+*   <> Language codes ISO () yah
+*   <> Language codes ISO () yai
+*   <> Language codes ISO () yak ‚ Ä ì Yakima
+*   <> Language codes ISO () yal
+*   <> Language codes ISO () yao
+*   <> Language codes ISO () yap
+*   <> Language codes ISO () yaq
+*   <> Language codes ISO () yar
+*   <> Language codes ISO () yau
+*   <> Language codes ISO () yax
+*   <> Language codes ISO () ybd
+*   <> Language codes ISO () ybe
+*   <> Language codes ISO () ybh
+*   <> Language codes ISO () ybi
+*   <> Language codes ISO () ydg
+*   <> Language codes ISO () yee
+*   <> Language codes ISO () yei
+*   <> Language codes ISO () yej
+*   <> Language codes ISO () yeu
+*   <> Language codes ISO () yey
+*   <> Language codes ISO () yha
+*   <> Language codes ISO () yha ‚ Ä ì Baha <>
+*   <> Language codes ISO () yhd
+*   <> Language codes ISO () yi
+*   <> Language codes ISO () yia
+*   <> Language codes ISO () yid
+*   <> Language codes ISO () yid ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () yih ‚ Ä ì <>
+*   <> Language codes ISO () yii
+*   <> Language codes ISO () yij
+*   <> Language codes ISO () yiy
+*   <> Language codes ISO () yiy-jir
+*   <> Language codes ISO () ykg
+*   <> Language codes ISO () yki
+*   <> Language codes ISO () yle
+*   <> Language codes ISO () yln ‚ Ä ì Langnian <>
+*   <> Language codes ISO () ylr
+*   <> Language codes ISO () yme
+*   <> Language codes ISO () ymm
+*   <> Language codes ISO () yms
+*   <> Language codes ISO () ynk
+*   <> Language codes ISO () ynn
+*   <> Language codes ISO () yo
+*   <> Language codes ISO () yoi
+*   <> Language codes ISO () yok
+*   <> Language codes ISO () yol
+*   <> Language codes ISO () yor
+*   <> Language codes ISO () yri
+*   <> Language codes ISO () yrk
+*   <> Language codes ISO () yrl
+*   <> Language codes ISO () ysl ‚ Ä ì <> <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () ysr
+*   <> Language codes ISO () yua
+*   <> Language codes ISO () yub
+*   <> Language codes ISO () yuc
+*   <> Language codes ISO () yud
+*   <> Language codes ISO () yud ‚ Ä ì <>
+*   <> Language codes ISO () yue
+*   <> Language codes ISO () yue ‚ Ä ì <>
+*   <> Language codes ISO () yue-can
+*   <> Language codes ISO () yue-gao
+*   <> Language codes ISO () yue-qin
+*   <> Language codes ISO () yue-siy
+*   <> Language codes ISO () yue-yue ‚ Ä ì
+*   <> Language codes ISO () yuf
+*   <> Language codes ISO () yuj
+*   <> Language codes ISO () yuk
+*   <> Language codes ISO () yum
+*   <> Language codes ISO () yuq ‚ Ä ì Yuqui
+*   <> Language codes ISO () yur
+*   <> Language codes ISO () yuu
+*   <> Language codes ISO () yux
+*   <> Language codes ISO () yuy
+*   <> Language codes ISO () yuz
+*   <> Language codes ISO () yvt
+*   <> Language codes ISO () za
+*   <> Language codes ISO () zag
+*   <> Language codes ISO () zah
+*   <> Language codes ISO () zai
+*   <> Language codes ISO () zaj
+*   <> Language codes ISO () zak
+*   <> Language codes ISO () zap
+*   <> Language codes ISO () zap ( see List of <> )
+*   <> Language codes ISO () zay
+*   <> Language codes ISO () zbl
+*   <> Language codes ISO () zea
+*   <> Language codes ISO () zeh ‚ Ä ì <> <>
+*   <> Language codes ISO () zen
+*   <> Language codes ISO () zgb ‚ Ä ì Guibei <>
+*   <> Language codes ISO () zgm ‚ Ä ì Minz <>
+*   <> Language codes ISO () zgn ‚ Ä ì Guibian <>
+*   <> Language codes ISO () zh
+*   <> Language codes ISO () zh ( <>
+*   <> Language codes ISO () zha
+*   <> Language codes ISO () zha ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () zhb
+*   <> Language codes ISO () zhd ‚ Ä ì Dai <>
+*   <> Language codes ISO () zhn ‚ Ä ì Nong <>
+*   <> Language codes ISO () zho ( T )
+*   <> Language codes ISO () zho ‚ Ä ì Macrolanguage
+*   <> Language codes ISO () zia
+*   <> Language codes ISO () zik
+*   <> Language codes ISO () zil
+*   <> Language codes ISO () ziz
+*   <> Language codes ISO () zkb
+*   <> Language codes ISO () zkg
+*   <> Language codes ISO () zkk
+*   <> Language codes ISO () zko
+*   <> Language codes ISO () zkt
+*   <> Language codes ISO () zku
+*   <> Language codes ISO () zkz
+*   <> Language codes ISO () zlj ‚ Ä ì Liujiang <>
+*   <> Language codes ISO () zlm-coa ‚ Ä ì ( coastal )
+*   <> Language codes ISO () zlm-kel
+*   <> Language codes ISO () zlm-sar
+*   <> Language codes ISO () zln ‚ Ä ì Lianshan <>
+*   <> Language codes ISO () zlq ‚ Ä ì Liuqian <>
+*   <> Language codes ISO () zmh
+*   <> Language codes ISO () zmi
+*   <> Language codes ISO () zml
+*   <> Language codes ISO () zmu
+*   <> Language codes ISO () zne
+*   <> Language codes ISO () zns
+*   <> Language codes ISO () zoh ‚ Ä ì Chimalapa <>
+*   <> Language codes ISO () zom
+*   <> Language codes ISO () zoq ‚ Ä ì Tabasco <>
+*   <> Language codes ISO () zor ‚ Ä ì Ray √ ≥ n <>
+*   <> Language codes ISO () zos ‚ Ä ì Francisco Le √ ≥ n <>
+*   <> Language codes ISO () zps
+*   <> Language codes ISO () zqe ‚ Ä ì Qiubei <>
+*   <> Language codes ISO () zra
+*   <> Language codes ISO () zrn
+*   <> Language codes ISO () zro
+*   <> Language codes ISO () zrp
+*   <> Language codes ISO () zsa ‚ Ä ì Sarasira
+*   <> Language codes ISO () zsk
+*   <> Language codes ISO () zsl <> ‚ Ä î list of <> ‚ Ä î legal recognition
+*   <> Language codes ISO () zsm
+*   <> Language codes ISO () zsu ‚ Ä ì Sukurum
+*   <> Language codes ISO () zu
+*   <> Language codes ISO () zua
+*   <> Language codes ISO () zuh
+*   <> Language codes ISO () zul
+*   <> Language codes ISO () zum
+*   <> Language codes ISO () zum ‚ Ä ì <>
+*   <> Language codes ISO () zun
+*   <> Language codes ISO () zuy
+*   <> Language codes ISO () zwa
+*   <> Language codes ISO () zyb ‚ Ä ì Yongbei <>
+*   <> Language codes ISO () zyg ‚ Ä ì Yang <>
+*   <> Language codes ISO () zyj ‚ Ä ì Youjiang <>
+*   <> Language codes ISO () zyn ‚ Ä ì Yongnan <>
+*   <> Language codes ISO () zyp
+*   <> Language codes ISO () zza
+*   <> Language codes ISO () zzj ‚ Ä ì Zuojiang <>
+*   <> Language codes ISO () ‚ Ä ì
+*   <> Language codes ISO () ‚ Ä ì Linguist List
 *   <> <> Isabella Gonzales
 *   <> <> It is kept alive by the elders of the <> and young members of the tribe are learning it .
 *   <> <> January ()
@@ -5131,337 +5133,337 @@
 *   <> <> Last spoken in the () s by Marcelino Rivera
 *   <> <> Latest inscriptions () st century BC
 *   <> <> Laura Fish Somersal ( d . () ) last fluent speaker
-*   <> <> Linguasphere ( Click on image for the legend )
-*   <> <> Linguasphere ( mainland () AAA-rc & amp ; () rd )
-*   <> <> Linguasphere ( to () AAC-cee )
-*   <> <> Linguasphere ( varieties
-*   <> <> Linguasphere ( varieties : () AAA-cca to () AAA-ccu )
-*   <> <> Linguasphere ( varieties : () AAA-daa to () AAA-dam )
-*   <> <> Linguasphere ( varieties : () AAA-dba to () AAA-dbs )
-*   <> <> Linguasphere ( varieties : () AAA-eaa to () AAA-eat )
-*   <> <> Linguasphere ( varieties : () AAA-eca to () AAA-ecc )
-*   <> <> Linguasphere ( varieties : () AAA-eda to () AAA-edq )
-*   <> <> Linguasphere () ( Iranic in general )
-*   <> <> Linguasphere () ( phylozone )
-*   <> <> Linguasphere () AAA
-*   <> <> Linguasphere () AAA-a
-*   <> <> Linguasphere () AAA-a ( () varieties )
-*   <> <> Linguasphere () AAA-a ( <> incl . <> amp ; Kurmanjiki ) + () AAA-b ( <> incl . Dimli / Zaza & amp ; Gurani ) + () AAA-c ( <> incl . Kurdi )
-*   <> <> Linguasphere () AAA-a ( varieties
-*   <> <> Linguasphere () AAA-aa
-*   <> <> Linguasphere () AAA-aaa to () AAA-aag
-*   <> <> Linguasphere () AAA-aaa to () AAA-ahe ( () varieties )
-*   <> <> Linguasphere () AAA-ab
-*   <> <> Linguasphere () AAA-ac
-*   <> <> Linguasphere () AAA-aca to () AAA-ace
-*   <> <> Linguasphere () AAA-aca to () AAA-act
-*   <> <> Linguasphere () AAA-aea to () AAA-aed
-*   <> <> Linguasphere () AAA-aha to () AAA-ahe
-*   <> <> Linguasphere () AAA-ahd
-*   <> <> Linguasphere () AAA-ai Location map of the Griko-speaking areas in Salento and Calabria
-*   <> <> Linguasphere () AAA-aj
-*   <> <> Linguasphere () AAA-am
-*   <> <> Linguasphere () AAA-b
-*   <> <> Linguasphere () AAA-ba & lt ; () AAA-b & lt ; () AAA-b . . . () d ( varieties : () AAA-baa to () AAA-bah )
-*   <> <> Linguasphere () AAA-ba The regions where <> spoken in Turkey . ( With three main dialect areas ; Dersim , Palu-Bingol , and Siverek ) , diasporic in Kars , Sar ƒ ± z , Aksaray , and Taraz )
-*   <> <> Linguasphere () AAA-ba to () be & amp ;
-*   <> <> Linguasphere () AAA-bb & lt ; () AAA-b & lt ; () AAA-b . . . () d ( varieties : () AAA-bba to () AAA-bbf )
-*   <> <> Linguasphere () AAA-bc
-*   <> <> Linguasphere () AAA-be
-*   <> <> Linguasphere () AAA-bf & amp ; () ca to () cj
-*   <> <> Linguasphere () AAA-c
-*   <> <> Linguasphere () AAA-ca
-*   <> <> Linguasphere () AAA-cae
-*   <> <> Linguasphere () AAA-cb
-*   <> <> Linguasphere () AAA-cc
-*   <> <> Linguasphere () AAA-cc & lt ; () AAA-b . . . () d
-*   <> <> Linguasphere () AAA-cck
-*   <> <> Linguasphere () AAA-cd
-*   <> <> Linguasphere () AAA-cf to () cg
-*   <> <> Linguasphere () AAA-cha
-*   <> <> Linguasphere () AAA-ck to () cw
-*   <> <> Linguasphere () AAA-d
-*   <> <> Linguasphere () AAA-da & lt ; () AAA-b . . . () d
-*   <> <> Linguasphere () AAA-db & lt ; () AAA-b . . . () d
-*   <> <> Linguasphere () AAA-e
-*   <> <> Linguasphere () AAA-ea & lt ; () AAA-e
-*   <> <> Linguasphere () AAA-eb & lt ; () AAA-e
-*   <> <> Linguasphere () AAA-ec & lt ; () AAA-e
-*   <> <> Linguasphere () AAA-ed & lt ; () AAA-e
-*   <> <> Linguasphere () AAA-f ( () varieties )
-*   <> <> Linguasphere () AAA-g
-*   <> <> Linguasphere () AAA-g & amp ; () AAA-f
-*   <> <> Linguasphere () AAA-ga to () gf & amp ;
-*   <> <> Linguasphere () AAA-gd
-*   <> <> Linguasphere () AAA-gf & amp ; () AAA-gg
-*   <> <> Linguasphere () AAA-gi
-*   <> <> Linguasphere () AAA-gi ( () gia to () gii )
-*   <> <> Linguasphere () AAA-gj
-*   <> <> Linguasphere () AAA-ha
-*   <> <> Linguasphere () AAA-hb
-*   <> <> Linguasphere () AAA-hb & lt ; () AAA-h
-*   <> <> Linguasphere () AAA-hc
-*   <> <> Linguasphere () AAA-hc & amp ; () AAA-hd
-*   <> <> Linguasphere () AAA-hcf
-*   <> <> Linguasphere () AAA-hcg
-*   <> <> Linguasphere () AAA-he
-*   <> <> Linguasphere () AAA-hf
-*   <> <> Linguasphere () AAA-hk & amp ; () AAA-hl
-*   <> <> Linguasphere () AAA-ho
-*   <> <> Linguasphere () AAA-hp
-*   <> <> Linguasphere () AAA-hq & amp ; () AAA-ii
-*   <> <> Linguasphere () AAA-i
-*   <> <> Linguasphere () AAA-j
-*   <> <> Linguasphere () AAA-ja & amp ; () AAA-hc
-*   <> <> Linguasphere () AAA-k
-*   <> <> Linguasphere () AAA-l
-*   <> <> Linguasphere () AAA-m
-*   <> <> Linguasphere () AAA-n
-*   <> <> Linguasphere () AAA-na
-*   <> <> Linguasphere () AAA-oc & amp ; () AAA-od
-*   <> <> Linguasphere () AAA-oda ; () odb ; () odc
-*   <> <> Linguasphere () AAA-odd . . . () AAA-odj
-*   <> <> Linguasphere () AAA-of
-*   <> <> Linguasphere () AAA-og
-*   <> <> Linguasphere () AAA-oh & amp ; () AAA-og
-*   <> <> Linguasphere () AAA-ohb ( Imperia )
-*   <> <> Linguasphere () AAA-ohd . . . () ojb
-*   <> <> Linguasphere () AAA-ok
-*   <> <> Linguasphere () AAA-oka . . . () okh
-*   <> <> Linguasphere () AAA-oki . . . okl
-*   <> <> Linguasphere () AAA-okl & amp ; () AAA-rba
-*   <> <> Linguasphere () AAA-p
-*   <> <> Linguasphere () AAA-pd
-*   <> <> Linguasphere () AAA-pd & amp ; () pe
-*   <> <> Linguasphere () AAA-pe
-*   <> <> Linguasphere () AAA-q
-*   <> <> Linguasphere () AAA-qa
-*   <> <> Linguasphere () AAA-ra . . . () rba <>
-*   <> <> Linguasphere () AAA-rab
-*   <> <> Linguasphere () AAA-rb
-*   <> <> Linguasphere () AAA-re & amp ; () rf
-*   <> <> Linguasphere () AAA-s + ( Corso-Sardinian )
-*   <> <> Linguasphere () AAA-t
-*   <> <> Linguasphere () AAB
-*   <> <> Linguasphere () AAB-a
-*   <> <> Linguasphere () AAB-a & gt ; () AAB-aa ( <> ) + () AAB-ab ( <> ) + () AAB-ac ( <> ) + () AAB-ad ( <>
-*   <> <> Linguasphere () AAB-aa
-*   <> <> Linguasphere () AAB-ab
-*   <> <> Linguasphere () AAB-apa to () ape and () AAB-apg to api ( SSS varieties )
-*   <> <> Linguasphere () AAB-ba . . . () AAB-bd
-*   <> <> Linguasphere () AAB-be & amp ; () bf
-*   <> <> Linguasphere () AAB-c
-*   <> <> Linguasphere () AAB-db
-*   <> <> Linguasphere () AAB-dc
-*   <> <> Linguasphere () AAC ( Wider <> & gt ; () AAC-c ( <> )
-*   <> <> Linguasphere () AAC-a
-*   <> <> Linguasphere () AAC-aa
-*   <> <> Linguasphere () AAC-aac
-*   <> <> Linguasphere () AAC-ab
-*   <> <> Linguasphere () AAC-aca
-*   <> <> Linguasphere () AAC-acb
-*   <> <> Linguasphere () AAC-ad
-*   <> <> Linguasphere () AAC-ae
-*   <> <> Linguasphere () AAC-aga
-*   <> <> Linguasphere () AAC-agb
-*   <> <> Linguasphere () AAC-agc
-*   <> <> Linguasphere () AAC-age
-*   <> <> Linguasphere () AAC-aha
-*   <> <> Linguasphere () AAC-ahd
-*   <> <> Linguasphere () AAC-ahf
-*   <> <> Linguasphere () AAC-ahg & amp ; () ahh
-*   <> <> Linguasphere () AAC-ai
-*   <> <> Linguasphere () AAC-ba
-*   <> <> Linguasphere () AAC-bc
-*   <> <> Linguasphere () AAC-be
-*   <> <> Linguasphere () AAC-c
-*   <> <> Linguasphere () AAC-ca
-*   <> <> Linguasphere () AAC-cb
-*   <> <> Linguasphere () AAC-cc ( varieties
-*   <> <> Linguasphere () AAC-ccg
-*   <> <> Linguasphere () AAC-cd ( varieties
-*   <> <> Linguasphere () AAC-cdd
-*   <> <> Linguasphere () AAC-ce ( <> + () AAC-cdo & amp ; cdp ( Hazaragi ) + () AAC-ck ( <>
-*   <> <> Linguasphere () AAC-cea ( & amp ; () ceb )
-*   <> <> Linguasphere () AAC-cec
-*   <> <> Linguasphere () AAC-ced
-*   <> <> Linguasphere () AAC-cf
-*   <> <> Linguasphere () AAC-eb
-*   <> <> Linguasphere () AAC-ed
-*   <> <> Linguasphere () AAC-g
-*   <> <> Linguasphere () AAD-a
-*   <> <> Linguasphere () AAD-ba
-*   <> <> Linguasphere () AAD-bb
-*   <> <> Linguasphere () AAD-c ( varieties
-*   <> <> Linguasphere () AAF-q ( with <>
-*   <> <> Linguasphere () AAF-sa
-*   <> <> Linguasphere () AAF-ta
-*   <> <> Linguasphere () AAF-tb
-*   <> <> Linguasphere () AAF-u ( including Sylhetti etc . , () varieties : () AAF-ua to
-*   <> <> Linguasphere () AAF-uk
-*   <> <> Linguasphere () AAF-w
-*   <> <> Linguasphere () AAF-x
-*   <> <> Linguasphere () ABA
-*   <> <> Linguasphere () ABA Percentage of <> by principal area
-*   <> <> Linguasphere () ABA-a
-*   <> <> Linguasphere () ABA-aa ( varieties
-*   <> <> Linguasphere () ABA-bd
-*   <> <> Linguasphere () ABB-a
-*   <> <> Linguasphere () ABB-aa
-*   <> <> Linguasphere () ABB-ac
-*   <> <> Linguasphere () ABB-ad
-*   <> <> Linguasphere () ABB-af
-*   <> <> Linguasphere () ABB-ah
-*   <> <> Linguasphere () ABB-am
-*   <> <> Linguasphere () ABB-an
-*   <> <> Linguasphere () ABB-ao
-*   <> <> Linguasphere () ABB-apf
-*   <> <> Linguasphere () ABB-apl to () apm
-*   <> <> Linguasphere () ABB-apn
-*   <> <> Linguasphere () ABB-aq
-*   <> <> Linguasphere () ABB-ar
-*   <> <> Linguasphere () ABB-as
-*   <> <> Linguasphere () ABB-at
-*   <> <> Linguasphere () ABB-au
-*   <> <> Linguasphere () ABB-av
-*   <> <> Linguasphere () ABB-aw
-*   <> <> Linguasphere () ABB-ax
-*   <> <> Linguasphere () ABB-ay ( varieties
-*   <> <> Linguasphere () ABB-b ( varieties
-*   <> <> Linguasphere () ABB-bb Where it is mainly spoken
-*   <> <> Linguasphere () ABB-bg
-*   <> <> Linguasphere () ABB-ca ( varieties
-*   <> <> Linguasphere () ABB-cb ( varieties
-*   <> <> Linguasphere () ABB-cc
-*   <> <> Linguasphere () ABB-cd
-*   <> <> Linguasphere () ABB-ce
-*   <> <> Linguasphere () ABB-da
-*   <> <> Linguasphere () ABB-db
-*   <> <> Linguasphere () ABB-dc
-*   <> <> Linguasphere () ABB-dd
-*   <> <> Linguasphere () ABC-a
-*   <> <> Linguasphere () ABD-a
-*   <> <> Linguasphere () ABD-ba
-*   <> <> Linguasphere () ABD-bb
-*   <> <> Linguasphere () ABD-c
-*   <> <> Linguasphere () ABD-db
-*   <> <> Linguasphere () ABD-eb
-*   <> <> Linguasphere () ABD-f
-*   <> <> Linguasphere () AC ( Continental <> ) & gt ; () ACB ( Deutsch & amp ; <> & gt ;
-*   <> <> Linguasphere () ACA
-*   <> <> Linguasphere () ACA-a
-*   <> <> Linguasphere () ACA-b
-*   <> <> Linguasphere () ACA-e ( varieties
-*   <> <> Linguasphere () ACB
-*   <> <> Linguasphere () ACB-a
-*   <> <> Linguasphere () ACB-a ( varieties
-*   <> <> Linguasphere () ACB-ac
-*   <> <> Linguasphere () ACB-ad
-*   <> <> Linguasphere () ACB-af
-*   <> <> Linguasphere () ACB-ag
-*   <> <> Linguasphere () ACB-ak ( varieties
-*   <> <> Linguasphere () ACB-al Position of <> orange ) among the other minority languages , regional languages and dialects in the Benelux
-*   <> <> Linguasphere () ACB-b
-*   <> <> Linguasphere () ACB-ba
-*   <> <> Linguasphere () ACB-d ( <> incl . () ACB ‚ Ä ì dl & amp ; () dm <> Generalised <> ) + () ACB-e & amp ; () f ( <> & amp ; <> ) + () ACB-g ( <> + () ACB-h ( √ © migr √ © <> incl .
-*   <> <> Linguasphere () ACB-f ( () varieties : () ACB-faa to () fkb )
-*   <> <> Linguasphere () ACB-g = () ACB-ga ( <> + () ACB-gb ( <> ; totalling () varieties
-*   <> <> Linguasphere () ACB-hc <> & amp ; () ACB-he <> etc . ) + () ACB-i ( Yenish ) ; totalling () varieties : () ACB-daa to () ACB-i
-*   <> <> Linguasphere () ACB-he
-*   <> <> Linguasphere () ACC-a
-*   <> <> Linguasphere () ADA-aa
-*   <> <> Linguasphere () ADA-ab
-*   <> <> Linguasphere () ADA-ac , () ADA-ad
-*   <> <> Linguasphere () ADA-ae
-*   <> <> Linguasphere () ADA-af
-*   <> <> Linguasphere () ADA-ag
-*   <> <> Linguasphere () ADA-ba
-*   <> <> Linguasphere () ADA-bb
-*   <> <> Linguasphere () ADA-c
-*   <> <> Linguasphere () ADA-d ( Ojibwa + Anissinapek )
-*   <> <> Linguasphere () ADA-dc ( <>
-*   <> <> Linguasphere () ADA-dd ( Odawa )
-*   <> <> Linguasphere () AUI-f
-*   <> <> Linguasphere () AUS-m
-*   <> <> Linguasphere () BBA-a
-*   <> <> Linguasphere () CAC-ai
-*   <> <> Linguasphere () CAC-aj
-*   <> <> Linguasphere () CAC-ak
-*   <> <> Linguasphere () CKA
-*   <> <> Linguasphere () EBA
-*   <> <> Linguasphere () GAF-a
-*   <> <> Linguasphere () PEA-aa
-*   <> <> Linguasphere : () AAA-aa to () am )
-*   <> <> Linguasphere : () AAA-eba to () AAA-ebg )
-*   <> <> Linguasphere : () AAC-cca to () cck )
-*   <> <> Linguasphere : () AAC-cda to () cdd )
-*   <> <> Linguasphere : () AAD-ca to () ck ) Map of the Romanian-speaking territories
-*   <> <> Linguasphere : () ABA-aaa to () aav )
-*   <> <> Linguasphere : () ABB-aya to () aye )
-*   <> <> Linguasphere : () ABB-ba to () be )
-*   <> <> Linguasphere : () ABB-caa to () caf
-*   <> <> Linguasphere : () ABB-cba to () cbd )
-*   <> <> Linguasphere : () ACA-eaa to () eak & amp ;
-*   <> <> Linguasphere : () ACB-aa to () an ) Dutch-speaking world . <> also one of the official languages of the European Union and the Union of <> Nations .
-*   <> <> Linguasphere : () ACB-aka to-akk )
-*   <> <> Linguasphere : Dark Blue : Protected . ‚ Ä î Medium Blue : General regions .
-*   <> <> Linguasphere <>
-*   <> <> Linguasphere <> ( Pavle Ivi ƒ á () )
-*   <> <> Linguasphere <> Area
-*   <> <> Linguasphere <> areas in Ontario , Michigan and Oklahoma . Reserves / Reservations and communities shown in red .
-*   <> <> Linguasphere <> dialects
-*   <> <> Linguasphere <> from a book published in () Part of an alphabetic list of proverbs . <> .
-*   <> <> Linguasphere <> in <> Parishes marked in yellow are those where () ‚ Ä ì () % of the population speak <> <> at home
-*   <> <> Linguasphere <> in Aragon ( <> red ) . <> spoken across the whole area , but the yellow-green part of Aragon is monolingually Spanish-speaking .
-*   <> <> Linguasphere <> layout
-*   <> <> Linguasphere <> world
-*   <> <> Linguasphere Approximate distribution of <> the <>
-*   <> <> Linguasphere Areas where the <> is strongest include <>
-*   <> <> Linguasphere Belarusian-speaking world Legend : Dark blue () territory , where <> is used chiefly
-*   <> <> Linguasphere Blue : The counties with the highest proportion of <> speakers .
-*   <> <> Linguasphere Countries with significant Macedonian-speaking populations .
-*   <> <> Linguasphere Countries with significant Persian-speaking populations
-*   <> <> Linguasphere Countries with significant Turkish-speaking populations
-*   <> <> Linguasphere Dialectal map of Croatia
-*   <> <> Linguasphere Dialects
-*   <> <> Linguasphere Distribution of <> Trentino , <> and Belluno in northeastern Italy
-*   <> <> Linguasphere Distribution of <> in World This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> Linguasphere Extent of <>
-*   <> <> Linguasphere Former settlement area of the <>
-*   <> <> Linguasphere Geographic distribution of <> , showing regions of native speakers ( dark green ) and other regions of use
-*   <> <> Linguasphere Global extent of <>
-*   <> <> Linguasphere Greatest extent of the Roman Empire . <> by no means confined to these regions
-*   <> <> Linguasphere Guernsey
-*   <> <> Linguasphere Light Blue : Historical transition zone .
-*   <> <> Linguasphere Linguistic subdivisions in Canada
-*   <> <> Linguasphere Location of all <> / Reserves and cities with an <> in <> , with diffusion rings about communities speaking the <>
-*   <> <> Linguasphere Map of the Franco-Proven √ ß al <>
-*   <> <> Linguasphere Map showing locations of <> ( until () )
-*   <> <> Linguasphere Map showing the Frisian-speaking areas in the Netherlands
-*   <> <> Linguasphere Nations where <> spoken .
-*   <> <> Linguasphere Original and () st century distribution of <> without the island of R √ ∏ m √ ∏ ( <> ) ) .
-*   <> <> Linguasphere Position of <> colour : sandy ) among the other minority languages , regional languages and dialects in the Benelux
-*   <> <> Linguasphere Red : The counties with the highest number of <> speakers .
-*   <> <> Linguasphere Slovene-speaking areas
-*   <> <> Linguasphere Spread of <> in the first half of () th century
-*   <> <> Linguasphere The <> area ( in grey ) corresponding to <> ( in colours , <> ) .
-*   <> <> Linguasphere The map shows the areas where the language is spoken by a significant population . Overseas Filipinos use the languages as a <> . There are over a million speakers in <> and in the United States , plus () million in the Philippines itself .
-*   <> <> Linguasphere This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
-*   <> <> Linguasphere Xinjiang province , the light blue are marks the place were <> spoken .
-*   <> <> Linguasphere Yasna () , Ahunavaiti Gatha ( Bodleian MS J2 )
-*   <> <> Linguasphere and Koine <>
-*   <> <> Linguasphere and other native languages dominated the eastern half .
-*   <> <> Linguasphere brown () ‚ Ä ì () % .
-*   <> <> Linguasphere extinct () eba & amp ; () ebb )
-*   <> <> Linguasphere including () varieties : () AAF-qaa to () AAF-qil )
-*   <> <> Linguasphere orange () ‚ Ä ì () %
-*   <> <> Linguasphere part of () AAA-a
-*   <> <> Linguasphere part of () AAA-g
-*   <> <> Linguasphere part of () AAA-h
-*   <> <> Linguasphere part of () AAB-a
-*   <> <> Linguasphere part of () BAA-b
-*   <> <> Linguasphere red () ‚ Ä ì () %
-*   <> <> Linguasphere the Cotentin and the Pays de Caux .
+*   <> Language codes Linguasphere ( Click on image for the legend )
+*   <> Language codes Linguasphere ( mainland () AAA-rc & amp ; () rd )
+*   <> Language codes Linguasphere ( to () AAC-cee )
+*   <> Language codes Linguasphere ( varieties )
+*   <> Language codes Linguasphere ( varieties : () AAA-cca to () AAA-ccu )
+*   <> Language codes Linguasphere ( varieties : () AAA-daa to () AAA-dam )
+*   <> Language codes Linguasphere ( varieties : () AAA-dba to () AAA-dbs )
+*   <> Language codes Linguasphere ( varieties : () AAA-eaa to () AAA-eat )
+*   <> Language codes Linguasphere ( varieties : () AAA-eca to () AAA-ecc )
+*   <> Language codes Linguasphere ( varieties : () AAA-eda to () AAA-edq )
+*   <> Language codes Linguasphere () ( Iranic in general )
+*   <> Language codes Linguasphere () ( phylozone )
+*   <> Language codes Linguasphere () AAA
+*   <> Language codes Linguasphere () AAA-a
+*   <> Language codes Linguasphere () AAA-a ( () varieties )
+*   <> Language codes Linguasphere () AAA-a ( <> incl . <> amp ; Kurmanjiki ) + () AAA-b ( <> incl . Dimli / Zaza & amp ; Gurani ) + () AAA-c ( <> incl . Kurdi )
+*   <> Language codes Linguasphere () AAA-a ( varieties
+*   <> Language codes Linguasphere () AAA-aa
+*   <> Language codes Linguasphere () AAA-aaa to () AAA-aag
+*   <> Language codes Linguasphere () AAA-aaa to () AAA-ahe ( () varieties )
+*   <> Language codes Linguasphere () AAA-ab
+*   <> Language codes Linguasphere () AAA-ac
+*   <> Language codes Linguasphere () AAA-aca to () AAA-ace
+*   <> Language codes Linguasphere () AAA-aca to () AAA-act
+*   <> Language codes Linguasphere () AAA-aea to () AAA-aed
+*   <> Language codes Linguasphere () AAA-aha to () AAA-ahe
+*   <> Language codes Linguasphere () AAA-ahd
+*   <> Language codes Linguasphere () AAA-ai Location map of the Griko-speaking areas in Salento and Calabria
+*   <> Language codes Linguasphere () AAA-aj
+*   <> Language codes Linguasphere () AAA-am
+*   <> Language codes Linguasphere () AAA-b
+*   <> Language codes Linguasphere () AAA-ba & lt ; () AAA-b & lt ; () AAA-b . . . () d ( varieties : () AAA-baa to () AAA-bah )
+*   <> Language codes Linguasphere () AAA-ba The regions where <> spoken in Turkey . ( With three main dialect areas ; Dersim , Palu-Bingol , and Siverek ) , diasporic in Kars , Sar ƒ ± z , Aksaray , and Taraz )
+*   <> Language codes Linguasphere () AAA-ba to () be & amp ;
+*   <> Language codes Linguasphere () AAA-bb & lt ; () AAA-b & lt ; () AAA-b . . . () d ( varieties : () AAA-bba to () AAA-bbf )
+*   <> Language codes Linguasphere () AAA-bc
+*   <> Language codes Linguasphere () AAA-be
+*   <> Language codes Linguasphere () AAA-bf & amp ; () ca to () cj
+*   <> Language codes Linguasphere () AAA-c
+*   <> Language codes Linguasphere () AAA-ca
+*   <> Language codes Linguasphere () AAA-cae
+*   <> Language codes Linguasphere () AAA-cb
+*   <> Language codes Linguasphere () AAA-cc
+*   <> Language codes Linguasphere () AAA-cc & lt ; () AAA-b . . . () d
+*   <> Language codes Linguasphere () AAA-cck
+*   <> Language codes Linguasphere () AAA-cd
+*   <> Language codes Linguasphere () AAA-cf to () cg
+*   <> Language codes Linguasphere () AAA-cha
+*   <> Language codes Linguasphere () AAA-ck to () cw
+*   <> Language codes Linguasphere () AAA-d
+*   <> Language codes Linguasphere () AAA-da & lt ; () AAA-b . . . () d
+*   <> Language codes Linguasphere () AAA-db & lt ; () AAA-b . . . () d
+*   <> Language codes Linguasphere () AAA-e
+*   <> Language codes Linguasphere () AAA-ea & lt ; () AAA-e
+*   <> Language codes Linguasphere () AAA-eb & lt ; () AAA-e
+*   <> Language codes Linguasphere () AAA-ec & lt ; () AAA-e
+*   <> Language codes Linguasphere () AAA-ed & lt ; () AAA-e
+*   <> Language codes Linguasphere () AAA-f ( () varieties )
+*   <> Language codes Linguasphere () AAA-g
+*   <> Language codes Linguasphere () AAA-g & amp ; () AAA-f
+*   <> Language codes Linguasphere () AAA-ga to () gf & amp ;
+*   <> Language codes Linguasphere () AAA-gd
+*   <> Language codes Linguasphere () AAA-gf & amp ; () AAA-gg
+*   <> Language codes Linguasphere () AAA-gi
+*   <> Language codes Linguasphere () AAA-gi ( () gia to () gii )
+*   <> Language codes Linguasphere () AAA-gj
+*   <> Language codes Linguasphere () AAA-ha
+*   <> Language codes Linguasphere () AAA-hb
+*   <> Language codes Linguasphere () AAA-hb & lt ; () AAA-h
+*   <> Language codes Linguasphere () AAA-hc
+*   <> Language codes Linguasphere () AAA-hc & amp ; () AAA-hd
+*   <> Language codes Linguasphere () AAA-hcf
+*   <> Language codes Linguasphere () AAA-hcg
+*   <> Language codes Linguasphere () AAA-he
+*   <> Language codes Linguasphere () AAA-hf
+*   <> Language codes Linguasphere () AAA-hk & amp ; () AAA-hl
+*   <> Language codes Linguasphere () AAA-ho
+*   <> Language codes Linguasphere () AAA-hp
+*   <> Language codes Linguasphere () AAA-hq & amp ; () AAA-ii
+*   <> Language codes Linguasphere () AAA-i
+*   <> Language codes Linguasphere () AAA-j
+*   <> Language codes Linguasphere () AAA-ja & amp ; () AAA-hc
+*   <> Language codes Linguasphere () AAA-k
+*   <> Language codes Linguasphere () AAA-l
+*   <> Language codes Linguasphere () AAA-m
+*   <> Language codes Linguasphere () AAA-n
+*   <> Language codes Linguasphere () AAA-na
+*   <> Language codes Linguasphere () AAA-oc & amp ; () AAA-od
+*   <> Language codes Linguasphere () AAA-oda ; () odb ; () odc
+*   <> Language codes Linguasphere () AAA-odd . . . () AAA-odj
+*   <> Language codes Linguasphere () AAA-of
+*   <> Language codes Linguasphere () AAA-og
+*   <> Language codes Linguasphere () AAA-oh & amp ; () AAA-og
+*   <> Language codes Linguasphere () AAA-ohb ( Imperia )
+*   <> Language codes Linguasphere () AAA-ohd . . . () ojb
+*   <> Language codes Linguasphere () AAA-ok
+*   <> Language codes Linguasphere () AAA-oka . . . () okh
+*   <> Language codes Linguasphere () AAA-oki . . . okl
+*   <> Language codes Linguasphere () AAA-okl & amp ; () AAA-rba
+*   <> Language codes Linguasphere () AAA-p
+*   <> Language codes Linguasphere () AAA-pd
+*   <> Language codes Linguasphere () AAA-pd & amp ; () pe
+*   <> Language codes Linguasphere () AAA-pe
+*   <> Language codes Linguasphere () AAA-q
+*   <> Language codes Linguasphere () AAA-qa
+*   <> Language codes Linguasphere () AAA-ra . . . () rba <>
+*   <> Language codes Linguasphere () AAA-rab
+*   <> Language codes Linguasphere () AAA-rb
+*   <> Language codes Linguasphere () AAA-re & amp ; () rf
+*   <> Language codes Linguasphere () AAA-s + ( Corso-Sardinian )
+*   <> Language codes Linguasphere () AAA-t
+*   <> Language codes Linguasphere () AAB
+*   <> Language codes Linguasphere () AAB-a
+*   <> Language codes Linguasphere () AAB-a & gt ; () AAB-aa ( <> ) + () AAB-ab ( <> ) + () AAB-ac ( <> ) + () AAB-ad ( <>
+*   <> Language codes Linguasphere () AAB-aa
+*   <> Language codes Linguasphere () AAB-ab
+*   <> Language codes Linguasphere () AAB-apa to () ape and () AAB-apg to api ( SSS varieties )
+*   <> Language codes Linguasphere () AAB-ba . . . () AAB-bd
+*   <> Language codes Linguasphere () AAB-be & amp ; () bf
+*   <> Language codes Linguasphere () AAB-c
+*   <> Language codes Linguasphere () AAB-db
+*   <> Language codes Linguasphere () AAB-dc
+*   <> Language codes Linguasphere () AAC ( Wider <> & gt ; () AAC-c ( <> )
+*   <> Language codes Linguasphere () AAC-a
+*   <> Language codes Linguasphere () AAC-aa
+*   <> Language codes Linguasphere () AAC-aac
+*   <> Language codes Linguasphere () AAC-ab
+*   <> Language codes Linguasphere () AAC-aca
+*   <> Language codes Linguasphere () AAC-acb
+*   <> Language codes Linguasphere () AAC-ad
+*   <> Language codes Linguasphere () AAC-ae
+*   <> Language codes Linguasphere () AAC-aga
+*   <> Language codes Linguasphere () AAC-agb
+*   <> Language codes Linguasphere () AAC-agc
+*   <> Language codes Linguasphere () AAC-age
+*   <> Language codes Linguasphere () AAC-aha
+*   <> Language codes Linguasphere () AAC-ahd
+*   <> Language codes Linguasphere () AAC-ahf
+*   <> Language codes Linguasphere () AAC-ahg & amp ; () ahh
+*   <> Language codes Linguasphere () AAC-ai
+*   <> Language codes Linguasphere () AAC-ba
+*   <> Language codes Linguasphere () AAC-bc
+*   <> Language codes Linguasphere () AAC-be
+*   <> Language codes Linguasphere () AAC-c
+*   <> Language codes Linguasphere () AAC-ca
+*   <> Language codes Linguasphere () AAC-cb
+*   <> Language codes Linguasphere () AAC-cc ( varieties
+*   <> Language codes Linguasphere () AAC-ccg
+*   <> Language codes Linguasphere () AAC-cd ( varieties
+*   <> Language codes Linguasphere () AAC-cdd
+*   <> Language codes Linguasphere () AAC-ce ( <> + () AAC-cdo & amp ; cdp ( Hazaragi ) + () AAC-ck ( <>
+*   <> Language codes Linguasphere () AAC-cea ( & amp ; () ceb )
+*   <> Language codes Linguasphere () AAC-cec
+*   <> Language codes Linguasphere () AAC-ced
+*   <> Language codes Linguasphere () AAC-cf
+*   <> Language codes Linguasphere () AAC-eb
+*   <> Language codes Linguasphere () AAC-ed
+*   <> Language codes Linguasphere () AAC-g
+*   <> Language codes Linguasphere () AAD-a
+*   <> Language codes Linguasphere () AAD-ba
+*   <> Language codes Linguasphere () AAD-bb
+*   <> Language codes Linguasphere () AAD-c ( varieties
+*   <> Language codes Linguasphere () AAF-q ( with <>
+*   <> Language codes Linguasphere () AAF-sa
+*   <> Language codes Linguasphere () AAF-ta
+*   <> Language codes Linguasphere () AAF-tb
+*   <> Language codes Linguasphere () AAF-u ( including Sylhetti etc . , () varieties : () AAF-ua to
+*   <> Language codes Linguasphere () AAF-uk
+*   <> Language codes Linguasphere () AAF-w
+*   <> Language codes Linguasphere () AAF-x
+*   <> Language codes Linguasphere () ABA
+*   <> Language codes Linguasphere () ABA Percentage of <> by principal area
+*   <> Language codes Linguasphere () ABA-a
+*   <> Language codes Linguasphere () ABA-aa ( varieties
+*   <> Language codes Linguasphere () ABA-bd
+*   <> Language codes Linguasphere () ABB-a
+*   <> Language codes Linguasphere () ABB-aa
+*   <> Language codes Linguasphere () ABB-ac
+*   <> Language codes Linguasphere () ABB-ad
+*   <> Language codes Linguasphere () ABB-af
+*   <> Language codes Linguasphere () ABB-ah
+*   <> Language codes Linguasphere () ABB-am
+*   <> Language codes Linguasphere () ABB-an
+*   <> Language codes Linguasphere () ABB-ao
+*   <> Language codes Linguasphere () ABB-apf
+*   <> Language codes Linguasphere () ABB-apl to () apm
+*   <> Language codes Linguasphere () ABB-apn
+*   <> Language codes Linguasphere () ABB-aq
+*   <> Language codes Linguasphere () ABB-ar
+*   <> Language codes Linguasphere () ABB-as
+*   <> Language codes Linguasphere () ABB-at
+*   <> Language codes Linguasphere () ABB-au
+*   <> Language codes Linguasphere () ABB-av
+*   <> Language codes Linguasphere () ABB-aw
+*   <> Language codes Linguasphere () ABB-ax
+*   <> Language codes Linguasphere () ABB-ay ( varieties
+*   <> Language codes Linguasphere () ABB-b ( varieties
+*   <> Language codes Linguasphere () ABB-bb Where it is mainly spoken
+*   <> Language codes Linguasphere () ABB-bg
+*   <> Language codes Linguasphere () ABB-ca ( varieties
+*   <> Language codes Linguasphere () ABB-cb ( varieties
+*   <> Language codes Linguasphere () ABB-cc
+*   <> Language codes Linguasphere () ABB-cd
+*   <> Language codes Linguasphere () ABB-ce
+*   <> Language codes Linguasphere () ABB-da
+*   <> Language codes Linguasphere () ABB-db
+*   <> Language codes Linguasphere () ABB-dc
+*   <> Language codes Linguasphere () ABB-dd
+*   <> Language codes Linguasphere () ABC-a
+*   <> Language codes Linguasphere () ABD-a
+*   <> Language codes Linguasphere () ABD-ba
+*   <> Language codes Linguasphere () ABD-bb
+*   <> Language codes Linguasphere () ABD-c
+*   <> Language codes Linguasphere () ABD-db
+*   <> Language codes Linguasphere () ABD-eb
+*   <> Language codes Linguasphere () ABD-f
+*   <> Language codes Linguasphere () AC ( Continental <> ) & gt ; () ACB ( Deutsch & amp ; <> & gt ;
+*   <> Language codes Linguasphere () ACA
+*   <> Language codes Linguasphere () ACA-a
+*   <> Language codes Linguasphere () ACA-b
+*   <> Language codes Linguasphere () ACA-e ( varieties
+*   <> Language codes Linguasphere () ACB
+*   <> Language codes Linguasphere () ACB-a
+*   <> Language codes Linguasphere () ACB-a ( varieties
+*   <> Language codes Linguasphere () ACB-ac
+*   <> Language codes Linguasphere () ACB-ad
+*   <> Language codes Linguasphere () ACB-af
+*   <> Language codes Linguasphere () ACB-ag
+*   <> Language codes Linguasphere () ACB-ak ( varieties
+*   <> Language codes Linguasphere () ACB-al Position of <> orange ) among the other minority languages , regional languages and dialects in the Benelux
+*   <> Language codes Linguasphere () ACB-b
+*   <> Language codes Linguasphere () ACB-ba
+*   <> Language codes Linguasphere () ACB-d ( <> incl . () ACB ‚ Ä ì dl & amp ; () dm <> Generalised <> ) + () ACB-e & amp ; () f ( <> & amp ; <> ) + () ACB-g ( <> + () ACB-h ( √ © migr √ © <> incl .
+*   <> Language codes Linguasphere () ACB-f ( () varieties : () ACB-faa to () fkb )
+*   <> Language codes Linguasphere () ACB-g = () ACB-ga ( <> + () ACB-gb ( <> ; totalling () varieties
+*   <> Language codes Linguasphere () ACB-hc <> & amp ; () ACB-he <> etc . ) + () ACB-i ( Yenish ) ; totalling () varieties : () ACB-daa to () ACB-i
+*   <> Language codes Linguasphere () ACB-he
+*   <> Language codes Linguasphere () ACC-a
+*   <> Language codes Linguasphere () ADA-aa
+*   <> Language codes Linguasphere () ADA-ab
+*   <> Language codes Linguasphere () ADA-ac , () ADA-ad
+*   <> Language codes Linguasphere () ADA-ae
+*   <> Language codes Linguasphere () ADA-af
+*   <> Language codes Linguasphere () ADA-ag
+*   <> Language codes Linguasphere () ADA-ba
+*   <> Language codes Linguasphere () ADA-bb
+*   <> Language codes Linguasphere () ADA-c
+*   <> Language codes Linguasphere () ADA-d ( Ojibwa + Anissinapek )
+*   <> Language codes Linguasphere () ADA-dc ( <>
+*   <> Language codes Linguasphere () ADA-dd ( Odawa )
+*   <> Language codes Linguasphere () AUI-f
+*   <> Language codes Linguasphere () AUS-m
+*   <> Language codes Linguasphere () BBA-a
+*   <> Language codes Linguasphere () CAC-ai
+*   <> Language codes Linguasphere () CAC-aj
+*   <> Language codes Linguasphere () CAC-ak
+*   <> Language codes Linguasphere () CKA
+*   <> Language codes Linguasphere () EBA
+*   <> Language codes Linguasphere () GAF-a
+*   <> Language codes Linguasphere () PEA-aa
+*   <> Language codes Linguasphere : () AAA-aa to () am )
+*   <> Language codes Linguasphere : () AAA-eba to () AAA-ebg )
+*   <> Language codes Linguasphere : () AAC-cca to () cck )
+*   <> Language codes Linguasphere : () AAC-cda to () cdd )
+*   <> Language codes Linguasphere : () AAD-ca to () ck ) Map of the Romanian-speaking territories
+*   <> Language codes Linguasphere : () ABA-aaa to () aav )
+*   <> Language codes Linguasphere : () ABB-aya to () aye )
+*   <> Language codes Linguasphere : () ABB-ba to () be )
+*   <> Language codes Linguasphere : () ABB-caa to () caf
+*   <> Language codes Linguasphere : () ABB-cba to () cbd )
+*   <> Language codes Linguasphere : () ACA-eaa to () eak & amp ;
+*   <> Language codes Linguasphere : () ACB-aa to () an ) Dutch-speaking world . <> also one of the <> Official languages of the European Union and the Union of <> Nations .
+*   <> Language codes Linguasphere : () ACB-aka to-akk )
+*   <> Language codes Linguasphere : Dark Blue : Protected . ‚ Ä î Medium Blue : General regions .
+*   <> Language codes Linguasphere <>
+*   <> Language codes Linguasphere <> ( Pavle Ivi ƒ á () )
+*   <> Language codes Linguasphere <> Area
+*   <> Language codes Linguasphere <> areas in Ontario , Michigan and Oklahoma . Reserves / Reservations and communities shown in red .
+*   <> Language codes Linguasphere <> dialects
+*   <> Language codes Linguasphere <> from a book published in () Part of an alphabetic list of proverbs . <> .
+*   <> Language codes Linguasphere <> in <> Parishes marked in yellow are those where () ‚ Ä ì () % of the population speak <> <> at home
+*   <> Language codes Linguasphere <> in Aragon ( <> red ) . <> spoken across the whole area , but the yellow-green part of Aragon is monolingually Spanish-speaking .
+*   <> Language codes Linguasphere <> layout
+*   <> Language codes Linguasphere <> world
+*   <> Language codes Linguasphere Approximate distribution of <> the <>
+*   <> Language codes Linguasphere Areas where the <> is strongest include <>
+*   <> Language codes Linguasphere Belarusian-speaking world Legend : Dark blue () territory , where <> is used chiefly
+*   <> Language codes Linguasphere Blue : The counties with the highest proportion of <> speakers .
+*   <> Language codes Linguasphere Countries with significant Macedonian-speaking populations .
+*   <> Language codes Linguasphere Countries with significant Persian-speaking populations
+*   <> Language codes Linguasphere Countries with significant Turkish-speaking populations
+*   <> Language codes Linguasphere Dialectal map of Croatia
+*   <> Language codes Linguasphere Dialects
+*   <> Language codes Linguasphere Distribution of <> Trentino , <> and Belluno in northeastern Italy
+*   <> Language codes Linguasphere Distribution of <> in World This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes Linguasphere Extent of <>
+*   <> Language codes Linguasphere Former settlement area of the <>
+*   <> Language codes Linguasphere Geographic distribution of <> , showing regions of native speakers ( dark green ) and other regions of use
+*   <> Language codes Linguasphere Global extent of <>
+*   <> Language codes Linguasphere Greatest extent of the Roman Empire . <> by no means confined to these regions
+*   <> Language codes Linguasphere Guernsey
+*   <> Language codes Linguasphere Light Blue : Historical transition zone .
+*   <> Language codes Linguasphere Linguistic subdivisions in Canada
+*   <> Language codes Linguasphere Location of all <> / Reserves and cities with an <> in <> , with diffusion rings about communities speaking the <>
+*   <> Language codes Linguasphere Map of the Franco-Proven √ ß al <>
+*   <> Language codes Linguasphere Map showing locations of <> ( until () )
+*   <> Language codes Linguasphere Map showing the Frisian-speaking areas in the Netherlands
+*   <> Language codes Linguasphere Nations where <> spoken .
+*   <> Language codes Linguasphere Original and () st century distribution of <> without the island of R √ ∏ m √ ∏ ( <> ) ) .
+*   <> Language codes Linguasphere Position of <> colour : sandy ) among the other minority languages , regional languages and dialects in the Benelux
+*   <> Language codes Linguasphere Red : The counties with the highest number of <> speakers .
+*   <> Language codes Linguasphere Slovene-speaking areas
+*   <> Language codes Linguasphere Spread of <> in the first half of () th century
+*   <> Language codes Linguasphere The <> area ( in grey ) corresponding to <> ( in colours , <> ) .
+*   <> Language codes Linguasphere The map shows the areas where the language is spoken by a significant population . Overseas Filipinos use the languages as a <> . There are over a million speakers in <> and in the United States , plus () million in the Philippines itself .
+*   <> Language codes Linguasphere This page contains Indic text . Without rendering support you may see irregular vowel positioning and a lack of conjuncts . More . . .
+*   <> Language codes Linguasphere Xinjiang province , the light blue are marks the place were <> spoken .
+*   <> Language codes Linguasphere Yasna () , Ahunavaiti Gatha ( Bodleian MS J2 )
+*   <> Language codes Linguasphere and Koine <>
+*   <> Language codes Linguasphere and other native languages dominated the eastern half .
+*   <> Language codes Linguasphere brown () ‚ Ä ì () % .
+*   <> Language codes Linguasphere extinct () eba & amp ; () ebb )
+*   <> Language codes Linguasphere including () varieties : () AAF-qaa to () AAF-qil )
+*   <> Language codes Linguasphere orange () ‚ Ä ì () %
+*   <> Language codes Linguasphere part of () AAA-a
+*   <> Language codes Linguasphere part of () AAA-g
+*   <> Language codes Linguasphere part of () AAA-h
+*   <> Language codes Linguasphere part of () AAB-a
+*   <> Language codes Linguasphere part of () BAA-b
+*   <> Language codes Linguasphere red () ‚ Ä ì () %
+*   <> Language codes Linguasphere the Cotentin and the Pays de Caux .
 *   <> <> Marginalized by <> from the () rd century
 *   <> <> May () when <> Neidjie died
 *   <> <> Mid-19th century
@@ -5568,471 +5570,471 @@
 *   <> <> fourteenth century
 *   <> <> gave rise to <>
 *   <> <> gradually () AD
-*   <> <> in ( de facto official spoken form of <> government )
-*   <> <> in ( minority language )
-*   <> <> in ( not official language ) recognised as minority language only in parts of
-*   <> <> in ( not recognized internationally )
-*   <> <> in ( official and working language )
-*   <> <> in ( official recognition as regional language by Belgium )
-*   <> <> in () countries
-*   <> <> in () dependent entities
-*   <> <> in () dependent entity
-*   <> <> in : <>
-*   <> <> in : <> S . Mainland
-*   <> <> in : Albania
-*   <> <> in : Austria
-*   <> <> in : Cyprus
-*   <> <> in : Finland
-*   <> <> in : Germany
-*   <> <> in : Italy
-*   <> <> in : Republic of Karelia
-*   <> <> in : Republic of Macedonia
-*   <> <> in : Sweden
-*   <> <> in <>
-*   <> <> in <> ( () , () speakers )
-*   <> <> in <> ( India )
-*   <> <> in <> ( co-official )
-*   <> <> in <> ( to honour Bangladesh ' s contributions to UN Peacekeeping Mission in <> )
-*   <> <> in <> , <>
-*   <> <> in <> , Cyprus
-*   <> <> in <> , and
-*   <> <> in <> <> India )
-*   <> <> in <> Dynasty of China
-*   <> <> in <> Empire
-*   <> <> in <> Free Trade Agreement
-*   <> <> in <> Integration System
-*   <> <> in <> Islands
-*   <> <> in <> Oblast
-*   <> <> in <> Republic
-*   <> <> in <> and Antarctic Lands
-*   <> <> in <> as <>
-*   <> <> in <> language in
-*   <> <> in <> of () states , the third most after <> <>
-*   <> <> in <> official , but not national language )
-*   <> <> in <> official but not national language )
-*   <> <> in <> republic of Karachay-Cherkess
-*   <> <> in Abkhazia
-*   <> <> in Abkhazia ( co-official )
-*   <> <> in Administrative / cultural
-*   <> <> in Afghanistan
-*   <> <> in Alaska ( minority language )
-*   <> <> in Albania
-*   <> <> in Algeria
-*   <> <> in Altai Republic
-*   <> <> in Amhara Region
-*   <> <> in Andean Community of Nations
-*   <> <> in Andorra
-*   <> <> in Angola
-*   <> <> in Angola ( national language )
-*   <> <> in Antarctic Treaty .
-*   <> <> in Aosta Valley
-*   <> <> in Arab League
-*   <> <> in Arab world
-*   <> <> in Armenia
-*   <> <> in Armenia : minority language
-*   <> <> in Aruba
-*   <> <> in Austria
-*   <> <> in Austria ( regional language )
-*   <> <> in Azerbaijan ( <> )
-*   <> <> in Bahrain
-*   <> <> in Balearic Islands .
-*   <> <> in Balochistan
-*   <> <> in Bangladesh ,
-*   <> <> in Bashkortostan
-*   <> <> in Belarus
-*   <> <> in Belarus ( co-official )
-*   <> <> in Belgium
-*   <> <> in Benelux
-*   <> <> in Benin
-*   <> <> in Benishangul-Gumuz Region
-*   <> <> in Bhutan
-*   <> <> in Bihar state in India
-*   <> <> in Bolivia
-*   <> <> in Bosnia and Herzegovina
-*   <> <> in Bosnia and Herzegovina ( as <> <> <>
-*   <> <> in Botswana
-*   <> <> in Brazil
-*   <> <> in Brazil ( regional )
-*   <> <> in Brunei
-*   <> <> in Bulgaria
-*   <> <> in Burkina Faso
-*   <> <> in Burundi
-*   <> <> in Burundi ( as <>
-*   <> <> in C √ ¥ te d ' Ivoire
-*   <> <> in California ( minority language )
-*   <> <> in Cambodia
-*   <> <> in Canada
-*   <> <> in Canada ( as <>
-*   <> <> in Caribbean Netherlands ( Bonaire )
-*   <> <> in Caricom
-*   <> <> in Chad
-*   <> <> in Chechnya , Dagestan
-*   <> <> in China
-*   <> <> in China ( in Jinxiu <> County )
-*   <> <> in Chuvashia ( federal subject of Russia )
-*   <> <> in Clipperton
-*   <> <> in Co-official recognition . Special protection status in Miranda do Douro , Portugal
-*   <> <> in CoE
-*   <> <> in Commonwealth of Nations
-*   <> <> in Comoros
-*   <> <> in Considered a national language of Guatemala and Mexico
-*   <> <> in Corrientes ( Argentina )
-*   <> <> in Council of the <>
-*   <> <> in Croatia
-*   <> <> in Croatia ( Istria County )
-*   <> <> in Croatia ( as <>
-*   <> <> in Cura √ ß ao
-*   <> <> in Cyprus
-*   <> <> in Dadra and Nagar Haveli ( India )
-*   <> <> in Dagestan
-*   <> <> in De facto in Pacific Northwest until about ()
-*   <> <> in Democratic Republic of the Congo
-*   <> <> in Democratic Republic of the Congo , Republic of the Congo
-*   <> <> in Denmark
-*   <> <> in Dire Dawa Administrative council
-*   <> <> in Djibouti
-*   <> <> in EU
-*   <> <> in Ecuador : indigenous languages official in own territories
-*   <> <> in Egypt
-*   <> <> in Equatorial Guinea
-*   <> <> in Eritrea
-*   <> <> in Eritrea ( working language )
-*   <> <> in Eritrean Orthodox Tewahedo <>
-*   <> <> in Estonia
-*   <> <> in Ethiopia and the following specific regions : Addis Ababa City Council
-*   <> <> in Ethiopic Catholic <>
-*   <> <> in European Union
-*   <> <> in Faroe Islands
-*   <> <> in Federated States of Micronesia
-*   <> <> in Finland
-*   <> <> in France
-*   <> <> in France ( region language ) .
-*   <> <> in Gabon
-*   <> <> in Gagauzia
-*   <> <> in Gagauzia ( co-official )
-*   <> <> in Galicia , Spain ; accepted orally as <> the European Union Parliament .
-*   <> <> in Gambela Region
-*   <> <> in Georgia
-*   <> <> in Georgia ( on the territory of the Autonomous Republic of Abkhazia )
-*   <> <> in Germany
-*   <> <> in Ghana
-*   <> <> in Gmina Pu ≈ Ñ sk in the Podlaskie Voivodeship of Poland
-*   <> <> in Goa , India
-*   <> <> in Greece
-*   <> <> in Greenland
-*   <> <> in Greenland ( Denmark )
-*   <> <> in Guam
-*   <> <> in Guernsey
-*   <> <> in Guinea
-*   <> <> in Guinea , Mali
-*   <> <> in Gujarat ( India )
-*   <> <> in Haiti
-*   <> <> in Hawai   ª i ( with <>
-*   <> <> in Heligoland
-*   <> <> in Holy See
-*   <> <> in Hong Kong
-*   <> <> in Hong Kong Macau Republic of China ( Taiwan )
-*   <> <> in Hong Kong and Macau ( de facto , though officially referred to as () ; <> occasionally <> used in government ) . Recognised regional language in Suriname .
-*   <> <> in Hungary
-*   <> <> in IAEA
-*   <> <> in Iceland de facto
-*   <> <> in In () th schedule of Constitution of India , Bihar state in India and <>
-*   <> <> in In Colombia it is recognized as an official language with the <>
-*   <> <> in In Mexico through the General Law of Linguistic Rights of Indigenous Peoples ( in <> .
-*   <> <> in In Mexico through the General Law of Linguistic Rights of Indigenous Peoples .
-*   <> <> in In Portugal : Co-official ( as <> in Miranda do Douro
-*   <> <> in In Spain
-*   <> <> in In Spain : Given special protection ( as <> in Castile and Leon , and ( as <> in Asturias
-*   <> <> in In official use
-*   <> <> in India
-*   <> <> in India ( <> )
-*   <> <> in India ( <> , Puducherry ) ,
-*   <> <> in India ( <> , Tripura and Barak Valley ) ( comprising districts of south Assam- Cachar , Karimganj and Hailakandi ) ,
-*   <> <> in India ( Assam )
-*   <> <> in India ( Indian Punjab )
-*   <> <> in India ( Karnataka )
-*   <> <> in India ( Kerala )
-*   <> <> in India ( Madhya Pradesh and parts of Uttar Pradesh )
-*   <> <> in India ( Manipur )
-*   <> <> in India ( State of Maharashtra , Union territories of Daman-Diu ) and Dadra Nagar Haveli
-*   <> <> in India ( Tripura )
-*   <> <> in India ( as <> <>
-*   <> <> in India ( in () states )
-*   <> <> in India Madhya Pradesh )
-*   <> <> in Indonesia
-*   <> <> in Ingushetia ( federal subject of Russia )
-*   <> <> in Inter-American Development Bank
-*   <> <> in Iran
-*   <> <> in Iran ( <> ) () constitutional status as a regional language
-*   <> <> in Iran : constitutional status as a regional language , but never implemented .
-*   <> <> in Iraq
-*   <> <> in Iraq ( <> ) () constitutional status as a regional language ( referred to as <> the constitution )
-*   <> <> in Iraq : status as official language alongside <>
-*   <> <> in Ireland
-*   <> <> in Isle of Man
-*   <> <> in Israel
-*   <> <> in Italy
-*   <> <> in Italy ( <> )
-*   <> <> in Italy ( protected by statute ) .
-*   <> <> in Italy : Alghero
-*   <> <> in Japan
-*   <> <> in Jordan
-*   <> <> in Judaism
-*   <> <> in Kalmykia
-*   <> <> in Karamano ƒ ü lu
-*   <> <> in Kazakhstan
-*   <> <> in Kazakhstan ( co-official )
-*   <> <> in Kenya
-*   <> <> in Kiribati
-*   <> <> in Kosovo
-*   <> <> in Kosovo ( as <>
-*   <> <> in Kuwait
-*   <> <> in Kyrgyzstan
-*   <> <> in Kyrgyzstan ( co-official )
-*   <> <> in Lancang <> County , Yunnan
-*   <> <> in Laos
-*   <> <> in Latvia
-*   <> <> in Lebanon
-*   <> <> in Lesotho
-*   <> <> in Libya
-*   <> <> in Liechtenstein
-*   <> <> in Limburg , The Netherlands : Recognised as regional language as a variant of <>
-*   <> <> in List
-*   <> <> in Lithuania
-*   <> <> in Liturgical language of the Ethiopian Orthodox Tewahedo <>
-*   <> <> in Luxembourg
-*   <> <> in M √ © tis Nation
-*   <> <> in Macau
-*   <> <> in Macedonia
-*   <> <> in Madagascar
-*   <> <> in Major language of Uganda , official status unclear / pending . . .
-*   <> <> in Malaysia
-*   <> <> in Maldives
-*   <> <> in Mali
-*   <> <> in Malta
-*   <> <> in Manipur and Mizoram
-*   <> <> in Marshall Islands ( with <>
-*   <> <> in Mauritania
-*   <> <> in Mauritius
-*   <> <> in Mayotte
-*   <> <> in Meghalaya ( India )
-*   <> <> in Mercosur
-*   <> <> in Mexico
-*   <> <> in Minority language
-*   <> <> in Mizoram ( India )
-*   <> <> in Moldova
-*   <> <> in Monaco
-*   <> <> in Mongolia
-*   <> <> in Montenegro
-*   <> <> in Montenegro ( as <>
-*   <> <> in Mordovia ( Russia )
-*   <> <> in Morocco
-*   <> <> in Most countries
-*   <> <> in Most states
-*   <> <> in Mount Athos
-*   <> <> in Mozambique
-*   <> <> in NAFTA
-*   <> <> in NATO
-*   <> <> in Nagorno-Karabakh
-*   <> <> in National language in Namibia
-*   <> <> in Navarre
-*   <> <> in Netherlands
-*   <> <> in Netherlands ( as part of <> )
-*   <> <> in Nevada ( minority language )
-*   <> <> in Never spoken as a native language ; other uses vary widely by period and location
-*   <> <> in Niger
-*   <> <> in Nigeria
-*   <> <> in No official status .
-*   <> <> in None
-*   <> <> in None ( Legislative bills have been proposed for <> <> <> to be one of the ' national languages ' in Taiwan ) ; one of the statutory languages for public transport announcements in the ROC
-*   <> <> in None ( Legislative bills have been proposed for <> be one of the ' national languages ' in the Republic of China ) ; one of the statutory languages for public transport announcements in the ROC
-*   <> <> in None , de facto status in Taiwan since it is one of the statutory languages for public transport announcements in Taiwan .
-*   <> <> in None .
-*   <> <> in Nordfriesland
-*   <> <> in Nordic Council
-*   <> <> in Northwest Territories
-*   <> <> in Northwest Territories ( Canada )
-*   <> <> in Norway
-*   <> <> in Norway ( () )
-*   <> <> in Numerous international organisations
-*   <> <> in Numerous small states
-*   <> <> in Nunatsiavut ( Canada )
-*   <> <> in Nunavik
-*   <> <> in Nunavut
-*   <> <> in Nunavut and Northwest Territories ( Canada )
-*   <> <> in OAS
-*   <> <> in OIC
-*   <> <> in Officially recognized in Italy ( Law () / () ) and Monaco .
-*   <> <> in Officially-recognised minority language in Hungary
-*   <> <> in Oman
-*   <> <> in One of () national languages of Mexico
-*   <> <> in One of the national languages of Mexico
-*   <> <> in Organization of <>
-*   <> <> in Organization of Ibero-American States
-*   <> <> in Orissa
-*   <> <> in PIF
-*   <> <> in Pakistan
-*   <> <> in Pakistan ( Balochistan ) ( Regional <>
-*   <> <> in Pakistan ( Pakistani Punjab )
-*   <> <> in Pakistan ( Sindh )
-*   <> <> in Pakistan ( as <>
-*   <> <> in Pakistan ( provincial language in Khyber Pakhtunkhwa . and FATA )
-*   <> <> in Palau
-*   <> <> in Palau ( Angaur )
-*   <> <> in Palestine
-*   <> <> in Papua <>
-*   <> <> in Paraguay
-*   <> <> in People ' s Republic of China
-*   <> <> in People ' s Republic of China ( Inner Mongolia )
-*   <> <> in Per √ ∫
-*   <> <> in Peru
-*   <> <> in Peru and Bolivia .
-*   <> <> in Philippines
-*   <> <> in Philippines ( in the form of <>
-*   <> <> in Poland
-*   <> <> in Poland ( in Gmina Orla , Gmina Narewka , and Hajn √ ≥ wka )
-*   <> <> in Poland and Serbia
-*   <> <> in Portugal
-*   <> <> in Province of Friesland
-*   <> <> in Puducherry
-*   <> <> in Qatar
-*   <> <> in Recognised as a regional language in the Philippines ; recognized as a minority language in Malaysia
-*   <> <> in Recognized as a minority language in the <>
-*   <> <> in Recognized minority language of Sweden
-*   <> <> in Regional language in the Philippines
-*   <> <> in Regional language in the Philippines .
-*   <> <> in Regional or local official language in
-*   <> <> in Republic of Adygea
-*   <> <> in Republic of China ( Taiwan )
-*   <> <> in Republic of Jamtland
-*   <> <> in Republic of Karelia
-*   <> <> in Republic of Macedonia
-*   <> <> in Republic of the Congo
-*   <> <> in Roman Empire
-*   <> <> in Roman republic , Roman empire
-*   <> <> in Romania
-*   <> <> in Rome
-*   <> <> in Russia
-*   <> <> in Russia () One of the official languages of Dagestan Republic .
-*   <> <> in S √ £ o Gabriel da Cachoeira ( Brazil )
-*   <> <> in S √ £ o Tom √ © and Pr √ ≠ ncipe
-*   <> <> in SNNPR
-*   <> <> in Saint-Barth √ © lemy
-*   <> <> in Saint-Martin
-*   <> <> in Saint-Pierre and Miquelon
-*   <> <> in Samoa ( () , () speakers )
-*   <> <> in Sardinia
-*   <> <> in Scotland
-*   <> <> in Senegal
-*   <> <> in Serbia
-*   <> <> in Serbia ( as <>
-*   <> <> in Serbia ( regional language )
-*   <> <> in Seychelles
-*   <> <> in Shang Dynasty
-*   <> <> in Sikkim ( India )
-*   <> <> in Sint Maarten
-*   <> <> in Slovakia
-*   <> <> in Slovakia ( regional language )
-*   <> <> in Slovenia
-*   <> <> in Slovenia ( Slovenian Istria )
-*   <> <> in Slovenia ( regional language )
-*   <> <> in Sn √ • sa
-*   <> <> in Somalia
-*   <> <> in Some official rights in Romania
-*   <> <> in Song Dynasty
-*   <> <> in Sovereign Military Order of Malta
-*   <> <> in Spain ( also the preferred language for use in the Val d ' Aran )
-*   <> <> in Spain : Catalonia
-*   <> <> in Special protection status in Castile and Leon , Spain
-*   <> <> in Sudan
-*   <> <> in Suriname
-*   <> <> in Swaziland
-*   <> <> in Sweden
-*   <> <> in Sweden ( () )
-*   <> <> in Switzerland
-*   <> <> in Switzerland ( as <>
-*   <> <> in Syria
-*   <> <> in Tajikistan
-*   <> <> in Tang Dynasty
-*   <> <> in Tanzania
-*   <> <> in Tatarstan ( Russia )
-*   <> <> in Thailand
-*   <> <> in The administrations and universities of numerous countries
-*   <> <> in Tibet Autonomous Region
-*   <> <> in Togo
-*   <> <> in Tokelau
-*   <> <> in Transnistria ( co-official )
-*   <> <> in Transnistria ( unrecognized de facto state )
-*   <> <> in Tunisia
-*   <> <> in Turkey
-*   <> <> in Turkmenistan
-*   <> <> in Tuva ( federal subject of Russia )
-*   <> <> in Tuvalu
-*   <> <> in UKUSA
-*   <> <> in Ucayali Region ( Peru )
-*   <> <> in Udmurtia
-*   <> <> in Uganda
-*   <> <> in Ukraine
-*   <> <> in Ukraine ( Crimea )
-*   <> <> in Ukraine and Croatia
-*   <> <> in Union of <> Nations
-*   <> <> in United Arab Emirates
-*   <> <> in United Nations
-*   <> <> in Utopia
-*   <> <> in Uttarakhand ( India )
-*   <> <> in Uzbekistan
-*   <> <> in Uzbekistan ( Karakalpakstan is the official area )
-*   <> <> in Vanuatu
-*   <> <> in Vatican City
-*   <> <> in Vietnam
-*   <> <> in Vojvodina
-*   <> <> in Vojvodina ( Serbia )
-*   <> <> in Vojvodina in Serbia
-*   <> <> in Vojvodina province ( Serbia )
-*   <> <> in Wales
-*   <> <> in Wallis and Futuna
-*   <> <> in Weixi <> County , Nujiang <> Prefecture ( PRC )
-*   <> <> in World Trade Organization
-*   <> <> in Xinjiang <> Region
-*   <> <> in Yanbian , People ' s Republic of China
-*   <> <> in Yemen
-*   <> <> in Yuan Dynasty
-*   <> <> in Zambia
-*   <> <> in Zambia ( regional language )
-*   <> <> in and Beta Israel
-*   <> <> in and recognised as a minority language in
-*   <> <> in as a regional language
-*   <> <> in co-official in Dehong , China
-*   <> <> in co-official language of Namibia until ()
-*   <> <> in dead
-*   <> <> in decline following the <> of ()
-*   <> <> in in some communes of Pomeranian Voivodeship
-*   <> <> in in some parts of Norway ; recognized as a minority language in several municipalities of Sweden and Finland .
-*   <> <> in initially Akkad ( central Mesopotamia ) ; <> of the <> and Egypt in the late Bronze and early Iron Ages .
-*   <> <> in n / a
-*   <> <> in no official status
-*   <> <> in none ( legislative bills have been proposed for it to be one of the ' national languages ' in the Republic of China ) ; one of the statutory languages for public transport announcements in the ROC ; ROC government sponsors <> television station to preserve language
-*   <> <> in none , recognised as a minority language in Cambodia and Vietnam
-*   <> <> in none , recognised as a minority language in Vietnam
-*   <> <> in none , recognized as a minority language in Mizoram
-*   <> <> in none ; one of the statutory languages for public transport announcements in the Matsu Islands , Republic of China
-*   <> <> in not an official language
-*   <> <> in officially recognized minority language of Taiwan
-*   <> <> in one of the () scheduled languages of India
-*   <> <> in protected by statute in Italy and Aosta Valley Autonomous Region .
-*   <> <> in recognised as minority language in
-*   <> <> in recognised as minority language in parts of
-*   <> <> in recognised minority language in
-*   <> <> in recognized as a minority language in Assam
-*   <> <> in recognized as minority language in parts of
-*   <> <> in regional language in Germany ( Brandenburg and Saxony )
-*   <> <> in the Netherlands ( as a regional language ) ; no official status in Belgium or Germany
-*   <> <> in the Netherlands ( as part of <> )
-*   <> <> in use only as a liturgical language
-*   <> <> in ‚ Ä î Classified as a () by The <> <> Body .
-*   <> <> in ‚ Ä î Classified as a () by the <> .
-*   <> <> in ‚ Ä î Classified as a () under the European Charter for Regional or Minority Languages , ratified by the United Kingdom in ()
-*   <> <> in ‚ Ä î Government-sponsored languages of Ghana
+*   <> Official language in ( de facto official spoken form of <> government )
+*   <> Official language in ( minority language )
+*   <> Official language in ( not <> Official language ) recognised as minority language only in parts of
+*   <> Official language in ( not recognized internationally )
+*   <> Official language in ( official and working language )
+*   <> <> Official language in ( official recognition as regional language by Belgium )
+*   <> Official language in () countries
+*   <> Official language in () dependent entities
+*   <> Official language in () dependent entity
+*   <> Official language in : <>
+*   <> Official language in : <> S . Mainland
+*   <> Official language in : Albania
+*   <> Official language in : Austria
+*   <> Official language in : Cyprus
+*   <> Official language in : Finland
+*   <> Official language in : Germany
+*   <> Official language in : Italy
+*   <> Official language in : Republic of Karelia
+*   <> Official language in : Republic of Macedonia
+*   <> Official language in : Sweden
+*   <> Official language in <>
+*   <> Official language in <> ( () , () speakers )
+*   <> Official language in <> ( India )
+*   <> Official language in <> ( co-official )
+*   <> Official language in <> ( to honour Bangladesh ' s contributions to UN Peacekeeping Mission in <> )
+*   <> Official language in <> , <>
+*   <> Official language in <> , Cyprus
+*   <> Official language in <> , and
+*   <> Official language in <> Official language india )
+*   <> Official language in <> Dynasty of China
+*   <> Official language in <> Empire
+*   <> Official language in <> Free Trade Agreement
+*   <> Official language in <> Integration System
+*   <> Official language in <> Islands
+*   <> Official language in <> Oblast
+*   <> Official language in <> Republic
+*   <> Official language in <> and Antarctic Lands
+*   <> Official language in <> as <>
+*   <> Official language in <> language in
+*   <> Official language in <> of () states , the third most after <> <>
+*   <> Official language in <> official , but not national language )
+*   <> Official language in <> official but not national language )
+*   <> Official language in <> republic of Karachay-Cherkess
+*   <> Official language in Abkhazia
+*   <> Official language in Abkhazia ( co-official )
+*   <> Official language in Administrative / cultural
+*   <> Official language in Afghanistan
+*   <> Official language in Alaska ( minority language )
+*   <> Official language in Albania
+*   <> Official language in Algeria
+*   <> Official language in Altai Republic
+*   <> Official language in Amhara Region
+*   <> Official language in Andean Community of Nations
+*   <> Official language in Andorra
+*   <> Official language in Angola
+*   <> Official language in Angola ( national language )
+*   <> Official language in Antarctic Treaty .
+*   <> Official language in Aosta Valley
+*   <> Official language in Arab League
+*   <> Official language in Arab world
+*   <> Official language in Armenia
+*   <> Official language in Armenia : minority language
+*   <> Official language in Aruba
+*   <> Official language in Austria
+*   <> Official language in Austria ( regional language )
+*   <> Official language in Azerbaijan ( <> )
+*   <> Official language in Bahrain
+*   <> Official language in Balearic Islands .
+*   <> Official language in Balochistan
+*   <> Official language in Bangladesh ,
+*   <> Official language in Bashkortostan
+*   <> Official language in Belarus
+*   <> Official language in Belarus ( co-official )
+*   <> Official language in Belgium
+*   <> Official language in Benelux
+*   <> Official language in Benin
+*   <> Official language in Benishangul-Gumuz Region
+*   <> Official language in Bhutan
+*   <> Official language in Bihar state in India
+*   <> Official language in Bolivia
+*   <> Official language in Bosnia and Herzegovina
+*   <> Official language in Bosnia and Herzegovina ( as <> <> <>
+*   <> Official language in Botswana
+*   <> Official language in Brazil
+*   <> Official language in Brazil ( regional )
+*   <> Official language in Brunei
+*   <> Official language in Bulgaria
+*   <> Official language in Burkina Faso
+*   <> Official language in Burundi
+*   <> Official language in Burundi ( as <>
+*   <> Official language in C √ ¥ te d ' Ivoire
+*   <> Official language in California ( minority language )
+*   <> Official language in Cambodia
+*   <> Official language in Canada
+*   <> Official language in Canada ( as <>
+*   <> Official language in Caribbean Netherlands ( Bonaire )
+*   <> Official language in Caricom
+*   <> Official language in Chad
+*   <> Official language in Chechnya , Dagestan
+*   <> Official language in China
+*   <> Official language in China ( in Jinxiu <> County )
+*   <> Official language in Chuvashia ( federal subject of Russia )
+*   <> Official language in Clipperton
+*   <> Official language in Co-official recognition . Special protection status in Miranda do Douro , Portugal
+*   <> Official language in CoE
+*   <> Official language in Commonwealth of Nations
+*   <> Official language in Comoros
+*   <> Official language in Considered a national language of Guatemala and Mexico
+*   <> Official language in Corrientes ( Argentina )
+*   <> Official language in Council of the <>
+*   <> Official language in Croatia
+*   <> Official language in Croatia ( Istria County )
+*   <> Official language in Croatia ( as <>
+*   <> Official language in Cura √ ß ao
+*   <> Official language in Cyprus
+*   <> Official language in Dadra and Nagar Haveli ( India )
+*   <> Official language in Dagestan
+*   <> Official language in De facto in Pacific Northwest until about ()
+*   <> Official language in Democratic Republic of the Congo
+*   <> Official language in Democratic Republic of the Congo , Republic of the Congo
+*   <> Official language in Denmark
+*   <> Official language in Dire Dawa Administrative council
+*   <> Official language in Djibouti
+*   <> Official language in EU
+*   <> Official language in Ecuador : indigenous languages official in own territories
+*   <> Official language in Egypt
+*   <> Official language in Equatorial Guinea
+*   <> Official language in Eritrea
+*   <> Official language in Eritrea ( working language )
+*   <> Official language in Eritrean Orthodox Tewahedo <>
+*   <> Official language in Estonia
+*   <> Official language in Ethiopia and the following specific regions : Addis Ababa City Council
+*   <> Official language in Ethiopic Catholic <>
+*   <> Official language in European Union
+*   <> Official language in Faroe Islands
+*   <> Official language in Federated States of Micronesia
+*   <> Official language in Finland
+*   <> Official language in France
+*   <> Official language in France ( region language ) .
+*   <> Official language in Gabon
+*   <> Official language in Gagauzia
+*   <> Official language in Gagauzia ( co-official )
+*   <> Official language in Galicia , Spain ; accepted orally as <> the European Union Parliament .
+*   <> Official language in Gambela Region
+*   <> Official language in Georgia
+*   <> Official language in Georgia ( on the territory of the Autonomous Republic of Abkhazia )
+*   <> Official language in Germany
+*   <> Official language in Ghana
+*   <> Official language in Gmina Pu ≈ Ñ sk in the Podlaskie Voivodeship of Poland
+*   <> Official language in Goa , India
+*   <> Official language in Greece
+*   <> Official language in Greenland
+*   <> Official language in Greenland ( Denmark )
+*   <> Official language in Guam
+*   <> Official language in Guernsey
+*   <> Official language in Guinea
+*   <> Official language in Guinea , Mali
+*   <> Official language in Gujarat ( India )
+*   <> Official language in Haiti
+*   <> Official language in Hawai   ª i ( with <>
+*   <> Official language in Heligoland
+*   <> Official language in Holy See
+*   <> Official language in Hong Kong
+*   <> Official language in Hong Kong Macau Republic of China ( Taiwan )
+*   <> Official language in Hong Kong and Macau ( de facto , though officially referred to as () ; <> occasionally <> used in government ) . Recognised regional language in Suriname .
+*   <> Official language in Hungary
+*   <> Official language in IAEA
+*   <> Official language in Iceland de facto
+*   <> Official language in In () th schedule of Constitution of India , Bihar state in India and <>
+*   <> Official language in In Colombia it is recognized as an <> Official language with the <>
+*   <> Official language in In Mexico through the General Law of Linguistic Rights of Indigenous Peoples ( in <> .
+*   <> Official language in In Mexico through the General Law of Linguistic Rights of Indigenous Peoples .
+*   <> Official language in In Portugal : Co-official ( as <> in Miranda do Douro
+*   <> Official language in In Spain
+*   <> Official language in In Spain : Given special protection ( as <> in Castile and Leon , and ( as <> in Asturias
+*   <> Official language in In official use
+*   <> Official language in India
+*   <> Official language in India ( <> )
+*   <> Official language in India ( <> , Puducherry ) ,
+*   <> Official language in India ( <> , Tripura and Barak Valley ) ( comprising districts of south Assam- Cachar , Karimganj and Hailakandi ) ,
+*   <> Official language in India ( Assam )
+*   <> Official language in India ( Indian Punjab )
+*   <> Official language in India ( Karnataka )
+*   <> Official language in India ( Kerala )
+*   <> Official language in India ( Madhya Pradesh and parts of Uttar Pradesh )
+*   <> Official language in India ( Manipur )
+*   <> Official language in India ( State of Maharashtra , Union territories of Daman-Diu ) and Dadra Nagar Haveli
+*   <> Official language in India ( Tripura )
+*   <> Official language in India ( as <> <>
+*   <> Official language in India ( in () states )
+*   <> Official language in India Madhya Pradesh )
+*   <> Official language in Indonesia
+*   <> Official language in Ingushetia ( federal subject of Russia )
+*   <> Official language in Inter-American Development Bank
+*   <> Official language in Iran
+*   <> Official language in Iran ( <> ) () constitutional status as a regional language
+*   <> Official language in Iran : constitutional status as a regional language , but never implemented .
+*   <> Official language in Iraq
+*   <> Official language in Iraq ( <> ) () constitutional status as a regional language ( referred to as <> the constitution )
+*   <> Official language in Iraq : status as <> Official language alongside <>
+*   <> Official language in Ireland
+*   <> Official language in Isle of Man
+*   <> Official language in Israel
+*   <> Official language in Italy
+*   <> Official language in Italy ( <> )
+*   <> Official language in Italy ( protected by statute ) .
+*   <> Official language in Italy : Alghero
+*   <> Official language in Japan
+*   <> Official language in Jordan
+*   <> Official language in Judaism
+*   <> Official language in Kalmykia
+*   <> Official language in Karamano ƒ ü lu
+*   <> Official language in Kazakhstan
+*   <> Official language in Kazakhstan ( co-official )
+*   <> Official language in Kenya
+*   <> Official language in Kiribati
+*   <> Official language in Kosovo
+*   <> Official language in Kosovo ( as <>
+*   <> Official language in Kuwait
+*   <> Official language in Kyrgyzstan
+*   <> Official language in Kyrgyzstan ( co-official )
+*   <> Official language in Lancang <> County , Yunnan
+*   <> Official language in Laos
+*   <> Official language in Latvia
+*   <> Official language in Lebanon
+*   <> Official language in Lesotho
+*   <> Official language in Libya
+*   <> Official language in Liechtenstein
+*   <> Official language in Limburg , The Netherlands : Recognised as regional language as a variant of <>
+*   <> Official language in List
+*   <> Official language in Lithuania
+*   <> Official language in Liturgical language of the Ethiopian Orthodox Tewahedo <>
+*   <> Official language in Luxembourg
+*   <> Official language in M √ © tis Nation
+*   <> Official language in Macau
+*   <> Official language in Macedonia
+*   <> Official language in Madagascar
+*   <> Official language in Major language of Uganda , official status unclear / pending . . .
+*   <> Official language in Malaysia
+*   <> Official language in Maldives
+*   <> Official language in Mali
+*   <> Official language in Malta
+*   <> Official language in Manipur and Mizoram
+*   <> Official language in Marshall Islands ( with <>
+*   <> Official language in Mauritania
+*   <> Official language in Mauritius
+*   <> Official language in Mayotte
+*   <> Official language in Meghalaya ( India )
+*   <> Official language in Mercosur
+*   <> Official language in Mexico
+*   <> Official language in Minority language
+*   <> Official language in Mizoram ( India )
+*   <> Official language in Moldova
+*   <> Official language in Monaco
+*   <> Official language in Mongolia
+*   <> Official language in Montenegro
+*   <> Official language in Montenegro ( as <>
+*   <> Official language in Mordovia ( Russia )
+*   <> Official language in Morocco
+*   <> Official language in Most countries
+*   <> Official language in Most states
+*   <> Official language in Mount Athos
+*   <> Official language in Mozambique
+*   <> Official language in NAFTA
+*   <> Official language in NATO
+*   <> Official language in Nagorno-Karabakh
+*   <> Official language in National language in Namibia
+*   <> Official language in Navarre
+*   <> Official language in Netherlands
+*   <> Official language in Netherlands ( as part of <> )
+*   <> Official language in Nevada ( minority language )
+*   <> Official language in Never spoken as a native language ; other uses vary widely by period and location
+*   <> Official language in Niger
+*   <> Official language in Nigeria
+*   <> Official language in No official status .
+*   <> Official language in None
+*   <> Official language in None ( Legislative bills have been proposed for <> <> <> to be one of the ' national languages ' in Taiwan ) ; one of the statutory languages for public transport announcements in the ROC
+*   <> Official language in None ( Legislative bills have been proposed for <> be one of the ' national languages ' in the Republic of China ) ; one of the statutory languages for public transport announcements in the ROC
+*   <> Official language in None , de facto status in Taiwan since it is one of the statutory languages for public transport announcements in Taiwan .
+*   <> Official language in None .
+*   <> Official language in Nordfriesland
+*   <> Official language in Nordic Council
+*   <> Official language in Northwest Territories
+*   <> Official language in Northwest Territories ( Canada )
+*   <> Official language in Norway
+*   <> Official language in Norway ( () )
+*   <> Official language in Numerous international organisations
+*   <> Official language in Numerous small states
+*   <> Official language in Nunatsiavut ( Canada )
+*   <> Official language in Nunavik
+*   <> Official language in Nunavut
+*   <> Official language in Nunavut and Northwest Territories ( Canada )
+*   <> Official language in OAS
+*   <> Official language in OIC
+*   <> Official language in Officially recognized in Italy ( Law () / () ) and Monaco .
+*   <> Official language in Officially-recognised minority language in Hungary
+*   <> Official language in Oman
+*   <> Official language in One of () national languages of Mexico
+*   <> Official language in One of the national languages of Mexico
+*   <> Official language in Organization of <>
+*   <> Official language in Organization of Ibero-American States
+*   <> Official language in Orissa
+*   <> Official language in PIF
+*   <> Official language in Pakistan
+*   <> Official language in Pakistan ( Balochistan ) ( Regional <>
+*   <> Official language in Pakistan ( Pakistani Punjab )
+*   <> Official language in Pakistan ( Sindh )
+*   <> Official language in Pakistan ( as <>
+*   <> Official language in Pakistan ( provincial language in Khyber Pakhtunkhwa . and FATA )
+*   <> Official language in Palau
+*   <> Official language in Palau ( Angaur )
+*   <> Official language in Palestine
+*   <> Official language in Papua <>
+*   <> Official language in Paraguay
+*   <> Official language in People ' s Republic of China
+*   <> Official language in People ' s Republic of China ( Inner Mongolia )
+*   <> Official language in Per √ ∫
+*   <> Official language in Peru
+*   <> Official language in Peru and Bolivia .
+*   <> Official language in Philippines
+*   <> Official language in Philippines ( in the form of <>
+*   <> Official language in Poland
+*   <> Official language in Poland ( in Gmina Orla , Gmina Narewka , and Hajn √ ≥ wka )
+*   <> Official language in Poland and Serbia
+*   <> Official language in Portugal
+*   <> Official language in Province of Friesland
+*   <> Official language in Puducherry
+*   <> Official language in Qatar
+*   <> Official language in Recognised as a regional language in the Philippines ; recognized as a minority language in Malaysia
+*   <> Official language in Recognized as a minority language in the <>
+*   <> Official language in Recognized minority language of Sweden
+*   <> Official language in Regional language in the Philippines
+*   <> Official language in Regional language in the Philippines .
+*   <> Official language in Regional or local <> Official language in
+*   <> Official language in Republic of Adygea
+*   <> Official language in Republic of China ( Taiwan )
+*   <> Official language in Republic of Jamtland
+*   <> Official language in Republic of Karelia
+*   <> Official language in Republic of Macedonia
+*   <> Official language in Republic of the Congo
+*   <> Official language in Roman Empire
+*   <> Official language in Roman republic , Roman empire
+*   <> Official language in Romania
+*   <> Official language in Rome
+*   <> Official language in Russia
+*   <> Official language in Russia () One of the <> Official languages of Dagestan Republic .
+*   <> Official language in S √ £ o Gabriel da Cachoeira ( Brazil )
+*   <> Official language in S √ £ o Tom √ © and Pr √ ≠ ncipe
+*   <> Official language in SNNPR
+*   <> Official language in Saint-Barth √ © lemy
+*   <> Official language in Saint-Martin
+*   <> Official language in Saint-Pierre and Miquelon
+*   <> Official language in Samoa ( () , () speakers )
+*   <> Official language in Sardinia
+*   <> Official language in Scotland
+*   <> Official language in Senegal
+*   <> Official language in Serbia
+*   <> Official language in Serbia ( as <>
+*   <> Official language in Serbia ( regional language )
+*   <> Official language in Seychelles
+*   <> Official language in Shang Dynasty
+*   <> Official language in Sikkim ( India )
+*   <> Official language in Sint Maarten
+*   <> Official language in Slovakia
+*   <> Official language in Slovakia ( regional language )
+*   <> Official language in Slovenia
+*   <> Official language in Slovenia ( Slovenian Istria )
+*   <> Official language in Slovenia ( regional language )
+*   <> Official language in Sn √ • sa
+*   <> Official language in Somalia
+*   <> Official language in Some official rights in Romania
+*   <> Official language in Song Dynasty
+*   <> Official language in Sovereign Military Order of Malta
+*   <> Official language in Spain ( also the preferred language for use in the Val d ' Aran )
+*   <> Official language in Spain : Catalonia
+*   <> Official language in Special protection status in Castile and Leon , Spain
+*   <> Official language in Sudan
+*   <> Official language in Suriname
+*   <> Official language in Swaziland
+*   <> Official language in Sweden
+*   <> Official language in Sweden ( () )
+*   <> Official language in Switzerland
+*   <> Official language in Switzerland ( as <>
+*   <> Official language in Syria
+*   <> Official language in Tajikistan
+*   <> Official language in Tang Dynasty
+*   <> Official language in Tanzania
+*   <> Official language in Tatarstan ( Russia )
+*   <> Official language in Thailand
+*   <> Official language in The administrations and universities of numerous countries
+*   <> Official language in Tibet Autonomous Region
+*   <> Official language in Togo
+*   <> Official language in Tokelau
+*   <> Official language in Transnistria ( co-official )
+*   <> Official language in Transnistria ( unrecognized de facto state )
+*   <> Official language in Tunisia
+*   <> Official language in Turkey
+*   <> Official language in Turkmenistan
+*   <> Official language in Tuva ( federal subject of Russia )
+*   <> Official language in Tuvalu
+*   <> Official language in UKUSA
+*   <> Official language in Ucayali Region ( Peru )
+*   <> Official language in Udmurtia
+*   <> Official language in Uganda
+*   <> Official language in Ukraine
+*   <> Official language in Ukraine ( Crimea )
+*   <> Official language in Ukraine and Croatia
+*   <> Official language in Union of <> Nations
+*   <> Official language in United Arab Emirates
+*   <> Official language in United Nations
+*   <> Official language in Utopia
+*   <> Official language in Uttarakhand ( India )
+*   <> Official language in Uzbekistan
+*   <> Official language in Uzbekistan ( Karakalpakstan is the official area )
+*   <> Official language in Vanuatu
+*   <> Official language in Vatican City
+*   <> Official language in Vietnam
+*   <> Official language in Vojvodina
+*   <> Official language in Vojvodina ( Serbia )
+*   <> Official language in Vojvodina in Serbia
+*   <> Official language in Vojvodina province ( Serbia )
+*   <> Official language in Wales
+*   <> Official language in Wallis and Futuna
+*   <> Official language in Weixi <> County , Nujiang <> Prefecture ( PRC )
+*   <> Official language in World Trade Organization
+*   <> Official language in Xinjiang <> Region
+*   <> Official language in Yanbian , People ' s Republic of China
+*   <> Official language in Yemen
+*   <> Official language in Yuan Dynasty
+*   <> Official language in Zambia
+*   <> Official language in Zambia ( regional language )
+*   <> Official language in and Beta Israel
+*   <> Official language in and recognised as a minority language in
+*   <> Official language in as a regional language
+*   <> Official language in co-official in Dehong , China
+*   <> Official language in co-<> Official language of Namibia until ()
+*   <> Official language in dead
+*   <> Official language in decline following the <> of ()
+*   <> Official language in in some communes of Pomeranian Voivodeship
+*   <> Official language in in some parts of Norway ; recognized as a minority language in several municipalities of Sweden and Finland .
+*   <> Official language in initially Akkad ( central Mesopotamia ) ; <> of the <> and Egypt in the late Bronze and early Iron Ages .
+*   <> Official language in n / a
+*   <> Official language in no official status
+*   <> Official language in none ( legislative bills have been proposed for it to be one of the ' national languages ' in the Republic of China ) ; one of the statutory languages for public transport announcements in the ROC ; ROC government sponsors <> television station to preserve language
+*   <> Official language in none , recognised as a minority language in Cambodia and Vietnam
+*   <> Official language in none , recognised as a minority language in Vietnam
+*   <> Official language in none , recognized as a minority language in Mizoram
+*   <> Official language in none ; one of the statutory languages for public transport announcements in the Matsu Islands , Republic of China
+*   <> Official language in not an <> Official language
+*   <> Official language in officially recognized minority language of Taiwan
+*   <> Official language in one of the () scheduled languages of India
+*   <> Official language in protected by statute in Italy and Aosta Valley Autonomous Region .
+*   <> Official language in recognised as minority language in
+*   <> Official language in recognised as minority language in parts of
+*   <> Official language in recognised minority language in
+*   <> Official language in recognized as a minority language in Assam
+*   <> Official language in recognized as minority language in parts of
+*   <> Official language in regional language in Germany ( Brandenburg and Saxony )
+*   <> Official language in the Netherlands ( as a regional language ) ; no official status in Belgium or Germany
+*   <> Official language in the Netherlands ( as part of <> )
+*   <> Official language in use only as a liturgical language
+*   <> Official language in ‚ Ä î Classified as a () by The <> <> Body .
+*   <> Official language in ‚ Ä î Classified as a () by the <> .
+*   <> Official language in ‚ Ä î Classified as a () under the European Charter for Regional or Minority Languages , ratified by the United Kingdom in ()
+*   <> Official language in ‚ Ä î Government-sponsored languages of Ghana
 *   <> <> largely extinct by the () th century , remnants evolved into <>
 *   <> <> late () th Century ?
 *   <> <> late () th century
@@ -6046,7 +6048,7 @@
 *   <> <> mostly extinct by the () th or () th century , remnants may have lingered into the () th century
 *   <> <> not known
 *   <> <> not spoken for several generations
-*   <> <> presumed extinct . One speaker of Chilanga ( <> <> in the () s . Some semi-speakers of Honduran <> in the () s .
+*   <> <> presumed extinct . One speaker of Chilanga ( <> Official language in the () s . Some semi-speakers of Honduran <> in the () s .
 *   <> <> probably () st century BC--2nd century AD
 *   <> <> probably by the sixth century AD
 *   <> <> progressive revival
@@ -6139,7 +6141,7 @@
 *   <> Burmese Total speakers ‚ Ä ì
 *   <> Cant Total speakers
 *   <> Castilian Total speakers First language () million to () million .
-*   <> Category ( purpose ) ( descended from <>
+*   <> Category ( purpose ) ( descended from <> )
 *   <> Category ( purpose ) <>
 *   <> Category ( purpose ) <> Nova
 *   <> Category ( purpose ) <> flexione
@@ -6321,27 +6323,27 @@
 *   <> Dialects <>
 *   <> Dialects <> ( <> )
 *   <> Dialects <> ( Madik )
-*   <> Dialects <> ( including <> <>
+*   <> Dialects <> ( including <> )
 *   <> Dialects <> ( including Fuchow )
-*   <> Dialects <> ? )
-*   <> Dialects <> Baraguyu )
-*   <> Dialects <> Ichimambwe )
-*   <> Dialects <> Krashovani )
-*   <> Dialects <> Maghrebi )
+*   <> Dialects <> ( ? )
+*   <> Dialects <> ( Baraguyu )
+*   <> Dialects <> ( Ichimambwe )
+*   <> Dialects <> ( Krashovani )
+*   <> Dialects <> ( Maghrebi )
 *   <> Dialects <> Moset √ © n
-*   <> Dialects <> Quedah )
+*   <> Dialects <> ( Quedah )
 *   <> Dialects <> Region
 *   <> Dialects <> Sign
 *   <> Dialects <> Total speakers
-*   <> Dialects <> Tuba )
-*   <> Dialects <> incl . <>
-*   <> Dialects <> including Cantonese-Taishanese )
-*   <> Dialects <> including Swatow , Chaozhou , Jieyang , parts of Shanwei / Meizhou )
-*   <> Dialects <> prestigious )
+*   <> Dialects <> ( Tuba )
+*   <> Dialects <> ( incl . <> )
+*   <> Dialects <> ( including Cantonese-Taishanese )
+*   <> Dialects <> ( including Swatow , Chaozhou , Jieyang , parts of Shanwei / Meizhou )
+*   <> Dialects <> ( prestigious )
 *   <> Dialects <> transition
 *   <> Dialects <> √ ß an <>
-*   <> Dialects <> ƒ å akavian )
-*   <> Dialects <> ≈ † tokavian ) ( standard )
+*   <> Dialects <> ( ƒ å akavian )
+*   <> Dialects <> ( ≈ † tokavian ) ( standard )
 *   <> Dialects ? <>
 *   <> Dialects ? Mut √ ∫ ( Loco )
 *   <> Dialects A √ ≠ sa <> <>
@@ -6488,7 +6490,7 @@
 *   <> Dialects Kunf √ § l
 *   <> Dialects Kwa
 *   <> Dialects Kwetjman
-*   <> Dialects L √ ≠ ngua Geral of S √ £ o Paulo ( Tup √ ≠ <>
+*   <> Dialects L √ ≠ ngua Geral of S √ £ o Paulo ( Tup √ ≠ <> )
 *   <> Dialects L √ ≠ ngua geral amaz √ ¥ nica
 *   <> Dialects Laghmani
 *   <> Dialects Laitokitok
@@ -6503,7 +6505,7 @@
 *   <> Dialects Lolaca
 *   <> Dialects Lolatavola
 *   <> Dialects Lolobi
-*   <> Dialects Lucayo ( <>
+*   <> Dialects Lucayo ( <> )
 *   <> Dialects Lukasa
 *   <> Dialects Lungu ( Ichirungu , Adong )
 *   <> Dialects Maneta
@@ -6542,7 +6544,7 @@
 *   <> Dialects Oman
 *   <> Dialects Oowekyala
 *   <> Dialects Opobo
-*   <> Dialects Oujiang ( <>
+*   <> Dialects Oujiang ( <> )
 *   <> Dialects Owerre
 *   <> Dialects Padang
 *   <> Dialects Pakistan
@@ -6974,7 +6976,7 @@
 *   <> Recognised minority language in Mauritius
 *   <> Recognised minority language in Moldova
 *   <> Recognised minority language in Montenegro
-*   <> Recognised minority language in Namibia ( National language ; official language () ‚ Ä ì () )
+*   <> Recognised minority language in Namibia ( National language ; <> Official language () ‚ Ä ì () )
 *   <> Recognised minority language in Poland
 *   <> Recognised minority language in Poland ( Auxiliary language in () municipalities in Opole Voivodeship )
 *   <> Recognised minority language in Romania
