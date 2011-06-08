@@ -1,5 +1,17 @@
 #!/usr/local/bin/python
 # coding: utf-8
+
+''' Wikiscript.py
+@author Claire
+
+Pulls content from wikipedia language pages with the Infobox template, 
+and proceeds to parse the content 
+
+Note, if include a file of links/already have pages with links contents, 
+wikiscript should be run in the same directory.  
+'''
+
+
 import urllib2
 import sys
 from string import *
@@ -74,6 +86,7 @@ def writeFacts(facts):
     
     for k in facts.keys():
         if facts[k].__class__  == list: 
+            
             for entry in facts[k]: 
                 
                 if entry.find('\"') != -1: 
@@ -84,6 +97,9 @@ def writeFacts(facts):
                     global started
                     started = True
                     writestring = subject + ' ' + k + ' ' + entry #+ '\n'
+                
+                elif k == 'Official language in': 
+                    writestring = subject  + ' ' + k + ' ' + entry
                     
                 else: 
                     writestring = '\"' + ' ' + k + ' ' + entry #+ '\n'
@@ -101,10 +117,11 @@ def writeFacts(facts):
                 
             global started
             started = True 
-            if k == '->':
-                 writestring =  ':' + subject + ' ' + '->' + ' ' + Native #+ '\n'
+            if k == '<-':
+                 writestring =  ':' + subject + ' ' + '<-' + ' ' + Native #+ '\n'
             elif k == 'Language family': 
                 writestring =  ':' + subject + ' ' + '[' +  facts[k] + '] ' #+ '\n'
+                
             else: 
                 writestring =  subject + ' ' + k + ' ' + facts[k] #+ '\n'
             
@@ -119,7 +136,10 @@ def writeFacts(facts):
             
             elif k == 'Language family': 
                 writestring =  ':' + subject + ' ' + '[' +  facts[k] + '] ' #+ '\n'
-                
+            
+            elif k == 'Official language in': 
+                writestring = subject  + ' ' + k + ' ' + facts[k]
+#                
             else:   
                 writestring =  '\"' + ' ' + k + ' ' + facts[k] #+ '\n'
                 
@@ -131,9 +151,6 @@ def writeFacts(facts):
     
     file.close()
             
-        
-        
-    
     
     return 
 
@@ -240,7 +257,7 @@ def cleanUpFact(x, key):
 
 
 def parse_mainSection(lang_str):
-    '''
+    '''Parses the main section of the Infobox
     '''
    
     headings = []
@@ -274,9 +291,28 @@ def parse_mainSection(lang_str):
         i += 1
     
     if Native != '':
-       facts['<-'] = Native 
-       facts['<-'] = cleanUpFact(facts['<-'], '<-')
-    
+        facts['<-'] = Native
+        facts['<-'] = cleanUpFact(facts['<-'], '<-')
+       
+    if Name.find(',') != -1: 
+        names = Name.split(',')
+        global Name
+        Name = names[0]
+        names = names[1:]
+        
+        if names != []:
+            if '<-' in facts:
+                if facts['<-'].__class__ == list:
+                    facts['<-'].extend(names)
+                else: 
+                    aliases = [facts['<-']]
+                    aliases.extend(names)
+                    facts['<-'] = aliases
+            else: 
+                facts['<-'] = names
+           
+            
+     
     #just grab immediate parent
     if 'Language family' in facts.keys(): 
         fams = facts['Language family']
@@ -286,10 +322,7 @@ def parse_mainSection(lang_str):
             if fams.__class__ == list: 
                # if len(fams) > 1: 
                facts['Language family'] = fams[-2]
-               if facts['Language family'] == 'b':
-                     print "HERE"
-#                else: 
-#                    print 'SELF'
+
             elif fams.__class__ == string: 
                 print 'ONE ITEM'
                 #only 1 item: 
@@ -339,6 +372,8 @@ def parse_OfficialStatusSection(off_str):
 ####################################################################
 
 def parse_LanguageCodeSection(codz_str):
+    ''' Parses Language Codes section of contents
+    '''
     
     codz_str = codz_str.replace('Language codes', '')
     try: 
@@ -388,6 +423,8 @@ def parse_LanguageCodeSection(codz_str):
 ####################################################################
 
 def removeTags (htmlText, count):
+    ''' Removes all html tags from content so just have the info
+    '''
     
     
     start = htmlText.find('<')
@@ -437,7 +474,8 @@ def cleanUp(htmlTxt):
 ####################################################################
 
 def splitSections(htmlT):
-    
+    ''' splits Infobox into sections according to the headings 
+    '''
     langHead = ""
     officialStatus =""
     langCodes = ""
@@ -544,6 +582,10 @@ def parse_wiki(url, htmlSource):
 
 ########################################
 def getPerma(url, srce):
+    ''' Grabs version id of the page and 
+        hashes together what would be the archive/permalink 
+        to the accessed page     
+    '''
     
     versID = getID(srce)
     perma = url.replace('wiki/', 'w/index.php?title=' )
@@ -685,7 +727,7 @@ def linksToPage(sourceURL):
 
 def collectData(sourceURL):
     '''
-    Main func
+    Main func for collecting all the links 
     '''
     linksURL = linksToPage(sourceURL)
     
@@ -693,23 +735,11 @@ def collectData(sourceURL):
     req = urllib2.Request(linksURL, headers={'User-Agent' : "Google Chrome"})
     conn = urllib2.urlopen(req)
     srce = conn.read()
-    conn.close()
-
-    #get in right area, from the beginning of the list
-#    edgeIndic = 'View ('
-#    listbeg = srce.find(edgeIndic)
-#    listend = srce.rfind(edgeIndic)
-#    
-#    listHTML = srce[listbeg:listend]
-    
+    conn.close()    
     
     links = []
     moarLinks = []
     nextLink = linksURL
-    
-    #get the links for the first page
-#    links, nextLink = go_thru_page(nextLink)
-#    moarLinks.extend(links)
     
     #parse lang pages linked from page, then get next page of links 
     while nextLink != '':
@@ -718,27 +748,17 @@ def collectData(sourceURL):
         links, nextLink = go_thru_page(nextLink)
         moarLinks.extend(links)
         
-#    for m in moarLinks: 
-#        link_content = pull_content(m)
-#        linkdict[m] = link_content
-#        print m
-        
     
     return moarLinks
-    #langtotal = len(li_links)
-    #print langtotal
 
-    #num = len(recordoflinks)
-    #print num
-    #print num1
-    
-    #print len(recordoflinks)          
-    #return recordoflinks 
     
 
 #####################################################################
 
 def wiki_main():
+    ''' Main function of script, pulls content/links if necessary, 
+    and then parses the content 
+    '''
     
     if len(sys.argv)  >= 3: 
         filename = sys.argv[2]
@@ -767,7 +787,6 @@ def wiki_main():
         for url in links:
             htmlSoucre = ''
             htmlSource = pull_content(url)
-#           linksplus.append([url, htmlSource])
         
             ###WRITE ALL PERMA LINKS TO A FILE 
             perma, OID = getPerma(url, htmlSource)
@@ -806,7 +825,7 @@ def wiki_main():
             parse_wiki(url, htmlsrce)
             
             succ.append(url)
-            print url
+            print >> sys.stderr, url
             
         except: 
             try: #IF NO FILE, PULL CONTENT FROM LINK 
@@ -815,7 +834,8 @@ def wiki_main():
                 parse_wiki(url, htmlsrce)
             
                 succ.append(url)
-                print url
+                print >> sys.stderr, url
+                
             except:#CAN"T USE SOURCE FOR SOME REASON 
                 err = 'Link ' + url + ' failed to parse'
                 failed.append(err)
@@ -825,16 +845,8 @@ def wiki_main():
         
     for f in failed:             
         print >> sys.stderr, f
-
-#        url = 'http://www.en.wikipedia.org/wiki/Biatah'
-#        content = pull_content(url)
-#        perma = parse_wiki(url, content)
-        
         
     return succ 
-
-
-
 
 
         
