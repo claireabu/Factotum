@@ -1,0 +1,27 @@
+Paper is contained in: FactotumLanguageResource.pdf
+
+Appendix A: contains _wikidata_.f
+Appendix B.1: contains manually modified _wikidata_.v
+Appendix C: contains output of Predpary.py when run with _wikidata_.v
+Appendix D: contains Fcheck.py results (successfully parsed rules and failed rules) with strict defintion of "any type" 
+Appendix E: contains Fcheck.py results as well, but with loose definition of "any type" 
+Appendix F: contains results of CProfile running with Fcheck.py
+Appendix G: contains wikipedia_links.txt
+
+TO GET SAME DATA SET AS _WIKIDATA_.F: 
+-run wikiscript.py in same folder as LangHTMLS and wikipedia_links.txt
+OR 
+-run wikiscript.py in same folder as just wikipedia_links.txt
+OR (to get with updated wikipedia pages)
+-run wikiscript.py 
+
+TO GET _WIKIDATA_.V: 
+- run mkvocab.py > _wikidata_.orig.v 
+- run pullvocab.py _wikidata_.orig.v 
+
+TO RUN JUST PREDPAR.PY
+predpar.py _wikidata_.v
+
+TO RUN FCHECK.PY 
+fcheck.py _wikidata_.v _wikidata_.f 
+ 
