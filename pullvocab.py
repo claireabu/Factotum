@@ -1,15 +1,16 @@
 import string
 import sys
-
+'''
+@author Claire 
+PULLVOCAB.py pulls out 'possible vocabulary' section from results of mkvocab.py 
+''''
 def getVocab():
 
-#    if len(sys.argv) < 2:
-#        print 'NO FILE WAS PROVIDED' 
-#        return
-#    else: 
-#        orig_vfilename = sys.argv[1]
-
-    orig_vfilename = '_wikidata_.orig.v'
+    if len(sys.argv) < 2:
+        print 'NO FILE WAS PROVIDED' 
+        return
+    else: 
+        orig_vfilename = sys.argv[1]
 
     
     orig_vfile = open(orig_vfilename, 'r')

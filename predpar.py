@@ -1,5 +1,10 @@
-''' Pred Parser
+''' Predpar.py
 
+@ Claire
+
+Parses vocabulary file (please provide) to check for 
+correct form, and returns to fcheck.py a new grammar dictionary
+from the given vocabulary rules 
 '''
 
 from string import *
@@ -16,9 +21,8 @@ g = factotum_globals.GlobalClass()
 
 
 
-regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\200-\377/]+$'), 
-                'Num1':  re.compile('\('),
-                'Num2':  re.compile('\)'),
+regex_dict = {  'Words':    re.compile('^[.,:\-_\';0-9a-zA-Z\200-\377/\?]+$'), 
+                'Num':  re.compile('\(\)'),
                 'Label':    re.compile('^[-_0-9a-zA-Z\']+$'),
                 'Ttypespec': re.compile('^[-_0-9a-zA-Z\'\?.,;]+$'),
                 'Typename':  re.compile('^[-_0-9a-zA-Z\']+$'), 
@@ -57,36 +61,52 @@ vocab_grammar = {   'Start' : [   ['TypeDef'],
                                     
                                 ],
                     
-                    'Phrase' : [    ['Obj', 'Wordz', 'Phrase' ],
+                    'Phrase' : [    ['Obj', '\(', 'Wordz', 'Phrase', '\)'],
+                                    ['\(', 'Obj','\)', '\(', 'Wordz', 'Phrase', '\)'],
+                                    [ '\"', 'Obj', '\(', 'Wordz', 'Phrase','\)','\"'],
+                                    [ '\"', '\(','Obj', '\)', '\(', 'Wordz', 'Phrase', '\)', '\"'],
+                                    
+                                    ['Obj', 'Wordz', 'Phrase' ],
+                                    ['\(', 'Obj','\)', 'Wordz', 'Phrase' ],
                                     [ '\"', 'Obj', 'Wordz', 'Phrase', '\"'],
-                                    [ '\"', 'Obj', 'Wordz', 'Phrase', '\"'],
+                                    [ '\"', '\(','Obj', '\)', 'Wordz', 'Phrase', '\"'],
+
+                                    
                                     [ 'Obj', 'Wordz'],
+                                    [ '\(','Obj','\)', 'Wordz'],
                                     ['\"', 'Obj', 'Wordz', '\"'],
-                                    ['\"', 'Obj', 'Wordz', '\"'],
+                                    ['\"', '\(','Obj','\)', 'Wordz', '\"'],
+                                    
+                                    ['\(','Obj','\)'],
                                     ['\"', 'Wordz', 'Phrase', '\"'],
-                                    ['\"', 'Wordz', 'Phrase', '\"'],
-                                    ['\"', 'Wordz', '\"'],
                                     ['\"', 'Wordz', '\"'],
                                     ['Wordz'], 
-                                    ['Obj']
+                                    ['Obj'],
+                                    
                                 ],
                                 
-                    'Wordz': [  ['Num1', 'Num2', 'Wordz'],
+                    'Wordz': [  ['Num', 'Wordz'],
                                 ['Words', 'Wordz'],
-                                ['Num1', 'Num2'],
-                                ['Words']
+                                ['Num'],
+                                [ 'Words'],
+                                ['\(', 'Words', '\)', 'Wordz'],
+                                ['\(', 'Words', '\)']
                                 
                               ],
                     
                     'Obj' :     [   ['<' , '>', 'Obj'],
+                                    ['<' , '>', '\(', 'Obj', '\)'],
                                     ['<', '>'],
+                                   # ['<', '>'], 
                                     ['<' , 'Label', ':',  '>'],
                                     ['<' , ':', 'Ttypespec', '>'],
                                     ['<' , 'Label', ':', 'Ttypespec', '>'],
                                     ['<' , 'Typename', '>'],
                                     ['<' , 'Label', '=', 'Typename', '>'],
                                     ['<' , 'Phrasename', '>'],
-                                    ['<' , 'Label', '=', 'Phrasename', '>']
+                                    ['<' , 'Label', '=', 'Phrasename', '>'],
+                                    ['<' , '>', 'Obj'],
+                                    
                                     
                                     
                                 ], 
@@ -210,8 +230,6 @@ def check_repeat(item):
     
     return False 
 
-##################################################
-
 
 ##############################################################
 
@@ -286,7 +304,6 @@ def check_second_check(item, instance):
     #print >>sys.stderr, "%s is not a defined Phrase name or Type" % (instance,)
     return False 
             
-
 
 ######################################################
     
@@ -499,6 +516,8 @@ def tracePath(subtype, mini):
 #################################################
 
 def check_types():
+    ''' checks type hierarchy for loops and reachability 
+    '''
    
     delList = []
     types = TypeTree.keys()
@@ -722,7 +741,9 @@ def add_new_dict(subj, parsetree, dict):
 
 ###########################################
 def findInstanceInTree(nonterm, aTree):
-    
+    ''' helps build grammar dictionary for fcheck with 
+        getTermSymbs
+    '''
     for parseBranch in aTree: 
         if nonterm == parseBranch[0]:
             index = aTree.index(parseBranch)
@@ -734,7 +755,8 @@ def findInstanceInTree(nonterm, aTree):
 ######################################
 
 def getTermSymbs(nonterm, tree):
-    
+    ''' helps build grammar dictionary for fcheck facts
+    '''
     termList = []
     allNonterms = vocab_grammar.keys() 
     allNonterms.extend(regex_dict.keys())
@@ -756,7 +778,7 @@ def getTermSymbs(nonterm, tree):
         tokencount += 1
         
         if not leaf in allNonterms: #TERMINAL SYMBOLS 
-            if leaf == '<' and tokencount < len(nonTermBranch) and nonTermBranch[tokencount + 1] == '>':
+            if leaf == '<' and tokencount + 1 < len(nonTermBranch) and nonTermBranch[tokencount + 1] == '>':
                 leaf = 'Type: ANY'
                 termList.append(leaf)
             
@@ -764,8 +786,14 @@ def getTermSymbs(nonterm, tree):
                 continue #don't include brackets 
                 
             elif leaf == ':':
+                if nonTermBranch[tokencount - 1] == '<':
+                    continue
+                elif tokencount + 1 < len(nonTermBranch) and nonTermBranch[tokencount + 1] == '>':
+                    continue 
+                else: 
+                    termList.append(leaf)
+            elif leaf == '()':
                 continue
-            
             else: 
                 termList.append(leaf)
             
@@ -797,11 +825,9 @@ def getTermSymbs(nonterm, tree):
                         termList[-1] = [termList[-1], ttype]
                     else: 
                         termList.append(ttype)
-            elif leaf == 'Num1' and tokencount < len(nonTermBranch) and nonTermBranch[tokencount + 1] == 'Num2': 
+            elif leaf == 'Num':
                 leaf = 'NUM'
                 termList.append(leaf)
-            elif leaf == 'Num2': #(skip over)
-                continue 
             else: 
                 nextNonTerm, tree = getTermSymbs(leaf, tree)
                 termList.extend(nextNonTerm)
@@ -809,9 +835,10 @@ def getTermSymbs(nonterm, tree):
        
             
     return (termList, tree) 
-#################################################
 ########################################################
 def add_fcheckDictEDIT(ruletree, fcheckD):
+    ''' builds entry in grammar dict for fcheck 
+    '''
     
     if ['Pred', [':=', 'Phrase']] in ruletree or ['Pred', ['Phrase']] in ruletree: #rules get added in order?
         remTree = ruletree[2:]
@@ -822,22 +849,6 @@ def add_fcheckDictEDIT(ruletree, fcheckD):
         
         if remTree != []:
             return 
-        
-        
-#        branch = remTree[0]
-#        LHS = branch[0]
-#        count = 0 
-#            
-#            
-#        for item in branch[1]: 
-#            #remove brackets 
-#            if item in vocab_grammar.keys() or item in regex_dict.keys():
-#                li = getTermSymbs(item, remTree[count:])
-#                entry.extend(li)
-#                     
-#            else:
-#                entry.append(item)
-#            count += 1
             
             
         if start in fcheckD.keys():
@@ -855,10 +866,6 @@ def add_fcheckDictEDIT(ruletree, fcheckD):
     else: 
         return
     
-
-
-
-
 
 
 
@@ -883,7 +890,7 @@ def tokenize_pred_string(pstring, tokens):
     tokenList = []
     count = 0
     if tokens == '':
-        tokens = re.compile('(:=|-=|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_\'0-9a-zA-Z]+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
+        tokens = re.compile('(:=|-=|\(\)|\?<|:|;|\?:|>\?|.|\?|,|"|~>|=>>|<|>|[-_\'0-9a-zA-Z]+|[+]|-|[*]|/|%|=|!=|<=|>=|=[[]|[\\\\][[]|[[]|[]]|[(]|[)]|!|&|[|]|[||]|&&|[\\\\$]|[\\\\]&|[\\\\\]@|[\\\\*]|[\\\\]|#)$')
    
     
     for n in pstring:
@@ -988,9 +995,7 @@ def go_thru_file(filename):
         if my_fact != '':
             (m,s,p,px,r,c) = lex.breakup_fact(my_fact)
         
-            p = p.strip() # get rid of whitespace
-#            if p.find('<>') == 0:
-#                p = p[2:]
+            p = p.strip()
             facts.append([s,p])
     
     return facts
@@ -1034,10 +1039,6 @@ def firstPass(facts):
             rule_parse = parseGrammar(rule_pred, 'Start')
 #               
         else:   #all rules except type defs
-#             i = rule_pred.index('[')
-#                rule_pred = rule_pred[:i]
-#                if rule_pred[-1] == '.':
-#                    throwaway = rule_pred.pop()
             rule_parse =  parseGrammar(rule_pred, 'Start')                 
             
       
@@ -1052,9 +1053,6 @@ def firstPass(facts):
     
     return [parsed, failed]
    
-#########################################################
-
-
 #############################################################
 
 def parse_vocab():
@@ -1135,7 +1133,7 @@ def parse_vocab():
       
       
       
-    #PRINT STATEMENTS 
+#    #PRINT STATEMENTS 
 #    print 'PARSED RULES'
 #    for n in second_parsed_rules:
 #        for i in range(len(n)):
@@ -1149,37 +1147,37 @@ def parse_vocab():
 #    print 'FAILED RULES'
 #    for fr in failed_rules: 
 #        print fr
-        
-#    for x in new_dict:
-#        print x + ":"
-#        #print x.__class__
-#        for y in new_dict[x]:
-#            print  y + ":"
-#            for z in new_dict[x][y]:
-#                print  z 
-#        print '\n'
-            
-            #print y.__class__
-    
-#    print 'DICTIONARY PRODUCED FOR FCHECK'
+##        
+###    for x in new_dict:
+###        print x + ":"
+###        #print x.__class__
+###        for y in new_dict[x]:
+###            print  y + ":"
+###            for z in new_dict[x][y]:
+###                print  z 
+###        print '\n'
+##            
+##            #print y.__class__
+##    
+#    print '\nDICTIONARY PRODUCED FOR FCHECK'
 ##    dictname = '_predpar_fcheck_dict_'
 ##    dictfile = open(dictname, 'w')
 #    for z in fcheck_dict: 
 #        print z + ":"
 #        for k in fcheck_dict[z]:
 #            print k
-#            writestr = z + ': '
+##            writestr = z + ': '
 #            dictfile.write(writestr)
 #            writestr = k 
 #            dictfile.write(writestr)
-#    dictfile.close()
+##    dictfile.close()
 ##            
 #    print 'TYPE TREE'        
 #    for x in TypeTree: 
 #        print x + ":"
 #        print TypeTree[x]
 ##            
-        
+    print >> sys.stderr, 'PREDPAR COMPLETED'    
     return(second_parsed_rules, failed_rules, new_dict, TypeTree, fcheck_dict)
 
 #########################################################
